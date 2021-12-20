@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "6c291f93e5e18264",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa11b83b2a112116",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Acronyms.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4ec3f888cdb8fc33",
+    "type": "split",
+    "children": [
+      {
+        "id": "93815420f77e43e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5a4ddcbda1b5238",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e510462c5312b68",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "63c83d5ffac33788",
+    "type": "split",
+    "children": [
+      {
+        "id": "3553721f08410747",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd4e638cd0801943",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Acronyms.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "aa11b83b2a112116",
+  "lastOpenFiles": [
+    "Acronyms.md",
+    "Markdown Notes.md"
+  ]
+}
