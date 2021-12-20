@@ -1,1 +1,15 @@
-{}
+{
+  "foldHeading": true,
+  "newFileLocation": "root",
+  "newFileFolderPath": "\\assets",
+  "attachmentFolderPath": "./assets",
+  "spellcheck": true,
+  "spellcheckDictionary": [
+    "Cyber",
+    "infosec",
+    "Cybersecurity",
+    "cybersecurity",
+    "DevOps",
+    "cyber"
+  ]
+}

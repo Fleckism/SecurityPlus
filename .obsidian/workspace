@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "aa11b83b2a112116",
+        "id": "00d556bc108fa919",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Acronyms.md",
+            "file": "Information Security Roles.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "https://www.markdownguide.org/cheat-sheet/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Acronyms.md",
+                "file": "Information Security Roles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,9 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aa11b83b2a112116",
+  "active": "00d556bc108fa919",
   "lastOpenFiles": [
-    "Acronyms.md",
-    "Markdown Notes.md"
+    "Information Security Roles.md",
+    "Security control and frameworks.md",
+    "Abbreviation.md",
+    "Definitions.md",
+    "Markdown Notes.md",
+    "Information Security (infosec).md",
+    "archive/archive test.md",
+    "assets/obsidianKnife.jpg",
+    "assets/Pasted image 20211220051913.png",
+    "Pasted image 20211220051516.png"
   ]
 }

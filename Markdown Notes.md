@@ -11,5 +11,8 @@
 -  [] Creates an unchecked box
 -  `code` shares key with tilde
 -  Horizontal rule ---
--  == Highlight == 
--  [Obsidian markdown cheatsheet] (https://www.markdownguide.org/cheat-sheet/)
+-  ==Highlight == 
+-  [Obsidian markdown cheatsheet] (https://www.markdownguide.org/cheat-sheet/)!
+
+
+![[obsidianKnife.jpg]]
