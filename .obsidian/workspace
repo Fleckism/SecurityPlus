@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 169.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -89,8 +89,8 @@
   "active": "00d556bc108fa919",
   "lastOpenFiles": [
     "Information Security Roles.md",
-    "Security control and frameworks.md",
     "Abbreviation.md",
+    "Security control and frameworks.md",
     "Definitions.md",
     "Markdown Notes.md",
     "Information Security (infosec).md",

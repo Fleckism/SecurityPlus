@@ -49,3 +49,6 @@ A security control is something designed to give a system or data asset the prop
 -   Technical—the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.
 -   Operational—the control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.
 -   Managerial—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
+
+# Security Control functional types
+- Preventive: 
