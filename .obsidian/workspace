@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://www.markdownguide.org/cheat-sheet/",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,13 +90,13 @@
   "lastOpenFiles": [
     "Information Security Roles.md",
     "Abbreviation.md",
+    "Background Questions.md",
     "Security control and frameworks.md",
     "Definitions.md",
     "Markdown Notes.md",
     "Information Security (infosec).md",
     "archive/archive test.md",
     "assets/obsidianKnife.jpg",
-    "assets/Pasted image 20211220051913.png",
-    "Pasted image 20211220051516.png"
+    "assets/Pasted image 20211220051913.png"
   ]
 }

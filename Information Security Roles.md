@@ -54,6 +54,9 @@ A security control is something designed to give a system or data asset the prop
 - Preventive: the control acts to eliminate or reduce the likelihood that an attack will succeed.  A preventive control operates before an attack can take place.
 - Detective:  The control may not prevent or deter access, but it will identify and record any attempted or successful intrusion. i.e. logs
 - Corrective:  The control acts to eliminate or reduce the impact of an intrusion event.  A corrective control is used after an attack. i.e. backup system
+- Physical
+- Deterrent
+- ?Operational enforced by a person
 
 Other types of controls are, Physical, i.e. alarms, gateways, locks, security.  Deterrent(not physical or logically preventive), i.e. signs and warnings of legal penalties
 
@@ -63,3 +66,17 @@ Other types of controls are, Physical, i.e. alarms, gateways, locks, security.  
 - International Organization for Standardization (ISO) 27K
 - ISO 31k
 - Cloud Security Alliance
+- ### Statements on Standards for Attestation Engagements (SSAE) Service Organization Control (SOC)
+
+The Statements on Standards for Attestation Engagements (SSAE) are audit specifications developed by the American Institute of Certified Public Accountants (AICPA). These audits are designed to assure consumers that service providers—notably cloud providers, but including any type of hosted or third-party service—meet professional standards ([aicpa.org/interestareas/frc/assuranceadvisoryservices/serviceorganization-smanagement.html](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/serviceorganization-smanagement.html)). Within SSAE No. 18 (the current specification), there are several levels of reporting:
+
+-   Service Organization Control (SOC2)—evaluates the internal controls implemented by the service provider to ensure compliance with Trust Services Criteria (TSC) when storing and processing customer data. TSC refers to security, confidentiality, integrity, availability, and privacy properties. An SOC2 Type I report assesses the system design, while a Type II report assesses the ongoing effectiveness of the security architecture over a period of 6-12 months. SOC2 reports are highly detailed and designed to be restricted. They should only be shared with the auditor and regulators, and with important partners under non-disclosure agreement (NDA) terms.
+-   SOC3—a less detailed report certifying compliance with SOC2. SOC3 reports can be freely distributed.
+-   Code that runs on the client should not be trusted.
+
+
+PBQ
+There are three categories when it comes to security controls:  Operational, Technical, and Managerial.
+- Operational controls are controls for the human element.  For example, policies and procedures, and training programs are examples of operational controls.
+- Technical controls are controls that encompass the hardware and software of the organization, such as operating systems and security appliances.
+- Managerial controls  
