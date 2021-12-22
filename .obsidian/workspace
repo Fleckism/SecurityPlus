@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Information Security Roles.md",
+            "file": "Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 357.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Security Roles.md",
+                "file": "Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "00d556bc108fa919",
   "lastOpenFiles": [
-    "Information Security Roles.md",
-    "Abbreviation.md",
-    "Background Questions.md",
-    "Security control and frameworks.md",
-    "Definitions.md",
-    "Markdown Notes.md",
-    "Information Security (infosec).md",
-    "archive/archive test.md",
+    "Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
+    "Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
     "assets/obsidianKnife.jpg",
-    "assets/Pasted image 20211220051913.png"
+    "Security control and frameworks.md",
+    "Compare and contrast IT security roles L1/Information Security Roles.md",
+    "assets/Abbreviation.md",
+    "assets/Background Questions.md",
+    "assets/Definitions.md",
+    "assets/Markdown Notes.md",
+    "Information Security (infosec).md"
   ]
 }

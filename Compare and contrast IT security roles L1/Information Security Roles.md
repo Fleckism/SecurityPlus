@@ -79,4 +79,4 @@ PBQ
 There are three categories when it comes to security controls:  Operational, Technical, and Managerial.
 - Operational controls are controls for the human element.  For example, policies and procedures, and training programs are examples of operational controls.
 - Technical controls are controls that encompass the hardware and software of the organization, such as operating systems and security appliances.
-- Managerial controls  
+- Managerial controls relate to the oversight of a system.  Examples could include risk identification or the evaluation and selection of security controls 
