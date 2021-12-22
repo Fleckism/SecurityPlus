@@ -51,4 +51,15 @@ A security control is something designed to give a system or data asset the prop
 -   Managerial—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
 
 # Security Control functional types
-- Preventive: 
+- Preventive: the control acts to eliminate or reduce the likelihood that an attack will succeed.  A preventive control operates before an attack can take place.
+- Detective:  The control may not prevent or deter access, but it will identify and record any attempted or successful intrusion. i.e. logs
+- Corrective:  The control acts to eliminate or reduce the impact of an intrusion event.  A corrective control is used after an attack. i.e. backup system
+
+Other types of controls are, Physical, i.e. alarms, gateways, locks, security.  Deterrent(not physical or logically preventive), i.e. signs and warnings of legal penalties
+
+- No idea ? Compensating—the control serves as a substitute for a principal control, as recommended by a security standard, and affords the same (or better) level of protection but uses a different methodology or technology.
+- Frameworks:  Are non-regulatory but are "best practices".
+- ISO and Cloud Frameworks
+- International Organization for Standardization (ISO) 27K
+- ISO 31k
+- Cloud Security Alliance

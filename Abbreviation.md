@@ -9,3 +9,9 @@ cyber incident response team (CIRT)/
 computer security incident response team (CSIRT)/
 computer emergency response team (CERT)
 Access control lists (ACL)
+National Institute of Standards and Technology (NIST)
+Cybersecurity framework (CSF)
+Cloud Security Alliance (CSA)
+Cloud service provider (CSP)
+Statements on Standards for Attestation Engagements (SSAE) Service Organization Control (SOC(2?))
+Trust Services Criteria (TSC)

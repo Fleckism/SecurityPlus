@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Information Security Roles.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 169.5
+    "width": 216.5
   },
   "right": {
     "id": "63c83d5ffac33788",
