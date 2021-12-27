@@ -21,4 +21,5 @@ Department of Defense Cyber Exchange provides Security Technical Implementation 
 National Checklist Program (NCP) by NIST
 Open Web Application Security Project (OWASP)
 **Acceptable Use Policy** (AUP)
-
+Advanced Persistent Threat (APT)
+Computer Emergency Response Team (CERT) at Carnegie Mellon University's
