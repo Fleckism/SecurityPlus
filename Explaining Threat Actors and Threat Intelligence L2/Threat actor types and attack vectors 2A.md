@@ -10,4 +10,11 @@ To make an effective security assessment, you must be able to explain strategies
 -  **Threat is the potential** for someone or something to exploit a vulnerability and breach security.
 -  Risk is the likelihood and impact (or consequence) of a threat actor exploiting a vulnerability.
 -  Internal/External:  Threat actor or the **method**
--  
+-  Attack Vectors
+	-  Direct access
+	-  Removable media
+	-  Email
+	-  Remote and wireless
+	-  Supply chain(IoT device)
+	-  Web and social media
+	-  Cloud
