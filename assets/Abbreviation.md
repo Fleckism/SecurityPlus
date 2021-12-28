@@ -1,36 +1,36 @@
-**Acceptable Use Policy** (AUP)
-Access control lists (ACL)
-Advanced Persistent Threat (APT)
-Center for internet security (CIS) - Partly founded by the SANS Institute
-Chief Information Security Officer (CISO)
-Cloud Security Alliance (CSA)
-Cloud service provider (CSP)
-computer emergency response team (CERT)
-Computer Emergency Response Team (CERT) at Carnegie Mellon University's
-computer security incident response team (CSIRT)/
-cyber incident response team (CIRT)/
-Cybersecurity framework (CSF)
-Cyber threat intelligence (CTI)
-Department of Defense Cyber Exchange provides Security Technical Implementation Guides (STIGs)
-Development and operations (DevOps) 
-Information and Communications Technology (ICT)
-Information security (infosec)
-Information Systems Security Officer (ISSO)
-Information Sharing and Analysis Centers (ISACs)
-National Checklist Program (NCP) by NIST
-National Institute of Standards and Technology (NIST)
-Open Web Application Security Project (OWASP)
-Risk Assessment Method(RAM)
-security information and event management (SIEM)
-Security Operations Center (SOC)
-Statements on Standards for Attestation Engagements (SSAE) Service Organization Control (SOC(2?))
-tactics, techniques, and procedures (TTPs)
-Trust Services Criteria (TSC)
-Open source intelligence (OSINT) 2A
-Request for Comments (RFC) 2A
-indicator of compromise (IoC) 2B
+(AUP) Acceptable Use Policy 
+(ACL) Access control lists 
+(APT) Advanced Persistent Threat 
+(CIS) Center for internet security  - Partly founded by the SANS Institute
+(CISO) Chief Information Security Officer 
+(CSA) Cloud Security Alliance 
+(CSP) Cloud service provider 
+(CERT) Computer Emergency Response Team  at Carnegie Mellon University's
+(CSIRT) Computer security incident response team 
+(CIRT) Cyber incident response team 
+(CSF) Cybersecurity framework 
+(CTI) Cyber threat intelligence 
+(STIGs) Department of Defense Cyber Exchange provides Security Technical Implementation Guides 
+(DevOps) Development and operations  
+(ICT) Information and Communications Technology 
+(infosec) Information security 
+(ISSO) Information Systems Security Officer 
+(ISACs) Information Sharing and Analysis Centers 
+(NCP) National Checklist Program  by NIST
+(NIST) National Institute of Standards and Technology 
+(OWASP) Open Web Application Security Project 
+(RAM) Risk Assessment Method
+(SIEM) security information and event management 
+(SOC) Security Operations Center 
+(SSAE) Statements on Standards for Attestation Engagements  
+(SOC(2?)) Service Organization Control 
+(TTPs) tactics, techniques, and procedures (TTPs)
+(TSC) Trust Services Criteria 
+(OSINT) Open source intelligence  2A
+(RFC) Request for Comments  2A
+(IoC) Indicator of compromise  2B
 ### Structured Threat Information eXpression (STIX)
- Trusted Automated eXchange of Indicator Information (TAXII) 2B
- Automated Indicator Sharing (AIS) 2B
- Machine learning (ML) 2B
- artificial neural network (ANN) 2B
+ (TAXII) Trusted Automated eXchange of Indicator Information  2B
+ (AIS) Automated Indicator Sharing  2B
+ (ML) Machine learning  2B
+ (ANN) Artificial neural network  2B
