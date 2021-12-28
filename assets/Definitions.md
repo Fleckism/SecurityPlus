@@ -26,4 +26,5 @@ Advanced Persistent Threat (APT) APT refers to the ongoing ability of an adversa
   
   access means being able to run malicious code on the target.
   
+  deep web is any part of the World Wide Web that is not indexed by a search engine
   

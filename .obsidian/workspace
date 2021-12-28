@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
+            "file": "assets/Definitions.md",
             "mode": "source"
           }
         }
@@ -46,7 +46,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
+                "file": "assets/Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "00d556bc108fa919",
   "lastOpenFiles": [
-    "Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
-    "Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
-    "assets/Abbreviation.md",
     "assets/Definitions.md",
+    "Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
+    "assets/Abbreviation.md",
+    "Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
     "assets/Markdown Notes.md",
     "assets/obsidianKnife.jpg",
     "Security control and frameworks.md",

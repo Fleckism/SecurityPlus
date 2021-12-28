@@ -23,3 +23,4 @@ Open Web Application Security Project (OWASP)
 **Acceptable Use Policy** (AUP)
 Advanced Persistent Threat (APT)
 Computer Emergency Response Team (CERT) at Carnegie Mellon University's
+tactics, techniques, and procedures (TTPs)
