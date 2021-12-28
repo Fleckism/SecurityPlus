@@ -1,27 +1,30 @@
-Cyber threat intelligence (CTI)
-Security Operations Center (SOC)
-Information security (infosec)
-Chief Information Security Officer (CISO)
-Information and Communications Technology (ICT)
-Information Systems Security Officer (ISSO)
-Development and operations (DevOps) 
-cyber incident response team (CIRT)/
-computer security incident response team (CSIRT)/
-computer emergency response team (CERT)
+**Acceptable Use Policy** (AUP)
 Access control lists (ACL)
-National Institute of Standards and Technology (NIST)
-Cybersecurity framework (CSF)
+Advanced Persistent Threat (APT)
+Center for internet security (CIS) - Partly founded by the SANS Institute
+Chief Information Security Officer (CISO)
 Cloud Security Alliance (CSA)
 Cloud service provider (CSP)
-Statements on Standards for Attestation Engagements (SSAE) Service Organization Control (SOC(2?))
-Trust Services Criteria (TSC)
-Center for internet security (CIS) - Partly founded by the SANS Institute
-Risk Assessment Method(RAM)
-Department of Defense Cyber Exchange provides Security Technical Implementation Guides (STIGs)
-National Checklist Program (NCP) by NIST
-Open Web Application Security Project (OWASP)
-**Acceptable Use Policy** (AUP)
-Advanced Persistent Threat (APT)
+computer emergency response team (CERT)
 Computer Emergency Response Team (CERT) at Carnegie Mellon University's
-tactics, techniques, and procedures (TTPs)
+computer security incident response team (CSIRT)/
+cyber incident response team (CIRT)/
+Cybersecurity framework (CSF)
+Cyber threat intelligence (CTI)
+Department of Defense Cyber Exchange provides Security Technical Implementation Guides (STIGs)
+Development and operations (DevOps) 
+Information and Communications Technology (ICT)
+Information security (infosec)
+Information Systems Security Officer (ISSO)
+Information Sharing and Analysis Centers (ISACs)
+National Checklist Program (NCP) by NIST
+National Institute of Standards and Technology (NIST)
+Open Web Application Security Project (OWASP)
+Risk Assessment Method(RAM)
 security information and event management (SIEM)
+Security Operations Center (SOC)
+Statements on Standards for Attestation Engagements (SSAE) Service Organization Control (SOC(2?))
+tactics, techniques, and procedures (TTPs)
+Trust Services Criteria (TSC)
+Open source intelligence (OSINT) 2A
+Request for Comments (RFC) 2A

@@ -28,3 +28,6 @@ Advanced Persistent Threat (APT) APT refers to the ongoing ability of an adversa
   
   deep web is any part of the World Wide Web that is not indexed by a search engine
   
+  A tactic, technique, or procedure (TTP) is a generalized statement of adversary behavior. 2A
+  
+  
