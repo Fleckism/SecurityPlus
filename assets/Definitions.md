@@ -29,5 +29,11 @@ Advanced Persistent Threat (APT) APT refers to the ongoing ability of an adversa
   deep web is any part of the World Wide Web that is not indexed by a search engine
   
   A tactic, technique, or procedure (TTP) is a generalized statement of adversary behavior. 2A
+  	- TTPs describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like.
   
+  As a military term, Army [doctrine](http://armypubs.army.mil/doctrine/DR_pubs/dr_a/pdf/adrp1_02.pdf) is defined as the fundamental principles by which the military forces or elements thereof guide their actions in support of national objectives. 2A
+  
+  indicator of compromise (IoC) is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an IoC is evidence of a TTP.
+
+
   

@@ -28,3 +28,9 @@ tactics, techniques, and procedures (TTPs)
 Trust Services Criteria (TSC)
 Open source intelligence (OSINT) 2A
 Request for Comments (RFC) 2A
+indicator of compromise (IoC) 2B
+### Structured Threat Information eXpression (STIX)
+ Trusted Automated eXchange of Indicator Information (TAXII) 2B
+ Automated Indicator Sharing (AIS) 2B
+ Machine learning (ML) 2B
+ artificial neural network (ANN) 2B
