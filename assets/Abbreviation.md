@@ -24,3 +24,4 @@ Open Web Application Security Project (OWASP)
 Advanced Persistent Threat (APT)
 Computer Emergency Response Team (CERT) at Carnegie Mellon University's
 tactics, techniques, and procedures (TTPs)
+security information and event management (SIEM)
