@@ -14,6 +14,7 @@
     "STIGs",
     "TTPs",
     "honeynets",
-    "IoC"
+    "IoC",
+    "reconfiguring"
   ]
 }

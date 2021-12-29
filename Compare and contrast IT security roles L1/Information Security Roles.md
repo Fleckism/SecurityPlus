@@ -33,11 +33,12 @@ The **respond function** is to identify, analyze, contain, and eradicate threats
 # Information Security (infosec)
 ## CIA Triad (aka AIC):  Secure information processing system
 - Confidentiality: Information should only be know to certain people.
-- Integrity:  Means the data is stored and transferred as intended and modifications are only done by authorized users.
+- Integrity:  Means the data is stored and transferred as intended and **modifications** are only done by authorized users.
 - Availability:  Means the information is accessible to those authorized to view or modify it.
 - Non-repudiation: An act cannot be denied by a person.
 
 # Cybersecurity Framework
+NIST (National Institute of Standards and technology)
 -   Identify—develop security policies and capabilities. Evaluate risks, threats, and vulnerabilities and recommend security controls to mitigate them.
 -   Protect—procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operations life cycle.
 -   Detect—perform ongoing, proactive monitoring to ensure that controls are effective and capable of protecting against new types of threats.
@@ -45,6 +46,7 @@ The **respond function** is to identify, analyze, contain, and eradicate threats
 -   Recover—implement cybersecurity resilience to restore systems and data if other controls are unable to prevent attacks.
 
 ## Incident Response
+An incident response plan is corrective. It responds to and fixes an incident. It may also prevent its recurrence.
 - cyber incident response team (CIRT)/
 - computer security incident response team (CSIRT)/
 - computer emergency response team (CERT)
@@ -54,7 +56,7 @@ A security control is something designed to give a system or data asset the prop
 
 -   Technical—the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.
 -   Operational—the control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.
--   Managerial—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
+-   Managerial—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls. Regular scans and **audits**
 
 # Security Control functional types
 - Preventive: the control acts to eliminate or reduce the likelihood that an attack will succeed.  A preventive control operates before an attack can take place.
