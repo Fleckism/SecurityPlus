@@ -22,6 +22,9 @@
     "linux",
     "Traceroute",
     "tracert",
-    "Datagram"
+    "Datagram",
+    "Nmap",
+    "Zenmap",
+    "internetwork"
   ]
 }

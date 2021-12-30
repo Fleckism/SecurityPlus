@@ -3,3 +3,5 @@
 - a primary control
 - a compensating control
 - high latency
+- TCP handshake
+- 

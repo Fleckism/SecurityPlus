@@ -34,4 +34,14 @@ Does the mind map include this entire note I'm guessing yes
 ## IP Scanners and NMAP, IP scanners perform host discovery and identifies how the hosts are connected together in an internetwork.
 - is a stealthy and detailed way to scan networks.
 - Microsoft's System Center Products are used for auditing.  
-	- Can be provided credentials to perform authorized scans and obtain detailed host information.
+	- Can be provided credentials to perform authorized scans and obtain detailed host information via management protocols, such as the Simple Network Management Protocol (SNMP).
+
+-	Nmap(Linux & Win):  Can defeat security mechanisms(firewalls and intrusion detection) GUI version Zenmap.
+-	The basic syntax of an Nmap command is to give the IP subnet (or IP host address) to scan. When used without switches like this, the default behavior of Nmap is to ping and send a TCP ACK packet to ports 80 and 443 to determine whether a host is present. On a local network segment, Nmap will also perform ARP and ND (Neighbor Discovery) sweeps. If a host is detected, Nmap performs a port scan against that host to determine which services it is running.
+
+![Screenshot of 7 IP addresses in the left pane that begin with 10.1.0; the right pane lists the MAC address for each host and whether the host is up.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/1833-1599771794816.png)
+
+Nmap default scan listing open ports from within the default range. (Screenshot Nmap [nmap.org](https://nmap.org/).)
+
+This OS fingerprinting can be time-consuming on a large IP scope and is also non-stealthy. If you want to perform only host discovery, you can use Nmap with the -sn switch (or -sP in earlier versions) to suppress the port scan.
+## Service Discovery and NMAP
