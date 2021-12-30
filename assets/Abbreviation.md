@@ -36,3 +36,7 @@
  (ANN) Artificial neural network  2B
  Internet Control Message Protocol (ICMP) 3A
  Display the local machines Address Resolution Protocol(ARP) 3A
+ Internet Control Message Protocol (ICMP)
+ Round trip time (RTT)
+ User Datagram Protocol(UDP)
+ Simple Network Management Protocol (SNMP)

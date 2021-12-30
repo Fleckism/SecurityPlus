@@ -20,6 +20,8 @@
     "ipconfig",
     "ifconfig",
     "linux",
-    "Traceroute"
+    "Traceroute",
+    "tracert",
+    "Datagram"
   ]
 }
