@@ -16,6 +16,10 @@
     "honeynets",
     "IoC",
     "reconfiguring",
-    "footprinting"
+    "footprinting",
+    "ipconfig",
+    "ifconfig",
+    "linux",
+    "Traceroute"
   ]
 }
