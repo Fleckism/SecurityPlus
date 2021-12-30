@@ -6,6 +6,6 @@
 - Topology discovery ( footprinting ) scanning hosts, IP ranges, and routes between networks to map out the structure of the target network.
 	- Can also be used to build an asset database and to identify non-authorized hosts(rogue system detection) or network configuration errors
 #Command_Line_Tools
-	-	ipconfig:  Show the configurtion a
+	-	ipconfig(win):  Show the configuration assigned to network interface(s) 
 
 
