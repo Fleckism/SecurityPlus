@@ -4,4 +4,6 @@
 - a compensating control
 - high latency
 - TCP handshake
+- UDP 
+- Do the ports match up to there protocols
 - 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Performing Security Assessments L3/Assess Organizational Security L3a.md",
+            "file": "assets/Abbreviation.md",
             "mode": "source"
           }
         }
@@ -46,7 +46,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Performing Security Assessments L3/Assess Organizational Security L3a.md",
+                "file": "assets/Abbreviation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "00d556bc108fa919",
   "lastOpenFiles": [
-    "Performing Security Assessments L3/Assess Organizational Security L3a.md",
     "assets/Abbreviation.md",
-    "assets/Definitions.md",
+    "Performing Security Assessments L3/Assess Organizational Security L3a.md",
     "assets/Background Questions.md",
+    "assets/Definitions.md",
     "obsidianKnife.jpg.md",
     "assets/Scripts.md",
     "Practice Test/Lession 1.md",

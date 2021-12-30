@@ -44,4 +44,16 @@ Does the mind map include this entire note I'm guessing yes
 Nmap default scan listing open ports from within the default range. (Screenshot Nmap [nmap.org](https://nmap.org/).)
 
 This OS fingerprinting can be time-consuming on a large IP scope and is also non-stealthy. If you want to perform only host discovery, you can use Nmap with the -sn switch (or -sP in earlier versions) to suppress the port scan.
-## Service Discovery and NMAP after identifying active IP hosts on network and gaining an idea of the network topology, the 2nd step in network reconnaissance is to work out which operating systems are in use, and which network services each host is running, and if possible which application software is underpinning those services. Service discovery can also be used defensively, to probe potential rogue systems and identify the presence of unauthr 
+## Service Discovery and NMAP after identifying active IP hosts on network and gaining an idea of the network topology, the 2nd step in network reconnaissance is to work out which operating systems are in use, and which network services each host is running, and if possible which application software is underpinning those services. Service discovery can also be used defensively, to probe potential rogue systems and identify the presence of unauthorized network service ports. 
+- Nmap options against active IP addresses
+	-   TCP SYN (-sS)—this is a fast technique also referred to as half-open scanning, as the scanning host requests a connection without acknowledging it. The target's response to the scan's SYN packet identifies the port state.
+	-   UDP scans (-sU)—scan UDP ports. As these do not use ACKs, Nmap needs to wait for a response or timeout to determine the port state, so UDP scanning can take a long time. A UDP scan can be combined with a TCP scan.
+	-   Port range (-p)—by default, Nmap scans 1000 commonly used ports, as listed in its configuration file. Use the -p argument to specify a port range.
+
+### Service and Version Detection and OS Fingerprinting with Nmap.  Detailed analysis of services on a particular host is called fingerprinting.  Different software responds differently to probes in a unique way.  The scanning software can make an educated guess at the software type and version, without having any privileged access to the host. Aka banner grabbing, where the banner is the header of the response returned by the application.
+When services are discovered, you can use Nmap with the -sV or -A switch to probe a host more intensively to discover the following information:
+
+-   Protocol—do not assume that a port is being used for its "well known" application protocol. Nmap can scan traffic to verify whether it matches the expected signature (HTTP, DNS, SMTP, and so on).
+-   Application name and version—the software operating the port, such as Apache web server or Internet Information Services (IIS) web server.
+-   OS type and version—use the -O switch to enable OS fingerprinting (or -A to use both OS fingerprinting and version discovery).
+-   Device type—not all network devices are PCs. Nmap can identify switches and routers or other types of networked devices, such as NAS boxes, printers, and webcams.

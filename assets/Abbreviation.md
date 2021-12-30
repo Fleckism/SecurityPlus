@@ -13,6 +13,7 @@
 (CSIRT) Computer security incident response team 
 (CSP) Cloud service provider 
 (CTI) Cyber threat intelligence 
+(CPE) Common Platform Enumeration Nmap 3A
 (DevOps) Development and operations  
 (ICT) Information and Communications Technology 
 (infosec) Information security 
@@ -21,6 +22,7 @@
 (IoC) Indicator of compromise  2B
 (ISACs) Information Sharing and Analysis Centers 
 (ISSO) Information Systems Security Officer 
+(LDAP) Lightweight Directory Access Protocol
 (ML) Machine learning  2B
 (ND) Neighbor Discovery
 (NCP) National Checklist Program  by NIST
@@ -42,3 +44,4 @@
 (TSC) Trust Services Criteria 
 (TTPs) tactics, techniques, and procedures (TTPs)
  User Datagram Protocol(UDP)
+ (TCP)
