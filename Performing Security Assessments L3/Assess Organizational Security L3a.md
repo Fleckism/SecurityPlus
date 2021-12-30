@@ -44,4 +44,4 @@ Does the mind map include this entire note I'm guessing yes
 Nmap default scan listing open ports from within the default range. (Screenshot Nmap [nmap.org](https://nmap.org/).)
 
 This OS fingerprinting can be time-consuming on a large IP scope and is also non-stealthy. If you want to perform only host discovery, you can use Nmap with the -sn switch (or -sP in earlier versions) to suppress the port scan.
-## Service Discovery and NMAP
+## Service Discovery and NMAP after identifying active IP hosts on network and gaining an idea of the network topology, the 2nd step in network reconnaissance is to work out which operating systems are in use, and which network services each host is running, and if possible which application software is underpinning those services. Service discovery can also be used defensively, to probe potential rogue systems and identify the presence of unauthr 
