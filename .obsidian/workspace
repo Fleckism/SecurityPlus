@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "assets/Abbreviation.md",
+            "file": "assets/Background Questions.md",
             "mode": "source"
           }
         }
@@ -46,7 +46,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/Abbreviation.md",
+                "file": "assets/Background Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,19 +85,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 337.5
   },
   "active": "00d556bc108fa919",
   "lastOpenFiles": [
-    "assets/Abbreviation.md",
-    "Performing Security Assessments L3/Assess Organizational Security L3a.md",
     "assets/Background Questions.md",
+    "Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
+    "Performing Security Assessments L3/Assess Organizational Security L3a.md",
+    "assets/Abbreviation.md",
     "assets/Definitions.md",
+    "Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
     "obsidianKnife.jpg.md",
     "assets/Scripts.md",
     "Practice Test/Lession 1.md",
-    "Compare and contrast IT security roles L1/Information Security Roles.md",
-    "Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
-    "assets/Markdown Notes.md"
+    "Compare and contrast IT security roles L1/Information Security Roles.md"
   ]
 }
