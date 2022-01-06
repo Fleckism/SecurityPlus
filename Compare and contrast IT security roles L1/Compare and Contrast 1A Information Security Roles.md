@@ -2,6 +2,12 @@
 
 Security is an ongoing process that includes assessing requirements, setting up organizational security systems, hardening them, monitoring them, responding to attacks in progress, and deterring attackers. As a security professional, it is important that you understand how the security function is implemented as departments or units and professional roles within different types of organizations. You must also be able to explain the importance of compliance factors and best practice frameworks in driving the selection of security controls.
 
+EXAM OBJECTIVES COVERED
+
+This topic provides background information about the role of security professionals and does not cover a specific exam objective.
+
+To be successful and credible as a security professional, you should understand security in business starting from the ground up. You should also know the key security terms and ideas used by other security experts in technical documents and in trade publications. Security implementations are constructed from fundamental building blocks, just like a large building is constructed from individual bricks. This topic will help you understand those building blocks so that you can use them as the foundation for your security career.
+
 Cybersecurity 
 - One of the four essential pillars of IT
 	- Development
