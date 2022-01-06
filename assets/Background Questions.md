@@ -7,4 +7,5 @@
 - UDP 
 - Do the ports match up to there protocols
 - anomalous
-- supports many other data transfer protocols, including FTP, IMAP, LDAP, POP3, SMB, and SMTP.
+- supports many other data transfer protocols, including FTP, IMAP, LDAP, POP3, SMB, and SMTP 
+- frame data

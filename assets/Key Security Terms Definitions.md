@@ -1,3 +1,4 @@
+## First Fold
 attacks
 threats
 	- structured(targeted) or unstructured(opportunistic)
@@ -49,3 +50,6 @@ Output from the route command on a Linux host. Most endpoints have a simple rout
 -   tracert—uses ICMP probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.
 -   traceroute—performs route discovery from a Linux host. traceroute uses UDP probes rather than ICMP, by default.
 -   pathping—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr.
+
+(.pcap) file
+

@@ -1,3 +1,4 @@
+## Sorted
 (ACL) Access control lists 
  (ARP) Address Resolution Protocol 3A
  (AIS) Automated Indicator Sharing  2B
@@ -46,3 +47,11 @@
  User Datagram Protocol(UDP)
  (TCP)
  Governance, Risk management, and Compliance (GRC)
+ switched port analyzer (SPAN) port 
+ (or mirror port)
+ 
+  test access port (TAP)
+  
+  Transport Control Protocol (TCP)
+  User Datagram Protocol (UDP)
+  
