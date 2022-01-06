@@ -54,4 +54,6 @@
   
   Transport Control Protocol (TCP)
   User Datagram Protocol (UDP)
-  
+  (OSI) Open Systems Interconnection
+  remote access trojan (RAT)
+  CVE (Common Vulnerabilities and Exposures)

