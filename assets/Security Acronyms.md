@@ -57,3 +57,6 @@
   (OSI) Open Systems Interconnection
   remote access trojan (RAT)
   CVE (Common Vulnerabilities and Exposures)
+  
+  man-in-the-middle (MITM)
+  
