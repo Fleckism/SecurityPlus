@@ -25,6 +25,9 @@
     "Datagram",
     "Nmap",
     "Zenmap",
-    "internetwork"
+    "internetwork",
+    "Infastructure",
+    "Security+",
+    "responder"
   ]
 }
