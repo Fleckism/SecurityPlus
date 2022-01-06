@@ -45,4 +45,4 @@
 (TTPs) tactics, techniques, and procedures (TTPs)
  User Datagram Protocol(UDP)
  (TCP)
- Governance, Rism management, and Compliance (GRC)
+ Governance, Risk management, and Compliance (GRC)
