@@ -66,3 +66,6 @@
   network vulnerability tests (NVTs)
   Secure Content Automation Protocol (SCAP)
   
+  _Security content automation protocol (SCAP)_
+  Open Vulnerability and Assessment Language (OVAL)
+  Extensible Configuration Checklist Description Format (XCCDF)
