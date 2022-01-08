@@ -60,3 +60,9 @@
   
   man-in-the-middle (MITM)
   
+  
+  customer relationship management (CRM)
+  
+  network vulnerability tests (NVTs)
+  Secure Content Automation Protocol (SCAP)
+  
