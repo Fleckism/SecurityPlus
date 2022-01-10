@@ -69,3 +69,8 @@
   _Security content automation protocol (SCAP)_
   Open Vulnerability and Assessment Language (OVAL)
   Extensible Configuration Checklist Description Format (XCCDF)
+  Sarbanes-Oxley Act (SOX) 
+  Federal Information Security Management Act (FISMA)
+  
+  Payment Card Industry Data Security Standard (PCI DSS)
+  
