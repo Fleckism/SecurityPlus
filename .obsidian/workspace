@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Compare and contrast IT security roles L1/Compare and Contrast 1B Security Control and Framework Types.md",
+            "file": "assets/Markdown Notes.md",
             "mode": "source"
           }
         }
@@ -46,7 +46,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compare and contrast IT security roles L1/Compare and Contrast 1B Security Control and Framework Types.md",
+                "file": "assets/Markdown Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +89,12 @@
   },
   "active": "00d556bc108fa919",
   "lastOpenFiles": [
+    "assets/Markdown Notes.md",
     "Compare and contrast IT security roles L1/Compare and Contrast 1B Security Control and Framework Types.md",
     "assets/Security Acronyms.md",
     "My notes.md",
     "Compare and contrast IT security roles L1/Compare and Contrast 1A Information Security Roles.md",
     "Security_StudyNotes/sy0-601-01.pdf",
-    "assets/Markdown Notes.md",
     "Performing Security Assessments L3/3C Summarize Vulnerability Scanning Technics.md",
     "assets/Key Security Terms Definitions.md",
     "Performing Security Assessments L3/3B Explain Security Concers with General Vulnerability Types 3B.md",
