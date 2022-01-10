@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "assets/Security Acronyms.md",
+            "file": "Performing Security Assessments L3/3C Summarize Vulnerability Scanning Technics.md",
             "mode": "source"
           }
         }
@@ -46,7 +46,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/Security Acronyms.md",
+                "file": "Performing Security Assessments L3/3C Summarize Vulnerability Scanning Technics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "00d556bc108fa919",
   "lastOpenFiles": [
-    "assets/Security Acronyms.md",
     "Performing Security Assessments L3/3C Summarize Vulnerability Scanning Technics.md",
+    "assets/Security Acronyms.md",
     "assets/Markdown Notes.md",
     "Compare and contrast IT security roles L1/Compare and Contrast 1B Security Control and Framework Types.md",
     "My notes.md",

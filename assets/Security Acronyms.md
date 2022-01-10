@@ -15,8 +15,8 @@
 (CSIRT) Computer security incident response team 
 (CSP) Cloud service provider 
 (CTI) Cyber threat intelligence 
-  customer relationship management (CRM)
-  CVE (Common Vulnerabilities and Exposures)
+(CRM)customer relationship management (CRM)
+(CVE (Common Vulnerabilities and Exposures)
 (DevOps) Development and operations  
   Extensible Configuration Checklist Description Format (XCCDF)
   Federal Information Security Management Act (FISMA)
