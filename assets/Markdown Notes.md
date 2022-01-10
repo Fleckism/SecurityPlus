@@ -13,6 +13,10 @@
 -  Horizontal rule ---
 -  ==Highlight == 
 -  [Obsidian markdown cheatsheet] (https://www.markdownguide.org/cheat-sheet/)!
+Win + Shift + =: to commit all changes in Obsidian.
+
+ctrl + p :  brings up Obsidian command line
+Control E previews the page
 
 
 ![[obsidianKnife.jpg]]
