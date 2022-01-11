@@ -64,6 +64,11 @@ While most controls can be classed functionally as preventative, detective, or c
 -   ==Deterrent==—the control may not physically or logically prevent access, but psychologically discourages an attacker from attempting an intrusion. This could include signs and warnings of legal penalties against trespass or intrusion.
 -   ==Compensating==—the control serves as a substitute for a principal control, as recommended by a security standard, and affords the same (or better) level of protection but uses a different methodology or technology.
 
+## NIST CYBERSECURITY FRAMEWORK
+
+A **cybersecurity framework (CSF)** is a list of activities and objectives undertaken to mitigate risks. The use of a framework allows an organization to make an objective statement of its current cybersecurity capabilities, identify a target level of capability, and prioritize investments to achieve that target. This is valuable for giving a structure to internal risk management procedures and provides an externally verifiable statement of regulatory compliance. Frameworks are also important because they save an organization from building its security program in a vacuum, or from building the program on a foundation that fails to account for important security concepts.
+
+There are many different frameworks, each of which categorize cybersecurity activities and controls in slightly different ways. These frameworks are non-regulatory in the sense that they do not attempt to address the specific regulations of a specific industry but represent **"best practice"** in IT security governance generally. Most organizations will have historically chosen a particular framework; some may use multiple frameworks in conjunction.
 ## ISO AND CLOUD FRAMEWORKS
 
 ### International Organization for Standardization (ISO) 27K
@@ -119,7 +124,24 @@ Most application architectures use a client/server model. This means that part o
 A web application is a particular type of client/server architecture. A web application leverages existing technologies to simplify development. The application uses a generic client (a web browser), and standard network protocols and servers (HTTP/HTTPS). The specific features of the application are developed using code running on the clients and servers. Web applications are also likely to use a multi-tier architecture, where the server part is split between application logic and data storage and retrieval. Modern web applications may use even more distributed architectures, such as microservices and serverless.
 
 The Open Web Application Security Project (OWASP) is a not-for-profit, online community that publishes several secure application development resources, such as the Top 10 list of the most critical application security risks ([owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten/)). OWASP has also developed resources, such as the Zed Attack Proxy and Juice Shop (a deliberately unsecure web application), to help investigate and understand penetration testing and application security issues.
+## REGULATIONS, STANDARDS, AND LEGISLATION
+
+The key frameworks, benchmarks, and configuration guides may be used to demonstrate compliance with a country's legal/regulatory requirements or with industry-specific regulations. **Due diligence is a legal term meaning that responsible persons have not been negligent in discharging their duties.** Negligence may create criminal and civil liabilities. Many countries have enacted legislation that criminalizes negligence in information management. In the US, for example, the Sarbanes-Oxley Act (SOX) mandates the implementation of risk assessments, internal controls, and audit procedures. The Computer Security Act (1987) requires federal agencies to develop security policies for computer systems that process confidential information. In 2002, the Federal Information Security Management Act (FISMA) was introduced to govern the security of data processed by federal government agencies. 
+
+### Personal Data and the General Data Protection Regulation (GDPR)
+### National, Territory, or State Laws
+### Payment Card Industry Data Security Standard (PCI DSS)
+
+
 ## 3 Labs notes
 ```
  ipconfig returns information about local interfaces, such as IP address and netmask, default gateway, DNS servers, static or DHCP-assisgned configuration, MAC addresses, and host name.
 ```
+# 2A
+## VULNERABILITY, THREAT, AND RISK
+
+As part of security assessment and monitoring, security teams must identify ways in which their systems could be attacked. These assessments involve vulnerabilities, threats, and risk:
+
+-   ==#Vulnerability is a weakness that could be triggered accidentally or exploited intentionally to cause a security breach.== Examples of vulnerabilities include improperly configured or installed hardware or software, delays in applying and testing software and firmware patches, untested software and firmware patches, the misuse of software or communication protocols, poorly designed network architecture, inadequate physical security, insecure password usage, and design flaws in software or operating systems, such as unchecked user input.
+-   ==#Threat is the potential for someone or something to exploit a vulnerability and breach security==. A threat may be intentional or unintentional. The person or thing that poses the threat is called a _threat actor_ or _threat agent._ The path or tool used by a malicious threat actor can be referred to as the _attack vector._
+-   ==#Risk is the likelihood and impact (or consequence) of a threat actor exploiting a vulnerability==. To assess risk, you identify a vulnerability and then evaluate the likelihood of it being exploited by a threat and the impact that a successful exploit would have.
