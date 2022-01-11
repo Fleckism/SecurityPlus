@@ -167,15 +167,45 @@ Sophisticated threat actors will make use of multiple vectors. They are likely t
 # 2B
 ## THREAT RESEARCH SOURCES
 
-Threat research is a counterintelligence gathering effort in which security companies and researchers attempt to discover the tactics, techniques, and procedures (TTPs) of modern cyber adversaries. There are many companies and academic institutions engaged in primary cybersecurity research. Security solution providers with firewall and anti-malware platforms derive a lot of data from their own customers' networks. As they assist customers with cybersecurity operations, they are able to analyze and publicize TTPs and their indicators. These organizations also operate honeynets to try to observe how hackers interact with vulnerable systems. 
+Threat research is a counterintelligence gathering effort in which security companies and researchers attempt to discover the tactics, techniques, and procedures (TTPs) of modern cyber adversaries. There are many companies and academic institutions engaged in primary cybersecurity research. Security solution providers with firewall and anti-malware platforms derive a lot of data from their own customers' networks. As they assist customers with cybersecurity operations, they are able to analyze and publicize TTPs and their indicators. These organizations also operate **honeynets** to try to observe how hackers interact with vulnerable systems. 
 
 Another primary source of threat intelligence is the dark web. The deep web is any part of the World Wide Web that is not indexed by a search engine. This includes pages that require registration, pages that block search indexing, unlinked pages, pages using nonstandard DNS, and content encoded in a nonstandard manner. Within the deep web, are areas that are deliberately concealed from "regular" browser access.
 
--   Dark net—a network established as an overlay to Internet infrastructure by software, such as The Onion Router (TOR), Freenet, or I2P, that acts to anonymize usage and prevent a third party from knowing about the existence of the network or analyzing any activity taking place over the network. Onion routing, for instance, uses multiple layers of encryption and relays between nodes to achieve this anonymity.
--   Dark web—sites, content, and services accessible only over a dark net. While there are dark web search engines, many sites are hidden from them. Access to a dark web site via its URL is often only available via "word of mouth" bulletin boards.
+-   ==Dark net== a network established as an overlay to Internet infrastructure by software, such as The Onion Router (TOR), Freenet, or I2P, that acts to anonymize usage and prevent a third party from knowing about the existence of the network or analyzing any activity taking place over the network. Onion routing, for instance, uses multiple layers of encryption and relays between nodes to achieve this anonymity.
+-   ==Dark web== sites, content, and services accessible only over a dark net. While there are dark web search engines, many sites are hidden from them. Access to a dark web site via its URL is often only available via "word of mouth" bulletin boards.
 
 ![Screenshot of AlphaBay Market showing "Tor circuit for this site" with 8 steps including IP addresses in Italy, Sweden, and Germany.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2941-1599771794384.png)
 
 Using the TOR browser to view the AlphaBay market, now closed by law enforcement. (Screenshot used with permission from Security Onion.)
 
 Investigating these dark web sites and message boards is a valuable source of counterintelligence. The anonymity of dark web services has made it easy for investigators to infiltrate the forums and webstores that have been set up to exchange stolen data and hacking tools. As adversaries react to this, they are setting up new networks and ways of identifying law enforcement infiltration. Consequently, dark nets and the dark web represent a continually shifting landscape.
+## THREAT INTELLIGENCE PROVIDERS
+
+The outputs from the primary research undertaken by security solutions providers and academics can take three main forms:
+
+-   ==Behavioral threat research== narrative commentary describing examples of attacks and TTPs gathered through primary research sources.
+-   ==Reputational threat intelligence== lists of IP addresses and domains associated with malicious behavior, plus signatures of known file-based malware.
+-   ==Threat data== computer data that can correlate events observed on a customer's own networks and logs with known TTP and threat actor indicators.
+
+Threat data can be packaged as feeds that integrate with a **security information and event management (SIEM)** platform. These feeds are usually described as cyber threat intelligence (CTI) data. The data on its own is not a complete security solution however. To produce actionable intelligence, the threat data must be correlated with observed data from customer networks. This type of analysis is often powered by artificial intelligence (AI) features of the SIEM.
+
+Threat intelligence platforms and feeds are supplied as one of four different commercial models:
+
+-   **Closed/proprietary—the threat research and CTI data is made available as a paid subscription to a commercial threat intelligence platform.** The security solution provider will also make the most valuable research available early to platform subscribers in the form of blogs, white papers, and webinars. Some examples of such platforms include:
+-   IBM X-Force Exchange ([exchange.xforce.ibmcloud.com](https://exchange.xforce.ibmcloud.com/))
+-   FireEye ([fireeye.com/solutions/cyber-threat-intelligence/threat-intelligence-subscriptions.html](https://www.fireeye.com/mandiant/threat-intelligence/threat-intelligence-subscriptions.html))
+-   Recorded Future ([recordedfuture.com/solutions/threat-intelligence-feeds](https://www.recordedfuture.com/solutions/threat-intelligence-feeds/))
+
+![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/1367-1599771794506.png)
+
+IBM X-Force Exchange threat intelligence portal. (Image copyright 2019 IBM Security exchange.xforce.ibmcloud.com.)
+
+-   Vendor websites—proprietary threat intelligence is not always provided at cost. All types of security, hardware, and software vendors make huge amounts of threat research available via their websites as a general benefit to their customers. One example is Microsoft's Security Intelligence blog ([microsoft.com/security/blog/microsoft-security-intelligence](https://www.microsoft.com/security/blog/microsoft-security-intelligence/)).
+-   Public/private information sharing centers—in many critical industries, Information Sharing and Analysis Centers (ISACs) have been set up to share threat intelligence and promote best practice ([nationalisacs.org/member-isacs](https://www.nationalisacs.org/member-isacs-3)). These are sector-specific resources for companies and agencies working in critical industries, such as power supply, financial markets, or aviation. Where there is no coverage by an ISAC, local industry groups and associations may come together to provide mutual support.
+-   Open source intelligence (OSINT)—some companies operate threat intelligence services on an open-source basis, earning income from consultancy rather than directly from the platform or research effort. Some examples include:
+-   AT&T Cybersecurity, previously Alien Vault Open Threat Exchange (OTX) ([otx.alienvault.com](https://otx.alienvault.com/))
+-   Malware Information Sharing Project (MISP) ([misp-project.org/feeds](https://misp-project.org/feeds/))
+-   Spamhaus ([spamhaus.org/organization](https://www.spamhaus.org/organization/))
+-   VirusTotal ([virustotal.com](https://www.virustotal.com/gui/home/upload))
+
+As well as referring to open-source threat research providers, OSINT can mean any intelligence derived from publicly available information. OSINT is a common reconnaissance technique where the attacker harvests domains, IP address ranges, employees, and other data that will assist in identifying attack vectors. Companies should also monitor public networks for signs of attack planning (chatter on forums) and breaches (confidential information or account credentials posted to online forums). Most commercial providers offer monitoring services, which can include dark web sources ([fireeye.com/content/dam/fireeye-www/products/pdfs/pf/intel/ds-digital-threat-monitoring.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/ds-digital-threat-monitoring.pdf)).

@@ -27,7 +27,7 @@ The outputs from the primary research undertaken by security solutions providers
 -   Reputational threat intelligence—lists of IP addresses and domains associated with malicious behavior, plus signatures of known file-based malware.
 -   Threat data—computer data that can correlate events observed on a customer's own networks and logs with known TTP and threat actor indicators.
 
-Threat data can be packaged as feeds that integrate with a security information and event management (SIEM) platform. These feeds are usually described as cyber threat intelligence (CTI) data. The data on its own is not a complete security solution however. To produce actionable intelligence, the threat data must be correlated with observed data from customer networks. This type of analysis is often powered by artificial intelligence (AI) features of the SIEM.
+Threat data can be packaged as feeds that integrate with a **security information and event management (SIEM)** platform. These feeds are usually described as cyber threat intelligence (CTI) data. The data on its own is not a complete security solution however. To produce actionable intelligence, the threat data must be correlated with observed data from customer networks. This type of analysis is often powered by artificial intelligence (AI) features of the SIEM.
 
 Threat intelligence platforms and feeds are supplied as one of four different commercial models:
 
