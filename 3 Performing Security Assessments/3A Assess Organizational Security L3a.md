@@ -23,7 +23,7 @@ _Topology discovery_ (or "footprinting") means scanning for hosts, IP ranges, an
 
 Basic topology discovery tasks can be accomplished using the command line tools built into Windows and Linux. The following tools report the IP configuration and test connectivity on the local network segment or subnet.
 
--   ipconfig—show the configuration assigned to network interface(s) in Windows, including the hardware or media access control (MAC) address, IPv4 and IPv6 addresses, default gateway, and whether the address is static or assigned by DHCP. If the address is DHCP-assigned, the output also shows the address of the DHCP server that provided the lease.
+-   ipconfig—show the configuration assigned to network interface(s) in Windows, including the hardware or media access control (MAC) address, IPv4 and IPv6 addresses, **default gateway, and whether the address is static or assigned by DHCP. If the address is DHCP-assigned, the output also shows the address of the DHCP server that provided the lease (To detect spoofing).  
 -   ifconfig—show the configuration assigned to network interface(s) in Linux.
 -   ping—probe a host on a particular IP address or host name using Internet Control Message Protocol (ICMP). You can use ping with a simple script to perform a sweep of all the IP addresses in a subnet. The following example will scan the 10.1.0.0/24 subnet from a Windows machine:
 
@@ -43,7 +43,7 @@ In Linux, commands such as ifconfig, arp, route, and traceroute are deprecated a
 
 The following tools can be used to test the routing configuration and connectivity with remote hosts and networks.
 
--   route—view and configure the host's local routing table. Most end systems use a default route to forward all traffic for remote networks via a gateway router. If the host is not a router, additional entries in the routing table could be suspicious.
+-   route—view and configure the host's local routing table. Most end systems use a default route to forward all traffic for remote networks via a gateway router. If the host is not a router, additional entries in the routing table could be suspicious **(To detect spoofing)** .
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8872-1599771794749.png)
 
@@ -51,7 +51,7 @@ Output from the route command on a Linux host. Most endpoints have a simple rout
 
 -   tracert—uses ICMP probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.
 -   traceroute—performs route discovery from a Linux host. traceroute uses UDP probes rather than ICMP, by default.
--   pathping—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr.
+-   pathping—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr ( Rogue host is modifying traff.
 
 In a security context, high latency at the default gateway compared to a baseline might indicate a man-in-the-middle attack. High latency on other hops could be a sign of denial of service, or could just indicate network congestion.
 
