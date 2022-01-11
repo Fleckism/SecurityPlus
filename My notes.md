@@ -145,3 +145,37 @@ As part of security assessment and monitoring, security teams must identify ways
 -   ==#Vulnerability is a weakness that could be triggered accidentally or exploited intentionally to cause a security breach.== Examples of vulnerabilities include improperly configured or installed hardware or software, delays in applying and testing software and firmware patches, untested software and firmware patches, the misuse of software or communication protocols, poorly designed network architecture, inadequate physical security, insecure password usage, and design flaws in software or operating systems, such as unchecked user input.
 -   ==#Threat is the potential for someone or something to exploit a vulnerability and breach security==. A threat may be intentional or unintentional. The person or thing that poses the threat is called a _threat actor_ or _threat agent._ The path or tool used by a malicious threat actor can be referred to as the _attack vector._
 -   ==#Risk is the likelihood and impact (or consequence) of a threat actor exploiting a vulnerability==. To assess risk, you identify a vulnerability and then evaluate the likelihood of it being exploited by a threat and the impact that a successful exploit would have.
+
+## Insider threat actors
+- Shadow IT creates a new unmonitored attack surface for malicious adversaries to exploit
+
+## ATTACK SURFACE AND ATTACK VECTORS
+
+The attack surface is all the points at which a malicious threat actor could try to exploit a vulnerability. To evaluate the attack surface, you need to consider the type of threat actor. The attack surface for an external actor is (or should be) far smaller than that for an insider threat. The attack surface can be considered for a network as a whole, but is also analyzed for individual software applications. Minimizing the attack surface means restricting access so that only a few known endpoints, protocols/ports, and services/methods are permitted. Each of these must be assessed for vulnerabilities.
+
+From the point-of-view of the threat actor, different parts of the attack surface represent potential attack vectors. An #attack_vector is the path that a threat actor uses to gain access to a secure system. In the majority of cases, gaining access means being able to run malicious code on the target.
+
+-   Direct access—this is a type of physical or local attack. 
+-   Removable media—the attacker conceals malware on a USB thumb drive or memory card and tries to trick employees into connecting the media to a PC, laptop, or smartphone. 
+-   Email—the attacker sends a malicious file attachment via email, or via any other communications system that allows attachments. 
+-   Remote and wireless—the attacker either obtains credentials for a remote access or wireless connection to the network or cracks the security protocols used for authentication. Alternatively, the attacker spoofs a trusted resource, such as an access point, and uses it to perform credential harvesting and then uses the stolen account details to access the network.
+-   Supply chain—rather than attack the target directly, a threat actor may seek ways to infiltrate it via companies in its supply chain. One high-profile example of this is the Target data breach, which was made via the company's HVAC supplier ([krebsonsecurity.com/2014/02/target-hackers-broke-in-via-hvac-company](https://krebsonsecurity.com/2014/02/target-hackers-broke-in-via-hvac-company/)).
+-   Web and social media—malware may be concealed in files attached to posts or presented as downloads. 
+-   Cloud—many companies now run part or all of their network services via Internet-accessible clouds. 
+
+Sophisticated threat actors will make use of multiple vectors. They are likely to plan a multi-stage campaign, rather than a single "smash and grab" type of raid.
+# 2B
+## THREAT RESEARCH SOURCES
+
+Threat research is a counterintelligence gathering effort in which security companies and researchers attempt to discover the tactics, techniques, and procedures (TTPs) of modern cyber adversaries. There are many companies and academic institutions engaged in primary cybersecurity research. Security solution providers with firewall and anti-malware platforms derive a lot of data from their own customers' networks. As they assist customers with cybersecurity operations, they are able to analyze and publicize TTPs and their indicators. These organizations also operate honeynets to try to observe how hackers interact with vulnerable systems. 
+
+Another primary source of threat intelligence is the dark web. The deep web is any part of the World Wide Web that is not indexed by a search engine. This includes pages that require registration, pages that block search indexing, unlinked pages, pages using nonstandard DNS, and content encoded in a nonstandard manner. Within the deep web, are areas that are deliberately concealed from "regular" browser access.
+
+-   Dark net—a network established as an overlay to Internet infrastructure by software, such as The Onion Router (TOR), Freenet, or I2P, that acts to anonymize usage and prevent a third party from knowing about the existence of the network or analyzing any activity taking place over the network. Onion routing, for instance, uses multiple layers of encryption and relays between nodes to achieve this anonymity.
+-   Dark web—sites, content, and services accessible only over a dark net. While there are dark web search engines, many sites are hidden from them. Access to a dark web site via its URL is often only available via "word of mouth" bulletin boards.
+
+![Screenshot of AlphaBay Market showing "Tor circuit for this site" with 8 steps including IP addresses in Italy, Sweden, and Germany.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2941-1599771794384.png)
+
+Using the TOR browser to view the AlphaBay market, now closed by law enforcement. (Screenshot used with permission from Security Onion.)
+
+Investigating these dark web sites and message boards is a valuable source of counterintelligence. The anonymity of dark web services has made it easy for investigators to infiltrate the forums and webstores that have been set up to exchange stolen data and hacking tools. As adversaries react to this, they are setting up new networks and ways of identifying law enforcement infiltration. Consequently, dark nets and the dark web represent a continually shifting landscape.
