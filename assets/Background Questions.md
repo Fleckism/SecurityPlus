@@ -9,3 +9,4 @@
 - anomalous
 - supports many other data transfer protocols, including FTP, IMAP, LDAP, POP3, SMB, and SMTP 
 - frame data
+- TCP and UDP are used to investigate network traffic
