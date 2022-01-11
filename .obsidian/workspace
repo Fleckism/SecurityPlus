@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "assets/Background Questions.md",
+            "file": "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
             "mode": "source"
           }
         }
@@ -46,7 +46,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/Background Questions.md",
+                "file": "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,12 +85,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 398.5
   },
   "active": "00d556bc108fa919",
   "lastOpenFiles": [
-    "assets/Background Questions.md",
     "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "assets/Background Questions.md",
     "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
     "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
     "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",

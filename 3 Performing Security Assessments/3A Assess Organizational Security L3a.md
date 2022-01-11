@@ -99,7 +99,7 @@ Nmap comes with a database of application and version fingerprint signatures, cl
 
 Basic service discovery tasks can also be performed using tools built into the Windows and Linux operating systems:
 
--   netstat—show the state of TCP/UDP ports on the local machine. The same command is used on both Windows and Linux, though with different options syntax. You can use netstat to check for service misconfigurations (perhaps a host is running a web or FTP server that a user installed without authorization). You may also be able to identify suspect remote connections to services on the local host or from the host to remote IP addresses. If you are attempting to identify malware, the most useful netstat output is to show which process is listening on which ports. 
+-   netstat—show the state of TCP/UDP ports on the local machine. The same command is used on both Windows and Linux, though with different options syntax. You can use netstat to check for service misconfigurations (perhaps a host is running a web or FTP server that a user installed without authorization). You may also be able to identify suspect remote connections to services on the local host or from the host to remote IP addresses. If you are attempting to identify malware, the most useful netstat output is to show which process is listening on which ports **(Suspicious network traffic check TCP port)**. 
 
 ![The first 2 items in the list are "TCP 10.1.0.1:80 ROGUE:1415 TIME_WAIT" and "TCP 10.1.0.1:80 GATEWAY:49161 ESTABLISHED"; 9 similar items follow.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7383-1599771794926.png)
 
@@ -107,9 +107,9 @@ netstat command running on Windows showing activity during an nmap scan. The fin
 
 Command line output from netstat –ano.
 
-On Linux, use of netstat is deprecated in favor of the ss command from the iptools2 suite ([linux.com/topic/networking/introduction-ss-command](https://www.linux.com/topic/networking/introduction-ss-command/)).
+On Linux, use of netstat is deprecated in favor of the ss **(Suspicious network traffic check TCP port)** command from the iptools2 suite ([linux.com/topic/networking/introduction-ss-command](https://www.linux.com/topic/networking/introduction-ss-command/)).
 
--   nslookup/dig—query name records for a given domain using a particular DNS resolver. Under Windows (nslookup) or Linux (nslookup/dig). An attacker may test a network to find out if the DNS service is misconfigured. A misconfigured DNS may allow a zone transfer, which will give the attacker the complete records of every host in the domain, revealing a huge amount about the way the network is configured. 
+-   nslookup/dig—query name records for a given domain using a particular DNS resolver. Under Windows (nslookup) or Linux (nslookup/dig). An attacker may test a network to find out if the DNS service is misconfigured. A misconfigured DNS may allow a **zone transfer, which will give the attacker the complete records of every host in the domain, revealing a huge amount about the way the network is configured**. 
 
 ![Screenshot shows "*** Can't list domain comptia.org: Query refused".](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/9882-1599771794985.png)
 ## OTHER RECONNAISSANCE AND DISCOVERY TOOLS
@@ -122,7 +122,7 @@ theHarvester is a tool for gathering open-source intelligence (OSINT) for a part
 
 ### dnsenum
 
-While you can use tools such as dig and whois to query name records and hosting details and to check that external DNS services are not leaking too much information, a tool such as dnsenum packages a number of tests into a single query ([github.com/fwaeytens/dnsenum](https://github.com/fwaeytens/dnsenum)). As well as hosting information and name records, dnsenum can try to work out the IP address ranges that are in use.
+While you can use tools such as dig and whois to query name records and hosting details and to check that external DNS services are not leaking too much information, a tool such as dnsenum packages a number of tests into a single query ([github.com/fwaeytens/dnsenum](https://github.com/fwaeytens/dnsenum)). As well as hosting information and name records, dnsenum can try to work out the IP address ranges that are in use #zone_transfer.
 
 ### scanless
 
@@ -134,7 +134,7 @@ curl is a command line client for performing data transfers over many types of p
 
 ### Nessus
 
-The list of services and version information that a host is running can be cross-checked against lists of known software vulnerabilities. This type of scanning is usually performed using automated tools. Nessus, produced by Tenable Network Security ([tenable.com/products/nessus/nessus-professional](https://www.tenable.com/products/nessus/nessus-professional)), is one of the best-known commercial vulnerability scanners. It is available in on-premises (Nessus Manager) and cloud (Tenable Cloud) versions, as well as a Nessus Professional version, designed for smaller networks. The product is free to use for home users but paid for on a subscription basis for enterprises. As a previously open-source program, Nessus also supplies the source code for many other scanners.
+The list of services and version information that a host is running can be cross-checked against lists of known software vulnerabilities. This type of scanning is usually performed using automated tools. Nessus, produced by Tenable Network Security ([tenable.com/products/nessus/nessus-professional](https://www.tenable.com/products/nessus/nessus-professional)), is one of the best-known commercial #vulnerability_scanners. It is available in on-premises (Nessus Manager) and cloud (Tenable Cloud) versions, as well as a Nessus Professional version, designed for smaller networks. The product is free to use for home users but paid for on a subscription basis for enterprises. As a previously open-source program, Nessus also supplies the source code for many other scanners.
 ## PACKET CAPTURE AND TCPDUMP 
 
 Packet and protocol analysis is another crucial security assessment and monitoring process:
@@ -194,7 +194,7 @@ hping is an open-source spoofing tool that provides a penetration tester with th
 
 ### tcpreplay
 
-As the name suggests, tcpreplay takes previously captured traffic that has been saved to a .pcap file and replays it through a network interface ([linux.die.net/man/1/tcpreplay](https://linux.die.net/man/1/tcpreplay)). Optionally, fields in the capture can be changed, such as substituting MAC or IP addresses. tcpreplay is useful for analysis purposes. If you have captured suspect traffic, you can replay it through a monitored network interface to test intrusion detection rules.
+As the name suggests, tcpreplay takes previously captured traffic that has been saved to a .pcap file and replays it through a network interface ([linux.die.net/man/1/tcpreplay](https://linux.die.net/man/1/tcpreplay)). Optionally, fields in the capture can be changed, such as substituting MAC or IP addresses. tcpreplay is useful for analysis purposes. If you have captured suspect traffic, you can replay it through a monitored network interface to test intrusion detection rules #malicious_traffic_sample.
 ## EXPLOITATION FRAMEWORKS
 
 A remote access trojan (RAT) is malware that gives an adversary the means of remotely accessing the network. From the perspective of security posture assessment, a penetration tester might want to try to establish this sort of connection and attempt to send corporate information over the channel (data exfiltration). If security controls are working properly, this attempt should be defeated (or at least detected). 
@@ -221,7 +221,7 @@ There are many other exploitation frameworks targeting different kinds of vulner
 
 ## NETCAT
 
-One simple but effective tool for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and #fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword:
+One simple but effective tool for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and #fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword: **(To check for if it's possible to open a network connection to a remote host over a given port#)** 
 
 echo "head" | nc 10.1.0.1 -v 80
 
