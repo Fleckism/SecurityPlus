@@ -12,8 +12,9 @@ Ethernet II
 
 In the Wireshark interface, what is the name of the layer where the IP addresses are found (Hint: this info is in the middle pane of the interface)?
 
-Frame
 
-Ethernet II
 
 Internet Protocol Version 4
+
+In the Wireshark interface, what is the name of the layer where the source and destination port numbers are found (Hint: this info is in the middle pane of the interface)?
+Transmission Control Protocol TCP
