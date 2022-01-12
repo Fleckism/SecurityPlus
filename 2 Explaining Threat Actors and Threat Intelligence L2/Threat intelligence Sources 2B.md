@@ -63,7 +63,7 @@ As well as a source of information, social media should also be monitored for th
 
 A tactic, technique, or procedure (TTP) is a generalized statement of adversary behavior. The term is derived from US military doctrine ([mwi.usma.edu/what-is-army-doctrine](https://mwi.usma.edu/what-is-army-doctrine/)). TTPs categorize behaviors in terms of campaign strategy and approach (tactics), generalized attack vectors (techniques), and specific intrusion tools and methods (procedures).
 
-An indicator of compromise (IoC) is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an IoC is evidence of a TTP.
+An **indicator of compromise (IoC)** is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an IoC is evidence of a TTP.
 
 > TTPs describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like. ([stixproject.github.io/documentation/concepts/ttp-vs-indicator](https://stixproject.github.io/documentation/concepts/ttp-vs-indicator/))
 
@@ -80,14 +80,14 @@ As there are many different targets and vectors of an attack, so too are there m
 
 An IoC can be definite and objectively identifiable, like a malware signature, but often IoCs can only be described with confidence via the correlation of many data points. Because these IoCs are often identified through patterns of anomalous activity rather than single events, they can be open to interpretation and therefore slow to diagnose. Consequently, threat intelligence platforms use AI-backed analysis to speed up detection without overwhelming analysts' time with false positives.
 
-Strictly speaking, an IoC is evidence of an attack that was successful. The term indicator of attack (IoA) is sometimes also used for evidence of an intrusion attempt in progress.
+Strictly speaking, an IoC is evidence of an attack that was successful. The term **indicator of attack (IoA)** is sometimes also used for evidence of an intrusion attempt in progress.
 ## THREAT DATA FEEDS
 
-When you use a cyber threat intelligence (CTI) platform, you subscribe to a threat data feed. The information in the threat data can be combined with event data from your own network and system logs. An analysis platform performs correlation to detect whether any IoCs are present. There are various ways that a threat data feed can be implemented.
+When you use a **cyber threat intelligence (CTI)** platform, you subscribe to a threat data feed. The information in the threat data can be combined with event data from your own network and system logs. An analysis platform performs correlation to detect whether any IoCs are present. There are various ways that a threat data feed can be implemented.
 
 ### Structured Threat Information eXpression (STIX)
 
-The OASIS CTI framework ([oasis-open.github.io/cti-documentation](https://oasis-open.github.io/cti-documentation/)) is designed to provide a format for this type of automated feed so that organizations can share CTI. The Structured Threat Information eXpression (STIX) part of the framework describes standard terminology for IoCs and ways of indicating relationships between them.
+The OASIS CTI framework ([oasis-open.github.io/cti-documentation](https://oasis-open.github.io/cti-documentation/)) is designed to provide a format for this type of automated feed so that organizations can share CTI. **The Structured Threat Information eXpression (STIX)** part of the framework describes standard terminology for IoCs and ways of indicating relationships between them.
 
 ![Diagram showing a STIX 2 Relationship example](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2714-1599771794586.png)
 
