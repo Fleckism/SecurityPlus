@@ -13,6 +13,16 @@
             "mode": "source"
           }
         }
+      },
+      {
+        "id": "52091b3724ad0b08",
+        "type": "leaf",
+        "state": {
+          "type": "pdf",
+          "state": {
+            "file": "Security_StudyNotes/sy0-601-02.pdf"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -46,7 +56,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/Background Questions.md",
+                "file": "Security_StudyNotes/sy0-601-02.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -75,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 232
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -85,17 +95,17 @@
     "width": 430.5,
     "collapsed": true
   },
-  "active": "9d68fe6b9a5064f6",
+  "active": "52091b3724ad0b08",
   "lastOpenFiles": [
+    "Security_StudyNotes/sy0-601-02.pdf",
+    "Security_StudyNotes/sy0-601-01.pdf",
     "assets/Background Questions.md",
+    "assets/Markdown Notes.md",
+    "My Lab Notes.md",
+    "My notes.md",
     "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
     "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
     "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
-    "My notes.md",
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
-    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
-    "2 Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
-    "My Lab Notes.md"
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md"
   ]
 }
