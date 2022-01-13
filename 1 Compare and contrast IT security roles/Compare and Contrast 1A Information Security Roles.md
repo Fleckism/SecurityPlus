@@ -1,6 +1,10 @@
 ## LESSON INTRODUCTION
 
-Security is an ongoing process that includes assessing requirements, setting up organizational security systems, hardening them, monitoring them, responding to attacks in progress, and deterring attackers. As a security professional, it is important that you understand how the security function is implemented as departments or units and professional roles within different types of organizations. You must also be able to explain the importance of compliance factors and best practice frameworks in driving the selection of security controls.
+Security is an ongoing process that includes 
+- assessing requirements, 
+- setting up organizational security systems, hardening them, monitoring them, responding to attacks in progress, and deterring attackers. As a security professional, it is important that you understand how the security function is implemented as departments or units and professional roles within different types of organizations. You must also be able to explain the importance of 
+- compliance factors and 
+- best practice frameworks in driving the selection of security controls.
 
 EXAM OBJECTIVES COVERED
  **N/A
@@ -33,7 +37,7 @@ Job Roles
 - Contractor: Variety of tasks
 - Jr. security analyst
 
-Regulations, standards, and frameworks: Compliance
+Regulations, standards, and #frameworks: Compliance
 - Frameworks
 	- NIST Cybersecurity Framework (CSF)
 	- ISO 27000x (series, worldwide)
