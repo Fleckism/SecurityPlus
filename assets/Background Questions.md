@@ -59,7 +59,19 @@
 1.8 Pen_testing
 2.0 Architecture and Design
 2.1 security concepts in an enterprise environment
-2.2 
+2.2 virtualization and cloud computing
+2.3 Secure app development, deployment and automation
+2.4 authentication and authorization 
+2.5 cybersecurity resilience
+2.6 embedded and specialized
+2.7 physical security controls
+2.8 cryptographic
+3.0 Implementation
+3.1 implement secure protocols
+3.2 implement host or application 
+3.3 implement secure network design
+3.4 
+
 
 
 	
