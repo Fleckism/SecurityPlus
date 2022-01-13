@@ -30,6 +30,7 @@
     "Security+",
     "responder",
     "ISACs",
-    "unmonitored"
+    "unmonitored",
+    "DDoS"
   ]
 }
