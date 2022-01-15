@@ -37,7 +37,7 @@ Job Roles
 - Contractor: Variety of tasks
 - Jr. security analyst
 
-Regulations, standards, and #frameworks: Compliance
+Regulations, standards, and frameworks: Compliance
 - Frameworks
 	- NIST Cybersecurity Framework (CSF)
 	- ISO 27000x (series, worldwide)
