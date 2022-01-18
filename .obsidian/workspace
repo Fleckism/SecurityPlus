@@ -65,7 +65,31 @@
   "right": {
     "id": "63c83d5ffac33788",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "3e7c595ccd99a422",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e51e6e81ea00f79a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "My notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 430.5,
     "collapsed": true
