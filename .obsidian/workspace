@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "assets/Background Questions.md",
-            "mode": "source"
+            "mode": "source",
+            "backlinks": true
           }
         }
       }
@@ -47,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IoC",
+                "query": "threat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",

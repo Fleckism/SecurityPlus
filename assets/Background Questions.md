@@ -69,10 +69,11 @@
 -   Web Traffic with Unhuman Behavior
 -   Signs of DDoS Activity
 
-#threat 
+# threat
+#threat : a **threat** is a potential negative action or event facilitated by a [vulnerability] that results in an unwanted impact to a computer system or application.
 #assessment
-
-#vulnerability 
+# vulnerability
+#vulnerability : is a weakness which can be exploited by a threat actor
 #implement
 
 
