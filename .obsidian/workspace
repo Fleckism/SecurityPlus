@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My notes.md",
+            "file": "assets/Background Questions.md",
             "mode": "source"
           }
         }
@@ -24,7 +24,6 @@
       {
         "id": "f3019c51a53fd5a0",
         "type": "tabs",
-        "dimension": 41.52652005174644,
         "children": [
           {
             "id": "d5a4ddcbda1b5238",
@@ -33,24 +32,25 @@
               "type": "file-explorer",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "c986aa8b6dd3b793",
-        "type": "tabs",
-        "dimension": 58.47347994825356,
-        "children": [
+          },
+          {
+            "id": "66f2a68163472731",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
           {
             "id": "1e510462c5312b68",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#frameworks",
-                "matchingCase": true,
+                "query": "IoC",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My notes.md",
+                "file": "assets/Background Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,25 +86,36 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "e38e7116b579da51",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 430.5,
-    "collapsed": true
+    "width": 430.5
   },
   "active": "9d68fe6b9a5064f6",
   "lastOpenFiles": [
-    "My notes.md",
+    "assets/Background Questions.md",
+    "assets/Key Security Terms Definitions.md",
+    "assets/Security Acronyms.md",
     "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+    "My notes.md",
     "assets/Scripts.md",
     "My Lab Notes.md",
     "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "assets/Security Acronyms.md",
-    "assets/Background Questions.md",
     "Untitled.md",
-    "Security_StudyNotes/sy0-601-02.pdf",
-    "Security_StudyNotes/sy0-601-01.pdf"
+    "Security_StudyNotes/sy0-601-02.pdf"
   ]
 }

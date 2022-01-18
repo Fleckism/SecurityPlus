@@ -47,7 +47,8 @@
 - Research sources
 
 #attack   Incident response
-#IoC
+#IoA/C   IoA:  Indicator of an attack that is currently happening
+				IoC:  Indicator of compromise 
 
 #threat 
 #assessment

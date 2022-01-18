@@ -532,7 +532,7 @@ nc -l -p 6666 > accounts.sql
 # 3B
 ## EXAM OBJECTIVES COVERED
 
-1.6 Explain the security concerns associated with various types of vulnerabilities( #Vulnerability  )
+1.6 Explain the security concerns associated with various types of vulnerabilities( #vulnerability  )
 
 Performing a security assessment effectively is not simply a matter of choosing appropriate tools. You need to understand the types of vulnerabilities that affect information systems and networks. You must also be able to evaluate and explain the impacts that can arise from vulnerabilities, so that assessment and remediation activities can be given priority where they are most needed.
 
@@ -558,7 +558,7 @@ A legacy platform is one that is no longer supported with security patches by it
 
 While ineffective patch and configuration management policies and procedures represent one type of vulnerability, #weak_configurations can have similar impacts.
 
-### Default Settings
+### Default Settings #Vulnerability 
 
 Relying on the manufacturer default settings when deploying an appliance or software applications is one example of weak configuration. It is not sufficient to rely on the vendor to ship products in a default-secure configuration, though many now do. Default settings may leave unsecure interfaces enabled that allow an attacker to compromise the device. Network appliances with weak settings can allow attackers to move through the network unhindered and snoop on traffic.
 
