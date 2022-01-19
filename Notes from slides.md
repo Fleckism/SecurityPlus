@@ -15,7 +15,7 @@ Some security models and researchers identify other properties that secure syste
 ## CYBERSECURITY FRAMEWORK
 
 Within the goal of ensuring information security, cybersecurity refers specifically to provisioning secure processing hardware and software. **Information security and cybersecurity tasks can be classified as five functions**, following the framework developed by the National Institute of Standards and Technology (NIST) ([nist.gov/cyberframework/online-learning/five-functions](https://www.nist.gov/cyberframework/online-learning/five-functions)):
-#F_identify_
+#F_identify
 -   ==Identify==—develop security policies and capabilities. Evaluate risks, threats, and vulnerabilities and recommend security controls to mitigate them.
 #F_protect
 -   ==Protect==—procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operations life cycle.
@@ -42,12 +42,12 @@ A **security control is something designed to give a system or data asset the pr
 #C_managerial
 -   **Technical—the control is implemented as a system (hardware, software, or firmware)**. For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.  
 	-   Operate without much intervention once configured
--   **Operational**—the control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.	
+-   **Operational—the control is implemented primarily by people rather than systems.** For example, security guards and training programs are operational controls rather than technical controls.	
 	-   Day-to-day administration of security system
 	-   Tactical reporting and insights
 	-   Controls that require people to implement or administer
 	-   Standard operating procedures
--   ==Managerial==—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
+-   **Managerial—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
 	- Oversight of the security system
 	-   Strategic reporting and insights
 	-   Risk assessment
@@ -60,31 +60,31 @@ Although it uses a more complex scheme, it is worth being aware of the most curr
 
 Security controls can also be classified in types according to the goal or function they perform:
 
--   ==Preventive==—the control acts to eliminate or reduce the likelihood that an attack can succeed. A preventative control operates before an attack can take place. Access control lists (ACL) configured on firewalls and file system objects are preventative-type controls. Anti-malware software also acts as a preventative control, by blocking processes identified as malicious from executing. Directives and standard operating procedures (SOPs) can be thought of as administrative versions of preventative controls.
+-   **Preventive**—the control acts to eliminate or reduce the likelihood that an attack can succeed. A preventative control operates before an attack can take place. Access control lists (ACL) configured on firewalls and file system objects are preventative-type controls. Anti-malware software also acts as a preventative control, by blocking processes identified as malicious from executing. Directives and standard operating procedures (SOPs) can be thought of as administrative versions of preventative controls.
 	-   Reduce likelihood of attack
 	-   Operate before/preceding an attack
 	-   Examples include firewalls, anti-virus, encryption, ...
--   ==Detective==—the control may not prevent or deter access, but it will identify and record any attempted or successful intrusion. A detective control operates during the progress of an attack. Logs provide one of the best examples of detective-type controls.
+-   **Detective—the control may not prevent or deter access, but it will identify and record any attempted or successful intrusion**. A detective control operates during the progress of an attack. Logs provide one of the best examples of detective-type controls.
 	-   Identify or log signs of attack
 	-   Operate during an attack
 	-   Examples include intrusion detection, log review, physical inspections, ...
--   ==Corrective==—the control acts to eliminate or reduce the impact of an intrusion event. A corrective control is used after an attack. A good example is a backup system that can restore data that was damaged during an intrusion. Another example is a patch management system that acts to eliminate the vulnerability exploited during the attack.
+-   **Corrective—the control acts to eliminate or reduce the impact of an intrusion event. A corrective control is used after an attack. A good example is a backup system that can restore data that was damaged during an intrusion. Another example is a patch management system that acts to eliminate the vulnerability exploited during the attack.
 	-   Reduce or eliminate impact of attack
 	-   Operate after/following an attack
 	-   Examples include backup, patch management, lessons learned, ...
 
 While most controls can be classed functionally as preventative, detective, or corrective, a few other types can be used to define other cases:
 
--   ==Physical==—controls such as alarms, gateways, locks, lighting, security cameras, and guards that deter and detect access to premises and hardware are often classed separately.
--   ==Deterrent==—the control may not physically or logically prevent access, but psychologically discourages an attacker from attempting an intrusion. This could include signs and warnings of legal penalties against trespass or intrusion.
--   ==Compensating==—the control serves as a substitute for a principal control, as recommended by a security standard, and affords the same (or better) level of protection but uses a different methodology or technology.
+-   **Physical**—controls such as alarms, gateways, locks, lighting, security cameras, and guards that deter and detect access to premises and hardware are often classed separately.
+-   **Deterrent**—the control may not physically or logically prevent access, but psychologically discourages an attacker from attempting an intrusion. This could include signs and warnings of legal penalties against trespass or intrusion.
+-   **Compensating**—the control serves as a substitute for a principal control, as recommended by a security standard, and affords the same (or better) level of protection but uses a different methodology or technology.
 
 Security control functional types.
 
 
 ## NIST CYBERSECURITY FRAMEWORK
-
-A **cybersecurity framework (CSF)** is a list of activities and objectives undertaken to mitigate risks. The use of a framework allows an organization to make an objective statement of its current cybersecurity capabilities, identify a target level of capability, and prioritize investments to achieve that target. This is valuable for giving a structure to internal risk management procedures and provides an externally verifiable statement of regulatory compliance. Frameworks are also important because they save an organization from building its security program in a vacuum, or from building the program on a foundation that fails to account for important security concepts.
+#C_managerial A framework is managerial control.
+A **cybersecurity framework (CSF) is a list of activities and objectives undertaken to mitigate risks.** The use of a framework allows an organization to make an objective statement of its current cybersecurity capabilities, identify a target level of capability, and prioritize investments to achieve that target. This is valuable for giving a structure to internal risk management procedures and provides an externally verifiable statement of regulatory compliance. Frameworks are also important because they save an organization from building its security program in a vacuum, or from building the program on a foundation that fails to account for important security concepts.
 
 There are many different frameworks, each of which categorize cybersecurity activities and controls in slightly different ways. These frameworks are non-regulatory in the sense that they do not attempt to address the specific regulations of a specific industry but represent **"best practice"** in IT security governance generally. Most organizations will have historically chosen a particular framework; some may use multiple frameworks in conjunction.
 
@@ -103,7 +103,7 @@ The International Organization for Standardization (ISO) has produced a cybersec
 
 ### ISO 31K
 
-Where ISO 27K is a cybersecurity framework, ISO 31K ([iso.org/iso-31000-risk-management.html](https://www.iso.org/iso-31000-risk-management.html)) is an overall framework for enterprise risk management (ERM). ERM considers risks and opportunities beyond cybersecurity by including financial, customer service, competition, and legal liability factors. ISO 31K establishes best practices for performing risk assessments.
+Where ISO 27K is a cybersecurity framework, ISO 31K ([iso.org/iso-31000-risk-management.html](https://www.iso.org/iso-31000-risk-management.html)) is an overall framework for enterprise risk management (ERM). ERM considers risks and opportunities beyond cybersecurity by including financial, customer service, competition, and legal liability factors. #assessment  ISO 31K establishes best practices for performing risk assessments.
 
 ### Cloud Security Alliance
 

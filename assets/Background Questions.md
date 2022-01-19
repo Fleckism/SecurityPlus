@@ -77,11 +77,17 @@ attack   Incident response
 
 #implement:  Put a decision or plan into effect
 
+asfjkl test search
 
 #IoA_C 
 #threat
 
+# Making sense of my tags
+Is a #assessment  the same as a #F_detect  or #F_identify 
 
 
 
 	
+	
+	
+	Is a #assessment the same as a #F_detect or #F_identify_ 
