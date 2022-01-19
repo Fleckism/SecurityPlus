@@ -81,6 +81,23 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "136abdaccd195a49",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes from slides.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
@@ -91,6 +108,7 @@
   "active": "9d68fe6b9a5064f6",
   "lastOpenFiles": [
     "Notes from slides.md",
+    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
     "Performance-based questions.md",
     "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md",
     "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
@@ -98,7 +116,6 @@
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
     "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
     "FlashCard.md",
-    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
-    "assets/Security Acronyms.md"
+    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md"
   ]
 }
