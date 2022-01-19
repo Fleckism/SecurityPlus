@@ -37,27 +37,81 @@ A threat actor has no privileged information about the website configuration or
 You are agreeing a proposal to run a series of team-based exercises to test security controls under different scenarios. You propose using purple team testing, but the contracting company is only familiar with the concept of red and blue teams. What is the advantage of running a purple team exercise?
 
 ## Answer:
+In a red versus blue team, there is no contact between the teams, and no opportunity to collaborate on improving security controls. In a purple team exercise, there is regular contact and knowledge sharing between the teams throughout the progression of the exercise.
+
+## Question:
+
+Why should an Internet service provider (ISP) be informed before pen testing on a hosted website takes place?
+
+## Answer:
+
+ISPs monitor their networks for suspicious traffic and may block the test attempts. The pen test may also involve equipment owned and operated by the ISP.
+
+## Question:
+What tools are used for OSINT?
+## Answer:
+Open-source intelligence is a reconnaissance activity to gather information about the target from any public source. The basic tool is web searches/queries plus sites that scan/scrape/monitor vulnerabilities in Internet-facing services and devices. There are also specialist OSINT tools, such as theHarvester, that aggregate data from queries of different resources.
+## Question:
+In the context of penetration testing, what is persistence?
+## Answer:
+Persistence refers to the tester's ability to reconnect to the compromised host and use it as a remote access tool (RAT) or backdoor.
+
 ## Question:
 
 ## Answer:
+
 ## Question:
 
 ## Answer:
+
 ## Question:
 
 ## Answer:
+
 ## Question:
 
 ## Answer:
+
 ## Question:
 
 ## Answer:
+
 ## Question:
 
 ## Answer:
+
 ## Question:
 
 ## Answer:
+
+## Question:
+
+## Answer:
+
+## Question:
+
+## Answer:
+
+## Question:
+
+## Answer:
+
+## Question:
+
+## Answer:
+
+## Question:
+
+## Answer:
+
+## Question:
+
+## Answer:
+
+## Question:
+
+## Answer:
+
 ## Question:
 
 ## Answer:
