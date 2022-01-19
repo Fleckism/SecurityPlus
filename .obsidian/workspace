@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "assets/Background Questions.md",
+            "file": "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zone_transfer",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/Background Questions.md",
+                "file": "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,19 +104,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 230.5
   },
   "active": "9d68fe6b9a5064f6",
   "lastOpenFiles": [
+    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "assets/Security Acronyms.md",
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "Notes from slides.md",
     "assets/Background Questions.md",
     "My notes.md",
-    "Notes from slides.md",
-    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
     "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
     "assets/Key Security Terms Definitions.md",
-    "assets/Security Acronyms.md",
-    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
-    "assets/Scripts.md"
+    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md"
   ]
 }

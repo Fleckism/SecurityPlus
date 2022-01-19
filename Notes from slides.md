@@ -285,7 +285,7 @@ In terms of threat intelligence, this AI-backed analysis might perform accurate 
 Identifying the signs of a past attack or the presence of live attack tools on a network quickly is valuable. However, one of the goals of using AI-backed threat intelligence is to perform predictive analysis, or threat forecasting. This means that the system can anticipate a particular type of attack and possibly the identity of the threat actor before the attack is fully realized. For example, the system tags references to a company, related IP addresses, and account names across a range of ingested data from dark web sources, web searches, social media posts, phishing email attempts, and so on. The analysis engine associates this "chatter" with IP addresses that it can correlate with a known adversary group. This gives the target advance warning that an attack is in the planning stages and more time to prepare an effective defense.
 
 Such concrete threat forecasting is not a proven capability of any commercial threat intelligence platform at the time of writing. However, predictive analysis can inform risk assessment by giving more accurate, quantified measurements of the likelihood and impact (cost) of breach-type events.
-# 3A
+# 3A Security assessment?
 ## LESSON INTRODUCTION
 
 Security assessment refers to processes and tools that evaluate the attack surface. With knowledge of adversary tactics and capabilities, you can assess whether points on the attack surface are potentially vulnerable attack vectors. The output of assessment is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by threat actors. 
@@ -554,11 +554,11 @@ The term zero-day is usually applied to the vulnerability itself but can also re
 Zero-day vulnerabilities have significant financial value. A zero-day exploit for a mobile OS can be worth millions of dollars. Consequently, an adversary will only use a zero-day vulnerability for high value attacks. State security and law enforcement agencies are known to stockpile zero-days to facilitate the investigation of crimes.
 
 A legacy platform is one that is no longer supported with security patches by its developer or vendor. This could be a PC/laptop/smartphone, networking appliance, peripheral device, Internet of Things device, operating system, database/programming environment, or software application. By definition, legacy platforms are unpatchable. Such systems are highly likely to be vulnerable to exploits and must be protected by security controls other than patching, such as isolating them to networks that an attacker cannot physically connect to.
-## WEAK HOST CONFIGURATIONS
+## WEAK HOST CONFIGURATIONS #vulnerability 
 
 While ineffective patch and configuration management policies and procedures represent one type of vulnerability, weak configurations can have similar impacts.
 
-### Default Settings #vulnerability 
+### Default Settings 
 
 Relying on the manufacturer default settings when deploying an appliance or software applications is one example of weak configuration. It is not sufficient to rely on the vendor to ship products in a default-secure configuration, though many now do. Default settings may leave unsecure interfaces enabled that allow an attacker to compromise the device. Network appliances with weak settings can allow attackers to move through the network unhindered and snoop on traffic.
 

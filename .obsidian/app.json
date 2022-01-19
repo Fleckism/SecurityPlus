@@ -33,5 +33,6 @@
     "unmonitored",
     "DDoS",
     "cryptographic"
-  ]
+  ],
+  "foldIndent": true
 }
