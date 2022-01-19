@@ -1,0 +1,1 @@
+Diagnosis:  			Adversary Technique: 	 		Adversary Tactic
