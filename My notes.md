@@ -28,4 +28,4 @@ IoC:  are “pieces of forensic data, such as data found in system log entries o
 #vulnerability : is a weakness which can be exploited by a threat actor
 
 # implement
-#implement:  Put a decision or plan into effect
+#implementations:  Put a decision or plan into effect

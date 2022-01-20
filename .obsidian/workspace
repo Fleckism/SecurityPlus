@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Markdown Notes.md",
+            "file": "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "appendix",
+                "query": "CIA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown Notes.md",
+                "file": "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +107,15 @@
   },
   "active": "9d68fe6b9a5064f6",
   "lastOpenFiles": [
+    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
+    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+    "Z_assets/Security Acronyms.md",
     "Markdown Notes.md",
-    "Untitled.md",
     "My notes.md",
+    "Course Map.md",
     "Z_assets/Mapping Course Content to CompTIA Security+ (Exam SY0-601).pdf",
     "Z_assets/Key Security Terms Definitions.md",
     "Z_assets/My Questions.md",
-    "Z_assets/Scripts.md",
-    "Z_archive/Notes from slides.md",
-    "My notes/Notes from tests/My Lab Notes.md",
-    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md"
+    "Z_assets/Scripts.md"
   ]
 }

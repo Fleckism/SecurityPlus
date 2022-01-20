@@ -5,13 +5,13 @@ This table describes where the exam objectives for Exam SY0-601 are covered in t
 course.
 Domain and Objective
 Covered in
-1.0 Attacks, Threats, and Vulnerabilities
+
+# 1.0 Attacks, Threats, and Vulnerabilities
 Lesson 4, Topic A
-1.1 Compare and contrast different types of social
-engineering techniques
+1.1 Compare and contrast different types of social engineering techniques
 Lesson 4, Topic A
-Phishing
-Lesson 4, Topic A
+|-----------------------------------------|
+| Phishing | Lesson 4, Topic A |
 Smishing
 Lesson 4, Topic A
 Vishing
