@@ -7,12 +7,8 @@
         "id": "9d68fe6b9a5064f6",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
-            "mode": "source",
-            "backlinks": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CIA",
+                "query": "tag:#fleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +53,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -88,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +103,15 @@
   },
   "active": "9d68fe6b9a5064f6",
   "lastOpenFiles": [
-    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
+    "CIA.md",
     "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+    "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
     "Z_assets/Security Acronyms.md",
     "Markdown Notes.md",
     "My notes.md",
-    "Course Map.md",
-    "Z_assets/Mapping Course Content to CompTIA Security+ (Exam SY0-601).pdf",
-    "Z_assets/Key Security Terms Definitions.md",
-    "Z_assets/My Questions.md",
-    "Z_assets/Scripts.md"
+    "Course Map.md"
   ]
 }
