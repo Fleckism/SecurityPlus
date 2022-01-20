@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+            "file": "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
             "mode": "source",
             "backlinks": true
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+                "file": "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +107,7 @@
   },
   "active": "9d68fe6b9a5064f6",
   "lastOpenFiles": [
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
     "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
     "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
     "assets/Background Questions.md",
@@ -115,7 +116,6 @@
     "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md",
     "Performance-based questions.md",
     "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
-    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md"
+    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md"
   ]
 }
