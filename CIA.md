@@ -1,1 +1,0 @@
-confidentiality, integrity, and availability

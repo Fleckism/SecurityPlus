@@ -7,8 +7,24 @@
         "id": "9d68fe6b9a5064f6",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+            "mode": "source",
+            "backlinks": true
+          }
+        }
+      },
+      {
+        "id": "7187982612ff8b81",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My notes.md",
+            "mode": "source",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -53,12 +69,11 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 394
+    "width": 204.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -85,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,19 +115,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "active": "9d68fe6b9a5064f6",
   "lastOpenFiles": [
-    "CIA.md",
     "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+    "linked words/CIA.md",
+    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
+    "vulnerability.md",
+    "threats.md",
+    "My notes.md",
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
     "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
     "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
-    "Z_assets/Security Acronyms.md",
-    "Markdown Notes.md",
-    "My notes.md",
-    "Course Map.md"
+    "Z_assets/Security Acronyms.md"
   ]
 }
