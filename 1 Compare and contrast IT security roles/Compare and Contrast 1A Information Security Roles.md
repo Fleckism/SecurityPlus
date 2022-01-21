@@ -72,7 +72,7 @@ Some security models and researchers identify other properties that secure syste
 
 ## CYBERSECURITY FRAMEWORK
 
-Within the goal of ensuring information security, cybersecurity refers specifically to provisioning secure processing hardware and software. Information security and cybersecurity tasks can be classified as **five functions**, following the framework developed by the National Institute of Standards and Technology (NIST) ([nist.gov/cyberframework/online-learning/five-functions](https://www.nist.gov/cyberframework/online-learning/five-functions)):
+Within the goal of ensuring information security, cybersecurity refers specifically to provisioning secure processing hardware and software. Information security and cybersecurity tasks can be classified as [[five functions]], following the framework developed by the National Institute of Standards and Technology (NIST) ([nist.gov/cyberframework/online-learning/five-functions](https://www.nist.gov/cyberframework/online-learning/five-functions)):
  
 -   #F_identify —develop security policies and capabilities. Evaluate risks, [[threats]], and vulnerabilities and recommend security controls to mitigate them.
 -   #F_protect —procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operations life cycle.

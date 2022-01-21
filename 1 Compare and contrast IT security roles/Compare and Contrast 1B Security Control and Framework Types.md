@@ -7,14 +7,14 @@ Information and cybersecurity assurance is usually considered to take place with
 
 A security control is something designed to give a system or data asset the properties of confidentiality, integrity, availability, and non-repudiation. Controls can be divided into three broad categories, representing the way the control is implemented:
 
--   ==Technical==—the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.  
+-   #C_technical —the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.  
 	-   Operate without much intervention once configured
--   ==Operational==—the control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.	
+-   #C_operational —the control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.	
 	-   Day-to-day administration of security system
 	-   Tactical reporting and insights
 	-   Controls that require people to implement or administer
 	-   Standard operating procedures
--   ==Managerial==—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
+-  #C_managerial —the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
 	- Oversight of the security system
 	-   Strategic reporting and insights
 	-   Risk assessment
@@ -26,7 +26,7 @@ Although it uses a more complex scheme, it is worth being aware of the most curr
 ## SECURITY CONTROL FUNCTIONAL TYPES
 
 Security controls can also be classified in types according to the goal or function they perform:
-
+#fleck 
 -   ==Preventive==—the control acts to eliminate or reduce the likelihood that an attack can succeed. A preventative control operates before an attack can take place. Access control lists (ACL) configured on firewalls and file system objects are preventative-type controls. Anti-malware software also acts as a preventative control, by blocking processes identified as malicious from executing. Directives and standard operating procedures (SOPs) can be thought of as administrative versions of preventative controls.
 	-   Reduce likelihood of attack
 	-   Operate before/preceding an attack
@@ -51,9 +51,9 @@ Security control functional types.
 
 ## NIST CYBERSECURITY FRAMEWORK
 
-A **cybersecurity framework (CSF)** is a list of activities and objectives undertaken to mitigate risks. The use of a framework allows an organization to make an objective statement of its current cybersecurity capabilities, identify a target level of capability, and prioritize investments to achieve that target. This is valuable for giving a structure to internal risk management procedures and provides an externally verifiable statement of regulatory compliance. Frameworks are also important because they save an organization from building its security program in a vacuum, or from building the program on a foundation that fails to account for important security concepts.
+A **cybersecurity framework (CSF) is a list of activities and objectives undertaken to mitigate risks.** The use of a framework allows an organization to make an objective statement of its current cybersecurity capabilities, identify a target level of capability, and prioritize investments to achieve that target. This is valuable for giving a structure to internal risk management procedures and provides an externally verifiable statement of regulatory compliance. Frameworks are also important because they save an organization from building its security program in a vacuum, or from building the program on a foundation that fails to account for important security concepts.
 
-There are many different frameworks, each of which categorize cybersecurity activities and controls in slightly different ways. These frameworks are non-regulatory in the sense that they do not attempt to address the specific regulations of a specific industry but represent **"best practice"** in IT security governance generally. Most organizations will have historically chosen a particular framework; some may use multiple frameworks in conjunction.
+There are many different frameworks, each of which categorize cybersecurity activities and controls in slightly different ways. These frameworks are **non-regulatory in the sense that they do not attempt to address the specific regulations of a specific industry but represent "best practice"** in IT security governance generally. Most organizations will have historically chosen a particular framework; some may use multiple frameworks in conjunction.
 
 Most frameworks are developed for an international audience; others are focused on a domestic national audience. Most of the frameworks are associated with certification programs to show that staff and consultants can apply the methodologies successfully.
 
