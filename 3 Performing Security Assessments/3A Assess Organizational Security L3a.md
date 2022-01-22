@@ -25,7 +25,7 @@ Basic topology discovery tasks can be accomplished using the command line tools 
 
 -   ipconfig—show the configuration assigned to network interface(s) in Windows, including the hardware or media access control (MAC) address, IPv4 and IPv6 addresses, **default gateway, and whether the address is static or assigned by DHCP. If the address is DHCP-assigned, the output also shows the address of the DHCP server that provided the lease (To detect spoofing).  
 -   ifconfig—show the configuration assigned to network interface(s) in Linux.
--   ping—probe a host on a particular IP address or host name using Internet Control Message Protocol (ICMP). You can use ping with a simple script to perform a sweep of all the IP addresses in a subnet. The following example will scan the 10.1.0.0/24 subnet from a Windows machine:
+-   #implementations  **ping—probe a host on a particular IP address or host name using Internet Control Message Protocol (ICMP)**. You can use ping with a simple script to perform a sweep of all the IP addresses in a subnet. The following example will scan the 10.1.0.0/24 subnet from a Windows machine:
 
 for /l %i in (1,1,255) do @ping -n 1 -w 100 10.1.0.%i | find /i "reply"
 

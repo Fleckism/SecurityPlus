@@ -1,0 +1,1 @@
+vulnerability is exploited before the developer knows about it or can release a patch. These can be extremely destructive, as it can take the vendor some time to develop a patch, leaving systems vulnerable in the interim.

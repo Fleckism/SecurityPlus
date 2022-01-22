@@ -1,7 +1,7 @@
 {
   "foldHeading": true,
-  "newFileLocation": "root",
-  "newFileFolderPath": "\\assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "\\SercurityPlus\\",
   "attachmentFolderPath": "./assets",
   "spellcheck": true,
   "spellcheckDictionary": [
