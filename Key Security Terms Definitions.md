@@ -110,3 +110,17 @@ IoC:  are “pieces of forensic data, such as data found in system log entries o
 
 # zero-day vulnerability
 #threat  zero-day vulnerability is exploited before the developer knows about it or can release a patch. These can be extremely destructive, as it can take the vendor some time to develop a patch, leaving systems vulnerable in the interim.
+
+# Organized
+#fleck Function: Are what controls tell you to do.?
+	What something does or is used for
+#fleck Control:  Are the processes you have in place.
+
+Cipher: An encrypted algorithm
+unsecured protocol: is one that transfers data as cleartext—that is, the protocol does not use encryption for data protection.
+#fleck 
+#F_detect : To discover or find by careful search.
+#F_respond : A reaction
+#F_identify : To establish the identity of someone or something.
+#threat :  A source of danger
+#C_managerial :Policies, procedures, rules of behavior

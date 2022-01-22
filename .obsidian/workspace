@@ -16,12 +16,12 @@
         }
       },
       {
-        "id": "a38cc6ba2e23dce3",
+        "id": "0b6dc27d365a6dec",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+            "file": "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
             "mode": "source",
             "backlinks": true
           }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\" Operating System\"",
+                "query": "reconnaissance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+                "file": "My notes/Notes from tests/archived test Lesson 3 you can't redo these!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,17 +118,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "a38cc6ba2e23dce3",
+  "active": "3aa124fbe2e17778",
   "lastOpenFiles": [
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
     "My notes/Notes from tests/archived test Lesson 3 you can't redo these!.md",
-    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
-    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
     "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "2 Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
+    "Z_archive/Notes from slides.md",
     "Key Security Terms Definitions.md",
+    "Security Acronyms.md",
+    "My linked notes/five functions.md",
+    "false negatives.md",
     "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
-    "My notes.md",
-    "My linked notes/five functions.md"
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md"
   ]
 }

@@ -34,5 +34,6 @@
     "DDoS",
     "cryptographic"
   ],
-  "foldIndent": false
+  "foldIndent": false,
+  "alwaysUpdateLinks": true
 }

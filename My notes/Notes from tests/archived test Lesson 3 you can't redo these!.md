@@ -242,6 +242,7 @@ A packet analyzer works in conjunction with a sniffer to perform traffic analysi
 
 A packet injection involves sending forged or spoofed network traffic by inserting (or injecting) frames into the network stream. Packets are not captured with packet injection.
 # q 
+#fleck not really talked about by chapter 3
 Analyze and eliminate the item that is NOT an example of a reconnaissance technique.
 
 1.  **Initial exploitation**
