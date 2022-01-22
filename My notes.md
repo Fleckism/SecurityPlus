@@ -29,3 +29,8 @@ IoC:  are “pieces of forensic data, such as data found in system log entries o
 
 # implement
 #implementations:  Put a decision or plan into effect
+
+# Read Carefully!
+- When you see a color black, white, red, blue!
+	- Look to see if it is referencing a team, hat, or box!!!
+	- Don't jump to conclusions and be fooled!

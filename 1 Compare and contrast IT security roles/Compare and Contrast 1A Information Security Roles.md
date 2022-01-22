@@ -56,7 +56,7 @@ Attack frameworks
 
 
 
-#fleck is the man
+
 ## Information Security
 Information security (or infosec) refers to the protection of data resources from unauthorized access, attack, theft, or damage. Data may be vulnerable because of the way it is stored, the way it is transferred, or the way it is processed. The systems used to store, transmit, and process data must demonstrate the properties of security. Secure information has three properties, often referred to as the [[CIA]] Triad: 
 

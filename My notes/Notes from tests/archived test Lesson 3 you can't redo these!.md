@@ -177,7 +177,8 @@ Pivoting follows persistence. It involves a system and/or set of privileges that
 Examine each attack vector. Which is most vulnerable to escalation of privileges?
 
 1.  Software
-==2.  Operating System (OS)==3.  Applications
+==2.  Operating System (OS)==
+3.  Applications
 4.  Ports
 
 Solution

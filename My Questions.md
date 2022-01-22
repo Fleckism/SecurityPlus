@@ -26,6 +26,9 @@
 # Making sense of my tags
 Is a #assessment  the same as a #F_detect  or #F_identify 
 
+This is confusing?
+**Bypass security controls**—look for easy ways to attack the system. For example, if the network is strongly protected by a firewall, is it possible to gain physical access to a computer in the building and run malware from a USB stick?
+
 
 
 	

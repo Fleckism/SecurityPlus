@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
+            "file": "My notes/Notes from tests/archived test Lesson 3 you can't redo these!.md",
             "mode": "source",
             "backlinks": true
           }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Z_archive/archived test Lesson 3 you can't redo these!.md",
+            "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
             "mode": "source",
             "backlinks": true
           }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"test security controls\"",
+                "query": "\" Operating System\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
+                "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,17 +118,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "3aa124fbe2e17778",
+  "active": "a38cc6ba2e23dce3",
   "lastOpenFiles": [
-    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
-    "Z_assets/Key Security Terms Definitions.md",
-    "five functions.md",
     "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "Z_archive/archived test Lesson 3 you can't redo these!.md",
-    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
-    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
-    "My notes.md",
+    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
+    "My notes/Notes from tests/archived test Lesson 3 you can't redo these!.md",
     "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
-    "Z_archive/Notes from slides.md"
+    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "Key Security Terms Definitions.md",
+    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+    "My notes.md",
+    "My linked notes/five functions.md"
   ]
 }

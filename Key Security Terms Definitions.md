@@ -107,3 +107,6 @@ IoC:  are “pieces of forensic data, such as data found in system log entries o
 
 # implement
 #implementations:  Put a decision or plan into effect
+
+# zero-day vulnerability
+#threat  zero-day vulnerability is exploited before the developer knows about it or can release a patch. These can be extremely destructive, as it can take the vendor some time to develop a patch, leaving systems vulnerable in the interim.
