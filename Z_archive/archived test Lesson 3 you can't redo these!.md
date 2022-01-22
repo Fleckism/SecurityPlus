@@ -53,7 +53,7 @@ Weak encryption vulnerabilities allow unauthorized access to data. An algorithm 
 If a decryption key is not distributed securely, it can easily fall into the hands of people who are not authorized to decrypt the data.
 
 # q4
-Following a data breach at a large retail company, their public relations team issues a statement emphasizing the company’s commitment to consumer privacy. Identify the true statements concerning this event. **(Select all that apply.)**
+Following a **data breach** at a large retail company, their public relations team issues a statement emphasizing the company’s commitment to consumer privacy. Identify the true statements concerning this event. **(Select all that apply.)**
 
 1.  The data breach must be an intentional act of corporate sabotage.
 2.  ==The privacy breach may allow the threat actor to sell the data to other malicious actors.==

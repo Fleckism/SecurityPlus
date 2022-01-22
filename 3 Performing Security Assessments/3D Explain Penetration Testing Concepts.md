@@ -8,10 +8,10 @@ Automated vulnerability scanning does not test what a highly capable threat acto
 
 A penetration test—often shortened to _pen test_—uses authorized hacking techniques to discover exploitable weaknesses in the target's security systems. Pen testing is also referred to as _ethical hacking._ A pen test might involve the following steps:
 
--   Verify a threat exists—use surveillance, social engineering, network scanners, and vulnerability assessment tools to identify a vector by which vulnerabilities could be exploited.
--   Bypass security controls—look for easy ways to attack the system. For example, if the network is strongly protected by a firewall, is it possible to gain physical access to a computer in the building and run malware from a USB stick?
--   Actively test security controls—probe controls for configuration weaknesses and errors, such as weak passwords or software vulnerabilities.
--   Exploit vulnerabilities—prove that a vulnerability is high risk by exploiting it to gain access to data or install backdoors.
+-   **Verify a threat exists**—use surveillance, social engineering, network scanners, and vulnerability assessment tools to identify a vector by which vulnerabilities could be exploited.
+-   **Bypass security controls**—look for easy ways to attack the system. For example, if the network is strongly protected by a firewall, is it possible to gain physical access to a computer in the building and run malware from a USB stick?
+-   **Actively test security controls**—probe controls for configuration weaknesses and errors, such as weak passwords or software vulnerabilities.
+-   **Exploit vulnerabilities**—prove that a vulnerability is high risk by exploiting it to gain access to data or install backdoors.
 
 The key difference from passive vulnerability assessment is that an attempt is made to actively test security controls and exploit any vulnerabilities discovered. Pen testing is an intrusive assessment technique. For example, a vulnerability scan may reveal that an SQL Server has not been patched to safeguard against a known exploit. A penetration test would attempt to use the exploit to perform code injection and compromise and "own" (or "pwn" in hacker idiom) the server. This provides active testing of security controls. Even though the potential for the exploit exists, in practice the permissions on the server might prevent an attacker from using it. This would not be identified by a vulnerability scan, but should be proven or not proven to be the case by penetration testing.
 
@@ -25,9 +25,9 @@ The Pentest-Standard website provides invaluable commentary on the conduct of pe
 
 Attacks come from different sources and motivations. You may wish to test both resistance to external (targeted and untargeted) and insider threats. You need to determine how much information about the network to provide to the consultant:
 
--   Black box (or unknown environment)—the consultant is given no privileged information about the network and its security systems. This type of test would require the tester to perform a reconnaissance phase. Black box tests are useful for simulating the behavior of an external threat.
--   White box (or known environment)—the consultant is given complete access to information about the network. This type of test is sometimes conducted as a follow-up to a black box test to fully evaluate flaws discovered during the black box test. The tester skips the reconnaissance phase in this type of test. White box tests are useful for simulating the behavior of a privileged insider threat.
--   Gray box (or partially known environment)—the consultant is given some information; typically, this would resemble the knowledge of junior or non-IT staff to model particular types of insider threats. This type of test requires partial reconnaissance on the part of the tester. Gray box tests are useful for simulating the behavior of an unprivileged insider threat.
+-   **Black box (or unknown environment)**—the consultant is given no privileged information about the network and its security systems. This type of test would require the tester to perform a reconnaissance phase. Black box tests are useful for simulating the behavior of an external threat.
+-   **White box (or known environment)**—the consultant is given complete access to information about the network. This type of test is sometimes conducted as a follow-up to a black box test to fully evaluate flaws discovered during the black box test. The tester skips the reconnaissance phase in this type of test. White box tests are useful for simulating the behavior of a privileged insider threat.
+-   **Gray box (or partially known environment)**—the consultant is given some information; typically, this would resemble the knowledge of junior or non-IT staff to model particular types of insider threats. This type of test requires partial reconnaissance on the part of the tester. Gray box tests are useful for simulating the behavior of an unprivileged insider threat.
 
 A test where the attacker has no knowledge of the system but where staff are informed that a test will take place is referred to as a _blind_ (or _single-blind_) test. A test where staff are not made aware that a pen test will take place is referred to as a _double-blind test._
 

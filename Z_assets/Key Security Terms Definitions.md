@@ -63,10 +63,13 @@ Technique: A method( A systematic way of doing something implies an orderly logi
 Procedure:  A particular course of action.
 - A set of techniques is a procedure.
 
-Function: Are what controls tell you to do.?
+#fleck Function: Are what controls tell you to do.?
 	What something does or is used for
-Control:  Are the processes you have in place.
+#fleck Control:  Are the processes you have in place.
 
+Cipher: An encrypted algorithm
+unsecured protocol: is one that transfers data as cleartext—that is, the protocol does not use encryption for data protection.
+#fleck 
 #F_detect : To discover or find by careful search.
 #F_respond : A reaction
 #F_identify : To establish the identity of someone or something.
