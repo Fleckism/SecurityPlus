@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+            "file": "Z_assets/Key Security Terms Definitions.md",
             "mode": "source",
             "backlinks": true
           }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+            "file": "Z_archive/archived test Lesson 3 you can't redo these!.md",
             "mode": "source",
             "backlinks": true
           }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"active scanning\"",
+                "query": "\"brute-force enumeration",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+                "file": "Z_assets/Key Security Terms Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,15 +119,15 @@
   },
   "active": "3aa124fbe2e17778",
   "lastOpenFiles": [
-    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
-    "Z_archive/archived test Lesson 3 you can't redo these!.md",
-    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
     "Z_assets/Key Security Terms Definitions.md",
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "Z_archive/archived test Lesson 3 you can't redo these!.md",
+    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
     "My notes.md",
     "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
     "Z_archive/Notes from slides.md",
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md",
-    "2 Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md"
+    "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md"
   ]
 }
