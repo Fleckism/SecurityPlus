@@ -1,5 +1,5 @@
 ## LESSON INTRODUCTION
-#Progress_mark
+
 Security #assessment refers to processes and tools that evaluate the attack surface. With knowledge of adversary tactics and capabilities, you can assess whether points on the attack surface are potentially vulnerable attack vectors. The output of [[assessment]] is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by [[threat]] actors. 
 
 Lesson Objectives
@@ -19,7 +19,7 @@ Reconnaissance is a type of assessment activity that maps the potential attack s
 ## ipconfig, ping, and ARP
 The process of mapping out the attack surface is referred to as network reconnaissance and discovery. Reconnaissance techniques are used by threat actors, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
 
-**Topology discovery** (or "footprinting") means scanning for hosts, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors. 
+[[Topology discovery]]* (or "footprinting") means scanning for hosts, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors. 
 
 Basic topology discovery tasks can be accomplished using the command line tools built into Windows and Linux. The following tools report the IP configuration and test connectivity on the local network segment or subnet.
 
@@ -70,7 +70,7 @@ The basic syntax of an Nmap command is to give the IP subnet (or IP host address
 
 Nmap default scan listing open ports from within the default range. (Screenshot Nmap [nmap.org](https://nmap.org/).)
 #assessment 
-This OS fingerprinting can be time-consuming on a large IP scope and is also non-stealthy. If you want to perform only host discovery, you can use Nmap with the -sn switch (or -sP in earlier versions) to suppress the port scan.
+This OS [[fingerprinting]] can be time-consuming on a large IP scope and is also non-stealthy. If you want to perform only host discovery, you can use Nmap with the -sn switch (or -sP in earlier versions) to suppress the port scan.
 ## SERVICE DISCOVERY AND NMAP
 
 Having identified active IP hosts on the network and gained an idea of the network topology, the next step in network reconnaissance is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services. This process is described as service discovery. Service discovery can also be used defensively, to probe potential rogue systems and identify the presence of unauthorized network service ports.
@@ -79,29 +79,29 @@ Having identified active IP hosts on the network and gained an idea of the netwo
 
 When Nmap completes a host discovery scan, it will report on the state of each port scanned for each IP address in the scope. At this point, you can run additional service discovery scans against one or more of the active IP addresses. Some of the principal options for service discovery scans are:
 
--   TCP SYN (-sS)—this is a fast technique also referred to as half-open scanning, as the scanning host requests a connection without acknowledging it. The target's response to the scan's SYN packet identifies the port state.
--   UDP scans (-sU)—scan UDP ports. As these do not use ACKs, Nmap needs to wait for a response or timeout to determine the port state, so UDP scanning can take a long time. A UDP scan can be combined with a TCP scan.
+-   [[TCP]] SYN (-sS)—this is a fast technique also referred to as half-open scanning, as the scanning host requests a connection without acknowledging it. The target's response to the scan's SYN packet identifies the port state.
+-   [[UDP]] scans (-sU)—scan UDP ports. As these do not use ACKs, Nmap needs to wait for a response or timeout to determine the port state, so UDP scanning can take a long time. A UDP scan can be combined with a TCP scan.
 -   Port range (-p)—by default, Nmap scans 1000 commonly used ports, as listed in its configuration file. Use the -p argument to specify a port range.
 
 ### Service and Version Detection and OS Fingerprinting with Nmap
 
-The detailed analysis of services on a particular host is often called fingerprinting. This is because each OS or application software that underpins a network service responds to probes in a unique way. This allows the scanning software to guess at the software name and version, without having any sort of privileged access to the host. This can also be described as banner grabbing, where the banner is the header of the response returned by the application.
+The detailed analysis of services on a particular host is often called [[fingerprinting]]. This is because each OS or application software that underpins a network service responds to probes in a unique way. This allows the scanning software to guess at the software name and version, without having any sort of privileged access to the host. This can also be described as banner grabbing, where the banner is the header of the response returned by the application.
 
 When services are discovered, you can use Nmap with the -sV or -A switch to probe a host more intensively to discover the following information:
-
--   Protocol—do not assume that a port is being used for its "well known" application protocol. Nmap can scan traffic to verify whether it matches the expected signature (HTTP, DNS, SMTP, and so on).
+#assessment  
+-   Protocol—do not assume that a port is being used for its "well known" application protocol. Nmap can scan traffic to verify whether it matches the expected [[signature]] (HTTP, DNS, SMTP, and so on).
 -   Application name and version—the software operating the port, such as Apache web server or Internet Information Services (IIS) web server.
 -   OS type and version—use the -O switch to enable OS fingerprinting (or -A to use both OS fingerprinting and version discovery).
 -   Device type—not all network devices are PCs. Nmap can identify switches and routers or other types of networked devices, such as NAS boxes, printers, and webcams.
 
 Nmap fingerprinting scan results.
 
-Nmap comes with a database of application and version fingerprint signatures, classified using a standard syntax called Common Platform Enumeration (CPE). Unmatched responses can be submitted to a web URL for analysis by the community .
+Nmap comes with a database of application and version fingerprint signatures, classified using a standard syntax called Common Platform Enumeration ([[CPE]]). Unmatched responses can be submitted to a web URL for analysis by the community .
 ## NETSTAT AND NSLOOKUP
-
+#assessment  
 Basic service discovery tasks can also be performed using tools built into the Windows and Linux operating systems:
 
--   netstat—show the state of TCP/UDP ports on the local machine. The same command is used on both Windows and Linux, though with different options syntax. You can use netstat to check for service misconfigurations (perhaps a host is running a web or FTP server that a user installed without authorization). You may also be able to identify suspect remote connections to services on the local host or from the host to remote IP addresses. If you are attempting to identify malware, the most useful netstat output is to show which process is listening on which ports **(Suspicious network traffic check TCP port)**. 
+-   netstat—show the state of [[TCP]]/[[UDP]] ports on the local machine. The same command is used on both Windows and Linux, though with different options syntax. You can use netstat to check for service misconfigurations (perhaps a host is running a web or FTP server that a user installed without authorization). You may also be able to identify suspect remote connections to services on the local host or from the host to remote IP addresses. If you are attempting to identify malware, the most useful netstat output is to show which process is listening on which ports **(Suspicious network traffic check TCP port)**. 
 
 ![The first 2 items in the list are "TCP 10.1.0.1:80 ROGUE:1415 TIME_WAIT" and "TCP 10.1.0.1:80 GATEWAY:49161 ESTABLISHED"; 9 similar items follow.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7383-1599771794926.png)
 
@@ -139,15 +139,15 @@ curl is a command line client for performing data transfers over many types of p
 The list of services and version information that a host is running can be cross-checked against lists of known software vulnerabilities. This type of scanning is usually performed using automated tools. Nessus, produced by Tenable Network Security ([tenable.com/products/nessus/nessus-professional](https://www.tenable.com/products/nessus/nessus-professional)), is one of the best-known commercial vulnerability scanners. It is available in on-premises (Nessus Manager) and cloud (Tenable Cloud) versions, as well as a Nessus Professional version, designed for smaller networks. The product is free to use for home users but paid for on a subscription basis for enterprises. As a previously open-source program, Nessus also supplies the source code for many other scanners.
 ## PACKET CAPTURE AND TCPDUMP 
 
-Packet and protocol analysis is another crucial security #assessment and monitoring process:
+Packet and protocol analysis is another crucial security [[assessment]] and monitoring process:
 
 -   Packet analysis refers to deep-down frame-by-frame scrutiny of captured frames.
 -   Protocol analysis means using statistical tools to analyze a sequence of packets, or packet trace.
 
-Packet and protocol analysis depends on a sniffer tool to capture and decode the frames of data. Network traffic can be captured from a host or from a network segment. Using a host means that only traffic directed at that host is captured. Capturing from a network segment can be performed by a switched port analyzer (SPAN) port (or mirror port). This means that a network switch is configured to copy frames passing over designated source ports to a destination port, which the packet sniffer is connected to. Sniffing can also be performed over a network cable segment by using a test access port (TAP). This means that a device is inserted in the cabling to copy frames passing over it. There are passive and active (powered) versions.
+Packet and protocol analysis depends on a sniffer tool to capture and decode the frames of data. Network traffic can be captured from a host or from a network segment. Using a host means that only traffic directed at that host is captured. Capturing from a network segment can be performed by a switched port analyzer ([[SPAN]]) port (or mirror port). This means that a network switch is configured to copy frames passing over designated source ports to a destination port, which the packet sniffer is connected to. Sniffing can also be performed over a network cable segment by using a test access port ([[TAP]]). This means that a device is inserted in the cabling to copy frames passing over it. There are passive and active (powered) versions.
 
 Typically, sniffers are placed inside a firewall or close to a server of particular importance. The idea is usually to identify malicious traffic that has managed to get past the firewall. A single sniffer can generate an exceptionally large amount of data, so you cannot just put multiple sensors everywhere in the network without provisioning the resources to manage them properly. Depending on network size and resources, one or just a few sensors will be deployed to monitor key assets or network paths.
-
+[[tool]]  #z
 tcpdump is a command line packet capture utility for Linux ([linux.die.net/man/8/tcpdump](https://linux.die.net/man/8/tcpdump)). The basic syntax of the command is tcpdump -i eth0, where eth0 is the interface to listen on. The utility will then display captured packets until halted manually (Ctrl+C). Frames can be saved to a .pcap file using the -w option. Alternatively, you can open a pcap file using the -r option.
 
 tcpdump is often used with some sort of filter expression to reduce the number of frames that are captured:

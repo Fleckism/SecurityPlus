@@ -8,3 +8,11 @@
  
  1.
  **Reconnaissance** is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network.
+ 
+ **[[Topology discovery]]** (or "footprinting") means scanning for hosts, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors.
+ 
+ OS fingerprinting
+ 
+ Packet and protocol analysis is another crucial security #assessment and monitoring process:
+ -   Packet analysis refers to deep-down frame-by-frame scrutiny of captured frames.
+-   Protocol analysis means using statistical tools to analyze a sequence of packets, or packet trace.

@@ -1,4 +1,6 @@
 # Next things to do!
+- Links are great when going through the notes
+- Hashtags are good for searching for a particular subject.
 
 # Making sense of my tags
 Is a #assessment  the same as a #F_detect  or #F_identify 
