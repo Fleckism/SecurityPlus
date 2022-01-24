@@ -1,0 +1,2 @@
+- frame works gives a "high-level"**  view of how to plan IT services, it does not generally provide detailed implementation guidance. At a system level, the deployment of servers and applications is covered by benchmarks and secure configuration guides.
+- **Due diligence is a legal term meaning that responsible persons have not been negligent in discharging their duties.**

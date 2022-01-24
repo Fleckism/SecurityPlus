@@ -27,11 +27,11 @@ The outputs from the primary research undertaken by security solutions providers
 -   Reputational threat intelligence—lists of IP addresses and domains associated with malicious behavior, plus signatures of known file-based malware.
 -   Threat data—computer data that can correlate events observed on a customer's own networks and logs with known TTP and threat actor indicators.
 
-Threat data can be packaged as feeds that integrate with a **security information and event management (SIEM)** platform. These feeds are usually described as cyber threat intelligence (CTI) data. The data on its own is not a complete security solution however. To produce actionable intelligence, the threat data must be correlated with observed data from customer networks. This type of analysis is often powered by artificial intelligence (AI) features of the SIEM.
+Threat data can be packaged as feeds that integrate with a **security information and event management ([[SIEM]])** platform. These feeds are usually described as cyber threat intelligence ([[CTI]]) data. The data on its own is not a complete security solution however. To produce actionable intelligence, the threat data must be correlated with observed data from customer networks. This type of analysis is often powered by artificial intelligence (AI) features of the [[SIEM]].
 
 Threat intelligence platforms and feeds are supplied as one of four different commercial models:
 
--   Closed/proprietary—the threat research and CTI data is made available as a paid subscription to a commercial threat intelligence platform. The security solution provider will also make the most valuable research available early to platform subscribers in the form of blogs, white papers, and webinars. Some examples of such platforms include:
+-   Closed/proprietary—the threat research and [[CTI]] data is made available as a paid subscription to a commercial threat intelligence platform. The security solution provider will also make the most valuable research available early to platform subscribers in the form of blogs, white papers, and webinars. Some examples of such platforms include:
 -   IBM X-Force Exchange ([exchange.xforce.ibmcloud.com](https://exchange.xforce.ibmcloud.com/))
 -   FireEye ([fireeye.com/solutions/cyber-threat-intelligence/threat-intelligence-subscriptions.html](https://www.fireeye.com/mandiant/threat-intelligence/threat-intelligence-subscriptions.html))
 -   Recorded Future ([recordedfuture.com/solutions/threat-intelligence-feeds](https://www.recordedfuture.com/solutions/threat-intelligence-feeds/))
@@ -61,13 +61,13 @@ There are plenty of other sources of best practice advice and new research other
 As well as a source of information, social media should also be monitored for threat data ([trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/hunting-threats-on-twitter](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/hunting-threats-on-twitter)).
 ## TACTICS, TECHNIQUES, AND PROCEDURES AND INDICATORS OF COMPROMISE
 
-A tactic, technique, or procedure (TTP) is a generalized statement of adversary behavior. The term is derived from US military doctrine ([mwi.usma.edu/what-is-army-doctrine](https://mwi.usma.edu/what-is-army-doctrine/)). TTPs categorize behaviors in terms of campaign strategy and approach (tactics), generalized attack vectors (techniques), and specific intrusion tools and methods (procedures).
+A tactic, technique, or procedure ([[TTPs]]) is a generalized statement of adversary behavior. The term is derived from US military doctrine ([mwi.usma.edu/what-is-army-doctrine](https://mwi.usma.edu/what-is-army-doctrine/)). TTPs categorize behaviors in terms of campaign strategy and approach (tactics), generalized attack vectors (techniques), and specific intrusion tools and methods (procedures).
 
-An **indicator of compromise (IoC)** is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an IoC is evidence of a TTP.
+An **indicator of compromise ([[IoC]])** is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an IoC is evidence of a [[TTPs]].
 
 > TTPs describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like. ([stixproject.github.io/documentation/concepts/ttp-vs-indicator](https://stixproject.github.io/documentation/concepts/ttp-vs-indicator/))
 
-As there are many different targets and vectors of an attack, so too are there many different potential IoCs. The following is a list of some IoCs that you may encounter:
+As there are many different targets and vectors of an attack, so too are there many different potential [[IoC]]s. The following is a list of some IoCs that you may encounter:
 
 -   Unauthorized software and files
 -   Suspicious emails
@@ -80,20 +80,20 @@ As there are many different targets and vectors of an attack, so too are there m
 
 An IoC can be definite and objectively identifiable, like a malware signature, but often IoCs can only be described with confidence via the correlation of many data points. Because these IoCs are often identified through patterns of anomalous activity rather than single events, they can be open to interpretation and therefore slow to diagnose. Consequently, threat intelligence platforms use AI-backed analysis to speed up detection without overwhelming analysts' time with false positives.
 
-Strictly speaking, an IoC is evidence of an attack that was successful. The term **indicator of attack (IoA)** is sometimes also used for evidence of an intrusion attempt in progress.
+Strictly speaking, an [[IoC]] is evidence of an attack that was successful. The term **indicator of attack (IoA)** is sometimes also used for evidence of an intrusion attempt in progress.
 ## THREAT DATA FEEDS
 
-When you use a **cyber threat intelligence (CTI)** platform, you subscribe to a threat data feed. The information in the threat data can be combined with event data from your own network and system logs. An analysis platform performs correlation to detect whether any IoCs are present. There are various ways that a threat data feed can be implemented.
+When you use a **cyber threat intelligence ([[CTI]])** platform, you subscribe to a threat data feed. The information in the threat data can be combined with event data from your own network and system logs. An analysis platform performs correlation to detect whether any IoCs are present. There are various ways that a threat data feed can be implemented.
 
 ### Structured Threat Information eXpression (STIX)
 
-The OASIS CTI framework ([oasis-open.github.io/cti-documentation](https://oasis-open.github.io/cti-documentation/)) is designed to provide a format for this type of automated feed so that organizations can share CTI. **The Structured Threat Information eXpression (STIX)** part of the framework describes standard terminology for IoCs and ways of indicating relationships between them.
+The OASIS CTI framework ([oasis-open.github.io/cti-documentation](https://oasis-open.github.io/cti-documentation/)) is designed to provide a format for this type of automated feed so that organizations can share CTI. **The Structured Threat Information eXpression (STIX)** part of the framework describes standard terminology for [[IoC]]s and ways of indicating relationships between them.
 
 ![Diagram showing a STIX 2 Relationship example](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2714-1599771794586.png)
 
 STIX 2 Relationship example. (Icon images © Copyright 2016 Bret Jordan. Licensed under the Creative Commons Attribution-ShareAlike (CC BY-SA) License, Version 4.0. ([freetaxii.github.io/stix2-icons.html](https://freetaxii.github.io/stix2-icons.html).)
 
-Where STIX provides the syntax for describing CTI, the Trusted Automated eXchange of Indicator Information (TAXII) protocol provides a means for transmitting CTI data between servers and clients. For example, a CTI service provider would maintain a repository of CTI data. Subscribers to the service obtain updates to the data to load into analysis tools over TAXII. This data can be requested by the client (referred to as a _collection_), or the data can be pushed to subscribers (referred to as a _channel_).
+Where STIX provides the syntax for describing  [[CTI]], the Trusted Automated eXchange of Indicator Information (TAXII) protocol provides a means for transmitting CTI data between servers and clients. For example, a CTI service provider would maintain a repository of CTI data. Subscribers to the service obtain updates to the data to load into analysis tools over TAXII. This data can be requested by the client (referred to as a _collection_), or the data can be pushed to subscribers (referred to as a _channel_).
 
 ### Automated Indicator Sharing (AIS)
 
@@ -112,7 +112,7 @@ A file/code repository such as [virustotal.com](https://www.virustotal.com/) hol
 As well as analyzing adversary tools and behaviors, another source of threat intelligence is identifying vulnerabilities in OS, software application, and firmware code. Security researchers look for vulnerabilities, often for the reward of bug bounties offered by the vendor. Lists of vulnerabilities are stored in databases such as Common Vulnerabilities and Exposures (CVE), operated by Mitre ([cve.mitre.org](https://cve.mitre.org/)). Information about vulnerabilities is codified as signatures and scanning scripts that can be supplied as feeds to automated vulnerability scanning software.
 ## ARTIFICIAL INTELLIGENCE AND PREDICTIVE ANALYSIS
 
-A threat data feed does not produce threat intelligence automatically. The combination of security intelligence and CTI data can be processed, correlated, and analyzed to provide actionable insights that will assist you in identifying security problems. For example, security intelligence reveals that DDoS attacks were perpetrated against your web services from a range of IP addresses by collecting log and network traffic data. Threat intelligence associates those IP addresses with a hacktivist group. By linking the two sources of intelligence, you can identify goals and tactics associated with that group and use controls to mitigate further attacks. Most threat intelligence platforms use some sort of artificial intelligence (AI) to perform correlation analysis.
+A threat data feed does not produce threat intelligence automatically. The combination of security intelligence and [[CTI]] data can be processed, correlated, and analyzed to provide actionable insights that will assist you in identifying security problems. For example, security intelligence reveals that DDoS attacks were perpetrated against your web services from a range of IP addresses by collecting log and network traffic data. Threat intelligence associates those IP addresses with a hacktivist group. By linking the two sources of intelligence, you can identify goals and tactics associated with that group and use controls to mitigate further attacks. Most threat intelligence platforms use some sort of artificial intelligence (AI) to perform correlation analysis.
 
 ### AI and Machine Learning
 

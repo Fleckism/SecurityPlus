@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
+            "file": "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#C_technical",
+                "query": "siem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,12 +57,11 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 145.5
+    "width": 243
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -89,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
+                "file": "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +107,15 @@
   },
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
-    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
-    "My linked notes/CSF.md",
-    "My linked notes/NIST.md",
-    "My linked notes/security control.md",
-    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
-    "My linked notes/Frameworks.md",
-    "My notes.md",
-    "My linked notes/CIRT.md",
-    "My linked notes/implementation.md",
-    "My linked notes/threat.md"
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "My linked notes/ARP.md",
+    "My linked notes/assessment.md",
+    "2 Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
+    "My linked notes/CTI.md",
+    "My linked notes/IoC.md",
+    "My linked notes/TTPs.md",
+    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+    "My linked notes/SIEM.md",
+    "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md"
   ]
 }

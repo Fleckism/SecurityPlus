@@ -1,6 +1,6 @@
 ## LESSON INTRODUCTION
 
-To make an effective security #assessment, you must be able to explain strategies for both defense and attack. Your responsibilities are likely to lie principally in defending assets, but to do this you must be able to explain the tactics, techniques, and procedures of threat actors. You must also be able to differentiate the types and capabilities of threat actors. As the threat landscape is continually evolving, you must also be able to identify reliable sources of threat intelligence and research.
+To make an effective security #assessment,[[assessment]] you must be able to explain strategies for both defense and attack. Your responsibilities are likely to lie principally in defending assets, but to do this you must be able to explain the tactics, techniques, and procedures of threat actors. You must also be able to differentiate the types and capabilities of threat actors. As the threat landscape is continually evolving, you must also be able to identify reliable sources of threat intelligence and research.
 
 Lesson Objectives
 
@@ -16,7 +16,7 @@ EXAM OBJECTIVES COVERED
 Classifying and evaluating the capabilities of threat actor types enables you to assess and mitigate risks more effectively. Understanding the methods by which threat actors infiltrate networks and systems is essential for you to assess the attack surface of your networks and deploy controls to block attack vectors.
 ## VULNERABILITY, THREAT, AND RISK
 
-As part of security assessment and monitoring, security teams must identify ways in which their systems could be attacked. These assessments involve vulnerabilities, threats, and risk:
+As part of security [[assessment]] and monitoring, security teams must identify ways in which their systems could be attacked. These assessments involve vulnerabilities, threats, and risk:
 #fleck , #vulnerability 
 -   [[vulnerability]] is a weakness that could be triggered accidentally or exploited intentionally to cause a security breach. Examples of vulnerabilities include improperly configured or installed hardware or software, delays in applying and testing software and firmware patches, untested software and firmware patches, the misuse of software or communication protocols, poorly designed network architecture, inadequate physical security, insecure password usage, and design flaws in software or operating systems, such as unchecked user input.
 -   #threat 
@@ -93,7 +93,7 @@ CERT identifies the main motivators for malicious insider threats as sabotage, f
 Insider threats can be categorized as unintentional. An unintentional or inadvertent insider threat is a vector for an external actor, or a separate—malicious—internal actor to exploit, rather than a threat actor in its own right. Unintentional threats usually arise from lack of awareness or from carelessness, such as users demonstrating poor password management. Another example of unintentional insider threat is the concept of shadow IT, where users purchase or introduce computer hardware or software to the workplace without the sanction of the IT department and without going through a procurement and security analysis process. The problem of shadow IT is exacerbated by the proliferation of cloud services and mobile devices, which are easy for users to obtain. Shadow IT creates a new unmonitored attack surface for malicious adversaries to exploit.
 ## ATTACK SURFACE AND ATTACK VECTORS
 
-The attack surface is all the points at which a malicious threat actor could try to exploit a vulnerability. To evaluate the attack surface, you need to consider the type of threat actor. The attack surface for an external actor is (or should be) far smaller than that for an insider threat. The attack surface can be considered for a network as a whole, but is also analyzed for individual software applications. Minimizing the attack surface means restricting access so that only a few known endpoints, protocols/ports, and services/methods are permitted. Each of these must be assessed for vulnerabilities.
+**The attack surface is all the points at which a malicious threat actor could try to exploit a vulnerability.** To evaluate the attack surface, you need to consider the type of threat actor. The attack surface for an external actor is (or should be) far smaller than that for an insider threat. The attack surface can be considered for a network as a whole, but is also analyzed for individual software applications. Minimizing the attack surface means restricting access so that only a few known endpoints, protocols/ports, and services/methods are permitted. Each of these must be assessed for vulnerabilities.
 
 From the point-of-view of the threat actor, different parts of the attack surface represent potential attack vectors. An attack vector is the path that a threat actor uses to gain access to a secure system. In the majority of cases, gaining access means being able to run malicious code on the target.
 #F_detect 
