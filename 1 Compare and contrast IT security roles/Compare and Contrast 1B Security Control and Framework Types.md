@@ -1,11 +1,11 @@
 ## Exam Objectives Covered
-Information security and cybersecurity assurance is met by implementing security controls. As an information security professional, you must be able to compare types of security controls. You should also be able to describe how frameworks influence the selection and configuration of controls. By identifying basic security control types and how key frameworks and legislation drive compliance, you will be better prepared to select and implement the most appropriate controls for a given scenario.
+**Information security and cybersecurity assurance is met by implementing [[security control]]**. As an information security professional, you must be able to compare types of security controls. You should also be able to describe how frameworks influence the selection and configuration of controls. By identifying basic security control types and how key frameworks and legislation drive compliance, you will be better prepared to select and implement the most appropriate controls for a given scenario.
 
 ## SECURITY CONTROL CATEGORIES
 
 Information and cybersecurity assurance is usually considered to take place within an overall process of business risk management. Implementation of cybersecurity functions is often the responsibility of the IT department. There are many different ways of thinking about how IT services should be governed to fulfill overall business needs. Some organizations have developed IT service frameworks to provide best practice guides to implementing IT and cybersecurity. These frameworks can shape company policies and provide checklists of procedures, activities, and technologies that should ideally be in place. Collectively, these procedures, activities, and tools can be referred to as security controls.
 
-A security control is something designed to give a system or data asset the properties of confidentiality, integrity, availability, and non-repudiation. Controls can be divided into three broad categories, representing the way the control is implemented:
+- **A [[security control]] is something designed to give a system or data asset the properties of confidentiality, integrity, availability, and non-repudiation**. Controls can be divided into three broad categories, representing the way the control is implemented:
 
 -   #C_technical —the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.  
 	-   Operate without much intervention once configured
@@ -14,20 +14,20 @@ A security control is something designed to give a system or data asset the prop
 	-   Tactical reporting and insights
 	-   Controls that require people to implement or administer
 	-   Standard operating procedures
--  #C_managerial —the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
+-  #C_managerial (administrative)—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
 	- Oversight of the security system
 	-   Strategic reporting and insights
 	-   Risk assessment
 	-   Security policies
 
-Security control categories.
+[[Security control]] categories.
 
 Although it uses a more complex scheme, it is worth being aware of the most current way the National Institute of Standards and Technology (NIST) classifies security controls at the time of writing ([nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/NIST.SP.800-53r4.pdf)).
 ## SECURITY CONTROL FUNCTIONAL TYPES
 
-Security controls can also be classified in types according to the goal or function they perform:
+[[Security control]]s can also be classified in types according to the goal or function they perform:
 #fleck 
--   ==Preventive==—the control acts to eliminate or reduce the likelihood that an attack can succeed. A preventative control operates before an attack can take place. Access control lists (ACL) configured on firewalls and file system objects are preventative-type controls. Anti-malware software also acts as a preventative control, by blocking processes identified as malicious from executing. Directives and standard operating procedures (SOPs) can be thought of as administrative versions of preventative controls.
+-   ==Preventive==—the control acts to eliminate or reduce the likelihood that an attack can succeed. A preventative control operates before an attack can take place. Access control lists (ACL) configured on firewalls and file system objects are preventative-type controls. Anti-malware software also acts as a preventative control, by blocking processes identified as malicious from executing. Directives and standard operating procedures (SOPs) can be thought of as administrative (managerial) versions of preventative controls.
 	-   Reduce likelihood of attack
 	-   Operate before/preceding an attack
 	-   Examples include firewalls, anti-virus, encryption, ...
@@ -51,13 +51,13 @@ Security control functional types.
 
 ## NIST CYBERSECURITY FRAMEWORK
 
-A **cybersecurity framework (CSF) is a list of activities and objectives undertaken to mitigate risks.** The use of a framework allows an organization to make an objective statement of its current cybersecurity capabilities, identify a target level of capability, and prioritize investments to achieve that target. This is valuable for giving a structure to internal risk management procedures and provides an externally verifiable statement of regulatory compliance. Frameworks are also important because they save an organization from building its security program in a vacuum, or from building the program on a foundation that fails to account for important security concepts.
+A **cybersecurity framework ([[CSF]]) is a list of activities and objectives undertaken to mitigate risks.** The use of a framework allows an organization to make an objective statement of its current cybersecurity capabilities, identify a target level of capability, and prioritize investments to achieve that target. This is valuable for giving a structure to internal risk management procedures and provides an externally verifiable statement of regulatory compliance. Frameworks are also important because they save an organization from building its security program in a vacuum, or from building the program on a foundation that fails to account for important security concepts.
 
 There are many different frameworks, each of which categorize cybersecurity activities and controls in slightly different ways. These frameworks are **non-regulatory in the sense that they do not attempt to address the specific regulations of a specific industry but represent "best practice"** in IT security governance generally. Most organizations will have historically chosen a particular framework; some may use multiple frameworks in conjunction.
 
 Most frameworks are developed for an international audience; others are focused on a domestic national audience. Most of the frameworks are associated with certification programs to show that staff and consultants can apply the methodologies successfully.
 
-The National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) is a relatively new addition to the IT governance space and distinct from other frameworks by focusing exclusively on IT security, rather than IT service provision more generally ([nist.gov/cyberframework](https://nist.gov/cyberframework)). It is developed for a US audience and focuses somewhat on US government, but its recommendations can be adapted for other countries and types of organizations.
+The National Institute of Standards and Technology ([[NIST]]) Cybersecurity Framework (CSF) is a relatively new addition to the IT governance space and distinct from other frameworks by focusing exclusively on IT security, rather than IT service provision more generally ([nist.gov/cyberframework](https://nist.gov/cyberframework)). It is developed for a US audience and focuses somewhat on US government, but its recommendations can be adapted for other countries and types of organizations.
 
 NIST's Risk Management Framework (RMF) pre-dates the CSF. Where the CSF focuses on practical cybersecurity for businesses, the RMF is more prescriptive and principally intended for use by federal agencies ([csrc.nist.gov/projects/risk-management/rmf-overview](https://csrc.nist.gov/projects/risk-management/rmf-overview)).
 

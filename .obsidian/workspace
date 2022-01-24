@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5e9f8acd24720b17",
+        "id": "69d14143e1aec40d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/threat.md",
+            "file": "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#threat",
+                "query": "tag:#C_technical",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 145.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/threat.md",
+                "file": "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,17 +106,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "5e9f8acd24720b17",
+  "active": "69d14143e1aec40d",
   "lastOpenFiles": [
-    "My linked notes/threat.md",
-    "Key Security Terms Definitions.md",
-    "My notes.md",
-    "My linked notes/threats.md",
-    "Security Acronyms.md",
+    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
+    "My linked notes/CSF.md",
+    "My linked notes/NIST.md",
+    "My linked notes/security control.md",
     "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
-    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
-    "My dump/Mapping Course Content to CompTIA Security+ (Exam SY0-601).pdf",
-    "My dump/Markdown Notes.md",
-    "Z_assets/Scripts.md"
+    "My linked notes/Frameworks.md",
+    "My notes.md",
+    "My linked notes/CIRT.md",
+    "My linked notes/implementation.md",
+    "My linked notes/threat.md"
   ]
 }

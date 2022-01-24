@@ -2,13 +2,13 @@
 
 Security is an ongoing process that includes 
 - assessing requirements, 
-- **setting up organizational security systems, hardening them, monitoring them, responding to attacks in progress, and deterring attackers. As a security professional, it is important that you understand how the security function is implemented as departments or units and professional roles within different types of organizations. You must also be able to explain the importance of** 
+- **setting up organizational security systems, hardening them, monitoring them, responding to attacks in progress, and deterring attackers**. As a security professional, it is important that you understand how the security function is implemented as departments or units and professional roles within different types of organizations. You must also be able to explain the importance of 
 - compliance factors and 
 - best practice frameworks in driving the selection of security controls.
 
 EXAM OBJECTIVES COVERED
- **N/A
-This topic provides background information about the role of security professionals and does not cover a specific exam objective.*
+ N/A
+This topic provides background information about the role of security professionals and does not cover a specific exam objective.
 
 To be successful and credible as a security professional, you should understand security in business starting from the ground up. You should also know the key security terms and ideas used by other security experts in technical documents and in trade publications. Security implementations are constructed from fundamental building blocks, just like a large building is constructed from individual bricks. This topic will help you understand those building blocks so that you can use them as the foundation for your security career.
 
@@ -39,7 +39,7 @@ Job Roles
 - Jr. security analyst
 
 Regulations, standards, and frameworks: Compliance
-- Frameworks
+- [[Frameworks]]
 	- NIST Cybersecurity Framework (CSF)
 	- ISO 27000x (series, worldwide)
 	- HIPAA(healthcare) 
@@ -78,12 +78,12 @@ Within the goal of ensuring information security, cybersecurity refers specifica
 -   #F_protect —procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operations life cycle.
 -   #F_detect —perform ongoing, proactive monitoring to ensure that controls are effective and capable of protecting against new types of threats.
 -   #F_respond —identify, analyze, contain, and eradicate threats to systems and data security.
--   #F_respond —implement cybersecurity resilience to restore systems and data if other controls are unable to prevent attacks.
+-   #F_recover  —implement cybersecurity resilience to restore systems and data if other controls are unable to prevent attacks.
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7332-1599771793557.png)
 
 ## INFORMATION SECURITY COMPETENCIES
-#implementations 
+#implementations [[implementation]]
 IT professionals working in a role with security responsibilities must be competent in a wide range of disciplines, from network and application design to procurement and human resources (HR). The following activities might be typical of such a role: 
 
 -   Participate in risk assessments and testing of security systems and make recommendations. 
@@ -133,4 +133,4 @@ DevSecOps extends the boundary to security specialists and personnel, reflecting
 
 ### Incident Response
 
-A dedicated cyber incident response team (CIRT)/computer security incident response team (CSIRT)/computer emergency response team (CERT) as a single point-of-contact for the notification of security incidents. This function might be handled by the SOC, or it might be established as an independent business unit.
+A dedicated cyber incident response team ([[CIRT]])/computer security incident response team (CSIRT)/computer emergency response team (CERT) as a single point-of-contact for the notification of security incidents. This function might be handled by the SOC, or it might be established as an independent business unit.

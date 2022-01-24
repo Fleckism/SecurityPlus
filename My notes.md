@@ -7,6 +7,8 @@ Is a #assessment  the same as a #F_detect  or #F_identify
 #F_identify : To establish the identity of someone or something.
 #threat :  A source of danger
 #C_managerial :Policies, procedures, rules of behavior
+#activity
+#feedback
 
 
 ## IoA/C
