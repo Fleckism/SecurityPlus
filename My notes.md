@@ -1,10 +1,5 @@
 # Next things to do!
-==Get rid of tags and use links!  This way when I click on the link everything is on the same page.  With tags I have to bounce from every page with that link==
 
-==Combine my notes and my questions==
-
-- change where default notes are stored
-- 
 # Making sense of my tags
 Is a #assessment  the same as a #F_detect  or #F_identify 
 #F_detect : To discover or find by careful search.
@@ -13,7 +8,7 @@ Is a #assessment  the same as a #F_detect  or #F_identify
 #threat :  A source of danger
 #C_managerial :Policies, procedures, rules of behavior
 
-[[Test location change]]
+
 ## IoA/C
 #IoA_C : Definition
 IoA:  Indicator of an attack that is currently happening.
@@ -81,4 +76,3 @@ This is confusing?
 **Bypass security controls**—look for easy ways to attack the system. For example, if the network is strongly protected by a firewall, is it possible to gain physical access to a computer in the building and run malware from a USB stick?
 
 
-[[Is this in my linked notes]]

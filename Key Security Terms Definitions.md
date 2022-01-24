@@ -1,10 +1,6 @@
 ## First Fold
 attacks
-threats
-	- structured(targeted) or unstructured(opportunistic)
-	- Malicious intent or accidental or unintentional threat actor and agents. 
-	- Unintentional
-		- Accidents, oversights, and other mistakes.
+
 	
 	
 vulnerabilities

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Test location change.md",
+            "file": "My linked notes/threat.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nmap",
+                "query": "tag:#threat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -88,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test location change.md",
+                "file": "My linked notes/threat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +108,15 @@
   },
   "active": "5e9f8acd24720b17",
   "lastOpenFiles": [
-    "Test location change.md",
-    "My notes.md",
-    "Markdown Notes.md",
-    "zero-day.md",
-    "Is this in my lined notess.md",
-    "nmap.md",
-    "Security Acronyms.md",
-    "Is this in my linked notes.md",
+    "My linked notes/threat.md",
     "Key Security Terms Definitions.md",
-    "My Questions.md"
+    "My notes.md",
+    "My linked notes/threats.md",
+    "Security Acronyms.md",
+    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "My dump/Mapping Course Content to CompTIA Security+ (Exam SY0-601).pdf",
+    "My dump/Markdown Notes.md",
+    "Z_assets/Scripts.md"
   ]
 }
