@@ -17,7 +17,7 @@ EXAM OBJECTIVES COVERED
 
 Reconnaissance is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using fingerprinting tools and capture and analyze network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
 ## ipconfig, ping, and ARP
-The process of mapping out the attack surface is referred to as network reconnaissance and discovery. Reconnaissance techniques are used by threat actors, but they can also be used by security professionals to probe and test their own security systems, as part of a security assessment and ongoing monitoring.
+The process of mapping out the attack surface is referred to as network reconnaissance and discovery. Reconnaissance techniques are used by threat actors, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
 
 **Topology discovery** (or "footprinting") means scanning for hosts, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors. 
 
@@ -49,18 +49,20 @@ The following tools can be used to test the routing configuration and connectivi
 
 Output from the route command on a Linux host. Most endpoints have a simple routing table, similar to this. It shows the default route (0.0.0.0/0) via the host configured as the default gateway (10.1.0.254) over the network interface eth0. The second line of the table shows the subnet for local traffic (10.1.0.0/24). This network is directly connected, represented by the 0.0.0.0 gateway.
 
--   tracert—uses ICMP probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.
--   traceroute—performs route discovery from a Linux host. traceroute uses UDP probes rather than ICMP, by default.
+-   tracert—uses [[ICMP]] probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.
+-   traceroute—performs route discovery from a Linux host. traceroute uses [[UDP]] probes rather than ICMP, by default.
 -   pathping—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr  **( Rogue host is modifying traffic before forwarding it, with the side effect of increasing network latency)**.
 
-In a security context, high latency at the default gateway compared to a baseline might indicate a man-in-the-middle attack. High latency on other hops could be a sign of denial of service, or could just indicate network congestion.
+In a security context, **high latency at the default gateway compared to a baseline might indicate a man-in-the-middle attack.** 
+**High latency on other hops could be a sign of denial of service, or could just indicate network congestion.**
 
 In Linux, commands such as ifconfig, arp, route, and traceroute are deprecated and the utilities have not been updated for some years. The iproute2 suite of tools supply replacements for these commands ([digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps](https://www.digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps)).
+
 ## IP SCANNERS AND NMAP
 
-Scanning a network using tools such as ping is time consuming and non-stealthy, and does not return detailed results. Most topology discovery is performed using a dedicated IP scanner tool. An IP scanner performs host discovery and identifies how the hosts are connected together in an internetwork. For auditing, there are enterprise suites, such as Microsoft's System Center products. Such suites can be provided with credentials to perform authorized scans and obtain detailed host information via management protocols, such as the Simple Network Management Protocol (SNMP).
+Scanning a network using tools such as ping is time consuming and non-stealthy, and does not return detailed results. Most [[topology discovery]] is performed using a dedicated IP scanner tool. An IP scanner performs host discovery and identifies how the hosts are connected together in an internetwork. For auditing, there are enterprise suites, such as Microsoft's System Center products. Such suites can be provided with credentials to perform authorized scans and obtain detailed host information via management protocols, such as the Simple Network Management Protocol (SNMP).
 
-The Nmap Security Scanner ([nmap.org](https://nmap.org/)) is one of the most popular open-source IP scanners. Nmap can use diverse methods of host discovery, some of which can operate stealthily and serve to defeat security mechanisms such as firewalls and intrusion detection. The tool is open-source software with packages for most versions of Windows, Linux, and macOS. It can be operated with a command line or via a GUI (Zenmap) **(Used for fingerprinting)**.
+The [[Nmap]] Security Scanner ([nmap.org](https://nmap.org/)) is one of the most popular open-source IP scanners. Nmap can use diverse methods of host discovery, some of which can operate stealthily and serve to defeat security mechanisms such as firewalls and intrusion detection. The tool is open-source software with packages for most versions of Windows, Linux, and macOS. It can be operated with a command line or via a GUI (Zenmap) **(Used for fingerprinting)**.
 
 The basic syntax of an Nmap command is to give the IP subnet (or IP host address) to scan. When used without switches like this, the default behavior of Nmap is to ping and send a TCP ACK packet to ports 80 and 443 to determine whether a host is present. On a local network segment, Nmap will also perform ARP and ND (Neighbor Discovery) sweeps. If a host is detected, Nmap performs a port scan against that host to determine which services it is running.
 
