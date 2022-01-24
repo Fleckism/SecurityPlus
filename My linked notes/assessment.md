@@ -16,3 +16,7 @@
  Packet and protocol analysis is another crucial security #assessment and monitoring process:
  -   Packet analysis refers to deep-down frame-by-frame scrutiny of captured frames.
 -   Protocol analysis means using statistical tools to analyze a sequence of packets, or packet trace.
+
+A **protocol analyzer** (or packet analyzer) works in conjunction with a sniffer to perform traffic analysis. You can either analyze a live capture or open a saved capture (.pcap) file. Protocol analyzers can decode a captured frame to reveal its contents in a readable format. You can choose to view a summary of the frame or choose a more detailed view that provides information on the OSI layer, protocol, function, and data.
+
+[[packet injection]]: Some reconnaissance techniques and tests depend on sending forged or spoofed network traffic. Often, network sniffing software libraries allow frames to be inserted (or injected) into the network stream. There are also tools that allow for different kinds of packets to be crafted and manipulated. Well-known tools used for 
