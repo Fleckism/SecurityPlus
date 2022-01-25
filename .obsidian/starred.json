@@ -4,6 +4,11 @@
       "type": "file",
       "title": "Security Acronyms",
       "path": "Security Acronyms.md"
+    },
+    {
+      "type": "file",
+      "title": "Performance-based questions",
+      "path": "My dump/Notes from tests/Performance-based questions.md"
     }
   ]
 }

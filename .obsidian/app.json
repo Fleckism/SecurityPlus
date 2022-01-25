@@ -35,5 +35,6 @@
     "cryptographic"
   ],
   "foldIndent": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "fileSortOrder": "alphabetical"
 }
