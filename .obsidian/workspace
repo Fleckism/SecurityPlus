@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/tool.md",
+            "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
             "mode": "source",
             "backlinks": true
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/tool.md",
+                "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +107,15 @@
   },
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
-    "My linked notes/tool.md",
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "My linked notes/application vulnerability.md",
     "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "My linked notes/Software exploitation.md",
+    "My linked notes/tool.md",
+    "My linked notes/Netcat.md",
+    "My linked notes/RAT.md",
+    "My linked notes/CVE.md",
     "My linked notes/hping.md",
-    "My linked notes/assessment.md",
-    "My linked notes/Wireshark.md",
-    "My linked notes/tcpdump.md",
-    "My linked notes/TAP.md",
-    "My linked notes/SPAN.md",
-    "My notes.md",
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md"
+    "My linked notes/assessment.md"
   ]
 }
