@@ -1,0 +1,1 @@
+command and control ([[C2]] or [[C&C]]
