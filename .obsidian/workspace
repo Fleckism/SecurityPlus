@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My dump/Notes from tests/Performance-based questions.md",
+            "file": "My linked notes/assessment.md",
             "mode": "source",
             "backlinks": true
           }
@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -89,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My dump/Notes from tests/Performance-based questions.md",
+                "file": "My linked notes/assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +107,15 @@
   },
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
+    "My linked notes/assessment.md",
+    "My linked notes/ARP.md",
+    "My linked notes/APT.md",
+    "My linked notes/application vulnerability.md",
+    "My linked notes/A-V.md",
     "My dump/Notes from tests/Performance-based questions.md",
     "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
     "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
     "My linked notes/malware.md",
-    "My linked notes/Fileless.md",
-    "My linked notes/IDS.md",
-    "My linked notes/FlashCard 4.md",
-    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "My linked notes/BEC.md",
-    "My dump/Notes from tests/FlashCard.md"
+    "My linked notes/Fileless.md"
   ]
 }
