@@ -65,3 +65,4 @@
 (TTPs) tactics, techniques, and procedures (TTPs)
  User Datagram Protocol(UDP)
   User Datagram Protocol (UDP)
+  [[DoS]] Denial of Service

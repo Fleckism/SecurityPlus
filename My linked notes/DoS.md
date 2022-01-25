@@ -1,0 +1,2 @@
+Denial of service
+The primary effect of the first types of computer worm is to rapidly consume network bandwidth as the worm replicates. A worm may also be able to crash an operating system or server application (performing a Denial of Service attack[[DoS]])

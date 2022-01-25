@@ -1,0 +1,1 @@
+The vector is the method by which the malware executes on a computer and potentially spreads to other network hosts.
