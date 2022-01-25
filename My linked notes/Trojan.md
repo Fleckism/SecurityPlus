@@ -1,0 +1,1 @@
+the [[Trojan]] may have to use a **registry entry or create itself as a service, which can usually be detected fairly easily.**

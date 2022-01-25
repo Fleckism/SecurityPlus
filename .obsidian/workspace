@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DNS",
+                "query": "sand",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,14 +109,14 @@
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "My linked notes/C2.md",
-    "My linked notes/C&C.md",
-    "My linked notes/RAT.md",
-    "My linked notes/backdoor.md",
-    "My linked notes/DNS.md",
-    "Security Acronyms.md",
-    "My linked notes/LOC.md",
-    "My linked notes/APT.md",
-    "My linked notes/DLL.md"
+    "My linked notes/malware.md",
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "My linked notes/sandbox.md",
+    "My linked notes/UEBA.md",
+    "My linked notes/EPPs.md",
+    "My linked notes/A-V.md",
+    "My linked notes/logic bomb.md",
+    "My linked notes/Ransomware.md",
+    "My linked notes/rootkit.md"
   ]
 }
