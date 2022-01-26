@@ -34,16 +34,16 @@ for /l %i in (1,1,255) do @ping -n 1 -w 100 10.1.0.%i | find /i "reply"
 Performing a ping sweep in Windows with a For loop—Searching multiple octets requires nested loops. Note that not all hosts respond to ICMP probes. (Screenshot used with permission from Microsoft.)
 
 -   arp—display the local machine's Address Resolution Protocol ([[ARP]]) cache. The ARP cache shows the MAC address of the interface associated with each IP address the local host has communicated with recently. This can be useful if you are investigating a suspected spoofing attack. For example, a sign of a man-in-the-middle attack is where the MAC address of the default gateway IP listed in the cache is not the legitimate router's MAC address.
-#z
+
 For more information about commands, including syntax usage, look up the command in an online resource for Windows ([docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)) or Linux ([linux.die.net/man](https://linux.die.net/man/)).
 
 In Linux, commands such as ifconfig, arp, route, and traceroute are deprecated and the utilities have not been updated for some years. The iproute2 suite of tools supply replacements for these commands ([digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps](https://www.digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps)).
 
 ## ROUTE AND TRACEROUTE
-
+#z
 The following tools can be used to test the routing configuration and connectivity with remote hosts and networks.
 
--   route—view and configure the host's local routing table. Most end systems use a default route to forward all traffic for remote networks via a gateway router. If the host is not a router, additional entries in the routing table could be suspicious **(To detect spoofing)** .
+-   route—view and configure the host's local [[routing table]]. Most end systems use a default route to forward all traffic for remote networks via a gateway router. If the host is not a router, additional entries in the routing table could be suspicious **(To detect spoofing)** .
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8872-1599771794749.png)
 
@@ -53,7 +53,7 @@ Output from the route command on a Linux host. Most endpoints have a simple rout
 -   traceroute—performs route discovery from a Linux host. traceroute uses [[UDP]] probes rather than ICMP, by default.
 -   pathping—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr  **( Rogue host is modifying traffic before forwarding it, with the side effect of increasing network latency)**.
 
-In a security context, **high latency at the default gateway compared to a baseline might indicate a man-in-the-middle attack.** 
+In a security context, **[[high latency]] at the default gateway compared to a baseline might indicate a man-in-the-middle attack.** 
 **High latency on other hops could be a sign of denial of service, or could just indicate network congestion.**
 
 In Linux, commands such as ifconfig, arp, route, and traceroute are deprecated and the utilities have not been updated for some years. The iproute2 suite of tools supply replacements for these commands ([digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps](https://www.digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps)).
@@ -74,7 +74,7 @@ This OS [[fingerprinting]] can be time-consuming on a large IP scope and is also
 ## SERVICE DISCOVERY AND NMAP
 
 Having identified active IP hosts on the network and gained an idea of the network topology, the next step in network reconnaissance is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services. This process is described as service discovery. Service discovery can also be used defensively, to probe potential rogue systems and identify the presence of unauthorized network service ports.
-
+#z
 ### Service Discovery with Nmap
 
 When Nmap completes a host discovery scan, it will report on the state of each port scanned for each IP address in the scope. At this point, you can run additional service discovery scans against one or more of the active IP addresses. Some of the principal options for service discovery scans are:
