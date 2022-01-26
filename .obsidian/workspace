@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/assessment.md",
+            "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#assessment",
+                "query": "tag:#z",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -88,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/assessment.md",
+                "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +108,15 @@
   },
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
-    "My linked notes/assessment.md",
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "My linked notes/attack vector.md",
+    "My linked notes/security controls.md",
+    "My linked notes/exploit.md",
+    "My linked notes/Software exploitation.md",
+    "My linked notes/vulnerability.md",
     "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "My linked notes/assessment.md",
     "My linked notes/high latency.md",
-    "My linked notes/application vulnerability.md",
-    "My linked notes/APT.md",
-    "My linked notes/ARP.md",
-    "My linked notes/Topology discovery.md",
-    "My linked notes/A-V.md",
-    "My dump/Notes from tests/Performance-based questions.md",
-    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md"
+    "My linked notes/application vulnerability.md"
   ]
 }

@@ -1,6 +1,6 @@
 ## LESSON INTRODUCTION
 
-Security #assessment refers to processes and tools that evaluate the attack surface. With knowledge of adversary tactics and capabilities, you can assess whether points on the attack surface are potentially vulnerable attack vectors. The output of [[assessment]] is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by [[threat]] actors. 
+Security #assessment refers to processes and tools that ==evaluate the attack surface==. With knowledge of adversary tactics and capabilities, you can assess whether points on the attack surface are potentially vulnerable attack vectors. The output of [[assessment]] is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by [[threat]] actors. 
 
 Lesson Objectives
 
@@ -17,9 +17,9 @@ EXAM OBJECTIVES COVERED
 
 **Reconnaissance is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network**. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using fingerprinting tools and capture and analyze network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
 ## ipconfig, ping, and ARP
-The process of mapping out the attack surface is referred to as network reconnaissance and discovery. Reconnaissance techniques are used by threat actors, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
+The process of **mapping out the attack surface is referred to as network reconnaissance** and discovery. Reconnaissance techniques are used by threat actors, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
 
-[[Topology discovery]]* (or "footprinting") means scanning for hosts, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors. 
+[[Topology discovery]]* (or "footprinting") [1]**means scanning for hosts**, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors. 
 
 Basic topology discovery tasks can be accomplished using the command line tools built into Windows and Linux. The following tools report the IP configuration and test connectivity on the local network segment or subnet.
 
@@ -40,8 +40,8 @@ For more information about commands, including syntax usage, look up the command
 In Linux, commands such as ifconfig, arp, route, and traceroute are deprecated and the utilities have not been updated for some years. The iproute2 suite of tools supply replacements for these commands ([digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps](https://www.digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps)).
 
 ## ROUTE AND TRACEROUTE
-#z
-The following tools can be used to test the routing configuration and connectivity with remote hosts and networks.
+
+The following tools can be used to test the [2] **routing configuration** and connectivity with remote hosts and networks.
 
 -   route—view and configure the host's local [[routing table]]. Most end systems use a default route to forward all traffic for remote networks via a gateway router. If the host is not a router, additional entries in the routing table could be suspicious **(To detect spoofing)** .
 
@@ -60,7 +60,7 @@ In Linux, commands such as ifconfig, arp, route, and traceroute are deprecated a
 
 ## IP SCANNERS AND NMAP
 
-Scanning a network using tools such as ping is time consuming and non-stealthy, and does not return detailed results. Most [[topology discovery]] is performed using a dedicated IP scanner tool. An IP scanner performs host discovery and identifies how the hosts are connected together in an internetwork. For auditing, there are enterprise suites, such as Microsoft's System Center products. Such suites can be provided with credentials to perform authorized scans and obtain detailed host information via management protocols, such as the Simple Network Management Protocol (SNMP).
+Scanning a network using tools such as ping is time consuming and non-stealthy, and does not return detailed results. Most [[topology discovery]] is performed using a dedicated IP scanner tool. An IP scanner performs [3] **host discovery** and identifies how the hosts are connected together in an internetwork. For auditing, there are enterprise suites, such as Microsoft's System Center products. Such suites can be provided with credentials to perform authorized scans and obtain detailed host information via management protocols, such as the Simple Network Management Protocol (SNMP).
 
 The [[Nmap]] Security Scanner ([nmap.org](https://nmap.org/)) is one of the most popular open-source IP scanners. Nmap can use diverse methods of host discovery, some of which can operate stealthily and serve to defeat security mechanisms such as firewalls and intrusion detection. The tool is open-source software with packages for most versions of Windows, Linux, and macOS. It can be operated with a command line or via a GUI (Zenmap) **(Used for fingerprinting)**.
 
@@ -74,8 +74,8 @@ This OS [[fingerprinting]] can be time-consuming on a large IP scope and is also
 ## SERVICE DISCOVERY AND NMAP
 
 Having identified active IP hosts on the network and gained an idea of the network topology, the next step in network reconnaissance is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services. This process is described as service discovery. Service discovery can also be used defensively, to probe potential rogue systems and identify the presence of unauthorized network service ports.
-#z
-### Service Discovery with Nmap
+
+### [4] Service Discovery with Nmap
 
 When Nmap completes a host discovery scan, it will report on the state of each port scanned for each IP address in the scope. At this point, you can run additional service discovery scans against one or more of the active IP addresses. Some of the principal options for service discovery scans are:
 
@@ -83,7 +83,7 @@ When Nmap completes a host discovery scan, it will report on the state of each p
 -   [[UDP]] scans (-sU)—scan UDP ports. As these do not use ACKs, Nmap needs to wait for a response or timeout to determine the port state, so UDP scanning can take a long time. A UDP scan can be combined with a TCP scan.
 -   Port range (-p)—by default, Nmap scans 1000 commonly used ports, as listed in its configuration file. Use the -p argument to specify a port range.
 
-### Service and Version Detection and OS Fingerprinting with Nmap
+### [5] Service and Version Detection and OS Fingerprinting with Nmap
 
 The detailed analysis of services on a particular host is often called [[fingerprinting]]. This is because each OS or application software that underpins a network service responds to probes in a unique way. This allows the scanning software to guess at the software name and version, without having any sort of privileged access to the host. This can also be described as banner grabbing, where the banner is the header of the response returned by the application.
 

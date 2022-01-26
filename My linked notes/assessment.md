@@ -8,10 +8,13 @@ Security #assessment refers to processes and tools that **evaluate the attack su
 -   [[ifconfig]]—show the configuration assigned to network interface(s) in Linux.
 -   [[ping]]—
 -   arp—display the local machine's Address Resolution Protocol ([[ARP]]) cache.
+-   
+host discovery scan
 
 next step in network reconnaissance is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services.
-#z
 
+Are these all the steps in an assessment?
+- security assessments, network reconnaissance, vulnerability scanning, and penetration testing
 
 # Dump
 **vulnerability assessment, threat hunting, and penetration testing**
