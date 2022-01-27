@@ -15,6 +15,7 @@ next step in network reconnaissance is to work out which operating systems are i
 
 Are these all the steps in an assessment?
 - security assessments, network reconnaissance, vulnerability scanning, and penetration testing
+- Network reconnaissance and discovery is used to identify hosts, network topology, and open services/ports, establishing an overall attack surface.
 
 # Dump
 **vulnerability assessment, threat hunting, and penetration testing**

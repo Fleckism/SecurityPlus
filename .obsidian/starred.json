@@ -14,6 +14,11 @@
       "type": "file",
       "title": "vulnerability",
       "path": "My linked notes/vulnerability.md"
+    },
+    {
+      "type": "file",
+      "title": "assessment",
+      "path": "My linked notes/assessment.md"
     }
   ]
 }

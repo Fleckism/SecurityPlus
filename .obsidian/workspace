@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+            "file": "My linked notes/vulnerability.md",
             "mode": "source",
             "backlinks": true
           }
@@ -58,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+                "file": "My linked notes/vulnerability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "My linked notes/Data breach.md",
-    "My linked notes/Weak Encryption.md",
-    "My linked notes/MITM.md",
-    "My linked notes/unsecure protocol.md",
-    "My linked notes/Open Ports.md",
     "My linked notes/vulnerability.md",
-    "My linked notes/Open permissions.md",
-    "My linked notes/UDP.md",
-    "My linked notes/TCP.md"
+    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+    "My linked notes/network vulnerability scanner.md",
+    "My linked notes/CVE.md",
+    "My linked notes/assessment.md",
+    "My linked notes/SECURITY ASSESSMENTS.md",
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "My linked notes/THIRD-PARTY RISKS.md",
+    "My linked notes/CRM.md",
+    "My linked notes/data loss.md"
   ]
 }

@@ -1,0 +1,1 @@
+data loss is where information becomes unavailable, either permanently or temporarily.
