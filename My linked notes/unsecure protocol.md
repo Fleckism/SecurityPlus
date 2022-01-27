@@ -1,0 +1,1 @@
+An unsecure protocol is one that transfers data as cleartext; that is, the protocol does not use encryption for data protection. Lack of encryption also means that there is no secure way to authenticate the endpoints. This allows an attacker to intercept and modify communications, acting as man-in-the-middle (MITM).

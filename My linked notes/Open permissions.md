@@ -1,0 +1,1 @@
+**Open permissions** refers to provisioning data files or applications without differentiating access rights for user groups.
