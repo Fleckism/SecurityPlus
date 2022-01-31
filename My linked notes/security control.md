@@ -1,13 +1,44 @@
-**A security control is something designed to give a system or data asset the properties of confidentiality, integrity, availability, and non-repudiation**. Controls can be divided into three broad categories, representing the way the control is implemented:
+**A security control is something designed to give a system or data asset the properties of confidentiality, integrity, availability, and non-repudiation**. 
+# Categories
+- [[technical]] : the control is implemented as a system
+- [[operational]] : the control is implemented primarily by people rather than systems.
+- [[managerial]] : the control gives oversight of the information system.
 
--   #C_technical —the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.  
+
+
+# CONTROL FUNCTIONAL TYPES
+
+Security controls can also be classified in types according to the goal or function they perform:
+- [[Preventive]]
+- [[Detective]] : the control may not prevent or deter access, but it will **identify and record** any attempted or successful intrusion.
+- [[Corrective]] : the control acts to eliminate or reduce the impact of an intrusion event.
+- [[Physical]]
+- [[Deterrent]]
+- [[Compensating]] : the control serves as a substitute for a principal control, as recommended by a security standard, and affords the same (or better) level of protection but uses a different methodology or technology.
+
+# Remediation 
+
+- [[AUP]] Acceptable Use Policy 
+
+
+
+
+
+
+
+
+
+
+Controls can be divided into three broad categories, representing the way the control is implemented:
+
+-   [[technical]] —the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.  
 	-   Operate without much intervention once configured
--   #C_operational —the control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.	
+-   [[operational]] —the control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.	
 	-   Day-to-day administration of security system
 	-   Tactical reporting and insights
 	-   Controls that require people to implement or administer
 	-   Standard operating procedures
--  #C_managerial —the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
+-  [[managerial]] —the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
 	- Oversight of the security system
 	-   Strategic reporting and insights
 	-   Risk assessment

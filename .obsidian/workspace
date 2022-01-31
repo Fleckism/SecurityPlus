@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Fileless.md",
+            "file": "My linked notes/Deterrent.md",
             "mode": "source",
             "backlinks": true
           }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+            "file": "My linked notes/Corrective.md",
             "mode": "source",
             "backlinks": true
           }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "keylogger",
+                "query": "AUP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Fileless.md",
+                "file": "My linked notes/Deterrent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,15 +119,15 @@
   },
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
-    "My linked notes/Fileless.md",
-    "My linked notes/payload.md",
-    "My linked notes/spyware.md",
-    "My linked notes/rootkit.md",
-    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "My linked notes/RAT.md",
-    "My linked notes/Keylogger.md",
-    "My linked notes/malware.md",
-    "My linked notes/Crypto.md",
-    "My linked notes/Ransomware.md"
+    "My linked notes/Deterrent.md",
+    "My linked notes/security control.md",
+    "My linked notes/Preventive.md",
+    "My linked notes/Corrective.md",
+    "My linked notes/Compensating.md",
+    "My linked notes/AUP.md",
+    "My linked notes/managerial.md",
+    "My linked notes/technical.md",
+    "My linked notes/IDS.md",
+    "My linked notes/Physical.md"
   ]
 }

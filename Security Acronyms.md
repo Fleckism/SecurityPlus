@@ -4,7 +4,7 @@
  (ANN) Artificial neural network  2B
 (APT) Advanced Persistent Threat 
  (ARP) Address Resolution Protocol 3A
-(AUP) Acceptable Use Policy 
+([[AUP]]) Acceptable Use Policy 
 (CERT) Computer Emergency Response Team  at Carnegie Mellon University's
 (CIRT) Cyber incident response team 
 (CIS) Center for internet security  - Partly founded by the SANS Institute
