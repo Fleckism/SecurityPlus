@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+            "file": "My linked notes/Fileless.md",
             "mode": "source",
             "backlinks": true
           }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+            "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
             "mode": "source",
             "backlinks": true
           }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ransomware",
+                "query": "keylogger",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+                "file": "My linked notes/Fileless.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,15 +119,15 @@
   },
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
-    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "My linked notes/malware.md",
-    "My linked notes/Cryptoransomware.md",
+    "My linked notes/Fileless.md",
     "My linked notes/payload.md",
-    "My linked notes/bot.md",
-    "My dump/Z_archive/Notes from slides.md",
-    "My linked notes/application vulnerability.md",
-    "My linked notes/vulnerability.md",
-    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md"
+    "My linked notes/spyware.md",
+    "My linked notes/rootkit.md",
+    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+    "My linked notes/RAT.md",
+    "My linked notes/Keylogger.md",
+    "My linked notes/malware.md",
+    "My linked notes/Crypto.md",
+    "My linked notes/Ransomware.md"
   ]
 }

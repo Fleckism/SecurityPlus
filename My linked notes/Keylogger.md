@@ -1,15 +1,3 @@
- is an action performed by the malware other than simply replicating or persisting on a host. Examples of payload classifications include spyware, rootkit, remote access Trojan (RAT), and ransomware.
- 
- - [[bot]]
- - [[Crypto]]
- - [[Keylogger]]
- - [[RAT]]
- - [[rootkit]]
- - [[spyware]]
-
-
-
-
 # SPYWARE AND KEYLOGGERS
 
 The first viruses and worms focused on the destructive potential of being able to replicate. As the profitable uses of this software became apparent, however, they started to be coded with payloads designed to facilitate intrusion, fraud, and data theft. Various types of unwanted code and malware perform some level of monitoring:
@@ -23,4 +11,4 @@ The first viruses and worms focused on the destructive potential of being able t
 
 Actual Keylogger is a Windows-based software that can run in the background to monitor different kinds of computer activity (opening and closing programs, browsing websites, recording keystrokes, and capturing screenshots). (Screenshot used with permission from [ActualKeylogger.com](https://www.actualkeylogger.com/).)
 
-Keyloggers are not only implemented as software. A malicious script can transmit key presses to a third-party website. There are also hardware devices to capture key presses to a modified USB adapter inserted between the keyboard and the port. Such devices can store data locally or come with Wi-Fi connectivity to send data to a covert access point. Other attacks include wireless sniffers to record key press data, overlay ATM pin pads, and so on.
+Keyloggers are not only implemented as software. A malicious script can transmit key presses to a third-party website. There are also hardware devices to capture key presses to a modified USB adapter inserted between the keyboard and the port. Such devices can store data locally or come with Wi-Fi connectivity to send data to a covert access point. Other attacks include wireless sniffers to record key press data, overlay ATM pin pads, and so on
