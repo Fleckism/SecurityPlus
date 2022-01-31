@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/vulnerability.md",
+            "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+            "mode": "source",
+            "backlinks": true
+          }
+        }
+      },
+      {
+        "id": "db2d651d275bac58",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/worm.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#z",
+                "query": "logic bomb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -89,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/vulnerability.md",
+                "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +120,15 @@
   },
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
-    "My linked notes/vulnerability.md",
+    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
     "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
-    "My linked notes/network vulnerability scanner.md",
-    "My linked notes/CVE.md",
-    "My linked notes/assessment.md",
-    "My linked notes/SECURITY ASSESSMENTS.md",
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "My linked notes/THIRD-PARTY RISKS.md",
-    "My linked notes/CRM.md",
-    "My linked notes/data loss.md"
+    "My linked notes/malware.md",
+    "My linked notes/Fileless.md",
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "My linked notes/PUPs.md",
+    "My linked notes/virus.md",
+    "My linked notes/worm.md",
+    "My notes.md",
+    "My linked notes/vulnerability.md"
   ]
 }

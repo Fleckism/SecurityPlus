@@ -1,0 +1,1 @@
+A virus is executed only when the user performs an action such as downloading and running an infected executable process, attaching an infected USB stick, or opening an infected Word document with macros enabled. 

@@ -1,1 +1,4 @@
 a worm can execute by exploiting a vulnerability in a process when the user browses a website, runs a vulnerable server application, or is connected to an infected file share.
+
+- A computer worm is memory-resident [malware] that can run without user intervention and replicate over network resources.
+- The primary effect of the first types of computer worm is to rapidly consume network bandwidth as the worm replicates. A worm may also be able to crash an operating system or server application (performing a Denial of Service attack[[DoS]]). Also, like viruses, worms can carry a payload that may perform some other malicious action. 
