@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Deterrent.md",
+            "file": "My linked notes/managerial.md",
             "mode": "source",
             "backlinks": true
           }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Deterrent.md",
+                "file": "My linked notes/managerial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,15 +119,15 @@
   },
   "active": "69d14143e1aec40d",
   "lastOpenFiles": [
-    "My linked notes/Deterrent.md",
+    "My linked notes/managerial.md",
     "My linked notes/security control.md",
+    "My linked notes/security controls.md",
+    "My linked notes/AUP.md",
+    "My linked notes/Deterrent.md",
     "My linked notes/Preventive.md",
     "My linked notes/Corrective.md",
     "My linked notes/Compensating.md",
-    "My linked notes/AUP.md",
-    "My linked notes/managerial.md",
     "My linked notes/technical.md",
-    "My linked notes/IDS.md",
-    "My linked notes/Physical.md"
+    "My linked notes/IDS.md"
   ]
 }

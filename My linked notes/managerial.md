@@ -3,6 +3,8 @@
 	-   Strategic reporting and insights
 	-   Risk assessment
 	-   Security policies
+	- Installing a keycard is a managerial control?
+	
 	
 # Remediation
 
