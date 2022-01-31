@@ -19,6 +19,11 @@
       "type": "file",
       "title": "assessment",
       "path": "My linked notes/assessment.md"
+    },
+    {
+      "type": "file",
+      "title": "malware",
+      "path": "My linked notes/malware.md"
     }
   ]
 }

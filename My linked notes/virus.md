@@ -1,1 +1,3 @@
 A virus is executed only when the user performs an action such as downloading and running an infected executable process, attaching an infected USB stick, or opening an infected Word document with macros enabled. 
+
+**Viruses and worms**—these represent some of the first types of malware and spread without any authorization from the user by being concealed within the executable code of another process.

@@ -1,0 +1,4 @@
+ **A bot is an automated script or tool that performs some malicious activity.**
+
+
+[[payload]]
