@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/nmap.md",
+            "file": "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AUP",
+                "query": "backdoor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -88,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/nmap.md",
+                "file": "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +109,15 @@
   },
   "active": "db2d651d275bac58",
   "lastOpenFiles": [
-    "My linked notes/nmap.md",
-    "My linked notes/Corrective.md",
-    "My linked notes/managerial.md",
-    "My linked notes/security control.md",
-    "My linked notes/security controls.md",
-    "My linked notes/AUP.md",
-    "My linked notes/Deterrent.md",
-    "My linked notes/Preventive.md",
-    "My linked notes/Compensating.md",
-    "My linked notes/technical.md"
+    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md",
+    "My linked notes/Vishing.md",
+    "My linked notes/Whaling.md",
+    "My linked notes/Spear phishing.md",
+    "My linked notes/Phishing.md",
+    "My linked notes/spoofing.md",
+    "My linked notes/tool.md",
+    "My dump/Z_archive/Notes from slides.md"
   ]
 }
