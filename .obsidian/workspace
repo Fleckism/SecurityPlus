@@ -7,8 +7,12 @@
         "id": "6e217defcec994aa",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/AIC or CIA.md",
+            "mode": "source",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CIA",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/AIC or CIA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,10 +109,10 @@
   "active": "6e217defcec994aa",
   "lastOpenFiles": [
     "My linked notes/AIC or CIA.md",
+    "My linked notes/Confidentiality.md",
     "My linked notes/Non-repudiation.md",
     "My linked notes/Availability.md",
     "My linked notes/Integrity.md",
-    "My linked notes/Confidentiality.md",
     "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md",
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
     "My linked notes/Controls.md",
