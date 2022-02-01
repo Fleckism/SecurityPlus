@@ -32,7 +32,9 @@
     "ISACs",
     "unmonitored",
     "DDoS",
-    "cryptographic"
+    "cryptographic",
+    "shellcode",
+    "PowerShell"
   ],
   "foldIndent": false,
   "alwaysUpdateLinks": true,

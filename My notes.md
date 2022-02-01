@@ -1,6 +1,7 @@
 # Next things to do!
 - Links are great when going through the notes
 - Hashtags are good for searching for a particular subject.
+- **Test to see if assisted labs work more than once!**
 	- Scenarios
 		- Have page for defenses
 		- Vulnerabilities
@@ -82,4 +83,5 @@ IoC:  are “pieces of forensic data, such as data found in system log entries o
 This is confusing?
 **Bypass security controls**—look for easy ways to attack the system. For example, if the network is strongly protected by a firewall, is it possible to gain physical access to a computer in the building and run malware from a USB stick?
 
-
+# Dump
+- Assisted Labs Can be done more than once!  
