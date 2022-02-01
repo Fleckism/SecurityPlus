@@ -15,13 +15,14 @@ This OS fingerprinting can be time-consuming on a large IP scope and is also non
 # Options
 - A: Enable OS detection, version detection, script scanning, and traceroute
 #  PORT SPECIFICATION AND SCAN ORDER:
-  -p <port ranges>: Only scan specified ports
+  -p (port ranges): Only scan specified ports
     Ex: -p22; -p1-65535; -p U:53,111,137,T:21-25,80,139,8080,S:9
-  --exclude-ports <port ranges>: Exclude the specified ports from scanning
+  --exclude-ports (port ranges): Exclude the specified ports from scanning
   -F: Fast mode - Scan fewer ports than the default scan
   -r: Scan ports consecutively - don't randomize
-  --top-ports <number>: Scan <number> most common ports
-  --port-ratio <ratio>: Scan ports more common than '<ratio>'
+  --top-ports (number): Scan (number) most common ports
+  --port-ratio (ratio): Scan ports more common than (ratio) 
+	
 
 	
 # SCAN TECHNIQUES:
