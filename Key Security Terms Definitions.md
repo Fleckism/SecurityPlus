@@ -19,7 +19,7 @@ Advanced Persistent Threat (APT) APT refers to the ongoing ability of an adversa
 
  shadow IT, where users purchase or introduce computer hardware or software to the workplace without the sanction of the IT department and without going through a procurement and security analysis process.
  
-  attack vector is the path that a threat actor uses to gain access to a secure system
+  [[attack vector]] is the path that a threat actor uses to gain access to a secure system
   
   access means being able to run malicious code on the target.
   

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/assessment.md",
+            "file": "My linked notes/CIA.md",
             "mode": "source",
             "backlinks": true
           }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/reconnaissance.md",
+            "file": "My linked notes/exploit.md",
             "mode": "source",
             "backlinks": true
           }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fingerprinting",
+                "query": "\"attack vector\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/assessment.md",
+                "file": "My linked notes/exploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,17 +117,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "db2d651d275bac58",
+  "active": "6e217defcec994aa",
   "lastOpenFiles": [
-    "My linked notes/assessment.md",
-    "My linked notes/fingerprinting.md",
-    "My linked notes/Device.md",
-    "My linked notes/Protocol.md",
-    "My linked notes/reconnaissance.md",
-    "My dump/Z_archive/Notes from slides.md",
-    "My linked notes/hping.md",
-    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
-    "My linked notes/ARP.md",
-    "My linked notes/APT.md"
+    "My linked notes/exploit.md",
+    "My linked notes/CIA.md",
+    "My linked notes/Non-repudiation.md",
+    "My linked notes/Availability.md",
+    "My linked notes/Confidentiality.md",
+    "My linked notes/Integrity.md",
+    "My linked notes/CERT.md",
+    "My linked notes/C2.md",
+    "My linked notes/C&C.md",
+    "My linked notes/bot.md"
   ]
 }

@@ -1,1 +1,1 @@
-(AUP) Acceptable Use Policy 
+**Acceptable Use Policy** 
