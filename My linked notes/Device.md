@@ -1,0 +1,1 @@
+Nmap can identify switches and routers or other types of networked devices, such as NAS boxes, printers, and webcams.

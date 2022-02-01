@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/fingerprinting.md",
+            "file": "My linked notes/assessment.md",
+            "mode": "source",
+            "backlinks": true
+          }
+        }
+      },
+      {
+        "id": "6e217defcec994aa",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/reconnaissance.md",
             "mode": "source",
             "backlinks": true
           }
@@ -88,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/fingerprinting.md",
+                "file": "My linked notes/assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +119,15 @@
   },
   "active": "db2d651d275bac58",
   "lastOpenFiles": [
-    "My linked notes/fingerprinting.md",
     "My linked notes/assessment.md",
+    "My linked notes/fingerprinting.md",
+    "My linked notes/Device.md",
+    "My linked notes/Protocol.md",
+    "My linked notes/reconnaissance.md",
     "My dump/Z_archive/Notes from slides.md",
     "My linked notes/hping.md",
     "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
     "My linked notes/ARP.md",
-    "My linked notes/APT.md",
-    "My linked notes/application vulnerability.md",
-    "My linked notes/A-V.md",
-    "My notes.md"
+    "My linked notes/APT.md"
   ]
 }

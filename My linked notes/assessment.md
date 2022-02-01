@@ -1,6 +1,6 @@
 Security #assessment refers to processes and tools that **evaluate the attack surface**.
 
- **Reconnaissance is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network**. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using [[fingerprinting]] tools and capture and analyze network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
+ Reconnaissance is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using [[fingerprinting]] tools and capture and analyze network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
  #z
  The process of mapping out the attack surface is referred to as network **reconnaissance** and discovery
  #tool
@@ -15,7 +15,13 @@ next step in network reconnaissance is to work out which operating systems are i
 
 Are these all the steps in an assessment?
 - security assessments, network reconnaissance, vulnerability scanning, and penetration testing
-- Network reconnaissance and discovery is used to identify hosts, network topology, and open services/ports, establishing an overall attack surface.
+- ==Network reconnaissance and discovery is used to identify hosts, network topology, and open services/ports, establishing an overall attack surface.==
+
+- Network [[reconnaissance]]... is it the same as Evaluate attack surface 
+	- Identify active IP hosts
+	- Host discovery scan vs service discovery:  To see which operating systems are in use, which network services, which application software.
+	- 
+Having identified active IP hosts on the network and gained an idea of the network topology, the next step in network [[reconnaissance]] is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services. This process is described as service discovery. Service discovery can also be used defensively, to probe potential rogue systems and identify the presence of unauthorized network service ports.
 
 # Dump
 **vulnerability assessment, threat hunting, and penetration testing**

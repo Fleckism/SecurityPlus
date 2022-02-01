@@ -1,0 +1,1 @@
+ [[signature]] (HTTP, DNS, SMTP, and so on).
