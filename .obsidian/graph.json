@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "malware",
+  "search": "AIC",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5756995267345308,
+  "scale": 0.563565803741065,
   "close": false
 }

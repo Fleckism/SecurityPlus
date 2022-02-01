@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db2d651d275bac58",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/CIA.md",
-            "mode": "source",
-            "backlinks": true
-          }
-        }
-      },
-      {
         "id": "6e217defcec994aa",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/exploit.md",
-            "mode": "source",
-            "backlinks": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -60,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"attack vector\"",
+                "query": "CIA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,11 +53,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 224.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -100,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/exploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,15 +103,15 @@
   },
   "active": "6e217defcec994aa",
   "lastOpenFiles": [
-    "My linked notes/exploit.md",
-    "My linked notes/CIA.md",
+    "My linked notes/AIC or CIA.md",
     "My linked notes/Non-repudiation.md",
     "My linked notes/Availability.md",
-    "My linked notes/Confidentiality.md",
     "My linked notes/Integrity.md",
-    "My linked notes/CERT.md",
-    "My linked notes/C2.md",
-    "My linked notes/C&C.md",
-    "My linked notes/bot.md"
+    "My linked notes/Confidentiality.md",
+    "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md",
+    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+    "My linked notes/Controls.md",
+    "My linked notes/control.md",
+    "My linked notes/security control.md"
   ]
 }

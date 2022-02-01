@@ -1,0 +1,1 @@
+**Boot**—the virus code is written to the disk boot sector or the partition table of a fixed disk or USB media, and executes as a memory resident process when the OS starts or the media is attached to the computer.

@@ -1,0 +1,1 @@
+**polymorphic** for viruses that can dynamically change or obfuscate their code to evade detection.

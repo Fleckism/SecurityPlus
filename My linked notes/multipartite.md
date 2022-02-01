@@ -1,0 +1,1 @@
+**multipartite** is used for viruses that use multiple vectors
