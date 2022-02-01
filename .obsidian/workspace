@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My notes.md",
+            "file": "My linked notes/fingerprinting.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lab",
+                "query": "fingerprinting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My notes.md",
+                "file": "My linked notes/fingerprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,20 +103,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "active": "db2d651d275bac58",
   "lastOpenFiles": [
-    "My notes.md",
-    "My dump/Notes from tests/Lesson 3 you can't redo these!.md",
+    "My linked notes/fingerprinting.md",
+    "My linked notes/assessment.md",
     "My dump/Z_archive/Notes from slides.md",
-    "My linked notes/worm.md",
-    "My linked notes/malware.md",
-    "My linked notes/virus.md",
-    "My linked notes/Trojan.md",
-    "My linked notes/logic bomb.md",
-    "My linked notes/Fileless.md",
-    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md"
+    "My linked notes/hping.md",
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "My linked notes/ARP.md",
+    "My linked notes/APT.md",
+    "My linked notes/application vulnerability.md",
+    "My linked notes/A-V.md",
+    "My notes.md"
   ]
 }
