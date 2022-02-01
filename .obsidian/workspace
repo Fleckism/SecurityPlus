@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "69d14143e1aec40d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/managerial.md",
-            "mode": "source",
-            "backlinks": true
-          }
-        }
-      },
-      {
         "id": "db2d651d275bac58",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Corrective.md",
+            "file": "My linked notes/nmap.md",
             "mode": "source",
             "backlinks": true
           }
@@ -73,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 215.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -100,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/managerial.md",
+                "file": "My linked notes/nmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,19 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
-  "active": "69d14143e1aec40d",
+  "active": "db2d651d275bac58",
   "lastOpenFiles": [
+    "My linked notes/nmap.md",
+    "My linked notes/Corrective.md",
     "My linked notes/managerial.md",
     "My linked notes/security control.md",
     "My linked notes/security controls.md",
     "My linked notes/AUP.md",
     "My linked notes/Deterrent.md",
     "My linked notes/Preventive.md",
-    "My linked notes/Corrective.md",
     "My linked notes/Compensating.md",
-    "My linked notes/technical.md",
-    "My linked notes/IDS.md"
+    "My linked notes/technical.md"
   ]
 }
