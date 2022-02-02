@@ -25,7 +25,7 @@ The Pentest-Standard website provides invaluable commentary on the conduct of pe
 
 Attacks come from different sources and motivations. You may wish to test both resistance to external (targeted and untargeted) and insider threats. You need to determine how much information about the network to provide to the consultant:
 
--   #C_managerial  **Black box (or unknown environment)**—the consultant is given no privileged information about the network and its security systems. This type of test would require the tester to perform a reconnaissance phase. Black box tests are useful for simulating the behavior of an external threat.
+-    **Black box (or unknown environment)**—the consultant is given no privileged information about the network and its security systems. This type of test would require the tester to perform a reconnaissance phase. Black box tests are useful for simulating the behavior of an external threat.
 -   **White box (or known environment)**—the consultant is given complete access to information about the network. This type of test is sometimes conducted as a follow-up to a black box test to fully evaluate flaws discovered during the black box test. The tester skips the reconnaissance phase in this type of test. White box tests are useful for simulating the behavior of a privileged insider threat.
 -   **Gray box (or partially known environment)**—the consultant is given some information; typically, this would resemble the knowledge of junior or non-IT staff to model particular types of insider threats. This type of test requires partial reconnaissance on the part of the tester. Gray box tests are useful for simulating the behavior of an unprivileged insider threat.
 

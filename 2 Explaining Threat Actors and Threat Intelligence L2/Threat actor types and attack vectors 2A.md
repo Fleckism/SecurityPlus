@@ -28,7 +28,7 @@ Relationship between vulnerability, threat, and risk.
 These definitions and more information on risk management are contained in NIST's SP 800-30 ([nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/nistspecialpublication800-30r1.pdf)).
 ## ATTRIBUTES OF THREAT ACTORS
 
-Historically, cybersecurity techniques were highly dependent on the identification of "static" known [[threats]], such as viruses or rootkits, Trojans, botnets, and specific software vulnerabilities. It is relatively straightforward to identify and scan for these types of threats with automated software. Unfortunately, adversaries were able to develop means of circumventing this type of signature-based scanning.
+Historically, cybersecurity techniques were highly dependent on the identification of "static" known [[threat]]s, such as viruses or rootkits, Trojans, botnets, and specific software vulnerabilities. It is relatively straightforward to identify and scan for these types of threats with automated software. Unfortunately, adversaries were able to develop means of circumventing this type of signature-based scanning.
 
 The sophisticated nature of modern cybersecurity threats means that it is important to be able to describe and analyze behaviors. This analysis involves identifying the attributes of threat actors in terms of location, intent, and capability.
 

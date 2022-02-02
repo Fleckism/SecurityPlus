@@ -9,7 +9,31 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
+            "file": "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
+            "mode": "source",
+            "backlinks": true
+          }
+        }
+      },
+      {
+        "id": "729ddf3d203ed862",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/threat.md",
+            "mode": "source",
+            "backlinks": true
+          }
+        }
+      },
+      {
+        "id": "e8871997b335f9b1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My notes.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "backdoor",
+                "query": "tag:#C_managerial",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +81,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -88,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
+                "file": "My notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,17 +130,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "56106c307c5b2c9f",
+  "active": "e8871997b335f9b1",
   "lastOpenFiles": [
-    "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
-    "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
-    "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
-    "My linked notes/Topology discovery.md",
-    "My linked notes/tool.md",
+    "My notes.md",
+    "My linked notes/GRC.md",
+    "My linked notes/OIR.md",
+    "My linked notes/implementation.md",
+    "My linked notes/A_D.md",
     "My linked notes/threat.md",
-    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "My linked notes/threats.md"
+    "My linked notes/Attack.md",
+    "Security Acronyms.md",
+    "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
+    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md"
   ]
 }

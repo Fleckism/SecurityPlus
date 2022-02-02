@@ -7,19 +7,18 @@
 	- Scenarios
 		- Have page for defenses
 		- Vulnerabilities
+
+
 # Assisted Labs
 - Lesson 3
 - Assisted Lab 02: Scanning and Identifying Network Nodes Nmap
 	- 
 # Making sense of my tags
-Is a #assessment  the same as a #F_detect  or #F_identify 
-#F_detect : To discover or find by careful search.
-#F_respond : A reaction
-#F_identify : To establish the identity of someone or something.
-#threat :  A source of danger
-#C_managerial :Policies, procedures, rules of behavior
-#activity
-#feedback
+1.  #Attacks, #Threats, and #Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
+2.  Architecture and Design	21% #A_D  [[A_D]]
+3.  #Implementation 25%**  [[implementation]]
+4.  Operations and Incident Response 16%  #OIR [[OIR]]
+5.  Governance, Risk, and Compliance 14%  #GRC  [[GRC]]
 
 
 ## IoA/C
@@ -48,7 +47,7 @@ IoC:  are “pieces of forensic data, such as data found in system log entries o
 ## threat
 #threat : a **threat** is a potential negative action or event facilitated by a [vulnerability] that results in an unwanted impact to a computer system or application.
 
-## vulnerability
+## vulnerability vs threat?
 #vulnerability : is a weakness which can be exploited by a threat actor
 
 ## implement

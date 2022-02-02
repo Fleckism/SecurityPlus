@@ -12,11 +12,6 @@
     },
     {
       "type": "file",
-      "title": "vulnerability",
-      "path": "My linked notes/vulnerability.md"
-    },
-    {
-      "type": "file",
       "title": "assessment",
       "path": "My linked notes/assessment.md"
     },
@@ -29,6 +24,46 @@
       "type": "file",
       "title": "virus",
       "path": "My linked notes/virus.md"
+    },
+    {
+      "type": "file",
+      "title": "My notes",
+      "path": "My notes.md"
+    },
+    {
+      "type": "file",
+      "title": "Attack",
+      "path": "My linked notes/Attack.md"
+    },
+    {
+      "type": "file",
+      "title": "threat",
+      "path": "My linked notes/threat.md"
+    },
+    {
+      "type": "file",
+      "title": "vulnerability",
+      "path": "My linked notes/vulnerability.md"
+    },
+    {
+      "type": "file",
+      "title": "A_D",
+      "path": "My linked notes/A_D.md"
+    },
+    {
+      "type": "file",
+      "title": "implementation",
+      "path": "My linked notes/implementation.md"
+    },
+    {
+      "type": "file",
+      "title": "OIR",
+      "path": "My linked notes/OIR.md"
+    },
+    {
+      "type": "file",
+      "title": "GRC",
+      "path": "My linked notes/GRC.md"
     }
   ]
 }

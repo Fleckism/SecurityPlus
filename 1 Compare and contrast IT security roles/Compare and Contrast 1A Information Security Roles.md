@@ -1,7 +1,7 @@
 ## LESSON INTRODUCTION
 
 Security is an ongoing process that includes 
-- assessing requirements, 
+- assessing requirements, [[assessment]]
 - **setting up organizational security systems, hardening them, monitoring them, responding to attacks in progress, and deterring attackers**. As a security professional, it is important that you understand how the security function is implemented as departments or units and professional roles within different types of organizations. You must also be able to explain the importance of 
 - compliance factors and 
 - best practice frameworks in driving the selection of security controls.
@@ -24,11 +24,11 @@ Cybersecurity
 - Created by thousands of working subject matter experts
 
 Domain														% of Examination
-**1.  Attacks, Threats, and Vulnerabilities 24%**  
-2.  Architecture and Design	21%
-**3.  Implementation 25%**
-4.  Operations and Incident Response 16%
-5.  Governance, Risk, and Compliance 14%
+**1.  #Attacks, #Threats, and #Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
+2.  Architecture and Design	21% #A_D  [[A_D]]
+**3.  #Implementation 25%**  [[implementation]]
+4.  Operations and Incident Response 16%  #OIR [[OIR]]
+5.  Governance, Risk, and Compliance 14%  #GRC  [[GRC]]
 
 Job Roles
 - Network administrator:  In charge of information in transit stays secure, put systems together that are secure.
