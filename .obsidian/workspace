@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "6e217defcec994aa",
+        "id": "b709c74fa286d504",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/rootkit.md",
+            "file": "My linked notes/Acronyms/TCP.md",
+            "mode": "source",
+            "backlinks": true
+          }
+        }
+      },
+      {
+        "id": "6e86e77426bc323c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/TTPs.md",
+            "mode": "source",
+            "backlinks": true
+          }
+        }
+      },
+      {
+        "id": "ef6dd93b82b531bd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"virus\"",
+                "query": "Non-resident/file infector",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/rootkit.md",
+                "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,17 +129,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "6e217defcec994aa",
+  "active": "ef6dd93b82b531bd",
   "lastOpenFiles": [
-    "My linked notes/rootkit.md",
-    "My linked notes/Test Lesson 4.md",
-    "My linked notes/malware.md",
-    "My linked notes/spyware.md",
-    "My linked notes/virus.md",
-    "My linked notes/Boot.md",
-    "My linked notes/computer virus.md",
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "My linked notes/Trojan.md",
-    "My linked notes/encryption.md"
+    "Non-resident/file infector.md",
+    "My linked notes/Acronyms/UEBA.md",
+    "My linked notes/Untitled.md",
+    "My linked notes/Acronyms/TCP.md",
+    "My linked notes/threat.md",
+    "My linked notes/Acronyms/TTPs.md",
+    "My linked notes/THIRD-PARTY RISKS.md",
+    "My linked notes/Acronyms/TAP.md",
+    "My linked notes/Acronyms/NIST.md"
   ]
 }

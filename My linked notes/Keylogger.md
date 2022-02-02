@@ -1,11 +1,12 @@
 # SPYWARE AND KEYLOGGERS
-
+#z
 The first viruses and worms focused on the destructive potential of being able to replicate. As the profitable uses of this software became apparent, however, they started to be coded with payloads designed to facilitate intrusion, fraud, and data theft. Various types of unwanted code and malware perform some level of monitoring:
 
 -   Tracking cookies—cookies are plaintext files, not malware, but if browser settings allow third-party cookies, they can be used to record pages visited, search queries, browser metadata, and IP address. Tracking cookies are created by adverts and analytics widgets embedded into many websites.
 -   Adware—this is a class of [[PUPs]]/grayware that performs browser reconfigurations, such as allowing tracking cookies, changing default search providers, opening sponsor's pages at startup, adding bookmarks, and so on. Adware may be installed as a program or as a browser extension/plug-in.
--   Spyware—this is malware that can perform adware-like tracking, but also monitor local application activity, take screenshots, and activate recording devices, such as a microphone or webcam. Another spyware technique is to perform [[DNS]] redirection to pharming sites.
+# keylogger
 -   A keylogger is spyware that actively attempts to steal confidential information by recording keystrokes. The attacker will usually hope to discover passwords or credit card data.
+-   A keylogger is also a type of spyware that records a user’s keystrokes. It occurs without a user’s knowledge, but it cannot hide itself or gain privileges.
 
 ![Screenshot of Actual Keylogger shows detail on Keystrokes tab, including actual password typed for highlighted item.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/1811-1599771796602.png)
 

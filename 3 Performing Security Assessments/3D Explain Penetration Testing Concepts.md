@@ -8,7 +8,7 @@ Automated vulnerability scanning does not test what a highly capable threat acto
 
 A penetration test—often shortened to _pen test_—uses authorized hacking techniques to discover exploitable weaknesses in the target's security systems. Pen testing is also referred to as _ethical hacking._ A pen test might involve the following steps:
 
--   **Verify a threat exists**—use surveillance, social engineering, network scanners, and vulnerability assessment tools to identify a vector by which vulnerabilities could be exploited.
+-   **Verify a threat exists**—use surveillance, [[social engineering]], network scanners, and vulnerability assessment tools to identify a vector by which vulnerabilities could be exploited.
 -   **Bypass security controls**—look for easy ways to attack the system. For example, if the network is strongly protected by a firewall, is it possible to gain physical access to a computer in the building and run malware from a USB stick?
 -   **Actively test security controls**—probe controls for configuration weaknesses and errors, such as weak passwords or software vulnerabilities.
 -   **Exploit vulnerabilities**—prove that a vulnerability is high risk by exploiting it to gain access to data or install backdoors. i.e. annotate the data that has been accessed
