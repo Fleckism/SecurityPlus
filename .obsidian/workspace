@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b709c74fa286d504",
+        "id": "56106c307c5b2c9f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/TCP.md",
-            "mode": "source",
-            "backlinks": true
-          }
-        }
-      },
-      {
-        "id": "6e86e77426bc323c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Acronyms/TTPs.md",
-            "mode": "source",
-            "backlinks": true
-          }
-        }
-      },
-      {
-        "id": "ef6dd93b82b531bd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+            "file": "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
             "mode": "source",
             "backlinks": true
           }
@@ -72,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Non-resident/file infector",
+                "query": "backdoor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+                "file": "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,17 +105,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "ef6dd93b82b531bd",
+  "active": "56106c307c5b2c9f",
   "lastOpenFiles": [
-    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "Non-resident/file infector.md",
-    "My linked notes/Acronyms/UEBA.md",
-    "My linked notes/Untitled.md",
-    "My linked notes/Acronyms/TCP.md",
+    "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
+    "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
+    "My linked notes/Topology discovery.md",
+    "My linked notes/tool.md",
     "My linked notes/threat.md",
-    "My linked notes/Acronyms/TTPs.md",
-    "My linked notes/THIRD-PARTY RISKS.md",
-    "My linked notes/Acronyms/TAP.md",
-    "My linked notes/Acronyms/NIST.md"
+    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+    "My linked notes/threats.md"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "malware",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -33,5 +33,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.5635658037410702,
-  "close": true
+  "close": false
 }

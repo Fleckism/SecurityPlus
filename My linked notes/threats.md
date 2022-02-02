@@ -1,2 +1,0 @@
-a #threat is a potential negative action or event facilitated by a [[vulnerability]] that results in a n unwanted impact to a computer system or application.
- viruses or rootkits, Trojans, botnets, and specific software vulnerabilities

