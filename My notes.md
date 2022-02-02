@@ -1,11 +1,13 @@
 # Next things to do!
 - Links are great when going through the notes
 - Hashtags are good for searching for a particular subject.
+- See how to add groups
 - **Test to see if assisted labs work more than once!**
 	- Scenarios
 		- Have page for defenses
 		- Vulnerabilities
-
+# Assisted Labs
+- Lesson 3
 # Making sense of my tags
 Is a #assessment  the same as a #F_detect  or #F_identify 
 #F_detect : To discover or find by careful search.

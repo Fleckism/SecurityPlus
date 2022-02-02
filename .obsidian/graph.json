@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "AIC",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.563565803741065,
+  "scale": 0.5635658037410686,
   "close": false
 }
