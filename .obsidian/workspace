@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Assisted Labs.md",
+            "file": "Assisted Labs.md",
             "mode": "source",
             "backlinks": true
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Labs.md",
+                "file": "Assisted Labs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +107,15 @@
   },
   "active": "6e217defcec994aa",
   "lastOpenFiles": [
-    "My linked notes/Assisted Labs.md",
+    "Assisted Labs.md",
+    "My linked notes/Untitled.md",
+    "Non-resident/file infector.md",
     "My notes.md",
     "My linked notes/AIC or CIA.md",
     "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
     "My linked notes/Confidentiality.md",
     "My linked notes/Non-repudiation.md",
     "My linked notes/Availability.md",
-    "My linked notes/Integrity.md",
-    "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md",
-    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md"
+    "My linked notes/Integrity.md"
   ]
 }

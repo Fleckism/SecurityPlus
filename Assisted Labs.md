@@ -5,4 +5,10 @@
 -   [MS1](https://labclient.labondemand.com/Instructions/e32cbc8a-ace3-4dca-a698-ba8475de1963?rc=10#) is configured as a member server for running applications. It runs a DHCP service to perform auto addressing for clients connecting to the network. It has the web server IIS and the email server hMail installed. This VM is also configured with a static IP address (10.1.0.2).
     
 
-You will usually use the username 515support\Administrator to log on to the Windows PCs. Each user account uses the password Pa$$w0rd (awful security practice, but it makes the activities simpler for you to complete).
+{You will usually use the username 515support\Administrator to log on to the Windows PCs. Each user account uses the password Pa\$$w0rd (awful security practice, but it makes the activities simpler for you to complete).}
+
+
+
+
+
+# 02 Assisted Lab 

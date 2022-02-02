@@ -8,6 +8,8 @@
 		- Vulnerabilities
 # Assisted Labs
 - Lesson 3
+- Assisted Lab 02: Scanning and Identifying Network Nodes Nmap
+	- 
 # Making sense of my tags
 Is a #assessment  the same as a #F_detect  or #F_identify 
 #F_detect : To discover or find by careful search.
