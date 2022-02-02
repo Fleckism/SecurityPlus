@@ -24,6 +24,11 @@
       "type": "file",
       "title": "malware",
       "path": "My linked notes/malware.md"
+    },
+    {
+      "type": "file",
+      "title": "virus",
+      "path": "My linked notes/virus.md"
     }
   ]
 }

@@ -1,0 +1,1 @@
+SMiShing—this refers to using short message service (SMS) text communications as the vector.

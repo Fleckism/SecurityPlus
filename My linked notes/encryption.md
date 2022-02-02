@@ -1,0 +1,1 @@
+Keyboard encryption software is used to protect against keyloggers, which record keystrokes for the purpose of stealing data. Keyloggers are spyware.

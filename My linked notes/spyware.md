@@ -1,2 +1,1 @@
 -   Spyware—this is malware that can perform adware-like tracking, but also monitor local application activity, take screenshots, and activate recording devices, such as a microphone or webcam. Another spyware technique is to perform [[DNS]] redirection to pharming sites.
--   

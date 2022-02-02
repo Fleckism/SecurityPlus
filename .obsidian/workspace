@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My notes.md",
+            "file": "My linked notes/rootkit.md",
             "mode": "source",
             "backlinks": true
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"virus\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 398.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My notes.md",
+                "file": "My linked notes/rootkit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +107,15 @@
   },
   "active": "6e217defcec994aa",
   "lastOpenFiles": [
-    "My notes.md",
-    "Assisted Labs.md",
-    "My linked notes/Untitled.md",
-    "Non-resident/file infector.md",
-    "My linked notes/AIC or CIA.md",
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "My linked notes/Confidentiality.md",
-    "My linked notes/Non-repudiation.md",
-    "My linked notes/Availability.md",
-    "My linked notes/Integrity.md"
+    "My linked notes/rootkit.md",
+    "My linked notes/Test Lesson 4.md",
+    "My linked notes/malware.md",
+    "My linked notes/spyware.md",
+    "My linked notes/virus.md",
+    "My linked notes/Boot.md",
+    "My linked notes/computer virus.md",
+    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+    "My linked notes/Trojan.md",
+    "My linked notes/encryption.md"
   ]
 }
