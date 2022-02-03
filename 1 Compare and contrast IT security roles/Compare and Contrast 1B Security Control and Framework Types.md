@@ -7,14 +7,14 @@ Information and cybersecurity assurance is usually considered to take place with
 
 - **A [[security control]] is something designed to give a system or data asset the properties of confidentiality, integrity, availability, and non-repudiation**. Controls can be divided into three broad categories, representing the way the control is implemented:
 
--   #C_technical —the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.  
+-   technical —the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.  
 	-   Operate without much intervention once configured
--   #C_operational —the control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.	
+-   operational —the control is implemented primarily by people rather than systems. For example, security guards and training programs are operational controls rather than technical controls.	
 	-   Day-to-day administration of security system
 	-   Tactical reporting and insights
 	-   Controls that require people to implement or administer
 	-   Standard operating procedures
--  #C_managerial (administrative)—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
+-  managerial (administrative)—the control gives oversight of the information system. Examples could include risk identification or a tool allowing the evaluation and selection of other security controls.
 	- Oversight of the security system
 	-   Strategic reporting and insights
 	-   Risk assessment
@@ -26,7 +26,7 @@ Although it uses a more complex scheme, it is worth being aware of the most curr
 ## SECURITY CONTROL FUNCTIONAL TYPES
 
 [[Security control]]s can also be classified in types according to the goal or function they perform:
-#fleck 
+
 -   ==Preventive==—the control acts to eliminate or reduce the likelihood that an attack can succeed. A preventative control operates before an attack can take place. Access control lists (ACL) configured on firewalls and file system objects are preventative-type controls. Anti-malware software also acts as a preventative control, by blocking processes identified as malicious from executing. Directives and standard operating procedures (SOPs) can be thought of as administrative (managerial) versions of preventative controls.
 	-   Reduce likelihood of attack
 	-   Operate before/preceding an attack
@@ -117,7 +117,7 @@ A web application is a particular type of client/server architecture. A web appl
 
 The Open Web Application Security Project (OWASP) is a not-for-profit, online community that publishes several secure application development resources, such as the Top 10 list of the most critical application security risks ([owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten/)). OWASP has also developed resources, such as the Zed Attack Proxy and Juice Shop (a deliberately unsecure web application), to help investigate and understand penetration testing and application security issues.
 ## REGULATIONS, STANDARDS, AND LEGISLATION
-
+#GRC [[GRC]]
 The key [[Frameworks]], benchmarks, and configuration guides may be used to demonstrate compliance with a country's legal/regulatory requirements or with industry-specific regulations. **Due diligence is a legal term meaning that responsible persons have not been negligent in discharging their duties.** Negligence may create criminal and civil liabilities. Many countries have enacted legislation that criminalizes negligence in information management. In the US, for example, the Sarbanes-Oxley Act (SOX) mandates the implementation of risk assessments, internal controls, and audit procedures. The Computer Security Act (1987) requires federal agencies to develop security policies for computer systems that process confidential information. In 2002, the Federal Information Security Management Act (FISMA) was introduced to govern the security of data processed by federal government agencies. 
 
 Some regulations have specific cybersecurity control requirements; others simply mandate **"best practice,"** as represented by a particular industry or international framework. It may be necessary to perform mapping between different industry frameworks, such as NIST and ISO 27K, if a regulator specifies the use of one but not another. Conversely, the use of frameworks may not be mandated as such, but auditors are likely to expect them to be in place as a demonstration of a strong and competent security program.

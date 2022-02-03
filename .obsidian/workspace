@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e8871997b335f9b1",
+        "id": "c6637720a388e0d3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My dump/Z_archive/Notes from slides.md",
+            "file": "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           }
-        }
-      },
-      {
-        "id": "c6637720a388e0d3",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -97,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My dump/Z_archive/Notes from slides.md",
+                "file": "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,17 +106,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "e8871997b335f9b1",
+  "active": "c6637720a388e0d3",
   "lastOpenFiles": [
-    "My dump/Z_archive/Notes from slides.md",
-    "My dump/Mapping Course Content to CompTIA Security+ (Exam SY0-601).pdf",
-    "My notes.md",
-    "My dump/securityPDF/Course Map.md",
-    "My linked notes/assessment.md",
-    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
-    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
-    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
     "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
-    "My dump/securityPDF/sy0-601-01.pdf"
+    "1 Compare and contrast IT security roles/Compare and Contrast 1B Security Control and Framework Types.md",
+    "My linked notes/Acronyms/CSF.md",
+    "My linked notes/five functions.md",
+    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+    "My linked notes/Acronyms/CIRT.md",
+    "My notes.md",
+    "My linked notes/OIR.md",
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "My dump/Z_archive/securityPDF/Mapping Course Content to CompTIA Security+ (Exam SY0-601).pdf"
   ]
 }
