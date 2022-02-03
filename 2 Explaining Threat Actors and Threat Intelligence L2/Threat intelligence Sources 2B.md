@@ -5,12 +5,12 @@
 As a security professional, you must continually refresh and expand your knowledge of both security technologies and practices and adversary tactics and techniques. As well as staying up-to-date on a personal level, you will also need to select and deploy threat intelligence platforms. You need to be able to identify and evaluate sources of threat intelligence and research and to use these resources to enhance security controls.
 
 ## THREAT RESEARCH SOURCES
-
+#zFleck #threat 
 Threat research is a counterintelligence gathering effort in which security companies and researchers attempt to discover the tactics, techniques, and procedures ([[TTPs]]) of modern cyber adversaries. There are many companies and academic institutions engaged in primary cybersecurity research. Security solution providers with firewall and anti-malware platforms derive a lot of data from their own customers' networks. As they assist customers with cybersecurity operations, they are able to analyze and publicize [[TTPs]] and their indicators. These organizations also operate honeynets to try to observe how hackers interact with vulnerable systems. 
 
 Another primary source of threat intelligence is the dark web. The deep web is any part of the World Wide Web that is not indexed by a search engine. This includes pages that require registration, pages that block search indexing, unlinked pages, pages using nonstandard DNS, and content encoded in a nonstandard manner. Within the deep web, are areas that are deliberately concealed from "regular" browser access.
 
--   Dark net—a network established as an overlay to Internet infrastructure by software, such as The Onion Router (TOR), Freenet, or I2P, that acts to anonymize usage and prevent a third party from knowing about the existence of the network or analyzing any activity taking place over the network. Onion routing, for instance, uses multiple layers of encryption and relays between nodes to achieve this anonymity.
+-   [[Dark net]]—a network established as an overlay to Internet infrastructure by software, such as The Onion Router (TOR), Freenet, or I2P, that acts to anonymize usage and prevent a third party from knowing about the existence of the network or analyzing any activity taking place over the network. Onion routing, for instance, uses multiple layers of encryption and relays between nodes to achieve this anonymity.
 -   Dark web—sites, content, and services accessible only over a dark net. While there are dark web search engines, many sites are hidden from them. Access to a dark web site via its URL is often only available via "word of mouth" bulletin boards.
 
 ![Screenshot of AlphaBay Market showing "Tor circuit for this site" with 8 steps including IP addresses in Italy, Sweden, and Germany.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2941-1599771794384.png)

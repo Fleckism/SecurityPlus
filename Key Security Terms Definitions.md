@@ -52,16 +52,16 @@ Output from the route command on a Linux host. Most endpoints have a simple rout
 
 -   Open Vulnerability and Assessment Language (OVAL)—an XML schema for describing system security state and querying vulnerability reports and information.
 
-
-Tactics:  A plan for attaining a particular goal
+[[TTPs]]
+**Tactics**:  A plan for attaining a particular goal
 - Describe the way the threat actor operates.
-Technique: A method( A systematic way of doing something implies an orderly logical arrangement)
-Procedure:  A particular course of action.
+**Technique**: A method( A systematic way of doing something implies an orderly logical arrangement)
+**Procedure**:  A particular course of action.
 - A set of techniques is a procedure.
 
-#fleck Function: Are what controls tell you to do.?
+#researchFleck Function: Are what controls tell you to do.?
 	What something does or is used for
-#fleck Control:  Are the processes you have in place.
+#researchFleck  Control:  Are the processes you have in place.
 
 Cipher: An encrypted algorithm
 unsecured protocol: is one that transfers data as cleartext—that is, the protocol does not use encryption for data protection.

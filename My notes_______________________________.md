@@ -15,7 +15,7 @@
 - Assisted Lab 02: Scanning and Identifying Network Nodes Nmap
 	- 
 # Making sense of my tags
-1.  #Attacks, #Threats, and #Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
+1.  #Attacks, #Threat(s), and #Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
 2.  Architecture and Design	21% #A_D  [[A_D Architecture and Design]]
 3.  #Implementation 25%**  [[implementation]]
 4.  Operations and Incident Response 16%  #OIR [[OIR Operations and Incident Response]]
