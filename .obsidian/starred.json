@@ -28,7 +28,7 @@
     {
       "type": "file",
       "title": "My notes",
-      "path": "My notes.md"
+      "path": "My notes_______________________________.md"
     },
     {
       "type": "file",
@@ -48,7 +48,7 @@
     {
       "type": "file",
       "title": "A_D",
-      "path": "My linked notes/A_D.md"
+      "path": "My linked notes/A_D Architecture and Design.md"
     },
     {
       "type": "file",
@@ -58,12 +58,12 @@
     {
       "type": "file",
       "title": "OIR",
-      "path": "My linked notes/OIR.md"
+      "path": "My linked notes/OIR Operations and Incident Response.md"
     },
     {
       "type": "file",
       "title": "GRC",
-      "path": "My linked notes/GRC.md"
+      "path": "My linked notes/GRC Governance, Risk, and Compliance.md"
     }
   ]
 }

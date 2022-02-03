@@ -1,2 +1,2 @@
 cybersecurity framework ([[CSF]])
-This #GRC [[GRC]]
+This #GRC [[GRC Governance, Risk, and Compliance]]

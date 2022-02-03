@@ -14,13 +14,13 @@ EXAM OBJECTIVES COVERED
 1.5 Explain different threat actors, vectors, and intelligence sources
 
 Classifying and evaluating the capabilities of threat actor types enables you to assess and mitigate risks more effectively. Understanding the methods by which threat actors infiltrate networks and systems is essential for you to assess the attack surface of your networks and deploy controls to block attack vectors.
-## VULNERABILITY, THREAT, AND RISK
+## #VULNERABILITY,  #THREAT, AND #RISK
 
 As part of security [[assessment]] and monitoring, security teams must identify ways in which their systems could be attacked. These assessments involve vulnerabilities, threats, and risk:
 #fleck , #vulnerability 
--   [[vulnerability]] is a weakness that could be triggered accidentally or exploited intentionally to cause a security breach. Examples of vulnerabilities include improperly configured or installed hardware or software, delays in applying and testing software and firmware patches, untested software and firmware patches, the misuse of software or communication protocols, poorly designed network architecture, inadequate physical security, insecure password usage, and design flaws in software or operating systems, such as unchecked user input.
+-   [[vulnerability]] **is a weakness** that could be triggered accidentally or exploited intentionally to cause a security breach. Examples of vulnerabilities include improperly configured or installed hardware or software, delays in applying and testing software and firmware patches, untested software and firmware patches, the misuse of software or communication protocols, poorly designed network architecture, inadequate physical security, insecure password usage, and design flaws in software or operating systems, such as unchecked user input.
 -   #threat 
--   [[threats]] is the potential for someone or something to exploit a vulnerability and breach security. A threat may be intentional or unintentional. The person or thing that poses the threat is called a _threat actor_ or _threat agent._ The path or tool used by a malicious threat actor can be referred to as the _attack vector._
+-   [[threat]] **is the potential** for someone or something to exploit a vulnerability and breach security. A threat may be intentional or unintentional. The person or thing that poses the threat is called a _threat actor_ or _threat agent._ The path or tool used by a malicious threat actor can be referred to as the _attack vector._
 -   Risk is the likelihood and impact (or consequence) of a threat actor exploiting a vulnerability. To assess risk, you identify a vulnerability and then evaluate the likelihood of it being exploited by a threat and the impact that a successful exploit would have.
 
 Relationship between vulnerability, threat, and risk.
