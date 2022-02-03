@@ -1,4 +1,4 @@
-Security #assessment refers to processes and tools that **evaluate the attack surface**.:
+Security assessment refers to processes and tools that **evaluate the attack surface**.:
 
  The process of mapping out the attack surface is referred to as network [[reconnaissance]] and discovery
 

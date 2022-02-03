@@ -3,6 +3,7 @@
 - Hashtags are good for searching for a particular subject.
 - See how to add groups
 - graph view does not show folders only links
+- get course map PDF
 - **Test to see if assisted labs work more than once!**
 	- Scenarios
 		- Have page for defenses

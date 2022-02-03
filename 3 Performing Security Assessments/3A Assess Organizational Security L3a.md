@@ -1,6 +1,6 @@
 ## LESSON INTRODUCTION
 
-Security #assessment refers to processes and tools that ==evaluate the attack surface==. With knowledge of adversary tactics and capabilities, you can assess whether points on the attack surface are potentially vulnerable attack vectors. The output of [[assessment]] is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by [[threat]] actors. 
+Security assessment refers to processes and tools that ==evaluate the attack surface==. With knowledge of adversary tactics and capabilities, you can assess whether points on the attack surface are potentially vulnerable attack vectors. The output of [[assessment]] is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by [[threat]] actors. 
 
 Lesson Objectives
 
@@ -69,7 +69,7 @@ The basic syntax of an Nmap command is to give the IP subnet (or IP host address
 ![Screenshot of 7 IP addresses in the left pane that begin with 10.1.0; the right pane lists the MAC address for each host and whether the host is up.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/1833-1599771794816.png)
 
 Nmap default scan listing open ports from within the default range. (Screenshot Nmap [nmap.org](https://nmap.org/).)
-#assessment 
+
 This OS [[fingerprinting]] can be time-consuming on a large IP scope and is also non-stealthy. If you want to perform only host discovery, you can use Nmap with the -sn switch (or -sP in earlier versions) to suppress the port scan.
 ## SERVICE DISCOVERY AND NMAP
 
@@ -88,7 +88,6 @@ When Nmap completes a host discovery scan, it will report on the state of each p
 The detailed analysis of services on a particular host is often called [[fingerprinting]]. This is because each OS or application software that underpins a network service responds to probes in a unique way. This allows the scanning software to guess at the software name and version, without having any sort of privileged access to the host. This can also be described as banner grabbing, where the banner is the header of the response returned by the application.
 
 When services are discovered, you can use Nmap with the -sV or -A switch to probe a host more intensively to discover the following information:
-#assessment  
 -   Protocol—do not assume that a port is being used for its "well known" application protocol. Nmap can scan traffic to verify whether it matches the expected [[signature]] (HTTP, DNS, SMTP, and so on).
 -   Application name and version—the software operating the port, such as Apache web server or Internet Information Services (IIS) web server.
 -   OS type and version—use the -O switch to enable OS fingerprinting (or -A to use both OS fingerprinting and version discovery).
@@ -98,7 +97,6 @@ Nmap fingerprinting scan results.
 
 Nmap comes with a database of application and version fingerprint signatures, classified using a standard syntax called Common Platform Enumeration ([[CPE]]). Unmatched responses can be submitted to a web URL for analysis by the community .
 ## NETSTAT AND NSLOOKUP
-#assessment  
 Basic service discovery tasks can also be performed using tools built into the Windows and Linux operating systems:
 
 -   netstat—show the state of [[TCP]]/[[UDP]] ports on the local machine. The same command is used on both Windows and Linux, though with different options syntax. You can use netstat to check for service misconfigurations (perhaps a host is running a web or FTP server that a user installed without authorization). You may also be able to identify suspect remote connections to services on the local host or from the host to remote IP addresses. If you are attempting to identify malware, the most useful netstat output is to show which process is listening on which ports **(Suspicious network traffic check TCP port)**. 

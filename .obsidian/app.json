@@ -38,5 +38,6 @@
   ],
   "foldIndent": false,
   "alwaysUpdateLinks": true,
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "legacyEditor": false
 }
