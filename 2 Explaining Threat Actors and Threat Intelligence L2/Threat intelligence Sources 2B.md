@@ -5,7 +5,7 @@
 As a security professional, you must continually refresh and expand your knowledge of both security technologies and practices and adversary tactics and techniques. As well as staying up-to-date on a personal level, you will also need to select and deploy threat intelligence platforms. You need to be able to identify and evaluate sources of threat intelligence and research and to use these resources to enhance security controls.
 
 ## THREAT RESEARCH SOURCES
-#zFleck #threat 
+ #threat 
 Threat research is a counterintelligence gathering effort in which security companies and researchers attempt to discover the tactics, techniques, and procedures ([[TTPs]]) of modern cyber adversaries. There are many companies and academic institutions engaged in primary cybersecurity research. Security solution providers with firewall and anti-malware platforms derive a lot of data from their own customers' networks. As they assist customers with cybersecurity operations, they are able to analyze and publicize [[TTPs]] and their indicators. These organizations also operate honeynets to try to observe how hackers interact with vulnerable systems. 
 
 Another primary source of threat intelligence is the dark web. The deep web is any part of the World Wide Web that is not indexed by a search engine. This includes pages that require registration, pages that block search indexing, unlinked pages, pages using nonstandard DNS, and content encoded in a nonstandard manner. Within the deep web, are areas that are deliberately concealed from "regular" browser access.
@@ -20,7 +20,7 @@ Using the TOR browser to view the AlphaBay market, now closed by law enforcement
 Investigating these dark web sites and message boards is a valuable source of counterintelligence. The anonymity of dark web services has made it easy for investigators to infiltrate the forums and webstores that have been set up to exchange stolen data and hacking tools. As adversaries react to this, they are setting up new networks and ways of identifying law enforcement infiltration. Consequently, dark nets and the dark web represent a continually shifting landscape.
 
 ## THREAT INTELLIGENCE PROVIDERS
-
+#threat 
 The outputs from the primary research undertaken by security solutions providers and academics can take three main forms:
 
 -   Behavioral threat research—narrative commentary describing examples of attacks and TTPs gathered through primary research sources.
@@ -55,14 +55,14 @@ There are plenty of other sources of best practice advice and new research other
 
 -   Academic journals—results from academic researchers and not-for-profit trade bodies and associations, such as the IEEE, are published as papers in journals. Access to these papers is usually subscription-based. One free source is the arXiv preprint repository ([arxiv.org/list/cs.CR/recent](https://arxiv.org/list/cs.CR/recent)). Preprints are papers that have not been published or peer reviewed.
 -   Conferences—security conferences are hosted and sponsored by various institutions and provide an opportunity for presentations on the latest threats and technologies.
--   Request for Comments (RFC)—when a new technology is accepted as a web standard, it is published as an RFC by the W3C ([rfc-editor.org](https://www.rfc-editor.org/)). There are also informational RFCs covering many security considerations and best practices.
+-   Request for Comments ([[RFC]])—when a new technology is accepted as a web standard, it is published as an RFC by the W3C ([rfc-editor.org](https://www.rfc-editor.org/)). There are also informational RFCs covering many security considerations and best practices.
 -   Social media—companies and individual researchers and practitioners write informative blogs or social media feeds. There are too many useful blog and discussion sources to include here, but the list curated by Digital Guardian ([digitalguardian.com/blog/top-50-infosec-blogs-you-should-be-reading](https://digitalguardian.com/blog/top-50-infosec-blogs-you-should-be-reading)) is a good starting point.
 
 As well as a source of information, social media should also be monitored for threat data ([trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/hunting-threats-on-twitter](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/hunting-threats-on-twitter)).
 ## TACTICS, TECHNIQUES, AND PROCEDURES AND INDICATORS OF COMPROMISE
 
 A tactic, technique, or procedure ([[TTPs]]) is a generalized statement of adversary behavior. The term is derived from US military doctrine ([mwi.usma.edu/what-is-army-doctrine](https://mwi.usma.edu/what-is-army-doctrine/)). TTPs categorize behaviors in terms of campaign strategy and approach (tactics), generalized attack vectors (techniques), and specific intrusion tools and methods (procedures).
-
+[[OIR Operations and Incident Response]] #OIR 
 An **indicator of compromise ([[IoC]])** is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an IoC is evidence of a [[TTPs]].
 
 > TTPs describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like. ([stixproject.github.io/documentation/concepts/ttp-vs-indicator](https://stixproject.github.io/documentation/concepts/ttp-vs-indicator/))
