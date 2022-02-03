@@ -12,3 +12,11 @@
 
 
 # 02 Assisted Lab 
+
+# Lesson 3
+Exploring  the lab
+515support\Administrator
+[Pa$$w0rd]
+
+
+# Lesson 4

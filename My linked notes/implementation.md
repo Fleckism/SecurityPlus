@@ -1,4 +1,4 @@
 **Put a decision or plan into effect, feedback**
--  Something that the good guys do!
+-  A positive action that security professionals do!
 - feedback
 - [[assessment]] #assessment 
