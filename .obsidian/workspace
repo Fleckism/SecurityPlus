@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Open Ports.md",
+            "file": "My linked notes/misconfiguration.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Open Ports.md",
+                "file": "My linked notes/misconfiguration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,8 +125,8 @@
   },
   "active": "6c8a71443169601a",
   "lastOpenFiles": [
-    "My linked notes/Open Ports.md",
     "My linked notes/misconfiguration.md",
+    "My linked notes/Open Ports.md",
     "My linked notes/vulnerability.md",
     "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
     "My linked notes/Open permissions.md",
