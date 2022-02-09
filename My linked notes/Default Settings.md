@@ -1,0 +1,1 @@
+**Network appliances with weak settings can allow attackers to move through the network unhindered and snoop on traffic.**

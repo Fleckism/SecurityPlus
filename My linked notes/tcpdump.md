@@ -1,5 +1,5 @@
 tcpdump is a command line packet capture utility for Linux ([linux.die.net/man/8/tcpdump](https://linux.die.net/man/8/tcpdump)). The basic syntax of the command is tcpdump -i eth0, where eth0 is the interface to listen on. The utility will then display captured packets until halted manually (Ctrl+C). Frames can be saved to a .pcap file using the -w option. Alternatively, you can open a pcap file using the -r option.
-[[tools]]
+[[tool]]
 tcpdump is often used with some sort of filter expression to reduce the number of frames that are captured:
 
 -   Type—filter by host, net, port, or portrange.

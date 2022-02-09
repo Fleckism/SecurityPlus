@@ -21,7 +21,7 @@ The process of **mapping out the attack surface is referred to as network reconn
 
 [[Topology discovery]]* (or "footprinting") [1]**means scanning for hosts**, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors. 
 
-Basic topology discovery tasks can be accomplished using the command line tools built into Windows and Linux. The following [[tools]] report the IP configuration and test connectivity on the local network segment or subnet.
+Basic topology discovery tasks can be accomplished using the command line tools built into Windows and Linux. The following [[tool]] report the IP configuration and test connectivity on the local network segment or subnet.
 
 -   [[ipconfig]]—show the configuration assigned to network interface(s) in Windows, including the hardware or media access control (MAC) address, IPv4 and IPv6 addresses, **default gateway, and whether the address is static or assigned by DHCP. If the address is DHCP-assigned, the output also shows the address of the DHCP server that provided the lease (To detect spoofing).  
 -   [[ifconfig]]—show the configuration assigned to network interface(s) in Linux.
@@ -192,16 +192,16 @@ Some reconnaissance techniques and tests depend on sending forged or spoofed net
 -   Traceroute—if ICMP is blocked on a local network, hping offers alternative ways of mapping out network routes. hping can use arbitrary packet formats, such as probing DNS ports using TCP or UDP, to perform traces.
 -   Denial of service ([[DoS]])—hping can be used to perform flood-based DoS attacks from randomized source IPs. This can be used in a test environment to determine how well a firewall, IDS, or load balancer responds to such attacks.
 
-### tcpreplay
+### [[tcpreplay]]
 
-As the name suggests, tcpreplay takes previously captured traffic that has been saved to a .pcap file and replays it through a network interface ([linux.die.net/man/1/tcpreplay](https://linux.die.net/man/1/tcpreplay)). Optionally, fields in the capture can be changed, such as substituting MAC or IP addresses. tcpreplay is useful for analysis purposes. If you have captured suspect traffic, you can replay it through a monitored network interface to test intrusion detection rules malicious raffic sample.
+As the name suggests, tcpreplay takes previously captured traffic that has been saved to a .pcap file and replays it through a network interface ([linux.die.net/man/1/tcpreplay](https://linux.die.net/man/1/tcpreplay)). Optionally, fields in the capture can be changed, such as substituting MAC or IP addresses. tcpreplay is useful for analysis purposes. If you have captured suspect traffic, you can replay it through a monitored network interface to test intrusion detection rules malicious traffic sample.
 ## EXPLOITATION FRAMEWORKS
 
 A remote access trojan ([[RAT]]) is malware that gives an adversary the means of remotely accessing the network. From the perspective of security posture assessment, a penetration tester might want to try to establish this sort of connection and attempt to send corporate information over the channel (data exfiltration). If security controls are working properly, this attempt should be defeated (or at least detected). 
 
-An exploitation framework uses the vulnerabilities identified by an automated scanner and launches scripts or software to attempt to deliver matching exploits. This might involve considerable disruption to the target, including service failure, and risk data security.
+An [[exploitation framework]] uses the vulnerabilities identified by an automated scanner and launches scripts or software to attempt to deliver matching exploits. This might involve considerable disruption to the target, including service failure, and risk data security.
 
-The framework comprises a database of exploit code, each targeting a particular [[CVE]] (Common Vulnerabilities and Exposures). The exploit code can be coupled with modular payloads. Depending on the access obtained via the exploit, the payload code may be used to open a command shell, create a user, install software, and so on. The custom exploit module can then be injected into the target system. The framework may also be able to obfuscate the code so that it can be injected past an intrusion detection system or antivirus software.
+The framework comprises a database of exploit code, each targeting a particular [[CVE]] (Common Vulnerabilities and Exposures). The exploit code can be coupled with modular payloads. Depending on the access obtained via the exploit, the [[payload]] code may be used to open a command shell, create a user, install software, and so on. The custom exploit module can then be injected into the target system. The framework may also be able to obfuscate the code so that it can be injected past an intrusion detection system or antivirus software.
 
 The best-known exploit framework is Metasploit ([metasploit.com](https://www.metasploit.com/)). The platform is open-source software, now maintained by Rapid7. There is a free framework (command line) community edition with installation packages for Linux and Windows. Rapid7 produces pro and express commercial editions of the framework and it can be closely integrated with the Nexpose vulnerability scanner.
 
@@ -211,7 +211,7 @@ Metasploit Framework Console. (Screenshot used with permission from [metasploit.
 
 Sn1per ([github.com/1N3/Sn1per](https://github.com/1N3/Sn1per)) is a framework designed for penetration test reporting and evidence gathering. It can integrate with other tools such as Metasploit and Nikto to run automated suites of tests. Results can be displayed as web reports. 
 
-There are many other exploitation frameworks targeting different kinds of vulnerabilities. Some examples include:
+There are many other [[exploitation framework]]s targeting different kinds of vulnerabilities. Some examples include:
 
 -   fireELF—injecting fileless exploit payloads into a Linux host ([github.com/rek7/fireELF](https://github.com/rek7/fireELF)).
 -   RouterSploit—vulnerability scanning and exploit modules targeting embedded systems ([github.com/threat9/routersploit](https://github.com/threat9/routersploit)).
@@ -221,7 +221,7 @@ There are many other exploitation frameworks targeting different kinds of vulner
 
 ## NETCAT
 
-One simple but effective [[tools]] for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword: **(To check for if it's possible to open a network connection to a remote host over a given port#)** 
+One simple but effective [[tool]] for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword: **(To check for if it's possible to open a network connection to a remote host over a given port#)** 
 
 echo "head" | nc 10.1.0.1 -v 80
 

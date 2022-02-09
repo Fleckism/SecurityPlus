@@ -10,7 +10,7 @@ A protocol analyzer (or packet analyzer) works in conjunction with a sniffer to 
 
 Metasploit framework
 
-[[Netcat]] One simple but effective [[tools]] for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword: **(To check for if it's possible to open a network connection to a remote host over a given port#)** 
+[[Netcat]] One simple but effective [[tool]] for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword: **(To check for if it's possible to open a network connection to a remote host over a given port#)** 
 
 [[ipconfig]]
 [[ifconfig]] show the configuration assigned to network interface(s) in Linux.
