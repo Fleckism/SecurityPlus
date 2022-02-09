@@ -1,6 +1,6 @@
 ## LESSON INTRODUCTION
-#zFleck
-Security assessment refers to processes and tools that evaluate the attack surface. With knowledge of adversary tactics and capabilities, you can assess whether points on the attack surface are potentially vulnerable attack vectors. The output of [[assessment]] is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by [[threat]] actors. 
+
+Security [[assessment]] refers to processes and tools that evaluate the attack surface. With knowledge of adversary tactics and capabilities, you can assess whether points on the [[attack surface]] are potentially vulnerable [[attack vector]]. The output of [[assessment]] is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by [[threat]] actors. 
 
 Lesson Objectives
 
@@ -15,17 +15,17 @@ EXAM OBJECTIVES COVERED
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security
 
-**Reconnaissance is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network**. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using fingerprinting tools and capture and analyze network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
+**[[Reconnaissance]] is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network**. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using fingerprinting tools and capture and analyze network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
 ## ipconfig, ping, and ARP
 The process of **mapping out the attack surface is referred to as network reconnaissance** and discovery. Reconnaissance techniques are used by threat actors, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
 
 [[Topology discovery]]* (or "footprinting") [1]**means scanning for hosts**, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors. 
 
-Basic topology discovery tasks can be accomplished using the command line tools built into Windows and Linux. The following tools report the IP configuration and test connectivity on the local network segment or subnet.
+Basic topology discovery tasks can be accomplished using the command line tools built into Windows and Linux. The following [[tools]] report the IP configuration and test connectivity on the local network segment or subnet.
 
--   ipconfig—show the configuration assigned to network interface(s) in Windows, including the hardware or media access control (MAC) address, IPv4 and IPv6 addresses, **default gateway, and whether the address is static or assigned by DHCP. If the address is DHCP-assigned, the output also shows the address of the DHCP server that provided the lease (To detect spoofing).  
--   ifconfig—show the configuration assigned to network interface(s) in Linux.
--   #implementations  **ping—probe a host on a particular IP address or host name using Internet Control Message Protocol (ICMP)**. You can use ping with a simple script to perform a sweep of all the IP addresses in a subnet. The following example will scan the 10.1.0.0/24 subnet from a Windows machine:
+-   [[ipconfig]]—show the configuration assigned to network interface(s) in Windows, including the hardware or media access control (MAC) address, IPv4 and IPv6 addresses, **default gateway, and whether the address is static or assigned by DHCP. If the address is DHCP-assigned, the output also shows the address of the DHCP server that provided the lease (To detect spoofing).  
+-   [[ifconfig]]—show the configuration assigned to network interface(s) in Linux.
+-   **[[ping]]—probe a host on a particular IP address or host name using Internet Control Message Protocol (ICMP)**. You can use ping with a simple script to perform a sweep of all the IP addresses in a subnet. The following example will scan the 10.1.0.0/24 subnet from a Windows machine:
 
 for /l %i in (1,1,255) do @ping -n 1 -w 100 10.1.0.%i | find /i "reply"
 
@@ -33,7 +33,7 @@ for /l %i in (1,1,255) do @ping -n 1 -w 100 10.1.0.%i | find /i "reply"
 
 Performing a ping sweep in Windows with a For loop—Searching multiple octets requires nested loops. Note that not all hosts respond to ICMP probes. (Screenshot used with permission from Microsoft.)
 
--   arp—display the local machine's Address Resolution Protocol ([[ARP]]) cache. The ARP cache shows the MAC address of the interface associated with each IP address the local host has communicated with recently. This can be useful if you are investigating a suspected spoofing attack. For example, a sign of a man-in-the-middle attack is where the MAC address of the default gateway IP listed in the cache is not the legitimate router's MAC address.
+-   [[arp]]—display the local machine's Address Resolution Protocol ([[ARP]]) cache. The ARP cache shows the MAC address of the interface associated with each IP address the local host has communicated with recently. This can be useful if you are investigating a suspected spoofing attack. For example, a sign of a man-in-the-middle attack is where the MAC address of the default gateway IP listed in the cache is not the legitimate router's MAC address.
 
 For more information about commands, including syntax usage, look up the command in an online resource for Windows ([docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)) or Linux ([linux.die.net/man](https://linux.die.net/man/)).
 
@@ -49,9 +49,9 @@ The following tools can be used to test the [2] **routing configuration** and co
 
 Output from the route command on a Linux host. Most endpoints have a simple routing table, similar to this. It shows the default route (0.0.0.0/0) via the host configured as the default gateway (10.1.0.254) over the network interface eth0. The second line of the table shows the subnet for local traffic (10.1.0.0/24). This network is directly connected, represented by the 0.0.0.0 gateway.
 
--   tracert—uses [[ICMP]] probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.
--   traceroute—performs route discovery from a Linux host. traceroute uses [[UDP]] probes rather than ICMP, by default.
--   pathping—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr  **( Rogue host is modifying traffic before forwarding it, with the side effect of increasing network latency)**.
+-   [[tracert]]—uses [[ICMP]] probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.
+-   [[traceroute]]—performs route discovery from a Linux host. traceroute uses [[UDP]] probes rather than ICMP, by default.
+-   [[pathping]]—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr  **( Rogue host is modifying traffic before forwarding it, with the side effect of increasing network latency)**.
 
 In a security context, **[[high latency]] at the default gateway compared to a baseline might indicate a man-in-the-middle attack.** 
 **High latency on other hops could be a sign of denial of service, or could just indicate network congestion.**
@@ -60,7 +60,7 @@ In Linux, commands such as ifconfig, arp, route, and traceroute are deprecated a
 
 ## IP SCANNERS AND NMAP
 
-Scanning a network using tools such as ping is time consuming and non-stealthy, and does not return detailed results. Most [[topology discovery]] is performed using a dedicated IP scanner tool. An IP scanner performs [3] **host discovery** and identifies how the hosts are connected together in an internetwork. For auditing, there are enterprise suites, such as Microsoft's System Center products. Such suites can be provided with credentials to perform authorized scans and obtain detailed host information via management protocols, such as the Simple Network Management Protocol (SNMP).
+Scanning a network using tools such as [[ping]] is time consuming and non-stealthy, and does not return detailed results. Most [[topology discovery]] is performed using a dedicated IP scanner tool. An IP scanner performs [3] **host discovery** and identifies how the hosts are connected together in an internetwork. For auditing, there are enterprise suites, such as Microsoft's System Center products. Such suites can be provided with credentials to perform authorized scans and obtain detailed host information via management protocols, such as the Simple Network Management Protocol (SNMP).
 
 The [[Nmap]] Security Scanner ([nmap.org](https://nmap.org/)) is one of the most popular open-source IP scanners. Nmap can use diverse methods of host discovery, some of which can operate stealthily and serve to defeat security mechanisms such as firewalls and intrusion detection. The tool is open-source software with packages for most versions of Windows, Linux, and macOS. It can be operated with a command line or via a GUI (Zenmap) **(Used for fingerprinting)**.
 
@@ -124,7 +124,7 @@ theHarvester is a tool for gathering open-source intelligence (OSINT) for a part
 
 While you can use tools such as dig and whois to query name records and hosting details and to check that external DNS services are not leaking too much information, a tool such as dnsenum packages a number of tests into a single query ([github.com/fwaeytens/dnsenum](https://github.com/fwaeytens/dnsenum)). As well as hosting information and name records, dnsenum can try to work out the IP address ranges that are in use zone transfer.
 
-### scanless
+### [[scanless]]
 
 Port scanning is difficult to conceal from detection systems, unless it is performed slowly and results are gathered over an extended period. Another option is to disguise the source of probes. To that end, scanless is a tool that uses third-party sites ([github.com/vesche/scanless](https://github.com/vesche/scanless)). This sort of tool is also useful in a defensive sense, by scanning for ports and services that are open but shouldn't be.
 
@@ -139,8 +139,8 @@ The list of services and version information that a host is running can be cross
 
 Packet and protocol analysis is another crucial security [[assessment]] and monitoring process:
 
--   Packet analysis refers to deep-down frame-by-frame scrutiny of captured frames.
--   Protocol analysis means using statistical tools to analyze a sequence of packets, or packet trace.
+-   [[Packet]] analysis refers to deep-down frame-by-frame scrutiny of captured frames.
+-   [[Protocol analysis]] means using statistical tools to analyze a sequence of packets, or packet trace.
 
 Packet and protocol analysis depends on a sniffer tool to capture and decode the frames of data. Network traffic can be captured from a host or from a network segment. Using a host means that only traffic directed at that host is captured. Capturing from a network segment can be performed by a switched port analyzer ([[SPAN]]) port (or mirror port). This means that a network switch is configured to copy frames passing over designated source ports to a destination port, which the packet sniffer is connected to. Sniffing can also be performed over a network cable segment by using a test access port ([[TAP]]). This means that a device is inserted in the cabling to copy frames passing over it. There are passive and active (powered) versions.
 
@@ -221,7 +221,7 @@ There are many other exploitation frameworks targeting different kinds of vulner
 
 ## NETCAT
 
-One simple but effective [[tool]] for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword: **(To check for if it's possible to open a network connection to a remote host over a given port#)** 
+One simple but effective [[tools]] for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword: **(To check for if it's possible to open a network connection to a remote host over a given port#)** 
 
 echo "head" | nc 10.1.0.1 -v 80
 

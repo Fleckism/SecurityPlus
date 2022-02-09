@@ -15,5 +15,7 @@ From the point-of-view of the threat actor, different parts of the **attack surf
 -   Web and social media—malware may be concealed in files attached to posts or presented as downloads. An attacker may also be able to compromise a site so that it automatically infects vulnerable browser software (a drive-by download). Social media may also be used more subtly, to reinforce a social engineering campaign and drive the adoption of Trojans.
 -   Cloud—many companies now run part or all of their network services via Internet-accessible clouds. The attacker only needs to find one account, service, or host with weak credentials to gain access. The attacker is likely to target the accounts used to develop services in the cloud or manage cloud systems. They may also try to attack the cloud service provider (CSP) as a way of accessing the victim system.
 
+Types of attacks
+- [[DoS]] 
 # Tags
 #Attack 

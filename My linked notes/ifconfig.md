@@ -1,0 +1,1 @@
+show the configuration assigned to network interface(s) in Linux.

@@ -1,0 +1,1 @@
+[[Protocol analysis]] means using statistical tools to analyze a sequence of packets, or packet trace.
