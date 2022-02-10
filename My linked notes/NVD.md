@@ -1,0 +1,1 @@
+The CVE dictionary provides the principal input for NIST's National Vulnerability Database

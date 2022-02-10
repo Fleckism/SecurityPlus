@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+            "file": "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/misconfiguration.md",
+            "file": "My linked notes/XCCDF.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/misconfiguration.md",
+                "file": "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,17 +123,17 @@
     "width": 230.5,
     "collapsed": true
   },
-  "active": "6c8a71443169601a",
+  "active": "ce7b58283c04c04e",
   "lastOpenFiles": [
-    "My linked notes/misconfiguration.md",
-    "My linked notes/Open Ports.md",
+    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+    "My linked notes/XCCDF.md",
+    "My linked notes/OVAL.md",
+    "My linked notes/SECURITY ASSESSMENTS.md",
     "My linked notes/vulnerability.md",
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "My linked notes/Open permissions.md",
-    "My linked notes/Unsecured Root Accounts.md",
-    "My linked notes/Default Settings.md",
-    "My linked notes/zero-day.md",
-    "My linked notes/Software exploitation.md",
-    "My linked notes/payload.md"
+    "My linked notes/CVSS.md",
+    "My linked notes/Acronyms/CVE.md",
+    "My linked notes/NVD.md",
+    "My linked notes/SCAP.md",
+    "My linked notes/NVTs.md"
   ]
 }

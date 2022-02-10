@@ -5,4 +5,6 @@
 
 ## Weak Network Configurations
 - [[Open Ports]]
+- [[unsecure protocol]] 
+- [[Weak Encryption]]
 - 

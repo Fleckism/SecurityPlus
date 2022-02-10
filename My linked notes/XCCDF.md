@@ -1,0 +1,1 @@
+Extensible Configuration Checklist Description Format
