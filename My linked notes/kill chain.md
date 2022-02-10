@@ -1,0 +1,3 @@
+PEN TEST ATTACK LIFE CYCLE
+
+In the [[kill chain]] attack life cycle, reconnaissance is followed by an initial exploitation phase where a software tool is used to gain some sort of access to the target's network. This foothold might be accomplished using a phishing email and payload or by obtaining credentials via social engineering. Having gained the foothold, the pen tester can then set about securing and widening access. A number of techniques are required:

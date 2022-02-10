@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "ce7b58283c04c04e",
+        "id": "6c8a71443169601a",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+            "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "6c8a71443169601a",
+        "id": "17cee132d3142a11",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/XCCDF.md",
+            "file": "My linked notes/Keylogger.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "intrusion detection ",
+                "query": "tag:#z",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
+                "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,20 +120,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
-  "active": "ce7b58283c04c04e",
+  "active": "6c8a71443169601a",
   "lastOpenFiles": [
-    "3 Performing Security Assessments/3C Summarize Vulnerability Scanning Technics.md",
-    "My linked notes/XCCDF.md",
-    "My linked notes/OVAL.md",
-    "My linked notes/SECURITY ASSESSMENTS.md",
-    "My linked notes/vulnerability.md",
-    "My linked notes/CVSS.md",
-    "My linked notes/Acronyms/CVE.md",
-    "My linked notes/NVD.md",
-    "My linked notes/SCAP.md",
-    "My linked notes/NVTs.md"
+    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+    "My linked notes/Keylogger.md",
+    "My linked notes/Acronyms/ICMP.md",
+    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md",
+    "My linked notes/SPIM.md",
+    "My linked notes/spam.md",
+    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
+    "My linked notes/kill chain.md",
+    "My linked notes/Acronyms/TTPs.md"
   ]
 }

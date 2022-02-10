@@ -1,5 +1,5 @@
 # SPYWARE AND KEYLOGGERS
-#z
+
 The first viruses and worms focused on the destructive potential of being able to replicate. As the profitable uses of this software became apparent, however, they started to be coded with payloads designed to facilitate intrusion, fraud, and data theft. Various types of unwanted code and malware perform some level of monitoring:
 
 -   Tracking cookies—cookies are plaintext files, not malware, but if browser settings allow third-party cookies, they can be used to record pages visited, search queries, browser metadata, and IP address. Tracking cookies are created by adverts and analytics widgets embedded into many websites.
