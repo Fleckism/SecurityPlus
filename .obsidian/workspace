@@ -39,7 +39,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/PUPs.md",
+            "file": "My linked notes/Malware/Fileless.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Acronyms/PUPs.md",
+                "file": "My linked notes/malware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,17 +139,17 @@
     "width": 230.5,
     "collapsed": true
   },
-  "active": "3fa90ada7862307d",
+  "active": "ee50c4603d48e0ec",
   "lastOpenFiles": [
+    "My linked notes/malware.md",
+    "My linked notes/Malware/Fileless.md",
+    "My linked notes/payload.md",
+    "My linked notes/Trojan.md",
     "My linked notes/Acronyms/PUPs.md",
     "My linked notes/Acronyms/PUAs.md",
-    "My linked notes/malware.md",
-    "My linked notes/Trojan.md",
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
     "My linked notes/worm.md",
     "My linked notes/virus.md",
-    "My linked notes/Memory resident.md",
-    "My linked notes/Malware/Boot.md",
-    "My linked notes/Script and macro viruses.md"
+    "My linked notes/Memory resident.md"
   ]
 }
