@@ -19,12 +19,27 @@
         }
       },
       {
-        "id": "17cee132d3142a11",
+        "id": "ee50c4603d48e0ec",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/malware.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "3fa90ada7862307d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Keylogger.md",
+            "file": "My linked notes/Acronyms/PUPs.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -74,11 +89,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -105,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+                "file": "My linked notes/Acronyms/PUPs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,19 +136,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
-  "active": "6c8a71443169601a",
+  "active": "3fa90ada7862307d",
   "lastOpenFiles": [
+    "My linked notes/Acronyms/PUPs.md",
+    "My linked notes/Acronyms/PUAs.md",
+    "My linked notes/malware.md",
+    "My linked notes/Trojan.md",
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "My linked notes/Keylogger.md",
-    "My linked notes/Acronyms/ICMP.md",
-    "3 Performing Security Assessments/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "4 Identifying Social Engineering and Malware/4A  Compare and Contrast Social Engineering Techniques.md",
-    "My linked notes/SPIM.md",
-    "My linked notes/spam.md",
-    "3 Performing Security Assessments/3D Explain Penetration Testing Concepts.md",
-    "My linked notes/kill chain.md",
-    "My linked notes/Acronyms/TTPs.md"
+    "My linked notes/worm.md",
+    "My linked notes/virus.md",
+    "My linked notes/Memory resident.md",
+    "My linked notes/Malware/Boot.md",
+    "My linked notes/Script and macro viruses.md"
   ]
 }
