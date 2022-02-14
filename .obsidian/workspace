@@ -4,21 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "6c8a71443169601a",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
         "id": "918bc75fa46dd8e1",
         "type": "leaf",
         "state": {
@@ -99,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +101,7 @@
     "width": 230.5,
     "collapsed": true
   },
-  "active": "6c8a71443169601a",
+  "active": "918bc75fa46dd8e1",
   "lastOpenFiles": [
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
     "My linked notes/malware.md",
