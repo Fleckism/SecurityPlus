@@ -7,8 +7,13 @@
         "id": "918bc75fa46dd8e1",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"rootkit\"",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,11 +104,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "active": "918bc75fa46dd8e1",
   "lastOpenFiles": [
+    "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
     "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
     "My linked notes/malware.md",
     "My linked notes/Trojan.md",
@@ -111,7 +117,6 @@
     "My linked notes/Malware/bot.md",
     "My linked notes/Acronyms/RAT.md",
     "My linked notes/spyware.md",
-    "My linked notes/Adware.md",
-    "My linked notes/virus.md"
+    "My linked notes/Adware.md"
   ]
 }

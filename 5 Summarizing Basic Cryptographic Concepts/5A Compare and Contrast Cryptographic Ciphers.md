@@ -1,5 +1,5 @@
 ## EXAM OBJECTIVES COVERED
-
+#zFleck
 2.1 Explain the importance of security concepts in an enterprise environment (hashing only)
 
 2.8 Summarize the basics of cryptographic concepts
