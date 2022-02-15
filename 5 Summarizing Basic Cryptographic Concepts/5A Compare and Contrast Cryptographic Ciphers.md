@@ -19,21 +19,21 @@ The following terminology is used to discuss [[cryptography]]: 
 
 In discussing cryptography and attacks against encryption systems, it is customary to use a cast of characters to describe different actors involved in the process of an attack. The main characters are: 
 
--   Alice—the sender of a genuine message.
--   Bob—the intended recipient of the message.
--   Mallory—a malicious attacker attempting to subvert the message in some way.
+-   [[Alice]]—the sender of a genuine message.
+-   [[Bob]]—the intended recipient of the message.
+-   [[Mallory]]—a malicious attacker attempting to subvert the message in some way.
 
-There are three main types of cryptographic algorithm with different roles to play in the assurance of the [[security properties]] [[confidentiality]], [[integrity]], [[availability]], and [[non-repudiation]]. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
+There are three main types of cryptographic algorithm with different roles to play in the **assurance** of the [[security properties]] [[confidentiality]], [[integrity]], [[availability]], and [[non-repudiation]]. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
 #zFleck
 ## HASHING ALGORITHMS 
 
-Hashing is the simplest type of cryptographic operation. A cryptographic hashing algorithm produces a fixed length string from an input plaintext that can be of any length. The output can be referred to as a checksum, message digest, or hash. The function is designed so that it is impossible to recover the plaintext data from the digest (one-way) and so that different inputs are unlikely to produce the same output (a collision).
+[[Hash]]ing is the simplest type of [[cryptographic]] operation. A cryptographic hashing algorithm produces a fixed length string from an input plaintext that can be of any length. The output can be referred to as a checksum, message digest, or hash. The function is designed so that it is impossible to recover the plaintext data from the [[digest]] (one-way) and so that different inputs are unlikely to produce the same output (a [[collision]]).
 
 A hashing algorithm is used to prove integrity. For example, Bob and Alice can compare the values used for a password in the following way:
 
 1.  Bob already has a digest calculated from Alice's plaintext password. Bob cannot recover the plaintext password value from the hash.
 2.  When Alice needs to authenticate to Bob, she types her password, converts it to a hash, and sends the digest to Bob.
-3.  Bob compares Alice's digest to the hash value he has on file. If they match, he can be sure that Alice typed the same password.
+3.  Bob compares Alice's [[digest]] to the hash value he has on file. If they match, he can be sure that Alice typed the same password.
 
 As well as comparing password values, a hash of a file can be used to verify the integrity of that file after transfer. 
 
@@ -45,7 +45,7 @@ As well as comparing password values, a hash of a file can be used to verify the
 
 Confirming a file download using cryptographic hashes. (Images © 123RF.com.)
 
-There are two popular implementations hash algorithms:
+There are two popular implementations [[hash]] algorithms:
 
 -   Secure Hash Algorithm (SHA)—considered the strongest algorithm. There are variants that produce different-sized outputs, with longer digests considered more secure. The most popular variant is SHA-256, which produces a 256-bit digest.
 -   Message Digest Algorithm #5 (MD5)—produces a 128-bit digest. MD5 is not considered to be quite as safe for use as SHA-256, but it might be required for compatibility between security products.
@@ -56,9 +56,9 @@ Computing an SHA value from a file. (Screenshot used with permission from Micros
 
 ## ENCRYPTION CIPHERS AND KEYS
 
-While a hash function can be used to prove the integrity of data, it cannot be used to store or transmit data. The plaintext cannot be recovered from the digest. An encryption algorithm is a type of cryptographic process that encodes data so that it can be recovered, or decrypted. The use of a key with the encryption cipher ensures that decryption can only be performed by authorized persons.
+While a hash function can be used to prove the integrity of data, it cannot be used to store or transmit data. The plaintext cannot be recovered from the [[digest]]. An encryption algorithm is a type of cryptographic process that encodes data so that it can be recovered, or decrypted. The use of a key with the encryption cipher ensures that decryption can only be performed by authorized persons.
 
-### Substitution and Transposition Ciphers
+### Substitution and Transposition [[cipher]]
 
 To understand how encryption works, it is helpful to consider simple substitution and transposition ciphers. A substitution cipher involves replacing units (a letter or blocks of letters) in the plaintext with different ciphertext. Simple substitution ciphers rotate or scramble letters of the alphabet. For example, ROT13 (an example of a Caesar cipher) rotates each letter 13 places (so A becomes N for instance). The ciphertext "Uryyb Jbeyq" means "Hello World".
 
@@ -68,7 +68,7 @@ H L O O L
 
 E L W R D
 
-The letters are simply written as columns and then the rows are concatenated to make the ciphertext. It's called a rail fence cipher. All modern encryption uses these basic techniques of substitution and transposition, but in much more complex ways.
+The letters are simply written as columns and then the rows are concatenated to make the ciphertext. It's called a **rail fence cipher**. All modern encryption uses these basic techniques of substitution and transposition, but in much more complex ways.
 
 ### Keys and Secret Ciphers
 
@@ -76,7 +76,7 @@ Encryption ciphers use a key to increase the security of the process. For exampl
 
 ## SYMMETRIC ENCRYPTION 
 
-A symmetric cipher is one in which encryption and decryption are both performed by the same secret key. The secret key is so-called because it must be kept secret. If the key is lost or stolen, the security is breached. Symmetric encryption is used for confidentiality. For example, Alice and Bob can share a confidential file in the following way:
+A symmetric cipher is one in which encryption and decryption are both performed by the same secret key. The secret key is so-called because it must be kept secret. If the key is lost or stolen, the security is breached. **Symmetric encryption is used for confidentiality**. For example, Alice and Bob can share a confidential file in the following way:
 
 1.  Alice and Bob meet to agree which cipher to use and a secret key value. They both record the value of the secret key, making sure that no one else can discover it.
 2.  Alice encrypts a file using the cipher and key.
@@ -89,7 +89,7 @@ Symmetric encryption is also referred to as single key or private key or shared 
 
 Symmetric encryption is very fast. It is used for bulk encryption of large amounts of data. The main problem is secure distribution and storage of the key, or the exact means by which Alice and Bob "meet" to agree the key. If Mallory intercepts the key and obtains the ciphertext, the security is broken.
 
-Note that symmetric encryption cannot be used for authentication or integrity, because Alice and Bob are able to create exactly the same secrets, because they both know the same key.
+Note that **symmetric encryption cannot be used for authentication or integrity**, because Alice and Bob are able to create exactly the same secrets, because they both know the same key.
 
 ## STREAM AND BLOCK CIPHERS
 

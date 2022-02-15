@@ -1,0 +1,1 @@
+When two outputs are the same from two different inputs.

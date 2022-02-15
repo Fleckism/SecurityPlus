@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/GRC Governance, Risk, and Compliance.md",
+            "file": "My linked notes/cipher.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zFleck",
+                "query": "digest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -126,14 +126,14 @@
   "active": "918bc75fa46dd8e1",
   "lastOpenFiles": [
     "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
-    "My linked notes/GRC Governance, Risk, and Compliance.md",
-    "My linked notes/security properties.md",
-    "My linked notes/Cryptanalysis.md",
-    "My linked notes/Ciphertext.md",
-    "My linked notes/Plaintext.md",
-    "My linked notes/cryptography.md",
     "My linked notes/cipher.md",
-    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
-    "My linked notes/malware.md"
+    "My linked notes/digest.md",
+    "My linked notes/hash.md",
+    "My linked notes/Hashing.md",
+    "My linked notes/collision.md",
+    "My linked notes/Mallory.md",
+    "My linked notes/Bob.md",
+    "My linked notes/Alice.md",
+    "My linked notes/cryptographic.md"
   ]
 }
