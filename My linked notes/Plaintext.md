@@ -1,0 +1,1 @@
+(or _cleartext_)—an unencrypted message

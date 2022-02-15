@@ -1,0 +1,1 @@
+is the particular operations performed to encode or decode data.

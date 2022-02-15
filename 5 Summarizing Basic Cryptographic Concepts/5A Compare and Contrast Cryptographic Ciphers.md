@@ -1,21 +1,21 @@
 ## EXAM OBJECTIVES COVERED
-#zFleck
+
 2.1 Explain the importance of security concepts in an enterprise environment (hashing only)
 
 2.8 Summarize the basics of cryptographic concepts
 
-A _cipher_ is the particular operations performed to encode or decode data. Modern cryptographic systems make use of symmetric and asymmetric cipher types to encode and decode data. As well as these cipher types, one-way hash functions have an important role to play in many security controls. Being able to compare and contrast the characteristics of these types of cryptographic ciphers and functions is essential for you to deploy security controls for different use cases.
+A [[cipher]] is the particular operations performed to encode or decode data. Modern cryptographic systems make use of symmetric and asymmetric cipher types to encode and decode data. As well as these cipher types, one-way hash functions have an important role to play in many security controls. Being able to compare and contrast the characteristics of these types of cryptographic ciphers and functions is essential for you to deploy security controls for different use cases.
 
 ## CRYPTOGRAPHIC CONCEPTS 
 
-Cryptography (literally meaning "secret writing") has been around for thousands of years. It is the art of making information secure by encoding it. This stands in opposition to the concept of security through obscurity. Security through obscurity means keeping something a secret by hiding it. This is generally acknowledged to be impossible (or at least, high risk) on any sort of computer network. With cryptography, it does not matter if third parties know of the existence of the secret, because they can never know what it is without obtaining an appropriate credential.
+Cryptography (literally meaning "secret writing") has been around for thousands of years. It is the art of making information secure by encoding it. This stands in opposition to the concept of security through obscurity. **Security through obscurity means keeping something a secret by hiding it.** This is generally acknowledged to be impossible (or at least, high risk) on any sort of computer network. With cryptography, it does not matter if third parties know of the existence of the secret, because they can never know what it is without obtaining an appropriate credential.
 
-The following terminology is used to discuss cryptography: 
+The following terminology is used to discuss [[cryptography]]: 
 
--   Plaintext (or _cleartext_)—an unencrypted message. 
--   Ciphertext—an encrypted message. 
--   Cipher—the process (or algorithm) used to encrypt and decrypt a message. 
--   Cryptanalysis—the art of cracking cryptographic systems. 
+-   [[Plaintext]] (or _cleartext_)—an unencrypted message. 
+-   [[Ciphertext]]—an encrypted message. 
+-   [[Cipher]]—the process (or algorithm) used to encrypt and decrypt a message. 
+-   [[Cryptanalysis]]—the art of cracking cryptographic systems. 
 
 In discussing cryptography and attacks against encryption systems, it is customary to use a cast of characters to describe different actors involved in the process of an attack. The main characters are: 
 
@@ -23,8 +23,8 @@ In discussing cryptography and attacks against encryption systems, it is customa
 -   Bob—the intended recipient of the message.
 -   Mallory—a malicious attacker attempting to subvert the message in some way.
 
-There are three main types of cryptographic algorithm with different roles to play in the assurance of the security properties confidentiality, integrity, availability, and non-repudiation. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
-
+There are three main types of cryptographic algorithm with different roles to play in the assurance of the [[security properties]] [[confidentiality]], [[integrity]], [[availability]], and [[non-repudiation]]. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
+#zFleck
 ## HASHING ALGORITHMS 
 
 Hashing is the simplest type of cryptographic operation. A cryptographic hashing algorithm produces a fixed length string from an input plaintext that can be of any length. The output can be referred to as a checksum, message digest, or hash. The function is designed so that it is impossible to recover the plaintext data from the digest (one-way) and so that different inputs are unlikely to produce the same output (a collision).
