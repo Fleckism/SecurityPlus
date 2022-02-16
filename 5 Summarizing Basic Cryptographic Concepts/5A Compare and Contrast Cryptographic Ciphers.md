@@ -24,7 +24,7 @@ In discussing cryptography and attacks against encryption systems, it is customa
 -   [[Mallory]]—a malicious attacker attempting to subvert the message in some way.
 
 There are three main types of cryptographic algorithm with different roles to play in the **assurance** of the [[security properties]] [[confidentiality]], [[integrity]], [[availability]], and [[non-repudiation]]. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
-#zFleck
+
 ## HASHING ALGORITHMS 
 
 [[Hash]]ing is the simplest type of [[cryptographic]] operation. A cryptographic hashing algorithm produces a fixed length string from an input plaintext that can be of any length. The output can be referred to as a checksum, message digest, or hash. The function is designed so that it is impossible to recover the plaintext data from the [[digest]] (one-way) and so that different inputs are unlikely to produce the same output (a [[collision]]).
@@ -133,9 +133,9 @@ Consequently, asymmetric encryption is mostly used for authentication and non-re
 
 ## PUBLIC KEY CRYPTOGRAPHY ALGORITHMS
 
-Asymmetric encryption is often referred to as public key cryptography. Many public key cryptography products are based on the RSA algorithm. Ron Rivest, Adi Shamir, and Leonard Adleman published the RSA cipher in 1977 ([rsa.com](https://www.rsa.com/)). The RSA algorithm provides the mathematical properties for deriving key pairs and performing the encryption and decryption operations. This type of algorithm is called a trapdoor function, because it is easy to perform using the public key, but difficult to reverse without knowing the private key.
+Asymmetric encryption is often referred to as public key cryptography. Many public key cryptography products are based on the RSA algorithm. Ron Rivest, Adi Shamir, and Leonard Adleman published the RSA cipher in 1977 ([rsa.com](https://www.rsa.com/)). The [[RSA]] algorithm provides the mathematical properties for deriving key pairs and performing the encryption and decryption operations. This type of algorithm is called a **trapdoor function**, because it is easy to perform using the public key, but difficult to reverse without knowing the private key.
 
-Elliptic curve cryptography (ECC) is another type of trapdoor function that can be used in public key cryptography ciphers. The principal advantage of ECC over RSA's algorithm is that there are no known "shortcuts" to cracking the cipher or the math that underpins it, regardless of key length. Consequently, ECC used with a key size of 256 bits is very approximately comparable to RSA with a key size of 2048 bits. 
+Elliptic curve cryptography ([[ECC]]) is another type of trapdoor function that can be used in public key cryptography ciphers. The principal advantage of ECC over RSA's algorithm is that there are no known "shortcuts" to cracking the cipher or the math that underpins it, regardless of key length. Consequently, ECC used with a key size of 256 bits is very approximately comparable to RSA with a key size of 2048 bits. 
 
 RSA key pair security depends on the difficulty of finding the prime factors of very large integers (modular exponentiation). ECC depends on the discrete logarithm problem. Cloudflare have produced an excellent overview of the differences ([blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography](https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/)).
 

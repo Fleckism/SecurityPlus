@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "918bc75fa46dd8e1",
+        "id": "b91cbaa6f79ccfb2",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
+            "file": "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,18 +19,16 @@
         }
       },
       {
-        "id": "4612acaca7063997",
+        "id": "ab43f7a7c3d764b7",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/cipher.md",
+            "file": "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -66,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "digest",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -126,17 +124,17 @@
     "width": 230.5,
     "collapsed": true
   },
-  "active": "918bc75fa46dd8e1",
+  "active": "ab43f7a7c3d764b7",
   "lastOpenFiles": [
     "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
-    "My linked notes/AES.md",
-    "My linked notes/cipher.md",
-    "My linked notes/IV.md",
-    "My linked notes/digest.md",
+    "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
     "My linked notes/hash.md",
     "My linked notes/Hashing.md",
-    "My linked notes/collision.md",
-    "My linked notes/Mallory.md",
-    "My linked notes/Bob.md"
+    "My linked notes/digest.md",
+    "My linked notes/cipher.md",
+    "My linked notes/ECC.md",
+    "My linked notes/RSA.md",
+    "My linked notes/AES.md",
+    "My linked notes/IV.md"
   ]
 }

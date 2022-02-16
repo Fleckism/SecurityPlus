@@ -3,15 +3,15 @@
 2.8 Summarize the basics of cryptographic concepts
 
 A _mode of operation_ is a means of using a cipher within a product to achieve a security goal, such as confidentiality or integrity. Being able to summarize modes of operation will help you to implement and support security controls such as digital signatures and transport encryption.
-
+#zFleck 
 ## DIGITAL SIGNATURES
 
-Public key cryptography can authenticate a sender, because they control a private key that encrypts messages in a way that no one else can. Public key cryptography can only be used with very small messages, however. Hashing proves integrity by computing a unique checksum from input. These two cryptographic functions can be combined to authenticate a sender and prove the integrity of a message, with a digital signature. The following process is used to create a digital signature using RSA encryption:
+Public key cryptography can authenticate a sender, because they control a private key that encrypts messages in a way that no one else can. Public key cryptography can only be used with very small messages, however. Hashing proves integrity by computing a unique checksum from input. These two cryptographic functions can be combined to authenticate a sender and prove the integrity of a message, with a digital signature. The following process is used to create a digital signature using [[RSA]] encryption:
 
 1.  Alice (the sender) creates a digest of a message, using a pre-agreed hash algorithm, and encrypts the digest using Alice’s private key. This creates Alice’s digital signature.
 2.  Alice attaches the digital signature to the original message and sends both the message and public key to Bob (the receiver).
 3.  Bob decrypts the digital signature using Alice's public key, resulting in the digest of the message.
-4.  Bob then creates a digest of the message, using the same pre-agreed hash algorithm that Alice used. Bob compares both digests.
+4.  Bob then creates a [[digest]] of the message, using the same pre-agreed hash algorithm that Alice used. Bob compares both digests.
 
 If the two digests (or hash values) are the same, then the data has not been tampered with during transmission, and Alice's identity is guaranteed. If the message changed or a malicious user had intercepted the message and used a different private key, the digests would not match, and the message would not be trusted.
 

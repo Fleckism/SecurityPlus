@@ -13,3 +13,10 @@ The letters are simply written as columns and then the rows are concatenated to 
 ### Stream Ciphers 
 
 In a stream cipher, each byte or bit of data in the plaintext is encrypted one at a time. This is suitable for encrypting communications where the total length of the message is not known. The plaintext is combined with a separate randomly generated message, calculated from the key and an initialization vector ([[IV]]). The IV ensures the key produces a unique ciphertext from the same plaintext. The keystream must be unique, so an IV must not be reused with the same key. The recipient must be able to generate the same keystream as the sender and the streams must be synchronized. Stream ciphers might use markers to allow for synchronization and retransmission. Some types of stream ciphers are made self-synchronizing.
+
+In a **symmetric encryption cipher, the same secret key is used to perform both encryption and decryption operations**. With an ==asymmetric cipher, operations are performed by two different but related public and private keys in a key pair.== 
+
+**Asymmetric encryption can be used to prove identity.** aka Public key
+Consequently, asymmetric encryption is mostly used for authentication and non-repudiation and for key agreement and exchange.
+
+[[RSA]]
