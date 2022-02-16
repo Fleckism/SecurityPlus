@@ -76,7 +76,7 @@ Encryption ciphers use a key to increase the security of the process. For exampl
 
 ## SYMMETRIC ENCRYPTION 
 
-A symmetric cipher is one in which encryption and decryption are both performed by the same secret key. The secret key is so-called because it must be kept secret. If the key is lost or stolen, the security is breached. **Symmetric encryption is used for confidentiality**. For example, Alice and Bob can share a confidential file in the following way:
+A **symmetric cipher is one in which encryption and decryption are both performed by the same secret key**. The secret key is so-called because it must be kept secret. If the key is lost or stolen, the security is breached. **Symmetric encryption is used for confidentiality**. For example, Alice and Bob can share a confidential file in the following way:
 
 1.  Alice and Bob meet to agree which cipher to use and a secret key value. They both record the value of the secret key, making sure that no one else can discover it.
 2.  Alice encrypts a file using the cipher and key.
@@ -97,13 +97,13 @@ There are two types of symmetric encryption: stream ciphers and block ciphers.
 
 ### Stream Ciphers 
 
-In a stream cipher, each byte or bit of data in the plaintext is encrypted one at a time. This is suitable for encrypting communications where the total length of the message is not known. The plaintext is combined with a separate randomly generated message, calculated from the key and an initialization vector (IV). The IV ensures the key produces a unique ciphertext from the same plaintext. The keystream must be unique, so an IV must not be reused with the same key. The recipient must be able to generate the same keystream as the sender and the streams must be synchronized. Stream ciphers might use markers to allow for synchronization and retransmission. Some types of stream ciphers are made self-synchronizing.
+In a stream cipher, each byte or bit of data in the plaintext is encrypted one at a time. This is suitable for encrypting communications where the total length of the message is not known. The plaintext is combined with a separate randomly generated message, calculated from the key and an initialization vector ([[IV]]). The IV ensures the key produces a unique ciphertext from the same plaintext. The keystream must be unique, so an IV must not be reused with the same key. The recipient must be able to generate the same keystream as the sender and the streams must be synchronized. Stream ciphers might use markers to allow for synchronization and retransmission. Some types of stream ciphers are made self-synchronizing.
 
 ### Block Ciphers 
 
 In a block cipher, the plaintext is divided into equal-size blocks (usually 128-bit). If there is not enough data in the plaintext, it is padded to the correct size using some string defined in the algorithm. For example, a 1200-bit plaintext would be padded with an extra 80 bits to fit into 10 x 128-bit blocks. Each block is then subjected to complex transposition and substitution operations, based on the value of the key used.
 
-The Advanced Encryption Standard (AES) is the default symmetric encryption cipher for most products. Basic AES has a key size of 128 bits, but the most widely used variant is AES256, with a 256-bit key. 
+The Advanced Encryption Standard ([[AES]]) is the default symmetric encryption cipher for most products. Basic AES has a key size of 128 bits, but the most widely used variant is AES256, with a 256-bit key. 
 
 ### Key Length
 
@@ -111,11 +111,11 @@ The range of key values available to use with a particular cipher is called the 
 
 ## ASYMMETRIC ENCRYPTION
 
-In a symmetric encryption cipher, the same secret key is used to perform both encryption and decryption operations. With an asymmetric cipher, operations are performed by two different but related public and private keys in a key pair. 
+In a **symmetric encryption cipher, the same secret key is used to perform both encryption and decryption operations**. With an ==asymmetric cipher, operations are performed by two different but related public and private keys in a key pair.== 
 
-Each key is capable of reversing the operation of its pair. For example, if the public key is used to encrypt a message, only the paired private key can decrypt the ciphertext produced. The public key cannot be used to decrypt the ciphertext, even though it was used to encrypt it. 
+Each key is capable of reversing the operation of its pair. For example, if the **public key is used to encrypt a message**, only the paired private key can decrypt the ciphertext produced. The public key cannot be used to decrypt the ciphertext, even though it was used to encrypt it. 
 
-The keys are linked in such a way as to make it impossible to derive one from the other. This means that the key holder can distribute the public key to anyone he or she wants to receive secure messages from. No one else can use the public key to decrypt the messages; only the linked private key can do that.
+The keys are linked in such a way as to make it impossible to derive one from the other. This means that the key holder can distribute the public key to anyone he or she wants to receive secure messages from. No one else can use the public key to decrypt the messages; only the linked private key can do that.(**private key decrypts the messages**)
 
 1.  Bob generates a key pair and keeps the private key secret.
 2.  Bob publishes the public key. Alice wants to send Bob a confidential message, so she takes a copy of Bob's public key.
@@ -127,7 +127,7 @@ The keys are linked in such a way as to make it impossible to derive one from th
 
 Asymmetric encryption. (Images © 123RF.com.)
 
-Asymmetric encryption can be used to prove identity. The holder of a private key cannot be impersonated by anyone else. The drawback of asymmetric encryption is that it involves substantial computing overhead compared to symmetric encryption. The message cannot be larger than the key size. Where a large amount of data is being encrypted on disk or transported over a network, asymmetric encryption is inefficient.
+**Asymmetric encryption can be used to prove identity.** The holder of a private key cannot be impersonated by anyone else. The drawback of asymmetric encryption is that it involves substantial computing overhead compared to symmetric encryption. The message cannot be larger than the key size. Where a large amount of data is being encrypted on disk or transported over a network, asymmetric encryption is inefficient.
 
 Consequently, asymmetric encryption is mostly used for authentication and non-repudiation and for key agreement and exchange. Key agreement/exchange refers to settling on a secret symmetric key to use for bulk encryption without anyone else discovering it.
 

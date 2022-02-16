@@ -21,6 +21,7 @@
       {
         "id": "4612acaca7063997",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -28,7 +29,8 @@
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       }
     ],
@@ -78,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -126,14 +129,14 @@
   "active": "918bc75fa46dd8e1",
   "lastOpenFiles": [
     "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
+    "My linked notes/AES.md",
     "My linked notes/cipher.md",
+    "My linked notes/IV.md",
     "My linked notes/digest.md",
     "My linked notes/hash.md",
     "My linked notes/Hashing.md",
     "My linked notes/collision.md",
     "My linked notes/Mallory.md",
-    "My linked notes/Bob.md",
-    "My linked notes/Alice.md",
-    "My linked notes/cryptographic.md"
+    "My linked notes/Bob.md"
   ]
 }
