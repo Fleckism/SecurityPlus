@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/GRC Governance, Risk, and Compliance.md",
+            "file": "My linked notes/hash.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -125,14 +125,14 @@
   "active": "ab43f7a7c3d764b7",
   "lastOpenFiles": [
     "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
-    "My linked notes/GRC Governance, Risk, and Compliance.md",
-    "My linked notes/OIR Operations and Incident Response.md",
-    "My linked notes/asymmetric.md",
-    "My linked notes/cipher.md",
-    "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
-    "My linked notes/symmetric.md",
-    "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
-    "My linked notes/MAC.md",
-    "My linked notes/CBC.md"
+    "My linked notes/hash.md",
+    "My linked notes/WPA.md",
+    "My linked notes/PBKDF2.md",
+    "My linked notes/Attack.md",
+    "My linked notes/IV.md",
+    "My linked notes/PRNG.md",
+    "My linked notes/RNG.md",
+    "My linked notes/TRNG.md",
+    "My linked notes/AES.md"
   ]
 }

@@ -17,5 +17,11 @@ From the point-of-view of the threat actor, different parts of the **attack surf
 
 Types of attacks
 - [[DoS]] 
+
+
+
+
+**A downgrade attack can be used to facilitate a man-in-the-middle attack by requesting that the server use a lower specification protocol with weaker ciphers and key lengths. For example, rather than use TLS 1.3, as the server might prefer, the client requests the use of SSL. It then becomes easier for Mallory to forge the signature of a certificate authority that Alice trusts and have Alice trust Mallory's public key.**
+[[5C Summarize Cryptographic Use Cases and Weaknesses]]
 # Tags
 #Attack 
