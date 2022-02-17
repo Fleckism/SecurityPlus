@@ -1,3 +1,7 @@
+
+---
+tags: [inline_tags,example]
+---
 What properties matter?
 i.e.
 - Who
@@ -16,3 +20,5 @@ i.e.
 	- [[page name #heading]]
 	- [[page name#^blocks]]
 	- ! Before link shows the data!
+
+---

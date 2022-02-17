@@ -1,4 +1,6 @@
 ## Sorted
+
+
 (ACL) Access control lists 
  (AIS) Automated Indicator Sharing  2B
  (ANN) Artificial neural network  2B
