@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db50aed1330f47e6",
+        "id": "051b1ee64830028f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Attack.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zFleck",
+                "query": "Attack",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -53,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -84,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,20 +105,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
-  "active": "db50aed1330f47e6",
+  "active": "051b1ee64830028f",
   "lastOpenFiles": [
-    "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
-    "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
     "My linked notes/Attack.md",
-    "My linked notes/hash.md",
-    "My linked notes/WPA.md",
-    "My linked notes/PBKDF2.md",
-    "My linked notes/IV.md",
-    "My linked notes/PRNG.md",
-    "My linked notes/RNG.md",
-    "My linked notes/TRNG.md"
+    "3 Performing Security Assessments/3A Assess Organizational Security L3a.md",
+    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
+    "My notes_______________________________.md",
+    "My linked notes/Alice.md",
+    "My linked notes/AES.md",
+    "My linked notes/Adware.md",
+    "My linked notes/A_D Architecture and Design.md",
+    "4 Identifying Social Engineering and Malware/4B  Analyze Indicators of Malware-Based Attack.md",
+    "My linked notes/spyware.md"
   ]
 }
