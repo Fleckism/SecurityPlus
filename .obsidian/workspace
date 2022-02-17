@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/hash.md",
+            "file": "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -73,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -125,14 +124,14 @@
   "active": "ab43f7a7c3d764b7",
   "lastOpenFiles": [
     "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
+    "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
+    "My linked notes/Attack.md",
     "My linked notes/hash.md",
     "My linked notes/WPA.md",
     "My linked notes/PBKDF2.md",
-    "My linked notes/Attack.md",
     "My linked notes/IV.md",
     "My linked notes/PRNG.md",
     "My linked notes/RNG.md",
-    "My linked notes/TRNG.md",
-    "My linked notes/AES.md"
+    "My linked notes/TRNG.md"
   ]
 }

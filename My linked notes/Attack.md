@@ -21,7 +21,11 @@ Types of attacks
 
 
 
+
 **A downgrade attack can be used to facilitate a man-in-the-middle attack by requesting that the server use a lower specification protocol with weaker ciphers and key lengths. For example, rather than use TLS 1.3, as the server might prefer, the client requests the use of SSL. It then becomes easier for Mallory to forge the signature of a certificate authority that Alice trusts and have Alice trust Mallory's public key.**
+
+A birthday [[attack]] is a type of brute force attack aimed at exploiting collisions in hash functions. A collision is where a function produces the same hash value for two different plaintexts. This type of attack can be used for the purpose of forging a digital signature. 
+
 [[5C Summarize Cryptographic Use Cases and Weaknesses]]
 # Tags
 #Attack 

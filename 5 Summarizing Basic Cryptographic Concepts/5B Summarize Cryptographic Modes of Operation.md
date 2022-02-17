@@ -3,7 +3,7 @@
 2.8 Summarize the basics of cryptographic concepts
 
 A _mode of operation_ is a means of using a cipher within a product to achieve a security goal, such as confidentiality or integrity. Being able to summarize modes of operation will help you to implement and support security controls such as digital signatures and transport encryption.
-#zFleck 
+ 
 ## DIGITAL SIGNATURES
 
 Public key cryptography can authenticate a sender, because they control a private key that encrypts messages in a way that no one else can. Public key cryptography can only be used with very small messages, however. Hashing proves integrity by computing a unique checksum from input. These two cryptographic functions can be combined to authenticate a sender and prove the integrity of a message, with a digital signature. The following process is used to create a digital signature using [[RSA]] encryption:
@@ -82,7 +82,7 @@ Counter mode (CTM) makes the AES algorithm work as a stream cipher. Counter mode
 ## AUTHENTICATED MODES OF OPERATION
 
 Symmetric algorithms do not provide message integrity or authentication. The basic [[CBC]] and counter modes of operation are unauthenticated. While a man-in-the-middle cannot decrypt them directly without the secret key, the ciphertexts are vulnerable to arbitrary data being inserted or modified to break the encryption scheme, referred to as a _chosen ciphertext attack._
-#zFleck 
+
 ### Authenticated Encryption
 
 A message authentication code ([[MAC]]) provides an authentication and integrity mechanism by hashing a combination of the message output and a shared secret key. The recipient can perform the same process using his or her copy of the secret key to verify the data. This type of authenticated encryption scheme is specified in a cipher suite as separate functions, such as "AES CBC with HMAC-SHA." Unfortunately, the implementation of this type of authenticated mode in AES CBC is vulnerable to a type of cryptographic attack called a padding oracle attack ([docs.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode](https://docs.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode)).
