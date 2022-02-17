@@ -1,4 +1,4 @@
-(one-way)
+(one-way) aka hash value
 
 A message digest is a 
 - **fixed size numeric representation of the contents of a message, computed by a hash function**.

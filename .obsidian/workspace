@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "b91cbaa6f79ccfb2",
+        "id": "ab43f7a7c3d764b7",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
+            "file": "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "ab43f7a7c3d764b7",
+        "id": "db50aed1330f47e6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
+            "file": "My linked notes/GRC Governance, Risk, and Compliance.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -74,12 +74,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
+                "file": "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,20 +120,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "active": "ab43f7a7c3d764b7",
   "lastOpenFiles": [
-    "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
-    "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
-    "My linked notes/hash.md",
-    "My linked notes/Hashing.md",
-    "My linked notes/digest.md",
+    "5 Summarizing Basic Cryptographic Concepts/5C Summarize Cryptographic Use Cases and Weaknesses.md",
+    "My linked notes/GRC Governance, Risk, and Compliance.md",
+    "My linked notes/OIR Operations and Incident Response.md",
+    "My linked notes/asymmetric.md",
     "My linked notes/cipher.md",
-    "My linked notes/ECC.md",
-    "My linked notes/RSA.md",
-    "My linked notes/AES.md",
-    "My linked notes/IV.md"
+    "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
+    "My linked notes/symmetric.md",
+    "5 Summarizing Basic Cryptographic Concepts/5B Summarize Cryptographic Modes of Operation.md",
+    "My linked notes/MAC.md",
+    "My linked notes/CBC.md"
   ]
 }

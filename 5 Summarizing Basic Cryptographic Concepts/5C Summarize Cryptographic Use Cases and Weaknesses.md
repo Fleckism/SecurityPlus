@@ -4,7 +4,7 @@
 
 2.8 Summarize the basics of cryptographic concepts
 
-There are many individual symmetric and asymmetric cipher algorithms and hash functions. Characteristics of these ciphers make them better suited to meeting constraints, such as use on battery-powered devices. Some of the ciphers and implementations of ciphers within products can exhibit weaknesses that make them unsuitable for use. It is important that you be able to summarize these use cases and weaknesses so that you can deploy controls that fit their purpose.
+There are many individual [[symmetric]] and [[asymmetric]] [[cipher]] algorithms and hash functions. Characteristics of these ciphers make them better suited to meeting constraints, such as use on battery-powered devices. Some of the ciphers and implementations of ciphers within products can exhibit weaknesses that make them unsuitable for use. It is important that you be able to summarize these use cases and weaknesses so that you can deploy controls that fit their purpose.
 
 ## CRYPTOGRAPHY SUPPORTING AUTHENTICATION AND NON-REPUDIATION
 
@@ -18,14 +18,14 @@ Encryption allows subjects to identify and authenticate themselves. The subject 
 
 Non-repudiation is linked to identification and authentication. It is the concept that the sender cannot deny sending the message. If the message has been encrypted in a way known only to the sender, it follows that the sender must have composed it.
 
-Authentication and non-repudiation depend on the recipient not being able to encrypt the message, or the recipient would be able to impersonate the sender. This means that to support authentication and non-repudiation, recipients must be able to use the cryptographic process to decrypt authentication and integrity data, but not to encrypt it. This use case is supported by asymmetric encryption ciphers and public/private key pairs.
+Authentication and non-repudiation depend on the recipient not being able to encrypt the message, or the recipient would be able to impersonate the sender. This means that to support authentication and non-repudiation, recipients must be able to use the cryptographic process to decrypt authentication and integrity data, but not to encrypt it. This use case is supported by [[asymmetric]] encryption ciphers and public/private key pairs.
 
 To use a key pair, the user or server generates the linked keys. The private key is stored securely and protected from use by others by the account password. It is critical that only the user or server be able to use the private key. The public key is given to clients or correspondents, usually in the form of a digital certificate.
 
 When the user or server needs to authenticate, it encrypts some agreed hashed data using the private key and sends it to the client as a digital signature. The client should be able to decrypt the signature using the public key and derive the same hash value.
 ## CRYPTOGRAPHY SUPPORTING CONFIDENTIALITY
 
-Cryptography removes the need to store or transfer messages over secure media. It does not matter if a ciphertext is stolen or intercepted because the threat actor will not be able to understand or change what has been stolen. This use of cryptography fulfils the goal of confidentiality. For this use case, you cannot simply use asymmetric encryption and private/public key pairs, because the algorithm cannot encrypt large amounts of data efficiently. For example, the RSA asymmetric cipher has a maximum message size of the key size (in bytes) minus 11. A key size of 2048 bits allows a maximum message size of 245 bytes: (2048/8) − 11. The computational overhead of using this type of algorithm to encrypt the contents of a disk or stream of network traffic is far too high.
+Cryptography removes the need to store or transfer messages over secure media. It does not matter if a ciphertext is stolen or intercepted because the threat actor will not be able to understand or change what has been stolen. This use of cryptography fulfils the goal of confidentiality. For this use case, you cannot simply use asymmetric encryption and private/public key pairs, because the algorithm cannot encrypt large amounts of data efficiently. For example, the [[RSA]] asymmetric cipher has a maximum message size of the key size (in bytes) minus 11. A key size of 2048 bits allows a maximum message size of 245 bytes: (2048/8) − 11. The computational overhead of using this type of algorithm to encrypt the contents of a disk or stream of network traffic is far too high.
 
 Therefore, bulk data encryption uses a symmetric cipher, such as AES. A _symmetric cipher_ can encrypt and decrypt data files and streams of network traffic quickly. The problem is that distributing a symmetric key securely is challenging. The more people who know the key value, the weaker the confidentiality property is. The risks of a threat actor obtaining the key grow exponentially. Luckily, symmetric keys are only 128 bits or 256 bits long, and so can easily be encrypted using a public key. Consequently, most cryptographic systems use both symmetric and asymmetric encryption.
 
