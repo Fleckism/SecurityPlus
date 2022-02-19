@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "728c9d1c63423cd2",
+        "id": "956a875228d03a4f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Untitled 3.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -57,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 489.5
+    "width": 363.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -84,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/Untitled 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,17 +107,17 @@
     "width": 230.5,
     "collapsed": true
   },
-  "active": "728c9d1c63423cd2",
+  "active": "956a875228d03a4f",
   "lastOpenFiles": [
-    "5 Summarizing Basic Cryptographic Concepts/5D Summarize Other Cryptographic Technologies.md",
-    "7 Implementing Authentication Controls/7D Summarize Biomeetrics Authentication.md",
-    "7 Implementing Authentication Controls/7C Implement Authentcation Technologies.md",
-    "7 Implementing Authentication Controls/7B Implement knowledge-Based Authentication.md",
-    "7 Implementing Authentication Controls/7A Summarize Authentication Design Concepts.md",
-    "6 Implementing Public Key Infrastructure/6B Implement PKI Management.md",
-    "6 Implementing Public Key Infrastructure/6A Implement Certificates and  Certificate Authorities.md",
-    "tmpt/standard.md",
-    "My linked notes/Untitled.md",
-    "6/standard.md"
+    "My linked notes/Untitled 3.md",
+    "My linked notes/15C Summarize Infrastructure as Code Concepts.md",
+    "My linked notes/15B Apply Cloud Security Solutions.md",
+    "My linked notes/15A Summarize Secure Cloud and Virtualization Services.md",
+    "My linked notes/14E Summarize Deployment and Automation Concepts.md",
+    "My linked notes/14D Implement  Secure Script Environments.md",
+    "My linked notes/14C Summarize Secure Coding Practices.md",
+    "My linked notes/14B Analyze Indicators of Web Application Attacks.md",
+    "My linked notes/14A Analayze Indicators of Application Attacks.md",
+    "My linked notes/13B Implement  Secure Mobile Device Connections.md"
   ]
 }
