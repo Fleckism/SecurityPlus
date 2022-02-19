@@ -6,23 +6,25 @@
       {
         "id": "d93360e7dd9b3797",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Creating a tag system.md",
+            "file": "5 Summarizing Basic Cryptographic Concepts/5D Summarize Other Cryptographic Technologies.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       },
       {
-        "id": "4c93a7897c2bacf7",
+        "id": "dd9ce8149f78e893",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Security Acronyms no links.md",
+            "file": "tmpt/standard.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Creating a tag system.md",
+                "file": "tmpt/standard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,17 +121,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "d93360e7dd9b3797",
+  "active": "dd9ce8149f78e893",
   "lastOpenFiles": [
+    "tmpt/standard.md",
+    "My linked notes/Untitled.md",
+    "5 Summarizing Basic Cryptographic Concepts/5D Summarize Other Cryptographic Technologies.md",
+    "6/standard.md",
     "Creating a tag system.md",
     "My linked notes/Security Acronyms no links.md",
-    "5 Summarizing Basic Cryptographic Concepts/5D Summarize Other Cryptographic Technologies.md",
     "My linked notes/Acronyms/ICMP.md",
     "My linked notes/page name 1.md",
     "My linked notes/page name.md",
-    "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md",
-    "2 Explaining Threat Actors and Threat Intelligence L2/Threat intelligence Sources 2B.md",
-    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
-    "My linked notes/Attack.md"
+    "2 Explaining Threat Actors and Threat Intelligence L2/Threat actor types and attack vectors 2A.md"
   ]
 }

@@ -3,5 +3,7 @@
   "obsidian-sort-and-permute-lines",
   "highlightr-plugin",
   "tag-wrangler",
-  "obsidian-collapse-all-plugin"
+  "obsidian-collapse-all-plugin",
+  "templater-obsidian",
+  "cm-editor-syntax-highlight-obsidian"
 ]
