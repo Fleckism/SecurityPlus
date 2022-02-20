@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "21 Explaining Physical Security/21B Explain the Importance of Physical Host Security Controls.md",
+            "file": "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "21 Explaining Physical Security/21B Explain the Importance of Physical Host Security Controls.md",
+                "file": "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +108,7 @@
   },
   "active": "4a62a61670b0d8b3",
   "lastOpenFiles": [
+    "1 Compare and contrast IT security roles/Compare and Contrast 1A Information Security Roles.md",
     "21 Explaining Physical Security/21B Explain the Importance of Physical Host Security Controls.md",
     "21 Explaining Physical Security/21A Explain the Importance of Physical Site Security Controls.md",
     "20 Implementing Cybersecurity Resilience/20C Implement  Cybersecurity Resiliency Strategies.md",
@@ -116,7 +117,6 @@
     "19 Summarizing Risk Management Concepts/19B Explain Business Impact Analysis Concepts.md",
     "19 Summarizing Risk Management Concepts/19A Explain Risk Management Process and Concepts.md",
     "18 Explaining Digital Forensics/18B Explain Risk Managment Process and Concepts.md",
-    "18 Explaining Digital Forensics/18A Explain Key Aspects of Digital Forensics Documentation.md",
-    "17 Performing Incident Response/17C  Apply Mitigation Controls.md"
+    "18 Explaining Digital Forensics/18A Explain Key Aspects of Digital Forensics Documentation.md"
   ]
 }
