@@ -1,5 +1,5 @@
 ---
-tags: [zFleck, secondTag]
+tags: [, secondTag]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -66,22 +66,3 @@ Some biometric and behavioral technologies might be used for purposes other than
 
 -   _Biometric identification_ refers to matching people to a database, as opposed to authenticating them per se. For example, if an individual crossing the floor of the data center does not produce a match for gait analysis, the system may raise a security alert ([https://www.g4s.com/news-and-insights/insights/2017/12/06/keeping-data-centres-secure](https://www.g4s.com/news-and-insights/insights/2017/12/06/keeping-data-centres-secure)).
 -   _Continuous authentication_ verifies that the user who logged on is still operating the device. For example, if a user successfully authenticates to a smartphone using a fingerprint, the device continues to monitor key motion and pressure statistics as the device is held and manipulated. If this deviates from the baseline, detection system would lock the phone. This sort of technology is not available on the market (at the time of writing), but it is the subject of numerous research projects.
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 

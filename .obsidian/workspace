@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "7 Implementing Authentication Controls/7D Summarize Biomeetrics Authentication.md",
+            "file": "10 Implementing Network Securing Appliances/10C Summarize the Use of SIEM.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7 Implementing Authentication Controls/7D Summarize Biomeetrics Authentication.md",
+                "file": "10 Implementing Network Securing Appliances/10C Summarize the Use of SIEM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,15 +108,15 @@
   },
   "active": "4a62a61670b0d8b3",
   "lastOpenFiles": [
-    "7 Implementing Authentication Controls/7D Summarize Biomeetrics Authentication.md",
-    "8 Implementing Identity and Account Management Controls/8A Implement Identity and Account Types.md",
-    "7 Implementing Authentication Controls/7A Summarize Authentication Design Concepts.md",
-    "6 Implementing Public Key Infrastructure/6A Implement Certificates and  Certificate Authorities.md",
-    "5 Summarizing Basic Cryptographic Concepts/5D Summarize Other Cryptographic Technologies.md",
-    "5 Summarizing Basic Cryptographic Concepts/5A Compare and Contrast Cryptographic Ciphers.md",
+    "10 Implementing Network Securing Appliances/10C Summarize the Use of SIEM.md",
+    "10 Implementing Network Securing Appliances/10B Implement Nework Security Monitoring.md",
     "10 Implementing Network Securing Appliances/10A Implement Firewalls and Proxy Servers.md",
-    "11 Implementing Secure Network Protocols/11A Implement  Secure Network Operations Protocols.md",
-    "14 Summarizing Secure Application Concepts/14A Analayze Indicators of Application Attacks.md",
-    "13 Implementing Secure Mobile Solutions/13A Implement  Mobile Device Management.md"
+    "9 Implementing Secure Network Designs/9D Implement Load Balancers.md",
+    "9 Implementing Secure Network Designs/9C Implement Secure Wireless Infrastructure.md",
+    "9 Implementing Secure Network Designs/9B Implement Secure Switching and Routing.md",
+    "9 Implementing Secure Network Designs/9A Implement Secure Network Desings.md",
+    "8 Implementing Identity and Account Management Controls/8D Explain the Importance of Personnel Policies.md",
+    "8 Implementing Identity and Account Management Controls/8C Implement Authorization Solutions.md",
+    "8 Implementing Identity and Account Management Controls/8B Implement Account Polices.md"
   ]
 }
