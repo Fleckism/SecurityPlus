@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "18 Explaining Digital Forensics/18A Explain Key Aspects of Digital Forensics Documentation.md",
+            "file": "21 Explaining Physical Security/21B Explain the Importance of Physical Host Security Controls.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "18 Explaining Digital Forensics/18A Explain Key Aspects of Digital Forensics Documentation.md",
+                "file": "21 Explaining Physical Security/21B Explain the Importance of Physical Host Security Controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "4a62a61670b0d8b3",
   "lastOpenFiles": [
+    "21 Explaining Physical Security/21B Explain the Importance of Physical Host Security Controls.md",
+    "21 Explaining Physical Security/21A Explain the Importance of Physical Site Security Controls.md",
+    "20 Implementing Cybersecurity Resilience/20C Implement  Cybersecurity Resiliency Strategies.md",
+    "20 Implementing Cybersecurity Resilience/20B Implement Backup Strategies.md",
+    "20 Implementing Cybersecurity Resilience/20A Implement Redundancy Strategies.md",
+    "19 Summarizing Risk Management Concepts/19B Explain Business Impact Analysis Concepts.md",
+    "19 Summarizing Risk Management Concepts/19A Explain Risk Management Process and Concepts.md",
+    "18 Explaining Digital Forensics/18B Explain Risk Managment Process and Concepts.md",
     "18 Explaining Digital Forensics/18A Explain Key Aspects of Digital Forensics Documentation.md",
-    "17 Performing Incident Response/17C  Apply Mitigation Controls.md",
-    "17 Performing Incident Response/17B Utilize Appropriate Data Sources for Incident Response.md",
-    "17 Performing Incident Response/17A Summarize Incident Response Procedures.md",
-    "16 Explaining Data Privacy and Protection Concepts/16B Explain Privacy and Data Protection Controls.md",
-    "16 Explaining Data Privacy and Protection Concepts/16A Explain Privacy and Data Sensitivity Concepts.md",
-    "15 Implementing Secure Cloud Solutions/15C Summarize Infrastructure as Code Concepts.md",
-    "15 Implementing Secure Cloud Solutions/15B Apply Cloud Security Solutions.md",
-    "15 Implementing Secure Cloud Solutions/15A Summarize Secure Cloud and Virtualization Services.md",
-    "14 Summarizing Secure Application Concepts/14E Summarize Deployment and Automation Concepts.md"
+    "17 Performing Incident Response/17C  Apply Mitigation Controls.md"
   ]
 }
