@@ -115,21 +115,3 @@ This searches the text file access.log for all lines containing some variation o
 The following example searches for any IP address in the 192.168.1.0/24 subnet using regex syntax for the pattern (note that each period must be escaped) within any file in any directory from the current one. The -r option enables recursion, while the period in the target part indicates the current directory:
 
 grep -r 192\.168\.1\.[\d]{1,3} ./*
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 

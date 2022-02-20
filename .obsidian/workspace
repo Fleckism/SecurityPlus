@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "10 Implementing Network Securing Appliances/10C Summarize the Use of SIEM.md",
+            "file": "12 Implementing Host Security Solutions/12A Implement  Secure Firmware.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10 Implementing Network Securing Appliances/10C Summarize the Use of SIEM.md",
+                "file": "12 Implementing Host Security Solutions/12A Implement  Secure Firmware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "4a62a61670b0d8b3",
   "lastOpenFiles": [
+    "12 Implementing Host Security Solutions/12A Implement  Secure Firmware.md",
+    "11 Implementing Secure Network Protocols/11C Implement  Secure Remote Access Protocols.md",
+    "11 Implementing Secure Network Protocols/11B Implement  Secure Application Protocols.md",
+    "11 Implementing Secure Network Protocols/11A Implement  Secure Network Operations Protocols.md",
     "10 Implementing Network Securing Appliances/10C Summarize the Use of SIEM.md",
     "10 Implementing Network Securing Appliances/10B Implement Nework Security Monitoring.md",
     "10 Implementing Network Securing Appliances/10A Implement Firewalls and Proxy Servers.md",
     "9 Implementing Secure Network Designs/9D Implement Load Balancers.md",
     "9 Implementing Secure Network Designs/9C Implement Secure Wireless Infrastructure.md",
-    "9 Implementing Secure Network Designs/9B Implement Secure Switching and Routing.md",
-    "9 Implementing Secure Network Designs/9A Implement Secure Network Desings.md",
-    "8 Implementing Identity and Account Management Controls/8D Explain the Importance of Personnel Policies.md",
-    "8 Implementing Identity and Account Management Controls/8C Implement Authorization Solutions.md",
-    "8 Implementing Identity and Account Management Controls/8B Implement Account Polices.md"
+    "9 Implementing Secure Network Designs/9B Implement Secure Switching and Routing.md"
   ]
 }
