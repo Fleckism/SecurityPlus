@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "16 Explaining Data Privacy and Protection Concepts/16A Explain Privacy and Data Sensitivity Concepts.md",
+            "file": "18 Explaining Digital Forensics/18A Explain Key Aspects of Digital Forensics Documentation.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "16 Explaining Data Privacy and Protection Concepts/16A Explain Privacy and Data Sensitivity Concepts.md",
+                "file": "18 Explaining Digital Forensics/18A Explain Key Aspects of Digital Forensics Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "4a62a61670b0d8b3",
   "lastOpenFiles": [
+    "18 Explaining Digital Forensics/18A Explain Key Aspects of Digital Forensics Documentation.md",
+    "17 Performing Incident Response/17C  Apply Mitigation Controls.md",
+    "17 Performing Incident Response/17B Utilize Appropriate Data Sources for Incident Response.md",
+    "17 Performing Incident Response/17A Summarize Incident Response Procedures.md",
+    "16 Explaining Data Privacy and Protection Concepts/16B Explain Privacy and Data Protection Controls.md",
     "16 Explaining Data Privacy and Protection Concepts/16A Explain Privacy and Data Sensitivity Concepts.md",
     "15 Implementing Secure Cloud Solutions/15C Summarize Infrastructure as Code Concepts.md",
     "15 Implementing Secure Cloud Solutions/15B Apply Cloud Security Solutions.md",
     "15 Implementing Secure Cloud Solutions/15A Summarize Secure Cloud and Virtualization Services.md",
-    "14 Summarizing Secure Application Concepts/14E Summarize Deployment and Automation Concepts.md",
-    "14 Summarizing Secure Application Concepts/14D Implement  Secure Script Environments.md",
-    "14 Summarizing Secure Application Concepts/14C Summarize Secure Coding Practices.md",
-    "14 Summarizing Secure Application Concepts/14B Analyze Indicators of Web Application Attacks.md",
-    "14 Summarizing Secure Application Concepts/14A Analayze Indicators of Application Attacks.md",
-    "13 Implementing Secure Mobile Solutions/13B Implement  Secure Mobile Device Connections.md"
+    "14 Summarizing Secure Application Concepts/14E Summarize Deployment and Automation Concepts.md"
   ]
 }
