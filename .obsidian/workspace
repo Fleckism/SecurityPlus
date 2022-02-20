@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "12 Implementing Host Security Solutions/12A Implement  Secure Firmware.md",
+            "file": "16 Explaining Data Privacy and Protection Concepts/16A Explain Privacy and Data Sensitivity Concepts.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12 Implementing Host Security Solutions/12A Implement  Secure Firmware.md",
+                "file": "16 Explaining Data Privacy and Protection Concepts/16A Explain Privacy and Data Sensitivity Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "4a62a61670b0d8b3",
   "lastOpenFiles": [
-    "12 Implementing Host Security Solutions/12A Implement  Secure Firmware.md",
-    "11 Implementing Secure Network Protocols/11C Implement  Secure Remote Access Protocols.md",
-    "11 Implementing Secure Network Protocols/11B Implement  Secure Application Protocols.md",
-    "11 Implementing Secure Network Protocols/11A Implement  Secure Network Operations Protocols.md",
-    "10 Implementing Network Securing Appliances/10C Summarize the Use of SIEM.md",
-    "10 Implementing Network Securing Appliances/10B Implement Nework Security Monitoring.md",
-    "10 Implementing Network Securing Appliances/10A Implement Firewalls and Proxy Servers.md",
-    "9 Implementing Secure Network Designs/9D Implement Load Balancers.md",
-    "9 Implementing Secure Network Designs/9C Implement Secure Wireless Infrastructure.md",
-    "9 Implementing Secure Network Designs/9B Implement Secure Switching and Routing.md"
+    "16 Explaining Data Privacy and Protection Concepts/16A Explain Privacy and Data Sensitivity Concepts.md",
+    "15 Implementing Secure Cloud Solutions/15C Summarize Infrastructure as Code Concepts.md",
+    "15 Implementing Secure Cloud Solutions/15B Apply Cloud Security Solutions.md",
+    "15 Implementing Secure Cloud Solutions/15A Summarize Secure Cloud and Virtualization Services.md",
+    "14 Summarizing Secure Application Concepts/14E Summarize Deployment and Automation Concepts.md",
+    "14 Summarizing Secure Application Concepts/14D Implement  Secure Script Environments.md",
+    "14 Summarizing Secure Application Concepts/14C Summarize Secure Coding Practices.md",
+    "14 Summarizing Secure Application Concepts/14B Analyze Indicators of Web Application Attacks.md",
+    "14 Summarizing Secure Application Concepts/14A Analayze Indicators of Application Attacks.md",
+    "13 Implementing Secure Mobile Solutions/13B Implement  Secure Mobile Device Connections.md"
   ]
 }
