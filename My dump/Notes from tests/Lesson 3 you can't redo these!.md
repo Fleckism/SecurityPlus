@@ -242,7 +242,7 @@ A packet analyzer works in conjunction with a sniffer to perform traffic analysi
 
 A packet injection involves sending forged or spoofed network traffic by inserting (or injecting) frames into the network stream. Packets are not captured with packet injection.
 # q 
-#fleck not really talked about by chapter 3
+ not really talked about by chapter 3
 Analyze and eliminate the item that is NOT an example of a reconnaissance technique.
 
 1.  **Initial exploitation**
@@ -260,8 +260,8 @@ Social engineering refers to obtaining information, physical access to premises,
 
 Scanning refers to using software tools to obtain information about a host or network topology. Scans may be launched against web hosts or against wired or wireless network segments, if the attacker can gain physical access to them.
 # q 
-#fleck will have to go to nmap site to know the nmap syntax? not really talked about by chapter 3
-#fleck use nmap
+ will have to go to nmap site to know the nmap syntax? not really talked about by chapter 3
+ use nmap
 A system administrator must scan the company’s web-based application to identify which ports are open and which operating system can be seen from the outside world. Determine the syntax that should be used to yield the desired information if the administrator will be executing this task from a Linux command line.
 
 1.  netstat -a

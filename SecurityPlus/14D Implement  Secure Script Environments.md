@@ -40,9 +40,9 @@ def fullname(name,surname):
 
  return name + " " + surname
 
-#This ends the function definition
+/#This ends the function definition      Had to add the /
 
-#The next line calls the function to set a variable
+/#The next line calls the function to set a variable  Had to add the /
 
 greeting = 'Hello ' + fullname('World', '')
 
@@ -84,7 +84,7 @@ A control block is written with indentation in the following general form:
 
 if name == 'World':
 
- #These indented statements are only executed if the condition is true
+ /#These indented statements are only executed if the condition is true  Had to add /
 
  print('Enter your first name')
 
@@ -94,7 +94,7 @@ if name == 'World':
 
  surname = input()
 
-#This ends the if statement as the next line is not indented
+/#This ends the if statement as the next line is not indented Had to add /
 
 greeting = 'Hello ' + fullname(name,surname)
 
@@ -131,7 +131,7 @@ function Cat-Name {
 
 }
 
-#This ends the function declaration; the next statement calls it
+/#This ends the function declaration; the next statement calls it  Had to add /
 
 $greeting = 'Hello ' + $(Cat-Name('World',''))
 

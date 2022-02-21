@@ -6,7 +6,7 @@ Where [[vulnerability]] scanning uses lists of patches and standard definitions 
 
  
 
- #tool
+ 
 -   [[ipconfig]]—show the configuration assigned to network interface(s) in Windows, including the hardware or media access control (MAC) address, IPv4 and IPv6 addresses.
 -   [[ifconfig]]—show the configuration assigned to network interface(s) in Linux.
 -   [[ping]]—
@@ -39,7 +39,7 @@ Are these all the steps in an assessment?
  
  OS fingerprinting
  
- Packet and protocol analysis is another crucial security #assessment and monitoring process:
+ Packet and protocol analysis is another crucial security assessment and monitoring process:
  -   Packet analysis refers to deep-down frame-by-frame scrutiny of captured frames.
 -   Protocol analysis means using statistical tools to analyze a sequence of packets, or packet trace.
 

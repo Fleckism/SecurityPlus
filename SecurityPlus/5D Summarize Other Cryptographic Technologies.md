@@ -1,6 +1,6 @@
 
 ---
-tags: [empty,fmtag]
+tags: [firstTag,secondTag]
 ---
 # EXAM OBJECTIVES COVERED
 2.8 Summarize the basics of cryptographic concepts

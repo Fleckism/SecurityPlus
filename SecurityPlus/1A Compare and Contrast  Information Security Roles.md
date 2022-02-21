@@ -28,10 +28,10 @@ Cybersecurity
 - Created by thousands of working subject matter experts
 
 Domain														% of Examination
-**1.  #Attack(s), #Threat(s), and #Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
+**1.  #Attack(s), #Threat(s), and Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
 2.  Architecture and Design	21% #A_D  [[A_D Architecture and Design]]
 **3.  #Implementation 25%**  [[implementation]]
-4.  Operations and Incident Response 16%  #OIR [[OIR Operations and Incident Response]]
+4.  Operations and Incident Response 16%  #OIR [[OIR]]
 5.  Governance, Risk, and Compliance 14%  #GRC  [[GRC Governance, Risk, and Compliance]]
 
 Job Roles
@@ -77,7 +77,7 @@ Some security models and researchers identify other properties that secure syste
 ## CYBERSECURITY FRAMEWORK
 
 Within the goal of ensuring information security, cybersecurity refers specifically to provisioning secure processing hardware and software. Information security and cybersecurity tasks can be classified as [[five functions]], following the framework developed by the National Institute of Standards and Technology (NIST) ([nist.gov/cyberframework/online-learning/five-functions](https://www.nist.gov/cyberframework/online-learning/five-functions)):
- #OIR [[OIR Operations and Incident Response]]
+ #OIR [[OIR]]
 -   identify —develop security policies and capabilities. Evaluate risks, [[threat]]s, and vulnerabilities and recommend security controls to mitigate them.
 -   protect —procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operations life cycle.
 -   detect —perform ongoing, proactive monitoring to ensure that controls are effective and capable of protecting against new types of threats.
@@ -87,7 +87,7 @@ Within the goal of ensuring information security, cybersecurity refers specifica
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7332-1599771793557.png)
 
 ## INFORMATION SECURITY COMPETENCIES
-#implementation [[implementation]] or #OIR [[OIR Operations and Incident Response]]
+#implementation [[implementation]] or #OIR [[OIR]]
 IT professionals working in a role with security responsibilities must be competent in a wide range of disciplines, from network and application design to procurement and human resources (HR). The following activities might be typical of such a role: 
 
 -   Participate in risk assessments and testing of security systems and make recommendations. 
@@ -136,5 +136,5 @@ Development and operations (DevOps) is a cultural shift within an organization t
 DevSecOps extends the boundary to security specialists and personnel, reflecting the principle that security is a primary consideration at every stage of software development and deployment. This is also known as shift left, meaning that security considerations need to be made during requirements and planning phases, not grafted on at the end. The principle of DevSecOps recognizes this and shows that security expertise must be embedded into any development project. Ancillary to this is the recognition that security operations can be conceived of as software development projects. Security tools can be automated through code. Consequently, security operations need to take on developer expertise to improve detection and monitoring.
 
 ### Incident Response
-#OIR [[OIR Operations and Incident Response]]
+#OIR [[OIR]]
 A dedicated cyber incident response team ([[CIRT]])/computer security incident response team (CSIRT)/computer emergency response team (CERT) as a single point-of-contact for the notification of security incidents. This function might be handled by the SOC, or it might be established as an independent business unit.

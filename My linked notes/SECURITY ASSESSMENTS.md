@@ -6,7 +6,7 @@
 -   Examining assessment objects to understand the security system and identify any logical (logic bomb ? ) weaknesses. This might highlight a lack of security controls or a common misconfiguration.
 -   Interviewing personnel to gather information and probe attitudes toward and understanding of security.
 
-The main types of security [[assessment]] #assessment are usually classed as **vulnerability assessment, threat hunting, and penetration testing**. A vulnerability assessment is an evaluation of a system's security and ability to meet compliance requirements based on the configuration state of the system. Essentially, the vulnerability assessment determines if the current configuration matches the ideal configuration (the baseline). Vulnerability assessments might involve manual inspection of security controls, but are more often accomplished through automated vulnerability scanners.
+The main types of security [[assessment]]  are usually classed as **vulnerability assessment, threat hunting, and penetration testing**. A vulnerability assessment is an evaluation of a system's security and ability to meet compliance requirements based on the configuration state of the system. Essentially, the vulnerability assessment determines if the current configuration matches the ideal configuration (the baseline). Vulnerability assessments might involve manual inspection of security controls, but are more often accomplished through automated vulnerability scanners.
 ## VULNERABILITY SCAN TYPES
 
 An automated scanner must be configured with signatures and scripts that can correlate known software and configuration vulnerabilities with data gathered from each host. Consequently, there are several types of vulnerability scanners optimized for different tasks.

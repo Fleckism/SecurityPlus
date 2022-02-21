@@ -1,6 +1,6 @@
 
 ---
-tags: [inline_tags,example]
+tags: [firstTag,secondTag]
 ---
 What properties matter?
 i.e.

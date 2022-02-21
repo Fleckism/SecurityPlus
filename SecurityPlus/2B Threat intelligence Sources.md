@@ -66,7 +66,7 @@ As well as a source of information, social media should also be monitored for th
 ## TACTICS, TECHNIQUES, AND PROCEDURES AND INDICATORS OF COMPROMISE
 
 A tactic, technique, or procedure ([[TTPs]]) is a generalized statement of adversary behavior. The term is derived from US military doctrine ([mwi.usma.edu/what-is-army-doctrine](https://mwi.usma.edu/what-is-army-doctrine/)). TTPs categorize behaviors in terms of campaign strategy and approach (tactics), generalized attack vectors (techniques), and specific intrusion tools and methods (procedures).
-[[OIR Operations and Incident Response]] #OIR 
+[[OIR]] #OIR 
 An **indicator of compromise ([[IoC]])** is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an IoC is evidence of a [[TTPs]].
 
 > TTPs describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like. ([stixproject.github.io/documentation/concepts/ttp-vs-indicator](https://stixproject.github.io/documentation/concepts/ttp-vs-indicator/))

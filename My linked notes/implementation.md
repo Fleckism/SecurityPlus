@@ -1,5 +1,6 @@
-**Put a decision or plan into effect, feedback**
+**Put a decision or plan into effect; execution**
 -  A positive action that security professionals do!
 - feedback
-- [[assessment]] #assessment 
+- [[assessment]]  
 - [[tool]]
+- Put a decision or plan into effect

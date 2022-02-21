@@ -1,3 +1,6 @@
+---
+tags: [GRC, secondTag]
+---
 Governance, Risk, and Compliance 14%  #GRC
 
 [[5A Compare and Contrast Cryptographic Ciphers]]

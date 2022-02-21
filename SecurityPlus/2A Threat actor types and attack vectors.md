@@ -4,7 +4,7 @@ tags: [firstTag, secondTag]
 
 ## LESSON INTRODUCTION
 
-To make an effective security #assessment,[[assessment]] you must be able to explain strategies for both defense and attack. Your responsibilities are likely to lie principally in defending assets, but to do this you must be able to explain the tactics, techniques, and procedures of threat actors. You must also be able to differentiate the types and capabilities of threat actors. As the threat landscape is continually evolving, you must also be able to identify reliable sources of threat intelligence and research.
+To make an effective security ,[[assessment]] you must be able to explain strategies for both defense and attack. Your responsibilities are likely to lie principally in defending assets, but to do this you must be able to explain the tactics, techniques, and procedures of threat actors. You must also be able to differentiate the types and capabilities of threat actors. As the threat landscape is continually evolving, you must also be able to identify reliable sources of threat intelligence and research.
 
 Lesson Objectives
 
@@ -18,7 +18,7 @@ EXAM OBJECTIVES COVERED
 1.5 Explain different threat actors, vectors, and intelligence sources
 
 Classifying and evaluating the capabilities of threat actor types enables you to assess and mitigate risks more effectively. Understanding the methods by which threat actors infiltrate networks and systems is essential for you to assess the attack surface of your networks and deploy controls to block attack vectors.
-## #VULNERABILITY,  #THREAT, AND #RISK
+## #VULNERABILITY,  #THREAT, AND RISK
 
 As part of security [[assessment]] and monitoring, security teams must identify ways in which their systems could be attacked. These assessments involve vulnerabilities, threats, and risk:
 

@@ -27,7 +27,7 @@ What term refers to assessment techniques that avoid alerting threat actors?
 
 ## Answer:
 This can be referred to as maneuver.
-# Penetration testing #assessment 
+# Penetration testing assessment 
 ## Question:
 A website owner wants to evaluate whether the site security mitigates risks from criminal syndicates, assuming no risk of insider threat. What type of penetration testing engagement will most closely simulate this adversary capability and resources?
 ## Answer:

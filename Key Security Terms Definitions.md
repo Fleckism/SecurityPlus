@@ -59,9 +59,9 @@ Output from the route command on a Linux host. Most endpoints have a simple rout
 **Procedure**:  A particular course of action.
 - A set of techniques is a procedure.
 
-#researchFleck Function: Are what controls tell you to do.?
+ Function: Are what controls tell you to do.?
 	What something does or is used for
-#researchFleck  Control:  Are the processes you have in place.
+  Control:  Are the processes you have in place.
 
 Cipher: An encrypted algorithm
 unsecured protocol: is one that transfers data as cleartext—that is, the protocol does not use encryption for data protection.

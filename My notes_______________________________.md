@@ -15,15 +15,15 @@
 - Assisted Lab 02: Scanning and Identifying Network Nodes Nmap
 	- 
 # Making sense of my tags
-1.  #Attack, #Threat(s), and #Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
+1.  #Attack, #Threat(s), and Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
 2.  Architecture and Design	21% #A_D  [[A_D Architecture and Design]]
 3.  #Implementation 25%**  [[implementation]]
-4.  Operations and Incident Response 16%  #OIR [[OIR Operations and Incident Response]]
+4.  Operations and Incident Response 16%  #OIR [[OIR]]
 5.  Governance, Risk, and Compliance 14%  #GRC  [[GRC Governance, Risk, and Compliance]]
 
 
 ## IoA/C
-#IoA_C : Definition
+ : Definition
 IoA:  Indicator of an attack that is currently happening.
 IoC:  are “pieces of forensic data, such as data found in system log entries or files, that identify potentially malicious activity on a system or network.” Indicators of compromise aid information security and IT professionals in detecting data breaches, malware infections, or other threat activity. By monitoring for indicators of compromise, organizations can detect attacks and act quickly to prevent breaches from occurring or limit damages by stopping attacks in earlier stages.
 				
@@ -52,7 +52,7 @@ IoC:  are “pieces of forensic data, such as data found in system log entries o
 #vulnerability : is a weakness which can be exploited by a threat actor
 
 ## implement
-#implementations:  Put a decision or plan into effect
+#implementation:  Put a decision or plan into effect
 
 # 6 skills learned with security+
 	1. Network security
