@@ -16,7 +16,7 @@ i.e.
 		- With_no_spaces
 	- Singular words
 	- [[page name | alias works]]
-	- [[Threat actor types and attack vectors 2A| #VULNERABILITY THREAT AND RISK]]  This is using an alias and a link to a heading in the page!
+	- [[2A Threat actor types and attack vectors| #VULNERABILITY THREAT AND RISK]]  This is using an alias and a link to a heading in the page!
 	- [[page name #heading]]
 	- [[page name#^blocks]]
 	- ! Before link shows the data!

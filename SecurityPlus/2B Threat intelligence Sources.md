@@ -1,3 +1,7 @@
+---
+tags: [firstTag, secondTag]
+---
+
 ## EXAM OBJECTIVES COVERED
 
 1.5 Explain different threat actors, vectors, and intelligence sources

@@ -3,3 +3,5 @@
 -   **detect** —perform ongoing, proactive monitoring to ensure that controls are effective and capable of protecting against new types of threats.
 -   **respond** —identify, analyze, contain, and eradicate threats to systems and data security.
 	- implement cybersecurity resilience to restore systems and data if other controls are unable to prevent attacks.
+
+A function is what something does or is used for

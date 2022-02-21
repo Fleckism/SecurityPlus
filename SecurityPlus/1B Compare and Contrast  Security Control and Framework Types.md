@@ -1,3 +1,7 @@
+---
+tags: [firstTag, secondTag]
+---
+
 ## Exam Objectives Covered
 **Information security and cybersecurity assurance is met by implementing [[security control]]**. As an information security professional, you must be able to compare types of security controls. You should also be able to describe how frameworks influence the selection and configuration of controls. By identifying basic security control types and how key frameworks and legislation drive compliance, you will be better prepared to select and implement the most appropriate controls for a given scenario.
 

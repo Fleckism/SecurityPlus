@@ -1,3 +1,7 @@
+---
+tags: [firstTag, secondTag]
+---
+
 ## EXAM OBJECTIVES COVERED
 
 1.8 Explain the techniques used in penetration testing

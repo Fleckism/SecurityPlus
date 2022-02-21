@@ -1,3 +1,7 @@
+---
+tags: [firstTag, secondTag]
+---
+
 ## LESSON INTRODUCTION
 
 Security is an ongoing process that includes 

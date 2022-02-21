@@ -1,3 +1,7 @@
+---
+tags: [firstTag, secondTag]
+---
+
 ## EXAM OBJECTIVES COVERED
 
 2.1 Explain the importance of security concepts in an enterprise environment (hashing only)

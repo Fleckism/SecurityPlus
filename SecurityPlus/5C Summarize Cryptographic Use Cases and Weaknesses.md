@@ -1,3 +1,7 @@
+---
+tags: [firstTag, secondTag]
+---
+
 ## EXAM OBJECTIVES COVERED
 
 1.2 Given a scenario, analyze potential indicators to determine the type of attack
