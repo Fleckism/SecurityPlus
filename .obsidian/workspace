@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Preventive.md",
+            "file": "SecurityPlus/1B Compare and Contrast  Security Control and Framework Types.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "control",
+                "query": "ACL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Preventive.md",
+                "file": "My linked notes/security control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +122,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "f8231d0630a11a48",
+  "active": "cdb07983b87d1a42",
   "lastOpenFiles": [
-    "My linked notes/Preventive.md",
     "My linked notes/security control.md",
-    "My linked notes/managerial.md",
-    "My linked notes/operational.md",
-    "My linked notes/technical.md",
-    "My linked notes/Controls.md",
-    "SecurityPlus/2A Threat actor types and attack vectors.md",
     "SecurityPlus/1B Compare and Contrast  Security Control and Framework Types.md",
-    "SecurityPlus/1A Compare and Contrast  Information Security Roles.md",
-    "My linked notes/A_D Architecture and Design.md"
+    "My linked notes/Security Acronyms no links.md",
+    "My linked notes/SECURITY ASSESSMENTS.md",
+    "My linked notes/SCAP.md",
+    "My linked notes/security properties.md",
+    "My linked notes/security controls.md",
+    "My linked notes/PBKDF2.md",
+    "My linked notes/page name 1.md",
+    "My linked notes/page name.md"
   ]
 }

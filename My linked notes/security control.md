@@ -1,7 +1,7 @@
 ---
 tags: [A_D, ]
 ---
-#deleteMe
+#zFleck
 A security controls is something designed to give a system or data asset the properties of **confidentiality, integrity, availability, and non-repudiation**. 
 # Categories
 - [[technical]] : the control is implemented as a system
