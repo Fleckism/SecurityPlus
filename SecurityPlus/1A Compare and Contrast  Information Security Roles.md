@@ -29,10 +29,10 @@ Cybersecurity
 
 Domain														% of Examination
 **1.  #Attack(s), #Threat(s), and Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
-2.  Architecture and Design	21% #A_D  [[A_D Architecture and Design]]
-**3.  #Implementation 25%**  [[implementation]]
-4.  Operations and Incident Response 16%  #OIR [[OIR]]
-5.  Governance, Risk, and Compliance 14%  #GRC  [[GRC Governance, Risk, and Compliance]]
+2.  Architecture and Design	21%   [[A_D Architecture and Design]]
+**3.  Implementation 25%**  [[implementation]]
+4.  Operations and Incident Response 16%   [[OIR]]
+5.  Governance, Risk, and Compliance 14%    [[GRC Governance, Risk, and Compliance]]
 
 Job Roles
 - Network administrator:  In charge of information in transit stays secure, put systems together that are secure.
@@ -87,7 +87,7 @@ Within the goal of ensuring information security, cybersecurity refers specifica
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7332-1599771793557.png)
 
 ## INFORMATION SECURITY COMPETENCIES
-#implementation [[implementation]] or #OIR [[OIR]]
+ [[implementation]] or  [[OIR]]
 IT professionals working in a role with security responsibilities must be competent in a wide range of disciplines, from network and application design to procurement and human resources (HR). The following activities might be typical of such a role: 
 
 -   Participate in risk assessments and testing of security systems and make recommendations. 
