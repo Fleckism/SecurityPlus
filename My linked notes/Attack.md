@@ -17,6 +17,7 @@ From the point-of-view of the threat actor, different parts of the **attack surf
 
 Types of attacks
 - [[DoS]] 
+- [[MITM]]
 
 
 

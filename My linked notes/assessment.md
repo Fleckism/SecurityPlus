@@ -2,12 +2,18 @@
 tags: [Implementation, OIR, vulnerability, threat, ]
 
 ---
+See pdf on desktop!
 
 These assessments involve 
 - [[vulnerability]]
 - [[threat]]
 - [[risk]]
 
+
+The main types of security [[assessment]]  are usually classed as 
+- **vulnerability assessment, 
+- threat hunting, and 
+- penetration testing**. A vulnerability assessment is an evaluation of a system's security and ability to meet compliance requirements based on the configuration state of the system. Essentially, the vulnerability assessment determines if the current configuration matches the ideal configuration (the baseline). Vulnerability assessments might involve manual inspection of security controls, but are more often accomplished through automated vulnerability scanners.
 vulnerabilities, threats, and risk: 
 
 The process of identifying, estimating, and prioritizing risks to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the Nation, resulting from the operation of an information system. Part of risk management, incorporates threat and vulnerability analyses, and considers mitigations provided by security controls planned or in place. Synonymous with risk analysis
@@ -63,3 +69,5 @@ Are these all the steps in an assessment?
 A **protocol analyzer** (or packet analyzer) works in conjunction with a sniffer to perform traffic analysis. You can either analyze a live capture or open a saved capture (.pcap) file. Protocol analyzers can decode a captured frame to reveal its contents in a readable format. You can choose to view a summary of the frame or choose a more detailed view that provides information on the OSI layer, protocol, function, and data.
 
 [[packet injection]]: Some reconnaissance techniques and tests depend on sending forged or spoofed network traffic. Often, network sniffing software libraries allow frames to be inserted (or injected) into the network stream. There are also tools that allow for different kinds of packets to be crafted and manipulated. Well-known tools used for 
+
+[[3C Summarize Vulnerability Scanning Technics]]

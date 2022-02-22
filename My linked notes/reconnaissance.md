@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [OIR, ]
 ---
 
 Network reconnaissance and discovery is used to: 
