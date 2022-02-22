@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "cdb07983b87d1a42",
+        "id": "b73ca58c316a2ee4",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/1A Compare and Contrast  Information Security Roles.md",
+            "file": "SecurityPlus/2A Threat actor types and attack vectors.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,25 @@
         }
       },
       {
-        "id": "6c13e1edde21acfa",
+        "id": "a29122cd2c9428b6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Frameworks.md",
+            "file": "My linked notes/vulnerability.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "72fcbbd6319aa8a6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/assessment.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ACL",
+                "query": "framework",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 550.5
+    "width": 229.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -104,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Frameworks.md",
+                "file": "My linked notes/vulnerability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,17 +134,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "6c13e1edde21acfa",
+  "active": "a29122cd2c9428b6",
   "lastOpenFiles": [
+    "My linked notes/vulnerability.md",
+    "My linked notes/assessment.md",
+    "SecurityPlus/2A Threat actor types and attack vectors.md",
+    "My linked notes/Acronyms/TTPs.md",
     "My linked notes/Frameworks.md",
+    "SecurityPlus/1B Compare and Contrast  Security Control and Framework Types.md",
+    "My linked notes/GRC Governance, Risk, and Compliance.md",
+    "My linked notes/Acronyms/CSF.md",
     "My linked notes/five functions.md",
-    "SecurityPlus/1A Compare and Contrast  Information Security Roles.md",
-    "My linked notes/Dictionary/Confidentiality.md",
-    "My notes_______________________________.md",
-    "My linked notes/infosec.md",
-    "My linked notes/Acronyms/AIC or CIA.md",
-    "SecurityPlus/3A Assess Organizational Security L3a.md",
-    "SecurityPlus/3B Explain Security Concers with General Vulnerability Types 3B.md",
     "My linked notes/security control.md"
   ]
 }

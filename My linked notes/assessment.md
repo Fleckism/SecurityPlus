@@ -1,3 +1,15 @@
+---
+tags: [Implementation, OIR, vulnerability, threat, ]
+
+---
+
+These assessments involve 
+- [[vulnerability]]
+- [[threat]]
+- [[risk]]
+
+vulnerabilities, threats, and risk: 
+
 Security assessment refers to processes and tools that **evaluate the attack surface**.:
 
  The process of mapping out the attack surface is referred to as network [[reconnaissance]] and discovery

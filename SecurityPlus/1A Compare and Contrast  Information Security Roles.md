@@ -78,11 +78,11 @@ Some security models and researchers identify other properties that secure syste
 
 Within the goal of ensuring information security, cybersecurity refers specifically to provisioning secure processing hardware and software. Information security and **==cybersecurity tasks can be classified as==** [[five functions]], following the framework developed by the National Institute of Standards and Technology (NIST) ([nist.gov/cyberframework/online-learning/five-functions](https://www.nist.gov/cyberframework/online-learning/five-functions)):
  
--   identify —develop security policies and capabilities. Evaluate risks, [[threat]]s, and vulnerabilities and recommend security controls to mitigate them.
--   protect —procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operations life cycle.
--   detect —perform ongoing, proactive monitoring to ensure that controls are effective and capable of protecting against new types of threats.
--   respond —identify, analyze, contain, and eradicate threats to systems and data security.
--   recover  —implement cybersecurity resilience to restore systems and data if other controls are unable to prevent attacks.
+-   **identify** —develop security policies and capabilities. Evaluate risks, [[threat]]s, and vulnerabilities and recommend security controls to mitigate them.
+-   **protect** —procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operations life cycle.
+-   **detect** —perform ongoing, proactive monitoring to ensure that controls are effective and capable of protecting against new types of threats.
+-   **respond** —identify, analyze, contain, and eradicate threats to systems and data security.
+-   **recover**  —implement cybersecurity resilience to restore systems and data if other controls are unable to prevent attacks.
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7332-1599771793557.png)
 
@@ -121,7 +121,7 @@ The following units are often used to represent the security function within the
 
 ### Security Operations Center (SOC)
 
-A security operations center (SOC) is a location where security professionals monitor and protect critical information assets across other business functions, such as finance, operations, sales/marketing, and so on. Because SOCs can be difficult to establish, maintain, and finance, they are usually employed by larger corporations, like a government agency or a healthcare company. 
+A security operations center ([[SOC]]) is a location where security professionals monitor and protect critical information assets across other business functions, such as finance, operations, sales/marketing, and so on. Because SOCs can be difficult to establish, maintain, and finance, they are usually employed by larger corporations, like a government agency or a healthcare company. 
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/6092-1599771793673.jpg)
 
@@ -131,7 +131,7 @@ IBM Security Headquarters in Cambridge MA. (Image credit: John Mattern/Feature P
 
 Network operations and use of cloud computing make ever-increasing use of automation through software code. Traditionally, software code would be the responsibility of a programming or development team. Separate development and operations departments or teams can lead to silos, where each team does not work effectively with the other. 
 
-Development and operations (DevOps) is a cultural shift within an organization to encourage much more collaboration between developers and system administrators. By creating a highly orchestrated environment, IT personnel and developers can build, test, and release software faster and more reliably. Many consider a DevOps approach to administration as the only way organizations can take full advantage of the potential benefits offered by cloud service providers.
+Development and operations ([[DevOps]]) is a cultural shift within an organization to encourage much more collaboration between developers and system administrators. By creating a highly orchestrated environment, IT personnel and developers can build, test, and release software faster and more reliably. Many consider a DevOps approach to administration as the only way organizations can take full advantage of the potential benefits offered by cloud service providers.
 
 DevSecOps extends the boundary to security specialists and personnel, reflecting the principle that security is a primary consideration at every stage of software development and deployment. This is also known as shift left, meaning that security considerations need to be made during requirements and planning phases, not grafted on at the end. The principle of DevSecOps recognizes this and shows that security expertise must be embedded into any development project. Ancillary to this is the recognition that security operations can be conceived of as software development projects. Security tools can be automated through code. Consequently, security operations need to take on developer expertise to improve detection and monitoring.
 
