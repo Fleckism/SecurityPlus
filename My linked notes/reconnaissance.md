@@ -1,3 +1,7 @@
+---
+tags: [firstTag, secondTag]
+---
+
 Network reconnaissance and discovery is used to: 
 - identify hosts, 
 - network topology, and 

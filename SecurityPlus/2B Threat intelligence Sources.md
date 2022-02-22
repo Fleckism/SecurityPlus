@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [threat,OIR ]
 ---
 #zFleck
 ## EXAM OBJECTIVES COVERED
@@ -9,7 +9,7 @@ tags: [firstTag, secondTag]
 As a security professional, you must continually refresh and expand your knowledge of both security technologies and practices and adversary tactics and techniques. As well as staying up-to-date on a personal level, you will also need to select and deploy threat intelligence platforms. You need to be able to identify and evaluate sources of threat intelligence and research and to use these resources to enhance security controls.
 
 ## THREAT RESEARCH SOURCES
- #threat 
+ 
 Threat research is a counterintelligence gathering effort in which security companies and researchers attempt to discover the tactics, techniques, and procedures ([[TTPs]]) of modern cyber adversaries. There are many companies and academic institutions engaged in primary cybersecurity research. Security solution providers with firewall and anti-malware platforms derive a lot of data from their own customers' networks. As they assist customers with cybersecurity operations, they are able to analyze and publicize [[TTPs]] and their indicators. These organizations also operate honeynets to try to observe how hackers interact with vulnerable systems. 
 
 Another primary source of threat intelligence is the dark web. The deep web is any part of the World Wide Web that is not indexed by a search engine. This includes pages that require registration, pages that block search indexing, unlinked pages, pages using nonstandard DNS, and content encoded in a nonstandard manner. Within the deep web, are areas that are deliberately concealed from "regular" browser access.
@@ -24,10 +24,10 @@ Using the TOR browser to view the AlphaBay market, now closed by law enforcement
 Investigating these dark web sites and message boards is a valuable source of counterintelligence. The anonymity of dark web services has made it easy for investigators to infiltrate the forums and webstores that have been set up to exchange stolen data and hacking tools. As adversaries react to this, they are setting up new networks and ways of identifying law enforcement infiltration. Consequently, dark nets and the dark web represent a continually shifting landscape.
 
 ## THREAT INTELLIGENCE PROVIDERS
-#threat 
+ 
 The outputs from the primary research undertaken by security solutions providers and academics can take three main forms:
 
--   Behavioral threat research—narrative commentary describing examples of attacks and TTPs gathered through primary research sources.
+-   Behavioral threat research—narrative commentary describing examples of attacks and [[TTPs]] gathered through primary research sources.
 -   Reputational threat intelligence—lists of IP addresses and domains associated with malicious behavior, plus signatures of known file-based malware.
 -   Threat data—computer data that can correlate events observed on a customer's own networks and logs with known TTP and threat actor indicators.
 
@@ -66,7 +66,7 @@ As well as a source of information, social media should also be monitored for th
 ## TACTICS, TECHNIQUES, AND PROCEDURES AND INDICATORS OF COMPROMISE
 
 A tactic, technique, or procedure ([[TTPs]]) is a generalized statement of adversary behavior. The term is derived from US military doctrine ([mwi.usma.edu/what-is-army-doctrine](https://mwi.usma.edu/what-is-army-doctrine/)). TTPs categorize behaviors in terms of campaign strategy and approach (tactics), generalized attack vectors (techniques), and specific intrusion tools and methods (procedures).
-[[OIR]] #OIR 
+ 
 An **indicator of compromise ([[IoC]])** is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an IoC is evidence of a [[TTPs]].
 
 > TTPs describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like. ([stixproject.github.io/documentation/concepts/ttp-vs-indicator](https://stixproject.github.io/documentation/concepts/ttp-vs-indicator/))
@@ -101,11 +101,11 @@ Where STIX provides the syntax for describing  [[CTI]], the Trusted Automated eX
 
 ### Automated Indicator Sharing (AIS)
 
-Automated Indicator Sharing (AIS) is a service offered by the Department of Homeland Security (DHS) for companies to participate in threat intelligence sharing ([us-cert.gov/ais](https://us-cert.cisa.gov/ais)). It is especially aimed at ISACs, but private companies can join too. AIS is based on the STIX and TAXII standards and protocols. 
+Automated Indicator Sharing ([[AIS]]) is a service offered by the Department of Homeland Security (DHS) for companies to participate in threat intelligence sharing ([us-cert.gov/ais](https://us-cert.cisa.gov/ais)). It is especially aimed at ISACs, but private companies can join too. AIS is based on the STIX and TAXII standards and protocols. 
 
 ### Threat Maps
 
-A threat map is an animated graphic showing the source, target, and type of attacks that have been detected by a CTI platform. The security solutions providers publish such maps showing global attacks on their customers' systems ([fortinet.com/fortiguard/threat-intelligence/threat-map](https://www.fortinet.com/fortiguard/threat-intelligence/threat-map)). 
+A threat map is an animated graphic showing the source, target, and type of attacks that have been detected by a [[CTI]] platform. The security solutions providers publish such maps showing global attacks on their customers' systems ([fortinet.com/fortiguard/threat-intelligence/threat-map](https://www.fortinet.com/fortiguard/threat-intelligence/threat-map)). 
 
 ### File/Code Repositories
 

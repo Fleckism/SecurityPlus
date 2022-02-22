@@ -10,4 +10,4 @@ TTPs describe what and how an adversary acts and Indicators describe how to reco
 
 **Procedure**:  A particular course of action.
 
-[[threat]] #threat 
+ 

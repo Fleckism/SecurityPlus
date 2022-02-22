@@ -1,10 +1,10 @@
 ---
-tags: [firstTag, secondTag]
+tags: [Implementation, ]
 ---
 
 ## LESSON INTRODUCTION
 
-Security [[assessment]] refers to processes and tools that evaluate the #attack surface. With knowledge of adversary tactics and capabilities, you can assess whether points on the [[attack surface]] are potentially vulnerable [[attack vector]]. The output of [[assessment]] is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by [[threat]] actors. 
+Security [[assessment]] refers to processes and tools that evaluate the attack surface. With knowledge of adversary tactics and capabilities, you can assess whether points on the [[attack surface]] are potentially vulnerable [[attack vector]]. The output of [[assessment]] is recommendations for deploying, enhancing, or reconfiguring security controls to mitigate the risk that vulnerabilities are exploitable by [[threat]] actors. 
 
 Lesson Objectives
 
@@ -29,7 +29,7 @@ Basic topology discovery tasks can be accomplished using the command line tools 
 
 -   [[ipconfig]]—show the configuration assigned to network interface(s) in Windows, including the hardware or media access control (MAC) address, IPv4 and IPv6 addresses, **default gateway, and whether the address is static or assigned by DHCP. If the address is DHCP-assigned, the output also shows the address of the DHCP server that provided the lease (To detect spoofing).  
 -   [[ifconfig]]—show the configuration assigned to network interface(s) in Linux.
--   **[[ping]]—probe a host on a particular IP address or host name using Internet Control Message Protocol (ICMP)**. You can use ping with a simple script to perform a sweep of all the IP addresses in a subnet. The following example will scan the 10.1.0.0/24 subnet from a Windows machine:
+- **[[ping]]—probe a host on a particular IP address or host name using Internet Control Message Protocol (ICMP)**. You can use ping with a simple script to perform a sweep of all the IP addresses in a subnet. The following example will scan the 10.1.0.0/24 subnet from a Windows machine:
 
 for /l %i in (1,1,255) do @ping -n 1 -w 100 10.1.0.%i | find /i "reply"
 
@@ -53,9 +53,9 @@ The following tools can be used to test the [2] **routing configuration** and co
 
 Output from the route command on a Linux host. Most endpoints have a simple routing table, similar to this. It shows the default route (0.0.0.0/0) via the host configured as the default gateway (10.1.0.254) over the network interface eth0. The second line of the table shows the subnet for local traffic (10.1.0.0/24). This network is directly connected, represented by the 0.0.0.0 gateway.
 
--   [[tracert]]—uses [[ICMP]] probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.
--   [[traceroute]]—performs route discovery from a Linux host. traceroute uses [[UDP]] probes rather than ICMP, by default.
--   [[pathping]]—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr  **( Rogue host is modifying traffic before forwarding it, with the side effect of increasing network latency)**.
+- [[tracert]]—uses [[ICMP]] probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.
+- [[traceroute]]—performs route discovery from a Linux host. traceroute uses [[UDP]] probes rather than ICMP, by default.
+- [[pathping]]—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr  **( Rogue host is modifying traffic before forwarding it, with the side effect of increasing network latency)**.
 
 In a security context, **[[high latency]] at the default gateway compared to a baseline might indicate a man-in-the-middle attack.** 
 **High latency on other hops could be a sign of denial of service, or could just indicate network congestion.**
