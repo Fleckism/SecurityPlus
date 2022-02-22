@@ -10,6 +10,11 @@ These assessments involve
 
 vulnerabilities, threats, and risk: 
 
+The process of identifying, estimating, and prioritizing risks to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the Nation, resulting from the operation of an information system. Part of risk management, incorporates threat and vulnerability analyses, and considers mitigations provided by security controls planned or in place. Synonymous with risk analysis
+
+Taken From
+([nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/nistspecialpublication800-30r1.pdf)).
+
 Security assessment refers to processes and tools that **evaluate the attack surface**.:
 
  The process of mapping out the attack surface is referred to as network [[reconnaissance]] and discovery

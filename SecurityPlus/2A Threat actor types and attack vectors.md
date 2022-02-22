@@ -1,5 +1,5 @@
 ---
-tags: [OIR, ]
+tags: [OIR,Attack ]
 ---
 
 ## LESSON INTRODUCTION
@@ -24,7 +24,7 @@ As part of security [[assessment]] and monitoring, security teams must identify 
 
 -   [[vulnerability]] **is a weakness** that could be triggered accidentally or exploited intentionally to cause a security breach. Examples of vulnerabilities include improperly configured or installed hardware or software, delays in applying and testing software and firmware patches, untested software and firmware patches, the misuse of software or communication protocols, poorly designed network architecture, inadequate physical security, insecure password usage, and design flaws in software or operating systems, such as unchecked user input.
 -   [[threat]] **is the potential** for someone or something to exploit a vulnerability and breach security. A threat may be intentional or unintentional. The person or thing that poses the threat is called a _threat actor_ or _threat agent._ The path or tool used by a malicious threat actor can be referred to as the _attack vector._
--   Risk is the likelihood and impact (or consequence) of a threat actor exploiting a vulnerability. To assess risk, you identify a vulnerability and then evaluate the likelihood of it being exploited by a threat and the impact that a successful exploit would have.
+-   [[risk]] is the **likelihood and impact (or consequence)** of a threat actor exploiting a vulnerability. To assess risk, you identify a vulnerability and then evaluate the likelihood of it being exploited by a threat and the impact that a successful exploit would have.
 
 Relationship between vulnerability, threat, and risk.
 
@@ -96,7 +96,7 @@ CERT identifies the main motivators for malicious insider threats as sabotage, f
 Insider threats can be categorized as unintentional. An unintentional or inadvertent insider threat is a vector for an external actor, or a separate—malicious—internal actor to exploit, rather than a threat actor in its own right. Unintentional threats usually arise from lack of awareness or from carelessness, such as users demonstrating poor password management. Another example of unintentional insider threat is the concept of shadow IT, where users purchase or introduce computer hardware or software to the workplace without the sanction of the IT department and without going through a procurement and security analysis process. The problem of shadow IT is exacerbated by the proliferation of cloud services and mobile devices, which are easy for users to obtain. Shadow IT creates a new unmonitored attack surface for malicious adversaries to exploit.
 ##  #Attack SURFACE AND ATTACK VECTORS
 
-**The [[attack]] surface is all the points at which a malicious threat actor could try to exploit a vulnerability.** To evaluate the attack surface, you need to consider the type of threat actor. The attack surface for an external actor is (or should be) far smaller than that for an insider threat. The attack surface can be considered for a network as a whole, but is also analyzed for individual software applications. Minimizing the attack surface means restricting access so that only a few known endpoints, protocols/ports, and services/methods are permitted. Each of these must be assessed for vulnerabilities.
+**The [[attack surface]] is all the points at which a malicious threat actor could try to exploit a vulnerability.** To evaluate the attack surface, you need to consider the type of threat actor. The attack surface for an external actor is (or should be) far smaller than that for an insider threat. The attack surface can be considered for a network as a whole, but is also analyzed for individual software applications. Minimizing the attack surface means restricting access so that only a few known endpoints, protocols/ports, and services/methods are permitted. Each of these must be assessed for vulnerabilities.
 
 From the point-of-view of the threat actor, different parts of the attack surface represent potential attack vectors. An attack vector is the path that a threat actor uses to gain access to a secure system. In the majority of cases, gaining access means being able to run malicious code on the target.
 

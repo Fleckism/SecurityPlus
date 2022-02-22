@@ -24,8 +24,17 @@ threats
  **threat** is a potential negative action or event facilitated by a [[vulnerability]] that results in an unwanted impact to a computer system or application.
 
 		
-
-
+- Internal/External
+- Intent/Motivation
+- Level of Sophistication/Capability and Resources/Funding
+- HACKERS
+- SCRIPT KIDDIES
+- HACKTIVISTS
+- STATE ACTORS 
+- ADVANCED PERSISTENT THREATS
+- CRIMINAL SYNDICATES 
+- COMPETITORS
+- INSIDER THREAT ACTORS
 	
 		
 		
