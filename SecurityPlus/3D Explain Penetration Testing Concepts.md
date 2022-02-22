@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [OIR, Implementation]
 ---
 
 ## EXAM OBJECTIVES COVERED
@@ -17,7 +17,7 @@ A penetration test—often shortened to [[pen test]]—uses authorized hacking t
 -   **Actively test security controls**—probe controls for configuration weaknesses and errors, such as weak passwords or software vulnerabilities.
 -   **Exploit vulnerabilities**—prove that a vulnerability is high risk by exploiting it to gain access to data or install [[backdoor]]s. i.e. annotate the data that has been accessed
 
-The key difference from passive vulnerability assessment is that an attempt is made to actively test security controls and exploit any vulnerabilities discovered. Pen testing is an intrusive assessment technique. For example, a vulnerability scan may reveal that an SQL Server has not been patched to safeguard against a known exploit. A penetration test would attempt to use the exploit to perform code injection and compromise and "own" (or "pwn" in hacker idiom) the server. This provides active testing of security controls. Even though the potential for the exploit exists, in practice the permissions on the server might prevent an attacker from using it. This would not be identified by a vulnerability scan, but should be proven or not proven to be the case by penetration testing.
+The key difference from passive vulnerability assessment is that an attempt is made to actively test [[security control]]s and exploit any vulnerabilities discovered. Pen testing is an intrusive assessment technique. For example, a vulnerability scan may reveal that an SQL Server has not been patched to safeguard against a known exploit. A penetration test would attempt to use the exploit to perform code injection and compromise and "own" (or "pwn" in hacker idiom) the server. This provides active testing of security controls. Even though the potential for the exploit exists, in practice the permissions on the server might prevent an attacker from using it. This would not be identified by a vulnerability scan, but should be proven or not proven to be the case by penetration testing.
 
 ## RULES OF ENGAGEMENT 
 

@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f10b7bdaad22ebb5",
+        "id": "0c32265f250f6cd9",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/3C Summarize Vulnerability Scanning Technics.md",
+            "file": "SecurityPlus/3D Explain Penetration Testing Concepts.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "0c32265f250f6cd9",
+        "id": "c68ca5cfcfb6bd79",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/assessment.md",
+            "file": "My linked notes/pen test.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/assessment.md",
+                "file": "SecurityPlus/3D Explain Penetration Testing Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,15 +123,15 @@
   },
   "active": "0c32265f250f6cd9",
   "lastOpenFiles": [
-    "My linked notes/assessment.md",
+    "SecurityPlus/3D Explain Penetration Testing Concepts.md",
+    "My linked notes/pen test.md",
     "SecurityPlus/3C Summarize Vulnerability Scanning Technics.md",
     "My linked notes/threat hunting.md",
-    "SecurityPlus/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "My linked notes/Attack.md",
-    "SecurityPlus/3A Assess Organizational Security L3a.md",
-    "My linked notes/fingerprinting.md",
-    "My linked notes/reconnaissance.md",
-    "My linked notes/attack surface.md",
-    "SecurityPlus/2B Threat intelligence Sources.md"
+    "My linked notes/XCCDF.md",
+    "My linked notes/OVAL.md",
+    "My linked notes/SCAP.md",
+    "My linked notes/Acronyms/CVE.md",
+    "My linked notes/assessment.md",
+    "SecurityPlus/3B Explain Security Concers with General Vulnerability Types 3B.md"
   ]
 }

@@ -12,8 +12,11 @@ These assessments involve
 
 The main types of security [[assessment]]  are usually classed as 
 - **vulnerability assessment, 
-- threat hunting, and 
-- penetration testing**. A vulnerability assessment is an evaluation of a system's security and ability to meet compliance requirements based on the configuration state of the system. Essentially, the vulnerability assessment determines if the current configuration matches the ideal configuration (the baseline). Vulnerability assessments might involve manual inspection of security controls, but are more often accomplished through automated vulnerability scanners.
+- **threat hunting**, and 
+- **penetration testing**. 
+
+
+A vulnerability assessment is an evaluation of a system's security and ability to meet compliance requirements based on the configuration state of the system. Essentially, the vulnerability assessment determines if the current configuration matches the ideal configuration (the baseline). Vulnerability assessments might involve manual inspection of security controls, but are more often accomplished through automated vulnerability scanners.
 vulnerabilities, threats, and risk: 
 
 The process of identifying, estimating, and prioritizing risks to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the Nation, resulting from the operation of an information system. Part of risk management, incorporates threat and vulnerability analyses, and considers mitigations provided by security controls planned or in place. Synonymous with risk analysis
