@@ -1,0 +1,1 @@
+act of correcting an error or a fault

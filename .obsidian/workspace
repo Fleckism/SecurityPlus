@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/security control.md",
+            "file": "SecurityPlus/1A Compare and Contrast  Information Security Roles.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "f8231d0630a11a48",
+        "id": "6c13e1edde21acfa",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/1B Compare and Contrast  Security Control and Framework Types.md",
+            "file": "My linked notes/Frameworks.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -73,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/security control.md",
+                "file": "My linked notes/Frameworks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +121,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "cdb07983b87d1a42",
+  "active": "6c13e1edde21acfa",
   "lastOpenFiles": [
-    "My linked notes/security control.md",
-    "SecurityPlus/1B Compare and Contrast  Security Control and Framework Types.md",
-    "My linked notes/Security Acronyms no links.md",
-    "My linked notes/SECURITY ASSESSMENTS.md",
-    "My linked notes/SCAP.md",
-    "My linked notes/security properties.md",
-    "My linked notes/security controls.md",
-    "My linked notes/PBKDF2.md",
-    "My linked notes/page name 1.md",
-    "My linked notes/page name.md"
+    "My linked notes/Frameworks.md",
+    "My linked notes/five functions.md",
+    "SecurityPlus/1A Compare and Contrast  Information Security Roles.md",
+    "My linked notes/Dictionary/Confidentiality.md",
+    "My notes_______________________________.md",
+    "My linked notes/infosec.md",
+    "My linked notes/Acronyms/AIC or CIA.md",
+    "SecurityPlus/3A Assess Organizational Security L3a.md",
+    "SecurityPlus/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "My linked notes/security control.md"
   ]
 }

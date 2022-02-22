@@ -1,4 +1,8 @@
--   ==Detective==—the control may not prevent or deter access, but it will identify and record any attempted or successful intrusion. A detective control operates during the progress of an attack. Logs provide one of the best examples of detective-type controls.
+---
+tags: [A_D, ]
+---
+
+- Detective—the control may not prevent or deter access, but it will **identify and record any attempted or successful intrusion.** A detective control operates during the progress of an attack. Logs provide one of the best examples of detective-type controls.
 	-   Identify or log signs of attack
 	-   Operate during an attack
-	-   Examples include intrusion detection, log review, physical inspections, ...
+	-   Examples include intrusion detection, log review, physical inspections.

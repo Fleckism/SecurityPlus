@@ -8,6 +8,7 @@
 	- Scenarios
 		- Have page for defenses
 		- Vulnerabilities
+	- [[AIC or CIA]]
 
 
 # Assisted Labs
