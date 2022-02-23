@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/logic bomb.md",
+            "file": "My linked notes/Acronyms/PUPs.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/logic bomb.md",
+                "file": "My linked notes/malware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,17 +121,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "fa0417a37387c9b0",
+  "active": "abbd361cc5ffc61e",
   "lastOpenFiles": [
-    "My linked notes/logic bomb.md",
     "My linked notes/malware.md",
+    "My linked notes/Acronyms/PUPs.md",
+    "My linked notes/logic bomb.md",
     "My linked notes/Malware/Fileless.md",
     "My linked notes/assessment.md",
     "My linked notes/Acronyms/A-V.md",
     "My linked notes/botnet.md",
     "My linked notes/cryptoransomware.md",
     "My linked notes/cryptojacking.md",
-    "My linked notes/DDoS.md",
-    "My linked notes/Ransomware.md"
+    "My linked notes/DDoS.md"
   ]
 }
