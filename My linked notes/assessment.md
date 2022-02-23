@@ -16,6 +16,8 @@ The main types of security [[assessment]]  are usually classed as
 - **penetration testing**. 
 
 
+Threat hunting and security monitoring must use **behavioral-based techniques** to identify infections. This means close analysis of the processes running in system memory on a host. To perform abnormal process behavior analysis effectively, you should build up a sense of what is "normal" in a system and spot deviations in a potentially infected system.
+
 A vulnerability assessment is an evaluation of a system's security and ability to meet compliance requirements based on the configuration state of the system. Essentially, the vulnerability assessment determines if the current configuration matches the ideal configuration (the baseline). Vulnerability assessments might involve manual inspection of security controls, but are more often accomplished through automated vulnerability scanners.
 vulnerabilities, threats, and risk: 
 

@@ -27,7 +27,7 @@ Adversaries can use a diverse range of techniques to compromise a security syste
 -   An attacker triggers a fire alarm and then slips into the building during the confusion and attaches a monitoring device to a network port.
 
 ## SOCIAL ENGINEERING PRINCIPLES
-#zFleck
+
 [[Social engineering]] is one of the most common and successful malicious techniques. Because it exploits basic human trust, social engineering has proven to be a particularly effective way of manipulating people into performing actions that they might not otherwise perform. To be persuasive, social engineering attacks rely on one or more of the following principles.
 
 ### [[Familiarity Liking]]

@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "3b271822fbaad1d2",
+        "id": "abbd361cc5ffc61e",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/4A  Compare and Contrast Social Engineering Techniques.md",
+            "file": "My linked notes/malware.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,41 +19,17 @@
         }
       },
       {
-        "id": "45547c150c10ac1f",
-        "type": "split",
-        "children": [
-          {
-            "id": "abbd361cc5ffc61e",
-            "type": "leaf",
-            "dimension": 74.1267787839586,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "My linked notes/Social engineering.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cce4b3812e9d639d",
-            "type": "leaf",
-            "dimension": 25.873221216041397,
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "My notes_______________________________.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
+        "id": "fa0417a37387c9b0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/logic bomb.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -128,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Social engineering.md",
+                "file": "My linked notes/logic bomb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,17 +121,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "abbd361cc5ffc61e",
+  "active": "fa0417a37387c9b0",
   "lastOpenFiles": [
-    "My linked notes/Social engineering.md",
-    "My linked notes/Pharming.md",
-    "My linked notes/Phishing.md",
-    "My linked notes/Vishing.md",
-    "My linked notes/Whaling.md",
-    "My notes_______________________________.md",
-    "SecurityPlus/4A  Compare and Contrast Social Engineering Techniques.md",
-    "My linked notes/Familiarity Liking.md",
-    "My linked notes/Consensus Social Proof.md",
-    "My linked notes/Acronyms/TTPs.md"
+    "My linked notes/logic bomb.md",
+    "My linked notes/malware.md",
+    "My linked notes/Malware/Fileless.md",
+    "My linked notes/assessment.md",
+    "My linked notes/Acronyms/A-V.md",
+    "My linked notes/botnet.md",
+    "My linked notes/cryptoransomware.md",
+    "My linked notes/cryptojacking.md",
+    "My linked notes/DDoS.md",
+    "My linked notes/Ransomware.md"
   ]
 }
