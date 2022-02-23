@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/pen test.md",
+            "file": "My linked notes/Privilege escalation.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -124,14 +124,14 @@
   "active": "0c32265f250f6cd9",
   "lastOpenFiles": [
     "SecurityPlus/3D Explain Penetration Testing Concepts.md",
+    "My linked notes/Privilege escalation.md",
+    "My linked notes/Persistence.md",
     "My linked notes/pen test.md",
+    "My linked notes/kill chain.md",
     "SecurityPlus/3C Summarize Vulnerability Scanning Technics.md",
     "My linked notes/threat hunting.md",
     "My linked notes/XCCDF.md",
     "My linked notes/OVAL.md",
-    "My linked notes/SCAP.md",
-    "My linked notes/Acronyms/CVE.md",
-    "My linked notes/assessment.md",
-    "SecurityPlus/3B Explain Security Concers with General Vulnerability Types 3B.md"
+    "My linked notes/SCAP.md"
   ]
 }

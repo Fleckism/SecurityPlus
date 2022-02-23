@@ -1,0 +1,1 @@
+followed by further reconnaissance, where the pen tester attempts to map out the internal network and discover the services running on it and accounts configured to access it
