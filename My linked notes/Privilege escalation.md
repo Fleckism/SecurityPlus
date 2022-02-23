@@ -1,1 +1,4 @@
-followed by further reconnaissance, where the pen tester attempts to map out the internal network and discover the services running on it and accounts configured to access it
+---
+tags: [OIR,]
+---
+Moving within the network or accessing data assets are likely to require higher privilege levels.

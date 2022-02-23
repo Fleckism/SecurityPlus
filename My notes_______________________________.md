@@ -1,3 +1,6 @@
+---
+tags: [firstTag, secondTag]
+---
 # Next things to do!
 - Links are great when going through the notes
 - Hashtags are good for searching for a particular subject.
