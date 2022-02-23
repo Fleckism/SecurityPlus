@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [OIR, Attack]
 ---
 # Next things to do!
 - Links are great when going through the notes

@@ -25,10 +25,11 @@
           {
             "id": "abbd361cc5ffc61e",
             "type": "leaf",
+            "dimension": 74.1267787839586,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My linked notes/Email.md",
+                "file": "My linked notes/Social engineering.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -38,6 +39,8 @@
           {
             "id": "cce4b3812e9d639d",
             "type": "leaf",
+            "dimension": 25.873221216041397,
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -45,7 +48,8 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -84,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "removable",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -124,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My notes_______________________________.md",
+                "file": "My linked notes/Social engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,17 +145,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "cce4b3812e9d639d",
+  "active": "abbd361cc5ffc61e",
   "lastOpenFiles": [
+    "My linked notes/Social engineering.md",
+    "My linked notes/Pharming.md",
+    "My linked notes/Phishing.md",
+    "My linked notes/Vishing.md",
+    "My linked notes/Whaling.md",
     "My notes_______________________________.md",
-    "My linked notes/Email.md",
-    "My linked notes/Attack.md",
     "SecurityPlus/4A  Compare and Contrast Social Engineering Techniques.md",
-    "SecurityPlus/3D Explain Penetration Testing Concepts.md",
-    "My linked notes/Actions on Objectives.md",
-    "My linked notes/Pivoting.md",
-    "My linked notes/Lateral movement.md",
-    "My linked notes/Privilege escalation.md",
-    "My linked notes/Persistence.md"
+    "My linked notes/Familiarity Liking.md",
+    "My linked notes/Consensus Social Proof.md",
+    "My linked notes/Acronyms/TTPs.md"
   ]
 }
