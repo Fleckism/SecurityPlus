@@ -12,7 +12,7 @@ There are many individual [[symmetric]] and [[asymmetric]] [[cipher]] algorithms
 
 ## CRYPTOGRAPHY SUPPORTING AUTHENTICATION AND NON-REPUDIATION
 
-A single hash function, symmetric cipher, or asymmetric cipher is called a cryptographic primitive. A complete [[cryptographic]] system or product is likely to use multiple cryptographic primitives, such as within a cipher suite. The properties of different symmetric/asymmetric/hash types and of specific ciphers for each type impose limitations on their use in different contexts and for different purposes.
+A single hash function, symmetric cipher, or asymmetric cipher is called a **cryptographic primitive**. A complete [[cryptographic]] system or product is likely to use multiple cryptographic primitives, such as within a cipher suite. The properties of different symmetric/asymmetric/hash types and of specific ciphers for each type impose limitations on their use in different contexts and for different purposes.
 
 If you are able to encrypt a message in a particular way, it follows that the recipient of the message knows with whom he or she is communicating (that is, the sender is authenticated). This means that encryption can form the basis of identification, authentication, and access control systems.
 
