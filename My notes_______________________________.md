@@ -2,9 +2,7 @@
 tags: [OIR, Attack]
 ---
 # Next things to do!
-- Links are great when going through the notes
-- Hashtags are good for searching for a particular subject.
-- See how to add groups
+- [[Remediation]] is what I wanted to add to the bottom of all pages, not what I was thinking it was.
 - graph view does not show folders only links
 - get course map PDF
 - **Test to see if assisted labs work more than once!**
