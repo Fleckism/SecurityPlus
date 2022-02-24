@@ -20,11 +20,11 @@ If you are able to encrypt a message in a particular way, it follows that the re
 
 Encryption allows subjects to identify and authenticate themselves. The subject could be a person, or a computer such as a web server.
 
-Non-repudiation is linked to identification and authentication. It is the concept that the sender cannot deny sending the message. If the message has been encrypted in a way known only to the sender, it follows that the sender must have composed it.
+[[Non-repudiation]] **is linked to identification and authentication**. It is the concept that the sender cannot deny sending the message. If the message has been encrypted in a way known only to the sender, it follows that the sender must have composed it.
 
-Authentication and non-repudiation depend on the recipient not being able to encrypt the message, or the recipient would be able to impersonate the sender. This means that to support authentication and non-repudiation, recipients must be able to use the cryptographic process to decrypt authentication and integrity data, but not to encrypt it. This use case is supported by [[asymmetric]] encryption ciphers and public/private key pairs.
+Authentication and non-repudiation depend on the recipient not being able to encrypt the message, or the recipient would be able to impersonate the sender. **This means that to support authentication and non-repudiation, recipients must be able to use the cryptographic process to decrypt authentication and integrity data, but not to encrypt it.** This use case is supported by [[asymmetric]] encryption ciphers and public/private key pairs.
 
-To use a key pair, the user or server generates the linked keys. The private key is stored securely and protected from use by others by the account password. It is critical that only the user or server be able to use the private key. The public key is given to clients or correspondents, usually in the form of a digital certificate.
+To use a key pair, the user or server generates the linked keys. The private key is stored securely and protected from use by others by the account password. It is critical that only the user or server be able to use the private key. **The public key is given to clients or correspondents, usually in the form of a digital certificate.**
 
 When the user or server needs to authenticate, it encrypts some agreed hashed data using the private key and sends it to the client as a digital signature. The client should be able to decrypt the signature using the public key and derive the same hash value.
 ## CRYPTOGRAPHY SUPPORTING CONFIDENTIALITY

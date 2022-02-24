@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zFleck",
+                "query": "\"digital certificate\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +95,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
