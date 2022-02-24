@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [A_D, ]
 ---
 #zFleck
 ## EXAM OBJECTIVES COVERED
@@ -23,9 +23,9 @@ The following terminology is used to discuss [[cryptography]]: 
 
 In discussing cryptography and attacks against encryption systems, it is customary to use a cast of characters to describe different actors involved in the process of an attack. The main characters are: 
 
--   [[Alice]]—the sender of a genuine message.
--   [[Bob]]—the intended recipient of the message.
--   [[Mallory]]—a malicious attacker attempting to subvert the message in some way.
+-   Alice—the sender of a genuine message.
+-   Bob—the intended recipient of the message.
+-   Mallory—a malicious attacker attempting to subvert the message in some way.
 
 There are three main types of cryptographic algorithm with different roles to play in the **assurance** of the [[security properties]] [[confidentiality]], [[integrity]], [[availability]], and [[non-repudiation]]. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
 

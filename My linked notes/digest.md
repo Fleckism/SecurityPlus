@@ -1,3 +1,6 @@
+---
+tags: [Implementation, secondTag]
+---
 (one-way) aka hash value
 
 A message digest is a 
