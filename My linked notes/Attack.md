@@ -35,3 +35,5 @@ A birthday [[attack]] is a type of brute force attack aimed at exploiting collis
 
 # Questions
 1.  How are different attacks triggered?
+2. **chosen ciphertext attack**
+3. 

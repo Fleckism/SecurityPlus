@@ -1,16 +1,16 @@
 ---
-tags: [firstTag, secondTag]
+tags: [A_D, secondTag]
 ---
 
 ## EXAM OBJECTIVES COVERED
 
 2.8 Summarize the basics of cryptographic concepts
 
-A _mode of operation_ is a means of using a cipher within a product to achieve a security goal, such as confidentiality or integrity. Being able to summarize modes of operation will help you to implement and support security controls such as digital signatures and transport encryption.
+A **mode of operation** is a means of using a cipher within a product to achieve a security **goal**, such as confidentiality or integrity. Being able to summarize modes of operation will help you to implement and support [[security control]]s such as digital signatures and transport encryption.
  
 ## DIGITAL SIGNATURES
 
-Public key cryptography can authenticate a sender, because they control a private key that encrypts messages in a way that no one else can. Public key cryptography can only be used with very small messages, however. Hashing proves integrity by computing a unique checksum from input. These two cryptographic functions can be combined to authenticate a sender and prove the integrity of a message, with a digital signature. The following process is used to create a digital signature using [[RSA]] encryption:
+**Public key cryptography** can authenticate a sender, because they control a private key that encrypts messages in a way that no one else can. Public key cryptography can only be used with very small messages, however. **Hashing** proves integrity by computing a unique checksum from input. **These two cryptographic functions can be combined to authenticate a sender and prove the integrity of a message, with a digital signature.** The following process is used to create a digital signature using [[RSA]] encryption:
 
 1.  Alice (the sender) creates a digest of a message, using a pre-agreed hash algorithm, and encrypts the digest using Alice’s private key. This creates Alice’s digital signature.
 2.  Alice attaches the digital signature to the original message and sends both the message and public key to Bob (the receiver).
@@ -21,13 +21,13 @@ If the two digests (or hash values) are the same, then the data has not been tam
 
 Message authentication and integrity using digital signatures. (Images © 123RF.com.)
 
-It is important to remember that a digital signature is a hash that is then encrypted using a private key. Without the encryption, another party could easily intercept the file and the hash, modify the file and compute a new hash, and then send the modified file and hash to the recipient. It is also important to realize that the recipient must have some means of validating that the public key really was issued by Alice. **Also note that digital signatures do not provide any message confidentiality** (?).
+It is important to remember that a **digital signature is a hash that is then encrypted using a private key.** Without the encryption, another party could easily intercept the file and the hash, modify the file and compute a new hash, and then send the modified file and hash to the recipient. It is also important to realize that the recipient must have some means of validating that the public key really was issued by Alice. **Also note that digital signatures do not provide any message confidentiality** (?).
 
 The Digital Signature Algorithm ([[DSA]]) is a slightly different format for achieving the same sort of goal. DSA uses elliptic curve cryptography ([[ECC]]) rather than the RSA cipher.
 
 ## DIGITAL ENVELOPES AND KEY EXCHANGE
 
-Symmetric encryption is the only practical means of encrypting and decrypting large amounts of data (bulk encryption), but it is difficult to distribute the secret key securely. Public key cryptography makes it easy to distribute a key, but can only be used efficiently with small amounts of data. Therefore, both are used within the same product in a type of key exchange system known as a digital envelope or hybrid encryption. A digital envelope allows the sender and recipient to exchange a symmetric encryption key securely by using public key cryptography:
+**Symmetric encryption is the only practical means of encrypting and decrypting large amounts of data (bulk encryption),** but it is difficult to distribute the secret key securely. Public key cryptography makes it easy to distribute a key, but can only be used efficiently with small amounts of data. Therefore, both are used within the same product in a type of key exchange system known as a digital envelope or hybrid encryption. A digital envelope allows the sender and recipient to exchange a symmetric encryption key securely by using public key cryptography:
 
 1.  Alice obtains a copy of Bob's public key.
 2.  Alice encrypts her message using a secret key cipher, such as [[AES]]. In this context, the secret key is referred to as a _session key._
@@ -66,10 +66,10 @@ In 2014, a Heartbleed bug was discovered in the way some versions of OpenSSL wor
 
 In a protocol such as Transport Layer Security ([[TLS]]), the requirements to both authenticate the identity of the server and to encrypt communications between the server and client need to be fulfilled by separate cryptographic products and cipher implementations. The combination of ciphers supported is referred to as a cipher suite. The server and client negotiate mutually compatible cipher suites as part of the TLS handshake.
 
-So far, we have identified two parts of the cipher suite:
+So far, we have identified two parts of the **cipher suite**:
 
--   A _signature algorithm,_ used to assert the identity of the server's public key and facilitate authentication.
--   A _key exchange/agreement algorithm,_ used by the client and server to derive the same bulk encryption symmetric key.
+-   A **signature algorithm**, used to assert the identity of the server's public key and facilitate authentication.
+-   A **key exchange/agreement algorithm**, used by the client and server to derive the same bulk encryption symmetric key.
 
 The final part of a cipher suite determines the bulk encryption cipher. When [[AES]] is selected as the symmetric cipher, it has to be used in a mode of operation that supports a stream of network data.
 
@@ -77,15 +77,15 @@ The final part of a cipher suite determines the bulk encryption cipher. When [[A
 
 The Cipher Block Chaining ([[CBC]]) mode applies an initialization vector ([[IV]]) to the first plaintext block to ensure that the key produces a unique ciphertext from any given plaintext. The output of the first ciphertext block is then combined with the next plaintext block using an XOR operation. This process is repeated through the full "chain" of blocks, which (again) ensures that no plaintext block produces the same ciphertext. CBC needs to use padding to ensure that the data to encrypt is an exact multiple of the block size.
 
-XOR is a logical operation that outputs 1 only when the inputs are 1 and 0.
+**XOR is a logical operation that outputs 1 only when the inputs are 1 and 0.**
 
 ### Counter Mode
 
-Counter mode (CTM) makes the AES algorithm work as a stream cipher. Counter mode applies an IV plus an incrementing counter value to the key to generate a keystream. The keystream is then XOR'ed to the data in the plaintext blocks. Each block can be processed individually and consequently in parallel, improving performance. Also, counter modes do not need to use padding. Any unused space in the last block is simply discarded.
+Counter mode ([[CTM]]) makes the [[AES]] algorithm work as a stream cipher. Counter mode applies an IV plus an incrementing counter value to the key to generate a keystream. The keystream is then XOR'ed to the data in the plaintext blocks. Each block can be processed individually and consequently in parallel, improving performance. Also, counter modes do not need to use padding. Any unused space in the last block is simply discarded.
 
 ## AUTHENTICATED MODES OF OPERATION
 
-Symmetric algorithms do not provide message integrity or authentication. The basic [[CBC]] and counter modes of operation are unauthenticated. While a man-in-the-middle cannot decrypt them directly without the secret key, the ciphertexts are vulnerable to arbitrary data being inserted or modified to break the encryption scheme, referred to as a _chosen ciphertext attack._
+Symmetric algorithms do not provide message integrity or authentication. The basic [[CBC]] and counter modes of operation are unauthenticated. While a man-in-the-middle ([[MITM]])cannot decrypt them directly without the secret key, the ciphertexts are vulnerable to arbitrary data being inserted or modified to break the encryption scheme, referred to as a **chosen ciphertext attack**.
 
 ### Authenticated Encryption
 

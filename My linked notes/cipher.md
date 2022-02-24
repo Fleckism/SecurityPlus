@@ -1,5 +1,5 @@
 ---
-tags: [A_D, zFleck]
+tags: [A_D, GRC]
 ---
 is the particular operations performed to encode or decode data.
 

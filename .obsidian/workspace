@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/5A Compare and Contrast Cryptographic Ciphers.md",
+            "file": "SecurityPlus/5C Summarize Cryptographic Use Cases and Weaknesses.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My linked notes/cipher.md",
+                "file": "My linked notes/AEAD.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 258.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/cipher.md",
+                "file": "SecurityPlus/5C Summarize Cryptographic Use Cases and Weaknesses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,17 +143,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "fa0417a37387c9b0",
+  "active": "abbd361cc5ffc61e",
   "lastOpenFiles": [
-    "My linked notes/cipher.md",
-    "SecurityPlus/5A Compare and Contrast Cryptographic Ciphers.md",
-    "My linked notes/hash.md",
-    "My linked notes/digest.md",
+    "SecurityPlus/5C Summarize Cryptographic Use Cases and Weaknesses.md",
+    "SecurityPlus/5B Summarize Cryptographic Modes of Operation.md",
+    "My linked notes/AEAD.md",
+    "My linked notes/CBC.md",
+    "My linked notes/MAC.md",
+    "My linked notes/Acronyms/MITM.md",
+    "My linked notes/AES.md",
+    "My linked notes/CTM.md",
     "My linked notes/IV.md",
-    "My linked notes/cryptography.md",
-    "My linked notes/cryptographic.md",
-    "My linked notes/Non-repudiation.md",
-    "My linked notes/Dictionary/Availability.md",
-    "My linked notes/Integrity.md"
+    "My linked notes/TLS.md"
   ]
 }
