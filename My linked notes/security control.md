@@ -1,8 +1,8 @@
 ---
-tags: [A_D, ]
+tags: [A_D,Implementation ]
 ---
 
-A security controls is something designed to give a system or data asset the properties of (think of them as goals)**confidentiality, integrity, availability, and non-repudiation**. 
+A security controls is something designed to give a system or data asset the properties of (think of them as goals)confidentiality, integrity, availability, and [[non-repudiation]]. 
 
 - Cybersecurity controls are the **countermeasures** that companies implement to detect, prevent, reduce, or counteract security risks
 

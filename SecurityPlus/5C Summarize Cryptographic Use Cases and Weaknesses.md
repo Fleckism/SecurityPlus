@@ -1,18 +1,18 @@
 ---
-tags: [firstTag, secondTag]
+tags: [A_D, Implementation]
 ---
 
 ## EXAM OBJECTIVES COVERED
 
-1.2 Given a scenario, analyze potential indicators to determine the type of attack
+1.2 Given a scenario, **analyze**(= Implementation) potential indicators to determine the type of attack
 
 2.8 Summarize the basics of cryptographic concepts
 
-There are many individual [[symmetric]] and [[asymmetric]] [[cipher]] algorithms and hash functions. Characteristics of these ciphers make them better suited to meeting constraints, such as use on battery-powered devices. Some of the ciphers and implementations of ciphers within products can exhibit weaknesses that make them unsuitable for use. It is important that you be able to summarize these use cases and weaknesses so that you can deploy controls that fit their purpose.
+There are many individual [[symmetric]] and [[asymmetric]] [[cipher]] algorithms and hash functions. Characteristics of these ciphers make them better suited to meeting constraints, such as use on battery-powered devices. Some of the ciphers and implementations of ciphers within products can exhibit weaknesses that make them unsuitable for use. It is important that you be able to summarize these use cases and weaknesses so that you can deploy [[security control|controls]] that fit their purpose.
 
 ## CRYPTOGRAPHY SUPPORTING AUTHENTICATION AND NON-REPUDIATION
 
-A single hash function, symmetric cipher, or asymmetric cipher is called a cryptographic primitive. A complete cryptographic system or product is likely to use multiple cryptographic primitives, such as within a cipher suite. The properties of different symmetric/asymmetric/hash types and of specific ciphers for each type impose limitations on their use in different contexts and for different purposes.
+A single hash function, symmetric cipher, or asymmetric cipher is called a cryptographic primitive. A complete [[cryptographic]] system or product is likely to use multiple cryptographic primitives, such as within a cipher suite. The properties of different symmetric/asymmetric/hash types and of specific ciphers for each type impose limitations on their use in different contexts and for different purposes.
 
 If you are able to encrypt a message in a particular way, it follows that the recipient of the message knows with whom he or she is communicating (that is, the sender is authenticated). This means that encryption can form the basis of identification, authentication, and access control systems.
 
