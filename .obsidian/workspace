@@ -52,7 +52,6 @@
       {
         "id": "f3019c51a53fd5a0",
         "type": "tabs",
-        "dimension": 78.64372469635627,
         "children": [
           {
             "id": "d5a4ddcbda1b5238",
@@ -85,30 +84,11 @@
               }
             }
           }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "176134e0a2119454",
-        "type": "tabs",
-        "dimension": 21.356275303643724,
-        "children": [
-          {
-            "id": "e38e7116b579da51",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": false
-              }
-            }
-          }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 154.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -132,6 +112,23 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1234a25d2bd00e21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e38e7116b579da51",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": false
               }
             }
           }
