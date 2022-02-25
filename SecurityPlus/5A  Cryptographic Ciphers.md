@@ -115,7 +115,7 @@ The range of key values available to use with a particular cipher is called the 
 
 ## ASYMMETRIC ENCRYPTION
 
-In a **symmetric encryption cipher, the same secret key is used to perform both encryption and decryption operations**. With an [[asymmetric]] cipher, operations are performed by two different but related public and private keys in a key pair. 
+In a [[symmetric]] encryption cipher, the same secret key is used to perform both encryption and decryption operations. With an [[asymmetric]] cipher, operations are performed by two different but related public and private keys in a key pair. 
 
 Each key is capable of reversing the operation of its pair. For example, if the **public key is used to encrypt a message**, only the paired private key can decrypt the ciphertext produced. The public key cannot be used to decrypt the ciphertext, even though it was used to encrypt it. 
 

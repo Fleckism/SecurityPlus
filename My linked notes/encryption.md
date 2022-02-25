@@ -1,5 +1,5 @@
 ---
-tags: [A_D, Implemention]
+tags: [A_D, Implementation]
 ---
 **the process of encoding information**
 
