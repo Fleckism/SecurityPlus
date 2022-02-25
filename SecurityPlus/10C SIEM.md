@@ -29,7 +29,7 @@ Logs are one of the most valuable sources of security information. A system log 
 Logs typically associate an action with a particular user. This is one of the reasons that it is critical that users not share logon details. If a user account is compromised, there is no means of tying events in the log to the actual attacker.
 # SECURITY INFORMATION AND EVENT MANAGEMENT
 
-Software designed to assist with managing security data inputs and provide reporting and alerting is often described as security information and event management (SIEM). The core function of a SIEM tool is to aggregate traffic data and logs. In addition to logs from Windows and Linux-based hosts, this could include switches, routers, firewalls, IDS sensors, vulnerability scanners, malware scanners, data loss prevention (DLP) systems, and databases.
+Software designed to assist with managing security data inputs and provide reporting and alerting is often described as security information and event management ([[SIEM]]). The core function of a SIEM tool is to aggregate traffic data and logs. In addition to logs from Windows and Linux-based hosts, this could include switches, routers, firewalls, IDS sensors, vulnerability scanners, malware scanners, data loss prevention (DLP) systems, and databases.
 
 ![Screenshot of SIEM dashboards with Security tab selected, showing the available data available.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7009-1599771805070.png)
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/8C Implement Authorization Solutions.md",
+            "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -85,7 +85,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "176134e0a2119454",
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/8C Implement Authorization Solutions.md",
+                "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,15 +144,15 @@
   },
   "active": "abbd361cc5ffc61e",
   "lastOpenFiles": [
-    "SecurityPlus/8C Implement Authorization Solutions.md",
-    "SecurityPlus/8B Account Polices.md",
-    "SecurityPlus/7C Authentication Technologies.md",
-    "SecurityPlus/7A Authentication Design Concepts.md",
-    "SecurityPlus/6B PKI Management.md",
-    "SecurityPlus/5D Other Cryptographic Technologies.md",
-    "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
     "SecurityPlus/5B Cryptographic Modes of Operation.md",
-    "My linked notes/Non-repudiation.md",
-    "My linked notes/cryptographic.md"
+    "SecurityPlus/12C Explain Embedded System Security Implications.md",
+    "SecurityPlus/12B Implement  Endpoint Security.md",
+    "SecurityPlus/10C SIEM.md",
+    "SecurityPlus/11A Implement  Secure Network Operations Protocols.md",
+    "SecurityPlus/10B Network Security Monitoring.md",
+    "SecurityPlus/10A Firewalls and Proxy Servers.md",
+    "SecurityPlus/9D Load Balancers.md",
+    "SecurityPlus/8D Personnel Policies.md",
+    "SecurityPlus/8C Authorization Solutions.md"
   ]
 }
