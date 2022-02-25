@@ -5,6 +5,10 @@ tags: [A_D, Implemention]
 
 Keyboard encryption software is used to protect against keyloggers, which record keystrokes for the purpose of stealing data. Keyloggers are spyware.
 
-Encryption supporting confidentiality is used for both 
-- data-at-rest (file encryption) and 
-- data-in-transit (transport encryption):
+Encryption supporting [[confidentiality]] is used for both 
+- data-at-rest (file encryption) [[asymmetric]]
+- data-in-transit (transport encryption):[[asymmetric]]
+
+# Questions
+- cipher key is regarding [[symmetric]]   encryption 1 key!
+- key pair is [[asymmetric]] 

@@ -4,7 +4,7 @@ tags: [OIR, Attack]
 # Next things to do!
 - [[Remediation]] is what I wanted to add to the bottom of all pages, not what I was thinking it was.
 - graph view does not show folders only links
-- get course map PDF
+-
 - **Test to see if assisted labs work more than once!**
 	- Scenarios
 		- Have page for defenses

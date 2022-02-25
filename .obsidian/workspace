@@ -25,11 +25,11 @@
           {
             "id": "fa0417a37387c9b0",
             "type": "leaf",
-            "dimension": 58.84773662551441,
+            "dimension": 69.12955465587044,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My linked notes/encryption.md",
+                "file": "My linked notes/symmetric.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
           {
             "id": "70f72472e22b0df3",
             "type": "leaf",
-            "dimension": 41.15226337448559,
+            "dimension": 30.870445344129553,
             "state": {
               "type": "markdown",
               "state": {
@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"cryptography\"",
+                "query": "\"bulk encryption \"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/5C Summarize Cryptographic Use Cases and Weaknesses.md",
+                "file": "My linked notes/symmetric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,19 +142,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
-  "active": "abbd361cc5ffc61e",
+  "active": "fa0417a37387c9b0",
   "lastOpenFiles": [
+    "My linked notes/symmetric.md",
+    "SecurityPlus/5B Summarize Cryptographic Modes of Operation.md",
     "SecurityPlus/5C Summarize Cryptographic Use Cases and Weaknesses.md",
+    "Markdown Notes.md",
+    "My notes_______________________________.md",
     "My linked notes/encryption.md",
-    "My linked notes/AES.md",
-    "My linked notes/TPM.md",
     "My linked notes/IV.md",
-    "My linked notes/cryptography.md",
-    "My linked notes/cryptographic.md",
+    "My linked notes/asymmetric.md",
     "SecurityPlus/5A Compare and Contrast Cryptographic Ciphers.md",
-    "SecurityPlus/3B Explain Security Concers with General Vulnerability Types 3B.md",
-    "SecurityPlus/1B Compare and Contrast  Security Control and Framework Types.md"
+    "My linked notes/AES.md"
   ]
 }

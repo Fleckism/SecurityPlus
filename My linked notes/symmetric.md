@@ -5,7 +5,8 @@ tags: [A_D, secondTag]
 
 keys are only 
 - 128 bits or 
-- 256 bits long, and so can easily be encrypted using a public key. 
+- 256 bits long, and so can easily be encrypted using a public key
+- Commonly referred to as **Bulk** [[encryption]]. 
 
 [[Confidentiality]] is achieved using symmetric encryption.
 
