@@ -6,10 +6,25 @@
       {
         "id": "abbd361cc5ffc61e",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "db01a13bad48db9a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/security control.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -22,7 +37,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/cryptographic.md",
+            "file": "My linked notes/cryptography.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -75,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zFleck",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 154.5
+    "width": 186.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -104,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
+                "file": "My linked notes/security control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,13 +129,7 @@
                 "unlinkedCollapsed": true
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "1234a25d2bd00e21",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "e38e7116b579da51",
             "type": "leaf",
@@ -132,24 +141,25 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 230.5,
     "collapsed": true
   },
-  "active": "abbd361cc5ffc61e",
+  "active": "db01a13bad48db9a",
   "lastOpenFiles": [
+    "My linked notes/security control.md",
+    "My linked notes/cryptography.md",
+    "My linked notes/cryptographic.md",
+    "My notes_______________________________.md",
+    "My linked notes/cipher.md",
     "SecurityPlus/5B Cryptographic Modes of Operation.md",
+    "My linked notes/RSA.md",
     "SecurityPlus/12C Explain Embedded System Security Implications.md",
     "SecurityPlus/12B Implement  Endpoint Security.md",
-    "SecurityPlus/10C SIEM.md",
-    "SecurityPlus/11A Implement  Secure Network Operations Protocols.md",
-    "SecurityPlus/10B Network Security Monitoring.md",
-    "SecurityPlus/10A Firewalls and Proxy Servers.md",
-    "SecurityPlus/9D Load Balancers.md",
-    "SecurityPlus/8D Personnel Policies.md",
-    "SecurityPlus/8C Authorization Solutions.md"
+    "SecurityPlus/10C SIEM.md"
   ]
 }
