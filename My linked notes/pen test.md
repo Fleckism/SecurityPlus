@@ -16,4 +16,4 @@ Phases
 - Reconnaissance
 - exploitation:  Uses software tool to gain access
 
-[[3D Explain Penetration Testing Concepts]]
+[[3D Penetration Testing Concepts]]

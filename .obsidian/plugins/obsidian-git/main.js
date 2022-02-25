@@ -10839,7 +10839,7 @@ var ObsidianGitSettingsTab = class extends import_obsidian.PluginSettingTab {
     const plugin = this.plugin;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Git Backup settings" });
-    new import_obsidian.Setting(containerEl).setName("Vault backup interval (minutes)").setDesc("Commit and push changes every X minutes. (See below setting for further configuration!) To disable automatic backup, specify negative value or zero (default)").addText((text2) => text2.setValue(String(plugin.settings.autoSaveInterval)).onChange((value) => {
+    new import_obsidian.Setting(containerEl).setName("Vault backup interval (minutes)").setDesc("Commit and push changes every X minutes. Set to 0 (default) to disable. (See below setting for further configuration!)").addText((text2) => text2.setValue(String(plugin.settings.autoSaveInterval)).onChange((value) => {
       if (!isNaN(Number(value))) {
         plugin.settings.autoSaveInterval = Number(value);
         plugin.saveSettings();
@@ -10862,7 +10862,7 @@ var ObsidianGitSettingsTab = class extends import_obsidian.PluginSettingTab {
         plugin.startAutoBackup(plugin.settings.autoSaveInterval);
       }
     }));
-    new import_obsidian.Setting(containerEl).setName("Auto pull interval (minutes)").setDesc("Pull changes every X minutes. To disable automatic pull, specify negative value or zero (default)").addText((text2) => text2.setValue(String(plugin.settings.autoPullInterval)).onChange((value) => {
+    new import_obsidian.Setting(containerEl).setName("Auto pull interval (minutes)").setDesc("Pull changes every X minutes. Set to 0 (default) to disable.").addText((text2) => text2.setValue(String(plugin.settings.autoPullInterval)).onChange((value) => {
       if (!isNaN(Number(value))) {
         plugin.settings.autoPullInterval = Number(value);
         plugin.saveSettings();
@@ -11318,7 +11318,7 @@ var SimpleGit = class extends GitManager {
   status() {
     return __async(this, null, function* () {
       this.plugin.setState(PluginState.status);
-      const status = yield this.git.status();
+      const status = yield this.git.status((err) => this.onError(err));
       this.plugin.setState(PluginState.idle);
       return {
         changed: status.files.filter((e) => e.working_dir !== " ").map((e) => {
@@ -11367,7 +11367,7 @@ var SimpleGit = class extends GitManager {
       this.plugin.setState(PluginState.add);
       yield this.git.add("./*", (err) => this.onError(err));
       this.plugin.setState(PluginState.commit);
-      return (yield this.git.commit(yield this.formatCommitMessage(message))).summary.changes;
+      return (yield this.git.commit(yield this.formatCommitMessage(message), (err) => this.onError(err))).summary.changes;
     });
   }
   commit(message) {
@@ -11381,7 +11381,7 @@ var SimpleGit = class extends GitManager {
   stage(filepath) {
     return __async(this, null, function* () {
       this.plugin.setState(PluginState.add);
-      yield this.git.add(filepath, (err) => this.onError(err));
+      yield this.git.add(["--", filepath], (err) => this.onError(err));
       this.plugin.setState(PluginState.idle);
     });
   }
@@ -11419,9 +11419,9 @@ var SimpleGit = class extends GitManager {
       if (this.plugin.settings.updateSubmodules)
         yield this.git.subModule(["update", "--remote", "--merge", "--recursive"], (err) => this.onError(err));
       const branchInfo = yield this.branchInfo();
-      const localCommit = yield this.git.revparse([branchInfo.current]);
+      const localCommit = yield this.git.revparse([branchInfo.current], (err) => this.onError(err));
       yield this.git.fetch((err) => this.onError(err));
-      const upstreamCommit = yield this.git.revparse([branchInfo.tracking]);
+      const upstreamCommit = yield this.git.revparse([branchInfo.tracking], (err) => this.onError(err));
       if (localCommit !== upstreamCommit) {
         if (this.plugin.settings.syncMethod === "merge" || this.plugin.settings.syncMethod === "rebase") {
           try {
@@ -11433,8 +11433,8 @@ var SimpleGit = class extends GitManager {
                 yield this.git.rebase([branchInfo.tracking]);
             }
           } catch (err) {
-            this.plugin.displayError(`Sync failed (${this.plugin.settings.syncMethod}): ${err.message}`);
-            const status = yield this.git.status();
+            this.plugin.displayError(`Pull failed (${this.plugin.settings.syncMethod}): ${err.message}`);
+            const status = yield this.status();
             if (status.conflicted.length > 0) {
               this.plugin.handleConflict(status.conflicted);
             }
@@ -11442,7 +11442,7 @@ var SimpleGit = class extends GitManager {
           }
         } else if (this.plugin.settings.syncMethod === "reset") {
           try {
-            yield this.git.raw(["update-ref", `refs/heads/${branchInfo.current}`, upstreamCommit]);
+            yield this.git.raw(["update-ref", `refs/heads/${branchInfo.current}`, upstreamCommit], (err) => this.onError(err));
             yield this.unstageAll();
           } catch (err) {
             this.plugin.displayError(`Sync failed (${this.plugin.settings.syncMethod}): ${err.message}`);

@@ -1,14 +1,14 @@
 ---
 tags: [A_D, ]
 ---
-#zFleck
+
 ## EXAM OBJECTIVES COVERED
 
-2.1 Explain the importance of security concepts in an enterprise environment (hashing only)
+2.1 Explain the importance of security concepts in an enterprise environment ([[hash|hashing]] only) 
 
 2.8 Summarize the basics of cryptographic concepts
 
-A [[cipher]] is the particular operations performed to encode or decode data. Modern cryptographic systems make use of symmetric and asymmetric cipher types to encode and decode data. As well as these cipher types, one-way hash functions have an important role to play in many security controls. Being able to compare and contrast the characteristics of these types of cryptographic ciphers and functions is essential for you to deploy security controls for different use cases.
+A [[cipher]] is the particular operations performed to encode or decode data. Modern cryptographic systems make use of [[symmetric]] and [[asymmetric]] cipher types to encode and decode data. As well as these cipher types, one-way hash functions have an important role to play in many security controls. Being able to compare and contrast the characteristics of these types of [[cryptographic]] ciphers and functions is essential for you to deploy security controls for different use cases.
 
 ## CRYPTOGRAPHIC CONCEPTS 
 
@@ -31,7 +31,7 @@ There are three main types of cryptographic algorithm with different roles to pl
 
 ## HASHING ALGORITHMS 
 
-[[Hash]]ing is the simplest type of [[cryptographic]] operation. A cryptographic hashing algorithm produces a fixed length string from an input plaintext that can be of any length. The output can be referred to as a checksum, message digest, or hash. The function is designed so that it is impossible to recover the plaintext data from the [[digest]] (one-way) and so that different inputs are unlikely to produce the same output (a [[collision]]).
+[[Hash |Hashing]] is the simplest type of [[cryptographic]] operation. A cryptographic hashing algorithm produces a fixed length string from an input plaintext that can be of any length. The output can be referred to as a checksum, message digest, or hash. The function is designed so that it is impossible to recover the plaintext data from the [[digest]] (one-way) and so that different inputs are unlikely to produce the same output (a [[collision]]).
 
 A hashing algorithm is used to prove integrity. For example, Bob and Alice can compare the values used for a password in the following way:
 
@@ -115,7 +115,7 @@ The range of key values available to use with a particular cipher is called the 
 
 ## ASYMMETRIC ENCRYPTION
 
-In a **symmetric encryption cipher, the same secret key is used to perform both encryption and decryption operations**. With an ==asymmetric cipher, operations are performed by two different but related public and private keys in a key pair.== 
+In a **symmetric encryption cipher, the same secret key is used to perform both encryption and decryption operations**. With an [[asymmetric]] cipher, operations are performed by two different but related public and private keys in a key pair. 
 
 Each key is capable of reversing the operation of its pair. For example, if the **public key is used to encrypt a message**, only the paired private key can decrypt the ciphertext produced. The public key cannot be used to decrypt the ciphertext, even though it was used to encrypt it. 
 

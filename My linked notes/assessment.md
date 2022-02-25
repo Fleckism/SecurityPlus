@@ -75,4 +75,4 @@ A **protocol analyzer** (or packet analyzer) works in conjunction with a sniffer
 
 [[packet injection]]: Some reconnaissance techniques and tests depend on sending forged or spoofed network traffic. Often, network sniffing software libraries allow frames to be inserted (or injected) into the network stream. There are also tools that allow for different kinds of packets to be crafted and manipulated. Well-known tools used for 
 
-[[3C Summarize Vulnerability Scanning Technics]]
+[[3C  Vulnerability Scanning Technics]]

@@ -1,14 +1,14 @@
 ---
 tags: [A_D, secondTag]
 ---
-**symmetric cipher is one in which encryption and decryption are both performed by the same secret key**.
-
-keys are only 
-- 128 bits or 
-- 256 bits long, and so can easily be encrypted using a public key
-- Commonly referred to as **Bulk** [[encryption]]. 
+- 1 key
+- keys 128 bits 
+- keys 256 bits 
+- Easily encrypted using a public key
+- aka **Bulk** [[encryption]]. 
 
 [[Confidentiality]] is achieved using symmetric encryption.
 
+**symmetric cipher is one in which encryption and decryption are both performed by the same secret key**.
 
 [[AIC or CIA]]
