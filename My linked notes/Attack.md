@@ -31,7 +31,7 @@ Types of attacks
 
 A birthday [[attack]] is a type of brute force attack aimed at exploiting collisions in hash functions. A collision is where a function produces the same hash value for two different plaintexts. This type of attack can be used for the purpose of forging a digital signature. 
 
-[[5C Summarize Cryptographic Use Cases and Weaknesses]]
+[[5C Cryptographic Use Cases and Weaknesses]]
 
 # Questions
 1.  How are different attacks triggered?

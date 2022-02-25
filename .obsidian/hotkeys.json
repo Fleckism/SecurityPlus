@@ -42,13 +42,5 @@
       "key": "ArrowLeft"
     }
   ],
-  "editor:open-link-in-new-leaf": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "Enter"
-    }
-  ]
+  "editor:open-link-in-new-leaf": []
 }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/5A  Cryptographic Ciphers.md",
+            "file": "SecurityPlus/8C Implement Authorization Solutions.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,25 +17,12 @@
         }
       },
       {
-        "id": "01300e6ffd7323a4",
+        "id": "544824671f9416ba",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/asymmetric.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "fa0417a37387c9b0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/symmetric.md",
+            "file": "My linked notes/cryptographic.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -65,6 +52,7 @@
       {
         "id": "f3019c51a53fd5a0",
         "type": "tabs",
+        "dimension": 78.64372469635627,
         "children": [
           {
             "id": "d5a4ddcbda1b5238",
@@ -88,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,18 +86,11 @@
             }
           }
         ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 236.5
-  },
-  "right": {
-    "id": "63c83d5ffac33788",
-    "type": "split",
-    "children": [
+      },
       {
-        "id": "3e7c595ccd99a422",
+        "id": "176134e0a2119454",
         "type": "tabs",
+        "dimension": 21.356275303643724,
         "children": [
           {
             "id": "e38e7116b579da51",
@@ -121,14 +102,28 @@
                 "useHierarchy": false
               }
             }
-          },
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 481.5
+  },
+  "right": {
+    "id": "63c83d5ffac33788",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e7c595ccd99a422",
+        "type": "tabs",
+        "children": [
           {
             "id": "136abdaccd195a49",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/5A  Cryptographic Ciphers.md",
+                "file": "SecurityPlus/8C Implement Authorization Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,19 +138,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "active": "abbd361cc5ffc61e",
   "lastOpenFiles": [
-    "SecurityPlus/5A  Cryptographic Ciphers.md",
-    "My linked notes/asymmetric.md",
-    "My linked notes/RSA.md",
-    "My linked notes/symmetric.md",
-    "My notes_______________________________.md",
-    "My linked notes/implementation.md",
-    "Markdown Notes.md",
-    "My linked notes/encryption.md",
-    "My linked notes/cipher.md",
-    "My linked notes/hash.md"
+    "SecurityPlus/8C Implement Authorization Solutions.md",
+    "SecurityPlus/8B Account Polices.md",
+    "SecurityPlus/7C Authentication Technologies.md",
+    "SecurityPlus/7A Authentication Design Concepts.md",
+    "SecurityPlus/6B PKI Management.md",
+    "SecurityPlus/5D Other Cryptographic Technologies.md",
+    "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
+    "SecurityPlus/5B Cryptographic Modes of Operation.md",
+    "My linked notes/Non-repudiation.md",
+    "My linked notes/cryptographic.md"
   ]
 }
