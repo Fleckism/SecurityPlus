@@ -30,19 +30,6 @@
         }
       },
       {
-        "id": "0ecd5a9069c227a4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My notes_______________________________.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
         "id": "fa0417a37387c9b0",
         "type": "leaf",
         "state": {
@@ -56,12 +43,12 @@
         }
       },
       {
-        "id": "745f4cff369182fa",
+        "id": "0ecd5a9069c227a4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/implementation.md",
+            "file": "My notes_______________________________.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -101,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Implemention",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -141,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/asymmetric.md",
+                "file": "SecurityPlus/5A  Cryptographic Ciphers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,17 +145,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "01300e6ffd7323a4",
+  "active": "abbd361cc5ffc61e",
   "lastOpenFiles": [
-    "My linked notes/asymmetric.md",
     "SecurityPlus/5A  Cryptographic Ciphers.md",
-    "Markdown Notes.md",
+    "My linked notes/asymmetric.md",
+    "My linked notes/RSA.md",
+    "My linked notes/symmetric.md",
     "My notes_______________________________.md",
     "My linked notes/implementation.md",
+    "Markdown Notes.md",
     "My linked notes/encryption.md",
-    "My linked notes/symmetric.md",
     "My linked notes/cipher.md",
-    "My linked notes/hash.md",
-    "SecurityPlus/5C Summarize Cryptographic Use Cases and Weaknesses.md"
+    "My linked notes/hash.md"
   ]
 }

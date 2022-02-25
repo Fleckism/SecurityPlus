@@ -115,7 +115,7 @@ The range of key values available to use with a particular cipher is called the 
 
 ## ASYMMETRIC ENCRYPTION
 
-In a [[symmetric]] encryption cipher, the same secret key is used to perform both encryption and decryption operations. With an [[asymmetric]] cipher, operations are performed by two different but related public and private keys in a key pair. 
+In a [[symmetric]] encryption [[cipher]], the same secret key is used to perform both encryption and decryption operations. With an [[asymmetric]] cipher, operations are performed by two different but related public and private keys in a key pair. 
 
 Each key is capable of reversing the operation of its pair. For example, if the **public key is used to encrypt a message**, only the paired private key can decrypt the ciphertext produced. The public key cannot be used to decrypt the ciphertext, even though it was used to encrypt it. 
 
@@ -137,7 +137,7 @@ Consequently, asymmetric encryption is mostly used for authentication and non-re
 
 ## PUBLIC KEY CRYPTOGRAPHY ALGORITHMS
 
-Asymmetric encryption is often referred to as public key cryptography. Many public key cryptography products are based on the RSA algorithm. Ron Rivest, Adi Shamir, and Leonard Adleman published the RSA cipher in 1977 ([rsa.com](https://www.rsa.com/)). The [[RSA]] algorithm provides the mathematical properties for deriving key pairs and performing the encryption and decryption operations. This type of algorithm is called a **trapdoor function**, because it is easy to perform using the public key, but difficult to reverse without knowing the private key.
+[[Asymmetric]] encryption is often referred to as public key cryptography. Many public key cryptography products are based on the RSA algorithm. Ron Rivest, Adi Shamir, and Leonard Adleman published the RSA cipher in 1977 ([rsa.com](https://www.rsa.com/)). The [[RSA]] algorithm provides the mathematical properties for deriving key pairs and performing the encryption and decryption operations. This type of algorithm is called a **trapdoor function**, because it is easy to perform using the public key, but difficult to reverse without knowing the private key.
 
 Elliptic curve cryptography ([[ECC]]) is another type of trapdoor function that can be used in public key cryptography ciphers. The principal advantage of ECC over RSA's algorithm is that there are no known "shortcuts" to cracking the cipher or the math that underpins it, regardless of key length. Consequently, ECC used with a key size of 256 bits is very approximately comparable to RSA with a key size of 2048 bits. 
 
