@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My linked notes/Dictionary/Confidentiality.md",
+                "file": "My linked notes/encryption.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"encryption\"",
+                "query": "\"cryptography\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Dictionary/Confidentiality.md",
+                "file": "SecurityPlus/5C Summarize Cryptographic Use Cases and Weaknesses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,17 +144,17 @@
     "direction": "horizontal",
     "width": 230.5
   },
-  "active": "fa0417a37387c9b0",
+  "active": "abbd361cc5ffc61e",
   "lastOpenFiles": [
-    "My linked notes/Dictionary/Confidentiality.md",
     "SecurityPlus/5C Summarize Cryptographic Use Cases and Weaknesses.md",
-    "My linked notes/cryptographic.md",
-    "My linked notes/symmetric.md",
-    "My linked notes/Acronyms/AIC or CIA.md",
+    "My linked notes/encryption.md",
+    "My linked notes/AES.md",
+    "My linked notes/TPM.md",
     "My linked notes/IV.md",
-    "My linked notes/security control.md",
-    "My linked notes/Acronyms/AUP.md",
-    "My notes_______________________________.md",
-    "My linked notes/Remediation.md"
+    "My linked notes/cryptography.md",
+    "My linked notes/cryptographic.md",
+    "SecurityPlus/5A Compare and Contrast Cryptographic Ciphers.md",
+    "SecurityPlus/3B Explain Security Concers with General Vulnerability Types 3B.md",
+    "SecurityPlus/1B Compare and Contrast  Security Control and Framework Types.md"
   ]
 }
