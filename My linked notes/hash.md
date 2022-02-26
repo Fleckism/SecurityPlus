@@ -7,6 +7,8 @@ The output can be referred to as a
 - checksum, 
 - message [[digest]], or 
 - [[hash]]
+> ==Utilized:== 
+> - Validate [[Integrity]] of data
 
 There are two popular implementations [[hash]] algorithms:
 

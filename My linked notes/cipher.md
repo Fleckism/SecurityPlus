@@ -1,12 +1,13 @@
 ---
 tags: [A_D, GRC]
 ---
-is the particular operations performed to encode or decode data.
+is the particular operations performed to **encode** or **decode data**.
 
 The use of a **key with the encryption cipher** ensures that decryption can only be performed by authorized persons.
 
 > ==Utilized:== 
-> - Used as a mode of operation to achieve a security goal([[security control| control]])
+> - Used as a ==mode of operation== to achieve a security goal([[security control| control]])
+> - Decryption
 
 A **substitution cipher** involves replacing units (a letter or blocks of letters) in the plaintext with different ciphertext. Simple substitution ciphers rotate or scramble letters of the alphabet. For example, ROT13 (an example of a Caesar cipher) rotates each letter 13 places (so A becomes N for instance). The ciphertext "Uryyb Jbeyq" means "Hello World".
 

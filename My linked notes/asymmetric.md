@@ -1,6 +1,7 @@
 ---
-tags: [A_D, secondTag]
+tags: [A_D, GRC]
 ---
+Asymmetric
 - public and private key pair(aka **public key**)
 - Each key is capable of **reversing** the operation of its pair
 - Message much be smaller than key size
@@ -9,6 +10,7 @@ tags: [A_D, secondTag]
 > ==Utilized:== 
 > - authentication (aka prove identity) and [[non-repudiation]]
 > - key agreement and exchange
+> - When paired with [[hash|hashing]] can prove [[Integrity]] 
 
 
 ==Key agreement/exchange refers to settling on a secret symmetric key to use for bulk encryption without anyone else discovering it.==

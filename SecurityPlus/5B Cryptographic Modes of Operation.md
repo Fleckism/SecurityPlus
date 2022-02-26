@@ -1,16 +1,16 @@
 ---
-tags: [A_D, secondTag]
+tags: [A_D, GRC]
 ---
-#zFleck 
+
 ## EXAM OBJECTIVES COVERED
 
 2.8 Summarize the basics of cryptographic concepts
 
-A **mode of operation** is a means of using a [[cipher]] within a product to achieve a security **goal**, such as confidentiality or integrity. Being able to summarize modes of operation will help you to implement and support [[security control]]s such as digital signatures and transport encryption.
+A **mode of operation** is a means of using a [[cipher]] within a product to achieve a security **goal**, such as [[confidentiality]] or [[integrity]]. Being able to summarize modes of operation will help you to implement and support [[security control]]s such as digital signatures and transport encryption.
  
 ## DIGITAL SIGNATURES
 
-**Public key cryptography** can authenticate a sender, because they control a private key that encrypts messages in a way that no one else can. Public key cryptography can only be used with very small messages, however. **Hashing** proves integrity by computing a unique checksum from input. **These two cryptographic functions can be combined to authenticate a sender and prove the integrity of a message, with a digital signature.** The following process is used to create a digital signature using [[RSA]] encryption:
+**Public key cryptography** can authenticate a sender, because they control a private key that encrypts messages in a way that no one else can. [[asymmetric|Public key]] cryptography can only be used with very small messages, however. [[hash|Hashing]] proves [[integrity]] by computing a unique checksum from input. **These two cryptographic functions can be combined to authenticate a sender and prove the integrity of a message, with a digital signature.** The following process is used to create a digital signature using [[RSA]] encryption:
 
 1.  Alice (the sender) creates a digest of a message, using a pre-agreed hash algorithm, and encrypts the digest using Alice’s private key. This creates Alice’s digital signature.
 2.  Alice attaches the digital signature to the original message and sends both the message and public key to Bob (the receiver).
