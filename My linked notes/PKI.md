@@ -1,4 +1,4 @@
 ---
-tags: [GRC, secondTag]
+tags: [GRC,]
 ---
 public key infrastructure

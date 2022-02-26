@@ -27,7 +27,7 @@ The Digital Signature [[Algorithm]] ([[DSA]]) is a slightly different format for
 
 ## DIGITAL ENVELOPES AND KEY EXCHANGE
 
-**[[Symmetric]] encryption is the only practical means of encrypting and decrypting large amounts of data (bulk encryption),** but it is difficult to distribute the secret key securely. Public key cryptography makes it easy to distribute a key, but can only be used efficiently with small amounts of data. Therefore, both are used within the same product in a type of key exchange system known as a digital envelope or hybrid encryption. A digital envelope allows the sender and recipient to exchange a symmetric encryption key securely by using public key cryptography:
+**[[Symmetric]] [[encryption]] is the only practical means of encrypting and decrypting large amounts of data (bulk encryption),** but it is difficult to distribute the secret key securely. Public key cryptography makes it easy to distribute a key, but can only be used efficiently with small amounts of data. Therefore, both are used within the same product in a type of key exchange system known as a digital envelope or hybrid encryption. A digital envelope allows the sender and recipient to exchange a symmetric encryption key securely by using **public** (aka asymmetric) key cryptography:
 
 1.  Alice obtains a copy of Bob's public key.
 2.  Alice encrypts her message using a secret key cipher, such as [[AES]]. In this context, the secret key is referred to as a _session key._
@@ -38,7 +38,7 @@ The Digital Signature [[Algorithm]] ([[DSA]]) is a slightly different format for
 
 Key exchange using a digital envelope. (Images © 123RF.com.)
 
-Note that in this process, it is the recipient's public key that is used to perform encryption and the recipient's private key that is used for decryption. The validity of the whole digital envelope can be proved using a message authentication code. 
+Note that in this process, it is the recipient's public key that is used to perform encryption and the recipient's private key that is used for decryption. **The validity of the whole digital envelope can be proved using a message authentication code**. 
 
 In all these implementations, it is critical that the private key be kept secure and available only to the authorized user.
 
@@ -50,9 +50,9 @@ The question then arises of how anyone can trust the identity of the person or s
 
 ## PERFECT FORWARD SECRECY
 
-When using a digital envelope, the parties must exchange or agree upon a ([[symmetric]])bulk encryption secret key, used with the chosen symmetric cipher. In the original implementation of digital envelopes, the server and client exchange secret keys, using the server's RSA key pair to protect the exchange from snooping. In this key exchange model, if data from a session were recorded and then later the server's private key were compromised, it could be used to decrypt the session key and recover the confidential session data.
+When using a digital envelope, the parties must exchange or agree upon a ([[symmetric]])bulk encryption secret key, used with the chosen symmetric cipher. In the original implementation of digital envelopes, the server and client exchange secret keys, using the server's [[RSA]] key pair to protect the exchange from snooping. In this key exchange model, if data from a session were recorded and then later the server's private key were compromised, it could be used to decrypt the session key and recover the confidential session data.
 
-This risk from [[RSA]] key exchange is mitigated by perfect forward secrecy ([[PFS]]). PFS uses Diffie-Hellman (DH) key agreement to create ephemeral session keys without using the server's private key. Diffie-Hellman allows Alice and Bob to derive the same shared secret just by agreeing some values that are all related by some trapdoor function. In the agreement process, they share some of them, but keep others private. Mallory cannot possibly learn the secret from the values that are exchanged publicly ([en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)). The authenticity of the values sent by the server is proved by using a digital signature.
+This risk from [[RSA]] key exchange is mitigated by perfect forward secrecy ([[PFS]]). PFS uses Diffie-Hellman ([[DH]]) key agreement to create **ephemeral session keys** without using the server's private key. Diffie-Hellman allows Alice and Bob to derive the same shared secret just by agreeing some values that are all related by some trapdoor function. In the agreement process, they share some of them, but keep others private. Mallory cannot possibly learn the secret from the values that are exchanged publicly ([en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)). The authenticity of the values sent by the server is proved by using a digital signature.
 
 Using Diffie-Hellman to derive a secret value to use to generate a shared symmetric encryption key securely over a public channel. In computing, _mod_ stands for a modulo operation, which returns the remainder after dividing one number by another.(Images © 123RF.com.)
 

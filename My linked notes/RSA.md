@@ -1,15 +1,17 @@
 ---
-tags: [A_D, ]
+tags: [A_D,Implementation ]
 ---
-- Is an [[algorithm]] 
+- Is an [[algorithm]],  RSA stands for the inventors Rivest, Shamir, Adelman
 - trapdoor function, because it is easy to perform using the public key, but difficult to reverse without knowing the private key.
 - key size of 2048 in **RSA** is comparable to an [[ECC]] of 256 bits
 - Weaker than ECC
+	- Digital signature
+	- Deriving key pairs
 
 RSA key pair security depends on the difficulty of finding the prime factors of very large integers (**modular exponentiation**).
-> ==Utilized:== 
-> - Digital signature
-> - Deriving key pairs
+
+ - Digital signature
+ - Deriving key pairs
 
 
 

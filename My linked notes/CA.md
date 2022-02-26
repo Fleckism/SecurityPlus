@@ -1,4 +1,4 @@
 ---
-tags: [GRC, secondTag]
+tags: [GRC, ]
 ---
 certificate authority

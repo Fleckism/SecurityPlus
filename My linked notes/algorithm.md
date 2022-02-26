@@ -1,7 +1,5 @@
 ---
-tags: [A_D, secondTag]
+tags: [A_D, Implementation]
 ---
-
-> ==Utilized:== 
-> - [[RSA]]
-> - [[DSA]]
+ - [[RSA]]
+ - [[DSA]]
