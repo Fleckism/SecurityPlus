@@ -1,8 +1,6 @@
 ---
 tags: [A_D,Implementation ]
 ---
-confidentiality, integrity, and availability
-Or  "AIC"
 + [[Confidentiality]]
 + [[Integrity]]
 + [[Availability]]

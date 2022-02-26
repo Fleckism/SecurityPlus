@@ -1,12 +1,12 @@
 ---
 tags: [Implementation, secondTag]
 ---
-A cryptographic hashing algorithm produces a fixed length string from an input plaintext that can be of any length.
+A cryptographic hashing [[algorithm]] produces a fixed length string from an input plaintext that can be of any length.
 
 The output can be referred to as a 
 - checksum, 
 - message [[digest]], or 
-- hash
+- hash = digest
 > ==Utilized:== 
 > - Validate [[Integrity]] of data
 > - A hash that is encrypted is a digital signature

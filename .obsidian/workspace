@@ -17,6 +17,45 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "0e7b686c96b21382",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/asymmetric.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "6e1f54cbdf4ee83e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/5A  Cryptographic Ciphers.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "629516e232d6bfd8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/hash.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -51,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "data-at-rest",
+                "query": "\"Key agreement/exchange\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
+                "file": "My linked notes/asymmetric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +150,17 @@
     "width": 230.5,
     "collapsed": true
   },
-  "active": "abbd361cc5ffc61e",
+  "active": "0e7b686c96b21382",
   "lastOpenFiles": [
-    "SecurityPlus/5B Cryptographic Modes of Operation.md",
-    "My linked notes/algorithm.md",
-    "My linked notes/RSA.md",
     "My linked notes/asymmetric.md",
-    "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
-    "My linked notes/encryption.md",
-    "My notes_______________________________.md",
     "My linked notes/symmetric.md",
-    "My linked notes/AES.md",
-    "My linked notes/hash.md"
+    "SecurityPlus/5A  Cryptographic Ciphers.md",
+    "My linked notes/Acronyms/AIC or CIA.md",
+    "SecurityPlus/5B Cryptographic Modes of Operation.md",
+    "My linked notes/ECC.md",
+    "My linked notes/DSA.md",
+    "My linked notes/algorithm.md",
+    "My linked notes/hash.md",
+    "My linked notes/RSA.md"
   ]
 }

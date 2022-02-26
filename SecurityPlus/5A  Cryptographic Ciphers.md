@@ -133,7 +133,7 @@ Asymmetric encryption. (Images © 123RF.com.)
 
 **Asymmetric encryption can be used to prove identity.** The holder of a private key cannot be impersonated by anyone else. The drawback of asymmetric encryption is that it involves substantial computing overhead compared to symmetric encryption. The message cannot be larger than the key size. Where a large amount of data is being encrypted on disk or transported over a network, asymmetric encryption is inefficient.
 
-Consequently, asymmetric encryption is mostly used for authentication and non-repudiation and for key agreement and exchange. Key agreement/exchange refers to settling on a secret symmetric key to use for bulk encryption without anyone else discovering it.
+Consequently, [[asymmetric]] encryption is mostly used for authentication and non-repudiation and for **key agreement and exchange**. Key agreement/exchange refers to settling on a secret **symmetric** key to use for bulk encryption without anyone else discovering it.
 
 ## PUBLIC KEY CRYPTOGRAPHY ALGORITHMS
 
