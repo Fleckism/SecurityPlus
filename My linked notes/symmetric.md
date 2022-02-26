@@ -1,7 +1,7 @@
 ---
 tags: [A_D, secondTag]
 ---
-- 1 key
+- 1 key, aka private key
 - keys 128 bits 
 - keys 256 bits 
 - Easily encrypted using a public key

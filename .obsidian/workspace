@@ -17,45 +17,6 @@
           },
           "pinned": true
         }
-      },
-      {
-        "id": "05416e5e63a9cbef",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/digest.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "4fcf0725c94c42f8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/hash.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "0ecd5a9069c227a4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My notes_______________________________.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -90,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "data-at-rest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -99,11 +60,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 186.5
+    "width": 265.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -152,14 +114,14 @@
   "active": "abbd361cc5ffc61e",
   "lastOpenFiles": [
     "SecurityPlus/5B Cryptographic Modes of Operation.md",
-    "My linked notes/digest.md",
-    "My linked notes/hash.md",
-    "My notes_______________________________.md",
+    "My linked notes/algorithm.md",
+    "My linked notes/RSA.md",
     "My linked notes/asymmetric.md",
-    "My linked notes/security control.md",
-    "My linked notes/Integrity.md",
-    "My linked notes/cipher.md",
-    "My linked notes/cryptography.md",
-    "My linked notes/cryptographic.md"
+    "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
+    "My linked notes/encryption.md",
+    "My notes_______________________________.md",
+    "My linked notes/symmetric.md",
+    "My linked notes/AES.md",
+    "My linked notes/hash.md"
   ]
 }

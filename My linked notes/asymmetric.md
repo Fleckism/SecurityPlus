@@ -2,7 +2,7 @@
 tags: [A_D, GRC]
 ---
 Asymmetric
-- public and private key pair(aka **public key**)
+- public and private key **pair**(aka **public key**)
 - Each key is capable of **reversing** the operation of its pair
 - Message much be smaller than key size
 - Inefficient with large amounts of data

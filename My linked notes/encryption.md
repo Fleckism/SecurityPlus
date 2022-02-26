@@ -9,6 +9,8 @@ Encryption supporting [[confidentiality]] is used for both
 - data-at-rest (file encryption) [[asymmetric]]
 - data-in-transit (transport encryption):[[asymmetric]]
 
+> ==Utilized:== 
+> - [[AES]]
 # Questions
 - cipher key is regarding [[symmetric]]   encryption 1 key!
 - key pair is [[asymmetric]] 

@@ -1,7 +1,7 @@
 ---
 tags: [A_D, ]
 ---
-- Is an **algorithm** 
+- Is an [[algorithm]] 
 - trapdoor function, because it is easy to perform using the public key, but difficult to reverse without knowing the private key.
 - key size of 2048 in **RSA** is comparable to an [[ECC]] of 256 bits
 - Weaker than ECC
