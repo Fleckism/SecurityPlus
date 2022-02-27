@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/PFS.md",
+            "file": "My linked notes/cipher.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"ECDHE\"",
+                "query": "mode",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/PFS.md",
+                "file": "My linked notes/cipher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,15 +139,15 @@
   },
   "active": "84404a49ca565df0",
   "lastOpenFiles": [
+    "My linked notes/cipher.md",
+    "SecurityPlus/5B Cryptographic Modes of Operation.md",
+    "My linked notes/security control.md",
     "My linked notes/PFS.md",
     "My linked notes/algorithm.md",
-    "SecurityPlus/5B Cryptographic Modes of Operation.md",
     "My linked notes/DH.md",
     "My linked notes/RSA.md",
     "My linked notes/PKI.md",
     "My linked notes/CA.md",
-    "My linked notes/asymmetric.md",
-    "My linked notes/symmetric.md",
-    "My linked notes/encryption.md"
+    "My linked notes/asymmetric.md"
   ]
 }
