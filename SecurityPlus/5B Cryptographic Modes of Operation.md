@@ -46,7 +46,7 @@ In all these implementations, it is critical that the private key be kept secure
 
 When using public/private key pairs, a subject will make his or her public key freely available. This allows recipients of his or her messages to read the digital signature. Similarly, he or she uses the recipient's public key to encrypt a message via a digital envelope. This means that no one other than the intended recipient can read the message.
 
-The question then arises of how anyone can trust the identity of the person or server issuing a public key. One solution is to have a third party, referred to as a _certificate authority ([[CA]]),_ validate the owner of the public key by issuing the subject with a certificate. The certificate is signed by the CA. If the recipient also trusts the CA, they can also trust the public key wrapped in the subject's certificate. The process of issuing and verifying certificates is called _public key infrastructure ([[PKI]])._
+The question then arises of how anyone can trust the identity of the person or server issuing a public key. One solution is to have a **third party, referred to as a _certificate authority ([[CA]]),_ validate the owner of the public key by issuing the subject with a certificate.** The certificate is signed by the CA. If the recipient also trusts the CA, they can also trust the public key wrapped in the subject's certificate. The process of issuing and verifying certificates is called _public key infrastructure ([[PKI]])._
 
 ## PERFECT FORWARD SECRECY
 

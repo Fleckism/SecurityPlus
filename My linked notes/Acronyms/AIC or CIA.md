@@ -1,6 +1,7 @@
 ---
 tags: [A_D,Implementation ]
 ---
+Secure information has **three** properties
 + [[Confidentiality]]
 + [[Integrity]]
 + [[Availability]]

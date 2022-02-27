@@ -39,5 +39,6 @@
   "foldIndent": false,
   "alwaysUpdateLinks": true,
   "fileSortOrder": "alphabetical",
-  "legacyEditor": false
+  "legacyEditor": false,
+  "showLineNumber": true
 }
