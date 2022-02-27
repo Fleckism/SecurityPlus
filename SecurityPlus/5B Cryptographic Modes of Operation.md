@@ -6,7 +6,7 @@ tags: [A_D, GRC]
 
 2.8 Summarize the basics of cryptographic concepts
 
-A **mode of operation** is a means of using a [[cipher]] within a product to achieve a security **goal**, such as [[confidentiality]] or [[integrity]]. Being able to summarize modes of operation will help you to implement and support [[security control]]s such as digital signatures and transport encryption.
+A **[[mode]] of operation** is a means of using a [[cipher]] within a product to achieve a security **goal**, such as [[confidentiality]] or [[integrity]]. Being able to summarize modes of operation will help you to implement and support [[security control]]s such as digital signatures and transport encryption.
  
 ## DIGITAL SIGNATURES
 
@@ -64,7 +64,7 @@ In 2014, a Heartbleed bug was discovered in the way some versions of OpenSSL wor
 
 ## CIPHER SUITES AND MODES OF OPERATION
 
-In a protocol such as Transport Layer Security ([[TLS]]), the requirements to both authenticate the identity of the server and to encrypt communications between the server and client need to be fulfilled by separate cryptographic products and cipher implementations. The combination of ciphers supported is referred to as a cipher suite. The server and client negotiate mutually compatible cipher suites as part of the TLS handshake.
+In a protocol such as Transport Layer Security ([[TLS]]), the requirements to both authenticate the identity of the server and to encrypt communications between the server and client need to be fulfilled by separate cryptographic products and cipher implementations. The **combination** of [[cipher|ciphers]] supported is referred to as a cipher suite. The server and client negotiate mutually compatible cipher suites as part of the TLS handshake.
 
 So far, we have identified two parts of the **cipher suite**:
 
@@ -75,7 +75,7 @@ The final part of a cipher suite determines the bulk encryption cipher. When [[A
 
 ### Cipher Block Chaining (CBC) Mode
 
-The Cipher Block Chaining ([[CBC]]) mode applies an initialization vector ([[IV]]) to the first plaintext block to ensure that the key produces a unique ciphertext from any given plaintext. The output of the first ciphertext block is then combined with the next plaintext block using an XOR operation. This process is repeated through the full "chain" of blocks, which (again) ensures that no plaintext block produces the same ciphertext. CBC needs to use padding to ensure that the data to encrypt is an exact multiple of the block size.
+The Cipher Block Chaining ([[CBC]]) [[mode]] applies an initialization vector ([[IV]]) to the first plaintext block to ensure that the key produces a unique ciphertext from any given plaintext. The output of the first ciphertext block is then combined with the next plaintext block using an XOR operation. This process is repeated through the full "chain" of blocks, which (again) ensures that no plaintext block produces the same ciphertext. CBC needs to use padding to ensure that the data to encrypt is an exact multiple of the block size.
 
 **XOR is a logical operation that outputs 1 only when the inputs are 1 and 0.**
 

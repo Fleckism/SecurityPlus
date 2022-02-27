@@ -5,10 +5,10 @@ tags: [A_D, GRC]
 - The use of a **key with the [[encryption]] cipher** ensures that decryption can only be performed by authorized persons.
 - Utilized:
 	- Used as a mode of operation to achieve a security goal([[security control|control]])
-
-> ==Utilized:== 
-> - Used as a ==mode of operation== to achieve a security goal([[security control| control]])
- - Decryption
+- **Cipher suite** 
+	- A **signature algorithm**, used to assert the identity of the server's public key and facilitate authentication.
+	- A **key exchange/agreement algorithm**, used by the client and server to derive the same bulk encryption symmetric key.
+	- The final part of a cipher suite determines the bulk encryption cipher.
 
 A **substitution cipher** involves replacing units (a letter or blocks of letters) in the plaintext with different ciphertext. Simple substitution ciphers rotate or scramble letters of the alphabet. For example, ROT13 (an example of a Caesar cipher) rotates each letter 13 places (so A becomes N for instance). The ciphertext "Uryyb Jbeyq" means "Hello World".
 
