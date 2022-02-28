@@ -22,6 +22,8 @@ tags: [attack, OIR]
 Types of attacks
 - [[DoS]] 
 - [[MITM]]
+- chosen ciphertext
+- padding oracle
 
 
 

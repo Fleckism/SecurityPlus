@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "abbd361cc5ffc61e",
+        "id": "aeffa5cadd200d08",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
+            "file": "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "aeffa5cadd200d08",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/mode.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -73,8 +60,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
+                "file": "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +110,17 @@
     "width": 230.5,
     "collapsed": true
   },
-  "active": "abbd361cc5ffc61e",
+  "active": "aeffa5cadd200d08",
   "lastOpenFiles": [
+    "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
     "SecurityPlus/5B Cryptographic Modes of Operation.md",
+    "My linked notes/Attack.md",
+    "My linked notes/MAC.md",
+    "My linked notes/symmetric.md",
     "My linked notes/mode.md",
     "My linked notes/IV.md",
     "My linked notes/CBC.md",
     "My linked notes/cipher.md",
-    "My linked notes/TLS.md",
-    "My linked notes/PFS.md",
-    "My linked notes/RSA.md",
-    "My linked notes/encryption.md",
-    "My linked notes/encoding.md"
+    "My linked notes/TLS.md"
   ]
 }

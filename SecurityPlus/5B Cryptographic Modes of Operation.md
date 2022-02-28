@@ -85,11 +85,11 @@ Counter mode ([[CTM]]) makes the [[AES]] algorithm work as a stream cipher. Coun
 
 ## AUTHENTICATED MODES OF OPERATION
 
-Symmetric algorithms do not provide message integrity or authentication. The basic [[CBC]] and counter modes of operation are unauthenticated. While a man-in-the-middle ([[MITM]])cannot decrypt them directly without the secret key, the ciphertexts are vulnerable to arbitrary data being inserted or modified to break the encryption scheme, referred to as a **chosen ciphertext attack**.
+[[Symmetric]] algorithms do not provide message integrity or authentication. The basic [[CBC]] and counter modes of operation are unauthenticated. While a man-in-the-middle ([[MITM]])cannot decrypt them directly without the secret key, the ciphertexts are vulnerable to arbitrary data being inserted or modified to break the encryption scheme, referred to as a **chosen ciphertext [[attack]]**.
 
 ### Authenticated Encryption
 
-A message authentication code ([[MAC]]) provides an authentication and integrity mechanism by hashing a combination of the message output and a shared secret key. The recipient can perform the same process using his or her copy of the secret key to verify the data. This type of authenticated encryption scheme is specified in a cipher suite as separate functions, such as "AES CBC with HMAC-SHA." Unfortunately, the implementation of this type of authenticated mode in AES CBC is vulnerable to a type of cryptographic attack called a padding oracle attack ([docs.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode](https://docs.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode)).
+A message authentication code ([[MAC]]) provides an authentication and integrity mechanism by [[hash|hashing]] a combination of the message output and a shared secret key. The recipient can perform the same process using his or her copy of the secret key to verify the data. This type of authenticated encryption scheme is specified in a cipher suite as separate functions, such as "[[AES]] [[CBC]] with HMAC-SHA." Unfortunately, the implementation of this type of authenticated mode in AES CBC is vulnerable to a type of cryptographic attack called a padding oracle attack ([docs.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode](https://docs.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode)).
 
 ### Authenticated Encryption with Additional Data (AEAD)
 
