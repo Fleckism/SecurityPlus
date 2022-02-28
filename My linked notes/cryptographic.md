@@ -3,10 +3,12 @@ tags: [Implementation, A_D]
 ---
 Cryptography is **the study of secure communications techniques that allow only the sender and intended recipient of a message to view its contents**
 [[cryptography]]
+- [[security control]]
+- [[Non-repudiation]]
 
-> ==Utilized:== 
-> - [[security control]]
-> - [[Non-repudiation]]
+
+
+One of the requirements of a strong cryptographic algorithm is to produce a disordered [[ciphertext]] ( aka high [[Entropy]]).
 
 A single hash function, symmetric cipher, or asymmetric cipher is called a **cryptographic primitive.**
 

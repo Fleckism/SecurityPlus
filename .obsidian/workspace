@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
+            "file": "SecurityPlus/5D Other Cryptographic Technologies.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,25 +19,12 @@
         }
       },
       {
-        "id": "1227f38b54a3d6e5",
+        "id": "96e0067607a7a102",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/security control.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "55275a48ffdcc17b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Acronyms/MITM.md",
+            "file": "My linked notes/algorithm.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -77,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "salt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
+                "file": "SecurityPlus/5D Other Cryptographic Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,15 +125,15 @@
   },
   "active": "aeffa5cadd200d08",
   "lastOpenFiles": [
+    "SecurityPlus/5D Other Cryptographic Technologies.md",
     "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
-    "My linked notes/security control.md",
+    "My linked notes/algorithm.md",
+    "My linked notes/Attack.md",
+    "My linked notes/hash.md",
     "My linked notes/Acronyms/MITM.md",
-    "My linked notes/MAC.md",
-    "My linked notes/Integrity.md",
-    "My linked notes/asymmetric.md",
-    "My linked notes/Dictionary/Confidentiality.md",
-    "My linked notes/Authentication.md",
-    "My linked notes/Non-repudiation.md",
-    "SecurityPlus/5B Cryptographic Modes of Operation.md"
+    "My linked notes/cryptographic.md",
+    "My linked notes/cipher.md",
+    "My linked notes/Ciphertext.md",
+    "My linked notes/security control.md"
   ]
 }

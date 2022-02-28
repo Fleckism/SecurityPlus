@@ -9,6 +9,11 @@ tags: [A_D, GRC]
 	- A **signature algorithm**, used to assert the identity of the server's public key and facilitate authentication.
 	- A **key exchange/agreement algorithm**, used by the client and server to derive the same bulk encryption symmetric key.
 	- The final part of a cipher suite determines the bulk encryption cipher.
+- **Performance factors**
+	- **Speed**: Symmetric and hash functions amount of data per second that can be processed.  Asymmetric operations per second.  Most impact with large amounts of data.
+	- **Time/latency**:  Time require to obtain a result
+	- **Size**:  Longer keys provide better security for **ciphers**.
+	- **Computational overhead**:  Ciphers all have there own unique performance characteristics(CPU and memory) 
 
 A **substitution cipher** involves replacing units (a letter or blocks of letters) in the plaintext with different ciphertext. Simple substitution ciphers rotate or scramble letters of the alphabet. For example, ROT13 (an example of a Caesar cipher) rotates each letter 13 places (so A becomes N for instance). The ciphertext "Uryyb Jbeyq" means "Hello World".
 

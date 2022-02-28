@@ -10,7 +10,7 @@ The output can be referred to as a
 	- Validate [[Integrity]] of data
 	- An encrypted hash is a digital signature
 
-
+- **Salt**—this is also a random or pseudo-random number or string. This slows down brute force and dictionary [[attack]]
 There are two popular implementations [[hash]] algorithms:
 
 -   Secure Hash [[Algorithm]] ([[SHA]])—considered the strongest algorithm. There are variants that produce different-sized outputs, with longer digests considered more secure. The most popular variant is SHA-256, which produces a 256-bit digest.

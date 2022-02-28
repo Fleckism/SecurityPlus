@@ -24,6 +24,11 @@ Types of attacks
 - [[MITM]]
 - chosen ciphertext
 - padding oracle
+- downgrade attack
+- brute force
+- dictionary attack
+- birthday 
+- 
 
 
 
