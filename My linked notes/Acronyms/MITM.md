@@ -1,4 +1,6 @@
 ---
 tags: [A_D, secondTag]
 ---
-This allows an attacker to intercept and modify communications, acting as **man-in-the-middle**
+ **man-in-the-middle**
+ - When an attacker intercepts and modify communications.
+	 - Prevented  by [[MAC]]

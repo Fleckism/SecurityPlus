@@ -10,11 +10,11 @@ tags: [A_D, Implementation]
 
 There are many individual [[symmetric]] and [[asymmetric]] [[cipher]] algorithms and hash functions. Characteristics of these ciphers make them better suited to meeting constraints, such as use on battery-powered devices. Some of the ciphers and implementations of ciphers within products can exhibit weaknesses that make them unsuitable for use. It is important that you be able to summarize these use cases and weaknesses so that you can deploy [[security control|controls]] that fit their purpose.
 
-## CRYPTOGRAPHY SUPPORTING AUTHENTICATION AND NON-REPUDIATION
+## CRYPTOGRAPHY SUPPORTING [[AUTHENTICATION]] AND [[NON-REPUDIATION]]
 
-A single hash function, symmetric cipher, or asymmetric cipher is called a **cryptographic primitive**. A complete [[cryptographic]] system or product is likely to use multiple cryptographic primitives, such as within a cipher suite. The properties of different symmetric/asymmetric/hash types and of specific ciphers for each type impose limitations on their use in different contexts and for different purposes.
+A single [[hash]] function, symmetric cipher, or asymmetric cipher is called a **cryptographic primitive**. A complete [[cryptographic]] system or product is likely to use multiple cryptographic primitives, such as within a cipher suite. The properties of different symmetric/asymmetric/hash types and of specific ciphers for each type impose limitations on their use in different contexts and for different purposes.
 
-If you are able to encrypt a message in a particular way, it follows that the recipient of the message knows with whom he or she is communicating (that is, the sender is authenticated). This means that encryption can form the basis of identification, authentication, and access control systems.
+If you are able to [[encryption|encrypt]] a message in a particular way, it follows that the recipient of the message knows with whom he or she is communicating (that is, the sender is authenticated). This means that encryption can form the basis of identification, authentication, and access control systems.
 
 ![Screenshot of browser with web page loaded and a pop-up with headings "Website identification" and "Website permissions", brief content, and links.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2286-1599771797805.png)
 
@@ -26,7 +26,7 @@ Authentication and non-repudiation depend on the recipient not being able to enc
 
 To use a key pair, the user or server generates the linked keys. The private key is stored securely and protected from use by others by the account password. It is critical that only the user or server be able to use the private key. **The public key is given to clients or correspondents, usually in the form of a digital certificate.**
 
-When the user or server needs to authenticate, it encrypts some agreed hashed data using the private key and sends it to the client as a digital signature. The client should be able to decrypt the signature using the public key and derive the same hash value.
+When the user or server needs to [[Authentication|authenticate]], it encrypts some agreed hashed data using the private key and sends it to the client as a digital signature. The client should be able to decrypt the signature using the public key and derive the same hash value.
 ## CRYPTOGRAPHY SUPPORTING CONFIDENTIALITY
 
 Cryptography removes the need to store or transfer messages over secure media. It does not matter if a ciphertext is stolen or intercepted because the threat actor will not be able to understand or change what has been stolen. **This use of cryptography fulfils the goal of** [[confidentiality]]. For this use case, you cannot simply use asymmetric encryption and private/public key pairs, because the algorithm cannot encrypt large amounts of data efficiently. For example, the [[RSA]] asymmetric cipher has a maximum message size of the key size (in bytes) minus 11. A key size of 2048 bits allows a maximum message size of 245 bytes: (2048/8) − 11. The computational overhead of using this type of algorithm to encrypt the contents of a disk or stream of network traffic is far too high.
@@ -35,23 +35,23 @@ Therefore, bulk data [[encryption]] uses a [[symmetric]] cipher, such as [[AES]]
 
 [[Encryption]] supporting confidentiality is used for both  
 
--   **data-at-rest (file encryption)**—the user is allocated an [[asymmetric]] cipher [[key pair]]. The private key is written to secure storage—often a trusted platform module ([[TPM]])—and is only available when the user has authenticated to his or her account. The public key is used to encrypt a randomly generated [[AES]] cipher key. When the user tries to encrypt or decrypt files, the AES cipher key is decrypted using the private key to make it available for the encryption or decryption operation.
+-   **data-at-rest (file encryption)**—the user is allocated an [[asymmetric]] cipher key pair. The private key is written to secure storage—often a trusted platform module ([[TPM]])—and is only available when the user has [[Authentication|authenticated]] to his or her account. The public key is used to encrypt a randomly generated [[AES]] cipher key. When the user tries to encrypt or decrypt files, the AES cipher key is decrypted using the private key to make it available for the encryption or decryption operation.
 -   **data-in-transit (transport encryption)**—this uses either digital envelopes or perfect forward secrecy. For HTTPS, a web server is allocated a key pair and stores the private key securely. The public key is distributed to clients via a digital certificate. The client and server use the **key pair** to exchange or agree on one or more AES cipher keys to use as session keys.
 
 
 
 ## CRYPTOGRAPHY SUPPORTING INTEGRITY AND RESILIENCY
 
-Integrity is proved by hashing algorithms, which allow two parties to derive the same checksum and show that a message or data has not been tampered with. A basic hash function can also be used with a shared secret to create a message authentication code ([[MAC]]), which prevents a man-in-the-middle tampering with the checksum.
+[[Integrity]] is proved by hashing algorithms, which allow two parties to derive the same checksum and show that a message or data has not been tampered with. A basic hash function can also be used with a shared secret to create a message authentication code ([[MAC]]), which prevents a [[MITM|man-in-the-middle]] tampering with the checksum.
 
-As well as providing integrity at the level of individual messages, cryptography can be used to design highly resilient control systems. A control system is one with multiple parts, such as sensors, workstations, and servers, and complex operating logic. A system is seen as resilient if, when a compromise of part of the system, does not allow the compromise of the whole system. Cryptography assists this goal by ensuring the authentication and integrity of messages delivered over the control system.
+As well as providing integrity at the level of individual messages, cryptography can be used to design highly resilient control systems. A **control system** is one with multiple parts, such as sensors, workstations, and servers, and complex operating logic. A system is seen as resilient if, when a compromise of part of the system, does not allow the compromise of the whole system. Cryptography assists this goal by ensuring the [[authentication]] and [[integrity]] of messages delivered over the control system.
 
 Integrity and resiliency are also an issue for computer code. If a threat actor has administrator privileges, they can change the operation of legitimate code to make it work as malware. A developer can make tampering more difficult using obfuscation. Obfuscation is the art of making a message difficult to understand. Obfuscated source code is rewritten in a way that does not affect the way the computer compiles or executes the code, but makes it difficult for a person reading the code to understand how it works. 
 
-Cryptography is a very effective way of obfuscating a message, but unfortunately, it is too effective in the case of source code because it also means the code cannot be understood (executed) by the computer. At some point, the code must be decrypted to be executed. The key used for decryption usually needs to be bundled with the source code, and this means that you are relying on security by obscurity rather than strong cryptography. Attempts to protect an embedded key while preserving the functionality of the code—known as _white box cryptography_—have all been broken. There are no commercial solutions currently available to overcome this problem, but the subject is one of much research interest.
+Cryptography is a very effective way of obfuscating a message, but unfortunately, it is too effective in the case of source code because it also means the code cannot be understood (executed) by the computer. At some point, the code must be decrypted to be executed. The key used for decryption usually needs to be bundled with the source code, and this means that you are relying on security by obscurity rather than strong cryptography. **Attempts to protect an embedded key while preserving the functionality of the code—known as _white box cryptography_**—have all been broken. There are no commercial solutions currently available to overcome this problem, but the subject is one of much research interest.
 
 ## CRYPTOGRAPHIC PERFORMANCE LIMITATIONS 
-
+#zFleck
 Differences between ciphers make them more or less useful for resource-constrained environments. The main performance factors are as follows:
 
 -   Speed—for symmetric ciphers and hash functions, _speed_ is the amount of data per second that can be processed. Asymmetric ciphers are measured by operations per second. Speed has the most impact when large amounts of data are processed.

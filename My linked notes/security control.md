@@ -33,7 +33,7 @@ While most controls can be classed functionally as preventative, detective, or c
 
 - [[AUP]] Acceptable Use Policy 
 
-
+ A **control system** is one with multiple parts, such as sensors, workstations, and servers, and complex operating logic.
 
 
 

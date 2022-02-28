@@ -17,6 +17,32 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "1227f38b54a3d6e5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/security control.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "55275a48ffdcc17b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/MITM.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -113,14 +139,14 @@
   "active": "aeffa5cadd200d08",
   "lastOpenFiles": [
     "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
-    "SecurityPlus/5B Cryptographic Modes of Operation.md",
-    "My linked notes/Attack.md",
+    "My linked notes/security control.md",
+    "My linked notes/Acronyms/MITM.md",
     "My linked notes/MAC.md",
-    "My linked notes/symmetric.md",
-    "My linked notes/mode.md",
-    "My linked notes/IV.md",
-    "My linked notes/CBC.md",
-    "My linked notes/cipher.md",
-    "My linked notes/TLS.md"
+    "My linked notes/Integrity.md",
+    "My linked notes/asymmetric.md",
+    "My linked notes/Dictionary/Confidentiality.md",
+    "My linked notes/Authentication.md",
+    "My linked notes/Non-repudiation.md",
+    "SecurityPlus/5B Cryptographic Modes of Operation.md"
   ]
 }
