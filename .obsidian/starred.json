@@ -2,11 +2,6 @@
   "items": [
     {
       "type": "file",
-      "title": "Security Acronyms",
-      "path": "My linked notes/Security Acronyms no links.md"
-    },
-    {
-      "type": "file",
       "title": "Performance-based questions",
       "path": "My dump/Notes from tests/Performance-based questions.md"
     },
@@ -64,6 +59,11 @@
       "type": "file",
       "title": "GRC",
       "path": "My linked notes/GRC Governance, Risk, and Compliance.md"
+    },
+    {
+      "type": "file",
+      "title": "security control",
+      "path": "My linked notes/security control.md"
     }
   ]
 }

@@ -6,8 +6,7 @@ A security controls(goal) is something designed to give a system or data asset t
 - [[integrity]]
 - [[availability]] 
 - [[non-repudiation]]. ([[AIC or CIA]])
-> ==Utilized:== 
-> - What subject is used for
+
 - Cybersecurity controls are the **countermeasures** that companies implement to detect, prevent, reduce, or counteract security risks
 
 - Cybersecurity controls are **the processes** your organization has in place to protect from dangerous network vulnerabilities and data hacks

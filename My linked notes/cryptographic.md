@@ -15,3 +15,5 @@ A single hash function, symmetric cipher, or asymmetric cipher is called a **cry
 A complete [[cryptographic]] system or product is likely to use multiple cryptographic primitives, such as within a cipher suite. The properties of different symmetric/asymmetric/hash types and of specific ciphers for each type impose limitations on their use in different contexts and for different purposes.
 
 **Cryptographic systems** will use both symmetric and asymmetric encryption. 
+
+More generally, **cryptographic agility** refers to an organization's ability to update the specific algorithms used across a range of security products without affecting the business workflows that those products support

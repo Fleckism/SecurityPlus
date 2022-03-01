@@ -1,9 +1,9 @@
 ---
-tags: [firstTag, secondTag]
+tags: [GRC,]
 ---
 # LESSON INTRODUCTION
 
-Digital certificates and public key infrastructure (PKI) are critical services used to manage identification, authentication, and data confidentiality across most private and public networks. It is important that you understand the types of certificate that can be issued and are able to apply effective management principles when configuring and supporting these systems.
+Digital certificates and public key infrastructure ([[PKI]]) are critical services used to manage identification, authentication, and data confidentiality across most private and public networks. It is important that you understand the types of certificate that can be issued and are able to apply effective management principles when configuring and supporting these systems.
 
 Lesson Objectives
 
@@ -15,17 +15,17 @@ In this lesson, you will:
 
 3.9 Given a scenario, implement public key infrastructure
 
-A _digital certificate_ is a public assertion of identity, validated by a certificate authority (CA). As well as asserting identity, certificates can be issued for different purposes, such as protecting web server communications or signing messages. Issuing certificates is likely to be an important part of your day-to-day role as a security administrator.
+A _digital certificate_ is a public assertion of identity, validated by a certificate authority ([[CA]]). As well as asserting identity, certificates can be issued for different purposes, such as protecting web server communications or signing messages. Issuing certificates is likely to be an important part of your day-to-day role as a security administrator.
 # PUBLIC AND PRIVATE KEY USAGE 
 
-Public key cryptography solves the problem of distributing encryption keys when you want to communicate securely with others or authenticate a message that you send to others.
+Public key ([[asymmetric]]) cryptography solves the problem of distributing encryption keys when you want to communicate securely with others or authenticate a message that you send to others.
 
 -   When you want others to send you confidential messages, you give them your public key to use to encrypt the message. The message can then only be decrypted by your private key, which you keep known only to yourself.
 -   When you want to authenticate yourself to others, you create a signature and sign it by encrypting the signature with your private key. You give others your public key to use to decrypt the signature. As only you know the private key, everyone can be assured that only you could have created the signature.
 
-The basic problem with public key cryptography is that you may not really know with whom you are communicating. The system is vulnerable to man-in-the-middle attacks. This problem is particularly evident with e-commerce. How can you be sure that a shopping site or banking service is really maintained by whom it claims? The fact that the site is distributing public keys to secure communications is no guarantee of actual identity. How do you know that you are corresponding directly with the site using its certificate? How can you be sure there isn't a man-in-the-middle intercepting and modifying what you think the legitimate server is sending you?
+The basic problem with public key cryptography is that you may not really know with whom you are communicating. The system is vulnerable to man-in-the-middle attacks([[MITM]]). This problem is particularly evident with e-commerce. How can you be sure that a shopping site or banking service is really maintained by whom it claims? The fact that the site is distributing public keys to secure communications is no guarantee of actual identity. How do you know that you are corresponding directly with the site using its certificate? How can you be sure there isn't a man-in-the-middle intercepting and modifying what you think the legitimate server is sending you?
 
-Public key infrastructure (PKI) aims to prove that the owners of public keys are who they say they are. Under PKI, anyone issuing public keys should obtain a digital certificate. The validity of the certificate is guaranteed by a certificate authority (CA). The validity of the CA can be established using various models.
+Public key infrastructure ([[PKI]]) aims to prove that the owners of public keys are who they say they are. Under PKI, anyone issuing public keys should obtain a digital certificate. The validity of the certificate is guaranteed by a certificate authority ([[CA]]). The validity of the CA can be established using various models.
 # CERTIFICATE AUTHORITIES
 
 The certificate authority (CA) is the entity responsible for issuing and guaranteeing certificates. Private CAs can be set up within an organization for internal communications. Most network operating systems, including Windows Server, have certificate services. For public or business-to-business communications, however, the CA must be trusted by each party. Third-party CA services include IdenTrust, Digicert, Sectigo/Comodo, GoDaddy, and GlobalSign. The functions of a CA are as follows:
