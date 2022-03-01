@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ef4509507cacb8d6",
+        "id": "a1a8a70392bf6762",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/7A Authentication Design Concepts.md",
+            "file": "SecurityPlus/7B knowledge-Based Authentication.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "798571452f9ec980",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/CA.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -64,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"OpenSSL\"",
+                "query": "\"access control system\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/7A Authentication Design Concepts.md",
+                "file": "SecurityPlus/7B knowledge-Based Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +111,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "ef4509507cacb8d6",
+  "active": "a1a8a70392bf6762",
   "lastOpenFiles": [
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/Authentication.md",
     "SecurityPlus/7A Authentication Design Concepts.md",
+    "Key Security Terms Definitions.md",
     "SecurityPlus/6B PKI Management.md",
     "My linked notes/CA.md",
     "My linked notes/symmetric.md",
     "My linked notes/asymmetric.md",
     "SecurityPlus/6A Certificates and  Certificate Authorities.md",
-    "My linked notes/Attack.md",
-    "My notes_______________________________.md",
-    "My linked notes/FQDN.md",
-    "My linked notes/PKI.md"
+    "My linked notes/Attack.md"
   ]
 }
