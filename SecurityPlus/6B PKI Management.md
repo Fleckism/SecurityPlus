@@ -1,9 +1,9 @@
 ---
-tags: [firstTag, secondTag]
+tags: [GRC, NWL]
 ---
 # EXAM OBJECTIVES COVERED
 
-3.9 Given a scenario, implement public key infrastructure
+3.9 Given a scenario, implement public key infrastructure[[PKI]]
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security (OpenSSL only)
 
