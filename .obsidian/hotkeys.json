@@ -42,5 +42,21 @@
       "key": "ArrowLeft"
     }
   ],
-  "editor:open-link-in-new-leaf": []
+  "editor:open-link-in-new-leaf": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ]
 }

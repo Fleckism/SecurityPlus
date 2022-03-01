@@ -30,7 +30,7 @@ Another way to use M-of-N control is to split a key between several storage devi
 If the key used to decrypt data is lost or damaged, the encrypted data cannot be recovered unless a backup of the key has been made. A significant problem with key storage is that if you make multiple backups of a key, it is exponentially more difficult to ensure that the key is not compromised. However, if the key is not backed up, the storage system represents a single point of failure. Key recovery defines a secure process for backing up keys and/or recovering data encrypted with a lost key. This process might use _M_-of-_N_ control to prevent unauthorized access to (and use of) the archived keys. Escrow means that something is held independently. In terms of key management, this refers to archiving a key (or keys) with a third party. This is a useful solution for organizations that don't have the capability to store keys securely themselves, but it invests a great deal of trust in the third party.
 # CERTIFICATE EXPIRATION
 
-Certificates are issued with a limited duration, as set by the CA policy for the certificate type. Root certificates might have long expiration dates (10+ years), whereas web server and user certificates might be issued for 1 year only. Typically, a certificate is renewed before it expires. Where a user is in possession of a valid certificate, less administration is required (in terms of checking identity) than with a request for a new certificate. When you are renewing a certificate, it is possible to use the existing key (referred to specifically as _certificate renewal_) or generate a new key (the certificate is _rekeyed_). A new key might be generated if the old one was no longer considered long enough or if any compromise of the key was feared.
+Certificates are issued with a limited duration, as set by the [[CA]] policy for the certificate type. Root certificates might have long expiration dates (10+ years), whereas web server and user certificates might be issued for 1 year only. Typically, a certificate is renewed before it expires. Where a user is in possession of a valid certificate, less administration is required (in terms of checking identity) than with a request for a new certificate. When you are renewing a certificate, it is possible to use the existing key (referred to specifically as **_certificate renewal_**) or generate a new key (the certificate is **_rekeyed_**). A new key might be generated if the old one was no longer considered long enough or if any compromise of the key was feared.
 
 When a certificate expires, there is the question of what to do with the key pair that it represents. A key can either be archived or destroyed. Destroying the key offers more security, but has the drawback that any data encrypted using the key will be unreadable. Whether a key is archived or destroyed will largely depend on how the key was used. In software terms, a key can be destroyed by overwriting the data (merely deleting the data is not secure). A key stored on hardware can be destroyed by a specified erase procedure or by destroying the device.
 # CERTIFICATE REVOCATION LISTS
@@ -42,7 +42,7 @@ A certificate may be revoked or suspended:
 
 A certificate may be revoked or suspended by the owner or by the CA for many reasons. For example, the certificate or its private key may have been compromised, the business could have closed, a user could have left the company, a domain name could have been changed, the certificate could have been misused in some way, and so on. These reasons are codified under choices such as Unspecified, Key Compromise, CA Compromise, Superseded, or Cessation of Operation. A suspended key is given the code Certificate Hold. 
 
-It follows that there must be some mechanism for informing users whether a certificate is valid, revoked, or suspended. CAs must maintain a **certificate** revocation list (CRL) of all revoked and suspended certificates, which can be distributed throughout the hierarchy. 
+It follows that there must be some mechanism for informing users whether a certificate is valid, revoked, or suspended. CAs must maintain a **certificate revocation list (CRL)** of all revoked and suspended certificates, which can be distributed throughout the hierarchy. 
 
 ![sy0-601 windows server crl.png](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/sy0-601%20windows%20server%20crl.png)
 
@@ -50,35 +50,35 @@ CRLs published by Windows Certificate Services—The current CRL contains one re
 
 A CRL has the following attributes:
 
--   Publish period—the date and time on which the CRL is published. Most CAs are set up to publish the CRL automatically.
--   Distribution point(s)—the location(s) to which the CRL is published.
--   Validity period—the period during which the CRL is considered authoritative. This is usually a bit longer than the publish period (for example, if the publish period was every 24 hours, the validity period might be 25 hours).
--   Signature—the CRL is signed by the CA to verify its authenticity.
+-   **Publish period**—the date and time on which the CRL is published. Most CAs are set up to publish the CRL automatically.
+-   **Distribution point(s)**—the location(s) to which the CRL is published.
+-   **Validity period**—the period during which the CRL is considered authoritative. This is usually a bit longer than the publish period (for example, if the publish period was every 24 hours, the validity period might be 25 hours).
+-   **Signature**—the CRL is signed by the CA to verify its authenticity.
 
-With the CRL system, there is a risk that the certificate might be revoked but still accepted by clients because an up-to-date CRL has not been published. A further problem is that the browser (or other application) may not be configured to perform CRL checking, although this now tends to be the case only with legacy browser software.
+With the CRL system, there is a risk that the certificate might be revoked but still accepted by clients because an up-to-date CRL has not been published. A further problem is that the browser (or other application) may not be **configured to perform CRL checking**, although this now tends to be the case only with legacy browser software.
 # ONLINE CERTIFICATE STATUS PROTOCOL RESPONDERS
 
-Another means of providing up-to-date information is to check the certificate's status on an Online Certificate Status Protocol (OCSP) server, referred to as an _OCSP responder._ Rather than return a whole CRL, this just communicates the status of the requested certificate. Details of the OCSP responder service should be published in the certificate.
+Another means of providing up-to-date information is to check the certificate's status on an **Online Certificate Status Protocol (OCSP) server, referred to as an _OCSP responder**._ Rather than return a whole CRL, this just communicates the status of the requested certificate. Details of the OCSP responder service should be published in the certificate.
 
 Most OCSP servers can query the certificate database directly and obtain the real-time status of a certificate. Other OCSP servers actually depend on the CRLs and are limited by the CRL publishing interval.
 
 One of the problems with OCSP is that the job of responding to requests is resource intensive and can place high demands on the issuing CA running the OCSP responder. There is also a privacy issue, as the OCSP responder could be used to monitor and record client browser requests. OCSP stapling resolves these issues by having the SSL/TLS web server periodically obtain a time-stamped OCSP response from the CA. When a client submits an OCSP request, the web server returns the time-stamped response, rather than making the client contact the OCSP responder itself.
 # CERTIFICATE PINNING
 
-When certificates are used by a transport protocol, such as SSL/TLS, there is a possibility that the chain of trust among the client, the server, and whatever intermediate and root CAs have provided certificates can be compromised. If an adversary can substitute a malicious but trusted certificate into the chain (using some sort of proxy or Man-in-the-Middle attack), they could be able to snoop on the supposedly secure connection.
+When certificates are used by a transport protocol, such as SSL/TLS, there is a possibility that the chain of trust among the client, the server, and whatever intermediate and root CAs have provided certificates can be compromised. If an adversary can substitute a malicious but trusted certificate into the chain (using some sort of proxy or [[MITM|Man-in-the-Middle attack]]), they could be able to snoop on the supposedly secure connection.
 
-Pinning refers to several techniques to ensure that when a client inspects the certificate presented by a server or a code-signed application, it is inspecting the proper certificate. This might be achieved by embedding the certificate data in the application code, or by submitting one or more public keys to an HTTP browser via an HTTP header, which is referred to as _HTTP Public Key Pinning (HPKP)._
+Pinning refers to several techniques to ensure that when a client inspects the certificate presented by a server or a code-signed application, it is inspecting the proper certificate. This might be achieved by embedding the certificate data in the application code, or by submitting one or more public keys to an HTTP browser via an HTTP header, which is referred to as _HTTP Public Key Pinning (**HPKP**)._
 
-HPKP has serious vulnerabilities and has been deprecated ([developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning)). The replacement mechanism is the Certificate Transparency Framework.
+**HPKP has serious vulnerabilities and has been deprecated** ([developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning)). The replacement mechanism is the Certificate Transparency Framework.
 # CERTIFICATE FORMATS
 
 There are various formats for encoding a certificate as a digital file for exchange between different systems. 
 
 ### Encoding
 
-Cryptographic data—both certificates and keys—are processed as binary using Distinguished Encoding Rules (DER). Binary format files are not commonly used, however.
+Cryptographic data—both certificates and keys—are processed as binary using Distinguished Encoding Rules (**DER**). Binary format files are not commonly used, however.
 
-More typically, the binary data is represented as ASCII text characters using Base64 Privacy-enhanced Electronic Mail (PEM) encoding. ASCII-format data has descriptive headers, such as the "BEGIN CERTIFICATE" string.
+More typically, the binary data is represented as ASCII text characters using Base64 Privacy-enhanced Electronic Mail (**PEM**) encoding. ASCII-format data has descriptive headers, such as the "BEGIN CERTIFICATE" string.
 
 ![A Notepad window shows "-----BEGIN CERTIFICATE-----" and then lines of characters with no spaces, including "...AApgTb2LH7xb/gAAAAAC…"](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/4926-1599771798794.png)
 
@@ -88,14 +88,14 @@ Base64-encoded .CER file opened in Notepad. (Screenshot used with permission fro
 
 A three character file extension is a _convention,_ not a standard, and unfortunately file extensions do not always map cleanly to the type of encoding used within a certificate file, or even to the contents of a certificate file. The only certain way to check is to open it in a text editor.
 
--   Both .DER and .PEM can be used as file extensions, although the latter is not recognized by Windows. .PEM is the most widely used extension for ASCII format files in Linux.
--   The .CRT and .CER extensions can also be used, but they are not well-standardized. Most of the confusion arises from the way Windows handles certificates. In Linux, .CRT is most likely to represent an ASCII certificate. In Windows, the most common extension is .CER, but this does not tell you whether the file format is binary or ASCII.
+-   **Both .DER and .PEM** can be used as file extensions, although the latter is not recognized by Windows. .PEM is the most widely used extension for ASCII format files in Linux.
+-   The **.CRT and .CER** extensions can also be used, but they are not well-standardized. Most of the confusion arises from the way Windows handles certificates. In Linux, .CRT is most likely to represent an ASCII certificate. In Windows, the most common extension is .CER, but this does not tell you whether the file format is binary or ASCII.
 
 ### Contents
 
 A certificate file can also contain more than just a single certificate:
 
--   The PKCS #12 format allows the export of the private key with the certificate. This would be used either to transfer a private key to a host that could not generate its own keys, or to back up/archive a private key. This type of file format is usually password-protected and always binary. On Windows, these usually have a .PFX extension, while MacOS and iOS use .P12. In Linux, the certificate and key are usually stored in separate files.
+-   The **PKCS** #12 format allows the export of the private key with the certificate. This would be used either to transfer a private key to a host that could not generate its own keys, or to back up/archive a private key. This type of file format is usually password-protected and always binary. On Windows, these usually have a **.PFX extension**, while MacOS and iOS use .P12. In Linux, the certificate and key are usually stored in separate files.
 -   The P7B format implements PKCS #7, which is a means of bundling multiple certificates in the same file. It is typically in ASCII format. This is most often used to deliver a chain of certificates that must be trusted by the processing host. It is associated with the use of S/MIME to encrypt email messages. P7B files do not contain the private key. In Linux, the .PEM extension is very widely used for certificate chains.
 # OpenSSL
 
@@ -121,11 +121,11 @@ This example is simplified. Using a root CA to issue leaf certificates directly 
 
 ### Certificate Signing Requests
 
-To configure a certificate on a host, create a certificate signing request (CSR) with a new key pair. This command is run on the web server:
+To configure a certificate on a host, create a certificate signing request (**CSR**) with a new key pair. This command is run on the web server:
 
 openssl req -nodes -new -newkey rsa:2048 -out www.csr -keyout www.key
 
-Having run the command, you then complete the prompts to enter the subject information for the certificate, taking care to match the common name (CN) to the FQDN by which clients access the server. This key is created without a password, which would have to be input at any restart of the web server application. We can rely on general access control security measures to protect the key.
+Having run the command, you then complete the prompts to enter the subject information for the certificate, taking care to match the common name (**CN**) to the **FQDN** by which clients access the server. This key is created without a password, which would have to be input at any restart of the web server application. We can rely on general access control security measures to protect the key.
 
 This CSR file must then be transmitted to the CA server. On the CA, run the following command to sign the CSR and output the X.509 certificate:
 

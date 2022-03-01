@@ -8,3 +8,5 @@ The functions of a CA are as follows:
 -   Establish trust in the CA by users and government and regulatory authorities and enterprises, such as financial institutions.
 -   Manage the servers (repositories) that store and administer the certificates.
 -   Perform key and certificate lifecycle management, notably revoking invalid certificates.
+**Add things from [[6A Certificates and  Certificate Authorities]] and [[6B PKI Management]]**
+**Add acronyms from above into file with no links**

@@ -6,5 +6,6 @@
   "obsidian-collapse-all-plugin",
   "templater-obsidian",
   "cm-editor-syntax-highlight-obsidian",
-  "sliding-panes-obsidian"
+  "sliding-panes-obsidian",
+  "obsidian-sidebar-expand-on-hover"
 ]

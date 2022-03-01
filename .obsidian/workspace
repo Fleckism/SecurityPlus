@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/6B PKI Management.md",
+            "file": "SecurityPlus/7A Authentication Design Concepts.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/symmetric.md",
+            "file": "My linked notes/CA.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"DLLs\"",
+                "query": "\"OpenSSL\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 252,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/6B PKI Management.md",
+                "file": "SecurityPlus/7A Authentication Design Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,19 +121,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 252,
+    "collapsed": true
   },
   "active": "ef4509507cacb8d6",
   "lastOpenFiles": [
+    "SecurityPlus/7A Authentication Design Concepts.md",
     "SecurityPlus/6B PKI Management.md",
+    "My linked notes/CA.md",
     "My linked notes/symmetric.md",
     "My linked notes/asymmetric.md",
     "SecurityPlus/6A Certificates and  Certificate Authorities.md",
     "My linked notes/Attack.md",
     "My notes_______________________________.md",
     "My linked notes/FQDN.md",
-    "My linked notes/PKI.md",
-    "Markdown Notes.md",
-    "My linked notes/CA.md"
+    "My linked notes/PKI.md"
   ]
 }
