@@ -17,6 +17,19 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "3a0564bf4077015a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Attack.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/7B knowledge-Based Authentication.md",
+                "file": "My linked notes/Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +124,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "a1a8a70392bf6762",
+  "active": "3a0564bf4077015a",
   "lastOpenFiles": [
+    "My linked notes/Attack.md",
     "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/Acronyms/IoC.md",
     "My linked notes/Authentication.md",
     "SecurityPlus/7A Authentication Design Concepts.md",
     "Key Security Terms Definitions.md",
     "SecurityPlus/6B PKI Management.md",
     "My linked notes/CA.md",
     "My linked notes/symmetric.md",
-    "My linked notes/asymmetric.md",
-    "SecurityPlus/6A Certificates and  Certificate Authorities.md",
-    "My linked notes/Attack.md"
+    "My linked notes/asymmetric.md"
   ]
 }

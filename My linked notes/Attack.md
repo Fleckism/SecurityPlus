@@ -26,6 +26,7 @@ Types of attacks
 - padding oracle
 - downgrade attack
 - brute force
+	- horizontal 
 - dictionary attack
 - birthday 
 - 

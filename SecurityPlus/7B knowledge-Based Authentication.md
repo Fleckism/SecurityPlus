@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [OIR, attack, A_D]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -14,28 +14,28 @@ _Knowledge-based authentication_ refers primarily to issuing users with password
 
 One of the most important features of an operating system is the _authentication provider,_ which is the software architecture and code that underpins the mechanism by which the user is authenticated before starting a shell. This is usually described as a login (Linux) or a logon or sign-in (Microsoft). Knowledge-based authentication, using a password or personal identification number (PIN), is the default authentication provider for most operating systems.
 
-Knowledge-based authentication relies on cryptographic hashes. A plaintext password is not usually transmitted or stored in a credential database because of the risk of compromise. Instead, the password is stored as a cryptographic hash. When a user enters a password to log in, an authenticator converts what is typed into a hash and transmits that to an authority. The authority compares the submitted hash to the one in the database and authenticates the subject only if they match.
+Knowledge-based authentication relies on cryptographic [[hash|hashes]]. A plaintext password is not usually transmitted or stored in a credential database because of the risk of compromise. Instead, the password is stored as a cryptographic hash. When a user enters a password to log in, an authenticator converts what is typed into a hash and transmits that to an authority. The authority compares the submitted hash to the one in the database and authenticates the subject only if they match.
 
 ### Windows Authentication
 
 Windows authentication involves a complex architecture of components ([docs.microsoft.com/en-us/windows-server/security/windows-authentication/credentials-processes-in-windows-authentication](https://docs.microsoft.com/en-us/windows-server/security/windows-authentication/credentials-processes-in-windows-authentication)), but the following three scenarios are typical:
 
--   Windows local sign-in—the Local Security Authority (LSA) compares the submitted credential to a hash stored in the Security Accounts Manager (SAM) database, which is part of the registry. This is also referred to as _interactive logon._
--   Windows network sign-in—the LSA can pass the credentials for authentication to a network service. The preferred system for network authentication is based on Kerberos, but legacy network applications might use NT LAN Manager (NTLM) authentication.
--   Remote sign-in—if the user's device is not connected to the local network, authentication can take place over some type of virtual private network (VPN) or web portal.
+-   Windows local sign-in—the Local Security Authority ([[LSA]]) compares the submitted credential to a hash stored in the Security Accounts Manager ([[SAM]]) database, which is part of the registry. This is also referred to as _interactive logon._
+-   Windows network sign-in—the LSA can pass the credentials for authentication to a network service. The preferred system for network authentication is based on Kerberos, but legacy network applications might use NT LAN Manager ([[NTLM]]) authentication.
+-   Remote sign-in—if the user's device is not connected to the local network, authentication can take place over some type of virtual private network ([[VPN]]) or web portal.
 
 ### Linux Authentication
 
 In Linux, local user account names are stored in /etc/passwd. When a user logs in to a local interactive shell, the password is checked against a hash stored in /etc/shadow. Interactive login over a network is typically accomplished using Secure Shell (SSH). With SSH, the user can be authenticated using cryptographic keys instead of a password.
 
-A pluggable authentication module (PAM) is a package for enabling different authentication providers, such as smart-card login ([tecmint.com/configure-pam-in-centos-ubuntu-linux](https://www.tecmint.com/configure-pam-in-centos-ubuntu-linux/)). The PAM framework can also be used to implement authentication to network servers.
+A pluggable authentication module ([[PAM]]) is a package for enabling different authentication providers, such as smart-card login ([tecmint.com/configure-pam-in-centos-ubuntu-linux](https://www.tecmint.com/configure-pam-in-centos-ubuntu-linux/)). The PAM framework can also be used to implement authentication to network servers.
 
 ### Single Sign-On (SSO)
 
-A single sign-on (SSO) system allows the user to authenticate once to a local device and be authenticated to compatible application servers without having to enter credentials again. In Windows, SSO is provided by the Kerberos framework.
+A single sign-on ([[SSO]]) system allows the user to authenticate once to a local device and be authenticated to compatible application servers without having to enter credentials again. In Windows, SSO is provided by the Kerberos framework.
 # KERBEROS AUTHENTICATION
 
-Kerberos is a single sign-on network authentication and authorization protocol used on many networks, notably as implemented by Microsoft's Active Directory (AD) service. Kerberos was named after the three-headed guard dog of Hades (Cerberus) because it consists of three parts. Clients request services from application servers, which both rely on an intermediary—a Key Distribution Center (KDC)—to vouch for their identity. There are two services that make up a KDC: the Authentication Service and the Ticket Granting Service. The KDC runs on port 88 using TCP or UDP.
+Kerberos is a single sign-on network authentication and authorization protocol used on many networks, notably as implemented by Microsoft's Active Directory ([[AD]]) service. Kerberos was named after the three-headed guard dog of Hades (Cerberus) because it consists of three parts. Clients request services from application servers, which both rely on an intermediary—a Key Distribution Center ([[KDC]])—to vouch for their identity. There are two services that make up a KDC: the Authentication Service and the Ticket Granting Service. The KDC runs on [[port]] 88 using [[TCP]] or UDP.
 
 ![Diagram of the Kerberos Authentication Service.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8226-1599771799055.png)
 
@@ -43,7 +43,7 @@ Kerberos Authentication Service. (Images © 123RF.com.)
 
 The Authentication Service is responsible for authenticating user logon requests. More generally, users and services can be authenticated; these are collectively referred to as _principals._ For example, when you sit at a Windows domain workstation and log on to a realm (or domain), the first step of logon is to authenticate with a KDC server, implemented as a domain controller.
 
-1.  The client sends the authentication service (AS) a request for a Ticket Granting Ticket (TGT). This is composed by encrypting the date and time on the local computer with the user's password hash as the key. 
+1.  The client sends the authentication service ([[AS]]) a request for a Ticket Granting Ticket ([[TGT]]). This is composed by encrypting the date and time on the local computer with the user's password hash as the key. 
 
 The password hash itself is not transmitted over the network. Also, although we refer to passwords for simplicity, the system can use other authentication providers, such as smart-card logon.
 
@@ -52,7 +52,7 @@ The Ticket Granting Ticket (TGT; or user ticket) is time-stamped (under Windows,
 2.  The AS checks that the user account is present, that it can decode the request by matching the user's password hash with the one in the Active Directory database, and that the request has not expired. If the request is valid, the AS responds with the following data:
 
 -   Ticket Granting Ticket (TGT)—this contains information about the client (name and IP address) plus a timestamp and validity period. This is encrypted using the KDC's secret key.
--   TGS session key for use in communications between the client and the Ticket Granting Service (TGS). This is encrypted using a hash of the user's password.
+-   TGS session key for use in communications between the client and the Ticket Granting Service ([[TGS]]). This is encrypted using a hash of the user's password.
 
 The TGT is an example of a logical token. All the TGT does is identify who you are and confirm that you have been authenticated—it does not provide you with access to any domain resources.
 # KERBEROS AUTHORIZATION 
@@ -77,7 +77,7 @@ Kerberos Ticket Granting Service. (Images © 123RF.com.)
 5.  The application server decrypts the service ticket to obtain the service session key using its secret key, confirming that the client has sent an untampered message. It then decrypts the authenticator using the service session key.
 6.  Optionally, the application server responds to the client with the timestamp used in the authenticator, which is encrypted by using the service session key. The client decrypts the timestamp and verifies that it matches the value already sent, and concludes that the application server is trustworthy.  
       
-    This means that the server is authenticated to the client (referred to as _mutual authentication_). This prevents a man-in-the-middle attack, where a malicious user could intercept communications between the client and server.
+    This means that the server is authenticated to the client (referred to as _mutual authentication_). This prevents a man-in-the-middle [[MITH]] attack, where a malicious user could intercept communications between the client and server.
 7.  The server now responds to client requests (assuming they conform to the server's access control list).
 
 The data transfer itself is not encrypted (at least as part of Kerberos; some sort of transport encryption can be deployed).
@@ -89,15 +89,15 @@ Kerberos is designed to work over a trusted local network. Several authenticatio
 
 ### Password Authentication Protocol (PAP)
 
-The Password Authentication Protocol (PAP) is an unsophisticated authentication method developed as part of the Point-to-Point Protocol (PPP), used to transfer TCP/IP data over serial or dial-up connections. It is also used as the basic authentication mechanism in HTTP. It relies on clear text password exchange and is therefore obsolete for most purposes, except through an encrypted tunnel.
+The Password Authentication Protocol ([[PAP]]) is an unsophisticated authentication method developed as part of the Point-to-Point Protocol ([[PPP]]), used to transfer TCP/IP data over serial or dial-up connections. It is also used as the basic authentication mechanism in HTTP. It relies on clear text password exchange and is therefore obsolete for most purposes, except through an encrypted tunnel.
 
 ### Challenge Handshake Authentication Protocol (CHAP)
 
-The Challenge Handshake Authentication Protocol (CHAP) was also developed as part of PPP as a means of authenticating users over a remote link. CHAP relies on an encrypted challenge in a system called a _three-way handshake._
+The Challenge Handshake Authentication Protocol ([[CHAP]]) was also developed as part of PPP as a means of authenticating users over a remote link. CHAP relies on an encrypted challenge in a system called a _three-way handshake._
 
-1.  Challenge—the server challenges the client, sending a randomly generated challenge message.
-2.  Response—the client responds with a hash calculated from the server challenge message and client password (or other shared secret).
-3.  Verification—the server performs its own hash using the password hash stored for the client. If it matches the response, then access is granted; otherwise, the connection is dropped.
+1.  **Challenge**—the server challenges the client, sending a randomly generated challenge message.
+2.  **Response**—the client responds with a hash calculated from the server challenge message and client password (or other shared secret).
+3.  **Verification**—the server performs its own hash using the password hash stored for the client. If it matches the response, then access is granted; otherwise, the connection is dropped.
 
 The handshake is repeated with a different challenge message periodically during the connection (although transparent to the user). This guards against _replay attacks,_ in which a previous session could be captured and reused to gain access.
 
