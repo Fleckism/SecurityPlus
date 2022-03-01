@@ -7,26 +7,26 @@ tags: [GRC, NWL]
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security (OpenSSL only)
 
-As a security professional, you are very likely to have to install and maintain public key infrastructure (PKI) certificate services for private networks. You may also need to obtain and manage certificates from public PKI providers. This topic will help you to install and configure PKI and to troubleshoot and revoke certificates.
+As a security professional, you are very likely to have to install and maintain public key infrastructure (PKI) certificate services for private networks. **You may also need to obtain and manage certificates from public PKI providers.** This topic will help you to install and configure PKI and to troubleshoot and revoke certificates.
 # CERTIFICATE AND KEY MANAGEMENT 
 
-_Key management_ refers to operational considerations for the various stages in a key's life cycle. A key's life cycle may involve the following stages:
+**_Key management_ refers to operational considerations for the various stages in a key's life cycle. A key's life cycle may involve the following stages:**
 
--   Key generation—creating a secure key pair of the required strength, using the chosen cipher.
--   Certificate generation—to identify the public part of a key pair as belonging to a subject (user or computer), the subject submits it for signing by the CA as a digital certificate with the appropriate key usage. At this point, it is critical to verify the identity of the subject requesting the certificate and only issue it if the subject passes identity checks.
--   Storage—the user must take steps to store the private key securely, ensuring that unauthorized access and use is prevented. It is also important to ensure that the private key is not lost or damaged.
--   Revocation—if a private key is compromised, the key pair can be revoked to prevent users from trusting the public key.
--   Expiration and renewal—a key pair that has not been revoked expires after a certain period. Giving the key or certificate a "shelf-life" increases security. Certificates can be renewed with new key material.
+-   **Key generation**—creating a secure key pair of the required strength, using the chosen cipher.
+-   **Certificate generation**—to identify the public part of a key pair as belonging to a subject (user or computer), the subject submits it for signing by the CA as a digital certificate with the appropriate key usage. At this point, it is critical to verify the identity of the subject requesting the certificate and only issue it if the subject passes identity checks.
+-   **Storage**—the user must take steps to store the private key securely, ensuring that unauthorized access and use is prevented. It is also important to ensure that the private key is not lost or damaged.
+-   **Revocation**—if a private key is compromised, the key pair can be revoked to prevent users from trusting the public key.
+-   **Expiration and renewal**—a key pair that has not been revoked expires after a certain period. Giving the key or certificate a "shelf-life" increases security. Certificates can be renewed with new key material.
 
-Key management can be _centralized,_ meaning that one administrator or authority controls the process, or _decentralized,_ in which each user is responsible for his or her keys.
+**Key management can be _centralized,_ meaning that one administrator or authority controls the process, or _decentralized,_ in which each user is responsible for his or her keys.**
 
-Certificate and key management can represent a critical vulnerability if not managed properly. If an attacker can obtain a private key, it puts both data confidentiality and identification/authentication systems at risk. If an attacker gains the ability to create signed certificates that appear to be valid, it will be easy to harvest huge amounts of information from the network as the user and computer accounts he or she sets up will be automatically trusted. Finally, if a key used for encryption is accidentally destroyed, the data encrypted using that key will be inaccessible, unless there is a backup or key recovery mechanism.
+Certificate and key management can represent a **critical vulnerability if not managed properly**. If an attacker can obtain a private key, it puts both data confidentiality and identification/authentication systems at risk. If an attacker gains the ability to create signed certificates that appear to be valid, it will be easy to harvest huge amounts of information from the network as the user and computer accounts he or she sets up will be automatically trusted. Finally, if a key used for encryption is accidentally destroyed, the data encrypted using that key will be inaccessible, unless there is a backup or key recovery mechanism.
 # KEY RECOVERY AND ESCROW 
 
-Keys such as the private key of a root CA must be subject to the highest possible technical and procedural access controls. If such a key were compromised, it would put the confidentiality and integrity of data processed by hundreds or thousands of systems at risk. Access to such critical encryption keys must be logged and audited and is typically subject to _M_-of-_N_ control, meaning that of _N_ number of administrators permitted to access the system, _M_ must be present for access to be granted. _M_ must be greater than 1, and _N_ must be greater than _M._ For example, when _M_ = 2 and _N_ = 4, any two of four administrators must be present. Staff authorized to perform key management must be carefully vetted, and due care should be taken if these employees leave the business.
+Keys such as the [[symmetric|private key]] of a root [[CA]] must be subject to the highest possible technical and procedural access controls. If such a key were compromised, it would put the confidentiality and integrity of data processed by hundreds or thousands of systems at risk. Access to such critical encryption keys must be logged and audited and is typically subject to **_M_-of-_N_ control, meaning that of _N_ number of administrators permitted to access the system, _M_ must be present for access to be granted. _M_ must be greater than 1, and _N_ must be greater than _M._ For example, when _M_ = 2 and _N_ = 4, any two of four administrators must be present.** Staff authorized to perform key management must be carefully vetted, and due care should be taken if these employees leave the business.
 
-Another way to use M-of-N control is to split a key between several storage devices (such as three USB sticks, any two of which could be used to recreate the full key).
-
+Another way to use M-of-N control is to split a key between several storage devices (**such as three USB sticks, any two of which could be used to recreate the full key**).
+#zFleck
 If the key used to decrypt data is lost or damaged, the encrypted data cannot be recovered unless a backup of the key has been made. A significant problem with key storage is that if you make multiple backups of a key, it is exponentially more difficult to ensure that the key is not compromised. However, if the key is not backed up, the storage system represents a single point of failure. Key recovery defines a secure process for backing up keys and/or recovering data encrypted with a lost key. This process might use _M_-of-_N_ control to prevent unauthorized access to (and use of) the archived keys. Escrow means that something is held independently. In terms of key management, this refers to archiving a key (or keys) with a third party. This is a useful solution for organizations that don't have the capability to store keys securely themselves, but it invests a great deal of trust in the third party.
 # CERTIFICATE EXPIRATION
 

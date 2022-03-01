@@ -6,14 +6,16 @@
       {
         "id": "ef4509507cacb8d6",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+            "file": "SecurityPlus/6B PKI Management.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       },
       {
@@ -22,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/asymmetric.md",
+            "file": "My linked notes/symmetric.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -71,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+                "file": "SecurityPlus/6B PKI Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,15 +124,15 @@
   },
   "active": "ef4509507cacb8d6",
   "lastOpenFiles": [
-    "SecurityPlus/6A Certificates and  Certificate Authorities.md",
     "SecurityPlus/6B PKI Management.md",
-    "My linked notes/FQDN.md",
+    "My linked notes/symmetric.md",
     "My linked notes/asymmetric.md",
-    "My linked notes/PKI.md",
+    "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+    "My linked notes/Attack.md",
     "My notes_______________________________.md",
+    "My linked notes/FQDN.md",
+    "My linked notes/PKI.md",
     "Markdown Notes.md",
-    "My linked notes/CA.md",
-    "SecurityPlus/7A Authentication Design Concepts.md",
-    "My linked notes/Integrity.md"
+    "My linked notes/CA.md"
   ]
 }

@@ -15,6 +15,7 @@ tags: [OIR, Attack]
 		- Have page for defenses
 		- Vulnerabilities
 	- [[AIC or CIA]]
+	- DLLs 
 
 
 # Assisted Labs
