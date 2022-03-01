@@ -41,7 +41,7 @@ The certificate authority (CA) is the entity responsible for issuing and guarant
 Microsoft Windows Server CA. (Screenshot used with permission from Microsoft.)
 # PKI TRUST MODELS
 
-The _trust model_ is a critical PKI concept, and shows how users and different CAs are able to trust one another.
+The _trust model_ is a critical [[PKI]] concept, and shows how users and different CAs are able to trust one another.
 
 ### Single CA
 

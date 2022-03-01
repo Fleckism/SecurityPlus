@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/asymmetric.md",
+            "file": "My linked notes/PKI.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "certificate",
+                "query": "\"CA\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +73,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -126,14 +127,14 @@
   "active": "be67eec7894cb0e7",
   "lastOpenFiles": [
     "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+    "My linked notes/PKI.md",
+    "My linked notes/CA.md",
     "My linked notes/asymmetric.md",
     "SecurityPlus/7A Authentication Design Concepts.md",
     "My linked notes/Integrity.md",
     "My linked notes/security control.md",
     "My linked notes/Security Acronyms no links.md",
     "SecurityPlus/5D Other Cryptographic Technologies.md",
-    "My linked notes/reconnaissance.md",
-    "SecurityPlus/3A Assess Organizational Security L3a.md",
-    "My linked notes/Acronyms/TCP.md"
+    "My linked notes/reconnaissance.md"
   ]
 }
