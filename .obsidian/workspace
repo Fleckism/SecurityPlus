@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Attack.md",
+                "file": "SecurityPlus/7B knowledge-Based Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,10 +124,10 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "3a0564bf4077015a",
+  "active": "a1a8a70392bf6762",
   "lastOpenFiles": [
-    "My linked notes/Attack.md",
     "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/Attack.md",
     "My linked notes/Acronyms/IoC.md",
     "My linked notes/Authentication.md",
     "SecurityPlus/7A Authentication Design Concepts.md",
