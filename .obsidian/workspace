@@ -7,8 +7,13 @@
         "id": "3a0564bf4077015a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/3A Assess Organizational Security L3a.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -58,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -75,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SecurityPlus/3A Assess Organizational Security L3a.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,11 +106,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
   "active": "3a0564bf4077015a",
   "lastOpenFiles": [
+    "SecurityPlus/3A Assess Organizational Security L3a.md",
     "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
     "SecurityPlus/6B PKI Management.md",
     "SecurityPlus/5D Other Cryptographic Technologies.md",
@@ -114,7 +119,6 @@
     "My linked notes/HSM.md",
     "My linked notes/PKI.md",
     "My linked notes/Authentication.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "My linked notes/Attack.md"
+    "SecurityPlus/7B knowledge-Based Authentication.md"
   ]
 }
