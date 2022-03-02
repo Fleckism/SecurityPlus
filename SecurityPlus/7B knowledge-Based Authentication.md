@@ -149,7 +149,7 @@ A dictionary attack can be used where there is a good chance of guessing the lik
 
 ### Hybrid Attack
 
-A hybrid password attack uses a combination of attack methods when trying to crack a password. A typical hybrid password attack uses a combination of dictionary and brute force attacks. It is principally targeted against naïve passwords with inadequate complexity, such as james1. The password cracking algorithm tests dictionary words and names in combination with a mask that limits the number of variations to test for, such as adding numeric prefixes and/or suffixes. Other types of algorithms can be applied, based on what hackers know about how users behave when forced to select complex passwords that they don't really want to make hard to remember. Other examples might include substituting "s" with "5" or "o" with "0."
+A hybrid password attack uses a combination of attack methods when trying to crack a password. **A typical hybrid password attack uses a combination of dictionary and brute force attacks**. It is principally targeted against naïve passwords with inadequate complexity, such as james1. The password cracking algorithm tests dictionary words and names in combination with a mask that limits the number of variations to test for, such as adding numeric prefixes and/or suffixes. Other types of algorithms can be applied, based on what hackers know about how users behave when forced to select complex passwords that they don't really want to make hard to remember. Other examples might include substituting "s" with "5" or "o" with "0."
 # PASSWORD CRACKERS
 
 Although there are some Windows tools, including the infamous Cain and L0phtcrack ([l0phtcrack.com](https://www.l0phtcrack.com/)) tools, most password crackers run primarily on Linux. Additionally, John the Ripper is an open source tool used for fast password cracking. Its primary focus is UNIX-based operating systems, but also Windows LanMan (LM) hashes. For example, a tool such as Hashcat ([hashcat.net/hashcat](https://hashcat.net/hashcat/)) is run using the following general syntax:
@@ -171,18 +171,3 @@ Password managers can be implemented with a hardware token or as a software app:
 -   Password vault—software-based password manager, typically using a cloud service to allow access from any device ([pcmag.com/picks/the-best-password-managers](https://www.pcmag.com/picks/the-best-password-managers)). A USB key is also likely to use a vault for backup. Most operating systems and browsers implement native password vaults. Examples include Windows Credential Manager and Apple's iCloud Keychain ([imore.com/icloud-keychain](https://www.imore.com/icloud-keychain)).
 
 Authentication management products can be certified under the Federal Information Processing Standard (FIPS 140-2). This provides assurance that the cryptographic implementation meets a certain level of robustness.
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 

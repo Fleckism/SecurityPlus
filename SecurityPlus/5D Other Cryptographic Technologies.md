@@ -6,7 +6,7 @@ tags: [A_D, Implementation]
 2.8 Summarize the basics of cryptographic concepts
 
 # QUANTUM AND POST-QUANTUM
-#zFleck
+
 _Quantum_ refers to computers that use properties of quantum mechanics to significantly out-perform classical computers at certain tasks.
 
 ### Computing

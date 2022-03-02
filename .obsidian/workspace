@@ -4,31 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a1a8a70392bf6762",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/7B knowledge-Based Authentication.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
         "id": "3a0564bf4077015a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Attack.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -64,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"access control system\"",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +53,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -94,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/7B knowledge-Based Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +104,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "a1a8a70392bf6762",
+  "active": "3a0564bf4077015a",
   "lastOpenFiles": [
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "My linked notes/Attack.md",
-    "My linked notes/Acronyms/IoC.md",
-    "My linked notes/Authentication.md",
-    "SecurityPlus/7A Authentication Design Concepts.md",
-    "Key Security Terms Definitions.md",
+    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
     "SecurityPlus/6B PKI Management.md",
-    "My linked notes/CA.md",
-    "My linked notes/symmetric.md",
-    "My linked notes/asymmetric.md"
+    "SecurityPlus/5D Other Cryptographic Technologies.md",
+    "SecurityPlus/7D Biometrics Authentication.md",
+    "SecurityPlus/7C Authentication Technologies.md",
+    "My linked notes/HSM.md",
+    "My linked notes/PKI.md",
+    "My linked notes/Authentication.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/Attack.md"
   ]
 }

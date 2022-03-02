@@ -2,7 +2,7 @@
 tags: [, secondTag]
 ---
 # EXAM OBJECTIVES COVERED
-
+#zFleck
 2.4 Summarize authentication and authorization design concepts
 
 Biometric authentication mechanisms allow users to access an account through a physiological feature (fingerprint or iris pattern, for instance) or behavioral pattern. Being able to summarize the advantages and drawbacks of biometric mechanisms will allow you to support the deployment and use of these technologies.
