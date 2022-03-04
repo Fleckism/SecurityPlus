@@ -6,9 +6,16 @@
       {
         "id": "2be6d99f7e520f70",
         "type": "leaf",
+        "pinned": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/7C Authentication Technologies.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
         }
       }
     ],
@@ -53,8 +60,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -75,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SecurityPlus/7C Authentication Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +113,15 @@
   },
   "active": "2be6d99f7e520f70",
   "lastOpenFiles": [
+    "SecurityPlus/7C Authentication Technologies.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "SecurityPlus/7A Authentication Design Concepts.md",
     "My linked notes/tool.md",
     "My linked notes/asymmetric.md",
     "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
     "SecurityPlus/7D Biometrics Authentication.md",
     "My linked notes/Dark net.md",
     "My linked notes/Authentication.md",
-    "SecurityPlus/3A Assess Organizational Security L3a.md",
-    "SecurityPlus/6B PKI Management.md",
-    "SecurityPlus/5D Other Cryptographic Technologies.md",
-    "SecurityPlus/7C Authentication Technologies.md"
+    "SecurityPlus/3A Assess Organizational Security L3a.md"
   ]
 }

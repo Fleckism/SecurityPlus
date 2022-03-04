@@ -55,7 +55,7 @@ A knowledge factor is also used for account reset mechanisms. For example, to re
 
 ### Something You Have Authentication
 
-An _ownership factor_ means that the account holder possesses something that no one else does, such as a smart card, fob, or wristband programmed with a unique identity certificate or account number. Alternatively, they might have a USB fob that generates a unique code. These ownership factors can be described as hard tokens.
+An **_ownership** factor_ means that the account holder possesses something that no one else does, such as a **smart card, fob, or wristband** programmed with a unique identity certificate or account number. Alternatively, they might have a USB fob that generates a unique code. These ownership factors can be described as hard tokens.
 
 A device such as a smartphone can also be used to receive a uniquely generated access code as a soft token. Unlike a password, these tokens are valid for only one use, typically within a brief time window.
 
@@ -80,7 +80,7 @@ _Two-Factor Authentication ([[2FA]])_ combines either an ownership-based smart c
 Multifactor authentication requires a combination of different technologies. For example, requiring a PIN along with date of birth may be stronger than entering a PIN alone, but it is not multifactor.
 # AUTHENTICATION ATTRIBUTES
 
-Compared to the three main authentication factors, an authentication attribute is either a non-unique property or a factor that cannot be used independently. 
+Compared to the **three main authentication factors**, an authentication attribute is either a non-unique property or a factor that cannot be used independently. 
 
 ### Somewhere You Are Authentication
 
