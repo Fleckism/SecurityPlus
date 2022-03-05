@@ -15,6 +15,19 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "dc1bd481e1bd4f86",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/CA.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -112,6 +125,7 @@
   "active": "e69bb283a6413f53",
   "lastOpenFiles": [
     "SecurityPlus/8A Identity and Account Types.md",
+    "My linked notes/CA.md",
     "SecurityPlus/7D Biometrics Authentication.md",
     "Markdown Notes.md",
     "My notes_______________________________.md",
@@ -119,7 +133,6 @@
     "SecurityPlus/7B knowledge-Based Authentication.md",
     "SecurityPlus/7A Authentication Design Concepts.md",
     "My linked notes/tool.md",
-    "My linked notes/asymmetric.md",
-    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md"
+    "My linked notes/asymmetric.md"
   ]
 }

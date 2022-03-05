@@ -1,5 +1,5 @@
 ---
-tags: [GRC, secondTag]
+tags: [GRC, implementation]
 ---
 # ## 
 
@@ -23,27 +23,27 @@ In this lesson, you will:
 
 5.3 Explain the importance of policies to organizational security
 
-Least privilege is the principle at the heart of most organizational security policies. Identity and privilege management helps an organization to account for the actions of both regular and administrative users. These systems are complicated by the presence of default, shared, guest, and device account types that are difficult to associate with a single identity.
+**Least privilege** is the principle at the heart of most organizational security policies. Identity and privilege management helps an organization to account for the actions of both regular and administrative users. These systems are complicated by the presence of default, shared, guest, and device account types that are difficult to associate with a single identity.
 # IDENTITY MANAGEMENT CONTROLS
 
 On a private network, a digital identity can be represented by an account. The network administrator ensures the integrity of the server hosting the accounts, while each user is responsible for protecting the credentials so that only they can authenticate to the account and use it. On public networks and as an extra layer of protection on private networks, the account may also be identified by some cryptographic material.
 
 ### Certificates and Smart Cards
 
-Public key infrastructure (PKI) allows the management of digital identities, where a certificate authority (CA) issues certificates to validated subjects (users and servers). The subject identity can be trusted by any third party that also trusts the CA.
+Public key infrastructure ([[PKI]]) allows the management of digital identities, where a certificate authority ([[CA]]) issues certificates to **validated subjects (users and servers)**. The subject identity can be trusted by any third party that also trusts the CA.
 
-The certificate contains the subject's public key and is signed by the CA's private key. These public keys allow third parties to verify the certificate and the signature. The subject's public key is part of a pair with a linked private key. The private key must be kept secret. It can be stored on the computer, either in the file system or in a trusted platform module (TPM) chip. Alternatively, a user's certificate and private key can be stored on a smart card or USB key and used to authenticate to different PCs and mobile devices.
+**The certificate contains the subject's public key and is signed by the CA's private key**. These public keys allow third parties to verify the certificate and the signature. The **subject's public key** is part of a pair with a linked private key. The private key must be kept secret. It can be stored on the computer, either in the file system or in a trusted platform module ([[TPM]]) chip. Alternatively, a **user's certificate and private key** can be stored on a smart card or USB key and used to authenticate to different PCs and mobile devices.
 
 ### Tokens
 
-It is inconvenient for users to authenticate to each application they need to use. In a single sign-on system, the user authenticates to an identity provider (IdP) and receives a cryptographic token. The user can present that token to compatible applications as proof they are authenticated, and receive authorizations from the application. With a token, there is always a risk that a malicious actor will be able to capture and replay it. The application protocol that makes use of tokens must be designed to resist this type of attack.
+It is inconvenient for users to authenticate to each application they need to use. In a single sign-on system, the user authenticates to an identity provider ([[IdP]]) and receives a cryptographic token. The user can present that token to compatible applications as proof they are authenticated, and receive authorizations from the application. With a token, there is always a risk that a malicious actor will be able to capture and **replay** it. The application protocol that makes use of tokens must be designed to resist this type of attack.
 
 ### Identity Providers
 
 The identity provider is the service that provisions the user account and processes authentication requests. On a private network, these identity directories and application authorization services can be operated locally. The same site operates both identity provision and application provision. Most networks now make use of third-party cloud services, however. In this scenario, various protocols and frameworks are available to implement federated identity management across web-based services. This means that a user can create a digital identity with one provider, but other sites can use that identity to authorize use of an application.
 # BACKGROUND CHECK AND ONBOARDING POLICIES 
 
-Identity and access management (IAM) involves both IT/security procedures and technologies and Human Resources (HR) policies. Personnel management policies are applied in three phases:
+Identity and access management ([[IAM]]) involves both IT/security procedures and technologies and Human Resources (HR) policies. Personnel management policies are applied in three phases:
 
 -   Recruitment (hiring)—locating and selecting people to work in particular job roles. Security issues here include screening candidates and performing background checks.
 -   Operation (working)—it is often the HR department that manages the communication of policy and training to employees (though there may be a separate training and personal development department within larger organizations). As such, it is critical that HR managers devise training programs that communicate the importance of security to employees.
@@ -83,15 +83,15 @@ Separation of duties does not completely eliminate risk because there is still t
 
 ### Least Privilege
 
-Least privilege means that a user is granted sufficient rights to perform his or her job and no more. This mitigates risk if the account should be compromised and fall under the control of a threat actor. Authorization creep refers to a situation where a user acquires more and more rights, either directly or by being added to security groups and roles. Least privilege should be ensured by closely analyzing business workflows to assess what privileges are required and by performing regular account audits. 
+Least privilege means that a user is granted sufficient rights to perform his or her job and no more. This mitigates risk if the account should be compromised and fall under the control of a threat actor. **Authorization creep** refers to a situation where a user acquires more and more rights, either directly or by being added to security groups and roles. Least privilege should be ensured by closely analyzing business workflows to assess what privileges are required and by performing regular account audits. 
 
 ### Job Rotation
 
-Job rotation (or rotation of duties) means that no one person is permitted to remain in the same job for an extended period. For example, managers may be moved to different departments periodically, or employees may perform more than one job role, switching between them throughout the year. Rotating individuals into and out of roles, such as the firewall administrator or access control specialist, helps an organization ensure that it is not tied too firmly to any one individual because vital institutional knowledge is spread among trusted employees. Job rotation also helps prevent abuse of power, reduces boredom, and enhances individuals' professional skills. 
+Job rotation (or rotation of duties) means that no one person is permitted to remain in the same job for an extended period. For example, managers may be moved to different departments periodically, or employees may perform more than one job role, switching between them throughout the year. Rotating individuals into and out of roles, such as the firewall administrator or access control specialist, helps an organization ensure that it is not tied too firmly to any one individual because vital institutional knowledge is spread among trusted employees. **Job rotation also helps prevent abuse of power, reduces boredom, and enhances individuals' professional skills.** 
 
 ### Mandatory Vacation
 
-Mandatory vacation means that employees are forced to take their vacation time, during which someone else fulfills their duties. The typical mandatory vacation policy requires that employees take at least one vacation a year in a full-week increment so that they are away from work for at least five days in a row. During that time, the corporate audit and security employees have time to investigate and discover any discrepancies in employee activity.
+Mandatory vacation means that employees are forced to take their vacation time, during which someone else fulfills their duties. The typical mandatory vacation policy requires that employees take at least one vacation a year in a full-week increment so that they are away from work for at least five days in a row. **During that time, the corporate audit and security employees have time to investigate and discover any discrepancies in employee activity.**
 # OFFBOARDING POLICIES
 
 An exit interview (or offboarding) is the process of ensuring that an employee leaves a company gracefully. Offboarding is also used when a project using contractors or third parties ends. In terms of security, there are several processes that must be completed:
@@ -109,7 +109,7 @@ Standard users have limited privileges, typically with access to run programs an
 
 ### Credential Management Policies for Personnel
 
-Improper credential management continues to be one of the most fruitful vectors for network attacks. If an organization must continue to rely on password-based credentials, its usage needs to be governed by strong policies and training.
+**Improper credential management continues to be one of the most fruitful vectors for network attacks.** If an organization must continue to rely on password-based credentials, its usage needs to be governed by strong policies and training.
 
 A password policy instructs users on best practice in choosing and maintaining passwords. More generally, a credential management policy should instruct users on how to keep their authentication method secure, whether this be a password, smart card, or biometric ID. Password protection policies mitigate against the risk of attackers being able to compromise an account and use it to launch other attacks on the network. The credential management policy also needs to alert users to diverse types of social engineering attacks. Users need to be able to spot phishing and pharming attempts, so that they do not enter credentials into an unsecure form or spoofed site. 
 

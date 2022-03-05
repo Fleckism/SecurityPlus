@@ -3,6 +3,9 @@ tags: [GRC, ]
 ---
 certificate authority
 The functions of a CA are as follows:
+The certificate contains the 
+- subject's **public key** and is signed by the 
+- CA's **private key**
 -   Provide a range of certificate services useful to the community of users serviced by the CA.
 -   Ensure the validity of certificates and the identity of those applying for them (registration).
 -   Establish trust in the CA by users and government and regulatory authorities and enterprises, such as financial institutions.
