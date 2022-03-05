@@ -2,7 +2,7 @@
 - The tag.  # You can search by tags # weak relationship builder
 - Italics *Boom*
 - Bold **Boom**
-- List. - 
+- List. -    
 - Header # then space
 -  > Blockquote
 -  Below creates a table
@@ -14,7 +14,7 @@
 -  ==Highlight == 
 -  [Obsidian markdown cheatsheet] (https://www.markdownguide.org/cheat-sheet/)!
 Win + Shift + =: to commit all changes in Obsidian.
-
+Why is it not commiting to Git
 ctrl + p :  brings up Obsidian command line
 Control E previews the page
 
