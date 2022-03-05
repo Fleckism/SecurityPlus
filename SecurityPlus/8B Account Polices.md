@@ -45,19 +45,19 @@ The cartoon at [xkcd.com/936](https://xkcd.com/936) sums up the effect of polici
 
 One approach to a password hint is to treat it as a secondary password and submit a random but memorable phrase, rather than an "honest" answer. The risk in allowing password hints is demonstrated by the data recovered in the Adobe data breach ([nakedsecurity.sophos.com/2013/11/04/anatomy-of-a-password-disaster-adobes-giant-sized-cryptographic-blunder](https://nakedsecurity.sophos.com/2013/11/04/anatomy-of-a-password-disaster-adobes-giant-sized-cryptographic-blunder/)).
 
-Password reuse can also mean using a work password elsewhere (on a website, for instance). This sort of behavior can only be policed by soft policies.
+**Password reuse can also mean using a work password elsewhere (on a website, for instance). This sort of behavior can only be policed by soft policies.**
 # ACCOUNT RESTRICTIONS
 
 To make the task of compromising the user security system harder, account restrictions can be used. 
 
 ### Location-Based Policies
 
-A user or device can have a logical network location, identified by an IP address, subnet, virtual LAN (VLAN), or organizational unit (OU). This can be used as an account restriction mechanism. For example, a user account may be prevented from logging on locally to servers within a restricted OU.
+A user or device can have a logical network location, identified by an IP address, subnet, virtual LAN (VLAN), or organizational unit ([[OU]]). This can be used as an account restriction mechanism. For example, a user account may be prevented from logging on locally to servers within a restricted OU.
 
 The geographical location of a user or device can also be calculated using a geolocation mechanism. There are several types of geolocation:
 
--   IP address—these can be associated with a map location to varying degrees of accuracy based on information published by the registrant, including name, country, region, and city. The registrant is usually the Internet service provider (ISP), so the information you receive will provide an approximate location of a host based on the ISP. If the ISP is one that serves a large or diverse geographical area, you will be less likely to pinpoint the location of the host Internet service providers (ISPs). Software libraries, such as GeoIP ([maxmind.com/en/geoip-demo](https://www.maxmind.com/en/geoip-demo)), facilitate querying this data.
--   Location Services—these are methods used by the OS to calculate the device's geographical position. A device with a global positioning system (GPS) sensor can report a highly accurate location when outdoors. Location services can also triangulate to cell towers, Wi-Fi hotspots, and Bluetooth signals where GPS is not supported.
+-   **IP address**—these can be associated with a map location to varying degrees of accuracy based on information published by the registrant, including name, country, region, and city. The registrant is usually the Internet service provider (ISP), so the information you receive will provide an approximate location of a host based on the ISP. If the ISP is one that serves a large or diverse geographical area, you will be less likely to pinpoint the location of the host Internet service providers ([[ISPs]]). Software libraries, such as GeoIP ([maxmind.com/en/geoip-demo](https://www.maxmind.com/en/geoip-demo)), facilitate querying this data.
+-   **Location Services**—these are methods used by the OS to calculate the device's geographical position. A device with a global positioning system (GPS) sensor can report a highly accurate location when outdoors. Location services can also triangulate to cell towers, Wi-Fi hotspots, and Bluetooth signals where GPS is not supported.
 
 Geofencing refers to accepting or rejecting access requests based on location. Geofencing can also be used for push notification to send alerts or advice to a device when a user enters a specific area. Geotagging refers to the addition of location metadata to files or devices. This is often used for asset management to ensure devices are kept with the proper location. 
 
@@ -67,7 +67,7 @@ There are three main types of time-based policies:
 
 -   A time of day policy establishes authorized logon hours for an account.
 -   A time-based login policy establishes the maximum amount of time an account may be logged in for.
--   An impossible travel time/risky login policy tracks the location of login events over time. If these do not meet a threshold, the account will be disabled. For example, a user logs in to an account from a device in New York. A couple of hours later, a login attempt is made from LA, but this is refused and an alert raised because it is not feasible for the user to be in both locations.
+-   An **impossible travel time/risky login policy** tracks the location of login events over time. If these do not meet a threshold, the account will be disabled. For example, a user logs in to an account from a device in New York. A couple of hours later, a login attempt is made from LA, but this is refused and an alert raised because it is not feasible for the user to be in both locations.
 # ACCOUNT AUDITS
 
 Accounting and auditing processes are used to detect whether an account has been compromised or is being misused. A security or audit log can be used to facilitate detection of account misuse:
