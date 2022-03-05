@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [GRC, implementation]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -7,22 +7,21 @@ tags: [firstTag, secondTag]
 
 Account policies enforce the privilege management policy by setting what users can and cannot do. This helps you to enforce strong credential policies and to detect and manage risks from compromised accounts. Auditing and permission reviews can reveal suspicious behavior and attempts to break through security.
 
-Play Video
 # ACCOUNT ATTRIBUTES AND ACCESS POLICIES
 
 As well as authenticating the user, an account can be configured with attributes as a user profile. Account objects can also be used to assign permissions and access policies.
 
 ### Account Attributes
 
-A user account is defined by a unique security identifier (SID), a name, and a credential. Each account is associated with a profile. The profile can be defined with custom identity attributes describing the user, such as a full name, email address, contact number, department, and so on. The profile may support media, such as an account picture.
+A user account is defined by a unique security identifier ([[SID]]), a name, and a credential. Each account is associated with a profile. The profile can be defined with custom identity attributes describing the user, such as a full name, email address, contact number, department, and so on. The profile may support media, such as an account picture.
 
-As well as attributes, the profile will usually provide a location for storing user-generated data files (a home folder). The profile can also store per-account settings for software applications. 
+As well as attributes, the **profile will usually provide a location for storing user-generated data files (a home folder)**. The profile can also store per-account settings for software applications. 
 
 ### Access Policies 
 
-Each account can be assigned permissions over files and other network resources and access policies or privileges over the use and configuration of network hosts. These permissions might be assigned directly to the account or inherited through membership of a security group or role. Access policies determine things like the right to log on to a computer locally or via remote desktop, install software, change the network configuration, and so on.
+Each account can be assigned permissions over files and other network resources and access policies or privileges over the use and configuration of network hosts. These permissions might be assigned directly to the account or inherited through membership of a security group or role. **Access policies determine things like the right to log on to a computer locally or via remote desktop, install software, change the network configuration, and so on**.
 
-On a Windows Active Directory network, access policies can be configured via group policy objects (GPOs). GPOs can be used to configure access rights for user/group/role accounts. GPOs can be linked to network administrative boundaries in Active Directory, such as sites, domains, and Organizational Units (OU). 
+On a Windows Active Directory network, access policies can be configured via group policy objects ([[GPOs]]). GPOs can be used to configure access rights for user/group/role accounts. GPOs can be linked to network administrative boundaries in Active Directory, such as sites, domains, and Organizational Units ([[OU]]). 
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/4361-1599771800688.png)
 
@@ -31,16 +30,16 @@ Configuring access policies and rights using Group Policy Objects in Windows Ser
 
 System-enforced account policies can help to enforce credential management principles by stipulating requirements for user-selected passwords:
 
--   Password length—enforces a minimum length for passwords. There may also be a maximum length.
--   Password complexity—enforces password complexity rules (that is, no use of username within password and combination of at least eight upper/lower case alpha-numeric and non-alpha-numeric characters).
--   Password aging—forces the user to select a new password after a set number of days.
--   Password reuse and history—prevents the selection of a password that has been used already. The history attribute sets how many previous passwords are blocked.
+-   Password **length**—enforces a minimum length for passwords. There may also be a maximum length.
+-   Password **complexity**—enforces password complexity rules (that is, no use of username within password and combination of at least eight upper/lower case alpha-numeric and non-alpha-numeric characters).
+-   Password **aging**—forces the user to select a new password after a set number of days.
+-   Password **reuse and history**—prevents the selection of a password that has been used already. The history attribute sets how many previous passwords are blocked.
 
 In this context, you should note that the most recent guidance issued by NIST ([nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/NIST.SP.800-63b.pdf)) deprecates some of the "traditional" elements of password policy:
 
--   Complexity rules should not be enforced. The user should be allowed to choose a password (or other memorized secret) of between 8 and 64 ASCII or UNICODE characters, including spaces. The only restriction should be to block common passwords, such as dictionary words, repetitive strings (like 12345678), strings found in breach databases, and strings that repeat contextual information, such as username or company name.
--   Aging policies should not be enforced. Users should be able to select if and when a password should be changed, though the system should be able to force a password change if compromise is detected.
--   Password hints should not be used. A password hint allows account recovery by submitting responses to personal information, such as first school or pet name. 
+-   **Complexity rules should not be enforced.** The user should be allowed to choose a password (or other memorized secret) of between 8 and 64 ASCII or UNICODE characters, including spaces. The only restriction should be to block common passwords, such as dictionary words, repetitive strings (like 12345678), strings found in breach databases, and strings that repeat contextual information, such as username or company name.
+-   **Aging policies should not be enforced.** Users should be able to select if and when a password should be changed, though the system should be able to force a password change if compromise is detected.
+-   **Password hints should not be used. A password hint allows account recovery by submitting responses to personal information, such as first school or pet name.** 
 
 The cartoon at [xkcd.com/936](https://xkcd.com/936) sums up the effect of policies on password entropy.
 

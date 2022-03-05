@@ -6,14 +6,16 @@
       {
         "id": "e69bb283a6413f53",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/8A Identity and Account Types.md",
+            "file": "SecurityPlus/8B Account Polices.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       },
       {
@@ -22,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/CA.md",
+            "file": "My linked notes/Attack.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/8A Identity and Account Types.md",
+                "file": "SecurityPlus/8B Account Polices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,15 +126,15 @@
   },
   "active": "e69bb283a6413f53",
   "lastOpenFiles": [
+    "SecurityPlus/8B Account Polices.md",
     "SecurityPlus/8A Identity and Account Types.md",
+    "My linked notes/Attack.md",
+    "tmpt/standard.md",
+    "My dump/Creating a tag system.md",
     "My linked notes/CA.md",
     "SecurityPlus/7D Biometrics Authentication.md",
-    "Markdown Notes.md",
-    "My notes_______________________________.md",
-    "SecurityPlus/7C Authentication Technologies.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "SecurityPlus/7A Authentication Design Concepts.md",
-    "My linked notes/tool.md",
-    "My linked notes/asymmetric.md"
+    "My dump/Markdown Notes.md",
+    "My dump/My notes_______________________________.md",
+    "SecurityPlus/7C Authentication Technologies.md"
   ]
 }

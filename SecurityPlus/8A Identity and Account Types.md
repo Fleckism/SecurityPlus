@@ -109,7 +109,7 @@ Standard users have limited privileges, typically with access to run programs an
 
 ### Credential Management Policies for Personnel
 
-**Improper credential management continues to be one of the most fruitful vectors for network attacks.** If an organization must continue to rely on password-based credentials, its usage needs to be governed by strong policies and training.
+**Improper credential management continues to be one of the most fruitful vectors for network [[attack]]s.** If an organization must continue to rely on password-based credentials, its usage needs to be governed by strong policies and training.
 
 A password policy instructs users on best practice in choosing and maintaining passwords. More generally, a credential management policy should instruct users on how to keep their authentication method secure, whether this be a password, smart card, or biometric ID. Password protection policies mitigate against the risk of attackers being able to compromise an account and use it to launch other attacks on the network. The credential management policy also needs to alert users to diverse types of social engineering attacks. Users need to be able to spot phishing and pharming attempts, so that they do not enter credentials into an unsecure form or spoofed site. 
 
@@ -139,18 +139,18 @@ Ubuntu Linux follows a similar approach; the root account is configured with no 
 
 ### Administrator Credential Policies 
 
-The default superuser should be replaced with one or more named accounts with sufficient elevated privileges for a given job role. This can be referred to as generic account prohibition. It means that administrative activity can be audited and the system as a whole conforms to the property of non-repudiation. 
+The default superuser should be replaced with one or more named accounts with sufficient elevated privileges for a given job role. This can be referred to as generic account prohibition. It means that administrative activity can be audited and the system as a whole conforms to the property of [[non-repudiation]]. 
 
-It is a good idea to restrict the number of administrative accounts as much as possible. The more accounts there are, the more likely it is that one of them will be compromised. On the other hand, you do not want administrators to share accounts, as that compromises accountability.
+It is a good idea to restrict the number of administrative accounts as much as possible. The more accounts there are, the more likely it is that one of them will be compromised. On the other hand, you do not want **administrators to share accounts**, as that compromises accountability.
 
-Users with administrative privileges must take the greatest care with credential management. Privilege-access accounts must use strong passwords and ideally multifactor authentication (MFA). 
+Users with administrative privileges must take the greatest care with credential management. Privilege-access accounts must use strong passwords and ideally multifactor authentication ([[MFA]]). 
 
 ### Default Security Groups
 
 Most operating systems also create default security groups, with a default set of permissions. In Windows, privileges are assigned to local group accounts (the Users and Administrators groups) rather than directly to user accounts. Custom security groups with different permissions can be created to enforce the principle of least privilege. In Linux, privileged accounts are typically configured by adding either a user or a group account to the /etc/sudoers file ([linux.com/training-tutorials/start-fine-tuning-sudo-linux](https://www.linux.com/training-tutorials/start-fine-tuning-sudo-linux/)).
 # SERVICE ACCOUNTS
 
-Service accounts are used by scheduled processes and application server software, such as databases. Windows has several default service account types. These do not accept user interactive logons but can be used to run processes and background services:
+**Service accounts are used by scheduled processes and application server software, such as databases.** Windows has several default service account types. These do not accept user interactive logons but can be used to run processes and background services:
 
 -   System—has the most privileges of any Windows account. The local system account creates the host processes that start Windows before the user logs on. Any process created using the system account will have full privileges over the local computer.
 -   Local Service—has the same privileges as the standard user account. It can only access network resources as an anonymous user.
@@ -167,25 +167,25 @@ If a named account is manually configured to run a service, the password for the
 Be aware of the risk of using a personal account when a service account is appropriate. If you use a personal account and the user changes the password or the account is disabled for some reason, then the service will fail to run, which can cause serious problems with business applications.
 # SHARED/GENERIC/DEVICE ACCOUNTS AND CREDENTIALS
 
-A shared account is one where passwords (or other authentication credentials) are known to more than one person. Typically, simple SOHO networking devices do not allow for the creation of multiple accounts and a single "Admin" account is used to manage the device. These accounts might be configured with a default password. Other examples include the default (or generic) OS accounts, such as Administrator and Guest in Windows or root in Linux, or accounts added to default security groups. Shared accounts may also be set up for temporary staff.
+A shared account is one where passwords (or other authentication credentials) are known to more than one person. Typically, simple [[SOHO]] networking devices do not allow for the creation of multiple accounts and a single "Admin" account is used to manage the device. These accounts might be configured with a default password. Other examples include the default (or generic) OS accounts, such as Administrator and Guest in Windows or root in Linux, or accounts added to default security groups. Shared accounts may also be set up for temporary staff.
 
-A shared account breaks the principle of non-repudiation and makes an accurate audit trail difficult to establish. It makes it more likely that the password for the account will be compromised. The other major risk involves password changes to an account. Since frequent password changing is a common policy, organizations will need to ensure that everyone who has access to an account knows when the password will change, and what that new password will be. This necessitates distributing passwords to a large group of people, which itself poses a significant challenge to security. Shared accounts should only be used where these risks are understood and accepted.
+A shared account breaks the principle of non-repudiation and makes an accurate audit trail difficult to establish. It makes it more likely that the password for the account will be compromised. The other major risk involves password changes to an account. Since frequent password changing is a common policy, organizations will need to ensure that everyone who has access to an account knows when the password will change, and what that new password will be. This necessitates distributing passwords to a large group of people, which itself poses a significant challenge to security. Shared accounts should only be used where these **risks are understood and accepted.**
 
 ### Credential Policies for Devices
 
-Network appliances designed for enterprise use are unlikely to be restricted to a single default account, and will use TACACS+ to support individual accounts and role-based permissions. If a device can only be operated with a shared password, ensure separation of duties to ensure the device remains in an authorized configuration.
+Network appliances designed for enterprise use are unlikely to be restricted to a single default account, and will use [[TACACS+]] to support individual accounts and role-based permissions. If a device can only be operated with a shared password, ensure separation of duties to ensure the device remains in an authorized configuration.
 
 ### Privilege Access Management
 
 Even with the most carefully designed role-based permissions, it is almost impossible to eliminate use of shared/device/root passwords completely. Enterprise privilege access management products provide a solution for storing these high-risk credentials somewhere other than a spreadsheet and for auditing elevated privileges generally ([gartner.com/reviews/market/privileged-access-management](https://www.gartner.com/reviews/market/privileged-access-management)).
 # SECURE SHELL KEYS AND THIRD-PARTY CREDENTIALS
 
-Secure Shell (SSH) is a widely used remote access protocol. It is very likely to be used to manage devices and services. SSH uses two types of key pairs:
+Secure Shell ([[SSH]]) is a widely used remote access protocol. It is very likely to be used to manage devices and services. SSH uses two types of key pairs:
 
 -   A host key pair identifies an SSH server. The server reveals the public part when a client connects to it. The client must use some means of determining the validity of this public key. If accepted, the key pair is used to encrypt the network connection and start a session.
 -   A user key pair is a means for a client to login to an SSH server. The server stores a copy of the client's public key. The client uses the linked private key to generate an authentication request and sends the request (not the private key) to the server. The server can only validate this request if the correct public key is held for that client.
 
-SSH keys have often not been managed very well, leading to numerous security breaches, most infamously the Sony hack ([ssh.com/malware](https://www.ssh.com/malware/)). There are vendor solutions for SSH key management or you can configure servers and clients to use public key infrastructure (PKI) and certificate authorities (CAs) to validate identities.
+SSH keys have often not been managed very well, leading to numerous security breaches, most infamously the Sony hack ([ssh.com/malware](https://www.ssh.com/malware/)). There are vendor solutions for SSH key management or you can configure servers and clients to use public key infrastructure ([[PKI]]) and certificate authorities ([[CAs]]) to validate identities.
 
 A third-party credential is one used by your company to manage a vendor service or cloud app. As well as administrative logons, devices and services may be configured with a password or cryptographic keys to access hosts via SSH or via an application programming interface (API). Improper management of these secrets, such as including them in code or scripts as plaintext, has been the cause of many breaches ([nakedsecurity.sophos.com/2019/03/25/thousands-of-coders-are-leaving-their-crown-jewels-exposed-on-github](https://nakedsecurity.sophos.com/2019/03/25/thousands-of-coders-are-leaving-their-crown-jewels-exposed-on-github/)).
 
