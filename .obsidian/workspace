@@ -17,6 +17,34 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "0d8220e444128d19",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My notes_______________________________.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "e69bb283a6413f53",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Markdown Notes.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/7C Authentication Technologies.md",
+                "file": "Markdown Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,8 +139,10 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "2be6d99f7e520f70",
+  "active": "e69bb283a6413f53",
   "lastOpenFiles": [
+    "Markdown Notes.md",
+    "My notes_______________________________.md",
     "SecurityPlus/7C Authentication Technologies.md",
     "SecurityPlus/7B knowledge-Based Authentication.md",
     "SecurityPlus/7A Authentication Design Concepts.md",
@@ -120,8 +150,6 @@
     "My linked notes/asymmetric.md",
     "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
     "SecurityPlus/7D Biometrics Authentication.md",
-    "My linked notes/Dark net.md",
-    "My linked notes/Authentication.md",
-    "SecurityPlus/3A Assess Organizational Security L3a.md"
+    "My linked notes/Dark net.md"
   ]
 }
