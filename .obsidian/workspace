@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Attack.md",
+            "file": "My linked notes/Will this push to git.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/8B Account Polices.md",
+                "file": "My linked notes/Will this push to git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,8 +124,9 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "e69bb283a6413f53",
+  "active": "dc1bd481e1bd4f86",
   "lastOpenFiles": [
+    "My linked notes/Will this push to git.md",
     "SecurityPlus/8B Account Polices.md",
     "SecurityPlus/8A Identity and Account Types.md",
     "My linked notes/Attack.md",
@@ -134,7 +135,6 @@
     "My linked notes/CA.md",
     "SecurityPlus/7D Biometrics Authentication.md",
     "My dump/Markdown Notes.md",
-    "My dump/My notes_______________________________.md",
-    "SecurityPlus/7C Authentication Technologies.md"
+    "My dump/My notes_______________________________.md"
   ]
 }
