@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [OIR, Implementation]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -9,25 +9,25 @@ tags: [firstTag, secondTag]
 
 3.3 Given a scenario, implement secure network designs 
 
-Attacks aimed at low-level networking functions can be highly effective. To implement a network design that demonstrates confidentiality, integrity, and availability, you must configure switches and routers with appropriate settings. These devices can be used to enforce network access control mechanisms and ensure fault-tolerant paths within the network.
+**[[Attacks]] aimed at low-level networking functions can be highly effective**. To implement a network design that demonstrates confidentiality, integrity, and availability, you must configure switches and routers with appropriate settings. These devices can be used to enforce network access control mechanisms and ensure fault-tolerant paths within the network.
 # MAN-IN-THE-MIDDLE AND LAYER 2 ATTACKS 
 
 Attacks at the physical and data link layers, referred to in the OSI model as layer 1 and layer 2, are often focused on information gathering—network mapping and eavesdropping on network traffic.
 
 ### Man-in-the-Middle/On-Path Attacks
 
-Attackers can also take advantage of the lack of security in low-level data link protocols to perform man-in-the-middle (MitM) attacks. A MitM or on-path attack is where the threat actor gains a position between two hosts, and transparently captures, monitors, and relays all communication between the hosts. An on-path attack could also be used to covertly modify the traffic. For example, a MitM host could present a workstation with a spoofed website form, to try to capture the user credential. Another common on-path attack spoofs responses to DNS queries, redirecting users to spoofed websites. On-path attacks can be defeated using mutual authentication, where both hosts exchange secure credentials, but at layer 2 it is not always possible to put these controls in place.
+Attackers can also take advantage of the lack of security in low-level data link protocols to perform man-in-the-middle ([[MitM]]) attacks. A MitM or on-path attack is where the threat actor gains a position between two hosts, and transparently captures, monitors, and relays all communication between the hosts. An on-path attack could also be used to covertly modify the traffic. For example, a MitM host could present a workstation with a spoofed website form, to try to capture the user credential. Another common on-path attack spoofs responses to DNS queries, redirecting users to spoofed websites. On-path attacks can be defeated using mutual authentication, where both hosts exchange secure credentials, but at layer 2 it is not always possible to put these controls in place.
 
 ### MAC Cloning 
 
-MAC cloning, or MAC address spoofing, changes the hardware address configured on an adapter interface or asserts the use of an arbitrary MAC address. While a unique MAC address is assigned to each network interface by the vendor at the factory, it is simple to override it in software via OS commands, alterations to the network driver configuration, or using packet crafting software. This can lead to a variety of issues when investigating security incidents or when depending on MAC addresses as part of a security control, as the presented address of the device may not be reliable.
+MAC cloning, or MAC address spoofing, changes the hardware address configured on an adapter interface or asserts the use of an arbitrary MAC address. While a unique [[MAC address]] **is assigned to each network interface by the vendor at the factory, it is simple to override it in software via OS commands, alterations to the network driver configuration, or using packet crafting software**. This can lead to a variety of issues when investigating security incidents or when depending on MAC addresses as part of a security control, as the presented address of the device may not be reliable.
 # ARP POISONING AND MAC FLOODING ATTACKS 
 
-A host uses the Address Resolution Protocol (ARP) to discover the host on the local segment that owns an IP address.
+A host uses the Address Resolution Protocol ([[ARP]]) to discover the host on the local segment that owns an IP address.
 
 ### ARP Poisoning Attacks 
 
-An ARP poisoning attack uses a packet crafter, such as Ettercap, to broadcast unsolicited ARP reply packets. Because ARP has no security mechanism, the receiving devices trust this communication and update their MAC:IP address cache table with the spoofed address. 
+An ARP poisoning attack uses a packet crafter, such as Ettercap, to broadcast unsolicited ARP reply packets. **Because [[ARP]] has no security mechanism,** the receiving devices trust this communication and update their MAC:IP address cache table with the spoofed address. 
 
 ![Frame 9 is highlighted with Source 10.1.0.101, Destination 10.1.0.2. Frame detail shows destination “Microsof_01:ca:4a” as hardware 00:15:5d:01:ca:4a.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/5415-1599771802359.png)
 
@@ -44,7 +44,7 @@ The usual target will be the subnet's default gateway (the router that accesses 
 
 ### MAC Flooding Attacks 
 
-Where ARP poisoning is directed at hosts, MAC flooding is used to attack a switch. The intention of the attacker is to exhaust the memory used to store the switch's MAC address table. The switch uses the MAC address table to determine which port to use to forward unicast traffic to its correct destination. Overwhelming the table can cause the switch to stop trying to apply MAC-based forwarding and flood unicast traffic out of all ports, working as a hub. This makes sniffing network traffic easier for the threat actor.
+Where ARP poisoning is directed at hosts, MAC flooding is used to attack a switch. The intention of the attacker is to exhaust the memory used to store the switch's MAC address table. The switch uses the [[MAC address]] table to determine which port to use to forward unicast traffic to its correct destination. Overwhelming the table can cause the switch to stop trying to apply MAC-based forwarding and flood unicast traffic out of all ports, working as a hub. This makes sniffing network traffic easier for the threat actor.
 # LOOP PREVENTION
 
 An Ethernet switch's layer 2 forwarding function is similar to that of an older network appliance called a bridge. In a network with multiple bridges, implemented these days as switches, there may be more than one path for a frame to take to its intended destination. As a layer 2 protocol, Ethernet has no concept of Time To Live. Therefore, layer 2 broadcast traffic could continue to loop through a network with multiple paths indefinitely. Layer 2 loops are prevented by the Spanning Tree Protocol (STP). Spanning tree is a means for the bridges to organize themselves into a hierarchy and prevent loops from forming.

@@ -129,7 +129,7 @@ It is quite likely that more than one DMZ will be required as the services that 
 -   A multi-tier DMZ to isolate front-end, middleware, and back-end servers.
 # DEMILITARIZED ZONE TOPOLOGIES
 
-To configure a DMZ, two different security configurations must be enabled: one on the external interface and one on the internal interface. A DMZ and intranet are on different subnets, so communications between them need to be routed.
+To configure a DMZ, two different security configurations must be enabled: one on the external interface and one on the internal interface. **A DMZ and intranet are on different subnets, so communications between them need to be routed.**
 
 ### Screened Subnet
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/9A Secure Network Desings.md",
+            "file": "SecurityPlus/9B Secure Switching and Routing.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"secure network\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/9A Secure Network Desings.md",
+                "file": "SecurityPlus/9B Secure Switching and Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,10 +106,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
   "active": "e69bb283a6413f53",
   "lastOpenFiles": [
+    "SecurityPlus/9B Secure Switching and Routing.md",
     "SecurityPlus/9A Secure Network Desings.md",
     "SecurityPlus/8D Personnel Policies.md",
     "SecurityPlus/8C Authorization Solutions.md",
@@ -119,7 +120,6 @@
     "SecurityPlus/8A Identity and Account Types.md",
     "My linked notes/Attack.md",
     "tmpt/standard.md",
-    "My dump/Creating a tag system.md",
-    "My linked notes/CA.md"
+    "My dump/Creating a tag system.md"
   ]
 }
