@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [OIR, Implementation]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -12,16 +12,16 @@ Most organizations have both a wired and a wireless network for employees to acc
 
 Wireless network installation considerations refer to the factors that ensure good availability of authorized Wi-Fi access points. A network with patchy coverage is vulnerable to rogue and evil twin attacks.
 
-The 5 GHz band has more space to configure non-overlapping channels. Also note that a WAP can use bonded channels to improve bandwidth, but this increases risks from interference.
+The 5 GHz band has more space to configure non-overlapping channels. Also note that a [[WAP]] can use bonded channels to improve bandwidth, but this increases risks from interference.
 
 ### Wireless Access Point (WAP) Placement
 
-An infrastructure-based wireless network comprises one or more wireless access points, each connected to a wired network. The access points forward traffic to and from the wired switched network. Each WAP is identified by its MAC address, also referred to as its basic service set identifier (BSSID). Each wireless network is identified by its name, or service set identifier (SSID).
+An infrastructure-based wireless network comprises one or more wireless access points, each connected to a wired network. The access points forward traffic to and from the wired switched network. Each WAP is identified by its MAC address, also referred to as its basic service set identifier ([[BSSID]]). Each wireless network is identified by its name, or service set identifier ([[SSID]]).
 
-Wireless networks can operate in either the 2.4 GHz or 5 GHz radio band. Each radio band is divided into a number of channels, and each WAP must be configured to use a specific channel. For performance reasons, the channels chosen should be as widely spaced as possible to reduce different types of interference:
+Wireless networks can operate in either the 2.4 GHz or 5 GHz radio band. Each radio band is divided into a number of channels, and each WAP must be configured to use a specific channel. For performance reasons, the channels chosen should be as widely spaced as possible to reduce different **types of interference**:
 
--   Co-channel interference (CCI)—when two WAPs in close proximity use the same channel, they compete for bandwidth within that channel, as signals collide and have to be re-transmitted.
--   Adjacent channel interference (ACI)—channels have only ~5 MHz spacing, but Wi-Fi requires 20 MHz of channel space. When the channels selected for WAPs are not cleanly spaced, the interference pattern creates significant numbers of errors and loss of bandwidth. For example, if two access points within range of one another are configured in the 2.4 GHz band with channels 1 and 6, they will not overlap. If a third access point is added using channel 3, it will use part of the spectrum used by both the other WAPs, and all three networks will suffer from interference.
+-   Co-channel interference ([[CCI]])—when two WAPs in close proximity use the same channel, they compete for bandwidth within that channel, as signals collide and have to be re-transmitted.
+-   **Adjacent channel interference** ([[ACI]])—channels have only ~5 MHz spacing, but Wi-Fi requires 20 MHz of channel space. When the channels selected for WAPs are not cleanly spaced, the interference pattern creates significant numbers of errors and loss of bandwidth. For example, if two access points within range of one another are configured in the 2.4 GHz band with **channels 1 and 6**, they will not overlap. If a third access point is added using channel 3, it will use part of the spectrum used by both the other WAPs, and all three networks will suffer from interference.
 
 ### Site Surveys and Heat Maps
 
@@ -40,24 +40,24 @@ UniFi Wireless Network management console. (Screenshot used with permission from
 
 An access point whose firmware contains enough processing logic to be able to function autonomously and handle clients without the use of a wireless controller is known as a fat WAP, while one that requires a wireless controller in order to function is known as a thin WAP.
 
-Controllers and access points must be made physically secure, as tampering could allow a threat actor to insert a rogue/evil twin WAP to try to intercept logons. These devices must be managed like switches and routers, using secure management interfaces and strong administrative credentials.
+Controllers and access points must be made physically secure, as tampering could allow a  #threat actor to insert  a rogue/evil twin WAP to try to intercept logons. These devices must be managed like switches and routers, using secure management interfaces and strong administrative credentials.
 # WI-FI PROTECTED ACCESS
 
-As well as the site design, a wireless network must be configured with security settings. Without encryption, anyone within range can intercept and read packets passing over the wireless network. These choices are determined by device support for the various Wi-Fi security standards, by the type of authentication infrastructure, and by the purpose of the WLAN. The security standard determines the cryptographic protocols that are supported, the means of generating the encryption key, and available methods for authenticating wireless stations when they try to join (or associate with) the network.
+As well as the site design, a wireless network must be configured with security settings. Without encryption, anyone within range can intercept and read packets passing over the wireless network. These choices are determined by device support for the various Wi-Fi security standards, by the type of authentication infrastructure, and by the purpose of the [[WLAN]]. The security standard determines the cryptographic protocols that are supported, the means of generating the encryption key, and available methods for authenticating wireless stations when they try to join (or associate with) the network.
 
-The first version of Wi-Fi Protected Access (WPA) was designed to fix critical vulnerabilities in the earlier wired equivalent privacy (WEP) standard. Like WEP, version 1 of WPA uses the RC4 stream cipher but adds a mechanism called the Temporal Key Integrity Protocol (TKIP) to make it stronger.
+The first version of Wi-Fi Protected Access ([[WPA]]) was designed to fix critical vulnerabilities in the earlier wired equivalent privacy ([[WEP]]) standard. Like WEP, version 1 of WPA uses the RC4 stream cipher but adds a mechanism called the Temporal Key Integrity Protocol ([[TKIP]]) to make it stronger.
 
 ![Wireless settings page shows 2.4 GHz radio configured with WPA/WPA2-Personal, version WPA2-PSK, and AES encryption. The 5 GHz radio security setting is WPA2/WPA3-Personal, while the version is WPA3-SAE.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2711-1599771802863.png)
 
 Configuring a TP-LINK SOHO access point with wireless encryption and authentication settings. In this example, the 2.4 GHz band allows legacy connections with WPA2-Personal security, while the 5 GHz network is for 802.11ax (Wi-Fi 6) capable devices using WPA3-SAE authentication. (Screenshot used with permission from TP-Link Technologies.)
 
-Neither WEP nor the original WPA version are considered secure enough for continued use. WPA2 uses the Advanced Encryption Standard (AES) cipher with 128-bit keys, deployed within the Counter Mode with Cipher Block Chaining Message Authentication Code Protocol (CCMP). AES replaces RC4 and CCMP replaces TKIP. CCMP provides authenticated encryption, which is designed to make replay attacks harder.
+Neither [[WEP]] nor the original [[WPA]] version are considered secure enough for continued use. WPA2 uses the Advanced Encryption Standard ([[AES]]) cipher with 128-bit keys, deployed within the Counter Mode with Cipher Block Chaining Message Authentication Code Protocol ([[CCMP]]). AES replaces RC4 and CCMP replaces TKIP. CCMP provides authenticated encryption, which is designed to make replay attacks harder.
 
 Weaknesses have also been found in WPA2, however, which has led to its intended replacement by WPA3. The main features of WPA3 are as follows:
 
--   Simultaneous Authentication of Equals (SAE)—replaces WPA's 4-way handshake authentication and association mechanism with a protocol based on Diffie-Hellman key agreement.
+-   Simultaneous Authentication of Equals ([[SAE]])—replaces WPA's 4-way handshake authentication and association mechanism with a protocol based on Diffie-Hellman key agreement.
 -   Enhanced Open—enables encryption for the open authentication method.
--   Updated cryptographic protocols—replaces AES CCMP with the AES Galois Counter Mode Protocol (GCMP) mode of operation. Enterprise authentication methods must use 192-bit AES, while personal authentication can use either 128-bit or 192-bit.
+-   Updated cryptographic protocols—replaces AES CCMP with the **AES Galois Counter Mode Protocol** ([[GCMP]]) mode of operation. Enterprise authentication methods must use 192-bit AES, while personal authentication can use either 128-bit or 192-bit.
 -   Management protection frames—mandates use of these to protect against key recovery attacks.
 
 Wi-Fi performance also depends on support for the latest 802.11 standards. The most recent generation (802.11ax) is being marketed as Wi-Fi 6. The earlier standards are retroactively named Wi-Fi 5 (802.11ac) and Wi-Fi 4 (802.11n). The performance standards are developed in parallel with the WPA security specifications. Most Wi-Fi 6 devices and some Wi-Fi 5 and Wi-Fi 4 products should support WPA3, either natively or with a firmware/driver update.
