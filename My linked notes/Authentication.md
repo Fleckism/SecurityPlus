@@ -1,7 +1,7 @@
 ---
 tags: [A_D, GRC]
 ---
-the **process or action of verifying** the identity of a user or process.
+the **process or action of verifying** the identity of a user or process [[AIC or CIA]].
 - [[security control]]
 - When authentication is needed.([[asymmetric]] encryption is used)
 	- **User or server** encrypts an agreed hashed data using **private key**

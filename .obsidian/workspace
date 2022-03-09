@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7229a9a1f5872b3a",
+        "id": "11a33abe88d8be9f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/CER.md",
+            "file": "SecurityPlus/7A Authentication Design Concepts.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "e19ea0e5e5cf29d5",
+        "id": "5bdd25dc0fa4163b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/7D Biometrics Authentication.md",
+            "file": "My linked notes/IAM.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"CER\"",
+                "query": "\"IAM\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/CER.md",
+                "file": "SecurityPlus/7A Authentication Design Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +122,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "7229a9a1f5872b3a",
+  "active": "11a33abe88d8be9f",
   "lastOpenFiles": [
-    "My linked notes/CER.md",
-    "SecurityPlus/7D Biometrics Authentication.md",
-    "My linked notes/Will this push to git.md",
-    "SecurityPlus/9C Secure Wireless Infrastructure.md",
-    "SecurityPlus/9D Load Balancers.md",
-    "SecurityPlus/9B Secure Switching and Routing.md",
-    "SecurityPlus/9A Secure Network Desings.md",
-    "SecurityPlus/8D Personnel Policies.md",
-    "SecurityPlus/8C Authorization Solutions.md",
-    "SecurityPlus/8B Account Polices.md"
+    "SecurityPlus/7A Authentication Design Concepts.md",
+    "My linked notes/IAM.md",
+    "My linked notes/AAA.md",
+    "My linked notes/security control.md",
+    "My linked notes/Authentication.md",
+    "My linked notes/2FA.md",
+    "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
+    "My linked notes/SSH.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/Acronyms/DNS.md"
   ]
 }

@@ -1,7 +1,7 @@
 ---
 tags: [GRC, ]
 ---
-certificate authority
+**certificate authority**
 The functions of a CA are as follows:
 The certificate contains the 
 - subject's **public key** and is signed by the 

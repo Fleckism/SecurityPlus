@@ -37,7 +37,7 @@ for /l %i in (1,1,255) do @ping -n 1 -w 100 10.1.0.%i | find /i "reply"
 
 Performing a ping sweep in Windows with a For loop—Searching multiple octets requires nested loops. Note that not all hosts respond to ICMP probes. (Screenshot used with permission from Microsoft.)
 
--   [[arp]]—display the local machine's Address Resolution Protocol ([[ARP]]) cache. The ARP cache shows the MAC address of the interface associated with each IP address the local host has communicated with recently. This can be useful if you are investigating a suspected spoofing attack. For example, a sign of a man-in-the-middle attack is where the MAC address of the default gateway IP listed in the cache is not the legitimate router's MAC address.
+-   [[arp]]—display the local machine's Address Resolution Protocol ([[ARP]]) cache. The ARP cache shows the [[MAC address]] of the interface associated with each IP address the local host has communicated with recently. This can be useful if you are investigating a suspected spoofing attack. For example, a sign of a man-in-the-middle attack is where the MAC address of the default gateway IP listed in the cache is not the legitimate router's MAC address.
 
 For more information about commands, including syntax usage, look up the command in an online resource for Windows ([docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)) or Linux ([linux.die.net/man](https://linux.die.net/man/)).
 

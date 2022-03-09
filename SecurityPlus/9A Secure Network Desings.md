@@ -50,22 +50,22 @@ You can see that this type of business flow will involve systems in different pl
 
 A number of network appliances are involved in provisioning a network architecture:
 
--   [[Switches]]—forward frames between nodes in a cabled network. Switches work at layer 2 and 3 of the OSI model_._ At layer 2 they make forwarding decisions based on the hardware or [[Media Access Control (MAC)]] address of attached nodes. Switches can establish network segments that either map directly to the underlying cabling or logical segments, created in the switch configuration as  virtual LANs ([[VLANs]]).
+-   [[Switches]]—forward frames between nodes in a cabled network. Switches work at layer 2 and 3 of the OSI model_._ At layer 2 they make forwarding decisions based on the hardware or [[MAC address |Media Access Control (MAC)]] address of attached nodes. Switches can establish network segments that either map directly to the underlying cabling or logical segments, created in the switch configuration as  virtual LANs ([[VLANs]]).
 
 When designing and troubleshooting a network, it is helpful to compartmentalize functions to discrete layers. The Open Systems Interconnection ([[OSI]]) model is a widely quoted example of how to define layers of network functions.
 
--   [[Wireless access points]]—provide a bridge between a cabled network and wireless clients, or stations. Access points work at layer 2 of the OSI model.
+-   [[WAP |Wireless access points]]—provide a bridge between a cabled network and wireless clients, or stations. Access points work at layer 2 of the OSI model.
 -   [[Routers]]—forward packets around an internetwork, making forwarding decisions based on IP addresses. Routers work at layer 3 of the OSI model. Routers can apply logical IP subnet addresses to segments within a network.
 -   [[Firewalls]]—apply an access control list ([[ACL]]) to filter traffic passing in or out of a network segment. Firewalls can work at layer 3 of the OSI model or higher.
 -   [[Load balancers]]—distribute traffic between network segments or servers to optimize performance. Load balancers can work at layer 4 of the OSI model or higher.
--   Domain Name System ([[DNS]]) servers—host name records and perform name resolution to allow applications and users to address hosts and services using fully qualified domain names ([[FQDNs]]) rather than IP addresses. DNS works at layer 7 of the OSI model. Name resolution is a critical service in network design. Abuse of name resolution is a common attack vector.
+-   Domain Name System ([[DNS]]) servers—host name records and perform name resolution to allow applications and users to address hosts and services using fully qualified domain names ([[FQDN |FQDNs]]) rather than IP addresses. DNS works at layer 7 of the OSI model. Name resolution is a critical service in network design. Abuse of name resolution is a common attack vector.
 
 Appliances, protocols, and addressing functions within the OSI network layer reference model. (Images © 123RF.com.)
 # ROUTING AND SWITCHING PROTOCOLS
 
 The basic function of a network is to forward traffic from one node to another. A number of routing and switching protocols are used to implement forwarding. The forwarding function takes place at two different layers:
 
--   Layer 2 forwarding occurs between nodes on the same local network segment that are all in the same broadcast domain. At layer 2, a broadcast domain is either all the nodes connected to the same physical unmanaged switch, or all the nodes within a virtual LAN (VLAN) configured on one or more managed switches. At layer 2, each node is identified by the network interface's hardware or [[Media Access Control (MAC)]] address. A MAC address is a 48-bit value written in hexadecimal notation, such as 00-15-5D-F4-83-48.
+-   Layer 2 forwarding occurs between nodes on the same local network segment that are all in the same broadcast domain. At layer 2, a broadcast domain is either all the nodes connected to the same physical unmanaged switch, or all the nodes within a virtual LAN (VLAN) configured on one or more managed switches. At layer 2, each node is identified by the network interface's hardware or [[MAC address |Media Access Control  address]]. A MAC address is a 48-bit value written in hexadecimal notation, such as 00-15-5D-F4-83-48.
 -   Layer 3 forwarding, or routing, occurs between both logically and physically defined networks. A single network divided into multiple logical broadcast domains is said to be subnetted. Multiple networks joined by routers form an internetwork. At layer 3, nodes are identified by an Internet Protocol (IP) address.
 
 ### Address Resolution Protocol (ARP)
@@ -84,7 +84,7 @@ Networks also use 128-bit IPv6 addressing. IPv6 addresses are written using hex 
 
 ### Routing Protocols
 
-Information about how to reach individual networks within an internetwork is processed by routers, which store the data in a **routing table**. A route to a network can be configured statically, but most networks use routing protocols to transmit new and updated routes between routers. Some common routing protocols include Border Gateway Protocol ([[BGP]]), Open Shortest Path First ([[OSPF]]), Enhanced Interior Gateway Routing Protocol ([[EIGRP]]), and Routing Information Protocol ([[RIP]]).
+Information about how to reach individual networks within an internetwork is processed by routers, which store the data in a **routing table**. A route to a network can be configured statically, but most networks use routing protocols to transmit new and updated routes between routers. Some common routing protocols include Border Gateway Protocol (BGP), Open Shortest Path First (OSPF), Enhanced Interior Gateway Routing Protocol (EIGRP), and Routing Information Protocol (RIP).
 # NETWORK SEGMENTATION 
 
 A network segment is one where all the hosts attached to the segment can use local (layer 2) forwarding to communicate freely with one another. The hosts are said to be within the same broadcast domain. Segregation means that the hosts in one segment are restricted in the way they communicate with hosts in other segments. They might only be able to communicate over certain network ports, for instance.

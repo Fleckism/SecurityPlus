@@ -17,8 +17,8 @@ The biometric template is kept in the authentication server's database. When the
 
 Several pattern types can be used to identify people biometrically. These can be categorized as physical (fingerprint, eye, and facial recognition) or behavioral (voice, signature, and typing pattern matching). Key metrics and considerations used to evaluate the efficacy rate of biometric pattern acquisition and matching and suitability as an authentication mechanism include the following:
 
--   False Rejection Rate ([[FRR]])—where a legitimate user is not recognized. This is also referred to as a Type I error or false non-match rate (FNMR). FRR is measured as a percentage.
--   False Acceptance Rate ([[FAR]])—where an interloper is accepted (Type II error or false match rate [FMR]). FAR is measured as a percentage.  
+-   False Rejection Rate ([[FRR]])—where a legitimate user is not recognized. This is also referred to as a Type I error or false non-match rate ([[FNMR]]). FRR is measured as a percentage.
+-   False Acceptance Rate ([[FAR]])—where an interloper is accepted (Type II error or false match rate [[FMR]]). FAR is measured as a percentage.  
       
     False rejection cause inconvenience to users, but false acceptance can lead to security breaches, and so is usually considered the most important metric.
 -   Crossover Error Rate ([[CER]])—the point at which FRR and FAR meet. The lower the CER, the more efficient and reliable the technology.  

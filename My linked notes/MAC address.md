@@ -1,0 +1,3 @@
+**media access control address** (MAC address) is a unique identifier assigned to a network interface controller ([[NIC]]) for use as a network address in communications within a network segment. This use is common in most IEEE 802 networking technologies, including Ethernet, Wi-Fi, and Bluetooth.
+
+- is assigned to each network interface by the vendor at the factory, it is simple to override it in software via OS commands, alterations to the network driver configuration, or using packet crafting software
