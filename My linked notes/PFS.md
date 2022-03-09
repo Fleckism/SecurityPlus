@@ -2,8 +2,8 @@
 tags: [GRC, secondTag]
 ---
 **perfect forward secrecy**
- - uses Diffie-Hellman ([[DH]]) key agreement to create **ephemeral session keys** without using the server's private key
- - can be implemented using either the Diffie-Hellman Ephemeral mode ([[DHE]] or [[EDH]]) or Elliptic Curve Diffie-Hellman Ephemeral mode ([[ECDHE]]) algorithms.
+ - uses Diffie-Hellman (DH) key agreement to create **ephemeral session keys** without using the server's private key
+ - can be implemented using either the Diffie-Hellman Ephemeral mode ([[DHE]] or EDH) or Elliptic Curve Diffie-Hellman Ephemeral mode ([[ECDHE]]) algorithms.
 
 
 

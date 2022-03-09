@@ -58,7 +58,7 @@ Using Diffie-Hellman to derive a secret value to use to generate a shared symmet
 
 Using ephemeral session keys means that any future compromise of the server will not translate into an attack on recorded data. Also, even if an attacker can obtain the key for one session, the other sessions will remain confidential. This massively increases the amount of cryptanalysis that an attacker would have to perform to recover an entire "conversation."
 
-[[PFS]] can be implemented using either the Diffie-Hellman Ephemeral mode ([[DHE]] or [[EDH]]) or Elliptic Curve Diffie-Hellman Ephemeral mode ([[ECDHE]]) [[algorithm|algorithms]]. To use PFS, the server and client must negotiate use of a mutually supported cipher suite.
+[[PFS]] can be implemented using either the Diffie-Hellman Ephemeral mode ([[DHE]] or EDH) or Elliptic Curve Diffie-Hellman Ephemeral mode ([[ECDHE]]) [[algorithm|algorithms]]. To use PFS, the server and client must negotiate use of a mutually supported cipher suite.
 
 In 2014, a Heartbleed bug was discovered in the way some versions of OpenSSL work that allows remote users to grab 64K chunks of server memory contents ([heartbleed.com](http://heartbleed.com/)). This could include the private key, meaning that any communications with the server could be compromised. The bug had been present for around two years. This illustrates the value of PFS, but ironically many servers would have been updated to the buggy version of OpenSSL to enable support for PFS.
 
