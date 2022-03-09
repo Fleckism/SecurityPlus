@@ -7,7 +7,7 @@ While antivirus (A-V) remains a popular marketing description, all current secur
 You are writing a security awareness blog for company CEOs subscribed to your threat platform. Why are backdoors and Trojans different ways of classifying and identifying malware risks?
 
 ## Answer:
-A Trojan means a [[malicious]] program masquerading as something else; a backdoor is a covert means of accessing a host or network. A Trojan need not necessarily operate a backdoor and a backdoor can be established by exploits other than using Trojans. The term remote access trojan ([[RAT]]) is used for the specific combination of Trojan and backdoor.
+A Trojan means a malicious program masquerading as something else; a backdoor is a covert means of accessing a host or network. A Trojan need not necessarily operate a backdoor and a backdoor can be established by exploits other than using Trojans. The term remote access trojan ([[RAT]]) is used for the specific combination of Trojan and backdoor.
 ## Question:
 You are investigating a business email compromise ([[BEC]]) incident. The email account of a developer has been accessed remotely over webmail. Investigating the developer's workstation finds no indication of a malicious process, but you do locate an unknown USB extension device attached to one of the rear ports. Is this the most likely attack vector, and what type of malware would it implement?
 ## Answer:

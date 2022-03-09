@@ -13,7 +13,7 @@ As well as authenticating the user, an account can be configured with attributes
 
 ### Account Attributes
 
-A user account is defined by a unique security identifier ([[SID]]), a name, and a credential. Each account is associated with a profile. The profile can be defined with custom identity attributes describing the user, such as a full name, email address, contact number, department, and so on. The profile may support media, such as an account picture.
+A user account is defined by a unique security identifier (SID), a name, and a credential. Each account is associated with a profile. The profile can be defined with custom identity attributes describing the user, such as a full name, email address, contact number, department, and so on. The profile may support media, such as an account picture.
 
 As well as attributes, the **profile will usually provide a location for storing user-generated data files (a home folder)**. The profile can also store per-account settings for software applications. 
 
