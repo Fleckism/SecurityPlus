@@ -1,0 +1,1 @@
+ is the time it takes for a transmission to reach the recipient, measured in milliseconds (ms)

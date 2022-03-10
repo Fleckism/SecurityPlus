@@ -7,6 +7,8 @@ tags: [attack]
 
 Indicators:
 - Resource consumption
+- Traffic spikes
 
-
-Load Balancers mitigate the effectiveness of DDoS attacks
+Mitigation:
+- [[Load Balancers]] 
+- [[Cluster services]] 
