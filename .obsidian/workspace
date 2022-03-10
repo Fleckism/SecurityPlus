@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d8ad804bbfb05065",
+        "id": "31b8dd09325058c6",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -99,19 +99,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
-  "active": "d8ad804bbfb05065",
+  "active": "31b8dd09325058c6",
   "lastOpenFiles": [
+    "My linked notes/Untitled 2.md",
+    "My linked notes/Untitled 1.md",
+    "My linked notes/Untitled.md",
     "My linked notes/AAA.md",
     "My linked notes/2FA.md",
     "SecurityPlus/9D Load Balancers.md",
     "My linked notes/Acronyms/ACL.md",
     "My linked notes/DDoS.md",
     "SecurityPlus/9B Secure Switching and Routing.md",
-    "My dump/My notes.md",
-    "SecurityPlus/9C Secure Wireless Infrastructure.md",
-    "SecurityPlus/10A Firewalls and Proxy Servers.md",
-    "SecurityPlus/10B Network Security Monitoring.md"
+    "My dump/My notes.md"
   ]
 }
