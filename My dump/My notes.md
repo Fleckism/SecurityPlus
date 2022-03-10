@@ -5,6 +5,7 @@ tags: [OIR, Attack]
 > - What subject is used for
 
 #NWL not worth linking 
+- Write notes for your future self.  You are not that smart in the future!
 # Next things to do!
 - Linked notes preview should only show bullet points in order of importance
 - [[Remediation]] is what I wanted to add to the bottom of all pages, not what I was thinking it was.

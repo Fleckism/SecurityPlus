@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "777ccf7df3bf7a69",
+        "id": "d8ad804bbfb05065",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "payload",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,17 +101,17 @@
     "direction": "horizontal",
     "width": 252
   },
-  "active": "777ccf7df3bf7a69",
+  "active": "d8ad804bbfb05065",
   "lastOpenFiles": [
-    "SecurityPlus/5B Cryptographic Modes of Operation.md",
-    "My linked notes/virus.md",
-    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
-    "Non-resident/file infector.md",
-    "My linked notes/Non-resident file infector.md",
-    "My linked notes/Memory resident.md",
-    "My linked notes/Acronyms/APT.md",
-    "My linked notes/tool.md",
-    "My linked notes/Corrective.md",
-    "My linked notes/OVAL.md"
+    "My linked notes/AAA.md",
+    "My linked notes/2FA.md",
+    "SecurityPlus/9D Load Balancers.md",
+    "My linked notes/Acronyms/ACL.md",
+    "My linked notes/DDoS.md",
+    "SecurityPlus/9B Secure Switching and Routing.md",
+    "My dump/My notes.md",
+    "SecurityPlus/9C Secure Wireless Infrastructure.md",
+    "SecurityPlus/10A Firewalls and Proxy Servers.md",
+    "SecurityPlus/10B Network Security Monitoring.md"
   ]
 }

@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [OIR, secondTag]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -7,10 +7,10 @@ tags: [firstTag, secondTag]
 
 3.3 Given a scenario, implement secure network designs
 
-A denial of service (DoS) attack can be extremely destructive and very difficult to mitigate. As a network security professional, it is vital for you to be able to compare and contrast DoS and distributed DoS (DDoS) methods and to be able to recommend and configure load balancing technologies that can make networks more resilient to these attacks.
+A denial of service ([[DoS]]) attack can be extremely destructive and very difficult to mitigate. As a network security professional, it is vital for you to be able to compare and contrast DoS and distributed DoS ([[DDoS]]) methods and to be able to recommend and configure load balancing technologies that can make networks more resilient to these attacks.
 # DISTRIBUTED DENIAL OF SERVICE ATTACKS 
 
-Most denial of service (DoS) attacks against websites and gateways are distributed DoS (DDoS). This means that the attack is launched from multiple hosts simultaneously. Typically, a threat actor will compromise machines to use as handlers in a command and control network. The handlers are used to compromise hundreds or thousands or millions of hosts with DoS tools (bots) forming a botnet. 
+Most denial of service (DoS) attacks against websites and gateways are distributed DoS (DDoS). This means that the attack is **launched from multiple hosts simultaneously**. Typically, a #threat actor will compromise machines to use as handlers in a command and control network. The handlers are used to compromise hundreds or thousands or millions of hosts with DoS tools (bots) forming a botnet. 
 
 Some types of DDoS attacks simply aim to consume network bandwidth, denying it to legitimate hosts, by using overwhelming numbers of bots. Others cause resource exhaustion on the hosts' processing requests, consuming CPU cycles and memory. This delays processing of legitimate traffic and could potentially crash the host system completely. For example, a SYN flood attack works by withholding the client's ACK packet during TCP's three-way handshake. Typically the client's IP address is spoofed, meaning that an invalid or random IP is entered so the server's SYN/ACK packet is misdirected. A server, router, or firewall can maintain a queue of pending connections, recorded in its state table. When it does not receive an ACK packet from the client, it resends the SYN/ACK packet a set number of times before timing out the connection. The problem is that a server may only be able to manage a limited number of pending connections, which the DoS attack quickly fills up. This means that the server is unable to respond to genuine traffic.
 # AMPLIFICATION, APPLICATION, AND OT ATTACKS 
