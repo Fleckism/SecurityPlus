@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8978b529198b3975",
+        "id": "777ccf7df3bf7a69",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/9B Secure Switching and Routing.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "8a2e0d33fe2783ac",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/9B Secure Switching and Routing.md",
+            "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zFleck",
+                "query": "payload",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -92,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/9B Secure Switching and Routing.md",
+                "file": "SecurityPlus/5B Cryptographic Modes of Operation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +109,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "8978b529198b3975",
+  "active": "777ccf7df3bf7a69",
   "lastOpenFiles": [
-    "SecurityPlus/9B Secure Switching and Routing.md",
-    "My linked notes/AAA.md",
-    "SecurityPlus/9A Secure Network Desings.md",
-    "SecurityPlus/8D Personnel Policies.md",
-    "My linked notes/My new note.md",
-    "My linked notes/scott.md",
-    "My linked notes/drones.md",
-    "My linked notes/CA.md",
-    "SecurityPlus/6A Certificates and  Certificate Authorities.md",
-    "SecurityPlus/9C Secure Wireless Infrastructure.md"
+    "SecurityPlus/5B Cryptographic Modes of Operation.md",
+    "My linked notes/virus.md",
+    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
+    "Non-resident/file infector.md",
+    "My linked notes/Non-resident file infector.md",
+    "My linked notes/Memory resident.md",
+    "My linked notes/Acronyms/APT.md",
+    "My linked notes/tool.md",
+    "My linked notes/Corrective.md",
+    "My linked notes/OVAL.md"
   ]
 }

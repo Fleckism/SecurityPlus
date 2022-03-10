@@ -40,5 +40,6 @@
   "alwaysUpdateLinks": true,
   "fileSortOrder": "alphabetical",
   "legacyEditor": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "lineWrap": true
 }

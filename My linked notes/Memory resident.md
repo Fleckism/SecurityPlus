@@ -1,0 +1,1 @@
+when the host file is **executed**, the virus creates a new process for itself in memory. The malicious process remains in memory, even if the host process is terminated.
