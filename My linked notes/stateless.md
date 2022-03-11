@@ -1,0 +1,1 @@
+This means that it does not preserve information about network sessions. 

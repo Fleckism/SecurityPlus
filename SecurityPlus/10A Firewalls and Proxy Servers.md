@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [A_D, Implement]
 ---
 # ## 
 
@@ -20,24 +20,24 @@ In this lesson, you will:
 
 3.3 Given a scenario, implement secure network designs
 
-The firewall is one of the longest serving types of network security control, developed to segregate some of the first Internet networks in the 1980s. Since those early days, firewall types and functionality have both broadened and deepened. As a network security professional, a very large part of your workday will be taken up with implementing, configuring, and troubleshooting firewalls and proxies.
+The firewall is one of the longest serving types of network security control, developed to segregate some of the first Internet networks in the 1980s. Since those early days, firewall types and functionality have both broadened and deepened. **As a network security professional, a very large part of your workday will be taken up with implementing, configuring, and troubleshooting [[firewalls]] and [[proxies]].**
 # PACKET FILTERING FIREWALLS 
 
 Packet filtering describes the earliest type of network firewall. All firewalls can still perform this basic function. 
 
 ### Access Control Lists (ACLs)
 
-A packet filtering firewall is configured by specifying a group of rules, called an access control list (ACL). Each rule defines a specific type of data packet and the appropriate action to take when a packet matches the rule. An action can be either to deny (block or drop the packet, and optionally log an event) or to accept (let the packet pass through the firewall). A packet filtering firewall can inspect the headers of IP packets. This means that rules can be based on the information found in those headers:
+A packet filtering firewall is configured by specifying a **group of rules**, called an access control list ([[ACL]]). Each rule defines a specific type of data packet and the **appropriate action** to take when a packet matches the rule. An action can be either to deny (block or drop the packet, and optionally log an event) or to accept (let the packet pass through the firewall). A packet filtering firewall can **inspect the headers of IP packets**. This means that rules can be based on the information found in those headers:
 
--   IP filtering—accepting or denying traffic on the basis of its source and/or destination IP address.
--   Protocol ID/type (TCP, UDP, ICMP, routing protocols, and so on).
--   Port filtering/security—accepting or denying a packet on the basis of source and destination port numbers (TCP or UDP application type).
+-   [[IP filtering]]—accepting or denying traffic on the basis of its source and/or destination IP address.
+-   [[Protocol ID/type]] (TCP, UDP, ICMP, routing protocols, and so on).
+-   [[Port filtering/security]]—accepting or denying a packet on the basis of source and destination port numbers (TCP or UDP application type).
 
-There may be additional functionality in some products, such as the ability to block some types of ICMP (ping) traffic but not others, or the ability to filter by hardware (MAC) address. Another distinction that can be made is whether the firewall can control only inbound traffic or both inbound and outbound traffic. This is also often referred to as ingress and egress traffic or filtering. Controlling outbound traffic is useful because it can block applications that have not been authorized to run on the network and defeat malware, such as backdoors. Ingress and egress traffic is filtered using separate ACLs. 
+There may be additional functionality in some products, such as the ability to block some types of [[ICMP]] (ping) traffic but not others, or the ability to filter by hardware [[MAC address]]. Another distinction that can be made is whether the firewall can control only inbound traffic or both inbound and outbound traffic. This is also often referred to as **ingress and egress traffic or filtering.** Controlling outbound traffic is useful because it can block applications that have not been authorized to run on the network and defeat malware, such as [[backdoors]]. Ingress and egress traffic is filtered using separate ACLs. 
 
 ### Stateless Operation
 
-A basic packet filtering firewall is stateless. This means that it does not preserve information about network sessions. Each packet is analyzed independently, with no record of previously processed packets. This type of filtering requires the least processing effort, but it can be vulnerable to attacks that are spread over a sequence of packets. A stateless firewall can also introduce problems in traffic flow, especially when some sort of load balancing is being used or when clients or servers need to use dynamically assigned ports.
+A basic packet filtering firewall is [[stateless]]. This means that it does not preserve information about network sessions. Each packet is analyzed independently, with no record of previously processed packets. This type of filtering requires the least processing effort, but it can be vulnerable to attacks that are spread over a sequence of packets. A stateless firewall can also introduce problems in traffic flow, especially when some sort of load balancing is being used or when clients or servers need to use dynamically assigned ports. #zFleck 
 # STATEFUL INSPECTION FIREWALLS
 
 A stateful inspection firewall addresses these problems by tracking information about the session established between two hosts, or blocking malicious attempts to start a bogus session. The vast majority of firewalls now incorporate some level of stateful inspection capability. Session data is stored in a state table. When a packet arrives, the firewall checks it to confirm whether it belongs to an existing connection. If it does not, it applies the ordinary packet filtering rules to determine whether to allow it. Once the connection has been allowed, the firewall usually allows traffic to pass unmonitored, in order to conserve processing effort.
