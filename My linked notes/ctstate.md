@@ -1,0 +1,1 @@
+rule is a stateful rule that allows any traffic that is part of an established or related session

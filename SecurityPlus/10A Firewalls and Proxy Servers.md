@@ -48,20 +48,20 @@ State table in the pfSense firewall [[appliance]]. (Screenshot used with permiss
 
 Stateful inspection can occur at two layers: transport and application.
 
-### Transport Layer (OSI Layer 4)
+### Transport Layer ([[OSI]] Layer 4)
 
-At the [[transport layer]], the firewall examines the TCP three-way handshake to distinguish new from established connections. A legitimate TCP connection should follow a SYN > SYN/ACK > ACK sequence to establish a session, which is then tracked using sequence numbers. Deviations from this, such as SYN without ACK or sequence number anomalies, can be dropped as malicious flooding or session hijacking attempts. The firewall can be configured to respond to such attacks by blocking source IP addresses and throttling sessions. It can also track UDP connections, though this is harder as UDP is a connectionless protocol. It is also likely to be able to detect IP header and ICMP anomalies.
+At the [[transport layer]], the firewall examines the TCP three-way handshake to distinguish new from established connections. A legitimate [[TCP]] connection should follow a SYN > SYN/ACK > ACK sequence to establish a session, which is then tracked using sequence numbers. Deviations from this, such as SYN without ACK or sequence number anomalies, can be dropped as malicious flooding or session hijacking attempts. The firewall can be configured to respond to such attacks by blocking source IP addresses and throttling sessions. It can also track [[UDP]] connections, though this is harder as UDP is a connectionless protocol. It is also likely to be able to detect IP header and [[ICMP]] anomalies.
 
 ![Advanced options include Source OS, Diffserv Code Point, Allow IP options, Disable reply-to, Tag, Tagged, and Max. states, src nodes, and connections.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2664-1599771803697.png)
 
 pfSense firewall rule configuration—Advanced settings allow maximums for states and connections to be applied. (Screenshot used with permission from [pfsense.org](https://www.pfsense.org/).)
 
-### Application Layer (OSI Layer 7)
+### Application Layer ([[OSI]] Layer 7)
 
-An application-aware firewall can inspect the contents of packets at the application layer. One key feature is to verify the application protocol matches the port; to verify that malware isn't sending raw TCP data over port 80 just because port 80 is open, for instance. As another example, a web application firewall could analyze the HTTP headers and the HTML code present in HTTP packets to try to identify code that matches a pattern in its threat database. Application-aware firewalls have many different names, including application layer gateway, stateful multilayer inspection, or deep packet inspection. Application aware devices have to be configured with separate filters for each type of traffic (HTTP and HTTPS, SMTP/POP/IMAP, FTP, and so on). Application aware firewalls are very powerful, but they are not invulnerable. Their very complexity means that it is possible to craft DoS attacks against exploitable vulnerabilities in the firewall firmware. Also, the firewall cannot examine encrypted data packets, unless configured with an SSL/TLS inspector.
+An application-**aware** firewall can inspect the contents of packets at the application layer. One key feature is to **verify the application protocol matches the port**; to verify that malware isn't sending raw TCP data over port 80 just because port 80 is open, for instance. As another example, a web application firewall could analyze the HTTP headers and the HTML code present in HTTP packets to try to identify code that matches a pattern in its threat database. **Application-aware firewalls have many different names, including application layer gateway, stateful multilayer inspection, or deep packet inspection**. Application aware devices have to be configured with separate filters for each type of [[traffic]] (HTTP and HTTPS, SMTP/POP/IMAP, FTP, and so on). Application aware firewalls are very powerful, but they are not invulnerable. Their very complexity means that it is possible to craft DoS attacks against exploitable vulnerabilities in the firewall firmware. Also, the **firewall cannot examine encrypted data packets, unless configured with an SSL/TLS inspector.**
 # IPTABLES
 
-iptables is a command line utility provided by many Linux distributions that allows administrators to edit the rules enforced by the Linux kernel firewall ([linux.die.net/man/8/iptables](https://linux.die.net/man/8/iptables)). iptables works with chains, which apply to the different types of traffic, such as the INPUT chain for traffic destined for the local host. Each chain has a default policy set to DROP or ALLOW traffic that does not match a rule. Each rule, processed in order, determines whether traffic matching the criteria is allowed or dropped.
+iptables is a command line [[|tools|utility]] provided by many Linux distributions that allows administrators to edit the rules enforced by the Linux kernel firewall ([linux.die.net/man/8/iptables](https://linux.die.net/man/8/iptables)). iptables works with chains, which apply to the different types of traffic, such as the INPUT chain for traffic destined for the local host. Each chain has a default policy set to DROP or ALLOW traffic that does not match a rule. Each rule, processed in order, determines whether traffic matching the criteria is allowed or dropped.
 
 The command iptables --list INPUT --line-numbers -n will show the contents of the INPUT chain with line numbers and no name resolution. The rules in the following example drop any traffic from the specific host at 10.1.0.192 and allow ICMP echo requests (pings), DNS, and HTTP/HTTPS traffic either from the local subnet (10.1.0.0/24) or from any network (0.0.0.0/0):
 
@@ -83,7 +83,7 @@ Chain INPUT (policy DROP)
 
 7 ACCEPT all -- 0.0.0.0/0  0.0.0.0/0  ctstate RELATED,ESTABLISHED
 
-The destination 0.0.0.0/0 means "anywhere." When set on the INPUT chain, the effect is to match any IP address that the local host is currently using. The ctstate rule is a stateful rule that allows any traffic that is part of an established or related session. As established connections should already have been allowed, this reduces processing requirements to minimize impact on traffic flow.
+The destination 0.0.0.0/0 means "anywhere." When set on the INPUT chain, the effect is to match any IP address that the local host is currently using. The [[ctstate]] rule is a stateful rule that allows any traffic that is part of an established or related session. As established connections should already have been allowed, this reduces processing requirements to minimize impact on traffic flow.
 
 The following command will insert a new rule as line 2 to allow traffic to the SSH server TCP port (22) from the local subnet:
 
@@ -100,22 +100,22 @@ You should consider how the firewall is implemented—as hardware or software, f
 
 An appliance firewall is a stand-alone hardware firewall deployed to monitor traffic passing into and out of a network zone. A firewall appliance can be deployed in two ways:
 
--   Routed (layer 3)—the firewall performs forwarding between subnets. Each interface on the firewall connects to a different subnet and represents a different security zone.
--   Bridged (layer 2)—the firewall inspects traffic passing between two nodes, such as a router and a switch. This is also referred to as transparent mode. The firewall does not have an IP interface (except for configuration management). It bridges the Ethernet interfaces between the two nodes. Despite performing forwarding at layer 2, the firewall can still inspect and filter traffic on the basis of the full range of packet headers. The typical use case for a transparent firewall is to deploy it without having to reconfigure subnets and reassign IP addresses on other devices.
+-   **Routed** ([[OSI|layer 3]])—the firewall performs forwarding between subnets. Each interface on the firewall connects to a different subnet and represents a different security zone.
+-   **Bridged** ([[OSI|layer 2]])—the firewall inspects traffic passing between two nodes, such as a router and a switch. This is also referred to as transparent mode. The firewall does not have an IP interface (except for configuration management). It bridges the Ethernet interfaces between the two nodes. Despite performing forwarding at layer 2, the firewall can still inspect and filter traffic on the basis of the full range of packet headers. The typical use case for a transparent firewall is to deploy it without having to reconfigure subnets and reassign IP addresses on other devices.
 
 ![Tab has Device Information, VPN Sessions, System Resources Status, Interface Status, Failover Status, Traffic Status, and Latest ASDM Syslog Messages.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3699-1599771803856.png)
 
 Cisco ASA (Adaptive Security Appliance) ASDM (Adaptive Security Device Manager) interface. (Screenshot used with permission from Cisco.)
 
-A router firewall or firewall router appliance implements filtering functionality as part of the router firmware. The difference is that a router appliance is primarily designed for routing, with firewall as a secondary feature. SOHO Internet router/modems come with a firewall built-in, for example. 
+A router firewall or firewall router appliance implements filtering functionality as part of the router firmware. **The difference is that a router appliance is primarily designed for routing, with firewall as a secondary feature.** SOHO Internet router/modems come with a firewall built-in, for example. 
 
 ### Application-Based Firewalls
 
-Firewalls can also run as software on any type of computing host. There are several types of application-based firewalls:
+[[Firewalls]] can also run as software on any type of computing host. There are several types of application-based firewalls:
 
--   Host-based firewall (or personal firewall)—implemented as a software application running on a single host designed to protect that host only. As well as enforcing packet filtering ACLs, a personal firewall can be used to allow or deny software processes from accessing the network.
--   Application firewall—software designed to run on a server to protect a particular application only (a web server firewall, for instance, or a firewall designed to protect an SQL Server database). This is a type of host-based firewall and would typically be deployed in addition to a network firewall.
--   Network operating system (NOS) firewall—a software-based firewall running under a network server OS, such as Windows or Linux. The server would function as a gateway or proxy for a network segment.
+-   **Host-based** firewall (or personal firewall)—implemented as a software application running on a single host designed to protect that host only. As well as enforcing packet filtering ACLs, a personal firewall can be used to allow or deny software processes from accessing the network.
+-   **Application** firewall—software designed to run on a server to protect a particular application only (a web server firewall, for instance, or a firewall designed to protect an SQL Server database). This is a type of host-based firewall and would typically be deployed in addition to a network firewall.
+-   **Network operating system** ([[NOS]]) firewall—a software-based firewall running under a network server OS, such as Windows or Linux. The server would function as a gateway or proxy for a network segment.
 # PROXIES AND GATEWAYS 
 
 A firewall that performs application layer filtering is likely to be implemented as a proxy. Where a network firewall only accepts or blocks traffic, a proxy server works on a store-and-forward model. The proxy deconstructs each packet, performs analysis, then rebuilds the packet and forwards it on, providing it conforms to the rules. 

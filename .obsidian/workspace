@@ -19,38 +19,12 @@
         }
       },
       {
-        "id": "66d8becf7aeabd28",
+        "id": "b92beeaf60f1d565",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/transport layer.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "8db3b9af9cd2c179",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/appliance.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "eb954fbefecf8d4d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/stateless.md",
+            "file": "My linked notes/ctstate.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -90,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "firewall",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -99,7 +73,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -120,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/transport layer.md",
+                "file": "SecurityPlus/10A Firewalls and Proxy Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,17 +125,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "66d8becf7aeabd28",
+  "active": "33e784ee709237b5",
   "lastOpenFiles": [
-    "My linked notes/transport layer.md",
     "SecurityPlus/10A Firewalls and Proxy Servers.md",
+    "My linked notes/ctstate.md",
+    "My linked notes/traffic.md",
+    "My linked notes/ICMP.md",
+    "SecurityPlus/3A Assess Organizational Security L3a.md",
+    "My linked notes/Acronyms/TCP.md",
+    "My linked notes/transport layer.md",
     "My linked notes/appliance.md",
     "My linked notes/stateless.md",
-    "My linked notes/Acronyms/ICMP.md",
-    "My linked notes/Acronyms/ACL.md",
-    "SecurityPlus/9D Load Balancers.md",
-    "My linked notes/RSVP.md",
-    "My linked notes/DSCP.md",
-    "My linked notes/CoS.md"
+    "My linked notes/Acronyms/ICMP.md"
   ]
 }
