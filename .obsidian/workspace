@@ -19,6 +19,32 @@
         }
       },
       {
+        "id": "66d8becf7aeabd28",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/transport layer.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "8db3b9af9cd2c179",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/appliance.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
         "id": "eb954fbefecf8d4d",
         "type": "leaf",
         "state": {
@@ -127,14 +153,14 @@
   "active": "33e784ee709237b5",
   "lastOpenFiles": [
     "SecurityPlus/10A Firewalls and Proxy Servers.md",
+    "My linked notes/transport layer.md",
+    "My linked notes/appliance.md",
     "My linked notes/stateless.md",
     "My linked notes/Acronyms/ICMP.md",
     "My linked notes/Acronyms/ACL.md",
     "SecurityPlus/9D Load Balancers.md",
     "My linked notes/RSVP.md",
     "My linked notes/DSCP.md",
-    "My linked notes/CoS.md",
-    "My linked notes/Latency.md",
-    "My linked notes/QoS.md"
+    "My linked notes/CoS.md"
   ]
 }

@@ -37,20 +37,20 @@ There may be additional functionality in some products, such as the ability to b
 
 ### Stateless Operation
 
-A basic packet filtering firewall is [[stateless]]. This means that it does not preserve information about network sessions. Each packet is analyzed independently, with no record of previously processed packets. This type of filtering requires the least processing effort, but it can be vulnerable to attacks that are spread over a sequence of packets. A stateless firewall can also introduce problems in traffic flow, especially when some sort of load balancing is being used or when clients or servers need to use dynamically assigned ports. #zFleck 
+A basic packet filtering firewall is [[stateless]]. This means that it does not preserve information about network sessions. Each packet is analyzed independently, with no record of previously processed packets. This type of filtering requires the least processing effort, but it can be vulnerable to attacks that are spread over a sequence of packets. A stateless firewall can also introduce problems in traffic flow, especially when some sort of load balancing is being used or when clients or servers need to use dynamically assigned ports. 
 # STATEFUL INSPECTION FIREWALLS
 
-A stateful inspection firewall addresses these problems by tracking information about the session established between two hosts, or blocking malicious attempts to start a bogus session. The vast majority of firewalls now incorporate some level of stateful inspection capability. Session data is stored in a state table. When a packet arrives, the firewall checks it to confirm whether it belongs to an existing connection. If it does not, it applies the ordinary packet filtering rules to determine whether to allow it. Once the connection has been allowed, the firewall usually allows traffic to pass unmonitored, in order to conserve processing effort.
+A stateful inspection firewall addresses these problems by **tracking information** about the session established between **two hosts, or blocking malicious attempts to start a bogus session**. The vast majority of firewalls now incorporate some level of stateful inspection capability. Session data is stored in a state table. When a packet arrives, the firewall checks it to confirm whether it belongs to an existing connection. If it does not, it applies the ordinary packet filtering rules to determine whether to allow it. Once the connection has been allowed, the firewall usually allows traffic to pass unmonitored, in order to conserve processing effort.
 
 ![A list of states is shown with Interface, Protocol, Source (Original) -&gt; Destination (Original), State, Packets, and Bytes; a State filter is above.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/4775-1599771803592.png)
 
-State table in the pfSense firewall appliance. (Screenshot used with permission from Rubicon Communications, LLC.)
+State table in the pfSense firewall [[appliance]]. (Screenshot used with permission from Rubicon Communications, LLC.)
 
 Stateful inspection can occur at two layers: transport and application.
 
 ### Transport Layer (OSI Layer 4)
 
-At the transport layer, the firewall examines the TCP three-way handshake to distinguish new from established connections. A legitimate TCP connection should follow a SYN > SYN/ACK > ACK sequence to establish a session, which is then tracked using sequence numbers. Deviations from this, such as SYN without ACK or sequence number anomalies, can be dropped as malicious flooding or session hijacking attempts. The firewall can be configured to respond to such attacks by blocking source IP addresses and throttling sessions. It can also track UDP connections, though this is harder as UDP is a connectionless protocol. It is also likely to be able to detect IP header and ICMP anomalies.
+At the [[transport layer]], the firewall examines the TCP three-way handshake to distinguish new from established connections. A legitimate TCP connection should follow a SYN > SYN/ACK > ACK sequence to establish a session, which is then tracked using sequence numbers. Deviations from this, such as SYN without ACK or sequence number anomalies, can be dropped as malicious flooding or session hijacking attempts. The firewall can be configured to respond to such attacks by blocking source IP addresses and throttling sessions. It can also track UDP connections, though this is harder as UDP is a connectionless protocol. It is also likely to be able to detect IP header and ICMP anomalies.
 
 ![Advanced options include Source OS, Diffserv Code Point, Allow IP options, Disable reply-to, Tag, Tagged, and Max. states, src nodes, and connections.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2664-1599771803697.png)
 
