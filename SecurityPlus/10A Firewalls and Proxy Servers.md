@@ -118,41 +118,41 @@ A router firewall or firewall router appliance implements filtering functionalit
 -   **Network operating system** ([[NOS]]) firewall—a software-based firewall running under a network server OS, such as Windows or Linux. The server would function as a gateway or proxy for a network segment.
 # PROXIES AND GATEWAYS 
 
-A firewall that performs application layer filtering is likely to be implemented as a proxy. Where a network firewall only accepts or blocks traffic, a proxy server works on a store-and-forward model. The proxy deconstructs each packet, performs analysis, then rebuilds the packet and forwards it on, providing it conforms to the rules. 
+A [[firewall]] that performs application layer filtering is likely to be implemented as a proxy. Where a network firewall only accepts or blocks traffic, **a proxy server works on a store-and-forward model.** The proxy deconstructs each packet, performs analysis, then rebuilds the packet and forwards it on, providing it conforms to the rules. 
 
-The amount of rebuilding depends on the proxy. Some proxies may only manipulate the IP and TCP headers. Application-aware proxies might add or remove HTTP headers. A deep packet inspection proxy might be able to remove content from an HTTP payload.
+The amount of rebuilding depends on the [[proxy]]. Some proxies may only manipulate the IP and TCP headers. Application-aware proxies might add or remove HTTP headers. **A deep packet inspection proxy might be able to remove content from an HTTP payload.**
 
 ### Forward Proxy Servers
 
-A forward proxy provides for protocol-specific outbound traffic. For example, you might deploy a web proxy that enables client computers on the LAN to connect to websites and secure websites on the Internet. This is a forward proxy that services TCP ports 80 and 443 for outbound traffic. 
+A forward [[proxy]] provides for protocol-specific outbound traffic. For example, you might deploy a web proxy that enables client computers on the LAN to connect to websites and secure websites on the Internet. **This is a forward proxy that services TCP ports 80 and 443 for outbound traffic.** 
 
 ![Tab shows “Blacklist Update” and a text box, then buttons Download, Cancel, Restore Default. “Enter FTP or HTTP path to the blacklist archive here.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8453-1599771803938.png)
 
-Configuring content filter settings for the Squid proxy server (squid-cache.org) running on pfSense. The filter can apply ACLs and time-based restrictions, and use block lists to prohibit access to URLs. (Screenshot used with permission from Rubicon Communications, LLC.)
+Configuring content filter settings for the Squid proxy server (squid-cache.org) running on pfSense. The filter can apply [[ACL|ACLs]] and time-based restrictions, and use block lists to prohibit access to URLs. (Screenshot used with permission from Rubicon Communications, LLC.)
 
-The main benefit of a proxy is that client computers connect to a specified point on the perimeter network for web access. The proxy can be positioned within a DMZ. This provides for a degree of traffic management and security. In addition, most web proxy servers provide caching engines, whereby frequently requested web pages are retained on the proxy, negating the need to re-fetch those pages for subsequent requests.
+The main benefit of a proxy is that client computers connect to a specified point on the perimeter network for web access. The proxy can be positioned within a [[DMZ]]. This provides for a degree of traffic management and security. In addition, most web proxy servers provide caching engines, whereby frequently requested web pages are retained on the proxy, negating the need to re-fetch those pages for subsequent requests.
 
-A proxy server must understand the application it is servicing. For example, a web proxy must be able to parse and modify HTTP and HTTPS commands (and potentially HTML and scripts too). Some proxy servers are application-specific; others are multipurpose. A multipurpose proxy is one configured with filters for multiple protocol types, such as HTTP, FTP, and SMTP.
+**A proxy server must understand the application it is servicing.** For example, a web proxy must be able to parse and modify HTTP and HTTPS commands (and potentially HTML and scripts too). Some proxy servers are application-specific; others are multipurpose. A multipurpose proxy is one configured with filters for multiple protocol types, such as HTTP, FTP, and SMTP.
 
 Proxy servers can generally be classed as non-transparent or transparent.
 
--   A non-transparent proxy means that the client must be configured with the proxy server address and port number to use it. The port on which the proxy server accepts client connections is often configured as port 8080.
+-   A non-transparent proxy means that the client must be configured with the proxy server address and port number to use it. The port on which the proxy server accepts client connections is often configured as **port 8080**.
 -   A transparent (or forced or intercepting) proxy intercepts client traffic without the client having to be reconfigured. A transparent proxy must be implemented on a switch or router or other inline network appliance.
 
 ![Settings include Transparent HTTP Proxy, Interface(s), and Bypass Proxies for: Private Address Destination, These Source IPs, These Destination IPs.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/5112-1599771804006.png)
 
 Configuring transparent proxy settings for the Squid proxy server (squid-cache.org) running on pfSense. (Screenshot used with permission from Rubicon Communications, LLC.)
 
-Both types of proxy can be configured to require users to be authenticated before allowing access. The proxy is likely to be able to use SSO to do this without having to prompt the user for a password. 
+Both types of proxy can be configured to require users to be authenticated before allowing access. The proxy is likely to be able to use [[SSO]] to do this without having to prompt the user for a password. 
 
-A proxy autoconfiguration (PAC) script allows a client to configure proxy settings without user intervention. The Web Proxy Autodiscovery (WPAD) protocol allows browsers to locate a PAC file. This can be an attack vector, as a malicious proxy on the local network can be used to obtain the user's hash as the browser tries to authenticate ([nopsec.com/responder-beyond-wpad](https://www.nopsec.com/responder-beyond-wpad/)).
+A proxy autoconfiguration ([[PAC]]) script allows a client to configure proxy settings without user intervention. The Web Proxy Autodiscovery ([[WPAD]]) protocol allows browsers to locate a PAC file. This can be an attack vector, as a malicious proxy on the local network can be used to obtain the user's hash as the browser tries to authenticate ([nopsec.com/responder-beyond-wpad](https://www.nopsec.com/responder-beyond-wpad/)).
 
 ### Reverse Proxy Servers
 
-A reverse proxy server provides for protocol-specific inbound traffic. For security purposes, you might not want external hosts to be able to connect directly to application servers, such as web, email, and VoIP servers. Instead, you can deploy a reverse proxy on the network edge and configure it to listen for client requests from a public network (the Internet). The proxy applies filtering rules and if accepted, it creates the appropriate request for an application server within a DMZ. In addition, some reverse proxy servers can handle application-specific load balancing, traffic encryption, and caching, reducing the overhead on the application servers.
+A reverse proxy server provides for protocol-specific inbound traffic. For security purposes, you might not want external hosts to be able to connect directly to application servers, such as web, email, and VoIP servers. Instead, you can deploy a reverse proxy on the network edge and configure it to listen for client requests from a public network (the Internet). The proxy applies filtering rules and if accepted, it creates the appropriate request for an application server within a [[DMZ]]. In addition, **some reverse proxy servers can handle application-specific load balancing**, traffic encryption, and caching, reducing the overhead on the application servers.
 # ACCESS CONTROL LISTS
 
-Firewall access control lists (ACLs) are configured on the principle of least access. This is the same as the principle of least privilege; only allow the minimum amount of traffic required for the operation of valid network services and no more. The rules in a firewall's ACL are processed top-to-bottom. If traffic matches one of the rules, then it is allowed to pass; consequently, the most specific rules are placed at the top. The final default rule is typically to block any traffic that has not matched a rule (implicit deny). If the firewall does not have a default implicit deny rule, an explicit deny all rule can be added manually to the end of the ACL.
+Firewall access control lists ([[ACL |ACLs]]) are configured on the principle of least access. This is the same as the principle of least privilege; only allow the minimum amount of traffic required for the operation of valid network services and no more. The rules in a firewall's ACL are processed top-to-bottom. If traffic matches one of the rules, then it is allowed to pass; consequently, the most specific rules are placed at the top. The final default rule is typically to block any traffic that has not matched a rule (implicit deny). If the firewall does not have a default implicit deny rule, an explicit deny all rule can be added manually to the end of the ACL.
 
 ![Rule list is shown with States, Protocol, Source, Port, Destination, Port, Gateway, Queue, Schedule, Description, and Actions. Rule order can change.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3817-1599771804108.png)
 
