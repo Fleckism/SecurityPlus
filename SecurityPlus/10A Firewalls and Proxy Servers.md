@@ -120,7 +120,7 @@ A router firewall or firewall router appliance implements filtering functionalit
 
 A [[firewall]] that performs application layer filtering is likely to be implemented as a proxy. Where a network firewall only accepts or blocks traffic, **a proxy server works on a store-and-forward model.** The proxy deconstructs each packet, performs analysis, then rebuilds the packet and forwards it on, providing it conforms to the rules. 
 
-The amount of rebuilding depends on the [[proxy]]. Some proxies may only manipulate the IP and TCP headers. Application-aware proxies might add or remove HTTP headers. **A deep packet inspection proxy might be able to remove content from an HTTP payload.**
+The amount of rebuilding depends on the [[proxy]]. Some proxies may only manipulate the [[IP]] and [[TCP]] headers. Application-aware proxies might add or remove HTTP headers. **A deep packet inspection proxy might be able to remove content from an HTTP payload.**
 
 ### Forward Proxy Servers
 
@@ -132,7 +132,7 @@ Configuring content filter settings for the Squid proxy server (squid-cache.org)
 
 The main benefit of a proxy is that client computers connect to a specified point on the perimeter network for web access. The proxy can be positioned within a [[DMZ]]. This provides for a degree of traffic management and security. In addition, most web proxy servers provide caching engines, whereby frequently requested web pages are retained on the proxy, negating the need to re-fetch those pages for subsequent requests.
 
-**A proxy server must understand the application it is servicing.** For example, a web proxy must be able to parse and modify HTTP and HTTPS commands (and potentially HTML and scripts too). Some proxy servers are application-specific; others are multipurpose. A multipurpose proxy is one configured with filters for multiple protocol types, such as HTTP, FTP, and SMTP.
+**A proxy server must understand the application it is servicing.** For example, a web proxy must be able to parse and modify HTTP and HTTPS commands (and potentially HTML and scripts too). Some proxy servers are application-specific; others are multipurpose. A multipurpose proxy is one configured with filters for multiple protocol types, such as [[HTTP]], [[FTP]], and SMTP.
 
 Proxy servers can generally be classed as non-transparent or transparent.
 
