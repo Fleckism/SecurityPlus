@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "74224cf07125aba3",
+        "id": "1a1ba147c423a1e4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/FTP.md",
+            "file": "My linked notes/firewall.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "FTP",
+                "query": "\"acls\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/FTP.md",
+                "file": "SecurityPlus/10A Firewalls and Proxy Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,17 +124,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "74224cf07125aba3",
+  "active": "1d36cce0a4b15ff5",
   "lastOpenFiles": [
-    "My linked notes/FTP.md",
-    "SecurityPlus/11B Secure Application Protocols.md",
     "SecurityPlus/10A Firewalls and Proxy Servers.md",
-    "My linked notes/HTTP.md",
-    "My linked notes/proxy.md",
-    "My linked notes/Acronyms/IP.md",
-    "My linked notes/Acronyms/TCP.md",
     "My linked notes/firewall.md",
-    "My linked notes/appliance.md",
-    "SecurityPlus/1B Security Control and Framework Types.md"
+    "My linked notes/Acronyms/ACL.md",
+    "SecurityPlus/8C Authorization Solutions.md",
+    "My linked notes/Load balancers.md",
+    "My linked notes/PAC.md",
+    "My linked notes/SSO.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/proxy.md",
+    "My linked notes/DMZ.md"
   ]
 }
