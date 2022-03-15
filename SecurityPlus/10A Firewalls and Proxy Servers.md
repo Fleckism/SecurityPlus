@@ -180,27 +180,27 @@ A NAT gateway is a service that translates between the private addressing scheme
 
 There are several types of NAT:
 
--   Static and dynamic source NAT—perform 1:1 mappings between private ("inside local") network address and public ("inside global") addresses. These mappings can be static or dynamically assigned.
--   Overloaded NAT/Network Address Port Translation (NAPT)/Port Address Translation (PAT)—provides a means for multiple private IP addresses to be mapped onto a single public address. For example, say two hosts (192.168.0.101 and 192.168.0.102) initiate a web connection at the same time. The NAPT service creates two new port mappings for these requests (192.168.0.101:61101 and 192.168.0.102:61102). It then substitutes the private IPs for the public IP and forwards the requests to the public Internet. It performs a reverse mapping on any traffic returned using those ports, inserting the original IP address and port number, and forwards the packets to the internal hosts.
+-   **Static and dynamic source NAT**—perform 1:1 mappings between private ("inside local") network address and public ("inside global") addresses. These mappings can be static or dynamically assigned.
+-   **Overloaded NAT/Network Address Port Translation** ([[NAPT]])/Port Address Translation ([[PAT]])—provides a means for multiple private IP addresses to be mapped onto a single public address. For example, say two hosts (192.168.0.101 and 192.168.0.102) initiate a web connection at the same time. The NAPT service creates two new port mappings for these requests (192.168.0.101:61101 and 192.168.0.102:61102). It then substitutes the private IPs for the public IP and forwards the requests to the public Internet. It performs a reverse mapping on any traffic returned using those ports, inserting the original IP address and port number, and forwards the packets to the internal hosts.
 
 ![nat-overloading.png](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/nat-overloading.png)
 
 NAT overloading. (Image © 123RF.com.)
 
--   Destination NAT/port forwarding—uses the router's public address to publish a web service, but forwards incoming requests to a different IP. Port forwarding means that the router takes requests from the Internet for a particular application (say, HTTP/port 80) and sends them to a designated host and port in the DMZ or LAN.
+-   **Destination NAT/port forwarding**—uses the router's public address to publish a web service, but forwards incoming requests to a different IP. Port forwarding means that the router takes requests from the Internet for a particular application (say, HTTP/port 80) and sends them to a designated host and port in the DMZ or LAN.
 
 ![Edit Redirect Entry has Interface (WAN), Protocol (TCP), Destination port range (Any), Redirect target IP (10.1.0.10), and Redirect target port (HTTP)](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8572-1599771804610.png)
 
 Configuring port forwarding on a pfSense firewall appliance—This rule forwards any HTTP traffic received on the appliance's WAN interface to the 10.1.0.10 host on the LAN. (Screenshot used with permission from [pfsense.org](https://www.pfsense.org/).)
 
-The larger IPv6 address space makes most use cases for NAT redundant. A host can use a link-local address to contact neighboring nodes, but any routed traffic should use a globally unique address. In IPv6 it is routing policies and firewall filtering that manage which hosts and networks are reachable. That said, there are mechanisms for translating prefixes at the network edge (NPTv6) and for translation between IPv6 addresses (NAT66) or IPv6 and IPv4 addresses (NAT64 and NAT46).
+The larger IPv6 address space makes most use cases for NAT redundant. A host can use a link-local address to contact neighboring nodes, but any routed traffic should use a globally unique address. In IPv6 it is routing policies and firewall filtering that manage which hosts and networks are reachable. That said, there are mechanisms for translating prefixes at the network edge ([[NPTv6]]) and for translation between IPv6 addresses ([[NAT66]]) or IPv6 and IPv4 addresses ([[NAT64]] and [[NAT46]]).
 # VIRTUAL FIREWALLS
 
 Virtual firewalls are usually deployed within data centers and cloud services. A virtual firewall can be implemented in three different ways:
 
--   Hypervisor-based—this means that filtering functionality is built into the hypervisor or cloud provisioning tool. You can use the cloud's web app or application programming interface (API) to write access control lists (ACLs) for traffic arriving or leaving a virtual host or virtual network.
--   Virtual appliance—this refers to deploying a vendor firewall appliance instance using virtualization, in the same way you might deploy a Windows or Linux guest OS.
--   Multiple context—this refers to multiple virtual firewall instances running on a hardware firewall appliance. Each context has a separate interface and can perform a distinct filtering role.
+-   [[Hypervisor]]-based—this means that filtering functionality is built into the hypervisor or cloud provisioning tool. You can use the cloud's web app or application programming interface ([[API]]) to write access control lists ([[ACL]]s) for traffic arriving or leaving a virtual host or virtual network.
+-   [[Virtual appliance]]—this refers to deploying a vendor firewall appliance instance using virtualization, in the same way you might deploy a Windows or Linux guest OS.
+-   [[Multiple context]]—this refers to multiple virtual firewall instances running on a hardware firewall appliance. Each context has a separate interface and can perform a distinct filtering role.
 
 While they can be deployed like "regular" firewalls for zone-based routing and filtering, virtual firewalls' most significant role is to support the east-west security and zero-trust microsegmentation design paradigms. They are able to inspect traffic as it passes from host-to-host or between virtual networks, rather than requiring that traffic be routed up to a firewall appliance and back.
 # OPEN-SOURCE VERSUS PROPRIETARY FIREWALLS
