@@ -20,7 +20,7 @@ In this lesson, you will:
 
 3.3 Given a scenario, implement secure network designs
 
-The firewall is one of the longest serving types of network security control, developed to segregate some of the first Internet networks in the 1980s. Since those early days, firewall types and functionality have both broadened and deepened. **As a network security professional, a very large part of your workday will be taken up with implementing, configuring, and troubleshooting [[firewalls]] and [[proxies]].**
+The firewall is one of the longest serving types of network security control, developed to segregate some of the first Internet networks in the 1980s. Since those early days, firewall types and functionality have both broadened and deepened. **As a network security professional, a very large part of your workday will be taken up with implementing, configuring, and troubleshooting [[firewall]] and [[proxies]].**
 # PACKET FILTERING FIREWALLS 
 
 Packet filtering describes the earliest type of network firewall. All firewalls can still perform this basic function. 
@@ -111,7 +111,7 @@ A router firewall or firewall router appliance implements filtering functionalit
 
 ### Application-Based Firewalls
 
-[[Firewalls]] can also run as software on any type of computing host. There are several types of application-based firewalls:
+[[firewall]] can also run as software on any type of computing host. There are several types of application-based firewalls:
 
 -   **Host-based** firewall (or personal firewall)—implemented as a software application running on a single host designed to protect that host only. As well as enforcing packet filtering ACLs, a personal firewall can be used to allow or deny software processes from accessing the network.
 -   **Application** firewall—software designed to run on a server to protect a particular application only (a web server firewall, for instance, or a firewall designed to protect an SQL Server database). This is a type of host-based firewall and would typically be deployed in addition to a network firewall.
@@ -158,25 +158,25 @@ Firewall access control lists ([[ACL |ACLs]]) are configured on the principle of
 
 Sample firewall ruleset configured on pfSense. This ruleset blocks all traffic from bogon networks and a specific private address range but allows any HTTP, HTTPS, or SMTP traffic from any other source. (Screenshot used with permission from Rubicon Communications, LLC.)
 
-Each rule can specify whether to block or allow traffic based on several parameters, often referred to as tuples. If you think of each rule being like a row in a database, the tuples are the columns. For example, in the previous screenshot, the tuples include Protocol, Source (address), (Source) Port, Destination (address), (Destination) Port, and so on.
+Each rule can specify whether to block or allow traffic based on several parameters, often referred to as tuples. If you think of each rule being like a row in a database, the tuples are the columns. For example, in the previous screenshot, the [[tuples]] include Protocol, Source (address), (Source) Port, Destination (address), (Destination) Port, and so on.
 
-Even the simplest packet filtering firewall can be complex to configure securely. It is essential to create a written policy describing what a filter ruleset should do and to test the configuration as far as possible to ensure that the ACLs you have set up work as intended. Also test and document changes made to ACLs. Some other basic principles include:
+Even the simplest packet filtering firewall can be complex to configure securely. It is essential to create a written policy describing what a filter ruleset should do and to test the configuration as far as possible to ensure that the ACLs you have set up work as intended. Also test and document changes made to [[ACL|ACLs]]. Some other basic principles include:
 
 -   Block incoming requests from internal or private IP addresses (that have obviously been spoofed).
--   Block incoming requests from protocols that should only be functioning at a local network level, such as ICMP, DHCP, or routing protocol traffic.
+-   **Block incoming requests from protocols that should only be functioning at a local network level, such as ICMP, DHCP, or routing protocol traffic.**
 -   Use penetration testing to confirm the configuration is secure. Log access attempts and monitor the logs for suspicious activity.
 -   Take the usual steps to secure the hardware on which the firewall is running and use of the management interface.
 
 Access control list entries shown using the command iptables --list INPUT --line-numbers -n.
 # NETWORK ADDRESS TRANSLATION
 
-Network address translation (NAT) was devised as a way of freeing up scarce IP addresses for hosts needing Internet access. A private network will typically use a private addressing scheme to allocate IP addresses to hosts. These addresses can be drawn from one of the pools of addresses defined in RFC 1918 ([tools.ietf.org/html/rfc1918](https://tools.ietf.org/html/rfc1918)) as non-routable over the Internet:
+Network address translation ([[NAT]]) was devised as a way of freeing up scarce IP addresses for hosts needing Internet access. A private network will typically use a private addressing scheme to allocate IP addresses to hosts. These addresses can be drawn from one of the pools of addresses defined in RFC 1918 ([tools.ietf.org/html/rfc1918](https://tools.ietf.org/html/rfc1918)) as non-routable over the Internet:
 
 -   10.0.0.0 to 10.255.255.255 (Class A private address range).
 -   172.16.0.0 to 172.31.255.255 (Class B private address range).
 -   192.168.0.0 to 192.168.255.255 (Class C private address range).
 
-A NAT gateway is a service that translates between the private addressing scheme used by hosts on the LAN and the public addressing scheme used by router, firewall, or proxy server on the network edge. NAT provides security in the sense that it can manage ingress and egress traffic at well-defined points on the network edge, but it is important to realize that it does not perform a filtering function.
+A NAT gateway is a service that translates between the private addressing scheme used by hosts on the LAN and the public addressing scheme used by router, firewall, or proxy server on the [[network edge]]. NAT provides security in the sense that it can manage ingress and egress traffic at well-defined points on the network edge, but it is important to realize that it does not perform a filtering function.
 
 There are several types of NAT:
 

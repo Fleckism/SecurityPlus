@@ -56,7 +56,7 @@ When designing and troubleshooting a network, it is helpful to compartmentalize 
 
 -   [[WAP |Wireless access points]]—provide a bridge between a cabled network and wireless clients, or stations. Access points work at layer 2 of the OSI model.
 -   [[Routers]]—forward packets around an internetwork, making forwarding decisions based on IP addresses. Routers work at layer 3 of the OSI model. Routers can apply logical IP subnet addresses to segments within a network.
--   [[Firewalls]]—apply an access control list ([[ACL]]) to filter traffic passing in or out of a network segment. Firewalls can work at layer 3 of the OSI model or higher.
+-   [[firewall]]—apply an access control list ([[ACL]]) to filter traffic passing in or out of a network segment. Firewalls can work at layer 3 of the OSI model or higher.
 -   [[Load balancers]]—distribute traffic between network segments or servers to optimize performance. Load balancers can work at layer 4 of the OSI model or higher.
 -   Domain Name System ([[DNS]]) servers—host name records and perform name resolution to allow applications and users to address hosts and services using fully qualified domain names ([[FQDN |FQDNs]]) rather than IP addresses. DNS works at layer 7 of the OSI model. Name resolution is a critical service in network design. Abuse of name resolution is a common attack vector.
 
