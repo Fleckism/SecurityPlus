@@ -10,38 +10,12 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/10C SIEM.md",
+            "file": "SecurityPlus/10C SIEM  security information and event management.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "e991fd2c07b76b82",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/security control.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "fc54f182865ad905",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Acronyms/SIEM.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -77,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pattern ",
+                "query": "\"risk\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -86,7 +60,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -107,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/10C SIEM.md",
+                "file": "SecurityPlus/10C SIEM  security information and event management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,15 +114,15 @@
   },
   "active": "ac74b9c27b203e63",
   "lastOpenFiles": [
-    "SecurityPlus/10C SIEM.md",
-    "My linked notes/security control.md",
+    "SecurityPlus/10C SIEM  security information and event management.md",
+    "My dump/My notes.md",
+    "My linked notes/Acronyms/IoC.md",
     "My linked notes/Acronyms/SIEM.md",
+    "My linked notes/SNMP.md",
+    "My linked notes/security control.md",
     "SecurityPlus/11C Secure Remote Access Protocols.md",
     "SecurityPlus/10B Network Security Monitoring.md",
     "My linked notes/firewall.md",
-    "My linked notes/HIDS.md",
-    "My linked notes/Acronyms/ACL.md",
-    "SecurityPlus/9C Secure Wireless Infrastructure.md",
-    "My linked notes/Acronyms/IDS.md"
+    "My linked notes/HIDS.md"
   ]
 }

@@ -2,7 +2,7 @@
 tags: [OIR, attack]
 ---
 
-**indicator of compromise (IoC)**
+**indicator of compromise (IoC)** aka indicator of risk
 -   Unauthorized software and files
 -   Suspicious emails
 -   Suspicious registry and file system changes

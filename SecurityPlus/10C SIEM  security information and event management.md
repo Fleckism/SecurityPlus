@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [OIR, A_D, Implement]
 ---
 # EXAM OBJECTIVES COVERED
 **security information and event management** [[SIEM]]
@@ -16,11 +16,11 @@ Security assessments and incident response both require real-time monitoring of 
 
 ### Packet Capture
 
-Data captured from network sensors/sniffers plus netflow sources provides both summary statistics about bandwidth and protocol usage and the opportunity for detailed frame analysis.
+**Data captured** (logged traffic) from network sensors/sniffers plus netflow sources provides both summary statistics about **bandwidth and protocol usage** and the opportunity for detailed frame analysis.
 
 ### Network Monitors
 
-As distinct from network traffic monitoring, a network monitor collects data about network appliances, such as switches, access points, routers, firewalls, and servers. This is used to monitor load status for CPU/memory, state tables, disk capacity, fan speeds/temperature, network link utilization/error statistics, and so on. Another important function is a heartbeat message to indicate availability. This data might be collected using the Simple Network Management Protocol (SNMP) or a proprietary management system. As well as supporting availability, network monitoring might reveal unusual conditions that could point to some kind of attack.
+As distinct from **network traffic monitoring**,(**not the same thing**) a **network monitor** collects data about **network appliances**, such as switches, access points, routers, firewalls, and servers. This is used to monitor load status for CPU/memory, state tables, disk capacity, fan speeds/temperature, network link utilization/error statistics, and so on. Another important function is a heartbeat message to indicate availability. This data might be collected using the Simple Network Management Protocol ([[SNMP]]) or a proprietary management system. As well as supporting availability, network monitoring might reveal unusual conditions that could point to some kind of attack.
 
 ### Logs
 
@@ -29,7 +29,7 @@ Logs are one of the most valuable sources of security information. A system log 
 Logs typically associate an action with a particular user. This is one of the reasons that it is critical that users not share logon details. If a user account is compromised, there is no means of tying events in the log to the actual attacker.
 # SECURITY INFORMATION AND EVENT MANAGEMENT
 
-Software designed to assist with managing security data inputs and provide reporting and alerting is often described as security information and event management ([[SIEM]]). The core function of a SIEM tool is to aggregate traffic data and logs. In addition to logs from Windows and Linux-based hosts, this could include switches, routers, firewalls, IDS sensors, vulnerability scanners, malware scanners, data loss prevention (DLP) systems, and databases.
+Software designed to assist with managing security data inputs and provide reporting and alerting is often described as security information and event management ([[SIEM]]). The core function of a SIEM tool is to aggregate traffic data and logs. In addition to logs from Windows and Linux-based hosts, this could include switches, routers, firewalls, IDS sensors, vulnerability scanners, malware scanners, data loss prevention ([[DLP]]) systems, and databases.
 
 ![Screenshot of SIEM dashboards with Security tab selected, showing the available data available.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7009-1599771805070.png)
 
@@ -39,11 +39,11 @@ OSSIM SIEM dashboard—Configurable dashboards provide the high-level status vie
 
 The first task for SIEM is to collect data inputs from multiple sources. There are three main types of log collection:
 
--   Agent-based—with this approach, you must install an agent service on each host. As events occur on the host, logging data is filtered, aggregated, and normalized at the host, then sent to the SIEM server for analysis and storage.
--   Listener/collector—rather than installing an agent, hosts can be configured to push updates to the SIEM server using a protocol such as syslog or SNMP. A process runs on the management server to parse and normalize each log/monitoring source.  
+-   **Agent-based**—with this approach, you must install an agent service on each host. As events occur on the host, logging data is filtered, aggregated, and normalized at the host, then sent to the SIEM server for analysis and storage.
+-   **Listener/collector**—rather than installing an agent, hosts can be configured to push updates to the SIEM server using a protocol such as syslog or SNMP. A process runs on the management server to parse and normalize each log/monitoring source.  
       
     Syslog ([tools.ietf.org/html/rfc3164](https://tools.ietf.org/html/rfc3164)) allows for centralized collection of events from multiple sources. It also provides an open format for event logging messages, and as such has become a de facto standard for logging of events from distributed systems. For example, syslog messages can be generated by Cisco routers and switches, as well as servers and workstations.
--   Sensor—as well as log data, the SIEM might collect packet captures and traffic flow data from sniffers. 
+-   **Sensor**—as well as log data, the SIEM might collect packet captures and traffic flow data from sniffers. 
 
 ![Screenshot shows Asset (PFSENSE on 10.1.0.254), Type (OpenBSD PF Packet Filter), Plugin Enabled, and Instructions (Instruction to forward logs).](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/303-1599771805171.png)
 
@@ -51,10 +51,10 @@ Enabling a log parser plug-in for a pfSense security appliance so that firewall 
 
 ### Log Aggregation 
 
-Log aggregation refers to normalizing data from different sources so that it is consistent and searchable. SIEM software features connectors or plug-ins to interpret (or parse) data from distinct types of systems and to account for differences between vendor implementations. Usually parsing will be carried out using regular expressions tailored to each log file format to identify attributes and content that can be mapped to standard fields in the SIEM's reporting and analysis tools. Another important function is to normalize date/time zone differences to a single timeline.
+Log aggregation refers to **normalizing data** from different sources so that it is **consistent and searchable**. SIEM software features connectors or plug-ins to interpret (or parse) data from distinct types of systems and to account for differences between vendor implementations. Usually parsing will be carried out using regular expressions tailored to each log file format to identify attributes and content that can be mapped to standard fields in the SIEM's reporting and analysis tools. Another important function is to normalize **date/time zone differences to a single timeline**.
 # ANALYSIS AND REPORT REVIEW 
 
-Where collection and aggregation produce inputs, a SIEM is also used for reporting. A critical function of SIEM—and the principal factor distinguishing it from basic log management—is that of correlation. This means that the SIEM software can link individual events or data points (observables) into a meaningful indicator of risk, or Indicator of Compromise (IOC). Correlation can then be used to drive an alerting system. These reports would be viewed from the SIEM dashboard.
+Where collection and aggregation produce inputs, a SIEM is also used for reporting. A critical function of SIEM—and the principal factor distinguishing it from basic log management—is that of correlation. This means that the SIEM software can link individual events or data points (observables) into a meaningful indicator of risk, or Indicator of Compromise ([[IOC]]). Correlation can then be used to drive an alerting system. These reports would be viewed from the SIEM dashboard.
 
 Basic correlation can be performed using simple If…Then type rules. However, many SIEM solutions use artificial intelligence (AI) and machine learning as the basis for automated analysis.
 

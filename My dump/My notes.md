@@ -10,7 +10,7 @@ tags: [OIR, Attack]
 - Linked notes preview should only show bullet points in order of importance
 - [[Remediation]] is what I wanted to add to the bottom of all pages, not what I was thinking it was.
 - graph view does not show folders only links
--
+- indicator of risk
 - **Test to see if assisted labs work more than once!**
 	- Scenarios
 		- Have page for defenses
