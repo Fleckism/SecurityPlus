@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "644bd0c39d455363",
+        "id": "ac74b9c27b203e63",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/10B Network Security Monitoring.md",
+            "file": "SecurityPlus/10C SIEM.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,25 @@
         }
       },
       {
-        "id": "f2e954bac9a0da93",
+        "id": "e991fd2c07b76b82",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/firewall.md",
+            "file": "My linked notes/security control.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "fc54f182865ad905",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/SIEM.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -73,8 +86,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/firewall.md",
+                "file": "SecurityPlus/10C SIEM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,17 +137,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "f2e954bac9a0da93",
+  "active": "ac74b9c27b203e63",
   "lastOpenFiles": [
-    "My linked notes/firewall.md",
+    "SecurityPlus/10C SIEM.md",
+    "My linked notes/security control.md",
+    "My linked notes/Acronyms/SIEM.md",
+    "SecurityPlus/11C Secure Remote Access Protocols.md",
     "SecurityPlus/10B Network Security Monitoring.md",
+    "My linked notes/firewall.md",
     "My linked notes/HIDS.md",
     "My linked notes/Acronyms/ACL.md",
     "SecurityPlus/9C Secure Wireless Infrastructure.md",
-    "My linked notes/Acronyms/IDS.md",
-    "My linked notes/traffic.md",
-    "My linked notes/proxy.md",
-    "My linked notes/IPS.md",
-    "My linked notes/Intrusion.md"
+    "My linked notes/Acronyms/IDS.md"
   ]
 }

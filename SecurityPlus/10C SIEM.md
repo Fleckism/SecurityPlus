@@ -2,14 +2,14 @@
 tags: [firstTag, secondTag]
 ---
 # EXAM OBJECTIVES COVERED
-
+**security information and event management** [[SIEM]]
 1.7 Summarize the techniques used in security assessments
 
 3.3 Given a scenario, implement secure network designs
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security
 
-There are many types of security controls that can be deployed to protect networks, hosts, and data. One thing that all these controls have in common is that they generate log data and alerts. Reviewing this output is one of the principal challenges in information security management. As a security professional, you must be able to describe, install, and configure systems to manage logging and events.
+There are many types of [[security control]]s that can be deployed to protect networks, hosts, and data. One thing that all these controls have in common is that they generate log data and alerts. Reviewing this output is one of the principal challenges in information security management. As a security professional, you must be able to describe, install, and configure systems to manage logging and events.
 # MONITORING SERVICES
 
 Security assessments and incident response both require real-time monitoring of host and network status indicators plus audit information.
