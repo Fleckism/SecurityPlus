@@ -4,38 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d08f05b2ddfd671e",
+        "id": "644bd0c39d455363",
         "type": "leaf",
         "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "SecurityPlus/9C Secure Wireless Infrastructure.md",
-            "options": {
-              "collapse-filter": false,
-              "search": "",
-              "localJumps": 2,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": true,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 0.7132754626224431,
-              "close": false
-            }
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -84,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -101,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/9C Secure Wireless Infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,20 +99,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
-  "active": "d08f05b2ddfd671e",
+  "active": "644bd0c39d455363",
   "lastOpenFiles": [
-    "SecurityPlus/9C Secure Wireless Infrastructure.md",
+    "My linked notes/Acronyms/ACL.md",
     "My linked notes/firewall.md",
+    "SecurityPlus/9C Secure Wireless Infrastructure.md",
     "My linked notes/Acronyms/IDS.md",
     "SecurityPlus/10B Network Security Monitoring.md",
     "My linked notes/traffic.md",
     "My linked notes/proxy.md",
     "My linked notes/IPS.md",
     "My linked notes/Intrusion.md",
-    "My linked notes/NGFW.md",
-    "SecurityPlus/10A Firewalls and Proxy Servers.md"
+    "My linked notes/NGFW.md"
   ]
 }
