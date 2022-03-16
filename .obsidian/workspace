@@ -4,30 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "1d36cce0a4b15ff5",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/10A Firewalls and Proxy Servers.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "1a1ba147c423a1e4",
+        "id": "d08f05b2ddfd671e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "localgraph",
           "state": {
-            "file": "My linked notes/firewall.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
+            "file": "SecurityPlus/9C Secure Wireless Infrastructure.md",
+            "options": {
+              "collapse-filter": false,
+              "search": "",
+              "localJumps": 2,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": true,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 0.7132754626224431,
+              "close": false
+            }
           }
         }
       }
@@ -64,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"acls\"",
+                "query": "\"traffic\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
+    "width": 255.5,
     "collapsed": true
   },
   "right": {
@@ -94,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/10A Firewalls and Proxy Servers.md",
+                "file": "SecurityPlus/9C Secure Wireless Infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +131,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "1d36cce0a4b15ff5",
+  "active": "d08f05b2ddfd671e",
   "lastOpenFiles": [
-    "SecurityPlus/10A Firewalls and Proxy Servers.md",
+    "SecurityPlus/9C Secure Wireless Infrastructure.md",
     "My linked notes/firewall.md",
-    "My linked notes/Acronyms/ACL.md",
-    "SecurityPlus/8C Authorization Solutions.md",
-    "My linked notes/Load balancers.md",
-    "My linked notes/PAC.md",
-    "My linked notes/SSO.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/Acronyms/IDS.md",
+    "SecurityPlus/10B Network Security Monitoring.md",
+    "My linked notes/traffic.md",
     "My linked notes/proxy.md",
-    "My linked notes/DMZ.md"
+    "My linked notes/IPS.md",
+    "My linked notes/Intrusion.md",
+    "My linked notes/NGFW.md",
+    "SecurityPlus/10A Firewalls and Proxy Servers.md"
   ]
 }

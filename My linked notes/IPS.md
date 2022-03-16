@@ -1,0 +1,14 @@
+**intrusion prevention system**
+- Active response
+	- Typical preventive measure is to end the [[TCP]] session
+		- send a TCP reset packet to the attacking host.
+		- To apply a temporary filter on the firewall to block the attackers IP address ([[shunning]])
+	- Advanced measures include 
+		- throttling bandwidth to attacking hosts
+		- Applying complex firewall filters
+		- Modifying suspect packets to render them harmless. Finally, the appliance may be able to run a script or third-party program to perform some other action not supported by the IPS software itself.
+		- wire-speed antivirus scanning. Rulesets can be configured to 
+			- Provide user content filtering, such as blocking URLs
+			- Applying keyword-sensitive block lists or allow lists, 
+			- Applying time-based access restrictions.
+	-  IPS appliances are positioned like firewalls at the border between two network zones. As with proxy servers, the appliances are "inline" with the network, meaning that all traffic passes through them (also making them a single point-of-failure if there is no fault tolerance mechanism). This means that they need to be able to cope with high bandwidths and process each packet very quickly to avoid slowing down the network.

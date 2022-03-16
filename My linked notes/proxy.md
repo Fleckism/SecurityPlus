@@ -1,7 +1,7 @@
 A proxy **server** is a computer system or router.
 - Functions as a relay between client and server
 - Prevents attacker from invading private network
-- Part of a firewall
+- Part of a [[firewall]]
 - **A proxy server must understand the application it is servicing.**
 - Must be able to parse and modify protocols and scripts
 	- HTTP

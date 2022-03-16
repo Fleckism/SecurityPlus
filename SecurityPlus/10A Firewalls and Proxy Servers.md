@@ -202,7 +202,7 @@ Virtual firewalls are usually deployed within data centers and cloud services. A
 -   [[Virtual appliance]]—this refers to deploying a vendor firewall appliance instance using virtualization, in the same way you might deploy a Windows or Linux guest OS.
 -   [[Multiple context]]—this refers to multiple virtual firewall instances running on a hardware firewall appliance. Each context has a separate interface and can perform a distinct filtering role.
 
-While they can be deployed like "regular" firewalls for zone-based routing and filtering, virtual firewalls' most significant role is to support the east-west security and zero-trust microsegmentation design paradigms. They are able to inspect traffic as it passes from host-to-host or between virtual networks, rather than requiring that traffic be routed up to a firewall appliance and back.
+While they can be deployed like "regular" firewalls for zone-based routing and filtering, **virtual firewalls**' most significant role is to support the east-west security and zero-trust microsegmentation design paradigms. They are able to inspect traffic as it passes from host-to-host or between virtual networks, rather than requiring that traffic be routed up to a firewall appliance and back.
 # OPEN-SOURCE VERSUS PROPRIETARY FIREWALLS
 
 The ability to inspect source code will be a requirement for high-security environments that cannot rely on implicit trust when selecting vendors. The code underpinning appliance-based, software, and virtual firewalls can be developed as open-source or proprietary or somewhere in between:
