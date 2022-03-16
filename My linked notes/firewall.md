@@ -9,6 +9,10 @@ A network security [[appliance]] that monitors and controls incoming and outgoin
 - [[NGFW]] and [[UTM]] are not suitable for edge devices due to there lower throughput.
 	- Deployed for application server traffic. User traffic is often performed by a separate appliance or proxy host.
 - Stateful firewall tracks information(aka preserves data)
+- web application firewall ([[WAF]]) is designed specifically to protect 
+	- software running on web servers and back-end databases from
+		- Code injection  
+		- DoS attacks
 
 Five types of firewall include the following:
 
