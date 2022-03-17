@@ -1,2 +1,8 @@
 **Address Resolution Protocol**
-Display the local machine's Address Resolution Protocol cache. The ARP cache shows the [[MAC address]] of the interface associated with each IP address the local host has communicated with recently. This can be useful if you are investigating a suspected spoofing attack. For example, a sign of a man-in-the-middle attack is where the MAC address of the default gateway IP listed in the cache is not the legitimate router's MAC address.
+- Used to obtain a node's physical address in the traditional IP address system IPv4
+- Returns the layer 2 address
+- x
+- x
+- 
+
+- A client station broadcasts an ARP request onto the network with the IP address of the target node it wishes to communicate with, and the node with that IP address responds by sending back its physical MAC address so that packets can be transmitted. ARP returns the layer 2 address for a layer 3 address. See [NDP](https://www.pcmag.com/encyclopedia/term/ndp), [ARP cache](https://www.pcmag.com/encyclopedia/term/arp-cache), [ARP cache poisoning](https://www.pcmag.com/encyclopedia/term/arp-cache-poisoning), [RARP](https://www.pcmag.com/encyclopedia/term/rarp) and [TCP/IP abc's](https://www.pcmag.com/encyclopedia/term/tcpip-abcs).
