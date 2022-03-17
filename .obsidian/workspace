@@ -19,12 +19,25 @@
         }
       },
       {
-        "id": "e2468de6d8a6da2c",
+        "id": "abba748e42a3d99b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/DHCP.md",
+            "file": "My linked notes/Attack.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "a3d4475a064c038c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/spoofed.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"risk\"",
+                "query": "\"URL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,11 +87,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Acronyms/DHCP.md",
+                "file": "SecurityPlus/11A Secure Network Operations Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +138,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "e2468de6d8a6da2c",
+  "active": "f22634505fd6ff93",
   "lastOpenFiles": [
-    "My linked notes/Acronyms/DHCP.md",
     "SecurityPlus/11A Secure Network Operations Protocols.md",
-    "My linked notes/configured.md",
+    "My linked notes/Attack.md",
+    "My linked notes/URL.md",
     "My linked notes/Acronyms/DNS.md",
-    "My linked notes/protocols.md",
-    "My linked notes/malware.md",
-    "My linked notes/assessment.md",
-    "SecurityPlus/10C SIEM  security information and event management.md",
-    "My dump/My notes.md",
-    "My linked notes/Acronyms/IoC.md"
+    "My linked notes/spoofed.md",
+    "My linked notes/AD.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/Acronyms/DoS.md",
+    "SecurityPlus/9A Secure Network Desings.md",
+    "SecurityPlus/10A Firewalls and Proxy Servers.md"
   ]
 }

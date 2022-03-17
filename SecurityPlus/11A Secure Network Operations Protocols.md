@@ -27,20 +27,20 @@ Unsecure protocols can be exploited by attackers to compromise data security and
 
 Most networks use a mixture of static and dynamic address allocation. **Interface addresses for routers, firewalls, and some types of servers are best assigned and managed manually (aka static?)**. Other server services and client workstations can be assigned dynamic IP configurations and accessed using name resolution.
 
-The Dynamic Host Configuration Protocol ([[DHCP]]) provides an automatic method for network address allocation. The key point about DHCP is that only **one server** should be offering addresses to any one group of hosts. If a rogue DHCP server is set up, it can perform DoS (as client machines will obtain an incorrect TCP/IP configuration) or be used to snoop network information. DHCP starvation is a type of DoS attack where a rogue client repeatedly requests new IP addresses using spoofed MAC addresses, with the aim of exhausting the IP address pool. This makes it more likely that clients seeking an address lease will use the rogue DHCP server.
+The Dynamic Host Configuration Protocol ([[DHCP]]) provides an automatic method for network address allocation. The key point about DHCP is that only **one server** should be offering addresses to any one group of hosts. If a **rogue DHCP server** is set up, it can perform [[DoS]] (as client machines will obtain an incorrect [[TCP_IP]] configuration) or be used to snoop network information. **DHCP starvation is a type of DoS attack where a rogue client repeatedly requests new IP addresses using spoofed MAC addresses, with the aim of exhausting the IP address pool.** This makes it more likely that clients seeking an address lease will use the rogue DHCP server.
 
-Enabling the DHCP snooping port security feature on a switch can mitigate rogue DHCP attacks. Windows DHCP servers in an AD environment automatically log any traffic detected from unauthorized DHCP servers. More generally, administration of the DHCP server itself must be carefully controlled and the settings checked regularly. If an attacker compromises the DHCP server, he or she could point network clients to rogue DNS servers and use that as a means to direct users to spoofed websites. Another attack is to redirect traffic through the attacker's machine by changing the default gateway, enabling the attacker to snoop on all network traffic.
+Enabling the DHCP snooping port security feature on a switch can mitigate rogue DHCP attacks. Windows DHCP servers in an [[AD]] environment automatically log any traffic detected from unauthorized DHCP servers. **More generally, administration of the DHCP server itself must be carefully controlled and the settings checked regularly.** If an attacker compromises the DHCP server, he or she could point network clients to rogue [[DNS]] servers and use that as a means to direct users to [[spoofed]] websites. Another attack is to **redirect traffic through the attacker's machine by changing the default gateway**, enabling the attacker to snoop on all network traffic.
 
 ![KALI desktop showing rogue DHCP running in one pane, dnsspoof in another, and pig.py script performing a DHCP pool exhaustion attack in the third.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/4085-1599771805256.png)
 
-Attacking network address allocation—a script exhausts the DHCP pool while another runs a rogue DHCP server. A third tool operates a rogue DNS to supply spoofed information to clients configured to use the attack machine as a DNS server, via the rogue DHCP configuration.
+Attacking network address allocation—a script exhausts the DHCP pool while another runs a rogue [[DHCP]] server. A third tool operates a rogue [[DNS]] to supply spoofed information to clients configured to use the attack machine as a DNS server, via the rogue DHCP configuration.
 # DOMAIN NAME RESOLUTION
 
-The Domain Name System (DNS) resolves fully qualified domain names (FQDNs) to IP addresses. It uses a distributed database system that contains information on domains and hosts within those domains. The information is distributed among many name servers, each of which holds part of the database. The name servers work over port 53. Domain name resolution is a security-critical service and the target of many attacks on both local network and the Internet. 
+The Domain Name System (DNS) resolves fully qualified domain names ([[FQDNs]]) to IP addresses. It uses a distributed database system that contains information on domains and hosts within those domains. The information is distributed among many name servers, each of which holds part of the database. The name servers work over [[port]] 53. Domain name resolution is a security-critical service and the target of many attacks on both local network and the Internet. 
 
 ### Domain Hijacking 
 
-Domain hijacking is an attack where an adversary acquires a domain for a company's trading name or trademark, or perhaps some spelling variation thereof. While there are often trademark and intellectual property laws against doing this, companies need to be careful to renew domain names that they want to continue to use and to protect the credentials used to manage the registration. A domain name must be re-registered every year at minimum.
+Domain hijacking is an [[attack]] where an adversary acquires a domain for a company's trading name or trademark, or perhaps some spelling variation thereof. While there are often trademark and intellectual property laws against doing this, companies need to be careful to renew domain names that they want to continue to use and to protect the credentials used to manage the registration. A domain name must be re-registered every year at minimum.
 
 In a domain hijacking attack an adversary gains control over the registration of a domain name, allowing the host records to be configured to IP addresses of the attacker's choosing. This might be accomplished by supplying false credentials to the domain registrar when applying for a new domain name or re-registering an existing one. An attacker might also be able to exploit the legitimate account used to manage the domain (via a weak password or malware installed on a client computer) or even to compromise the domain registrar's security procedures in some way ([upguard.com/blog/domain-hijacking](https://www.upguard.com/blog/domain-hijacking)).
 
@@ -48,7 +48,7 @@ A company whose domain has been hijacked is likely to find that they are locked 
 
 ### Uniform Resource Locator (URL) Redirection
 
-A uniform resource locator (URL) is an address for the pages and files published on websites. A URL comprises a FQDN, file path, and often script parameters. URL redirection refers to the use of HTTP redirects to open a page other than the one the user requested. This is often used for legitimate purposes—to send the user to a login page or to send a mobile device browser to a responsive version of the site, for instance. If the redirect is not properly validated by the web application, an attacker can craft a phishing link that might appear legitimate to a naïve user, such as:
+A uniform resource locator ([[URL]]) is an address for the pages and files published on websites. A URL comprises a FQDN, file path, and often script parameters. URL redirection refers to the use of [[HTTP]] redirects to open a page other than the one the user requested. This is often used for legitimate purposes—to send the user to a login page or to send a mobile device browser to a responsive version of the site, for instance. If the redirect is not properly validated by the web application, an attacker can craft a phishing link that might appear legitimate to a naïve user, such as:
 
 https://trusted.foo/login.php?url="https://tru5ted.foo"
 
@@ -59,10 +59,10 @@ A threat actor could also compromise a web server and add redirects in .htaccess
 If your domain, website, or email servers have been hijacked, they are likely to be used for spam or distributing malware. This will lead to complaints and the likelihood of the domain being listed on a block list. You should set up monitoring using a site such as [talosintelligence.com/reputation_center](https://talosintelligence.com/reputation_center) to detect misuse early.
 # DNS POISONING 
 
-DNS poisoning is an attack that compromises the process by which clients query name servers to locate the IP address for a FQDN. There are several ways that a DNS poisoning attack can be perpetrated.
+DNS poisoning is an [[attack]] that compromises the process by which clients query name servers to locate the IP address for a FQDN. There are several ways that a DNS poisoning attack can be perpetrated.
 
 ### Man in the Middle
-
+[[MITM]]
 If the threat actor has access to the same local network as the victim, the attacker can use ARP poisoning to impersonate a legitimate DNS server and respond to DNS queries from the victim with spoofed replies. This might be combined with a denial of service attack on the victim's legitimate DNS server. A rogue DHCP could be used to configure clients with the address of a rogue DNS resolver.
 
 ### DNS Client Cache Poisoning

@@ -32,6 +32,8 @@ Types of attacks
 	- horizontal 
 - dictionary attack
 - birthday 
+- Domain hijacking 
+- DNS poisoning
 - 
 
 
