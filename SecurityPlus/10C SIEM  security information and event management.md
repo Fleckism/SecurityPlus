@@ -54,49 +54,49 @@ Enabling a log parser plug-in for a pfSense security appliance so that firewall 
 Log aggregation refers to **normalizing data** from different sources so that it is **consistent and searchable**. SIEM software features connectors or plug-ins to interpret (or parse) data from distinct types of systems and to account for differences between vendor implementations. Usually parsing will be carried out using regular expressions tailored to each log file format to identify attributes and content that can be mapped to standard fields in the SIEM's reporting and analysis tools. Another important function is to normalize **date/time zone differences to a single timeline**.
 # ANALYSIS AND REPORT REVIEW 
 
-Where collection and aggregation produce inputs, a SIEM is also used for reporting. A critical function of SIEM—and the principal factor distinguishing it from basic log management—is that of correlation. This means that the SIEM software can link individual events or data points (observables) into a meaningful indicator of risk, or Indicator of Compromise ([[IOC]]). Correlation can then be used to drive an alerting system. These reports would be viewed from the SIEM dashboard.
+Where collection and aggregation produce inputs, a SIEM is also used for reporting. A critical function of SIEM—and the principal factor distinguishing it from basic log management—is that of correlation. This means that the [[SIEM]] software can link individual events or data points (observables) into a meaningful indicator of risk, or Indicator of Compromise ([[IOC]]). Correlation can then be used to drive an alerting system. These reports would be viewed from the SIEM dashboard.
 
 Basic correlation can be performed using simple If…Then type rules. However, many SIEM solutions use artificial intelligence (AI) and machine learning as the basis for automated analysis.
 
 ### User and Entity Behavior Analytics
 
-A user and entity behavior analytics (UEBA) solution supports identification of malicious behaviors from comparison to a baseline. As the name suggests, the analytics software tracks user account behavior across different devices and cloud services. Entity refers to machine accounts, such as client workstations or virtualized server instances, and to embedded hardware, such as Internet of Things (IoT) devices. The complexity of determining baselines and reducing false positives means that UEBA solutions are heavily dependent on AI and machine learning. Examples include Microsoft's Advanced Threat Analytics ([docs.microsoft.com/en-us/advanced-threat-analytics/what-is-ata](https://docs.microsoft.com/en-us/advanced-threat-analytics/what-is-ata)) and Splunk UEBA ([splunk.com/en_us/software/user-behavior-analytics.html](https://www.splunk.com/en_us/software/user-behavior-analytics.html)).
+A user and entity behavior analytics ([[UEBA]]) solution supports identification of malicious behaviors from comparison to a baseline. As the name suggests, the analytics software tracks user account behavior across different devices and cloud services. **Entity refers to machine accounts, such as client workstations or virtualized server instances, and to embedded hardware, such as Internet of Things (IoT) devices**. The complexity of determining baselines and reducing false positives means that UEBA solutions are heavily dependent on AI and machine learning. Examples include Microsoft's Advanced Threat Analytics ([docs.microsoft.com/en-us/advanced-threat-analytics/what-is-ata](https://docs.microsoft.com/en-us/advanced-threat-analytics/what-is-ata)) and Splunk UEBA ([splunk.com/en_us/software/user-behavior-analytics.html](https://www.splunk.com/en_us/software/user-behavior-analytics.html)).
 
 ### Sentiment Analysis
 
-One of the biggest challenges for behavior analytics driven by machine learning is to identify intent. It is extremely difficult for a machine to establish the context and interpretation of statements in natural language, though much progress is being made. The general efforts in this area are referred to as sentiment analysis, or emotion AI. The typical use case for sentiment analysis is to monitor social media for brand "incidents," such as a disgruntled customer announcing on Twitter what poor customer service they have just received. In terms of security, this can be used to gather threat intelligence and try to identify external or insider threats before they can develop as attacks. 
+One of the biggest challenges for behavior analytics driven by machine learning is to **identify intent**. It is extremely difficult for a machine to establish the context and interpretation of statements in natural language, though much progress is being made. The general efforts in this area are referred to as sentiment analysis, or **emotion AI**. The typical use case for sentiment analysis is to monitor social media for brand "incidents," such as a disgruntled customer announcing on Twitter what poor customer service they have just received. In terms of security, this can be used to gather threat intelligence and try to identify external or insider threats before they can develop as attacks. 
 
 ### Security Orchestration, Automation, and Response 
 
-Security orchestration, automation, and response (SOAR) is designed as a solution to the problem of the volume of alerts overwhelming analysts' ability to respond. A SOAR may be implemented as a standalone technology or integrated with a SIEM—often referred to as a next-gen SIEM. The basis of SOAR is to scan the organization's store of security and threat intelligence, analyze it using machine/deep learning techniques, and then use that data to automate and provide data enrichment for the workflows that drive incident response and threat hunting.
+Security orchestration, automation, and response ([[SOAR]]) is designed as a solution to the problem of the volume of **alerts overwhelming analysts**' ability to respond. A SOAR may be implemented as a standalone technology or integrated with a [[SIEM]]—often referred to as a **next-gen SIEM**. The basis of SOAR is to scan the organization's store of security and threat intelligence, analyze it using machine/deep learning techniques, and then use that data to automate and provide data enrichment for the workflows that drive incident response and threat hunting.
 # FILE MANIPULATION
 
-While SIEM can automate many functions of log collection and review, you may also have to manually prepare data using a Linux command line.
+While SIEM can automate many functions of log collection and review, you may also have to manually prepare data using a [[Linux command line]].
 
 ### The cat Command
 
-The Linux command cat allows you to view the contents of one or more files. For example, if you want to view the whole contents of two rotated log files, you could run:
+The Linux command cat allows you to **view** the contents of one or more files. For example, if you want to view the whole contents of two rotated log files, you could run:
 
 cat -n access.log access2.log
 
-The -n switch adds line numbers. If you wanted to output to a new file rather than the terminal, you can run:
+The **-n switch** adds line numbers. If you wanted to output to a new file rather than the terminal, you can run:
 
 cat -n access.log access2.log > access_cat.log
 
 ### The head and tail Commands
 
-The head and tail commands output the first and last 10 lines respectively of a file you provide. You can also adjust this default value to output more or fewer lines using the -n switch. For example, the following command shows the 20 most recent entries in a log file:
+The **head and tail commands output the first and last 10 lines** respectively of a file you provide. You can also **adjust this default value to output more or fewer lines using the -n switch.** For example, the following command shows the 20 most recent entries in a log file:
 
 tail /var/log/messages -n 20
 
 ### The logger Command
 
-The logger command writes input to the local system log or to a remote syslog server ([linux.die.net/man/1/logger](https://linux.die.net/man/1/logger)). You can use the command in a script to write any text string or use the -f option to write the contents of another file. You can also write the output of commands by enclosing the command in backticks. The following command writes the name of the local machine along with the text "up" to the syslog server at 10.1.0.242:
+The **logger command writes input to the local system log or to a remote syslog server** ([linux.die.net/man/1/logger](https://linux.die.net/man/1/logger)). You can use the command in a script to write any text string or use the **-f option** to write the contents of another file. You can also write the output of commands by enclosing the command in **backticks**. The following command writes the name of the local machine along with the text "up" to the syslog server at 10.1.0.242:
 
 logger -n 10.1.0.242 `hostname` up
-# REGULAR EXPRESSIONS AND GREP
+# REGULAR EXPRESSIONS AND [[GREP]]
 
-Filtering a log to discover data points of interest usually involves some sort of string search, typically invoking regular expression (regex) syntax. A regular expression is a search pattern to match within a given string. The search pattern is built from the regex syntax. This syntax defines metacharacters that function as search operators, quantifiers, logic statements, and anchors/boundaries. The following list illustrates some commonly used elements of regex syntax:
+Filtering a log to discover data points of interest usually involves some sort of string search, typically invoking [[regular expression (regex) syntax]]. A regular expression is a search pattern to match within a given string. The search pattern is built from the regex syntax. This syntax defines metacharacters that function as search operators, quantifiers, logic statements, and anchors/boundaries. The following list illustrates some commonly used elements of regex syntax:
 
 -   [ … ] matches a single instance of a character within the brackets. This can include literals, ranges such as [a-z], and token matches, such as [\s] (white space) or [\d] (one digit).
 -   + matches one or more occurrences. A quantifier is placed after the term to match; for example, \s+ matches one or more white space characters.

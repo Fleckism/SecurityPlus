@@ -1,0 +1,2 @@
+- The makeup of a system. To "configure software" means **selecting programmable options that make the program function to the user's liking.** 
+- To "configure hardware" **means assembling desired components for a custom system as well as** selecting options in the user-programmable parts of the system. "Configurability" refers to the hardware or software's ability to be changed and customized.
