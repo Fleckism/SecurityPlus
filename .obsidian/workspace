@@ -17,6 +17,19 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "aa45c17fd187a752",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Network.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -113,14 +126,14 @@
   "active": "bd914e0c472ace9c",
   "lastOpenFiles": [
     "SecurityPlus/11B Secure Application Protocols.md",
+    "My linked notes/Network.md",
+    "My linked notes/network edge.md",
+    "My linked notes/network directory.md",
     "SecurityPlus/11A Secure Network Operations Protocols.md",
     "My linked notes/Acronyms/TCP.md",
     "My linked notes/Acronyms/UDP.md",
     "My dump/My notes.md",
     "My linked notes/NTP.md",
-    "My linked notes/network directory.md",
-    "My linked notes/M-of-N.md",
-    "SecurityPlus/6B PKI Management.md",
-    "SecurityPlus/8C Authorization Solutions.md"
+    "My linked notes/M-of-N.md"
   ]
 }

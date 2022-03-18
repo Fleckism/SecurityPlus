@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [Implement, secondTag]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -7,7 +7,7 @@ tags: [firstTag, secondTag]
 
 3.1 Given a scenario, implement secure protocols
 
-The network infrastructure of switches, routers, access points, and secure hosts is implemented for the purpose of running services. The application protocols that enable web, email, and VoIP require secure configuration too.
+The [[network]] infrastructure of switches, routers, access points, and secure hosts is implemented for the purpose of running services. The application protocols that enable web, email, and VoIP require secure configuration too.
 # HYPERTEXT TRANSFER PROTOCOL AND WEB SERVICES
 
 The foundation of web technology is the HyperText Transfer Protocol (HTTP). HTTP enables clients (typically web browsers) to request resources from an HTTP server. A client connects to the HTTP server using an appropriate TCP port (the default is port 80) and submits a request for a resource, using a uniform resource locator (URL). The server acknowledges the request and responds with the data (or an error message).
