@@ -1,4 +1,4 @@
 ---
 tags: [GRC]
 ---
-fully qualified domain name
+**fully qualified domain name**

@@ -7,6 +7,7 @@ tags: [OIR, Attack]
 #NWL not worth linking 
 - Write notes for your future self.  You are not that smart in the future!
 # Next things to do!
+- Look at acronyms and see frequency of how often N stand for network and other letters like that and see if there are some basic assumptions that can be drawn.
 - Linked notes preview should only show bullet points in order of importance
 - [[Remediation]] is what I wanted to add to the bottom of all pages, not what I was thinking it was.
 - graph view does not show folders only links

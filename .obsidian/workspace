@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f22634505fd6ff93",
+        "id": "bd914e0c472ace9c",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/11A Secure Network Operations Protocols.md",
+            "file": "SecurityPlus/11B Secure Application Protocols.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "37c9dfaa58071f58",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/SNMP.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -64,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mitigate",
+                "query": "\"UDP\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,13 +60,11 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -95,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/11A Secure Network Operations Protocols.md",
+                "file": "SecurityPlus/11B Secure Application Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,17 +110,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "f22634505fd6ff93",
+  "active": "bd914e0c472ace9c",
   "lastOpenFiles": [
+    "SecurityPlus/11B Secure Application Protocols.md",
     "SecurityPlus/11A Secure Network Operations Protocols.md",
-    "My linked notes/SNMP.md",
-    "My linked notes/Acronyms/ARP.md",
-    "My linked notes/Attack.md",
-    "My linked notes/URL.md",
-    "My linked notes/Acronyms/DNS.md",
-    "My linked notes/spoofed.md",
-    "My linked notes/AD.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "My linked notes/Acronyms/DoS.md"
+    "My linked notes/Acronyms/TCP.md",
+    "My linked notes/Acronyms/UDP.md",
+    "My dump/My notes.md",
+    "My linked notes/NTP.md",
+    "My linked notes/network directory.md",
+    "My linked notes/M-of-N.md",
+    "SecurityPlus/6B PKI Management.md",
+    "SecurityPlus/8C Authorization Solutions.md"
   ]
 }
