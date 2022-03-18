@@ -77,7 +77,7 @@ Kerberos Ticket Granting Service. (Images © 123RF.com.)
 5.  The application server decrypts the service ticket to obtain the service session key using its secret key, confirming that the client has sent an untampered message. It then decrypts the authenticator using the service session key.
 6.  Optionally, the application server responds to the client with the timestamp used in the authenticator, which is encrypted by using the service session key. The client decrypts the timestamp and verifies that it matches the value already sent, and concludes that the application server is trustworthy.  
       
-    This means that the server is authenticated to the client (referred to as _mutual authentication_). This prevents a man-in-the-middle [[MITH]] attack, where a malicious user could intercept communications between the client and server.
+    This means that the server is authenticated to the client (referred to as _mutual authentication_). This prevents a man-in-the-middle [[MITM]] attack, where a malicious user could intercept communications between the client and server.
 7.  The server now responds to client requests (assuming they conform to the server's access control list).
 
 The data transfer itself is not encrypted (at least as part of Kerberos; some sort of transport encryption can be deployed).
