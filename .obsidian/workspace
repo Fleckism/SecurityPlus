@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/11B Secure Application Protocols.md",
+            "file": "SecurityPlus/11C Secure Remote Access Protocols.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "QoS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/11B Secure Application Protocols.md",
+                "file": "SecurityPlus/11C Secure Remote Access Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,11 +121,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
   "active": "bd914e0c472ace9c",
   "lastOpenFiles": [
+    "SecurityPlus/11C Secure Remote Access Protocols.md",
     "SecurityPlus/11B Secure Application Protocols.md",
     "My linked notes/FTP.md",
     "My linked notes/OAuth.md",
@@ -135,7 +134,6 @@
     "SecurityPlus/7B knowledge-Based Authentication.md",
     "My linked notes/HTTP.md",
     "My linked notes/Network.md",
-    "My linked notes/network edge.md",
-    "My linked notes/network directory.md"
+    "My linked notes/network edge.md"
   ]
 }
