@@ -42,15 +42,15 @@ The port can be either TCP or UDP. UDP might be chosen for marginally superior p
 OpenVPN is an open source example of a TLS VPN ([openvpn.net](https://openvpn.net/)). OpenVPN can work in [[TAP]] (bridged) mode to tunnel layer 2 frames or in [[TUN]] (routed) mode to forward IP packets. Another option is Microsoft's Secure Socket Tunneling Protocol ([[SSTP]]), which works by tunneling Point-to-Point Protocol (PPP) layer 2 frames over a TLS session ([docs.microsoft.com/en-us/openspecs/windows_protocols/ms-sstp/70adc1df-c4fe-4b02-8872-f1d8b9ad806a](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-sstp/70adc1df-c4fe-4b02-8872-f1d8b9ad806a)). The Point-to-Point Protocol (PPP) is a widely used remote dial-in protocol. It provides encapsulation for IP traffic plus IP address assignment and authentication via the widely supported Challenge Handshake Authentication Protocol (CHAP).
 # NTERNET PROTOCOL SECURITY
 
-Transport Layer Security is applied at the application level, either by using a separate secure port or by using commands in the application protocol to negotiate a secure connection. Internet Protocol Security ([[IPSec]]) operates at the network layer (layer 3) of the OSI model, so it can be implemented without having to configure specific application support. IPSec can provide both confidentiality (by encrypting data packets) and integrity/anti-replay (by signing each packet). The main drawback is that it adds overhead to data communications. IPSec can be used to secure communications on local networks and as a remote access protocol.
+Transport Layer Security is applied at the application level, either by using a separate secure port or by using commands in the application protocol to negotiate a secure connection. Internet Protocol Security ([[IPSec]]) operates at the **network layer (layer 3)** of the [[OSI]] model, so it can be implemented without having to configure specific application support. IPSec can provide both **confidentiality (by encrypting data packets)** and[[ [[integrity]]/anti-replay]] (by signing each packet). The main drawback is that it adds overhead to data communications. IPSec can be used to secure communications on local networks and as a remote access protocol.
 
-When IPv6 was being drafted, IPSec was considered a mandatory component as it was felt that all traffic over the new protocol should be secure. In recent years, RFCs have been revised so that now, IPSec is recommended for IPv6 but no longer mandatory ([tools.ietf.org/html/rfc6434#page-17](https://tools.ietf.org/html/rfc6434#page-17)).
+When IPv6 was being drafted, IPSec was considered a mandatory component as it was felt that all traffic over the new protocol should be secure. In recent years, [[RFC]]s have been revised so that now, IPSec is recommended for IPv6 but no longer mandatory ([tools.ietf.org/html/rfc6434#page-17](https://tools.ietf.org/html/rfc6434#page-17)).
 
-Each host that uses IPSec must be assigned a policy. An IPSec policy sets the authentication mechanism and also the protocols and mode for the connection. Hosts must be able to match at least one matching security method for a connection to be established. There are two core protocols in IPSec, which can be applied singly or together, depending on the policy.
+Each host that uses IPSec must be assigned a policy. An IPSec policy sets the authentication mechanism and also the protocols and mode for the connection. Hosts must be able to match at least one matching security method for a connection to be established. There are two core protocols in [[IPSec]], which can be applied singly or together, depending on the policy.
 
 ### Authentication Header (AH)
 
-The Authentication Header (AH) protocol performs a cryptographic hash on the whole packet, including the IP header, plus a shared secret key (known only to the communicating hosts), and adds this HMAC in its header as an Integrity Check Value (ICV). The recipient performs the same function on the packet and key and should derive the same value to confirm that the packet has not been modified. The payload is not encrypted so this protocol does not provide confidentiality. Also, the inclusion of IP header fields in the ICV means that the check will fail across NAT gateways, where the IP address is rewritten. Consequently, AH is not often used.
+The Authentication Header ([[AH]]) protocol performs a cryptographic hash on the whole packet, including the IP header, plus a shared secret key (known only to the communicating hosts), and adds this [[HMAC]] in its header as an **Integrity** Check Value ([[ICV]]). The recipient performs the same function on the packet and key and should derive the same value to confirm that the packet has not been modified. The payload is **not encrypted** so this protocol does not provide confidentiality. Also, the inclusion of IP header fields in the ICV means that the check will fail across [[NAT]] [[gateways]], where the IP address is rewritten. Consequently, AH is not often used.
 
 ![There are 4 blocks in a row: IP Header, AH (which contains a small block named ICV), TCP/UDP, and Payload.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/81-1599771806095.png)
 
@@ -58,24 +58,24 @@ IPSec datagram using AH—The integrity of the payload and IP header is ensured 
 
 ### Encapsulation Security Payload (ESP)
 
-Encapsulation Security Payload (ESP) provides confidentiality and/or authentication and integrity. It can be used to encrypt the packet rather than simply calculating an HMAC. ESP attaches three fields to the packet: a header, a trailer (providing padding for the cryptographic function), and an Integrity Check Value. Unlike AH, ESP excludes the IP header when calculating the ICV.
+Encapsulation Security Payload ([[ESP]]) provides **confidentiality and/or authentication and integrity**. It can be used to encrypt the packet rather than simply calculating an [[HMAC]]. ESP attaches three fields to the packet: a header, a trailer (providing padding for the cryptographic function), and an Integrity Check Value. Unlike AH, ESP excludes the IP header when calculating the ICV.
 
 ![There are 4 blocks in a row: IP Header, ESP (which contains 2 blocks named TCP/UDP and Payload), Trailer, and ICV.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2880-1599771806141.png)
 
 IPSec datagram using ESP—The TCP header and payload from the original packet are encapsulated within ESP and encrypted to provide confidentiality.
 
-With ESP, algorithms for both confidentiality (symmetric cipher) and authentication/integrity (hash function) are usually applied together. It is possible to use one or the other, however.
+With ESP, algorithms for both **confidentiality** ([[symmetric]] cipher) and **authentication/integrity** ([[hash]] function) are usually applied together. It is possible to use one or the other, however.
 # IPSEC TRANSPORT AND TUNNEL MODES
 
-IPSec can be used in two modes:
+[[IPSec]] can be used in two modes:
 
--   Transport mode—this mode is used to secure communications between hosts on a private network (an end-to-end implementation). When ESP is applied in transport mode, the IP header for each packet is not encrypted, just the payload data. If AH is used in transport mode, it can provide integrity for the IP header.
+-   **Transport mode**—this mode is used to secure communications between hosts on a private network (an end-to-end implementation). When ESP is applied in transport mode, the IP header for each packet is not encrypted, just the payload data. If AH is used in transport mode, it can provide integrity for the IP header.
 
 ![There are 4 blocks in a row: IP Header, AH (which contains a  block named ICV), ESP (which contains 2 blocks named TCP/UDP and Payload), and Trailer.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/4255-1599771806237.png)
 
 IPSec datagram using AH and ESP in transport mode.
 
--   Tunnel mode—this mode is used for communications between VPN gateways across an unsecure network (creating a VPN). This is also referred to as a router implementation. With ESP, the whole IP packet (header and payload) is encrypted and encapsulated as a datagram with a new IP header. AH has no real use case in tunnel mode, as confidentiality will usually be required.
+-   Tunnel mode—this mode is used for communications between VPN gateways across an unsecure network (creating a VPN). This is also referred to as a router implementation. With ESP, the whole IP packet (header and payload) is encrypted and encapsulated as a datagram with a new IP header. [[AH]] has no real use case in tunnel mode, as confidentiality will usually be required.
 
 ![There are 4 blocks in a row: New IP Header, ESP (which contains a block with the original encapsulated packet), Trailer, and ICV.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/9959-1599771806294.png)
 

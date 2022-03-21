@@ -19,12 +19,38 @@
         }
       },
       {
-        "id": "480349ad5301d4a8",
+        "id": "7148125367094757",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/FTP.md",
+            "file": "My linked notes/AH.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "d2e9083d2587e3d7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/hash.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "e4cb885d8a8eac3f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/symmetric.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "QoS",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +99,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -94,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/11C Secure Remote Access Protocols.md",
+                "file": "My linked notes/AH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +151,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "bd914e0c472ace9c",
+  "active": "7148125367094757",
   "lastOpenFiles": [
+    "My linked notes/AH.md",
     "SecurityPlus/11C Secure Remote Access Protocols.md",
+    "My linked notes/hash.md",
+    "My linked notes/symmetric.md",
+    "My linked notes/IPSec.md",
     "My linked notes/FTP.md",
     "SecurityPlus/11B Secure Application Protocols.md",
     "My linked notes/OAuth.md",
     "SecurityPlus/8C Authorization Solutions.md",
-    "My linked notes/SAML.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "My linked notes/HTTP.md",
-    "My linked notes/Network.md",
-    "My linked notes/network edge.md"
+    "My linked notes/SAML.md"
   ]
 }
