@@ -121,13 +121,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
   "active": "bd914e0c472ace9c",
   "lastOpenFiles": [
     "SecurityPlus/11C Secure Remote Access Protocols.md",
-    "SecurityPlus/11B Secure Application Protocols.md",
     "My linked notes/FTP.md",
+    "SecurityPlus/11B Secure Application Protocols.md",
     "My linked notes/OAuth.md",
     "SecurityPlus/8C Authorization Solutions.md",
     "My linked notes/SAML.md",
