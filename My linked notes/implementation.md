@@ -1,7 +1,7 @@
 ---
 tags: [Implementation]
 ---
-- Not urgent 
+- Standard IT that might be a specility 
 - Urgent is **OIR** (Operations is **Black, white, red, blue**)
 - **Incident Response is urgent**
 
