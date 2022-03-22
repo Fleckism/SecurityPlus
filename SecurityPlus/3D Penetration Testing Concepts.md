@@ -1,5 +1,5 @@
 ---
-tags: [OIR, Implementation]
+tags: [OIR]
 ---
 
 ## EXAM OBJECTIVES COVERED
