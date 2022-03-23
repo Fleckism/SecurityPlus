@@ -4,18 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "898247c92850e681",
+        "id": "f09f314b01b782ae",
         "type": "leaf",
-        "pinned": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/12C Embedded System Security Implications.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -51,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"EP\"",
+                "query": "\"CIA\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -64,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
+    "width": 460.5,
     "collapsed": true
   },
   "right": {
@@ -81,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/12C Embedded System Security Implications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +103,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "898247c92850e681",
+  "active": "f09f314b01b782ae",
   "lastOpenFiles": [
+    "SecurityPlus/8C Authorization Solutions.md",
+    "My linked notes/backdoors.md",
+    "SecurityPlus/13A Mobile Device Management.md",
     "SecurityPlus/12C Embedded System Security Implications.md",
     "SecurityPlus/12B Endpoint Security.md",
-    "My linked notes/implementation.md",
     "SecurityPlus/12A Secure Firmware.md",
-    "My linked notes/UEFI.md",
-    "My linked notes/Acronyms/OIR.md",
-    "SecurityPlus/3D Penetration Testing Concepts.md",
-    "SecurityPlus/2A Threat actor types and attack vectors.md",
-    "My linked notes/A_D Architecture and Design.md",
-    "SecurityPlus/11C Secure Remote Access Protocols.md"
+    "My linked notes/Acronyms/CIA.md",
+    "My linked notes/Acronyms/CVE.md",
+    "My linked notes/implementation.md",
+    "My linked notes/UEFI.md"
   ]
 }

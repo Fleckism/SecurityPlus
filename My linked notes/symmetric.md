@@ -13,4 +13,4 @@ tags: [A_D, secondTag]
 ==Does this mean that a symmetric key is transferred asymmetrically?==
 
 
-[[AIC or CIA]]
+[[CIA]]

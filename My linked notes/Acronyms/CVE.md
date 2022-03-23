@@ -1,5 +1,5 @@
 ---
-tags: [acronym, ]
+tags: [acronym ]
 
 ---
 Common Vulnerabilities and Exposures

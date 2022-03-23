@@ -1,8 +1,8 @@
 ---
-tags: [firstTag, secondTag]
+tags: [Implementation]
 ---
 # LESSON INTRODUCTION
-
+#zFleck
 Mobile devices are now the preferred client for many common work tasks, and network management and security systems have had to adapt to accommodate them. The shift toward mobile also presages a move toward unified management of endpoints, and the use of virtualized workspaces as a better model for provisioning corporate apps and data processing. 
 
 Lesson Objectives
