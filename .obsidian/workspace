@@ -10,25 +10,12 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/12B Endpoint Security.md",
+            "file": "SecurityPlus/12C Embedded System Security Implications.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "9942de90ff36e0cb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/implementation.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -64,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"harden\"",
+                "query": "\"EP\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,8 +60,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/implementation.md",
+                "file": "SecurityPlus/12C Embedded System Security Implications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,17 +111,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "9942de90ff36e0cb",
+  "active": "898247c92850e681",
   "lastOpenFiles": [
-    "My linked notes/implementation.md",
+    "SecurityPlus/12C Embedded System Security Implications.md",
     "SecurityPlus/12B Endpoint Security.md",
+    "My linked notes/implementation.md",
     "SecurityPlus/12A Secure Firmware.md",
     "My linked notes/UEFI.md",
     "My linked notes/Acronyms/OIR.md",
     "SecurityPlus/3D Penetration Testing Concepts.md",
     "SecurityPlus/2A Threat actor types and attack vectors.md",
     "My linked notes/A_D Architecture and Design.md",
-    "SecurityPlus/11C Secure Remote Access Protocols.md",
-    "My linked notes/Acronyms/SSH.md"
+    "SecurityPlus/11C Secure Remote Access Protocols.md"
   ]
 }
