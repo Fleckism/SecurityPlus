@@ -1,11 +1,11 @@
 ---
-tags: [firstTag, secondTag]
+tags: [Implement, secondTag]
 ---
 # ## 
 
 LESSON INTRODUCTION
 
-Automation strategies for resiliency, disaster recovery, and incident response put development (programming and scripting) at the heart of secure network administration and operations (DevSecOps). As well as automating operations, more companies are having to maintain bespoke code in customer-facing software, such as web applications. Consequently, secure application development is a competency that will only grow in importance over the course of your career.
+Automation strategies for resiliency, disaster recovery, and incident response put **development (programming and scripting)** at the heart of secure network administration and operations (DevSecOps). As well as automating operations, more companies are having to maintain bespoke code in customer-facing software, such as web applications. Consequently, secure application development is a competency that will only grow in importance over the course of your career.
 
 ## 
 
@@ -24,7 +24,7 @@ In this lesson, you will:
 
 Attacks against desktop and server applications allow threat actors to run arbitrary code on trusted hosts, allowing them to gain a foothold on the network or move laterally within it. With sufficient privileges and access, an attacker can quickly move to compromising data assets or causing denial of service against critical servers. Not all of these attacks will be detected automatically, so as a security professional, you must be able to identify indicators of arbitrary code execution and privilege escalation from your host monitoring and logging systems.
 # APPLICATION ATTACKS
-
+[[Attack]]
  An application attack targets a vulnerability in OS or application software. An application vulnerability is a design flaw that can cause the application security system to be circumvented or that will cause the application to crash.
 
  Privilege Escalation
