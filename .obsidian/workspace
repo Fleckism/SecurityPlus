@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f09f314b01b782ae",
+        "id": "784a87ecdcfc9f86",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Integrity.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -74,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/Integrity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,8 +109,10 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "f09f314b01b782ae",
+  "active": "784a87ecdcfc9f86",
   "lastOpenFiles": [
+    "My linked notes/Integrity.md",
+    "SecurityPlus/7C Authentication Technologies.md",
     "SecurityPlus/8C Authorization Solutions.md",
     "My linked notes/backdoors.md",
     "SecurityPlus/13A Mobile Device Management.md",
@@ -112,8 +120,6 @@
     "SecurityPlus/12B Endpoint Security.md",
     "SecurityPlus/12A Secure Firmware.md",
     "My linked notes/Acronyms/CIA.md",
-    "My linked notes/Acronyms/CVE.md",
-    "My linked notes/implementation.md",
-    "My linked notes/UEFI.md"
+    "My linked notes/Acronyms/CVE.md"
   ]
 }
