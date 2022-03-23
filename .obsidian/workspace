@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "784a87ecdcfc9f86",
+        "id": "962286994c92c2b4",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Integrity.md",
+            "file": "SecurityPlus/14A Indicators of Application Attacks.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       }
     ],
@@ -62,8 +64,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 460.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -79,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Integrity.md",
+                "file": "SecurityPlus/14A Indicators of Application Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,17 +110,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "784a87ecdcfc9f86",
+  "active": "962286994c92c2b4",
   "lastOpenFiles": [
+    "SecurityPlus/14A Indicators of Application Attacks.md",
+    "SecurityPlus/13B Secure Mobile Device Connections.md",
+    "SecurityPlus/13A Mobile Device Management.md",
     "My linked notes/Integrity.md",
     "SecurityPlus/7C Authentication Technologies.md",
     "SecurityPlus/8C Authorization Solutions.md",
     "My linked notes/backdoors.md",
-    "SecurityPlus/13A Mobile Device Management.md",
     "SecurityPlus/12C Embedded System Security Implications.md",
     "SecurityPlus/12B Endpoint Security.md",
-    "SecurityPlus/12A Secure Firmware.md",
-    "My linked notes/Acronyms/CIA.md",
-    "My linked notes/Acronyms/CVE.md"
+    "SecurityPlus/12A Secure Firmware.md"
   ]
 }
