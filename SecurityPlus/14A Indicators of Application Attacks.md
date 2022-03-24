@@ -27,20 +27,20 @@ Attacks against desktop and server applications allow threat actors to run arbit
 [[Attack]]
  An application attack targets a vulnerability in OS or application software. An application vulnerability is a design flaw that can cause the application security system to be circumvented or that will cause the application to crash.
 
- Privilege Escalation
+ **Privilege Escalation**
 
-The purpose of most application attacks is to allow the threat actor to run his or her own code on the system. This is referred to as arbitrary code execution. Where the code is transmitted from one machine to another, it can be referred to as remote code execution. The code would typically be designed to install some sort of backdoor or to disable the system in some way (denial of service).
+The purpose of most application attacks is to allow the threat actor to run his or her own code on the system. This is referred to as **arbitrary code execution**. Where the code is transmitted from one machine to another, it can be referred to as **remote code execution**. The code would typically be designed to install some sort of backdoor or to disable the system in some way (denial of service).
 
-An application or process must have privileges to read and write data and execute functions. Depending on how the software is written, a process may run using a system account, the account of the logged-on user, or a nominated account. If a software exploit works, the attacker may be able to execute arbitrary code with the same privilege level as the exploited process. There are two main types of privilege escalation:
+An application or process must have privileges to read and write data and execute functions. Depending on how the software is written, a process may run using a system account, the account of the logged-on user, or a nominated account. If a software exploit works, the attacker may be able to execute arbitrary code with the same privilege level as the exploited process. There are two main types of [[privilege escalation]]:
 
--   Vertical privilege escalation (or elevation) is where a user or application can access functionality or data that should not be available to them. For instance, a process might run with local administrator privileges, but a vulnerability allows the arbitrary code to run with higher system privileges.
--   Horizontal privilege escalation is where a user accesses functionality or data that is intended for another user. For instance, via a process running with local administrator privileges on a client workstation, the arbitrary code is able to execute as a domain account on an application server.
+-   **Vertical privilege escalation** (or elevation) is where a user or application can access functionality or data that should not be available to them. For instance, a process might run with local administrator privileges, but a vulnerability allows the arbitrary code to run with higher system privileges.
+-   **Horizontal privilege escalation** is where a user accesses functionality or data that is intended for another user. For instance, via a process running with local administrator privileges on a client workstation, the arbitrary code is able to execute as a domain account on an application server.
 
-Without performing detailed analysis of code or process execution in real-time, it is privilege escalation that provides the simplest indicator of an application attack. If process logging has been configured ([varonis.com/blog/sysmon-threat-detection-guide](https://www.varonis.com/blog/sysmon-threat-detection-guide/)), the audit log can provide evidence of privilege escalation attempts. These attempts may also be detected by incident response and endpoint protection agents, which will display an alert.
+**Without performing detailed analysis of code or process execution in real-time, it is privilege escalation that provides the simplest indicator of an application attack.** If process logging has been configured ([varonis.com/blog/sysmon-threat-detection-guide](https://www.varonis.com/blog/sysmon-threat-detection-guide/)), the audit log can provide evidence of privilege escalation attempts. These attempts may also be detected by incident response and endpoint protection agents, which will display an alert.
 
  Error Handling
 
- An application attack may cause an error message. In Windows, this may be of the following types: "Instruction could not be read or written," "Undefined exception," or "Process has encountered a problem." One issue for error handling is that the application should not reveal configuration or platform details that could help an attacker. For example, an unhandled exception on a web application might show an error page that reveals the type and configuration of a database server.
+ An application attack may cause an **error message**. In Windows, this may be of the following types: "Instruction could not be read or written," "Undefined exception," or "Process has encountered a problem." One issue for **error handling is that the application should not reveal configuration or platform details** that could help an attacker. For example, an unhandled exception on a web application might show an error page that reveals the type and configuration of a database server.
 
  Improper Input Handling 
 
