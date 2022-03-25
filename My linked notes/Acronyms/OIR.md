@@ -2,10 +2,14 @@
 tags: [OIR]
 ---
 Operations and Incident Response 16%  
--  OIR **URGENT** Consists of
-	- Operations is **Black, white, red, blue**
-	- Incident Response is urgent
 OIR is the colors **Black, white, red, blue**
+
+- Operations keywords
+	- **Analyze**
+- Incident Response
+	- **Urgent** 
+
+
 [[Implementation]]: is everything else
 
 Hackers : 

@@ -17,6 +17,19 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "c541fc041ae75402",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/OIR.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -64,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -113,6 +127,7 @@
   "active": "962286994c92c2b4",
   "lastOpenFiles": [
     "SecurityPlus/14A Indicators of Application Attacks.md",
+    "My linked notes/Acronyms/OIR.md",
     "SecurityPlus/13B Secure Mobile Device Connections.md",
     "SecurityPlus/13A Mobile Device Management.md",
     "My linked notes/Integrity.md",
@@ -120,7 +135,6 @@
     "SecurityPlus/8C Authorization Solutions.md",
     "My linked notes/backdoors.md",
     "SecurityPlus/12C Embedded System Security Implications.md",
-    "SecurityPlus/12B Endpoint Security.md",
-    "SecurityPlus/12A Secure Firmware.md"
+    "SecurityPlus/12B Endpoint Security.md"
   ]
 }
