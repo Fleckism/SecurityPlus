@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/14A Indicators of Application Attacks.md",
+            "file": "SecurityPlus/14B Indicators of Web Application Attacks.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "c541fc041ae75402",
+        "id": "a41b344499fa6739",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/OIR.md",
+            "file": "My linked notes/Acronyms/MITM.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"CIA\"",
+                "query": "file:OIR",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/14A Indicators of Application Attacks.md",
+                "file": "My linked notes/Acronyms/MITM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +123,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "962286994c92c2b4",
+  "active": "a41b344499fa6739",
   "lastOpenFiles": [
-    "SecurityPlus/14A Indicators of Application Attacks.md",
+    "My linked notes/Acronyms/MITM.md",
+    "SecurityPlus/14B Indicators of Web Application Attacks.md",
+    "My linked notes/XSS.md",
+    "My linked notes/HTTP.md",
+    "My linked notes/URL.md",
     "My linked notes/Acronyms/OIR.md",
-    "SecurityPlus/13B Secure Mobile Device Connections.md",
-    "SecurityPlus/13A Mobile Device Management.md",
-    "My linked notes/Integrity.md",
-    "SecurityPlus/7C Authentication Technologies.md",
-    "SecurityPlus/8C Authorization Solutions.md",
-    "My linked notes/backdoors.md",
-    "SecurityPlus/12C Embedded System Security Implications.md",
-    "SecurityPlus/12B Endpoint Security.md"
+    "SecurityPlus/14A Indicators of Application Attacks.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/SAM.md",
+    "SecurityPlus/14D Secure Script Environments.md"
   ]
 }

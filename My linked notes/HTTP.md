@@ -9,3 +9,22 @@
 	- submits a request for a resource, using a uniform resource locator (URL). 
 - The **server** acknowledges the request and responds with the data (or an error message).
 - When used with [[TLS]] called HTTPS
+==Part of URL analysis==
+## HTTP Explained
+- HTTP session 
+	- client ( user-agent aka Web browser)
+		- Makes a request to a HTTP server
+		- [[TCP]] connection is established.
+			- TCP can be used for multiple requests or a new one for every request
+				- **Requests** include
+					- Method
+					- Resource (URL path)
+					- version number
+					- header
+					- Body
+					- **Methods**
+						- GET: retrieves resource
+						- POST: send data to the server
+						- PUT: create or replace resource
+						- DELETE: Used to remove resource
+						- HEAD:  Retrieve headers 
