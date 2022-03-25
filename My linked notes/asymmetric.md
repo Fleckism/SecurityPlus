@@ -6,6 +6,7 @@ Asymmetric [[encryption]] [[cipher]](aka **public key**)
 - Each key is capable of **reversing** the operation of its pair
 - Message must be smaller than key size
 - Inefficient with large amounts of data
+- **vulnerable** to man-in-the-middle attacks([[MITM]])
 - The holder of the private key cannot be impersonated
 - Utilized for:
 	-  authentication (aka prove identity) and [[non-repudiation]]
