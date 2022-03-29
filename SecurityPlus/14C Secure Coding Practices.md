@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [Implementation]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -7,25 +7,25 @@ tags: [firstTag, secondTag]
 
 3.2 Given a scenario, implement host or application security solutions
 
-While you may not be taking on direct development duties on major projects, you will often be called upon to make updates to scripts, or make a quick judgment whether a script could be vulnerable and should be evaluated more closely for weaknesses. Being able to summarize secure coding practices will help you to work effectively as part of a DevSecOps team.
+While you may not be taking on direct development duties on major projects, you will often be called upon to make updates to scripts, or make a quick judgment whether a script could be vulnerable and should be evaluated more closely for weaknesses. Being able to summarize secure coding practices will help you to work effectively as part of a [[DevSecOps]] team.
 # SECURE CODING TECHNIQUES 
 
-The security considerations for new programming technologies should be well understood and tested before deployment. One of the challenges of application development is that the pressure to release a solution often trumps any requirement to ensure that the application is secure. A legacy software design process might be heavily focused on highly visible elements, such as functionality, performance, and cost. Modern development practices use a security development life cycle running in parallel or integrated with the focus on software functionality and usability. Examples include Microsoft's SDL ([microsoft.com/en-us/securityengineering/sdl](https://www.microsoft.com/en-us/securityengineering/sdl)) and the OWASP Software Assurance Maturity Model ([owasp.org/www-project-samm](https://owasp.org/www-project-samm/)) and Security Knowledge Framework ([owasp.org/www-project-security-knowledge-framework](https://owasp.org/www-project-security-knowledge-framework/)). OWASP also collates descriptions of specific vulnerabilities, exploits, and mitigation techniques, such as the OWASP Top 10 ([owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten/)).
+The security considerations for new programming technologies should be well understood and tested before deployment. One of the challenges of application development is that the pressure to release a solution often trumps any requirement to ensure that the application is secure. A legacy software design process might be heavily focused on highly visible elements, such as functionality, performance, and cost. Modern development practices use a security development life cycle running in parallel or integrated with the focus on software functionality and usability. Examples include Microsoft's SDL ([microsoft.com/en-us/securityengineering/sdl](https://www.microsoft.com/en-us/securityengineering/sdl)) and the [[OWASP]] Software Assurance Maturity Model ([owasp.org/www-project-samm](https://owasp.org/www-project-samm/)) and Security Knowledge Framework ([owasp.org/www-project-security-knowledge-framework](https://owasp.org/www-project-security-knowledge-framework/)). OWASP also collates descriptions of specific vulnerabilities, exploits, and mitigation techniques, such as the OWASP Top 10 ([owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten/)).
 
-Some of the most important coding practices are input validation, output encoding, and error handling.
+**Some of the most important coding practices are input validation, output encoding, and error handling**.
 
 ### Input Validation
 
-A primary vector for attacking applications is to exploit faulty input validation. Input could include user data entered into a form or URL passed by another application as a URL or HTTP header. Malicious input could be crafted to perform an overflow attack or some type of script or SQL injection attack. To mitigate this risk, all input methods should be documented with a view to reducing the potential attack surface exposed by the application. There must be routines to check user input, and anything that does not conform to what is required must be rejected.
+A primary vector for attacking applications is to exploit faulty input validation. Input could include user data entered into a form or URL passed by another application as a URL or HTTP header. Malicious input could be crafted to perform an overflow attack or some type of script or SQL injection attack. To mitigate this risk, all input methods should be documented with a view to reducing the potential attack surface exposed by the application. There must be routines to **check user input**, and anything that does not conform to what is required must be rejected.
 
 ### Normalization and Output Encoding
 
 Where an application accepts string input, the input should be subjected to normalization procedures before being accepted. Normalization means that a string is stripped of illegal characters or substrings and converted to the accepted character set. This ensures that the string is in a format that can be processed correctly by the input validation routines.
 
-When user-generated strings are passed through different contexts in a web application—between HTTP, JavaScript, PHP, and SQL for instance—each with potentially different canonicalization schemes, it is extremely difficult to ensure that characters that would facilitate script injection by XSS have been rendered safe. Output encoding means that the string is re-encoded safely for the context in which it is being used. For example, a web form might perform input validation at the client, but when it reaches the server, a PHP function performs output encoding before composing an SQL statement. Similarly, when a string is delivered from a database using SQL, a JavaScript function would perform output encoding to render the string using safe HTML entities ([cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)).
+When user-generated strings are passed through different contexts in a web application—between HTTP, JavaScript, PHP, and SQL for instance—each with potentially different [[canonicalization]] schemes, it is extremely difficult to ensure that characters that would facilitate script injection by [[XSS]] have been rendered safe. Output encoding means that the string is re-encoded safely for the context in which it is being used. For example, a web form might perform input validation at the client, but when it reaches the server, a PHP function performs **output encoding before composing an SQL statement**. Similarly, when a string is delivered from a database using SQL, a JavaScript function would perform output encoding to render the string using safe HTML entities ([cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)).
 # SERVER-SIDE VERSUS CLIENT-SIDE VALIDATION
 
-A web application (or any other client-server application) can be designed to perform code execution and input validation locally (on the client) or remotely (on the server). An example of client-side execution is a document object model (DOM) script to render the page using dynamic elements from user input. Applications may use both techniques for different functions. The main issue with client-side validation is that the client will always be more vulnerable to some sort of malware interfering with the validation process. The main issue with server-side validation is that it can be time-consuming, as it may involve multiple transactions between the server and client. Consequently, client-side validation is usually restricted to informing the user that there is some sort of problem with the input before submitting it to the server. Even after passing client-side validation, the input will still undergo server-side validation before it can be posted (accepted). Relying on client-side validation only is poor programming practice.
+A web application (or any other client-server application) can be designed to perform code execution and input validation locally (on the client) or remotely (on the server). An example of client-side execution is a document object model ([[DOM]]) script to render the page using dynamic elements from user input. Applications may use both techniques for different functions. The main issue with **client-side validation** is that the client will always be **more vulnerable** to some sort of malware interfering with the validation process. The **main issue with server-side validation** is that it can be **time-consuming**, as it may involve multiple transactions between the server and client. Consequently, client-side validation is usually restricted to informing the user that there is some sort of problem with the input before submitting it to the server. Even after passing client-side validation, the input will still undergo server-side validation before it can be posted (accepted). Relying on client-side validation only is poor programming practice.
 # WEB APPLICATION SECURITY
 
 With web applications, special attention must be paid to secure cookies and options for HTTP response header security.
@@ -34,35 +34,35 @@ With web applications, special attention must be paid to secure cookies and opti
 
 Cookies can be a vector for session hijacking and data exposure if not configured correctly ([developer.mozilla.org/en-US/docs/Web/HTTP/Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)). Some of the key parameters for the SetCookie header are:
 
--   Avoid using persistent cookies for session authentication. Always use a new cookie when the user reauthenticates.
--   Set the Secure attribute to prevent a cookie being sent over unencrypted HTTP.
--   Set the HttpOnly attribute to make the cookie inaccessible to document object model/client-side scripting.
--   Use the SameSite attribute to control from where a cookie may be sent, mitigating request forgery attacks.
+-   Avoid using persistent cookies for session authentication. **Always use a new cookie** when the user reauthenticates.
+-   **Set the Secure attribute** to prevent a cookie being sent over unencrypted HTTP.
+-   **Set the HttpOnly** attribute to make the cookie inaccessible to document object model/client-side scripting.
+-   **Use the SameSite** attribute to control from where a cookie may be sent, mitigating request forgery attacks.
 
 ### Response Headers 
 
-A number of security options can be set in the response header returned by the server to the client ([owasp.org/www-project-secure-headers](https://owasp.org/www-project-secure-headers/)). While it should seem like a straightforward case of enabling all these, developers are often constrained by compatibility and implementation considerations between different client browser and server software types and versions. Some of the most important security-relevant header options are:
+A number of security options can be set in the response header **returned by the server to the client** ([owasp.org/www-project-secure-headers](https://owasp.org/www-project-secure-headers/)). While it should seem like a straightforward case of enabling all these, developers are often constrained by compatibility and implementation considerations between different client browser and server software types and versions. Some of the most important security-relevant header options are:
 
--   HTTP Strict Transport Security (HSTS)—forces browser to connect using HTTPS only, mitigating downgrade attacks, such as SSL stripping.
--   Content Security Policy (CSP)—mitigates clickjacking, script injection, and other client-side attacks. Note that X-Frame-Options and X-XSS-Protection provide mitigation for older browser versions, but are now deprecated in favor of CSP.
--   Cache-Control—sets whether the browser can cache responses. Preventing caching of data protects confidential and personal information where the client device might be shared by multiple users.
+-   HTTP Strict Transport Security ([[HSTS]])—forces browser to connect using HTTPS only, mitigating downgrade attacks, such as SSL stripping.
+-   Content Security Policy ([[CSP]])—mitigates clickjacking, script injection, and other client-side attacks. Note that X-Frame-Options and X-XSS-Protection provide mitigation for older browser versions, but are now deprecated in favor of CSP.
+-   **Cache-Control**—sets whether the browser can cache responses. Preventing caching of data protects confidential and personal information where the client device might be shared by multiple users.
 # DATA EXPOSURE AND MEMORY MANAGEMENT
 
 Data exposure is a fault that allows privileged information (such as a token, password, or personal data) to be read without being subject to the appropriate access controls. Applications must only transmit such data between authenticated hosts, using cryptography to protect the session. When incorporating encryption in your code, it's important to use encryption algorithms and techniques that are known to be strong, rather than creating your own.
 
 ### Error Handling
 
-A well-written application must be able to handle errors and exceptions gracefully. This means that the application performs in a controlled way when something unpredictable happens. An error or exception could be caused by invalid user input, a loss of network connectivity, another server or process failing, and so on. Ideally, the programmer will have written a structured exception handler (SEH) to dictate what the application should then do. Each procedure can have multiple exception handlers.
+A well-written application must be able to handle errors and exceptions gracefully. This means that the application performs in a controlled way when something unpredictable happens. An error or exception could be caused by invalid user input, a loss of network connectivity, another server or process failing, and so on. Ideally, the programmer will have written a structured exception handler ([[SEH]]) to dictate what the application should then do. Each procedure can have multiple exception handlers.
 
 Some handlers will deal with anticipated errors and exceptions; there should also be a catchall handler that will deal with the unexpected. The main goal must be for the application not to fail in a way that allows the attacker to execute code or perform some sort of injection attack. One infamous example of a poorly written exception handler is the Apple GoTo bug ([nakedsecurity.sophos.com/2014/02/24/anatomy-of-a-goto-fail-apples-ssl-bug-explained-plus-an-unofficial-patch](https://nakedsecurity.sophos.com/2014/02/24/anatomy-of-a-goto-fail-apples-ssl-bug-explained-plus-an-unofficial-patch/)).
 
-Another issue is that an application's interpreter may default to a standard handler and display default error messages when something goes wrong. These may reveal platform information and the inner workings of code to an attacker. It is better for an application to use custom error handlers so that the developer can choose the amount of information shown when an error is caused.
+Another issue is that an application's interpreter may default to a standard handler and display default error messages when something goes wrong. These may reveal platform information and the inner workings of code to an attacker. It is better for an application to use **custom error handlers** so that the developer can choose the amount of information shown when an error is caused.
 
-Technically, an error is a condition that the process cannot recover from, such as the system running out of memory. An exception is a type of error that can be handled by a block of code without the process crashing. Note that exceptions are still described as generating error codes/messages, however.
+**Technically, an error is a condition that the process cannot recover from**, such as the system running out of memory. **An exception is a type of error that can be handled by a block of code without the process crashing.** Note that exceptions are still described as generating error codes/messages, however.
 
 ### Memory Management
 
-Many arbitrary code attacks depend on the target application having faulty memory management procedures. This allows the attacker to execute his or her own code in the space marked out by the target application. There are known unsecure practices for memory management that should be avoided and checks for processing untrusted input, such as strings, to ensure that it cannot overwrite areas of memory.
+**Many arbitrary code attacks depend on the target application having faulty memory management procedures.** This allows the attacker to execute his or her own code in the space marked out by the target application. **There are known unsecure practices for memory management that should be avoided and checks for processing untrusted input, such as strings, to ensure that it cannot overwrite areas of memory.**
 # SECURE CODE USAGE
 
 Developing code to perform some function is hard work, so developers will often look to see if someone else has done that work already. A program may make use of existing code in the following ways:

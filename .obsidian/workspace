@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/14B Indicators of Web Application Attacks.md",
+            "file": "SecurityPlus/14C Secure Coding Practices.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/14B Indicators of Web Application Attacks.md",
+                "file": "SecurityPlus/14C Secure Coding Practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +151,7 @@
   },
   "active": "962286994c92c2b4",
   "lastOpenFiles": [
+    "SecurityPlus/14C Secure Coding Practices.md",
     "SecurityPlus/14B Indicators of Web Application Attacks.md",
     "My linked notes/Acronyms/MITM.md",
     "My linked notes/asymmetric.md",
@@ -159,7 +160,6 @@
     "SecurityPlus/9B Secure Switching and Routing.md",
     "My linked notes/Acronyms/TLS.md",
     "My linked notes/URL.md",
-    "My linked notes/XSS.md",
-    "My linked notes/HTTP.md"
+    "My linked notes/XSS.md"
   ]
 }
