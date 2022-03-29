@@ -183,9 +183,9 @@ A third type of [[XSS]] attack exploits vulnerabilities in client-side scripts. 
 
 Attacks such as session [[replay]], [[CSRF]], and [[DOM]]-based [[XSS]] are [[client-side attacks]]. This means that they execute arbitrary code on the browser. A [[server-side attack]] causes the server to do some processing or run a script or query in a way that is not authorized by the application design. Most server-side attacks depend on some kind of injection attack.
 
-Where an overflow attack works against the way a process performs memory management, an injection attack exploits some unsecure way in which the application processes requests and queries. For example, an application might allow a user to view his or her profile with a database query that should return the single record for that one user's profile. An application vulnerable to an injection attack might allow a threat actor to return the records for all users, or to change fields in the record when they are only supposed to be able to read them.
+**Where an overflow attack works against the way a process performs memory management**, an **injection attack exploits some unsecure way in which the application processes requests and queries**. For example, an application might allow a user to view his or her profile with a database query that should return the single record for that one user's profile. An application vulnerable to an injection attack might allow a threat actor to return the records for all users, or to change fields in the record when they are only supposed to be able to read them.
 
-A web application is likely to use Structured Query Language (SQL) to read and write information from a database. The main database operations are performed by SQL statements for selecting data (SELECT), inserting data (INSERT), deleting data (DELETE), and updating data (UPDATE). In a SQL injection attack, the threat actor modifies one or more of these four basic functions by adding code to some input accepted by the app, causing it to execute the attacker's own set of SQL queries or parameters. If successful, this could allow the attacker to extract or insert information into the database or execute arbitrary code on the remote system using the same privileges as the database application ([owasp.org/www-community/attacks/SQL_Injection](https://owasp.org/www-community/attacks/SQL_Injection)).
+A web application is likely to use Structured Query Language ([[SQL]]) to read and write information from a database. The main database operations are performed by SQL statements for selecting data (SELECT), inserting data (INSERT), deleting data (DELETE), and updating data (UPDATE). In a SQL injection attack, the threat actor modifies one or more of these four basic functions by adding code to some input accepted by the app, causing it to execute the attacker's own set of SQL queries or parameters. If successful, this could allow the attacker to extract or insert information into the database or execute arbitrary code on the remote system using the same privileges as the database application ([owasp.org/www-community/attacks/SQL_Injection](https://owasp.org/www-community/attacks/SQL_Injection)).
 
 For example, consider a web form that is supposed to take a name as input. If the user enters "Bob", the application runs the following query:
 
@@ -202,7 +202,7 @@ An injection attack can target other types of protocols where the application ta
 
 ### Extensible Markup Language (XML) Injection
 
-Extensible Markup Language (XML) is used by apps for authentication and authorizations, and for other types of data exchange and uploading. Data submitted via XML with no encryption or input validation is vulnerable to spoofing, request forgery, and injection of arbitrary data or code. For example, an XML External Entity (XXE) attack embeds a request for a local resource ([owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)).
+Extensible Markup Language ([[XML]]) is used by apps for authentication and authorizations, and for other types of data exchange and uploading. Data submitted via XML with no encryption or input validation is vulnerable to spoofing, request forgery, and injection of arbitrary data or code. For example, an XML External Entity (XXE) attack embeds a request for a local resource ([owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)).
 
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -214,7 +214,7 @@ This defines an entity named bar that refers to a local file path. A successful 
 
 ### Lightweight Directory Access Protocol (LDAP) Injection
 
-The Lightweight Directory Access Protocol (LDAP) is another example of a query language. LDAP is specifically used to read and write network directory databases. A threat actor could exploit either unauthenticated access or a vulnerability in a client app to submit arbitrary LDAP queries. This could allow accounts to be created or deleted, or for the attacker to change authorizations and privileges ([owasp.org/www-community/attacks/LDAP_Injection](https://owasp.org/www-community/attacks/LDAP_Injection)).
+The Lightweight Directory Access Protocol ([[LDAP]]) is another example of a query language. LDAP is specifically used to read and write network directory databases. A threat actor could exploit either unauthenticated access or a vulnerability in a client app to submit arbitrary LDAP queries. This could allow accounts to be created or deleted, or for the attacker to change authorizations and privileges ([owasp.org/www-community/attacks/LDAP_Injection](https://owasp.org/www-community/attacks/LDAP_Injection)).
 
 LDAP filters are constructed from (name=value) attribute pairs delimited by parentheses and the logical operators AND (&) and OR (|). Adding filter parameters as unsanitized input can bypass access controls. For example, if a web form authenticates to an LDAP directory with the valid credentials Bob and Pa$$w0rd, it may construct a query such as this from the user input:
 
@@ -225,7 +225,7 @@ Both parameters must be true for the login to be accepted. If the form input is 
 (&(username=Bob)(&))
 # DIRECTORY TRAVERSAL AND COMMAND INJECTION ATTACKS 
 
-Directory traversal is another type of injection attack performed against a web server. The threat actor submits a request for a file outside the web server's root directory by submitting a path to navigate to the parent directory (../). This attack can succeed if the input is not filtered properly and access permissions on the file are the same as those on the web server directory.
+**Directory traversal** is another type of injection attack performed against a web server. The threat actor submits a request for a file outside the web server's root directory by submitting a path to navigate to the parent directory (../). This attack can succeed if the input is not filtered properly and access permissions on the file are the same as those on the web server directory.
 
 The threat actor might use a canonicalization attack to disguise the nature of the malicious input. Canonicalization refers to the way the server converts between the different methods by which a resource (such as a file path or URL) may be represented and submitted to the simplest (or canonical) method used by the server to process the input. Examples of encoding schemes include HTML entities and character set percent encoding (ASCII and Unicode). An attacker might be able to exploit vulnerabilities in the canonicalization process to perform code injection or facilitate directory traversal. For example, to perform a directory traversal attack, the attacker might submit a URL such as:
 
@@ -235,10 +235,10 @@ A limited input validation routine would prevent the use of the string ../ and r
 
 http://victim.foo/?show=%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fetc/config
 
-A command injection attack attempts to cause the server to run OS shell commands and return the output to the browser. As with directory traversal, the web server should normally be able to prevent commands from operating outside of the server's directory root and to prevent commands from running with any other privilege level than the web "guest" user (who is normally granted only very restricted privileges). A successful command injection attack would find some way of circumventing this security (or find a web server that is not properly configured).
+A **command injection** attack attempts to cause the server to run OS shell commands and return the output to the browser. As with directory traversal, the web server should normally be able to prevent commands from operating outside of the server's directory root and to prevent commands from running with any other privilege level than the web "guest" user (who is normally granted only very restricted privileges). A successful command injection attack would find some way of circumventing this security (or find a web server that is not properly configured).
 # SERVER-SIDE REQUEST FORGERY
 
-A server-side request forgery (SSRF) causes the server application to process an arbitrary request that targets another service, either on the same host or a different one ([owasp.org/www-community/attacks/Server_Side_Request_Forgery](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)). SSRF exploits both the lack of authentication between the internal servers and services (implicit trust) and weak input validation, allowing the attacker to submit unsanitized requests or API parameters.
+A server-side request forgery ([[SSRF]]) causes the server application to process an arbitrary request that targets another service, either on the same host or a different one ([owasp.org/www-community/attacks/Server_Side_Request_Forgery](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)). SSRF exploits both the lack of authentication between the internal servers and services (implicit trust) and weak input validation, allowing the attacker to submit unsanitized requests or API parameters.
 
 A web application takes API input via a URL or as data encoded in HTTP response headers. The web application is likely to use a standard library to read (parse) the URL or response headers. Many SSRF attacks depend on exploits against specific parsing mechanisms in standard libraries for web servers, such as Apache or IIS, and web application programming languages and tools, such as the curl library, Java, and PHP. SSRF can also use XML injection to exploit weaknesses in XML document parsing.
 
@@ -248,7 +248,7 @@ SSRF attacks are often targeted against cloud infrastructure where the web serve
 
 Server-side request forgery example. (Images © 123RF.com.)
 
-SSRF encompasses a very wide range of potential exploits and targets, some of which include:
+[[SSRF]] encompasses a very wide range of potential exploits and targets, some of which include:
 
 -   Reconnaissance—a response may contain metadata describing the type and configuration of internal servers. SSRF can also be used to port scan within the internal network.
 -   Credential stealing—a response may contain an API key that the internal servers use between themselves.
