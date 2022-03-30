@@ -1,41 +1,41 @@
 ---
-tags: [firstTag, secondTag]
+tags: [A_D]
 ---
 # EXAM OBJECTIVES COVERED
 
 2.3 Summarize secure application development, deployment, and automation concepts
 
 Most organizations use Agile methodologies, involving a development process of continuous integration, delivery, and deployment. You will need to be able to support the creation and use of secure development and staging environments, plus the use of provisioning and deprovisioning tools.
-# APPLICATION DEVELOPMENT, DEPLOYMENT, AND AUTOMATION
+# APPLICATION DEVELOPMENT, ==DEPLOYMENT, AND AUTOMATION==
 
-A DevSecOps culture gives project teams a broad base of development, security, and operations expertise and experience. This promotes an environment in which security tasks make increased use of automation. Automation is the completion of an administrative task without human intervention. Task automation steps may be configurable through a GUI control panel, via a command line, or via an API called by scripts. Tasks can be automated to provision resources, add accounts, assign permissions, perform incident detection and response, and any number of other network security tasks.
+A [[DevSecOps]] culture gives project teams a broad base of development, security, and operations expertise and experience. This promotes an environment in which security tasks make increased use of automation. Automation is the completion of an administrative task without human intervention. **Task automation steps may be configurable through a GUI control panel, via a command line, or via an API called by scripts**. Tasks can be automated to provision resources, add accounts, assign permissions, perform incident detection and response, and any number of other network security tasks.
 
-Manual configuration introduces a lot of scope for making errors. A technician may be unsure of best practice, or there may be a lack of documentation. Over time, this leads to many small discrepancies in the way instances and services are configured. These small discrepancies can become big problems when it comes to maintaining, updating, and securing IT and cloud infrastructure. Automation provides better scalability and elasticity:
+**Manual configuration introduces a lot of scope for making errors.** A technician may be unsure of best practice, or there may be a lack of documentation. Over time, this leads to many small discrepancies in the way instances and services are configured. These small discrepancies can become big problems when it comes to maintaining, updating, and securing IT and cloud infrastructure. **Automation provides better scalability and elasticity:**
 
--   Scalability means that the costs involved in supplying the service to more users are linear. For example, if the number of users doubles in a scalable system, the costs to maintain the same level of service would also double (or less than double). If costs more than double, the system is less scalable.
--   Elasticity refers to the system's ability to handle changes on demand in real time. A system with high elasticity will not experience loss of service or performance if demand suddenly doubles (or triples, or quadruples). Conversely, it may be important for the system to be able to reduce costs when demand is low. Elasticity is a common selling point for cloud services. Instead of running a cloud resource for 24 hours a day, 7 days a week, that resource can diminish in power or shut down completely when demand for that resource is low. When demand picks up again, the resource will grow in power to the level required. This results in cost-effective operations.
+-   **Scalability means that the costs involved in supplying the service to more users are linear.** For example, if the number of users doubles in a scalable system, the costs to maintain the same level of service would also double (or less than double). If costs more than double, the system is less scalable.
+-   **Elasticity refers to the system's ability to handle changes on demand in real time.** A system with high elasticity will not experience loss of service or performance if demand suddenly doubles (or triples, or quadruples). Conversely, it may be important for the system to be able to reduce costs when demand is low. Elasticity is a common selling point for cloud services. Instead of running a cloud resource for 24 hours a day, 7 days a week, that resource can diminish in power or shut down completely when demand for that resource is low. When demand picks up again, the resource will grow in power to the level required. This results in cost-effective operations.
 # SECURE APPLICATION DEVELOPMENT ENVIRONMENTS
 
-Security must be a key component of the application or automation design process. Even a simple form and script combination can make a web server vulnerable if the script is not well written. A software development life cycle (SDLC) divides the creation and maintenance of software into discrete phases. There are two principal SDLCs: the waterfall model and Agile development. Both these models stress the importance of requirements analysis and quality processes to the success of development projects.
+Security must be a key component of the application or automation design process. Even a simple form and script combination can make a web server vulnerable if the script is not well written. A software development life cycle ([[SDLC]]) divides the creation and maintenance of software into discrete phases. There are two principal SDLCs: the waterfall model and Agile development. Both these models stress the importance of **requirements analysis** and **quality processes** to the success of development projects.
 
 ### Quality Assurance (QA)
 
-Quality processes are how an organization tests a system to identify whether it complies with a set of requirements and expectations. These requirements and expectations can be driven by risk-based assessments, or they can be driven by internal and external compliance factors, such as industry regulations and company-defined quality standards. Quality control (QC) is the process of determining whether a system is free from defects or deficiencies. QC procedures are themselves defined by a quality assurance (QA) process, which analyzes what constitutes "quality" and how it can be measured and checked.
+**Quality processes are how an organization tests a system to identify whether it complies with a set of requirements and expectations.** These requirements and expectations can be driven by risk-based assessments, or they can be driven by internal and external compliance factors, such as industry regulations and company-defined quality standards. Quality control (QC) is the process of determining whether a system is free from defects or deficiencies. **QC procedures are themselves defined by a quality assurance (QA) process, which analyzes what constitutes "quality" and how it can be measured and checked.**
 
 ### Development Environments
 
 To meet the demands of the life cycle model and quality assurance, code is normally passed through several different environments:
 
--   Development—the code will be hosted on a secure server. Each developer will check out a portion of code for editing on his or her local machine. The local machine will normally be configured with a sandbox for local testing. This ensures that whatever other processes are being run locally do not interfere with or compromise the application being developed.
--   Test/integration—in this environment, code from multiple developers is merged to a single master copy and subjected to basic unit and functional tests (either automated or by human testers). These tests aim to ensure that the code builds correctly and fulfills the functions required by the design.
--   Staging—this is a mirror of the production environment but may use test or sample data and will have additional access controls so that it is only accessible to test users. Testing at this stage will focus more on usability and performance.
--   Production—the application is released to end users.
+-   **Development**—the code will be hosted on a secure server. Each developer will check out a portion of code for editing on his or her local machine. The local machine will normally be configured with a sandbox for local tes ting. This ensures that whatever other processes are being run locally do not interfere with or compromise the application being developed.
+-   **Test/integration**—in this environment, code from multiple developers is merged to a single master copy and subjected to basic unit and functional tests (either automated or by human testers). These tests aim to ensure that the code builds correctly and fulfills the functions required by the design.
+-   **Staging**—this is a mirror of the production environment but may use test or sample data and will have additional access controls so that it is only accessible to test users. Testing at this stage will focus more on usability and performance.
+-   **Production**—the application is released to end users.
 
 Secure development environments. (Images © 123RF.com.)
 
 It is important to be able to validate the integrity of each coding environment. Compromise in any environment could lead to the release of compromised code.
 
--   Sandboxing—each development environment should be segmented from the others. No processes should be able to connect to anything outside the sandbox. Only the minimum tools and services necessary to perform code development and testing should be allowed in each sandbox.
+-   **Sandboxing**—each development environment should be segmented from the others. No processes should be able to connect to anything outside the sandbox. Only the minimum tools and services necessary to perform code development and testing should be allowed in each sandbox.
 -   Secure configuration baseline—each development environment should be built to the same specification, possibly using automated provisioning.
 -   Integrity measurement—this process determines whether the development environment varies from the configuration baseline. Perhaps a developer added an unauthorized tool to solve some programming issue. Integrity measurement may be performed by scanning for unsigned files or files that do not otherwise match the baseline. The Linux diff command can be used to compare file structures ([linux.die.net/man/1/diff](https://linux.die.net/man/1/diff)).
 # PROVISIONING, DEPROVISIONING, AND VERSION CONTROL

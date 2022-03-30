@@ -4,44 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "962286994c92c2b4",
+        "id": "d59cbf4bf88ce49b",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/14D Secure Script Environments.md",
+            "file": "SecurityPlus/14E Deployment and Automation Concepts.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "077f3dcff84c0f2c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/script.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "8e958bc391b3d720",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/implementation.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -77,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"ARP poisoning\"",
+                "query": "SDLC",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -87,7 +61,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -108,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/14D Secure Script Environments.md",
+                "file": "SecurityPlus/14E Deployment and Automation Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,17 +112,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "962286994c92c2b4",
+  "active": "d59cbf4bf88ce49b",
   "lastOpenFiles": [
+    "SecurityPlus/14E Deployment and Automation Concepts.md",
     "SecurityPlus/14D Secure Script Environments.md",
+    "SecurityPlus/14C Secure Coding Practices.md",
+    "My linked notes/DLLs.md",
     "My linked notes/script.md",
     "My linked notes/implementation.md",
     "My linked notes/Keylogger.md",
-    "SecurityPlus/14C Secure Coding Practices.md",
     "SecurityPlus/14B Indicators of Web Application Attacks.md",
     "My linked notes/Acronyms/MITM.md",
-    "My linked notes/asymmetric.md",
-    "My linked notes/public key cryptography.md",
-    "My linked notes/Acronyms/ARP.md"
+    "My linked notes/asymmetric.md"
   ]
 }

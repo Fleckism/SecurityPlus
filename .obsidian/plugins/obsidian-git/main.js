@@ -9310,7 +9310,7 @@ var init_StatusSummary = __esm({
       }]
     ]);
     parseStatusSummary = function(text2) {
-      const lines = text2.trim().split("\n");
+      const lines = text2.trim().split(NULL);
       const status = new StatusSummary();
       for (let i = 0, l = lines.length; i < l; i++) {
         splitLine(status, lines[i]);
@@ -9320,17 +9320,27 @@ var init_StatusSummary = __esm({
   }
 });
 function statusTask(customArgs) {
+  const commands = [
+    "status",
+    "--porcelain",
+    "-b",
+    "-u",
+    "--null",
+    ...customArgs.filter((arg) => !ignoredOptions.includes(arg))
+  ];
   return {
     format: "utf-8",
-    commands: ["status", "--porcelain", "-b", "-u", ...customArgs],
+    commands,
     parser(text2) {
       return parseStatusSummary(text2);
     }
   };
 }
+var ignoredOptions;
 var init_status = __esm({
   "src/lib/tasks/status.ts"() {
     init_StatusSummary();
+    ignoredOptions = ["--null", "-z"];
   }
 });
 var simple_git_api_exports = {};
@@ -11066,7 +11076,7 @@ var DiffView = class extends import_obsidian6.ItemView {
     this.plugin = plugin;
     this.gettingDiff = false;
     this.parser = new DOMParser();
-    addEventListener("git-source-control-refresh", this.refresh.bind(this));
+    addEventListener("git-refresh", this.refresh.bind(this));
   }
   getViewType() {
     return DIFF_VIEW_CONFIG.type;
@@ -11088,7 +11098,7 @@ var DiffView = class extends import_obsidian6.ItemView {
     return this.state;
   }
   onClose() {
-    removeEventListener("git-source-control-refresh", this.refresh.bind(this));
+    removeEventListener("git-refresh", this.refresh.bind(this));
     return super.onClose();
   }
   onOpen() {
@@ -13902,6 +13912,7 @@ function instance4($$self, $$props, $$invalidate) {
   let deleteEvent;
   let createEvent;
   let renameEvent;
+  addEventListener("git-refresh", refresh);
   plugin.app.workspace.onLayoutReady(() => setImmediate(() => {
     buttons.forEach((btn) => (0, import_obsidian12.setIcon)(btn, btn.getAttr("data-icon"), 16));
     (0, import_obsidian12.setIcon)(layoutBtn, showTree ? "feather-list" : "feather-folder", 16);
@@ -13917,7 +13928,6 @@ function instance4($$self, $$props, $$invalidate) {
     renameEvent = plugin.app.vault.on("rename", () => {
       debRefresh();
     });
-    addEventListener("git-source-control-refresh", refresh);
     plugin.registerEvent(modifyEvent);
     plugin.registerEvent(deleteEvent);
     plugin.registerEvent(createEvent);
@@ -13928,7 +13938,7 @@ function instance4($$self, $$props, $$invalidate) {
     plugin.app.metadataCache.offref(deleteEvent);
     plugin.app.metadataCache.offref(createEvent);
     plugin.app.metadataCache.offref(renameEvent);
-    removeEventListener("git-source-control-refresh", refresh);
+    removeEventListener("git-refresh", refresh);
   });
   function commit() {
     $$invalidate(11, loading = true);
@@ -13938,9 +13948,6 @@ function instance4($$self, $$props, $$invalidate) {
       }
     }).finally(refresh);
   }
-  addEventListener("git-refresh", (_) => {
-    refresh();
-  });
   function refresh() {
     return __awaiter(this, void 0, void 0, function* () {
       $$invalidate(11, loading = true);
@@ -14157,6 +14164,7 @@ var ObsidianGit = class extends import_obsidian14.Plugin {
             });
           }
           this.app.workspace.revealLeaf(this.app.workspace.getLeavesOfType(GIT_VIEW_CONFIG.type).first());
+          dispatchEvent(new CustomEvent("git-refresh"));
         })
       });
       this.addCommand({
@@ -14315,7 +14323,7 @@ var ObsidianGit = class extends import_obsidian14.Plugin {
           case "valid":
             this.gitReady = true;
             this.setState(PluginState.idle);
-            dispatchEvent(new CustomEvent("git-source-control-refresh"));
+            dispatchEvent(new CustomEvent("git-refresh"));
             if (this.settings.autoPullOnBoot) {
               this.promiseQueue.addTask(() => this.pullChangesFromRemote());
             }
@@ -14383,7 +14391,7 @@ var ObsidianGit = class extends import_obsidian14.Plugin {
           this.displayError(`You have ${status.conflicted.length} conflict ${status.conflicted.length > 1 ? "files" : "file"}`);
         }
       }
-      dispatchEvent(new CustomEvent("git-source-control-refresh"));
+      dispatchEvent(new CustomEvent("git-refresh"));
       this.lastUpdate = Date.now();
       this.setState(PluginState.idle);
     });
@@ -14445,7 +14453,7 @@ var ObsidianGit = class extends import_obsidian14.Plugin {
       } else {
         this.displayMessage("No changes to commit");
       }
-      dispatchEvent(new CustomEvent("git-source-control-refresh"));
+      dispatchEvent(new CustomEvent("git-refresh"));
       this.setState(PluginState.idle);
       return true;
     });

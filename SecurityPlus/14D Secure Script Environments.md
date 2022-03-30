@@ -235,25 +235,25 @@ os.dup2(s.fileno(),2)
 
 pty.spawn("/bin/sh")'
 
-The os.dup2 statements redirect the terminal's data streams stdin (0), stdout (1), and stderr (2) to the socket object (s). The pty module provides a library of functions for managing a pseudo-terminal, in this case starting the shell process at /bin/sh.
+The os.dup2 statements redirect the **terminal's data streams stdin (0), stdout (1), and stderr (2) to the socket object (s).** The pty module provides a library of functions for managing a pseudo-terminal, in this case starting the shell process at /bin/sh.
 
-The code to implement a shell can be obfuscated in numerous ways. One way to identify malicious scripts trying to match code samples is to scan the file system against a configuration baseline, either using file integrity monitoring or use of the Linux diff command. 
+The code to implement a shell can be obfuscated in numerous ways. One way to identify malicious scripts trying to match code samples is to scan the file system against a **configuration baseline,** either using file integrity monitoring or use of the Linux diff command. 
 
 A common exploit for a vulnerable web server is to upload a cryptominer, misusing the server's CPU resources to try to obtain new cryptocurrency. You can use Linux utilities such as top and free to diagnose excessive CPU and memory resource consumption by such malware.
 
 This F5 white paper describes the use of Bash and Python attack tools ([f5.com/labs/articles/threat-intelligence/attackers-use-new--sophisticated-ways-to-install-cryptominers](https://www.f5.com/labs/articles/threat-intelligence/attackers-use-new--sophisticated-ways-to-install-cryptominers)).
 # MACROS AND VISUAL BASIC FOR APPLICATIONS (VBA)
 
-A document macro is a sequence of actions performed in the context of a word processor, spreadsheet, or presentation file. While the user may be able to record macro steps using the GUI, ultimately macros are coded in a scripting language. Microsoft Office uses the Visual Basic for Applications (VBA) language, while PDF documents use JavaScript. Microsoft Office document macros can be inspected using ALT+F11. Other vendors and open-source software also implement macro functionality, using languages such as Basic or Python.
+A **document macro is a sequence of actions performed in the context of a word processor, spreadsheet, or presentation file.** While the user may be able to record macro steps using the GUI, ultimately macros are coded in a scripting language. Microsoft Office uses the Visual Basic for Applications (VBA) language, while PDF documents use JavaScript. Microsoft Office document macros can be inspected using ALT+F11. **Other vendors and open-source software also implement macro functionality, using languages such as Basic or Python.**
 
 A malicious actor will try to use a macro-enabled document to execute arbitrary code. For example, a Word document could be the vector for executing a malicious PowerShell script. Macros are disabled by default in Office, but the attacker may be able to use a social engineering attack to get the user to change the policy.
 
 With PDF, the JavaScript might be embedded within the document and designed to exploit a known vulnerability in the reader software to execute without authorization ([sentinelone.com/blog/malicious-pdfs-revealing-techniques-behind-attacks](https://www.sentinelone.com/blog/malicious-pdfs-revealing-techniques-behind-attacks/)).
 # MAN-IN-THE-BROWSER ATTACK
 
-A man-in-the-browser (MitB) attack is a specific type of on-path attack where the web browser is compromised. Depending on the level of privilege obtained, the attacker may be able to inspect session cookies, certificates, and data, change browser settings, perform redirection, and inject code.
+A man-in-the-browser ([[MitB]]) attack is a specific type of [[on-path]] attack where the web browser is compromised. Depending on the level of privilege obtained, the attacker may be able to inspect session cookies, certificates, and data, change browser settings, perform redirection, and inject code.
 
-A MitB attack may be accomplished by installing malicious plug-ins or scripts or intercepting calls between the browser process and DLLs ([attack.mitre.org/techniques/T1185](https://attack.mitre.org/techniques/T1185/)). The Browser Exploitation Framework (BeEF) ([beefproject.com](https://beefproject.com/)) is one well known MitB tool. There are various vulnerability exploit kits that can be installed to a website to actively try to exploit vulnerabilities in clients browsing the site ([trendmicro.com/vinfo/ie/security/definition/exploit-kit](https://www.trendmicro.com/vinfo/ie/security/definition/exploit-kit)). These kits may either be installed to a legitimate site without the owner's knowledge (by compromising access control on the web server) and load in an iFrame (invisible to the user), or the attacker may use phishing/social engineering techniques to trick users into visiting the site.
+A MitB attack may be accomplished by installing malicious plug-ins or scripts or intercepting calls between the browser process and [[DLLs]] ([attack.mitre.org/techniques/T1185](https://attack.mitre.org/techniques/T1185/)). The Browser Exploitation Framework ([[BeEF]]) ([beefproject.com](https://beefproject.com/)) is one well known MitB tool. There are various vulnerability exploit kits that can be installed to a website to actively try to exploit vulnerabilities in clients browsing the site ([trendmicro.com/vinfo/ie/security/definition/exploit-kit](https://www.trendmicro.com/vinfo/ie/security/definition/exploit-kit)). These kits may either be installed to a legitimate site without the owner's knowledge (by compromising access control on the web server) and load in an iFrame (invisible to the user), or the attacker may use phishing/social engineering techniques to trick users into visiting the site.
 
 ![Browser Exploitation Framework (BeEF) window showing a hooked browser at IP address 10.1.0.101 and details of browser software, version, and loaded plug-ins.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/787-1599771809708.png)
 
