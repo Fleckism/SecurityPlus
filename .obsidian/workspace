@@ -10,51 +10,12 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/14C Secure Coding Practices.md",
+            "file": "SecurityPlus/14D Secure Script Environments.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "b9790dc8e9420d7e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Acronyms/MITM.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "0fb8b6795016ed93",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/public key cryptography.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "4a8b965b559b9461",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/asymmetric.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -119,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/14C Secure Coding Practices.md",
+                "file": "SecurityPlus/14D Secure Script Environments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +112,7 @@
   },
   "active": "962286994c92c2b4",
   "lastOpenFiles": [
+    "SecurityPlus/14D Secure Script Environments.md",
     "SecurityPlus/14C Secure Coding Practices.md",
     "SecurityPlus/14B Indicators of Web Application Attacks.md",
     "My linked notes/Acronyms/MITM.md",
@@ -159,7 +121,6 @@
     "My linked notes/Acronyms/ARP.md",
     "SecurityPlus/9B Secure Switching and Routing.md",
     "My linked notes/Acronyms/TLS.md",
-    "My linked notes/URL.md",
-    "My linked notes/XSS.md"
+    "My linked notes/URL.md"
   ]
 }
