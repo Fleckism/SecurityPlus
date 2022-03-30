@@ -1,7 +1,7 @@
 ---
 tags: [Attack]
 ---
-is spyware that actively attempts to steal confidential information by recording keystrokes.
+is **spyware** that actively attempts to steal confidential information by recording keystrokes.
 
 The attacker will usually hope to discover passwords or credit card data.
 -   A keylogger is also a type of spyware that records a user’s keystrokes. It occurs without a user’s knowledge, but it cannot hide itself or gain privileges.

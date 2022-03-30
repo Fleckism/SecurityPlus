@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [Implement, OIR]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -12,21 +12,21 @@ tags: [firstTag, secondTag]
 As a security technician, you will often have to develop automation scripts, using a range of programming and scripting languages. Scripts can be used to return critical security assessment data and to configure hosts, so it is important that only validated code can be executed. You should also be able to identify malicious code in scripts and macros.
 # SCRIPTING
 
-Automation using scripting means that each configuration or build task is performed by a block of code. The script will take standard arguments as data, so there is less scope for uncertainty over configuration choices leading to errors. A script will use the following elements:
+Automation using scripting means that each configuration or build task is performed by a block of code. The script will take standard arguments as data, so there is less scope for uncertainty over configuration choices leading to errors. A [[script]] will use the following elements:
 
--   Parameters that the script takes as input data (passed to the script as arguments).
--   Branching and looping statements that can alter the flow of execution based on logic conditions.
--   Validation and error handlers to check inputs and ensure robust execution.
--   Unit tests to ensure that the script returns the expected outputs, given the expected inputs.
+-   **Parameters** that the script takes as input data (passed to the script as arguments).
+-   **Branching** and looping statements that can alter the flow of execution based on logic conditions.
+-   **Validation** and error handlers to check inputs and ensure robust execution.
+-   **Unit tests** to ensure that the script returns the expected outputs, given the expected inputs.
 
 Popular scripting languages for automation include PowerShell ([docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)), Python ([python.org](https://www.python.org/)), JavaScript ([w3schools.com/js](https://www.w3schools.com/js/)), Ruby ([ruby-lang.org/en](https://www.ruby-lang.org/en/)), and Go ([golang.org](https://golang.org/)). Scripting will also make use of domain-specific languages, such as SQL, XML parsing, regex, and orchestration tools.
 
-A scripting language like Python is a general purpose or procedural language. It can be adapted to perform many tasks. A domain-specific language (DSL) performs a particular task, such as regex string parsing. Orchestration manages multiple automation scripts and configuration data to provision a service.
+A scripting language like Python is a general purpose or procedural language. It can be adapted to perform many tasks. A domain-specific language ([[DSL]]) **performs a particular task**, such as regex string parsing. Orchestration manages multiple automation scripts and configuration data to provision a service.
 
-All coding languages have a specific syntax that constrains the way sections of code are laid out in blocks and the standard statements that are available, such as branching and looping constructions.
+All coding languages have a **specific syntax that constrains the way sections of code are laid out in blocks and the standard statements that are available, such as branching and looping constructions.**
 # PYTHON SCRIPT ENVIRONMENT
 
-Python is a popular language for implementing all kinds of development projects, including automation tools and security tools, as well as malicious scripts ([python.org](https://www.python.org/)). Where many languages use brackets to denote blocks of code, Python uses indentation (4 spaces per level, by convention). Any statement that starts a block is delimited by a colon. Python is case-sensitive; for example, the variable user cannot be referred to by the label User or USER. Comment lines are marked by the # character. You can view inline help on modules, functions, and keywords using the help statement. For example, the following command shows help for the print function: help(print)
+Python is a popular language for implementing all kinds of development projects, **including automation tools and security tools, as well as malicious scripts** ([python.org](https://www.python.org/)). Where many languages use brackets to denote blocks of code, Python uses **indentation** (4 spaces per level, by convention). Any statement that starts a block is delimited by a colon. Python is case-sensitive; for example, the variable user cannot be referred to by the label User or USER. Comment lines are marked by the # character. You can view inline help on modules, functions, and keywords using the help statement. For example, the following command shows help for the print function: help(print)
 
 ### Variables
 
