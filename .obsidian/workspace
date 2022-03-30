@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "d59cbf4bf88ce49b",
+        "id": "c2374b609105ae1a",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/14E Deployment and Automation Concepts.md",
+            "file": "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -61,7 +61,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/14E Deployment and Automation Concepts.md",
+                "file": "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +112,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "d59cbf4bf88ce49b",
+  "active": "c2374b609105ae1a",
   "lastOpenFiles": [
+    "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
+    "My linked notes/implementation.md",
     "SecurityPlus/14E Deployment and Automation Concepts.md",
     "SecurityPlus/14D Secure Script Environments.md",
     "SecurityPlus/14C Secure Coding Practices.md",
     "My linked notes/DLLs.md",
     "My linked notes/script.md",
-    "My linked notes/implementation.md",
     "My linked notes/Keylogger.md",
     "SecurityPlus/14B Indicators of Web Application Attacks.md",
-    "My linked notes/Acronyms/MITM.md",
-    "My linked notes/asymmetric.md"
+    "My linked notes/Acronyms/MITM.md"
   ]
 }

@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [Implement, A_D]
 ---
 # LESSON INTRODUCTION
 
@@ -16,39 +16,39 @@ In this lesson, you will:
 
 2.2 Summarize virtualization and cloud computing concepts
 
-In a traditional infrastructure, an attacker may find intrusions to be difficult as the network can be isolated from the outside world. In a cloud environment, the attacker may simply need to have an Internet connection and a dictionary of stolen password hashes or SSH keys to cause a breach. A lack of oversight in the security procedures of cloud providers can dramatically increase the risk an organization takes. As a security professional, you must be able to assess the threats and vulnerabilities associated with cloud service and delivery models, plus the virtualization technologies that underpin them.
+In a traditional infrastructure, an attacker may find intrusions to be difficult as the network can be isolated from the outside world. In a cloud environment, the attacker may simply need to have an Internet connection and a **dictionary of stolen password hashes or SSH** keys to cause a breach. A lack of oversight in the security procedures of cloud providers can dramatically increase the risk an organization takes. As a security professional, you must be able to assess the threats and vulnerabilities associated with cloud service and delivery models, plus the virtualization technologies that underpin them.
 # CLOUD DEPLOYMENT MODELS
 
-A cloud deployment model classifies how the service is owned and provisioned. It is important to recognize the different impacts deployment models have on threats and vulnerabilities. Cloud deployment models can be broadly categorized as follows:
+A cloud deployment model classifies how the service is owned and provisioned. It is important to recognize the different impacts deployment models have on threats and vulnerabilities. **Cloud deployment models** can be broadly categorized as follows:
 
--   Public (or multi-tenant)—a service offered over the Internet by cloud service providers (CSPs) to cloud consumers. With this model, businesses can offer subscriptions or pay-as-you-go financing, while at the same time providing lower-tier services free of charge. As a shared resource, there are risks regarding performance and security. Multi-cloud architectures are where an organization uses services from multiple CSPs.
--   Hosted Private—hosted by a third-party for the exclusive use of the organization. This is more secure and can guarantee a better level of performance but is correspondingly more expensive.
--   Private—cloud infrastructure that is completely private to and owned by the organization. In this case, there is likely to be one business unit dedicated to managing the cloud while other business units make use of it. With private cloud computing, organizations can exercise greater control over the privacy and security of their services. This type of delivery method is geared more toward banking and governmental services that require strict access control in their operations.
+-   **Public (or multi-tenant)**—a service offered over the Internet by cloud service providers ([[CSPs]]) to cloud consumers. With this model, businesses can offer subscriptions or pay-as-you-go financing, while at the same time providing lower-tier services free of charge. As a shared resource, there are risks regarding performance and security. Multi-cloud architectures are where an organization uses services from multiple CSPs.
+-   **Hosted Private**—hosted by a third-party for the exclusive use of the organization. This is more secure and can guarantee a better level of performance but is correspondingly more expensive.
+-   **Private**—cloud infrastructure that is completely private to and owned by the organization. In this case, there is likely to be one business unit dedicated to managing the cloud while other business units make use of it. With private cloud computing, organizations can exercise greater control over the privacy and security of their services. This type of delivery method is geared more toward **banking and governmental services** that require strict access control in their operations.
 
 This type of cloud could be on-premise or offsite relative to the other business units. An onsite link can obviously deliver better performance and is less likely to be subject to outages (loss of an Internet link, for instance). On the other hand, a dedicated offsite facility may provide better shared access for multiple users in different locations.
 
--   Community—this is where several organizations share the costs of either a hosted private or fully private cloud. This is usually done in order to pool resources for a common concern, like standardization and security policies.
+-   **Community**—this is where several organizations share the costs of either a hosted private or fully private cloud. This is usually done in order to pool resources for a common concern, like standardization and security policies.
 
 There will also be cloud computing solutions that implement some sort of hybrid public/private/community/hosted/onsite/offsite solution. For example, a travel organization may run a sales website for most of the year using a private cloud but break out the solution to a public cloud at times when much higher utilization is forecast.
 
-Flexibility is a key advantage of cloud computing, but the implications for data risk must be well understood when moving data between private and public storage environments.
+**Flexibility is a key advantage** of cloud computing, but the implications for data risk must be well understood when moving data between private and public storage environments.
 # CLOUD SERVICE MODELS
 
-As well as the ownership model (public, private, hybrid, or community), cloud services are often differentiated on the level of complexity and pre-configuration provided. These models are referred to as something or anything as a service (XaaS). The three most common implementations are infrastructure, software, and platform.
+As well as the **ownership model (public, private, hybrid, or community)**, cloud services are often differentiated on the level of **complexity** and pre-configuration provided. These models are referred to as something or anything as a service (XaaS). The three most common implementations are infrastructure, software, and platform.
 
 ### Infrastructure as a Service
 
-Infrastructure as a service (IaaS) is a means of provisioning IT resources such as servers, load balancers, and storage area network (SAN) components quickly. Rather than purchase these components and the Internet links they require, you rent them on an as-needed basis from the service provider's data center. Examples include Amazon Elastic Compute Cloud ([aws.amazon.com/ec2](https://aws.amazon.com/ec2/)), Microsoft Azure Virtual Machines ([azure.microsoft.com/services/virtual-machines](https://azure.microsoft.com/services/virtual-machines)), Oracle Cloud ([oracle.com/cloud](https://www.oracle.com/cloud/)), and OpenStack ([openstack.org](https://www.openstack.org/)).
+**Infrastructure as a service (IaaS) is a means of provisioning IT resources such as servers, load balancers, and storage area network (SAN) components quickly. Rather than purchase these components and the Internet links they require,** you rent them on an as-needed basis from the service provider's data center. Examples include Amazon Elastic Compute Cloud ([aws.amazon.com/ec2](https://aws.amazon.com/ec2/)), Microsoft Azure Virtual Machines ([azure.microsoft.com/services/virtual-machines](https://azure.microsoft.com/services/virtual-machines)), Oracle Cloud ([oracle.com/cloud](https://www.oracle.com/cloud/)), and OpenStack ([openstack.org](https://www.openstack.org/)).
 
 ### Software as a Service
 
-Software as a service (SaaS) is a different model of provisioning software applications. Rather than purchasing software licenses for a given number of seats, a business would access software hosted on a supplier's servers on a pay-as-you-go or lease arrangement (on-demand). Virtual infrastructure allows developers to provision on-demand applications much more quickly than previously. The applications can be developed and tested in the cloud without the need to test and deploy on client computers. Examples include Microsoft Office 365 ([microsoft.com/en-us/microsoft-365/enterprise](https://www.microsoft.com/en-us/microsoft-365/enterprise)), Salesforce ([salesforce.com](https://www.salesforce.com/)), and Google G Suite ([gsuite.google.com](https://gsuite.google.com/)).
+**Software as a service (SaaS) is a different model of provisioning software applications. Rather than purchasing software licenses for a given number of seats, a business would access software hosted on a supplier's servers on a pay-as-you-go or lease arrangement (on-demand). Virtual infrastructure allows developers to provision on-demand applications much more quickly than previously. The applications can be developed and tested in the cloud without the need to test and deploy on client computers.** Examples include Microsoft Office 365 ([microsoft.com/en-us/microsoft-365/enterprise](https://www.microsoft.com/en-us/microsoft-365/enterprise)), Salesforce ([salesforce.com](https://www.salesforce.com/)), and Google G Suite ([gsuite.google.com](https://gsuite.google.com/)).
 
 ### Platform as a Service
 
-Platform as a service (PaaS) provides resources somewhere between SaaS and IaaS. A typical PaaS solution would provide servers and storage network infrastructure (as per IaaS) but also provide a multi-tier web application/database platform on top. This platform could be based on Oracle or MS SQL or PHP and MySQL. Examples include Oracle Database ([oracle.com/database](https://www.oracle.com/database/)), Microsoft Azure SQL Database ([azure.microsoft.com/services/sql-database](https://azure.microsoft.com/services/sql-database)), and Google App Engine ([cloud.google.com/appengine](https://cloud.google.com/appengine)).
+**Platform as a service (PaaS) provides resources somewhere between SaaS and IaaS. A typical PaaS solution would provide servers and storage network infrastructure (as per IaaS) but also provide a multi-tier web application/database platform on top. This platform could be based on Oracle or MS SQL or PHP and MySQL.** Examples include Oracle Database ([oracle.com/database](https://www.oracle.com/database/)), Microsoft Azure SQL Database ([azure.microsoft.com/services/sql-database](https://azure.microsoft.com/services/sql-database)), and Google App Engine ([cloud.google.com/appengine](https://cloud.google.com/appengine)).
 
-As distinct from SaaS though, this platform would not be configured to actually do anything. Your own developers would have to create the software (the CRM or e‑commerce application) that runs using the platform. The service provider would be responsible for the integrity and availability of the platform components, but you would be responsible for the security of the application you created on the platform.
+As distinct from SaaS though, th**is platform would not be configured to actually do anything. Your own developers would have to create the software (the [[CRM]] or e‑commerce application) that runs using the platform**. The service provider would be responsible for the integrity and availability of the platform components, but you would be responsible for the security of the application you created on the platform.
 
 ![Screenshot of Amazon Web Services EC2 dashboard, showing Resources used, Scheduled Events, Account Attributes, and Additional Information.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3838-1599771810001.png)
 
