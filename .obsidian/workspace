@@ -17,6 +17,45 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "37841de6ee4c9693",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/SaaS.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "840834fc326abc42",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/15B Cloud Security Solutions.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "e36e116c47d2e613",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/OIR.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -51,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SDLC",
+                "query": "file:OIR",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -60,11 +99,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -113,14 +154,14 @@
   "active": "c2374b609105ae1a",
   "lastOpenFiles": [
     "SecurityPlus/15B Cloud Security Solutions.md",
+    "My linked notes/SaaS.md",
+    "My linked notes/Acronyms/OIR.md",
+    "My linked notes/operational.md",
     "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
     "My linked notes/implementation.md",
     "SecurityPlus/14E Deployment and Automation Concepts.md",
     "SecurityPlus/14D Secure Script Environments.md",
     "SecurityPlus/14C Secure Coding Practices.md",
-    "My linked notes/DLLs.md",
-    "My linked notes/script.md",
-    "My linked notes/Keylogger.md",
-    "SecurityPlus/14B Indicators of Web Application Attacks.md"
+    "My linked notes/DLLs.md"
   ]
 }
