@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
+            "file": "SecurityPlus/15B Cloud Security Solutions.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -60,13 +60,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -82,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
+                "file": "SecurityPlus/15B Cloud Security Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +112,7 @@
   },
   "active": "c2374b609105ae1a",
   "lastOpenFiles": [
+    "SecurityPlus/15B Cloud Security Solutions.md",
     "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
     "My linked notes/implementation.md",
     "SecurityPlus/14E Deployment and Automation Concepts.md",
@@ -122,7 +121,6 @@
     "My linked notes/DLLs.md",
     "My linked notes/script.md",
     "My linked notes/Keylogger.md",
-    "SecurityPlus/14B Indicators of Web Application Attacks.md",
-    "My linked notes/Acronyms/MITM.md"
+    "SecurityPlus/14B Indicators of Web Application Attacks.md"
   ]
 }
