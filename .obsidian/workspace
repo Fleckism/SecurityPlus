@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c2374b609105ae1a",
+        "id": "3b50ea1d0e21f16e",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/15B Cloud Security Solutions.md",
+            "file": "SecurityPlus/16A Privacy and Data Sensitivity Concepts.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "a4d4dae1634e0726",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/VPC.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -94,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/15B Cloud Security Solutions.md",
+                "file": "SecurityPlus/16A Privacy and Data Sensitivity Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +111,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "c2374b609105ae1a",
+  "active": "3b50ea1d0e21f16e",
   "lastOpenFiles": [
+    "SecurityPlus/16A Privacy and Data Sensitivity Concepts.md",
+    "SecurityPlus/15C Infrastructure as Code Concepts.md",
+    "My linked notes/SDN.md",
+    "My linked notes/SOA.md",
     "SecurityPlus/15B Cloud Security Solutions.md",
+    "My linked notes/VPCs.md",
     "My linked notes/VPC.md",
     "My linked notes/ACLs.md",
     "My linked notes/Acronyms/ACL.md",
-    "My linked notes/CPU.md",
-    "My linked notes/Acronyms/OIR.md",
-    "My linked notes/SaaS.md",
-    "My linked notes/operational.md",
-    "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
-    "My linked notes/implementation.md"
+    "My linked notes/CPU.md"
   ]
 }
