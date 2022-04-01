@@ -94,18 +94,18 @@ As with on-premises systems, cloud storage resources must be configured to allow
 
 ### Encryption
 #zFleck 
-Cloud storage encryption equates to the on-premises concept of full disk encryption (FDE). The purpose is to minimize the risk of data loss via an insider or intruder attack on the CSP's storage systems. Each storage unit is encrypted using an AES key. If an attacker were to physically access a data center and copy or remove a disk, the data on the disk would not be readable.
+Cloud storage encryption equates to the on-premises concept of full disk encryption ([[FDE]]). The purpose is to minimize the risk of data loss via an insider or intruder attack on the CSP's storage systems. Each storage unit is encrypted using an [[AES]] key. If an attacker were to physically access a data center and copy or remove a disk, the data on the disk would not be readable.
 
-To read or write the data, the AES key must be available to the VM or container using the storage object. With CSP-managed keys, the cloud provider handles this process by using the access control rights configured on the storage resource to determine whether access is approved and, if so, making the key available to the VM or container. The key will be stored in a hardware security module (HSM) within the cloud. The HSM and separation of duties policies protect the keys from insider threat. Alternatively, customers can manage keys themselves, taking on all responsibility for secure distribution and storage.
+To read or write the data, the AES key must be available to the VM or container using the storage object. With [[CSP]]-managed keys, the cloud provider handles this process by using the access control rights configured on the storage resource to determine whether access is approved and, if so, making the key available to the VM or container. The key will be stored in a hardware security module ([[HSM]]) within the cloud. The HSM and separation of duties policies protect the keys from insider threat. Alternatively, customers can manage keys themselves, taking on all responsibility for secure distribution and storage.
 
-Encryption can also be applied at other levels. For example, applications can selectively encrypt file system objects or use database-level encryption to encrypt fields and/or records. All networking—whether customer to cloud or between VMs/containers within the cloud—should use encrypted protocols such as HTTPS or IPSec.
+Encryption can also be applied at other levels. For example, applications can selectively encrypt file system objects or use database-level encryption to encrypt fields and/or records. All networking—whether customer to cloud or between VMs/containers within the cloud—should use encrypted protocols such as [[HTTPS]] or [[IPSec]].
 # HIGH AVAILABILITY
 
-One of the benefits of the cloud is the potential for providing services that are resilient to failures at different levels, such as component, server, local network, site, data center, and wide area network. The CSP uses a virtualization layer to ensure that compute, storage, and network provision meet the availability criteria set out in its SLA. In terms of storage performance tiers, high availability (HA) refers to storage provisioned with a guarantee of 99.99% uptime or better. As with on-premises architecture, the CSP uses redundancy to make multiple disk controllers and storage devices available to a pool of storage resource. Data may be replicated between pools or groups, with each pool supported by separate hardware resources.
+One of the benefits of the cloud is the potential for providing services that are resilient to failures at **different levels, such as component, server, local network, site, data center, and wide area network.** The CSP uses a virtualization layer to ensure that compute, storage, and network provision meet the availability criteria set out in its SLA. In terms of storage performance tiers, high availability (HA) refers to storage provisioned with a guarantee of 99.99% uptime or better. As with on-premises architecture, the CSP uses redundancy to make multiple disk controllers and storage devices available to a pool of storage resource. Data may be replicated between pools or groups, with each pool supported by separate hardware resources.
 
 ### Replication
 
-Data replication allows businesses to copy data to where it can be utilized most effectively. The cloud may be used as a central storage area, making data available among all business units. Data replication requires low-latency network connections, security, and data integrity. CSPs offer several data storage performance tiers ([cloud.google.com/storage/docs/storage-classes](https://cloud.google.com/storage/docs/storage-classes)). The terms hot and cold storage refer to how quickly data is retrieved. Hot storage retrieves data more quickly than cold, but the quicker the data retrieval, the higher the cost. Different applications have diverse replication requirements. A database generally needs low-latency, synchronous replication, as a transaction often cannot be considered complete until it has been made on all replicas. A mechanism to replicate data files to backup storage might not have such high requirements, depending on the criticality of the data.
+Data replication allows businesses to copy data to where it can be utilized most effectively. The cloud may be used as a central storage area, making data available among all business units. **Data replication requires low-latency network connections, security, and data integrity.** CSPs offer several data storage performance tiers ([cloud.google.com/storage/docs/storage-classes](https://cloud.google.com/storage/docs/storage-classes)). The terms hot and cold storage refer to how quickly data is retrieved. **Hot storage retrieves data more quickly than cold, but the quicker the data retrieval,** the higher the cost. Different applications have diverse replication requirements. A database generally needs low-latency, synchronous replication, as a transaction often cannot be considered complete until it has been made on all replicas. A mechanism to replicate data files to backup storage might not have such high requirements, depending on the criticality of the data.
 
 ### High Availability across Zones
 
@@ -113,12 +113,12 @@ CSPs divide the world into regions. Each region is independent of the others. Th
 
 Consequently, CSPs offer several tiers of replication representing different high availability service levels:
 
--   Local replication—replicates your data within a single data center in the region where you created your storage account. The replicas are often in separate fault domains and upgrade domains.
--   Regional replication (also called zone-redundant storage)—replicates your data across multiple data centers within one or two regions. This safeguards data and access in the event a single data center is destroyed or goes offline.
--   Geo-redundant storage (GRS)—replicates your data to a secondary region that is distant from the primary region. This safeguards data in the event of a regional outage or a disaster.
+-   **Local replication**—replicates your data within a single data center in the region where you created your storage account. The replicas are often in separate fault domains and upgrade domains.
+-   **Regional replication** (also called zone-redundant storage)—replicates your data across multiple data centers within one or two regions. This safeguards data and access in the event a single data center is destroyed or goes offline.
+-   **Geo-redundant storage** (GRS)—replicates your data to a secondary region that is distant from the primary region. This safeguards data in the event of a regional outage or a disaster.
 # CLOUD NETWORKING SECURITY
 
-Within the cloud, the CSP establishes a virtualization layer that abstracts the underlying physical network. This allows the CSP to operate a public cloud where the networking performed by each customer account is isolated from the others. In terms of customer-configured cloud networking, there are various contexts:
+Within the cloud, the CSP establishes a **virtualization layer that abstracts the underlying physical network.** This allows the CSP to operate a public cloud where the networking performed by each customer account is isolated from the others. In terms of customer-configured cloud networking, there are various contexts:
 
 -   Networks by which the cloud consumer operates and manages the cloud systems.
 -   Virtual networks established between VMs and containers within the cloud.
@@ -126,9 +126,9 @@ Within the cloud, the CSP establishes a virtualization layer that abstracts the 
 
 ### Virtual Private Clouds (VPCs)
 
-Each customer can create one or more virtual private clouds (VPCs) attached to their account. By default, a VPC is isolated from other CSP accounts and from other VPCs operating in the same account. This means that customer A cannot view traffic passing over customer B's VPC. The workload for each VPC is isolated from other VPCs. Within the VPC, the cloud consumer can assign an IPv4 CIDR block and configure one or more subnets within that block. Optionally, an IPv6 CIDR block can be assigned also. 
+Each customer can create one or more virtual private clouds (VPCs) attached to their account. **By default, a VPC is isolated from other CSP accounts and from other VPCs operating in the same account.** This means that customer A cannot view traffic passing over customer B's VPC. The workload for each VPC is isolated from other VPCs. Within the VPC, the cloud consumer can assign an IPv4 [[CIDR]] block and configure one or more subnets within that block. Optionally, an IPv6 CIDR block can be assigned also. 
 
-The following notes focus on features of networking in AWS. Other vendors support similar functionality, though sometimes with different terminology. For example, in Microsoft Azure, VPCs are referred to as virtual networks.
+The following notes focus on features of networking in AWS. Other vendors support similar functionality, though sometimes with different terminology. For example, in **Microsoft Azure, VPCs are referred to as virtual networks.**
 
 ### Public and Private Subnets
 
