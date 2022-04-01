@@ -132,37 +132,37 @@ The following notes focus on features of networking in AWS. Other vendors suppor
 
 ### Public and Private Subnets
 
-Each subnet within a VPC can either be private or public. To configure a public subnet, first an Internet gateway (virtual router) must be attached to the VPC configuration. Secondly, the Internet gateway must be configured as the default route for each public subnet. If a default route is not configured, the subnet remains private, even if an Internet gateway is attached to the VPC. Each instance in the subnet must also be configured with a public IP in its cloud profile. The Internet gateway performs 1:1 network address translation (NAT) to route Internet communications to and from the instance. 
+Each [[subnet]] within a [[VPC]] can either be private or public. To configure a public subnet, first an [[Internet gateway]] (virtual router) must be attached to the VPC configuration. Secondly, the Internet gateway must be configured as the default route for each public subnet. If a default route is not configured, the subnet remains private, even if an Internet gateway is attached to the VPC. Each instance in the subnet must also be configured with a public IP in its cloud profile. The Internet gateway performs 1:1 network address translation (NAT) to route Internet communications to and from the instance. 
 
-The instance network adapter is not configured with this public IP address. The instance's NIC is configured with an IP address for the subnet. The public address is used by the virtualization management layer only. Public IP addresses can be assigned from your own pool or from a CSP-managed service, such as Amazon's Elastic IP ([docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html)).
+The instance network adapter is not configured with this public IP address. The instance's [[NIC]] is configured with an IP address for the subnet. The public address is used by the virtualization management layer only. Public IP addresses can be assigned from your own pool or from a CSP-managed service, such as Amazon's Elastic IP ([docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html)).
 
-There are other ways to provision external connectivity for a subnet if it is not appropriate to make it public:
+There are other ways to **provision external connectivity** for a subnet if it is not appropriate to make it public:
 
--   NAT gateway—this feature allows an instance to connect out to the Internet or to other AWS services, but does not allow connections initiated from the Internet.
--   VPN—there are various options for establishing connections to and between VPCs using virtual private networks (VPNs) at the software layer or using CSP-managed features.
+-   **NAT gateway**—this feature allows an instance to connect out to the Internet or to other AWS services, but does not allow connections initiated from the Internet.
+-   **VPN**—there are various options for establishing connections to and between VPCs using virtual private networks (VPNs) at the software layer or using CSP-managed features.
 # VPCS AND TRANSIT GATEWAYS
 
-Routing can be configured between subnets within a VPC. This traffic can be subject to cloud native ACLs allowing or blocking traffic on the basis of host IPs and ports. Alternatively, traffic could be routed through a virtual firewall instance, or other security appliance.
+[[Routing]] can be configured between subnets within a [[VPC]]. This traffic can be subject to cloud native [[ACLs]] allowing or blocking traffic on the basis of host IPs and ports. Alternatively, traffic could be routed through a virtual firewall instance, or other security appliance.
 
 Connectivity can also be configured between VPCs in the same account or with VPCs belonging to different accounts, and between VPCs and on-premises networks. Configuring additional VPCs rather than subnets within a VPC allows for a greater degree of segmentation between instances. A complex network might split segments between different VPCs across different cloud accounts for performance or compliance reasons.
 
-Traditionally, VPCs can be interconnected using peering relationships and connected with on-premises networks using VPN gateways. These one-to-one VPC peering relationships can quickly become difficult to manage, especially if each VPC must interconnect in a mesh-like structure. A transit gateway is a simpler means of managing these interconnections. Essentially, a transit gateway is a virtual router that handles routing between the subnets in each attached VPC and any attached VPN gateways ([aws.amazon.com/transit-gateway](https://aws.amazon.com/transit-gateway/)).
+Traditionally, **VPCs can be interconnected using peering relationships** and connected with on-premises networks using VPN gateways. These one-to-one VPC peering relationships can quickly become difficult to manage, especially if each VPC must interconnect in a mesh-like structure. A transit gateway is a simpler means of managing these interconnections. Essentially, a transit gateway is a virtual router that handles routing between the subnets in each attached VPC and any attached VPN gateways ([aws.amazon.com/transit-gateway](https://aws.amazon.com/transit-gateway/)).
 
 Amazon's white paper sets out options for configuring multi-VPC infrastructure in more detail ([d1.awsstatic.com/whitepapers/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.pdf)).
 # VPC ENDPOINTS
 
-A VPC endpoint is a means of publishing a service so that it is accessible by instances in other VPCs using only the AWS internal network and private IP addresses ([d1.awsstatic.com/whitepapers/aws-privatelink.pdf](http://d1.awsstatic.com/whitepapers/aws-privatelink.pdf#)). This means that the traffic is never exposed to the Internet. There are two types of VPC endpoint: gateway and interface.
+A VPC [[endpoint]] is a means of publishing a service so that it is accessible by instances in other VPCs using only the AWS internal network and private IP addresses ([d1.awsstatic.com/whitepapers/aws-privatelink.pdf](http://d1.awsstatic.com/whitepapers/aws-privatelink.pdf#)). This means that the traffic is never exposed to the Internet. There are two types of VPC endpoint: gateway and interface.
 
-Gateway Endpoints
+**Gateway Endpoints**
 
-A gateway endpoint is used to connect instances in a VPC to the AWS S3 (storage) and DynamoDB (database) services. A gateway endpoint is configured as a route to the service in the VPC's route table.
+A gateway endpoint is used to connect instances in a VPC to the AWS S3 (**storage**) and DynamoDB (**database**) services. A gateway endpoint is configured as a route to the service in the VPC's route table.
 
-Interface Endpoints
+**Interface Endpoints**
 
 An interface endpoint makes use of AWS's PrivateLink feature to allow private access to custom services:
 
--   A custom service provider VPC is configured by publishing the service with a DNS host name. Alternatively, the service provider might be an Amazon default service that is enabled as a VPC interface endpoint, such as CloudWatch Events/Logs.
--   A VPC endpoint interface is configured in each service consumer VPC subnet. The VPC endpoint interface is configured with a private IP address within the subnet plus the DNS host name of the service provider.
+-   **A custom service provider VPC is configured by publishing the service with a DNS host name**. Alternatively, the service provider might be an Amazon default service that is enabled as a VPC interface endpoint, such as CloudWatch Events/Logs.
+-   **A VPC endpoint interface is configured in each service consumer VPC subnet.** The VPC endpoint interface is configured with a private IP address within the subnet plus the DNS host name of the service provider.
 -   Each instance within the VPC subnet is configured to use the endpoint address to contact the service provider.
 # CLOUD FIREWALL SECURITY
 
