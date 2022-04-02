@@ -3,7 +3,7 @@ tags: [OIR]
 ---
 Operations and Incident Response 16%  
 OIR is the colors **Black, white, red, blue**
-==Break into Operations and Incident Response, check Implementation as well==  #zFleck
+==Break into Operations and Incident Response, check Implementation as well==  #Task_1
 - Operations keywords
 	- **Analyze**
 	- **Configure**

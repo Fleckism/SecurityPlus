@@ -93,7 +93,7 @@ As with on-premises systems, cloud storage resources must be configured to allow
 } ]
 
 ### Encryption
-#zFleck 
+
 Cloud storage encryption equates to the on-premises concept of full disk encryption ([[FDE]]). The purpose is to minimize the risk of data loss via an insider or intruder attack on the CSP's storage systems. Each storage unit is encrypted using an [[AES]] key. If an attacker were to physically access a data center and copy or remove a disk, the data on the disk would not be readable.
 
 To read or write the data, the AES key must be available to the VM or container using the storage object. With [[CSP]]-managed keys, the cloud provider handles this process by using the access control rights configured on the storage resource to determine whether access is approved and, if so, making the key available to the VM or container. The key will be stored in a hardware security module ([[HSM]]) within the cloud. The HSM and separation of duties policies protect the keys from insider threat. Alternatively, customers can manage keys themselves, taking on all responsibility for secure distribution and storage.

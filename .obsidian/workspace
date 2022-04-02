@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3b50ea1d0e21f16e",
+        "id": "b2efd1557a399cfd",
         "type": "leaf",
         "pinned": true,
         "state": {
@@ -16,6 +16,19 @@
             "source": false
           },
           "pinned": true
+        }
+      },
+      {
+        "id": "65da9a05ee9478df",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/security control.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -51,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:OIR",
+                "query": "tag:#zFleck",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -64,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -111,17 +123,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "3b50ea1d0e21f16e",
+  "active": "b2efd1557a399cfd",
   "lastOpenFiles": [
     "SecurityPlus/16A Privacy and Data Sensitivity Concepts.md",
+    "My linked notes/security control.md",
+    "My linked notes/Acronyms/OIR.md",
+    "SecurityPlus/15B Cloud Security Solutions.md",
+    "SecurityPlus/13A Mobile Device Management.md",
     "SecurityPlus/15C Infrastructure as Code Concepts.md",
     "My linked notes/SDN.md",
     "My linked notes/SOA.md",
-    "SecurityPlus/15B Cloud Security Solutions.md",
     "My linked notes/VPCs.md",
-    "My linked notes/VPC.md",
-    "My linked notes/ACLs.md",
-    "My linked notes/Acronyms/ACL.md",
-    "My linked notes/CPU.md"
+    "My linked notes/VPC.md"
   ]
 }

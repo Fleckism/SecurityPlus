@@ -1,11 +1,11 @@
 ---
-tags: [firstTag, secondTag]
+tags: [GRC, A_D]
 ---
 # LESSON INTRODUCTION
 
 If people are an organization's most important asset, then data comes a close second. The rapid adoption of cybersecurity awareness and technologies has come about because of the huge reputational and financial costs of high-profile data and privacy breaches. It is usually data that the threat actors want, and data that the whole system is set up to protect.
 
-The confidentiality, integrity, and availability security attributes of data processing and storage are ensured through a mixture of managerial, operational, and technical controls. Along with security, you should also be able to assess privacy factors when collecting and storing data, and identify how processes must be shaped by legislative and regulatory compliance.
+The **confidentiality, integrity, and availability** security attributes of [[data processing]] and [[storage]] are ensured through a mixture of **managerial, operational, and technical controls**. Along with security, you should also be able to assess privacy factors when collecting and storing data, and identify how processes must be shaped by legislative and regulatory compliance.
 
 ## 
 
@@ -23,69 +23,71 @@ In this lesson, you will:
 
 5.5 Explain privacy and sensitive data concepts in relation to security
 
-A detailed understanding of privacy and data sensitivity concepts will help you to operate within an overall data governance team. Data security and privacy are areas where policy and procedure are as important as technical controls in ensuring compliance. These policies and procedures may also need to be expressed in agreements with external partners, suppliers, and customers. As a security professional, you will need to select and apply these policies, procedures, and agreements wisely.
+A detailed understanding of privacy and data sensitivity concepts will help you to operate within an overall data governance team. **Data security and privacy are areas where policy and procedure are as important as technical controls in ensuring compliance.** These policies and procedures may also need to be expressed in agreements with external partners, suppliers, and customers. As a security professional, you will need to select and apply these policies, procedures, and agreements wisely.
 # PRIVACY AND SENSITIVE DATA CONCEPTS
 
-The value of information assets can be thought of in terms of how a compromise of the data's security attributes of the confidentiality, integrity, and availability (CIA) triad would impact the organization. When surveying information within an organization, it is important not to solely judge how secretly it might need to be kept, but how the data is used within workflows. For example, the risk to confidentiality of public information is nonexistent. The risk to availability, however, could have significant impacts on workflows.
+The value of information assets can be thought of in terms of how a compromise of the data's security attributes of the confidentiality, integrity, and availability ([[CIA]]) triad would impact the organization. When surveying information within an organization, it is important not to solely judge how secretly it might need to be kept, but how the data is used within workflows. For example, the risk to confidentiality of public information is nonexistent. The risk to availability, however, could have significant impacts on workflows.
 
-Data must be kept securely within a processing and storage system that enforces CIA attributes. In practice, this will mean a file or database management system that provides read or read/write access to authorized and authenticated accounts or denies access otherwise (by being encrypted, for instance). As distinct from this security requirement, you also need to consider the impact of privacy in shaping data governance.
+**Data must be kept securely within a processing and storage system that enforces CIA attributes. In practice, this will mean a file or database management system that provides read or read/write access to authorized and authenticated accounts or denies access otherwise (by being encrypted, for instance).** As distinct from this security requirement, you also need to consider the impact of privacy in shaping data governance.
 
 ### Privacy versus Security
 
-While data security is important, privacy is an equally vital factor. Privacy is a data governance requirement that arises when collecting and processing personal data. Personal data is any information about an identifiable individual person, referred to as the data subject. Where data security controls focus on the CIA attributes of the processing system, privacy requires policies to identify private data, ensure that storage, processing, and retention is compliant with relevant regulations, limit access to the private data to authorized persons only, and ensure the rights of data subjects to review and remove any information held about them are met.
+While data security is important, privacy is an equally vital factor. Privacy is a data governance requirement that arises when collecting and processing personal data. **Personal data is any information about an identifiable individual person, referred to as the data subject.** Where **data security controls focus on the CIA attributes of the processing system**, 
++++++++++++++++++++++++++++++++
+**privacy requires policies to identify private data, ensure that storage, processing, and retention is compliant with relevant regulations, limit access to the private data to authorized persons only, and ensure the rights of data** subjects to review and remove any information held about them are met.
 
 ### Information Life Cycle Management
 
-An information life cycle model identifies discrete steps to assist security and privacy policy design. Most models identify the following general stages:
+An information life cycle model identifies [[discrete]] steps to assist security and privacy policy design. Most models identify the following general stages:
 
--   Creation/collection—data may be generated by an employee or automated system, or it may be submitted by a customer or supplier. At this stage, the data needs to be classified and tagged.
--   Distribution/use—data is made available on a need to know basis for authorized uses by authenticated account holders and third parties.
--   Retention—for regulatory reasons, data might have to be kept in an archive past the date when it is still used.
--   Disposal—when it no longer needs to be used or retained, media storing data assets must be sanitized to remove any remnants.
+-   **Creation/collection**—data may be generated by an employee or automated system, or it may be submitted by a customer or supplier. At this stage, the data needs to be classified and tagged.
+-   **Distribution/use**—data is made available on a need to know basis for authorized uses by authenticated account holders and third parties.
+-   **Retention**—for regulatory reasons, data might have to be kept in an archive past the date when it is still used.
+-   **Disposal**—when it no longer needs to be used or retained, media storing data assets must be sanitized to remove any remnants.
 
-Information management is a massive task in any organization. Most schemes focus on structured data (that is, information that is stored in a directory hierarchy and subject to administrative access controls). Managing and classifying unstructured data (emails, chat sessions, telephone calls, and so on) is an even more daunting task, though software solutions designed to tackle this problem are available.
+Information management is a massive task in any organization. Most schemes focus on [[structured data]] (that is, information that is stored in a directory hierarchy and subject to administrative access controls). Managing and classifying [[unstructured data]] (emails, chat sessions, telephone calls, and so on) is an even more daunting task, though software solutions designed to tackle this problem are available.
 # DATA ROLES AND RESPONSIBILITIES
 
-A data governance policy describes the security controls that will be applied to protect data at each stage of its life cycle. There are important institutional governance roles for oversight and management of information assets within the life cycle:
+A **data governance** policy describes the [[security control]] that will be applied to protect data at each stage of its life cycle. There are important institutional governance roles for oversight and management of information assets within the life cycle:
 
--   Data owner—a senior (executive) role with ultimate responsibility for maintaining the confidentiality, integrity, and availability of the information asset. The owner is responsible for labeling the asset (such as determining who should have access and determining the asset's criticality and sensitivity) and ensuring that it is protected with appropriate controls (access control, backup, retention, and so forth). The owner also typically selects a steward and custodian and directs their actions and sets the budget and resource allocation for sufficient controls.
--   Data steward—this role is primarily responsible for data quality. This involves tasks such as ensuring data is labeled and identified with appropriate metadata and that data is collected and stored in a format and with values that comply with applicable laws and regulations.
--   Data custodian—this role handles managing the system on which the data assets are stored. This includes responsibility for enforcing access control, encryption, and backup/recovery measures.
--   Data Privacy Officer (DPO)—this role is responsible for oversight of any personally identifiable information (PII) assets managed by the company. The privacy officer ensures that the processing, disclosure, and retention of PII complies with legal and regulatory frameworks.
+-   **Data owner**—a senior (executive) role with ultimate responsibility for maintaining the [[CIA]] confidentiality, integrity, and availability of the information asset. The owner is responsible for labeling the asset (such as determining who should have access and determining the asset's criticality and sensitivity) and ensuring that it is protected with appropriate controls (access control, backup, retention, and so forth). The owner also typically selects a steward and custodian and directs their actions and sets the budget and resource allocation for sufficient controls.
+-   **Data steward**—this role is primarily responsible for **data quality**. This involves tasks such as ensuring data is labeled and identified with appropriate metadata and that data is collected and stored in a format and with values that comply with applicable laws and regulations.
+-   **Data custodian**—this role handles managing the **system** on which the data assets are stored. This includes responsibility for enforcing access control, encryption, and backup/recovery measures.
+-   **Data Privacy Officer** (DPO)—this role is responsible for oversight of any personally identifiable information ([[PII]]) assets managed by the company. The privacy officer ensures that the processing, disclosure, and retention of PII complies with legal and regulatory frameworks.
 
 In the context of legislation and regulations protecting personal privacy, the following two institutional roles are important:
 
--   Data controller—the entity responsible for determining why and how data is stored, collected, and used and for ensuring that these purposes and means are lawful. The data controller has ultimate responsibility for privacy breaches, and is not permitted to transfer that responsibility.
--   Data processor—an entity engaged by the data controller to assist with technical collection, storage, or analysis tasks. A data processor follows the instructions of a data controller with regard to collection or processing.
+-   **Data controller**—the entity responsible for determining why and how data is stored, collected, and used and for ensuring that these purposes and means are lawful. The data controller has ultimate responsibility for privacy breaches, and is not permitted to transfer that responsibility.
+-   **Data processor**—an entity engaged by the data controller to assist with technical collection, storage, or analysis tasks. A data processor follows the instructions of a data controller with regard to collection or processing.
 
-Data controller and processor tend to be organizational roles rather than individual ones. For example, if Widget.foo collects personal data to operate a webstore on its own cloud, it is a data controller and data processor. If Widget.foo passes aggregate data to Grommet.foo asking them to run profitability analytics for different customer segments on its AI-backed cloud, Grommet.foo is a data processor acting under the instruction of Widget.foo. Within the Grommet.foo and Widget.foo companies, the data owner might take personal responsibility for the lawful performance of data controller and processor functions.
+Data controller and processor tend to be **organizational roles rather than individual ones**. For example, if Widget.foo collects personal data to operate a webstore on its own cloud, it is a data controller and data processor. If Widget.foo passes aggregate data to Grommet.foo asking them to run profitability analytics for different customer segments on its AI-backed cloud, Grommet.foo is a data processor acting under the instruction of Widget.foo. Within the Grommet.foo and Widget.foo companies, the data owner might take personal responsibility for the lawful performance of data controller and processor functions.
 # DATA CLASSIFICATIONS
 
 Data classification and typing schemas tag data assets so that they can be managed through the information life cycle. A data classification schema is a decision tree for applying one or more tags or labels to each data asset. Many data classification schemas are based on the degree of confidentiality required:
 
--   Public (unclassified)—there are no restrictions on viewing the data. Public information presents no risk to an organization if it is disclosed but does present a risk if it is modified or not available.
--   Confidential (secret)—the information is highly sensitive, for viewing only by approved persons within the owner organization, and possibly by trusted third parties under NDA.
--   Critical (top secret)—the information is too valuable to allow any risk of its capture. Viewing is severely restricted.
+-   **Public (unclassified)**—there are no restrictions on viewing the data. Public information presents no risk to an organization if it is disclosed but does present a risk if it is modified or not available.
+-   **Confidential (secret)**—the information is highly sensitive, for viewing only by approved persons within the owner organization, and possibly by trusted third parties under NDA.
+-   **Critical (top secret)**—the information is too valuable to allow any risk of its capture. Viewing is severely restricted.
 
 ![Screenshot of Label: Confidential settings in left pane and Condition settings in right pane." aria-label="The settings for Label: Confidential are: Color (Orange); Set permissions for documents and emails containing this label (Not configured); Set visual marking (such as header or footer): Documents with this label have a header (Off), Documents with this label have a footer (Off), Documents with this label have a watermark (On), Watermark text (This document contains personal information that must be kept confidential), Watermark font size (Auto).
 Settings for Condition include: Choose the type of condition (Information Types); Select information types (USA); Name [USA Social Security Number (SSN)]; Minimum number of occurrences (1); Count occurrences with unique values only (Off).](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7206-1599771810744.png)
 
 Using Microsoft Azure Information Protection to define an automatic document labeling and watermarking policy. (Screenshot used with permission from Microsoft.)
 
-Another type of classification schema identifies the kind of information asset:
+Another type of [[classification schema]] identifies the kind of information asset:
 
--   Proprietary—proprietary information or intellectual property (IP) is information created and owned by the company, typically about the products or services that they make or perform. IP is an obvious target for a company's competitors, and IP in some industries (such as defense or energy) is of interest to foreign governments. IP may also represent a counterfeiting opportunity (movies, music, and books, for instance).
--   Private/personal data—information that relates to an individual identity.
--   Sensitive—This label is typically used in the context of personal data in which privacy-sensitive information about a subject could harm them if made public and could prejudice decisions made about the subject. As defined by the EU's General Data Protection Regulations (GDPR), sensitive personal data includes religious beliefs, political opinions, trade union membership, gender, sexual orientation, racial or ethnic origin, genetic data, and health information ([ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en)).
+-   **Proprietary**—proprietary information or intellectual property ([[IP]]) is information created and owned by the company, typically about the products or services that they make or perform. IP is an obvious target for a company's competitors, and IP in some industries (such as defense or energy) is of interest to foreign governments. IP may also represent a counterfeiting opportunity (movies, music, and books, for instance).
+-   **Private/personal** data—information that relates to an individual identity.
+-   **Sensitive**—This label is typically used in the context of personal data in which privacy-sensitive information about a subject could harm them if made public and could prejudice decisions made about the subject. As defined by the EU's General Data Protection Regulations (GDPR), sensitive personal data includes religious beliefs, political opinions, trade union membership, gender, sexual orientation, racial or ethnic origin, genetic data, and health information ([ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en)).
 # DATA TYPES
 
 A type schema applies a more detailed label to data than simple classification.
 
 ### Personally Identifiable Information (PII)
 
-Personally identifiable information (PII) is data that can be used to identify, contact, or locate an individual. A Social Security Number (SSN) is a good example of PII. Others include name, date of birth, email address, telephone number, street address, biometric data, and so on. Some bits of information, such as a SSN, may be unique; others uniquely identify an individual in combination (for example, full name with birth date and street address).
+Personally identifiable information ([[PII]]) is data that can be used to identify, contact, or locate an individual. A Social Security Number (SSN) is a good example of PII. Others include name, date of birth, email address, telephone number, street address, biometric data, and so on. Some bits of information, such as a SSN, may be unique; others uniquely identify an individual in combination (for example, full name with birth date and street address).
 
-Some types of information may be PII depending on the context. For example, when someone browses the web using a static IP address, the IP address is PII. An address that is dynamically assigned by the ISP may not be considered PII. PII is often used for password reset mechanisms and to confirm identity over the telephone. For example, PII may be defined as responses to challenge questions, such as "What is your favorite color/pet/movie?" These are the sort of complexities that must be considered when laws are introduced to control the collection and storage of personal data.
+Some types of information may be PII depending on the context. For example, when someone browses the web using a static IP address, the IP address is PII. An address that is dynamically assigned by the ISP may not be considered PII. **PII is often used for password reset mechanisms and to confirm identity over the telephone.** For example, **PII may be defined as responses to challenge questions**, such as "What is your favorite color/pet/movie?" These are the sort of complexities that must be considered when laws are introduced to control the collection and storage of personal data.
 
 ### Customer Data
 
