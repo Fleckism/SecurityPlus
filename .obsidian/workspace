@@ -4,57 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "14bc0e6b5ae322bc",
+        "id": "b9da5b1b1a44f965",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/17A Incident Response Procedures.md",
+            "file": "SecurityPlus/17B Appropriate Data Sources for Incident Response.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "b9da5b1b1a44f965",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/IR.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "63e0e247b4c471a8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Acronyms/OIR.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "1d27d683828f3f1f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/GRC Governance, Risk, and Compliance.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
         }
       }
     ],
@@ -119,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/17A Incident Response Procedures.md",
+                "file": "SecurityPlus/17B Appropriate Data Sources for Incident Response.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,8 +110,9 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "14bc0e6b5ae322bc",
+  "active": "b9da5b1b1a44f965",
   "lastOpenFiles": [
+    "SecurityPlus/17B Appropriate Data Sources for Incident Response.md",
     "SecurityPlus/17A Incident Response Procedures.md",
     "My linked notes/IR.md",
     "My linked notes/Acronyms/OIR.md",
@@ -159,7 +121,6 @@
     "My linked notes/hash.md",
     "My linked notes/Integrity.md",
     "My linked notes/security control.md",
-    "My linked notes/data.md",
-    "My linked notes/Acronyms/ACL.md"
+    "My linked notes/data.md"
   ]
 }
