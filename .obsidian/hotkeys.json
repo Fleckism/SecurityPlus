@@ -88,6 +88,7 @@
   "editor:unfold-all": [
     {
       "modifiers": [
+        "Mod",
         "Shift"
       ],
       "key": "F"

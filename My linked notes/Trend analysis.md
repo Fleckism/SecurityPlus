@@ -1,0 +1,1 @@
+[[Trend analysis]] is the process of detecting patterns or indicators within a data set over a time series and using those patterns to make predictions about future events.
