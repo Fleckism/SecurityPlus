@@ -47,11 +47,6 @@
     },
     {
       "type": "file",
-      "title": "implementation",
-      "path": "My linked notes/implementation.md"
-    },
-    {
-      "type": "file",
       "title": "OIR",
       "path": "My linked notes/OIR.md"
     },
@@ -64,6 +59,11 @@
       "type": "file",
       "title": "security control",
       "path": "My linked notes/security control.md"
+    },
+    {
+      "type": "file",
+      "title": "implementation",
+      "path": "My linked notes/implementation.md"
     }
   ]
 }
