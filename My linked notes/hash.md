@@ -18,3 +18,10 @@ There are two popular implementations [[hash]] algorithms:
 -   Message Digest Algorithm #5 ([[MD5]])—produces a 128-bit digest. MD5 is not considered to be quite as safe for use as SHA-256, but it might be required for compatibility between security products.
 
 Passwords stored as hashes are vulnerable to brute force and dictionary attacks. A password hash cannot be decrypted; [[hash]] functions are one-way
+
+**Hashing is used for two main purposes within a database:**
+
+-   As an indexing method to speed up searches and provide deidentified references to records.
+-   As a storage method for data such as passwords where the original plaintext does not need to be retained.
+
+A salt is an additional value stored with the hashed data field. The purpose of salt is to frustrate attempts to crack the hashes. It means that the attacker cannot use pre-computed tables of hashes using dictionaries of plaintexts. These tables have to be recompiled to include the salt value.

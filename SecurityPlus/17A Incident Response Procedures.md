@@ -1,8 +1,8 @@
 ---
-tags: [OIR, ]
+tags: [IR, ]
 ---
 # LESSON INTRODUCTION
-
+[[IR]]    
 From a day-to-day perspective, incident response means investigating the alerts produced by monitoring systems and issues reported by users. This activity is guided by policies and procedures and assisted by various technical controls.
 
 Incident response is a critical security function and very large part of your work as a security professional will be taken up with it. You must be able to summarize the phases of incident handling, utilize appropriate data sources to assist an investigation, and apply mitigation techniques to secure the environment after an event.
@@ -21,16 +21,16 @@ In this lesson, you will:
 Effective incident response is governed by formal policies and procedures, setting out roles and responsibilities for an incident response team. You must understand the importance of following these procedures and performing your assigned role within the team to the best of your ability.
 # INCIDENT RESPONSE PROCESS 
 
-Incident response policy sets the resources, processes, and guidelines for dealing with security incidents. Incident management is vital to mitigating risk. As well as controlling the immediate or specific threat to security, effective incident management preserves an organization's reputation.
+Incident response policy sets the resources, processes, and guidelines for dealing with security incidents. **Incident management is vital to mitigating risk**. As well as controlling the immediate or specific threat to security, effective incident management preserves an organization's reputation.
 
-Incident response follows a well-structured process, such as that set out in the NIST Computer Security Incident Handling Guide special publication ([nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/NIST.SP.800-61r2.pdf)). The following are the principal stages in an incident response life cycle:
+**Incident response follows a well-structured process, such as that set out in the NIST Computer Security Incident Handling Guide special publication** ([nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/NIST.SP.800-61r2.pdf)). The following are the principal stages in an [[incident response life cycle]]:
 
-1.  Preparation—make the system resilient to attack in the first place. This includes hardening systems, writing policies and procedures, and setting up confidential lines of communication. It also implies creating incident response resources and procedures.
-2.  Identification—from the information in an alert or report, determine whether an incident has taken place, assess how severe it might be (triage), and notify stakeholders.
-3.  Containment—limit the scope and magnitude of the incident. The principal aim of incident response is to secure data while limiting the immediate impact on customers and business partners.
-4.  Eradication—once the incident is contained, remove the cause and restore the affected system to a secure state by wiping a system and applying secure configuration settings.
-5.  Recovery—with the cause of the incident eradicated, the system can be reintegrated into the business process that it supports. Applying patches and updates to a system to help prevent future incidents is important as well. This recovery phase may involve restoration of data from backup and security testing. Systems must be monitored more closely for a period to detect and prevent any reoccurrence of the attack. The response process may have to iterate through multiple phases of identification, containment, eradication, and recovery to effect a complete resolution.
-6.  Lessons learned—analyze the incident and responses to identify whether procedures or systems could be improved. It is imperative to document the incident. The outputs from this phase feed back into a new preparation phase in the cycle.
+1.  **Preparation**—make the system resilient to attack in the first place. This includes hardening systems, writing policies and procedures, and setting up confidential lines of communication. It also implies creating incident response resources and procedures.
+2.  **Identification**—from the information in an alert or report, determine whether an incident has taken place, assess how severe it might be (triage), and notify stakeholders.
+3.  **Containment**—limit the scope and magnitude of the incident. The principal aim of incident response is to secure data while limiting the immediate impact on customers and business partners.
+4.  **Eradication**—once the incident is contained, remove the cause and restore the affected system to a secure state by wiping a system and applying secure configuration settings.
+5.  **Recovery**—with the cause of the incident eradicated, the system can be reintegrated into the business process that it supports. Applying patches and updates to a system to help prevent future incidents is important as well. This recovery phase may involve restoration of data from backup and security testing. Systems must be monitored more closely for a period to detect and prevent any reoccurrence of the attack. The response process may have to iterate through multiple phases of identification, containment, eradication, and recovery to effect a complete resolution.
+6.  **Lessons learned**—analyze the incident and responses to identify whether procedures or systems could be improved. It is imperative to document the incident. The outputs from this phase feed back into a new preparation phase in the cycle.
 
 Incident response is likely to require coordinated action and authorization from several different departments or managers, which adds further levels of complexity.
 
@@ -39,15 +39,15 @@ Phases in incident response.
 
 Preparing for incident response means establishing the policies and procedures for dealing with security breaches and the personnel and resources to implement those policies.
 
-One of the first challenges lies in defining and categorizing types of incidents. An incident is generally described as an event where security is breached or there is an attempted breach. NIST describes an incident as "the act of violating an explicit or implied security policy." In order to identify and manage incidents, you should develop some method of reporting, categorizing, and prioritizing them (triage), in the same way that troubleshooting support incidents can be logged and managed.
+One of the first challenges lies in **defining and categorizing types of incidents**. An incident is generally described as an event where security is breached or there is an attempted breach. NIST describes an **incident as "the act of violating an explicit or implied security policy."** In order to identify and manage incidents, you should develop some method of reporting, categorizing, and prioritizing them (**triage**), in the same way that troubleshooting support incidents can be logged and managed.
 
-As well as investment in appropriate detection and analysis software, incident response requires expert staffing. Large organizations will provide a dedicated team as a single point-of-contact for the notification of security incidents. This team is variously described as a cyber incident response team (CIRT), computer security incident response team (CSIRT), or computer emergency response team (CERT). Incident response might also involve or be wholly located within a security operations center (SOC). However it is set up, the team needs a mixture of senior management decision-makers (up to director level) who can authorize actions following the most serious incidents, managers, and technicians who can deal with minor incidents on their own initiative.
+As well as investment in **appropriate detection and analysis software**, incident response requires expert staffing. Large organizations will provide a dedicated team as a **single point-of-contact for the notification of security incidents**. This team is variously described as a **cyber incident response team** ([[CIRT]]), **computer security incident response team** ([[CSIRT]]), or **computer emergency response team** ([[CERT]]). Incident response might also involve or be wholly located within a **security operations center** ([[SOC]]). However it is set up, the team needs a **mixture of senior management decision-makers** (up to director level) who can **authorize actions following the most serious incidents, managers, and technicians who can deal with minor incidents on their own initiative.**
 
-Another important consideration is availability. Incident response will typically require 24/7 availability, which will be expensive to provide. It is also worth considering that members of the CIRT should be rotated periodically to preclude the possibility of infiltration. For major incidents, expertise and advice from other business divisions will also need to be called upon:
+Another important consideration is availability. Incident response will typically require 24/7 availability, which will be expensive to provide. It is also worth considering that members of the [[CIRT]] should be rotated periodically to preclude the possibility of **infiltration**. For major incidents, expertise and advice from other business divisions will also need to be called upon:
 
--   Legal—it is important to have access to legal expertise, so that the team can evaluate incident response from the perspective of compliance with laws and industry regulations. It may also be necessary to liaise closely with law enforcement professionals, and this can be daunting without expert legal advice.
--   Human Resources (HR)—incident prevention and remediation actions may affect employee contracts, employment law, and so on. Incident response requires the right to intercept and monitor employee communications.
--   Marketing—the team is likely to require marketing or public relations input, so that any negative publicity from a serious incident can be managed.
+-   **Legal**—it is important to have access to legal expertise, so that the team can evaluate incident response from the perspective of compliance with laws and industry regulations. It may also be necessary to liaise closely with law enforcement professionals, and this can be daunting without expert legal advice.
+-   **Human Resources** (HR)—incident prevention and remediation actions may affect employee contracts, employment law, and so on. Incident response requires the right to intercept and monitor employee communications.
+-   **Marketing**—the team is likely to require marketing or public relations input, so that any negative publicity from a serious incident can be managed.
 
 Some organizations may prefer to outsource some of the CIRT functions to third-party agencies by retaining an incident response provider. External agents are able to deal more effectively with insider threats.
 # COMMUNICATION PLAN AND STAKEHOLDER MANAGEMENT

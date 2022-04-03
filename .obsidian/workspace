@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "dd2e5ffc8b78737c",
+        "id": "14bc0e6b5ae322bc",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/16B Privacy and Data Protection Controls.md",
+            "file": "SecurityPlus/17A Incident Response Procedures.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,38 @@
         }
       },
       {
+        "id": "b9da5b1b1a44f965",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/IR.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "63e0e247b4c471a8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/OIR.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
         "id": "1d27d683828f3f1f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/implementation.md",
+            "file": "My linked notes/GRC Governance, Risk, and Compliance.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:imp",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,12 +99,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 246.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -94,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/16B Privacy and Data Protection Controls.md",
+                "file": "SecurityPlus/17A Incident Response Procedures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +149,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "dd2e5ffc8b78737c",
+  "active": "14bc0e6b5ae322bc",
   "lastOpenFiles": [
-    "SecurityPlus/16B Privacy and Data Protection Controls.md",
-    "My linked notes/implementation.md",
+    "SecurityPlus/17A Incident Response Procedures.md",
+    "My linked notes/IR.md",
     "My linked notes/Acronyms/OIR.md",
-    "SecurityPlus/16A Privacy and Data Sensitivity Concepts.md",
-    "My linked notes/Data breach.md",
-    "My linked notes/GDPR.md",
-    "My linked notes/PHI.md",
-    "My linked notes/PII.md",
+    "My linked notes/operational.md",
+    "SecurityPlus/16B Privacy and Data Protection Controls.md",
+    "My linked notes/hash.md",
+    "My linked notes/Integrity.md",
     "My linked notes/security control.md",
-    "SecurityPlus/15B Cloud Security Solutions.md"
+    "My linked notes/data.md",
+    "My linked notes/Acronyms/ACL.md"
   ]
 }
