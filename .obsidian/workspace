@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/MIME.md",
+            "file": "My linked notes/Acronyms/OIR.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"CDRs\"",
+                "query": "file:OIR",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +73,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -126,6 +127,7 @@
   "active": "c9ee75c507a42398",
   "lastOpenFiles": [
     "SecurityPlus/17C Mitigation Controls.md",
+    "My linked notes/Acronyms/OIR.md",
     "My linked notes/MIME.md",
     "SecurityPlus/17B Appropriate Data Sources for Incident Response.md",
     "My linked notes/MTA.md",
@@ -133,7 +135,6 @@
     "My linked notes/PRI.md",
     "SecurityPlus/4A  Compare and Contrast Social Engineering Techniques.md",
     "My linked notes/Trend analysis.md",
-    "My linked notes/Acronyms/SIEM.md",
-    "My linked notes/threat.md"
+    "My linked notes/Acronyms/SIEM.md"
   ]
 }

@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [IR, secondTag]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -7,16 +7,16 @@ tags: [firstTag, secondTag]
 
 4.4 Given an incident, apply mitigation techniques or controls to secure an environment 
 
-Mitigation techniques are applied first to contain, and then to eradicate and recover from the effects of malicious activity. Incident response is a highly pressured activity, with the conflicting challenges of eliminating the intrusion without disrupting business workflows. You must be able to select and apply the appropriate technique for a given scenario.
+[[Mitigation techniques]] are applied first to **contain**, and then to **eradicate** and recover from the effects of malicious activity. Incident response is a highly pressured activity, with the conflicting challenges of eliminating the intrusion without disrupting business workflows. You must be able to select and apply the appropriate technique for a given scenario.
 # INCIDENT CONTAINMENT 
 
-As incidents cover such a wide range of different scenarios, technologies, motivations, and degrees of seriousness, there is no standard approach to containment or incident isolation. Some of the many complex issues facing the CIRT are:
+As incidents cover such a wide range of different scenarios, technologies, motivations, and degrees of seriousness, there is no standard approach to containment or incident isolation. Some of the many complex issues facing the [[CIRT]] are:
 
 -   What damage or theft has occurred already? How much more could be inflicted and in what sort of time frame (loss control)?
 -   What countermeasures are available? What are their costs and implications?
 -   What actions could alert the attacker to the fact that the attack has been detected? What evidence of the attack must be gathered and preserved?
 
-When an incident has been identified, classified, and prioritized, the next phase of incident response is containment. Containment techniques can be classed as either isolation-based or segmentation-based.
+**When an incident has been identified, classified, and prioritized, the next phase of incident response is containment. Containment techniques can be classed as either isolation-based or segmentation-based.**
 
 ### Isolation-Based Containment 
 
