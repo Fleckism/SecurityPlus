@@ -12,9 +12,9 @@ There are many processes and tools for acquiring different kinds of digital evid
 
 Acquisition is the process of obtaining a forensically clean copy of data from a device held as evidence. If the computer system or device is not owned by the organization, there is the question of whether search or seizure is legally valid. This impacts bring-your-own-device (BYOD) policies. For example, if an employee is accused of fraud you must verify that the employee's equipment and data can be legally seized and searched. Any mistake may make evidence gained from the search inadmissible.
 
-Data acquisition is also complicated by the fact that it is more difficult to capture evidence from a digital crime scene than it is from a physical one. Some evidence will be lost if the computer system is powered off; on the other hand, some evidence may be unobtainable until the system is powered off. Additionally, evidence may be lost depending on whether the system is shut down or "frozen" by suddenly disconnecting the power.
+Data acquisition is also complicated by the fact that it is **more difficult to capture evidence from a digital crime scene** than it is from a physical one. **Some evidence will be lost if the computer system is powered off; on the other hand, some evidence may be unobtainable until the system is powered off. Additionally, evidence may be lost depending on whether the system is shut down or "frozen" by suddenly disconnecting the power.**
 
-Data acquisition usually proceeds by using a tool to make an image from the data held on the target device. An image can be acquired from either volatile or nonvolatile storage. The general principle is to capture evidence in the order of volatility, from more volatile to less volatile. The ISOC best practice guide to evidence collection and archiving, published as [tools.ietf.org/html/rfc3227](https://tools.ietf.org/html/rfc3227), sets out the general order as follows:
+Data acquisition usually proceeds by using a tool to make an image from the data held on the target device. An [[image]] can be acquired from either **volatile or nonvolatile storage**. The general principle is to capture evidence in the order of volatility, from more volatile to less volatile. The [[ISOC]] best practice guide to evidence collection and archiving, published as [tools.ietf.org/html/rfc3227](https://tools.ietf.org/html/rfc3227), sets out the general order as follows:
 
 1.  CPU registers and cache memory (including cache on disk controllers, GPUs, and so on).
 2.  Contents of nonpersistent system memory (RAM), including routing table, ARP cache, process table, kernel statistics.
@@ -32,7 +32,7 @@ Data acquisition usually proceeds by using a tool to make an image from the data
 The Windows registry is mostly stored on disk, but there are keys—notably HKLM\Hardware—that only ever exist in memory. The contents of the registry can be analyzed via a memory dump.
 # DIGITAL FORENSICS SOFTWARE
 
-Digital forensics software is designed to assist with the acquisition, documentation, and analysis of digital evidence. Most of the commercial forensics tools are available for the Windows platform only.
+Digital forensics software is designed to assist with the acquisition, documentation, and analysis of digital evidence. Most of the commercial forensics [[tools]] are available for the **Windows platform only**.
 
 -   EnCase Forensic is a digital forensics case management product created by Guidance Software ([guidancesoftware.com/encase-forensic?cmpid=nav_r](https://www.guidancesoftware.com/encase-forensic?cmpid=nav_r)). Case management is assisted by built-in pathways, or workflow templates, showing the key steps in diverse types of investigation. In addition to the core forensics suite, there are separate products for e-discovery (digital evidence management) and Endpoint Investigator (for over-the-network analysis of corporate desktops and servers).
 -   The Forensic Toolkit (FTK) from AccessData ([accessdata.com/products-services/forensic-toolkit-ftk](https://accessdata.com/products-services/forensic-toolkit-ftk)) is another commercial investigation suite designed to run on Windows Server (or server cluster).
@@ -41,7 +41,7 @@ Digital forensics software is designed to assist with the acquisition, documenta
 -   The Volatility Framework ([github.com/volatilityfoundation/volatility](https://github.com/volatilityfoundation/volatility)) is widely used for system memory analysis.
 # SYSTEM MEMORY ACQUISITION
 
-System memory is volatile data held in Random Access Memory (RAM) modules. Volatile means that the data is lost when power is removed. A system memory dump creates an image file that can be analyzed to identify the processes that are running, the contents of temporary file systems, registry data, network connections, cryptographic keys, and more. It can also be a means of accessing data that is encrypted when stored on a mass storage device. There are various methods of collecting the contents of system memory.
+[[System memory]] is volatile data held in Random Access Memory ([[RAM]]) modules. [[Volatile]] means that the data is lost when power is removed. A system memory dump creates an image file that can be analyzed to identify the processes that are running, the contents of temporary file systems, registry data, network connections, cryptographic keys, and more. It can also be a means of accessing data that is encrypted when stored on a mass storage device. There are various methods of collecting the contents of system memory.
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/217-1599771811747.png)
 
@@ -49,17 +49,17 @@ Viewing the process list in a memory dump using the Volatility Framework. (Scree
 
 ### Live Acquisition
 
-A specialist hardware or software tool can capture the contents of memory while the host is running. Unfortunately, this type of tool needs to be preinstalled as it requires a kernel mode driver to dump any data of interest. Some examples for Windows include WinHex ([x-ways.net/winhex](https://www.x-ways.net/winhex/)), Memoryze from FireEye ([fireeye.com/services/freeware/memoryze.html](https://www.fireeye.com/services/freeware/memoryze.html)), and F-Response TACTICAL ([f-response.com/software/tac](https://www.f-response.com/software/tac)).
+A specialist hardware or software tool can **capture the contents of memory while the host is running**. Unfortunately, this type of tool needs to be preinstalled as it requires a kernel mode driver to dump any data of interest. Some examples for Windows include WinHex ([x-ways.net/winhex](https://www.x-ways.net/winhex/)), Memoryze from FireEye ([fireeye.com/services/freeware/memoryze.html](https://www.fireeye.com/services/freeware/memoryze.html)), and F-Response TACTICAL ([f-response.com/software/tac](https://www.f-response.com/software/tac)).
 
 On Linux, a user mode tool, such as memdump ([porcupine.org/forensics/tct.html](http://www.porcupine.org/forensics/tct.html)) or dd, can be run against the /dev/mem device file. However, on most modern distributions, access to this file is blocked. The Volatility Framework ([github.com/volatilityfoundation/volatility](https://github.com/volatilityfoundation/volatility)) includes a tool to install a kernel driver (pmem). The fmem and LiME kernel utilities provide similar functionality.
 
 ### Crash Dump
 
-When Windows encounters an unrecoverable kernel error, it can write contents of memory to a dump file at C:\Windows\MEMORY.DMP. On modern systems, there is unlikely to be a complete dump of all the contents of memory, as these could take up a lot of disk space. However, even mini dump files, stored in C:\Windows\Minidumps, may be a valuable source of information.
+When Windows encounters an **unrecoverable kernel error**, it can write contents of memory to a dump file at C:\Windows\MEMORY.DMP. On modern systems, there is unlikely to be a complete dump of all the contents of memory, as these could take up a lot of disk space. However, even mini dump files, stored in C:\Windows\Minidumps, may be a valuable source of information.
 
 ### Hibernation File and Pagefile
 
-A hibernation file is created on disk in the root folder of the boot volume when a Windows host is put into a sleep state. If it can be recovered, the data can be decompressed and loaded into a software tool for analysis. The drawback is that network connections will have been closed, and malware may have detected the use of a sleep state and performed anti-forensics.
+A **hibernation file** is created on disk in the root folder of the boot volume when a **Windows host is put into a sleep state**. If it can be recovered, the data can be decompressed and loaded into a software tool for analysis. The drawback is that network connections will have been closed, and **malware may have detected the use of a sleep state and performed anti-forensics**.
 
 The pagefile/swap file/swap partition stores pages of memory in use that exceed the capacity of the host's RAM modules. The pagefile is not structured in a way that analysis tools can interpret, but it is possible to search for strings.
 # DISK IMAGE ACQUISITION
