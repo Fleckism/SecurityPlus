@@ -64,6 +64,11 @@
       "type": "file",
       "title": "implementation",
       "path": "My linked notes/implementation.md"
+    },
+    {
+      "type": "file",
+      "title": "19A Risk Management Process and Concepts",
+      "path": "SecurityPlus/19A Risk Management Process and Concepts.md"
     }
   ]
 }

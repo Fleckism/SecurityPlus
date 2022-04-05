@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [Implement, secondTag]
 ---
 # Lesson 20
 
@@ -9,7 +9,7 @@ Implementing Cybersecurity Resilience
 
 LESSON INTRODUCTION
 
-Cybersecurity resilience means that even successful intrusions by threat actors have limited impact on confidentiality, integrity, and availability. Provisioning redundancy in storage, power, and network systems, plus effective backup procedures, site resiliency, and effective procedures for change control and configuration management are crucial in maintaining high availability. 
+Cybersecurity resilience means that even successful intrusions by threat actors have limited impact on [[confidentiality]], [[integrity]], and [[availability]]. **Provisioning redundancy in storage, power, and network systems, plus effective backup procedures**, site resiliency, and effective procedures for change control and configuration management are crucial in maintaining high availability. 
 
 ## 
 
@@ -27,7 +27,7 @@ In this lesson, you will:
 The output of risk assessments and business impact analysis will identify vulnerable business processes. To reduce risks in these processes, you can make the IT systems and other business systems that support them resilient to failure. You must be able to install and configure the systems that provide redundancy for power supply, networking, and storage systems.
 # HIGH AVAILABILITY
 
-One of the key properties of a resilient system is high availability. Availability is the percentage of time that the system is online, measured over the defined period, typically one year. The corollary of availability is downtime, or the amount of time for which the system is unavailable. The maximum tolerable downtime (MTD) metric expresses the availability requirement for a particular business function. High availability is usually loosely described as 24x7 (24 hours per day, 7 days per week) or 24x365 (24 hours per day, 365 days per year). For a critical system, availability will be described as "two-nines" (99%) up to five- or six-nines (99.9999%):
+One of the key properties of a [[resilient]] system is high availability. Availability is the percentage of time that the system is online, measured over the defined period, typically one year. The corollary of availability is downtime, or the amount of time for which the system is unavailable. The maximum tolerable downtime (MTD) metric expresses the availability requirement for a particular business function. High availability is usually loosely described as 24x7 (24 hours per day, 7 days per week) or 24x365 (24 hours per day, 365 days per year). For a critical system, availability will be described as "two-nines" (99%) up to five- or six-nines (99.9999%):
 
 Availability
 
@@ -59,31 +59,31 @@ System availability can refer to an overall process, but also to availability at
 
 ### Scalability and Elasticity
 
-High availability also means that a system is able to cope with rapid growth in demand. Two properties of high availability that have to do with this are referred to as scalability and elasticity. Scalability is the capacity to increase resources to meet demand within similar cost ratios. This means that if service demand doubles, costs do not more than double. There are two types of scalability:
+High availability also means that a system is able to cope with rapid growth in demand. Two properties of high availability that have to do with this are referred to as scalability and elasticity. Scalability is the capacity to increase resources to meet demand within similar cost ratios. This means that if service demand doubles, costs do not more than double. There are two types of [[scalability]]:
 
--   To scale out is to add more resources in parallel with existing resources.
--   To scale up is to increase the power of existing resources.
+-   To scale **out** is to add more resources in parallel with existing resources.
+-   To scale **up** is to increase the power of existing resources.
 
-Elasticity refers to the system's ability to handle these changes on demand in real time. A system with high elasticity will not experience loss of service or performance if demand suddenly increases rapidly.
+**Elasticity** refers to the system's ability to handle these changes on demand **in real time**. A system with high elasticity will not experience loss of service or performance if demand suddenly increases rapidly.
 
 ### Fault Tolerance and Redundancy 
 
-A system that can experience failures and continue to provide the same (or nearly the same) level of service is said to be fault tolerant. Fault tolerance is often achieved by provisioning redundancy for critical components and single points of failure. A redundant component is one that is not essential to the normal function of a system but that allows the system to recover from the failure of another component.
+A system that can **experience failures** and continue to provide the same (or nearly the same) level of service is said to be fault tolerant. Fault tolerance is often achieved by provisioning redundancy for critical components and single points of failure. **A redundant component is one that is not essential** to the normal function of a system but that allows the system to recover from the failure of another component.
 # POWER REDUNDANCY
 
-All types of computer systems require a stable power supply to operate. Electrical events, such as voltage spikes or surges, can crash computers and network appliances, while loss of power from brownouts or blackouts will cause equipment to fail. Power management means deploying systems to ensure that equipment is protected against these events and that network operations can either continue uninterrupted or be recovered quickly. 
+All types of computer systems require a stable power supply to operate. **Electrical events, such as voltage spikes or surges**, can crash computers and network appliances, while loss of power from brownouts or blackouts will cause equipment to fail. Power management means deploying systems to ensure that equipment is protected against these events and that network operations can either continue uninterrupted or be recovered quickly. 
 
 ### Dual Power Supplies 
 
-An enterprise-class server or appliance enclosure is likely to feature two or more power supply units (PSUs) for redundancy. A hot plug PSU can be replaced (in the event of failure) without powering down the system. 
+An enterprise-class server or appliance enclosure is likely to feature two or more power supply units (PSUs) for redundancy. A hot plug [[PSU]] can be replaced (in the event of failure) without powering down the system. 
 
 ### Managed Power Distribution Units (PDUs)
 
-The power circuits supplying grid power to a rack, network closet, or server room must be enough to meet the load capacity of all the installed equipment, plus room for growth. Consequently, circuits to a server room will typically be higher capacity than domestic or office circuits (30 or 60 amps as opposed to 13 amps, for instance). These circuits may be run through a power distribution unit (PDU). These come with circuitry to "clean" the power signal, provide protection against spikes, surges, and brownouts, and can integrate with uninterruptible power supplies (UPSs). Managed PDUs support remote power monitoring functions, such as reporting load and status, switching power to a socket on and off, or switching sockets on in a particular sequence. 
+The power circuits supplying grid power to a **rack, network closet, or server room** must be enough to meet the load capacity of all the installed equipment, plus room for growth. Consequently, circuits to a server room will typically be higher capacity than domestic or office circuits (**30 or 60** amps as opposed to 13 amps, for instance). These circuits may be run through a power distribution unit (PDU). These come with circuitry to "clean" the power signal, provide protection against spikes, surges, and brownouts, and can integrate with uninterruptible power supplies (UPSs). Managed PDUs support remote power monitoring functions, such as reporting load and status, switching power to a [[socket]] on and off, or switching sockets on in a particular sequence. 
 
 ### Battery Backups and Uninterruptible Power Supplies (UPSs)
 
-If there is loss of power, system operation can be sustained for a few minutes or hours (depending on load) using battery backup. Battery backup can be provisioned at the component level for disk drives and RAID arrays. The battery protects any read or write operations cached at the time of power loss. At the system level, an uninterruptible power supply (UPS) will provide a temporary power source in the event of a blackout (complete power loss). This may range from a few minutes for a desktop-rated model to hours for an enterprise system. In its simplest form, a UPS comprises a bank of batteries and their charging circuit plus an inverter to generate AC voltage from the DC voltage supplied by the batteries.
+If there is loss of power, system operation can be sustained for a few minutes or hours (depending on load) using battery backup. Battery backup can be provisioned at the component level for disk drives and [[RAID arrays]]. The battery protects any read or write operations cached at the time of power loss. At the system level, an uninterruptible power supply (UPS) will provide a temporary power source in the event of a blackout (complete power loss). This may range from a few minutes for a desktop-rated model to hours for an enterprise system. In its simplest form, a UPS comprises a bank of batteries and their charging circuit plus an inverter to generate AC voltage from the DC voltage supplied by the batteries.
 
 The time allowed by a UPS should be sufficient to failover to an alternative power source, such as a standby generator. If there is no secondary power source, UPS will at least allow the administrator to shut down the server or appliance properly—users can save files, and the OS can complete the proper shut down routines.
 
