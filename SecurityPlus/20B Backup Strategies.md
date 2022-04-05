@@ -1,11 +1,11 @@
 ---
-tags: [firstTag, secondTag]
+tags: [Implementation, secondTag]
 ---
 # EXAM OBJECTIVES COVERED
 
 2.5 Given a scenario, implement cybersecurity resilience
 
-No cybersecurity program is complete without an effective and tested system for backing up and restoring critical data and system configurations. As a security professional, you need to be able to select appropriate backup types and media for different scenarios and explain how nonpersistence can achieve more secure system configurations, as well as maintaining high availability.
+No [[cybersecurity program]] is complete without an effective and tested system for backing up and restoring critical data and system configurations. As a security professional, you need to be able to select appropriate backup types and media for different scenarios and explain how [[nonpersistence]] can achieve more secure system configurations, as well as maintaining high availability.
 # BACKUPS AND RETENTION POLICY
 
 Every business continuity and disaster recovery plan makes use of backups, of one type or another. The execution and frequency of backups must be carefully planned and guided by policies. Data retention needs to be considered in the short and long term:
@@ -17,16 +17,16 @@ Every business continuity and disaster recovery plan makes use of backups, of on
 
 Performing a backup using Acronis Backup. (Screenshot used with permission from Acronis.)
 
-For these reasons, backups are kept back to certain points in time. As backups take up a lot of space, and there is never limitless storage capacity, this introduces the need for storage management routines to reduce the amount of data occupying backup storage media while giving adequate coverage of the required recovery window. The recovery window is determined by the recovery point objective (RPO), which is determined through business continuity planning. Advanced backup software can prevent media sets from being overwritten in line with the specified retention policy.
+For these reasons, backups are kept back to certain points in time. As backups take up a lot of space, and there is never limitless storage capacity, this introduces the need for storage management routines to reduce the amount of data occupying backup storage media while giving adequate coverage of the required recovery window. The recovery window is determined by the recovery point objective ([[RPO]]), which is determined through business continuity planning. Advanced backup software can prevent media sets from being overwritten in line with the specified retention policy.
 
 ![Screenshot shows Backup menu with Machines with agents option selected. The applied backup plan is shown for the selected machine.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/4161-1599771812431.png)
 
-Backing up a domain controller using Acronis backup—The How Long to Keep field specifies the retention period. (Screenshot used with permission from Acronis.)
+Backing up a [[domain controller]] using Acronis backup—The How Long to Keep field specifies the retention period. (Screenshot used with permission from Acronis.)
 # BACKUP TYPES
 
-Utilities that support enterprise backup operations come with features to support retention policies and media rotation. When considering a backup made against an original copy of data, the backup can usually be performed using one of three main types: full, incremental, and differential. In Windows, a full backup includes all selected files and directories while incremental and differential backups check the status of the archive attribute before including a file. The archive attribute is set whenever a file is modified. This allows backup software to determine which files have been changed and therefore need to be copied.
+Utilities that support enterprise [[backup]] operations come with features to support retention policies and media rotation. When considering a backup made against an original copy of data, the backup can usually be performed using one of three main types: **full, incremental, and differential**. In Windows, a full backup includes all selected files and directories while incremental and differential backups check the status of the archive attribute before including a file. The archive attribute is set whenever a file is modified. This allows backup software to determine which files have been changed and therefore need to be copied.
 
-Linux doesn't support a file archive attribute. Instead, a date stamp is used to determine whether the file has changed.
+**Linux doesn't support a file archive attribute. Instead, a date stamp is used to determine whether the file has changed.**
 
 ### Full, Incremental, and Differential Backup Types
 
@@ -72,12 +72,12 @@ Do not combine differential and incremental backups. Use full backups interspers
 
 ### Copy Backups
 
-Most software also has the capability to do copy backups. These are made outside the tape rotation system and do not affect the archive attribute.
+Most software also has the capability to do copy backups. These are made outside the [[tape rotation system]] and do not affect the archive attribute.
 # SNAPSHOTS AND IMAGES
 
 **Snapshots**
 
-Snapshots are a means of getting around the problem of open files. If the data that you're considering backing up is part of a database, such as SQL data or an Exchange messaging system, then the data is probably being used all the time. Often copy-based mechanisms will be unable to back up open files. Short of closing the files, and so too the database, a copy-based system will not work. A snapshot is a point-in-time copy of data maintained by the file system. A backup program can use the snapshot rather than the live data to perform the backup. In Windows, snapshots are provided for on NTFS volumes by the Volume Shadow Copy Service (VSS). They are also supported on Sun's ZFS file system, and under some distributions of Linux.
+Snapshots are a means of getting around the problem of open files. If the data that you're considering backing up is part of a database, such as SQL data or an [[Exchange messaging system]], then the data is probably being used all the time. Often copy-based mechanisms will be unable to back up open files. Short of closing the files, and so too the database, a copy-based system will not work. A snapshot is a point-in-time copy of data maintained by the file system. A backup program can use the snapshot rather than the live data to perform the backup. In Windows, snapshots are provided for on NTFS volumes by the Volume Shadow Copy Service ([[VSS]]). They are also supported on Sun's ZFS file system, and under some distributions of Linux.
 
 ![Screenshot shows Volume Shadow Copy Service (VSS) settings. Use VSS when taking snapshots and Automatically select snapshot provider are set.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7057-1599771812666.png)
 
@@ -87,7 +87,7 @@ Virtual system managers can usually take snapshot or cloned copies of VMs. A sna
 
 **Images**
 
-An image backup is made by duplicating an OS installation. This can be done either from a physical hard disk or from a VM's virtual hard disk. Imaging allows the system to be redeployed quickly, without having to reinstall third-party software, patches, and configuration settings. A system image should generally not contain any user data files, as these will quickly become out of date.
+An [[image]] backup is made by duplicating an OS installation. This can be done either from a physical hard disk or from a VM's virtual hard disk. Imaging allows the system to be redeployed quickly, without having to reinstall third-party software, patches, and configuration settings. A system image should generally not contain any user data files, as these will quickly become out of date.
 # BACKUP STORAGE ISSUES 
 
 Backed up and archived data need to be stored as securely as live data. A data backup has the same confidentiality and integrity requirements as its source. It also has its own availability requirement. Typically, backup media is physically secured against theft or snooping by keeping it in a restricted part of the building, with other server and network equipment. Many backup solutions use encryption to ensure data confidentiality should the media be stolen.
@@ -102,31 +102,31 @@ Without a network that can support the required bandwidth, the offsite media mus
 
 As well as the onsite/offsite consideration, you should also be aware of a distinction between online and offline backups. An online backup system is instantly available to perform a backup or restore operation without an administrator having to transport and connect a device or load some backup media. An offline backup is disconnected from the host and must be connected manually.
 
-An online system is faster, but an offline backup offers better security. Consider the case of cryptoransomware, for instance. If the backup system is connected to the infected host, the ransomware will encrypt the backup, rendering it useless. Some cryptoransomware is configured to try to access cloud accounts and encrypt the cloud storage ([f-secure.com/v-descs/articles/crypto-ransomware.shtml](https://www.f-secure.com/v-descs/articles/crypto-ransomware.shtml)).
+An online system is faster, but an offline backup offers better security. ==Consider the case of cryptoransomware, for instance. If the backup system is connected to the infected host, the ransomware will encrypt the backup, rendering it useless.== Some cryptoransomware is configured to try to access cloud accounts and encrypt the cloud storage ([f-secure.com/v-descs/articles/crypto-ransomware.shtml](https://www.f-secure.com/v-descs/articles/crypto-ransomware.shtml)).
 
-The 3-2-1 rule states that you should have three copies of your data, across two media types, with one copy held offline and offsite.
+**The 3-2-1 rule states that you should have three copies of your data, across two media types, with one copy held offline and offsite**.
 # BACKUP MEDIA TYPES
 
 A backup operation can use several media types. Each type has advantages and disadvantages that make it more or less suitable for given scenarios.
 
 ### Disk
 
-Individual removable hard drives are an excellent low-cost option for small office/home office (SOHO) network backups, but they do not have sufficient capacity or flexibility to be used within an automated enterprise backup solution.
+Individual removable hard drives are an excellent low-cost option for small office/home office ([[SOHO]]) network backups, but they do not have sufficient capacity or flexibility to be used within an automated enterprise backup solution.
 
 ### Network Attached Storage (NAS)
 
-A network attached storage (NAS) appliance is a specially configured type of server that makes RAID storage available over common network protocols, such as Windows File Sharing (SMB) or FTP. A NAS appliance is accessed via an IP address and backup takes place at file-level. A NAS can be another good option for SOHO backup, but as a single device, it provides no offsite option. As it is normally kept online, it can be vulnerable to cryptoransomware as well.
+A network attached storage ([[NAS]]) [[appliance]] is a specially configured type of server that makes RAID storage available over common network protocols, such as Windows File Sharing ([[SMB]]) or [[FTP]]. A NAS appliance is accessed via an IP address and backup takes place at file-level. A NAS can be another good option for SOHO backup, but as a single device, it provides no offsite option. As it is normally kept online, it can be vulnerable to cryptoransomware as well.
 
 ### Tape
 
-Digital tape systems are a popular choice for institutions with multi-terabyte storage requirements. Tape is very cost effective and, given a media rotation system, tapes can be transported offsite. The latest generation of tape will store about 10-12 terabytes per cartridge or up to about 30 TB with compression. The main drawback of tape is that it is slow, compared to disk-based solutions, especially for restore operations.
+**Digital tape systems are a popular choice for institutions with multi-terabyte storage requirements.** Tape is very cost effective and, given a media rotation system, tapes can be transported offsite. The latest generation of tape will store about 10-12 terabytes per cartridge or up to about 30 TB with compression. The main drawback of tape is that it is slow, compared to disk-based solutions, especially for restore operations.
 
 ### Storage Area Network (SAN) and Cloud
 
-A RAID array or tape drive/autoloader can be provisioned as direct attached storage, where a server hosts the backup devices, usually over serial attached SCSI (SAS). Direct attached storage has limited scalability, so enterprise and cloud storage solutions often use storage area networks (SAN) as a layer of abstraction between the file system objects presented to servers and the configuration of the actual storage media. Where NAS uses file-level access to storage, a SAN is based on block-level addressing. A SAN can incorporate RAID arrays and tape systems within the same network. SANs can achieve offsite storage through replication.
+A RAID array or tape drive/autoloader can be provisioned as direct attached storage, where a server hosts the backup devices, usually over serial attached [[SCSI]] ([[SAS]]). Direct attached storage has limited scalability, so enterprise and cloud storage solutions often use storage area networks (SAN) as a layer of abstraction between the file system objects presented to servers and the configuration of the actual storage media. Where NAS uses file-level access to storage, a SAN is based on block-level addressing. A SAN can incorporate RAID arrays and tape systems within the same network. SANs can achieve offsite storage through replication.
 # RESTORATION ORDER
 
-If a site suffers an uncontrolled outage, in ideal circumstances processing will be switched to an alternate site and the outage can be resolved without any service interruption. If an alternate processing site is not available, then the main site must be brought back online as quickly as possible to minimize service disruption. This does not mean that the process can be rushed, however. A complex facility such as a data center or campus network must be reconstituted according to a carefully designed order of restoration. If systems are brought back online in an uncontrolled way, there is the serious risk of causing additional power problems or of causing problems in the network, OS, or application layers because dependencies between different appliances and servers have not been met.
+If a site suffers an uncontrolled outage, in ideal circumstances processing will be switched to an alternate site and the outage can be resolved without any service interruption. If an alternate processing site is not available, then the main site must be brought back online as quickly as possible to minimize service disruption. This does not mean that the process can be rushed, however. A complex facility such as a data center or campus network must be reconstituted according to a carefully designed order of [[restoration]]. If systems are brought back online in an uncontrolled way, there is the serious risk of causing additional power problems or of causing problems in the network, OS, or application layers because dependencies between different appliances and servers have not been met.
 
 In very general terms, the order of restoration will be as follows:
 
@@ -139,7 +139,7 @@ In very general terms, the order of restoration will be as follows:
 7.  Enable client workstations and devices and client browser access.
 # NONPERSISTENCE
 
-When recovering systems, it may be necessary to ensure that any artifacts from the disaster, such as malware or backdoors, are removed when reconstituting the production environment. This can be facilitated in an environment designed for nonpersistence. Nonpersistence describes a computing environment (e.g., virtual machine instance) that is static in terms of processing function. Storing data elsewhere allows the instance to be destroyed and rebuilt with the same functionality without suffering configuration problems. There are various mechanisms for ensuring nonpersistence:
+When recovering systems, it may be necessary to ensure that any artifacts from the disaster, such as malware or backdoors, are removed when reconstituting the production environment. This can be facilitated in an environment designed for nonpersistence. [[Nonpersistence]] describes a computing environment (e.g., virtual machine instance) that is static in terms of processing function. Storing data elsewhere allows the instance to be destroyed and rebuilt with the same functionality without suffering configuration problems. There are various mechanisms for ensuring nonpersistence:
 
 -   Snapshot/revert to known state—this is a saved system state that can be reapplied to the instance.
 -   Rollback to known configuration—a physical instance might not support snapshots but has an "internal" mechanism for restoring the baseline system configuration, such as Windows System Restore.

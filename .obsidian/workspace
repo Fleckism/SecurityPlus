@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "0c5e90fde7e04e72",
+        "id": "bf43f290aa2cb948",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/20A Redundancy Strategies.md",
+            "file": "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -52,7 +52,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/20A Redundancy Strategies.md",
+                "file": "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,17 +110,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "0c5e90fde7e04e72",
+  "active": "bf43f290aa2cb948",
   "lastOpenFiles": [
+    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
+    "SecurityPlus/20B Backup Strategies.md",
     "SecurityPlus/20A Redundancy Strategies.md",
+    "My linked notes/Acronyms/STP.md",
     "SecurityPlus/19B Business Impact Analysis Concepts.md",
     "SecurityPlus/19A Risk Management Process and Concepts.md",
     "My linked notes/risk.md",
     "SecurityPlus/18B Risk Managment Process and Concepts.md",
     "My linked notes/ISOC.md",
-    "SecurityPlus/18A Key Aspects of Digital Forensics Documentation.md",
-    "SecurityPlus/17C Mitigation Controls.md",
-    "My linked notes/Acronyms/C&C.md",
-    "My linked notes/Acronyms/OIR.md"
+    "SecurityPlus/18A Key Aspects of Digital Forensics Documentation.md"
   ]
 }
