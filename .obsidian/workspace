@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "bf43f290aa2cb948",
+        "id": "381ca423be38d70f",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
+            "file": "SecurityPlus/21B Physical Host Security Controls.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,8 +64,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -81,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
+                "file": "SecurityPlus/21B Physical Host Security Controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,8 +110,10 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "bf43f290aa2cb948",
+  "active": "381ca423be38d70f",
   "lastOpenFiles": [
+    "SecurityPlus/21B Physical Host Security Controls.md",
+    "SecurityPlus/21A Physical Site Security Controls.md",
     "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
     "SecurityPlus/20B Backup Strategies.md",
     "SecurityPlus/20A Redundancy Strategies.md",
@@ -120,8 +121,6 @@
     "SecurityPlus/19B Business Impact Analysis Concepts.md",
     "SecurityPlus/19A Risk Management Process and Concepts.md",
     "My linked notes/risk.md",
-    "SecurityPlus/18B Risk Managment Process and Concepts.md",
-    "My linked notes/ISOC.md",
-    "SecurityPlus/18A Key Aspects of Digital Forensics Documentation.md"
+    "SecurityPlus/18B Risk Managment Process and Concepts.md"
   ]
 }

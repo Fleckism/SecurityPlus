@@ -21,7 +21,7 @@ In this lesson, you will:
 
 2.7 Explain the importance of physical security controls
 
-If an attacker can gain physical access to your premises, there may be lots of opportunities to install rogue devices, vandalize or disrupt systems, or observe confidential information. Consequently, as a security professional, you should be able to explain the importance of installing access and monitoring controls that protect sites against physical intrusion.
+If an attacker can gain [[physical access]] to your premises, there may be lots of opportunities to install rogue devices, vandalize or disrupt systems, or observe confidential information. Consequently, as a security professional, you should be able to explain the importance of installing access and monitoring controls that protect sites against physical intrusion.
 # PHYSICAL SECURITY CONTROLS
 
 Physical access controls are security measures that restrict and monitor access to specific physical areas or assets. They can control access to a building, to equipment, or to specific areas, such as server rooms, finance or legal areas, data centers, network cable runs, or any other area that has hardware or information that is considered to have important value and sensitivity. Determining where to use physical access controls requires a cost–benefit analysis and must consider any regulations or other compliance requirements for the specific types of data that are being safeguarded.
@@ -57,7 +57,7 @@ The exterior of a building may be protected by fencing. Security fencing needs t
 
 ### Lighting
 
-Security lighting is enormously important in contributing to the perception that a building is safe and secure at night. Well-designed lighting helps to make people feel safe, especially in public areas or enclosed spaces, such as parking garages. Security lighting also acts as a deterrent by making intrusion more difficult and surveillance (whether by camera or guard) easier. The lighting design needs to account for overall light levels, the lighting of particular surfaces or areas (allowing cameras to perform facial recognition, for instance), and avoiding areas of shadow and glare.
+Security lighting is enormously important in contributing to the perception that a building is safe and secure at night. Well-designed lighting helps to make people feel safe, especially in public areas or enclosed spaces, such as parking garages. Security lighting also acts as a deterrent by making intrusion more difficult and surveillance (whether by camera or guard) easier. The lighting design needs to account for overall light levels, the lighting of particular surfaces or areas (**allowing cameras to perform facial recognition, for instance**), and avoiding areas of shadow and glare.
 # GATEWAYS AND LOCKS 
 
 In order to secure a gateway, it must be fitted with a lock. A secure gateway will normally be self-closing and self-locking, rather than depending on the user to close and lock it. Lock types can be categorized as follows:
@@ -81,7 +81,7 @@ Apart from being vulnerable to lock picking, the main problem with a simple door
 
 ### Cable Locks
 
-Cable locks attach to a secure point on the device chassis. A server chassis might come with both a metal loop and a Kensington security slot. As well as securing the chassis to a rack or desk, the position of the secure point prevents the chassis from being opened, without removing the cable first.
+Cable locks attach to a secure point on the device chassis. A server chassis might come with both a metal loop and a [[Kensington security slot]]. As well as securing the chassis to a rack or desk, the position of the secure point prevents the chassis from being opened, without removing the cable first.
 # PHYSICAL ATTACKS AGAINST SMART CARDS AND USB
 
 Some types of smart cards used as passkeys for electronic locks can be vulnerable to cloning and skimming attacks:
@@ -91,17 +91,17 @@ Some types of smart cards used as passkeys for electronic locks can be vulnerabl
 
 These attacks can generally only target "dumb" smart cards that transfer tokens rather than perform cryptoprocessing. Bank-issued smart cards, referred to as EMV (Europay, MasterCard, Visa), can also be vulnerable through the magnetic strip, which is retained for compatibility.
 
-When evaluating risks from card cloning and skimming, you need to realize that there are many types of "smart card." For example, old MIFARE Classic cards used as public transit payment cards are easily cloned because they use a weak cryptographic implementation. Building entry systems using contactless cards with no cryptoprocessing are also vulnerable ([youtube.com/watch?v=cxxnuofREcM](https://www.youtube.com/watch?v=cxxnuofREcM)). Cloning of MIFARE EV or EMV smart cards that implement a TPM-like cryptoprocessor is not thought to be possible.
+When evaluating risks from [[card cloning]] and skimming, you need to realize that there are many types of "smart card." For example, old MIFARE Classic cards used as public transit payment cards are easily cloned because they use a weak cryptographic implementation. Building entry systems using contactless cards with no cryptoprocessing are also vulnerable ([youtube.com/watch?v=cxxnuofREcM](https://www.youtube.com/watch?v=cxxnuofREcM)). Cloning of MIFARE EV or EMV smart cards that implement a TPM-like cryptoprocessor is not thought to be possible.
 
-Malicious USB charging cables and plugs are also a widespread problem. As with card skimming, a device may be placed over a public charging port at airports and other transit locations. A USB data blocker can provide mitigation against these juice-jacking attacks by preventing any sort of data transfer when the smartphone or laptop is connected to a charge point ([zdnet.com/article/this-cheap-gadget-can-stop-your-smartphone-or-tablet-being-hacked-at-an-airport-hotel-or-cafe](https://www.zdnet.com/article/this-cheap-gadget-can-stop-your-smartphone-or-tablet-being-hacked-at-an-airport-hotel-or-cafe/)).
+Malicious [[USB charging]] cables and plugs are also a widespread problem. As with card skimming, a device may be placed over a public charging port at airports and other transit locations. A USB data blocker can provide mitigation against these juice-jacking attacks by preventing any sort of data transfer when the smartphone or laptop is connected to a charge point ([zdnet.com/article/this-cheap-gadget-can-stop-your-smartphone-or-tablet-being-hacked-at-an-airport-hotel-or-cafe](https://www.zdnet.com/article/this-cheap-gadget-can-stop-your-smartphone-or-tablet-being-hacked-at-an-airport-hotel-or-cafe/)).
 # ALARM SYSTEMS AND SENSORS
-
+[[alarm systems]]
 When designing premises security, you must consider the security of entry points that could be misused, such as emergency exits, windows, hatches, grilles, and so on. These may be fitted with bars, locks, or alarms to prevent intrusion. Also consider pathways above and below, such as false ceilings and ducting. There are five main types of alarm:
 
 -   Circuit—a circuit-based alarm sounds when the circuit is opened or closed, depending on the type of alarm. This could be caused by a door or window opening or by a fence being cut. A closed-circuit alarm is more secure because an open circuit alarm can be defeated by cutting the circuit.
--   Motion detection—a motion-based alarm is linked to a detector triggered by any movement within an area (defined by the sensitivity and range of the detector), such as a room. The sensors in these detectors are either microwave radio reflection (similar to radar) or passive infrared (PIR), which detect moving heat sources.
+-   Motion detection—a motion-based alarm is linked to a detector triggered by any movement within an area (defined by the sensitivity and range of the detector), such as a room. The sensors in these detectors are either microwave radio reflection (similar to radar) or passive infrared ([[PIR]]), which detect moving heat sources.
 -   Noise detection—an alarm triggered by sounds picked up by a microphone. Modern AI-backed analysis and identification of specific types of sound can render this type of system much less prone to false positives.
--   Proximity—radio frequency ID (RFID) tags and readers can be used to track the movement of tagged objects within an area. This can form the basis of an alarm system to detect whether someone is trying to remove equipment.
+-   Proximity—radio frequency ID ([[RFID]]) tags and readers can be used to track the movement of tagged objects within an area. This can form the basis of an alarm system to detect whether someone is trying to remove equipment.
 -   Duress—this type of alarm is triggered manually by staff if they come under threat. There are many ways of implementing this type of alarm, including wireless pendants, concealed sensors or triggers, and DECT handsets or smartphones. Some electronic entry locks can also be programmed with a duress code that is different from the ordinary access code. This will open the gateway but also alert security personnel that the lock has been operated under duress.
 
 Circuit-based alarms are typically suited for use at the perimeter and on windows and doors. These may register when a gateway is opened without using the lock mechanism properly or when a gateway is held open for longer than a defined period. Motion detectors are useful for controlling access to spaces that are not normally used. Duress alarms are useful for exposed staff in public areas. An alarm might simply sound an alert or it may be linked to a monitoring system. Many alarms are linked directly to local law enforcement or to third-party security companies. A silent alarm alerts security personnel rather than sounding an audible alarm.
@@ -119,7 +119,7 @@ The cameras in a CCTV network are typically connected to a multiplexer using coa
 
 If you consider control types, a security guard is a preventive control, as the guard can both discover and act to prevent an attack. A camera is a detective control only.
 
-Camera systems and robotics can use AI and machine learning to implement smart physical security ([theverge.com/2018/1/23/16907238/artificial-intelligence-surveillance-cameras-security](https://www.theverge.com/2018/1/23/16907238/artificial-intelligence-surveillance-cameras-security)):
+[[Camera systems]] and robotics can use AI and machine learning to implement smart physical security ([theverge.com/2018/1/23/16907238/artificial-intelligence-surveillance-cameras-security](https://www.theverge.com/2018/1/23/16907238/artificial-intelligence-surveillance-cameras-security)):
 
 -   Motion recognition—the camera system might be configured with gait identification technology. This means that the system can generate an alert when anyone moves within sight of the camera and the pattern of their movement does not match a known and authorized individual.
 -   Object detection—the camera system can detect changes to the environment, such as a missing server, or unknown device connected to a wall port.
@@ -127,13 +127,13 @@ Camera systems and robotics can use AI and machine learning to implement smart p
 -   Drones/UAV—cameras mounted on drones can cover wider areas than ground-based patrols ([zdnet.com/article/best-security-surveillance-drones-for-business](https://www.zdnet.com/article/best-security-surveillance-drones-for-business/)).
 # RECEPTION PERSONNEL AND ID BADGES
 
-One of the most important parts of surveillance is the challenge policy. This sets out what type of response is appropriate in given situations and helps to defeat social engineering attacks. This must be communicated to and understood by the staff. Challenges represent a whole range of different contact situations. For example:
+One of the most important parts of surveillance is the [[challenge policy]]. This sets out what type of response is appropriate in given situations and helps to defeat social engineering attacks. This must be communicated to and understood by the staff. Challenges represent a whole range of different contact situations. For example:
 
 -   Challenging visitors who do not have ID badges or are moving about unaccompanied.
 -   Insisting that proper authentication is completed at gateways, even if this means inconveniencing staff members (no matter their seniority).
 -   Intruders and/or security guards may be armed. The safety of staff and compliance with local laws has to be balanced against the imperative to protect the company's other resources.
 
-It is much easier for employees to use secure behavior in these situations if they know that their actions are conforming to a standard of behavior that has been agreed upon and is expected of them.
+It is much easier for employees to use secure behavior in these situations if they know that their actions are conforming to a standard of behavior that has been [[agreed upon and is expected of them]].
 
 ### Reception Personnel and Visitor Logs
 
