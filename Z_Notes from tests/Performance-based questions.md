@@ -1,3 +1,4 @@
+#exclude
 You can redo them!
 
 Diagnosis:  			Adversary Technique: 	 		Adversary Tactic

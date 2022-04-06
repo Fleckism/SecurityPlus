@@ -1,4 +1,5 @@
 # Vulnerability #vulnerability 
+#exclude
 ## Question:
 You have received an urgent threat advisory and need to configure a network vulnerability  scan to check for the presence of a related CVE on your network.  What configuration check should you make in the vulnerability scanning software before running the scan?
 

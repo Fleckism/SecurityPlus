@@ -1,3 +1,4 @@
+#exclude
 1.
 NIST (National Institute of Standards and technology)
 The **identify function** is to develop security policies and capabilities. This function is used to evaluate risks, threats, and vulnerabilities and recommend security controls to mitigate them.

@@ -1,5 +1,5 @@
 ---
-tags: [threat,OIR ]
+tags: [threat,OIR,section ]
 ---
 
 ## EXAM OBJECTIVES COVERED

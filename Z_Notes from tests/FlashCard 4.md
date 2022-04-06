@@ -1,6 +1,6 @@
 ## Question:
 You are recommending different antivirus products to the CEO of small travel services firm. The CEO is confused, because they had heard that Trojans represent the biggest threat to computer security these days. What explanation can you give?
-
+#exclude
 ## Answer:
 While antivirus (A-V) remains a popular marketing description, all current security products worthy of consideration will try to provide protection against a full range of malware and potentially unwanted program (PUP) threats.
 ## Question:

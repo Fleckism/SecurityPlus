@@ -1,5 +1,5 @@
 ---
-tags: [IR, ]
+tags: [IR,section ]
 ---
 # LESSON INTRODUCTION
 [[IR]]    

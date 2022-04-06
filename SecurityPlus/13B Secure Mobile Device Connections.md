@@ -1,5 +1,5 @@
 ---
-tags: [Implementation]
+tags: [Implementation,section]
 ---
 # EXAM OBJECTIVES COVERED
 

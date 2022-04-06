@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [firstTag, secondTag, exclude]
 ---
 # 
 # 

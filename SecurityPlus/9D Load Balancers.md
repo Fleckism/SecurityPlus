@@ -1,5 +1,5 @@
 ---
-tags: [OIR, secondTag]
+tags: [OIR,section]
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -88,7 +88,7 @@ Clustering is also very commonly used to provision fault tolerant application se
 
 Most network appliances process packets on a best effort and first in, first out ([[FIFO]]) basis. Quality of Service ([[QoS]]) is a framework for prioritizing traffic based on its characteristics. It is primarily used to support voice and video applications that require a minimum level of bandwidth and are sensitive to latency and jitter. [[Latency]] is the time it takes for a transmission to reach the recipient, measured in milliseconds (ms). Jitter is defined as being a variation in the delay, or an inconsistent rate of packet delivery. FIFO-based delivery makes it more likely that other applications sharing the same network will cause loss of bandwidth and increase latency and jitter for a real-time service.
  
-#Implementing QoS is a complex project, as there are many different ways to do it, and many different protocols and appliances involved. In overview, a QoS implementation could work as follows:
+#Implementation QoS is a complex project, as there are many different ways to do it, and many different protocols and appliances involved. In overview, a QoS implementation could work as follows:
 
 1.  The organization performs application discovery to identify bandwidth, latency, and jitter thresholds of the protocols in use and determine their relative priority. The applications are then mapped to standard class of service ([[CoS]]) codes at layer 2 and layer 3. These codes are configured across the range of hosts and intermediate systems that handle QoS traffic.
 2.  A QoS-compatible endpoint device or application uses the DiffServ field in the IP header (layer 3) and adds an 802.1p field to the Ethernet header (layer 2) to indicate that the packet should be treated as priority (traffic marking). It transmits the frame to the switch.

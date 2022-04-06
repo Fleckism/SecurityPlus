@@ -1,5 +1,5 @@
 ---
-tags: [Operations, ImplementMaster, A_D]
+tags: [Operations, ImplementMaster, A_D,section]
 ---
 # EXAM OBJECTIVES COVERED
 

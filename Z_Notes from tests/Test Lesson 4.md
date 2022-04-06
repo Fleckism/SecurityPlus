@@ -1,3 +1,4 @@
+#exclude
 # 1st wrong
 Which situation would require keyboard encryption software be installed on a computer?
 

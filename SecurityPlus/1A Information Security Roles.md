@@ -1,5 +1,5 @@
 ---
-tags: [OIR, ]
+tags: [OIR, section]
 ---
 
 ## LESSON INTRODUCTION

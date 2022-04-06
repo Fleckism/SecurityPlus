@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "83bb59d0b0010f00",
+        "id": "ab3c26c764f300c4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Z_Notes from tests/Test Node.md",
+            "file": "SecurityPlus/15C Infrastructure as Code Concepts.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "31cbeedf8bbe468c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/infrastructure.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lession",
+                "query": "file:infrastructure",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -58,7 +71,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -78,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Z_Notes from tests/Test Node.md",
+                "file": "My linked notes/infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,20 +119,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
-  "active": "83bb59d0b0010f00",
+  "active": "31cbeedf8bbe468c",
   "lastOpenFiles": [
-    "Z_Notes from tests/Test Node.md",
-    "Z_Notes from tests/Lesson 1 test.md",
-    "SecurityPlus/21B Physical Host Security Controls.md",
-    "SecurityPlus/21A Physical Site Security Controls.md",
-    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
-    "SecurityPlus/20B Backup Strategies.md",
+    "My linked notes/infrastructure.md",
+    "SecurityPlus/15C Infrastructure as Code Concepts.md",
+    "My linked notes/Acronyms/HSM.md",
+    "SecurityPlus/9D Load Balancers.md",
     "SecurityPlus/20A Redundancy Strategies.md",
-    "My linked notes/Acronyms/STP.md",
-    "SecurityPlus/19B Business Impact Analysis Concepts.md",
-    "SecurityPlus/19A Risk Management Process and Concepts.md"
+    "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
+    "SecurityPlus/14D Secure Script Environments.md",
+    "SecurityPlus/12A Secure Firmware.md",
+    "SecurityPlus/11C Secure Remote Access Protocols.md",
+    "SecurityPlus/11B Secure Application Protocols.md"
   ]
 }

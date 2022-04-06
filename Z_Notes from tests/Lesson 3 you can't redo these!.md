@@ -1,4 +1,5 @@
 # q1
+#exclude
 In which of these situations might a non-credentialed vulnerability scan be more advantageous than a credentialed scan? **(Select all that apply.)**
 
 1.  When active scanning poses no risk to system stability

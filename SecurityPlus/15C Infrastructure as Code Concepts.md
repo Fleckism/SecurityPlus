@@ -1,11 +1,11 @@
 ---
-tags: [firstTag, secondTag]
+tags: [firstTag,section]
 ---
 # EXAM OBJECTIVES COVERED
 
 2.2 Summarize virtualization and cloud computing concepts
 
-Coupled with the use of virtualization and the cloud is the idea of continuous delivery models for automation and service integration. These technologies can be used together to deliver an infrastructure as code model of provisioning networks and hosts to support application services.
+Coupled with the use of virtualization and the cloud is the idea of continuous delivery models for automation and service integration. These technologies can be used together to deliver an [[infrastructure]] as code model of provisioning networks and hosts to support application services.
 # SERVICES INTEGRATION AND MICROSERVICES
 
 In the early days of computer networks, architecture was focused on the provision of [[server machines and intermediate network systems (switches and routers)]]. Architectural choices centered around where to place a "box" to run monolithic network applications such as routing, security, address allocation, name resolution, file sharing, email, and so on. With virtualization, the provision of these applications is much less dependent on where you put the box and the OS that the box runs. Virtualization helps to make the design architecture fit to the business requirement rather than accommodate the business workflow to the platform requirement.

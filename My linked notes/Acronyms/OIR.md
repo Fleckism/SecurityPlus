@@ -1,5 +1,5 @@
 ---
-tags: [OIR, analyze, configure]
+tags: [OIR, analyze, configure, Ops, Incident response]
 ---
 Operations and Incident Response 16%  
 OIR is the colors **Black, white, red, blue**
@@ -10,7 +10,8 @@ OIR is the colors **Black, white, red, blue**
 - Incident Response
 	- **Urgent** 
 
-
+OIR is the combination of Operations, and Incident response 
+<mark style="background: #ADCCFFA6;">Makes up 16% of Security+ exam</mark> 
 [[Implementation]]: is everything else
 
 Hackers : 

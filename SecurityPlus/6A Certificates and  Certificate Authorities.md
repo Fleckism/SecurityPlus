@@ -1,5 +1,5 @@
 ---
-tags: [GRC,NWL]
+tags: [GRC,NWL,section]
 ---
 # LESSON INTRODUCTION
 

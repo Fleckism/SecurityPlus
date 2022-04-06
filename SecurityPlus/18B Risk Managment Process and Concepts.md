@@ -1,5 +1,5 @@
 ---
-tags: [firstTag, secondTag]
+tags: [,section]
 ---
 # EXAM OBJECTIVES COVERED
 

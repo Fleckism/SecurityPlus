@@ -1,6 +1,6 @@
 
 ---
-tags: [A_D, Implementation]
+tags: [A_D, Implementation,section]
 ---
 # EXAM OBJECTIVES COVERED
 2.8 Summarize the basics of cryptographic concepts

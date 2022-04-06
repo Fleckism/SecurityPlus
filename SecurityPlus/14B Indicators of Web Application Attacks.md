@@ -1,5 +1,5 @@
 ---
-tags: [Operations]
+tags: [Operations,section]
 ---
 # EXAM OBJECTIVES COVERED
 

@@ -1,5 +1,5 @@
 ---
-tags: [OIR, A_D, Implement]
+tags: [OIR, A_D, Implementation,section]
 ---
 # EXAM OBJECTIVES COVERED
 **security information and event management** [[SIEM]]

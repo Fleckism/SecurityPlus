@@ -1,5 +1,5 @@
 ---
-tags: [Implement, secondTag]
+tags: [Implementation,section]
 ---
 # Lesson 20
 

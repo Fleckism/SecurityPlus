@@ -1,5 +1,5 @@
 ---
-tags: [A_D, ]
+tags: [A_D,section ]
 ---
 
 ## EXAM OBJECTIVES COVERED

@@ -1,5 +1,5 @@
 ---
-tags: [GRC, A_D]
+tags: [GRC, A_D,section]
 ---
 # LESSON INTRODUCTION
 

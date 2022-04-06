@@ -1,5 +1,5 @@
 ---
-tags: [zFleck, secondTag]
+tags: [,section]
 ---
 # LESSON INTRODUCTION
 

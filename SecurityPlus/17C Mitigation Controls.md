@@ -1,5 +1,5 @@
 ---
-tags: [IR, secondTag]
+tags: [IR,section]
 ---
 # EXAM OBJECTIVES COVERED
 

@@ -1,5 +1,5 @@
 ---
-tags: [GRC, Implementation, OIR]
+tags: [GRC, Implementation, OIR,section]
 ---
 # EXAM OBJECTIVES COVERED
 
