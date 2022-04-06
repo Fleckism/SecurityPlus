@@ -12,7 +12,7 @@ As with data networks, perimeter defenses are not sufficient to ensure the secur
 Environmental security ensures that risks to availability from hosts overheating are minimized. All sites also need effective procedures for the disposal of equipment and paper records, to ensure that confidential data remnants are not at risk of exposure.
 # SECURE AREAS 
 
-A secure area is designed to store critical assets with a higher level of access protection than general office areas. The most vulnerable point of the network infrastructure will be the communications or server room. This should be subject to the most stringent access and surveillance controls that can be afforded. Similar measures apply to hardening access to data centers.
+A secure area is designed to store critical assets with a higher level of access protection than general office areas. The most vulnerable point of the [[network infrastructure]] will be the communications or server room. This should be subject to the most stringent access and surveillance controls that can be afforded. Similar measures apply to hardening access to data centers.
 
 Installing equipment within secure cabinets/enclosures provides mitigation against insider attack and attacks that have broken through the perimeter security mechanisms. These can be supplied with key-operated or electronic locks.
 
@@ -39,17 +39,17 @@ Portable devices and media (backup tapes or USB media storing encryption keys, f
 A vault is a room that is hardened against unauthorized entry by physical means, such as drilling or explosives. A vault is expensive, but may be considered necessary for mission critical assets that need to be very securely air gapped, such as the root server for a commercial CA.
 # PROTECTED DISTRIBUTION AND FARADAY CAGES
 
-A physically secure cabled network is referred to as protected cable distribution or as a protected distribution system (PDS). There are two principal risks:
+A physically secure cabled network is referred to as protected cable distribution or as a protected distribution system ([[PDS]]). There are two principal risks:
 
 -   An intruder could attach eavesdropping equipment to the cable (a tap).
 -   An intruder could cut the cable (Denial of Service).
 
 A hardened PDS is one where all cabling is routed through sealed metal conduit and subject to periodic visual inspection. Lower-grade options are to use different materials for the conduit (plastic, for instance). Another option is to install an alarm system within the cable conduit, so that intrusions can be detected automatically.
 
-It is possible to install communications equipment within a shielded enclosure, known as a Faraday Cage. The cage is a charged conductive mesh that blocks signals from entering or leaving the area. The risk of eavesdropping from leakage of electromagnetic signals was investigated by the US DoD who defined TEMPEST (Transient Electromagnetic Pulse Emanation Standard) as a means of shielding the signals
+It is possible to install communications equipment within a shielded enclosure, known as a Faraday Cage. **The cage is a charged conductive mesh that blocks signals from entering or leaving the area**. The risk of eavesdropping from leakage of electromagnetic signals was investigated by the US DoD who defined [[TEMPEST]] (Transient Electromagnetic Pulse Emanation Standard) as a means of shielding the signals
 # HEATING, VENTILATION, AIR CONDITIONING 
 
-Environmental controls mitigate the loss of availability through mechanical issues with equipment, such as overheating. Building control systems maintain an optimum working environment for different parts of the building. The acronym HVAC (Heating, Ventilation, Air Conditioning) is often used to describe these services. An HVAC uses temperature sensors and moisture detection sensors (to measure humidity).
+Environmental controls mitigate the loss of availability through mechanical issues with equipment, such as overheating. Building control systems maintain an optimum working environment for different parts of the building. The acronym [[HVAC]] (Heating, Ventilation, Air Conditioning) is often used to describe these services. An HVAC uses temperature sensors and moisture detection sensors (to measure humidity).
 
 Use a portable monitor to verify that the HVAC's temperature and humidity sensors are returning the correct readings.
 
@@ -62,13 +62,13 @@ The positive air pressure created by the HVAC system also forces contaminants su
 The server room should not be used as storage space. Do not leave boxes or unused equipment in it. Also, do not install unnecessary devices that generate a lot of heat and dust, such as printers.
 # HOT AND COLD AISLES
 
-A data center or server room should be designed in such a way as to maximize air flow across the server or racks. If multiple racks are used, install equipment so that servers are placed back-to-back not front-to-back, so that the warm exhaust from one bank of servers is not forming the air intake for another bank. This is referred to as a hot aisle/cold aisle arrangement. In order to prevent air leaks from the hot aisle to the cold aisle, ensure that any gaps in racks are filled by blank panels and use strip curtains or excluders to cover any spaces above or between racks.
+A data center or server room should be designed in such a way as to maximize air flow across the server or racks. If multiple racks are used, install equipment so that servers are placed back-to-back not front-to-back, so that the warm exhaust from one bank of servers is not forming the air intake for another bank. This is referred to as a hot aisle/cold [[aisle]] arrangement. In order to prevent air leaks from the hot aisle to the cold aisle, ensure that any gaps in racks are filled by blank panels and use strip curtains or excluders to cover any spaces above or between racks.
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/9697-1599771813222.png)
 
 Hot aisle containment design—Cold air circulates from the air conditioner under the floor and around the rack, while hot air is drawn from between the racks through the ceiling space (plenum) to a heat exchanger. In this design, it is important that hot air does not leak from the ceiling or from the floor space between the racks. (Image © 123RF.com.)
 
-Make sure that cabling is secured by cable ties or ducting and does not run across walkways. Cable is best run using a raised floor. If running cable through plenum spaces, make sure it is fire-retardant and be conscious of minimizing proximity to electrical sources, such as electrical cable and fluorescent light, which can corrupt data signals (Electromagnetic Interference [EMI]). You also need to ensure that there is sufficient space in the plenum for the air conditioning system to work properly—filling the area with cable is not the best idea.
+Make sure that cabling is secured by cable ties or ducting and does not run across walkways. Cable is best run using a raised floor. If running cable through plenum spaces, make sure it is fire-retardant and be conscious of minimizing proximity to electrical sources, such as electrical cable and fluorescent light, which can corrupt data signals (Electromagnetic Interference [[EMI]]). You also need to ensure that there is sufficient space in the plenum for the air conditioning system to work properly—filling the area with cable is not the best idea.
 
 To reduce interference, data/network cabling should not be run parallel to power cabling. If EMI is a problem, shielded cabling can be installed. Alternatively, the copper cabling could be replaced with fiber optic cabling, which is not susceptible to EMI.
 # FIRE DETECTION AND SUPPRESSION
@@ -79,7 +79,7 @@ Health and safety legislation dictates what mechanisms an organization must put 
 -   Building design that does not allow fire to spread quickly, by separating different areas with fire-resistant walls and doors.
 -   Automatic smoke or fire detection systems, as well as alarms that can be operated manually.
 
-Fire suppression systems work on the basis of the fire triangle. The fire triangle works on the principle that a fire requires heat, oxygen, and fuel to ignite and burn. Removing any one of those elements provides fire suppression (and prevention). In the US (and most other countries), fires are divided by class under the NFPA (National Fire Protection Association) system, according to the combustible material that fuels the fire. Portable fire extinguishers come in several different types, with each type being designed for fighting a particular class of fire. Notably, Class C extinguishers use gas-based extinguishing and can be used where the risk of electric shock makes other types unsuitable.
+Fire suppression systems work on the basis of the fire triangle. The fire triangle works on the principle that a fire requires heat, oxygen, and fuel to ignite and burn. Removing any one of those elements provides fire suppression (and prevention). In the US (and most other countries), fires are divided by class under the [[NFPA]] (National Fire Protection Association) system, according to the combustible material that fuels the fire. Portable fire extinguishers come in several different types, with each type being designed for fighting a particular class of fire. Notably, **Class C** extinguishers use gas-based extinguishing and can be used where the risk of electric shock makes other types unsuitable.
 
 Under the European classification system, electrical fires are Class E.
 
@@ -98,7 +98,7 @@ One approach to sanitization is to destroy the media, rendering it unusable. The
 -   Burning—incineration is an effective method for all media types, so long as it is performed in a furnace designed for media sanitization. Municipal incinerators may leave remnants.
 -   Shredding and pulping—most media can be shredded. For paper documents, shredders are rated by the size of the remnants they reduce a sheet to. Level 1 is 12mm strips, while Level 6 is 0.8x4mm particles. Pulping the shredded remains with water or incinerating them provides an extra measure of protection. Some office shredders can destroy optical media too. Industrial shredders can destroy hard drives and flash drives.
 -   Pulverizing—hitting a hard drive with a hammer can leave a surprising amount of recoverable data, so this type of destruction should be performed with industrial machinery.
--   Degaussing— exposing a hard disk to a powerful electromagnet disrupts the magnetic pattern that stores the data on the disk surface. Note that SSDs, flash media, and optical media cannot be degaussed, only hard disk drives.
+-   [[Degaussing]]— exposing a hard disk to a powerful electromagnet disrupts the magnetic pattern that stores the data on the disk surface. Note that SSDs, flash media, and optical media cannot be degaussed, only hard disk drives.
 
 Due to the cost of facilities, physical destruction is likely to be contracted to a third party. It is important to use a reputable service provider and to obtain a detailed inventory of how each media item was sanitized and certificates of destruction.
 # DATA SANITIZATION TOOLS 
@@ -115,7 +115,7 @@ Examples of tools supporting secure file or disk erasing include Sdelete (part o
 
 ### Secure Erase (SE)
 
-Since 2001, the SATA and Serial Attached SCSI (SAS) specifications have included a Secure Erase (SE) command. This command can be invoked using a drive/array utility or the hdparm Linux utility. On HDDs, this performs a single pass of zero-filling.
+Since 2001, the SATA and Serial Attached [[SCSI]] ([[SAS]]) specifications have included a Secure Erase ([[SE]]) command. This command can be invoked using a drive/array utility or the hdparm [[Linux]] utility. On HDDs, this performs a single pass of zero-filling.
 
 For SSDs and hybrid drives and some USB thumb drives and flash memory cards, overwriting methods are not reliable, because the device uses wear-leveling routines in the drive controller to communicate which locations are available for use to any software process accessing the device.
 
@@ -123,6 +123,6 @@ On SSDs, the SE command marks all blocks as empty. A block is the smallest unit 
 
 ### Instant Secure Erase (ISE)
 
-HDDs and SSDs that are self-encrypting drives (SEDs) support another option, invoking a SANITIZE command set in SATA and SAS standards from 2012 to perform a crypto erase. Drive vendors implement this as Instant Secure Erase (ISE). With an SED, all data on the drive is encrypted using a media encryption key. When the erase command is issued, the MEK is erased, rendering the data unrecoverable. FIPS140-2 or FIPS140-3 validation provides assurance that the cryptographic implementation is strong.
+HDDs and SSDs that are self-encrypting drives ([[SEDs]]) support another option, invoking a SANITIZE command set in SATA and SAS standards from 2012 to perform a crypto erase. Drive vendors implement this as Instant Secure Erase ([[ISE]]). With an [[SED]], all data on the drive is encrypted using a media encryption key. When the erase command is issued, the [[MEK]] is erased, rendering the data unrecoverable. FIPS140-2 or FIPS140-3 validation provides assurance that the cryptographic implementation is strong.
 
 If the device firmware does not support encryption, using a software disk encryption product and then destroying the key and using SE should be sufficient for most confidentiality requirements.

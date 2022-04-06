@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "381ca423be38d70f",
+        "id": "83bb59d0b0010f00",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/21B Physical Host Security Controls.md",
+            "file": "Z_Notes from tests/Test Node.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -51,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lession",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/21B Physical Host Security Controls.md",
+                "file": "Z_Notes from tests/Test Node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,8 +108,10 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "381ca423be38d70f",
+  "active": "83bb59d0b0010f00",
   "lastOpenFiles": [
+    "Z_Notes from tests/Test Node.md",
+    "Z_Notes from tests/Lesson 1 test.md",
     "SecurityPlus/21B Physical Host Security Controls.md",
     "SecurityPlus/21A Physical Site Security Controls.md",
     "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
@@ -119,8 +119,6 @@
     "SecurityPlus/20A Redundancy Strategies.md",
     "My linked notes/Acronyms/STP.md",
     "SecurityPlus/19B Business Impact Analysis Concepts.md",
-    "SecurityPlus/19A Risk Management Process and Concepts.md",
-    "My linked notes/risk.md",
-    "SecurityPlus/18B Risk Managment Process and Concepts.md"
+    "SecurityPlus/19A Risk Management Process and Concepts.md"
   ]
 }
