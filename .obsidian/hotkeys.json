@@ -80,7 +80,7 @@
   "editor:fold-all": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "F"
     }
@@ -88,8 +88,8 @@
   "editor:unfold-all": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "F"
     }

@@ -67,7 +67,7 @@ If a **SWG is already in place**, an attacker may have found a way to circumvent
 
 ### Mobile Device Management (MDM) 
 
-Mobile Device Management (MDM) provides execution control over apps and features of smartphones. Features include GPS, camera, and microphone. As with DLP, an intrusion might reveal a vector that allowed the threat actor to circumvent enrollment or a misconfiguration in the MDM's policy templates. 
+Mobile Device Management (MDM) provides execution control over apps and features of smartphones. Features include GPS, camera, and microphone. As with DLP, an intrusion might reveal a vector that allowed the [[threat actor]] to circumvent enrollment or a misconfiguration in the MDM's policy templates. 
 
 ### Update or Revoke Certificates
 

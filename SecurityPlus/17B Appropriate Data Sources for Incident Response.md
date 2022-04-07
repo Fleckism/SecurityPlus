@@ -38,7 +38,7 @@ Correlation means interpreting the relationship between individual data points t
 
 Error.LogonFailure > 3 AND LogonFailure.User AND Duration < 1 hour
 
-As well as correlation between indicators observed on the network, a SIEM is likely to be **configured with a threat intelligence feed**. This means that data points observed on the network can be associated with known threat actor indicators, such as IP addresses and domain names. AI-assisted analysis enables more sophisticated alerting and detection of anomalous behavior.
+As well as correlation between indicators observed on the network, a SIEM is likely to be **configured with a threat intelligence feed**. This means that data points observed on the network can be associated with known [[threat actor]] indicators, such as IP addresses and domain names. AI-assisted analysis enables more sophisticated alerting and detection of anomalous behavior.
 
 ### Retention
 

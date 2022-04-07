@@ -59,11 +59,11 @@ A threat actor could also compromise a web server and add redirects in .htaccess
 If your domain, website, or email servers have been hijacked, they are likely to be used for spam or distributing malware. This will lead to complaints and the likelihood of the domain being listed on a block list. You should set up monitoring using a site such as [talosintelligence.com/reputation_center](https://talosintelligence.com/reputation_center) to detect misuse early.
 # DNS POISONING 
 
-DNS poisoning is an [[attack]] that compromises the process by which clients query name servers to locate the IP address for a [[FQDN]]. There are several ways that a DNS poisoning attack can be perpetrated.
+[[DNS]] poisoning is an [[attack]] that compromises the process by which clients query name servers to locate the IP address for a [[FQDN]]. There are several ways that a DNS poisoning attack can be perpetrated.
 
 ### Man in the Middle
 [[MITM]]
-If the threat actor has access to the same local network as the victim, the attacker can use [[ARP]] poisoning to impersonate a legitimate [[DNS]] server and respond to DNS queries from the victim with spoofed replies. This might be combined with a denial of service attack on the victim's legitimate DNS server. A rogue [[DHCP]] could be used to configure clients with the address of a rogue DNS resolver.
+If the [[threat actor]] has access to the same local network as the victim, the attacker can use [[ARP]] poisoning to impersonate a legitimate [[DNS]] server and respond to DNS queries from the victim with spoofed replies. This might be combined with a denial of service attack on the victim's legitimate DNS server. A rogue [[DHCP]] could be used to configure clients with the address of a rogue DNS resolver.
 
 ### DNS Client Cache Poisoning
 

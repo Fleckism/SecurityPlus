@@ -4,12 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "ab3c26c764f300c4",
+        "id": "31b94ba2cc256951",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/threat actor.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "22051e7d0952c332",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/15C Infrastructure as Code Concepts.md",
+            "file": "My linked notes/Acronyms/IoC.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,12 +32,12 @@
         }
       },
       {
-        "id": "31cbeedf8bbe468c",
+        "id": "927714680863e599",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/infrastructure.md",
+            "file": "My linked notes/vulnerability.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,8 +77,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:infrastructure",
-                "matchingCase": false,
+                "query": "file:Io",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -76,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -92,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/infrastructure.md",
+                "file": "My linked notes/Acronyms/IoC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,19 +135,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
-  "active": "31cbeedf8bbe468c",
+  "active": "22051e7d0952c332",
   "lastOpenFiles": [
-    "My linked notes/infrastructure.md",
-    "SecurityPlus/15C Infrastructure as Code Concepts.md",
-    "My linked notes/Acronyms/HSM.md",
-    "SecurityPlus/9D Load Balancers.md",
-    "SecurityPlus/20A Redundancy Strategies.md",
-    "SecurityPlus/15A Secure Cloud and Virtualization Services.md",
-    "SecurityPlus/14D Secure Script Environments.md",
-    "SecurityPlus/12A Secure Firmware.md",
-    "SecurityPlus/11C Secure Remote Access Protocols.md",
-    "SecurityPlus/11B Secure Application Protocols.md"
+    "My linked notes/Acronyms/IoC.md",
+    "My linked notes/threat.md",
+    "My linked notes/implementation.md",
+    "My linked notes/vulnerability.md",
+    "My linked notes/threat actor.md",
+    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
+    "SecurityPlus/18A Key Aspects of Digital Forensics Documentation.md",
+    "SecurityPlus/17C Mitigation Controls.md",
+    "SecurityPlus/17B Appropriate Data Sources for Incident Response.md",
+    "SecurityPlus/14E Deployment and Automation Concepts.md"
   ]
 }

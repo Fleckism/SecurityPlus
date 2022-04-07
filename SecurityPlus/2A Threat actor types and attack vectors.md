@@ -10,20 +10,20 @@ Lesson Objectives
 
 In this lesson, you will:
 
--   Explain threat actor types and attack vectors.
+-   Explain[[threat actor]] types and attack vectors.
 -   Explain threat intelligence sources.
 
 EXAM OBJECTIVES COVERED
 
 1.5 Explain different threat actors, vectors, and intelligence sources
 
-Classifying and evaluating the capabilities of threat actor types enables you to assess and mitigate risks more effectively. Understanding the methods by which threat actors infiltrate networks and systems is essential for you to assess the attack surface of your networks and deploy controls to block attack vectors.
+Classifying and evaluating the capabilities of [[threat actor]] types enables you to assess and mitigate risks more effectively. Understanding the methods by which threat actors infiltrate networks and systems is essential for you to assess the attack surface of your networks and deploy controls to block attack vectors.
 ## #VULNERABILITY,  #THREAT, AND RISK
 
 As part of security [[assessment]] and monitoring, security teams must identify ways in which their systems could be attacked. These assessments involve vulnerabilities, threats, and risk:
 
 -   [[vulnerability]] **is a weakness** that could be triggered accidentally or exploited intentionally to cause a security breach. Examples of vulnerabilities include improperly configured or installed hardware or software, delays in applying and testing software and firmware patches, untested software and firmware patches, the misuse of software or communication protocols, poorly designed network architecture, inadequate physical security, insecure password usage, and design flaws in software or operating systems, such as unchecked user input.
--   [[threat]] **is the potential** for someone or something to exploit a vulnerability and breach security. A threat may be intentional or unintentional. The person or thing that poses the threat is called a _threat actor_ or _threat agent._ The path or tool used by a malicious threat actor can be referred to as the _attack vector._
+-   [[threat]] **is the potential** for someone or something to exploit a vulnerability and breach security. A threat may be intentional or unintentional. The person or thing that poses the threat is called a [[threat actor]] or _threat agent._ The path or tool used by a malicious threat actor can be referred to as the _attack vector._
 -   [[risk]] is the **likelihood and impact (or consequence)** of a threat actor exploiting a vulnerability. To assess risk, you identify a vulnerability and then evaluate the likelihood of it being exploited by a threat and the impact that a successful exploit would have.
 
 Relationship between vulnerability, threat, and risk.
@@ -49,7 +49,7 @@ _Intent_ describes what an attacker hopes to achieve from the attack, while _mot
 
 ### Level of Sophistication/Capability and Resources/Funding
 
-You must also consider the sophistication and level of resources/funding that different adversaries might possess. _Capability_ refers to a threat actor's ability to craft novel exploit techniques and tools. The least capable threat actor relies on commodity attack tools that are widely available on the web or dark web. More capable actors can fashion zero-day exploits in operating systems, applications software, and embedded control systems. At the highest level, a threat actor might make use of non-cyber tools, such as political or military assets. Capability is only funded through a substantial budget. Sophisticated threat actor groups need to be able to acquire resources, such as customized attack tools and skilled strategists, designers, coders, hackers, and social engineers. The most capable threat actor groups receive funding from nation states and criminal syndicates.
+You must also consider the sophistication and level of resources/funding that different adversaries might possess. _Capability_ refers to a [[threat actor]]'s ability to craft novel exploit techniques and tools. The least capable threat actor relies on commodity attack tools that are widely available on the web or dark web. More capable actors can fashion zero-day exploits in operating systems, applications software, and embedded control systems. At the highest level, a threat actor might make use of non-cyber tools, such as political or military assets. Capability is only funded through a substantial budget. Sophisticated threat actor groups need to be able to acquire resources, such as customized attack tools and skilled strategists, designers, coders, hackers, and social engineers. The most capable threat actor groups receive funding from nation states and criminal syndicates.
 ## HACKERS, SCRIPT KIDDIES, AND HACKTIVISTS
 
 To fully assess intent and capability, it is helpful to identify different categories of threat actors.

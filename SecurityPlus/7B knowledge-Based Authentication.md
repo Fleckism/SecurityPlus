@@ -116,7 +116,7 @@ A _plaintext/unencrypted attack_ exploits password storage or a network authenti
 
 ### Online Attacks
 
-An _online password attack_ is where the threat actor interacts with the authentication service directly—a web login form or VPN gateway, for instance. The attacker submits passwords using either a database of known passwords (and variations) or a list of passwords that have been cracked offline.
+An _online password attack_ is where the [[threat actor]] interacts with the authentication service directly—a web login form or VPN gateway, for instance. The attacker submits passwords using either a database of known passwords (and variations) or a list of passwords that have been cracked offline.
 
 Also, be aware that there are databases of username and password/password hash combinations for multiple accounts stored across the Internet. These details derive from successful hacks of various companies' systems. These databases can be searched using a site such as [haveibeenpwned.com](https://haveibeenpwned.com/).
 

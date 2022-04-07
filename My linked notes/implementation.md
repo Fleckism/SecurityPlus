@@ -4,14 +4,7 @@ tags: [Implementation]
 - Standard IT that might be a specility 
 - Urgent is **OIR** (Operations is **Black, white, red, blue**)
 - **Incident Response is urgent**
-
-
-
-
-
-
-
-**Put a decision or plan into effect; execution**
+- **Put a decision or plan into effect; execution**
 Operations and Incident Response 16%  
 
 

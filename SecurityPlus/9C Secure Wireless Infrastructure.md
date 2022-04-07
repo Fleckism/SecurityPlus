@@ -40,7 +40,7 @@ UniFi Wireless Network management console. (Screenshot used with permission from
 
 An access point whose firmware contains enough processing logic to be able to function autonomously and handle clients without the use of a wireless controller is known as a fat WAP, while one that requires a wireless controller in order to function is known as a thin WAP.
 
-Controllers and access points must be made physically secure, as tampering could allow a  #threat actor to insert  a rogue/evil twin WAP to try to intercept logons. These devices must be managed like switches and routers, using secure management interfaces and strong administrative credentials.
+Controllers and access points must be made physically secure, as tampering could allow a  [[threat actor]] to insert  a rogue/evil twin WAP to try to intercept logons. These devices must be managed like switches and routers, using secure management interfaces and strong administrative credentials.
 # WI-FI PROTECTED ACCESS
 
 As well as the site design, a wireless network must be configured with security settings. Without encryption, anyone within range can intercept and read packets passing over the wireless network. These choices are determined by device support for the various Wi-Fi security standards, by the type of authentication infrastructure, and by the purpose of the [[WLAN]]. The security standard determines the cryptographic protocols that are supported, the means of generating the encryption key, and available methods for authenticating wireless stations when they try to join (or associate with) the network.

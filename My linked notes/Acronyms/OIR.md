@@ -1,5 +1,5 @@
 ---
-tags: [OIR, analyze, configure, Ops, Incident response]
+tags: [OIR, configure, Ops, Incident response]
 ---
 Operations and Incident Response 16%  
 OIR is the colors **Black, white, red, blue**
