@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "22051e7d0952c332",
+        "id": "e0c3df66760ea329",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/IoC.md",
+            "file": "SecurityPlus/1A Information Security Roles.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -32,12 +32,12 @@
         }
       },
       {
-        "id": "927714680863e599",
+        "id": "b3d681005e061eb1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/vulnerability.md",
+            "file": "SecurityPlus/1A Information Security Roles.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:Io",
+                "query": "\"threat actor\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Acronyms/IoC.md",
+                "file": "My linked notes/threat actor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,17 +137,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "22051e7d0952c332",
+  "active": "31b94ba2cc256951",
   "lastOpenFiles": [
-    "My linked notes/Acronyms/IoC.md",
-    "My linked notes/threat.md",
-    "My linked notes/implementation.md",
-    "My linked notes/vulnerability.md",
     "My linked notes/threat actor.md",
-    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
-    "SecurityPlus/18A Key Aspects of Digital Forensics Documentation.md",
-    "SecurityPlus/17C Mitigation Controls.md",
-    "SecurityPlus/17B Appropriate Data Sources for Incident Response.md",
-    "SecurityPlus/14E Deployment and Automation Concepts.md"
+    "SecurityPlus/1A Information Security Roles.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "SecurityPlus/4A  Compare and Contrast Social Engineering Techniques.md",
+    "SecurityPlus/1B Security Control and Framework Types.md",
+    "My linked notes/A_D Architecture and Design.md",
+    "My linked notes/Acronyms/OIR.md",
+    "My linked notes/vulnerability.md",
+    "My linked notes/Acronyms/IoC.md",
+    "My linked notes/threat.md"
   ]
 }
