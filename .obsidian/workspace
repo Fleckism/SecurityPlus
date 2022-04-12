@@ -6,10 +6,25 @@
       {
         "id": "4615bee9bbf070c4",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "My linked notes/assessment.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "63a341370bbb25e4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/3C  Vulnerability Scanning Technics.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:vulnerability",
+                "query": "\"management system\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -80,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/assessment.md",
+                "file": "SecurityPlus/3C  Vulnerability Scanning Technics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,17 +123,17 @@
     "direction": "horizontal",
     "width": 252
   },
-  "active": "4615bee9bbf070c4",
+  "active": "63a341370bbb25e4",
   "lastOpenFiles": [
+    "SecurityPlus/3C  Vulnerability Scanning Technics.md",
+    "SecurityPlus/8A Identity and Account Types.md",
+    "SecurityPlus/10C SIEM  security information and event management.md",
+    "SecurityPlus/12B Endpoint Security.md",
+    "SecurityPlus/14B Indicators of Web Application Attacks.md",
+    "SecurityPlus/16A Privacy and Data Sensitivity Concepts.md",
+    "SecurityPlus/16B Privacy and Data Protection Controls.md",
     "My linked notes/assessment.md",
-    "SecurityPlus/1A Information Security Roles.md",
-    "My linked notes/five functions.md",
-    "My linked notes/Acronyms/CSF.md",
-    "My linked notes/firewall.md",
-    "My linked notes/Acronyms/OSI.md",
-    "SecurityPlus/15B Cloud Security Solutions.md",
-    "My linked notes/vulnerability.md",
-    "My linked notes/threat hunting.md",
-    "My linked notes/threat actor.md"
+    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
+    "My linked notes/Acronyms/TTPs.md"
   ]
 }
