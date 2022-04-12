@@ -37,7 +37,8 @@ Security assessment refers to processes and tools that **evaluate the attack sur
 Where [[vulnerability]] scanning uses lists of patches and standard definitions of baseline configurations,
 - [[threat hunting]] is an **assessment technique** that utilizes insights gained from threat intelligence to **proactively** discover whether there is evidence of [[TTPs]] already present within the network or system. 
 	- Threat hunting is an proactive process.
-	- This contrasts with a reactive process  that is only triggered when alert conditions are reported through an incident management system. You can also contrast threat hunting with penetration testing. Where a pen test attempts to achieve some sort of system intrusion or concrete demonstration of weakness, threat hunting is based only on analysis of data within the system. To that extent, it is less potentially disruptive than pen testing.
+	- This contrasts with a reactive process  that is only triggered when alert conditions are reported through an incident management system. You can also contrast **threat hunting** with **penetration testing**. Where a pen test attempts to achieve some sort of system intrusion or concrete demonstration of weakness,
+	-  **threat hunting** is based only on analysis of data within the system. To that extent, it is less potentially disruptive than pen testing.
 
  
 
@@ -48,7 +49,8 @@ Where [[vulnerability]] scanning uses lists of patches and standard definitions 
 -   arp—display the local machine's Address Resolution Protocol ([[ARP]]) cache.
 -   host discovery scan
 
-next step in network reconnaissance is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services.
+next step in
+- **network reconnaissance** is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services.
 
 Are these all the steps in an assessment?
 - security assessments, network reconnaissance, vulnerability scanning, and penetration testing

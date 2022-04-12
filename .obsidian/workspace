@@ -19,12 +19,25 @@
         }
       },
       {
-        "id": "63a341370bbb25e4",
+        "id": "3292eb86f18e866e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/3C  Vulnerability Scanning Technics.md",
+            "file": "My linked notes/reconnaissance.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "b92ada5bd3170042",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/OIR.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"management system\"",
+                "query": "\"hosts\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/3C  Vulnerability Scanning Technics.md",
+                "file": "My linked notes/reconnaissance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,19 +134,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
-  "active": "63a341370bbb25e4",
+  "active": "3292eb86f18e866e",
   "lastOpenFiles": [
+    "My linked notes/reconnaissance.md",
+    "My linked notes/Acronyms/OIR.md",
+    "My linked notes/implementation.md",
+    "My linked notes/assessment.md",
     "SecurityPlus/3C  Vulnerability Scanning Technics.md",
     "SecurityPlus/8A Identity and Account Types.md",
     "SecurityPlus/10C SIEM  security information and event management.md",
     "SecurityPlus/12B Endpoint Security.md",
     "SecurityPlus/14B Indicators of Web Application Attacks.md",
-    "SecurityPlus/16A Privacy and Data Sensitivity Concepts.md",
-    "SecurityPlus/16B Privacy and Data Protection Controls.md",
-    "My linked notes/assessment.md",
-    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
-    "My linked notes/Acronyms/TTPs.md"
+    "SecurityPlus/16A Privacy and Data Sensitivity Concepts.md"
   ]
 }

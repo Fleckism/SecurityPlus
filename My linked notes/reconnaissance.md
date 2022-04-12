@@ -1,5 +1,5 @@
 ---
-tags: [OIR, ]
+tags: [Ops, ]
 ---
 
 Network reconnaissance and discovery is used to: 
