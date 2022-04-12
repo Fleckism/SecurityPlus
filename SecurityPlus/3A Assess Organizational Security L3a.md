@@ -21,7 +21,7 @@ EXAM OBJECTIVES COVERED
 
 **[[Reconnaissance]] is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network**. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using fingerprinting tools and capture and analyze network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
 ## ipconfig, ping, and ARP
-The process of **mapping out the attack surface is referred to as network reconnaissance** and discovery. Reconnaissance techniques are used by threat actors, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
+The process of **mapping out the attack surface is referred to as network reconnaissance** and discovery. Reconnaissance techniques are used by [[threat actor]]s, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
 
 [[Topology discovery]]* (or "footprinting") [1]**means scanning for hosts**, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors. 
 

@@ -57,13 +57,13 @@ If a decryption key is not distributed securely, it can easily fall into the han
 Following a **data breach** at a large retail company, their public relations team issues a statement emphasizing the company’s commitment to consumer privacy. Identify the true statements concerning this event. **(Select all that apply.)**
 
 1.  The data breach must be an intentional act of corporate sabotage.
-2.  ==The privacy breach may allow the threat actor to sell the data to other malicious actors.==
+2.  ==The privacy breach may allow the [[threat actor]] to sell the data to other malicious actors.==
 3.  ==Data exfiltration by a malicious actor may have caused the data breach==.
 4.  The data breach event may compromise data integrity, but not information availability.
 
 Solution
 
-A privacy breach may allow the threat actor to perform identity theft or to sell the data to other malicious actors. Malicious actors may obtain account credentials or use personal details and financial information to make fraudulent credit applications and purchases.
+A privacy breach may allow the [[threat actor]] to perform identity theft or to sell the data to other malicious actors. Malicious actors may obtain account credentials or use personal details and financial information to make fraudulent credit applications and purchases.
 
 A data breach is a consequence of a data exfiltration event. A data exfiltration event is always intentional and malicious.
 

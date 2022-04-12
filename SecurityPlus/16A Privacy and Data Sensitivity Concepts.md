@@ -3,7 +3,7 @@ tags: [GRC, A_D,section]
 ---
 # LESSON INTRODUCTION
 
-If people are an organization's most important asset, then data comes a close second. The rapid adoption of cybersecurity awareness and technologies has come about because of the huge reputational and financial costs of high-profile data and privacy breaches. It is usually data that the threat actors want, and data that the whole system is set up to protect.
+If people are an organization's most important asset, then data comes a close second. The rapid adoption of cybersecurity awareness and technologies has come about because of the huge reputational and financial costs of high-profile data and privacy breaches. It is usually data that the [[threat actor]]s want, and data that the whole system is set up to protect.
 
 The **confidentiality, integrity, and availability** security attributes of [[data processing]] and [[storage]] are ensured through a mixture of **managerial, operational, and technical controls**. Along with security, you should also be able to assess privacy factors when collecting and storing data, and identify how processes must be shaped by legislative and regulatory compliance.
 

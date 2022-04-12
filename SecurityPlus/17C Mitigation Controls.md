@@ -54,7 +54,7 @@ If your organization is subjected to a targeted attack, be aware that one incide
 -   **Block access from** any IP address space that is not authorized for use on your local network.
 -   **Block all Internet access from host subnets** that do not need to connect to the Internet, such as most types of internal server, workstations used to manage industrial control systems (ICSs), and so on.
 
-**Even within these rules, there is a lot of scope for threat actors to perform command signaling and exfiltration**. For example, cloud services, such as content delivery networks and social media platforms, can be used to communicate scripts and malware commands and to exfiltrate data over HTTPS ([rhinosecuritylabs.com/aws/hiding-cloudcobalt-strike-beacon-c2-using-amazon-apis](https://rhinosecuritylabs.com/aws/hiding-cloudcobalt-strike-beacon-c2-using-amazon-apis/)).
+**Even within these rules, there is a lot of scope for [[threat actor]]s to perform command signaling and exfiltration**. For example, cloud services, such as content delivery networks and social media platforms, can be used to communicate scripts and malware commands and to exfiltrate data over HTTPS ([rhinosecuritylabs.com/aws/hiding-cloudcobalt-strike-beacon-c2-using-amazon-apis](https://rhinosecuritylabs.com/aws/hiding-cloudcobalt-strike-beacon-c2-using-amazon-apis/)).
 # CONTENT FILTER CONFIGURATION CHANGES
 
 The limitations of a basic packet filtering firewall (even if it is stateful) mean that some sort of **content filtering application proxy may provide better security**. These types of appliances are usually referred to as secure web gateways ([[SWGs]]). A [[SWG]] **mediates user access to Internet services, with the ability to block content from regularly updated URL/domain/IP block lists and perform intrusion detection/prevention on traffic based on matching content in application layer protocol headers and payloads.**
@@ -67,7 +67,7 @@ If a **SWG is already in place**, an attacker may have found a way to circumvent
 
 ### Mobile Device Management (MDM) 
 
-Mobile Device Management (MDM) provides execution control over apps and features of smartphones. Features include GPS, camera, and microphone. As with DLP, an intrusion might reveal a vector that allowed the [[threat actor]] to circumvent enrollment or a misconfiguration in the MDM's policy templates. 
+Mobile Device Management (MDM) provides execution control over apps and features of smartphones. Features include GPS, camera, and microphone. As with DLP, an intrusion might reveal a vector that allowed the [[[[threat actor]]]] to circumvent enrollment or a misconfiguration in the MDM's policy templates. 
 
 ### Update or Revoke Certificates
 
@@ -94,7 +94,7 @@ One element of [[endpoint]] configuration is an execution control policy that de
 
 You will need to update the contents of allow lists and block lists in response to incidents and as a result of ongoing threat hunting and monitoring. Threat hunting may also provoke a strategic change. For example, if you rely principally on **explicit denies**, but your systems are subject to numerous intrusions, you will have to consider adopting a "**least privileges**" model and using a deny-unless-listed approach. This sort of change has the potential to be highly disruptive however, so it must be preceded by a risk assessment and business impact analysis.
 
-Execution control can also be tricky to configure effectively, with many opportunities for threat actors to evade the controls. Detailed analysis of the attack might show the need for changes to the existing mechanism, or the use of a more robust system.
+Execution control can also be tricky to configure effectively, with many opportunities for [[threat actor]]s to evade the controls. Detailed analysis of the attack might show the need for changes to the existing mechanism, or the use of a more robust system.
 
 ### Quarantine
 

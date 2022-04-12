@@ -4,7 +4,7 @@ tags: [threat,OIR,section ]
 
 ## EXAM OBJECTIVES COVERED
 
-1.5 Explain different threat actors, vectors, and intelligence sources
+1.5 Explain different [[threat actor]]s, vectors, and intelligence sources
 
 As a security professional, you must continually refresh and expand your knowledge of both security technologies and practices and adversary tactics and techniques. As well as staying up-to-date on a personal level, you will also need to select and deploy threat intelligence platforms. You need to be able to identify and evaluate sources of threat intelligence and research and to use these resources to enhance security controls.
 
@@ -29,7 +29,7 @@ The outputs from the primary research undertaken by security solutions providers
 
 -   Behavioral threat research—narrative commentary describing examples of attacks and [[TTPs]] gathered through primary research sources.
 -   Reputational threat intelligence—lists of IP addresses and domains associated with malicious behavior, plus signatures of known file-based malware.
--   Threat data—computer data that can correlate events observed on a customer's own networks and logs with known TTP and threat actor indicators.
+-   Threat data—computer data that can correlate events observed on a customer's own networks and logs with known TTP and [[threat actor]] indicators.
 
 Threat data can be packaged as feeds that integrate with a **security information and event management ([[SIEM]])** platform. These feeds are usually described as cyber threat intelligence ([[CTI]]) data. The data on its own is not a complete security solution however. To produce actionable intelligence, the threat data must be correlated with observed data from customer networks. This type of analysis is often powered by artificial intelligence (AI) features of the [[SIEM]].
 
@@ -126,6 +126,6 @@ In terms of threat intelligence, this AI-backed analysis might perform accurate 
 
 ### Predictive Analysis
 
-Identifying the signs of a past attack or the presence of live attack tools on a network quickly is valuable. However, one of the goals of using AI-backed threat intelligence is to perform predictive analysis, or threat forecasting. This means that the system can anticipate a particular type of attack and possibly the identity of the [[threat actor]] before the attack is fully realized. For example, the system tags references to a company, related IP addresses, and account names across a range of ingested data from dark web sources, web searches, social media posts, phishing email attempts, and so on. The analysis engine associates this "chatter" with IP addresses that it can correlate with a known adversary group. This gives the target advance warning that an attack is in the planning stages and more time to prepare an effective defense.
+Identifying the signs of a past attack or the presence of live attack tools on a network quickly is valuable. However, one of the goals of using AI-backed threat intelligence is to perform predictive analysis, or threat forecasting. This means that the system can anticipate a particular type of attack and possibly the identity of the [[[[threat actor]]]] before the attack is fully realized. For example, the system tags references to a company, related IP addresses, and account names across a range of ingested data from dark web sources, web searches, social media posts, phishing email attempts, and so on. The analysis engine associates this "chatter" with IP addresses that it can correlate with a known adversary group. This gives the target advance warning that an attack is in the planning stages and more time to prepare an effective defense.
 
 Such concrete threat forecasting is not a proven capability of any commercial threat intelligence platform at the time of writing. However, predictive analysis can inform risk assessment by giving more accurate, quantified measurements of the likelihood and impact (cost) of breach-type events.

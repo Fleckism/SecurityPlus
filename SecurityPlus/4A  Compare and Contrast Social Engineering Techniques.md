@@ -3,7 +3,7 @@ tags: [OIR,section ]
 ---
 
 ## Introduction
-It is not sufficient for security assessments to focus solely on software vulnerabilities and configuration errors. As well as these hardware and software systems, the attack surface contains a company's employees and the degree to which they can be exploited to gain unauthorized access or privileges. Threat actors use social engineering techniques to elicit information, obtain access to premises, and to trick users into running malicious code. You must understand these attacks and train your colleagues and customers with the ability to detect and report them. As well as being able to explain these techniques, you must be able to describe the indicators associated with different types of malware and analyze your systems for possible infections.
+It is not sufficient for security assessments to focus solely on software vulnerabilities and configuration errors. As well as these hardware and software systems, the attack surface contains a company's employees and the degree to which they can be exploited to gain unauthorized access or privileges. [[threat actor]]s use social engineering techniques to elicit information, obtain access to premises, and to trick users into running malicious code. You must understand these attacks and train your colleagues and customers with the ability to detect and report them. As well as being able to explain these techniques, you must be able to describe the indicators associated with different types of malware and analyze your systems for possible infections.
 
 LESSON OBJECTIVES
 
@@ -20,7 +20,7 @@ People—employees, contractors, suppliers, and customers—represent part of th
 
 ## SOCIAL ENGINEERING
 
-Adversaries can use a diverse range of techniques to compromise a security system. A prerequisite of many types of attacks is to obtain information about the network and security system. Social engineering refers to means of either eliciting information from someone or getting them to perform some action for the threat actor. It can also be referred to as "hacking the human." Social engineering might be used to gather intelligence as reconnaissance in preparation for an intrusion, or it might be used to effect an actual intrusion. Typical social engineering intrusion scenarios include:
+Adversaries can use a diverse range of techniques to compromise a security system. A prerequisite of many types of attacks is to obtain information about the network and security system. Social engineering refers to means of either eliciting information from someone or getting them to perform some action for the [[threat actor]]. It can also be referred to as "hacking the human." Social engineering might be used to gather intelligence as reconnaissance in preparation for an intrusion, or it might be used to effect an actual intrusion. Typical social engineering intrusion scenarios include:
 
 -   An attacker creates an **executable file** that prompts a network user for their password, and then records whatever the user inputs. The attacker then emails the executable file to the user with the story that the user must double-click the file and log on to the network again to clear up some logon problems the organization has been experiencing that morning. After the user complies, the attacker now has access to their network credentials.
 -   An attacker contacts the help desk pretending to be a remote sales representative who needs assistance setting up remote access. Through a series of phone calls, the attacker obtains the name/address of the remote access server and login credentials, in addition to phone numbers for remote access and for accessing the organization's private phone and voice-mail system.
@@ -74,7 +74,7 @@ Remember that attacks may be staged over a long period. Initial attacks may only
 
 ### Tailgating and Piggy Backing
 
-Tailgating is a means of entering a secure area without authorization by following close behind the person that has been allowed to open the door or checkpoint. _Piggy backing_ is a similar situation, but means that the attacker enters a secure area with an employee's permission. For instance, an attacker might impersonate a member of the cleaning crew and request that an employee hold the door open while they bring in a cleaning cart or mop bucket. Alternatively, piggy backing may be a means of an insider threat actor to allow access to someone without recording it in the building's entry log. Another technique is to persuade someone to hold a door open, using an excuse, such as "I've forgotten my badge/key."
+Tailgating is a means of entering a secure area without authorization by following close behind the person that has been allowed to open the door or checkpoint. _Piggy backing_ is a similar situation, but means that the attacker enters a secure area with an employee's permission. For instance, an attacker might impersonate a member of the cleaning crew and request that an employee hold the door open while they bring in a cleaning cart or mop bucket. Alternatively, piggy backing may be a means of an insider [[threat actor]] to allow access to someone without recording it in the building's entry log. Another technique is to persuade someone to hold a door open, using an excuse, such as "I've forgotten my badge/key."
 
 ## IDENTITY FRAUD AND INVOICE SCAMS
 
@@ -85,7 +85,7 @@ _Sometimes the terms identity fraud and identity theft are used to distinguish b
 In terms of attacks on corporate networks, identity fraud is likely to involve compromising a computer account. Various social engineering techniques can be used to obtain account credentials without having to rely on malware.  Apart from eliciting credential information from a user directly, some of these techniques include:
 
 -   Credential databases—account details from previous attacks are widely available ([haveibeenpwned.com](https://haveibeenpwned.com/)). An attacker can try to match a target in one of these databases and hope that they have reused a password. The attacker could also leverage third-party sites for impersonation. For example, rather than using a work account, they could gain control of a social media account.
--   [[Shoulder surfing]]—a threat actor can learn a password or PIN (or other secure information) by watching the user type it. Despite the name, the attacker may not have to be in close proximity to the target—they could use high-powered binoculars or CCTV to directly observe the target remotely.
+-   [[Shoulder surfing]]—a [[threat actor]] can learn a password or PIN (or other secure information) by watching the user type it. Despite the name, the attacker may not have to be in close proximity to the target—they could use high-powered binoculars or CCTV to directly observe the target remotely.
 -   Lunchtime attacks—most authentication methods are dependent on the physical security of the workstation. If a user leaves a workstation unattended while logged on, an attacker can physically gain access to the system. This is often described as a _lunchtime attack._ Most operating systems are set to activate a password-protected screen saver after a defined period of no keyboard or mouse activity. Users should also be trained to lock or log off the workstation whenever they leave it unattended.
 
 ## PHISHING, WHALING, AND VISHING
@@ -108,7 +108,7 @@ Rapid improvements in deep fake technology ([forbes.com/sites/jessedamiani/2019/
 
 ## SPAM, HOAXES, AND PREPENDING
 
-Unsolicited email, or [[spam]], is used as the vector for many attacks. Threat actors harvest email addresses from marketing lists or databases of historic privacy breaches, or might try to target every email address at a certain company. Mass mail attacks could also be perpetrated over any type of instant messaging or Internet messaging service ([[SPIM]]).
+Unsolicited email, or [[spam]], is used as the vector for many attacks. [[threat actor]]s harvest email addresses from marketing lists or databases of historic privacy breaches, or might try to target every email address at a certain company. Mass mail attacks could also be perpetrated over any type of instant messaging or Internet messaging service ([[SPIM]]).
 
 Hoaxes, such as security alerts or chain emails, are another common social engineering technique, often combined with phishing attacks. An email alert or web pop-up will claim to have identified some sort of security problem, such as virus infection, and offer a tool to fix the problem. The tool of course will be some sort of Trojan application. Malvertising exploits the use of space on legitimate websites set aside for advertising served from content delivery networks (CDNs) without much oversight ([blog.talosintelligence.com/2019/07/malvertising-deepdive.html](https://blog.talosintelligence.com/2019/07/malvertising-deepdive.html)). Criminals will also use sophisticated phone call scams to try to trick users into revealing login credentials or financial account details.
 
@@ -124,11 +124,11 @@ Direct messages to a single contact have quite a high chance of failure. Other s
 
 ### Typosquatting
 
-Rather than redirection, a threat actor might use typosquatting. This means that the threat actor registers a domain name that is very similar to a real one, such as connptia.org, hoping that users will not notice the difference. These are also referred to as _cousin, lookalike,_ or _doppelganger_ domains. Typosquatting might be used for pharming and phishing attacks. Another technique is to register a hijacked subdomain using the primary domain of a trusted cloud provider, such as onmicrosoft.com. If a phishing message appears to come from comptia.onmicrosoft.com, many users will be inclined to trust it. 
+Rather than redirection, a [[threat actor]] might use typosquatting. This means that the [[threat actor]] registers a domain name that is very similar to a real one, such as connptia.org, hoping that users will not notice the difference. These are also referred to as _cousin, lookalike,_ or _doppelganger_ domains. Typosquatting might be used for pharming and phishing attacks. Another technique is to register a hijacked subdomain using the primary domain of a trusted cloud provider, such as onmicrosoft.com. If a phishing message appears to come from comptia.onmicrosoft.com, many users will be inclined to trust it. 
 
 ### Watering Hole Attack
 
-A watering hole attack is another passive technique where the [[threat actor]] does not have to risk communicating directly with the target. It relies on the circumstance that a group of targets may use an unsecure third-party website. For example, staff running an international e-commerce site might use a local pizza delivery firm. If an attacker can compromise the pizza delivery firm's website or deploy a type of malvertising, they may be able to infect the computers of the e-commerce company's employees and penetrate the e-commerce company systems.
+A watering hole attack is another passive technique where the [[[[threat actor]]]] does not have to risk communicating directly with the target. It relies on the circumstance that a group of targets may use an unsecure third-party website. For example, staff running an international e-commerce site might use a local pizza delivery firm. If an attacker can compromise the pizza delivery firm's website or deploy a type of malvertising, they may be able to infect the computers of the e-commerce company's employees and penetrate the e-commerce company systems.
 
 ### Credential Harvesting
 

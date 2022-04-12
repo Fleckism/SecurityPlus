@@ -100,7 +100,7 @@ Once the target disk has been safely attached to the [[forensics workstation]], 
 3.  A second hash is then made of the image, which should match the original hash of the media.
 4.  A copy is made of the reference image, validated again by the checksum. Analysis is performed on the copy.
 
-This proof of integrity ensures non-repudiation. If the provenance of the evidence is certain, the threat actor identified by analysis of the evidence cannot deny their actions. The checksums prove that no modification has been made to the image.
+This proof of integrity ensures non-repudiation. If the provenance of the evidence is certain, the [[threat actor]] identified by analysis of the evidence cannot deny their actions. The checksums prove that no modification has been made to the image.
 
 In practical terms, the image acquisition software will perform the verification steps as part of the acquisition process, but in theory you could use separate tools to perform each stage individually.
 

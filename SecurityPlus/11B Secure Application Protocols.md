@@ -170,7 +170,7 @@ The Session Initiation Protocol ([[SIP]]) is one of the most widely used session
 
 While SIP provides session management features, the actual delivery of real-time data uses different protocols. The principal one is Real-time Transport Protocol ([[RTP]]). 
 
-A [[threat actor]] could exploit unencrypted voice and video communications to try to intercept passwords, credit card details, and so on. Without strong mutual authentication, connections are also vulnerable to man-in-the-middle attacks.
+A [[[[threat actor]]]] could exploit unencrypted voice and video communications to try to intercept passwords, credit card details, and so on. Without strong mutual authentication, connections are also vulnerable to man-in-the-middle attacks.
 
 ![A dialog box labeled “Account Advanced Settings” has a setting “SIP transport: TLS” that is highlighted by a red box added to the image.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3228-1599771805552.png)
 

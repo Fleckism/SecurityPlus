@@ -116,7 +116,7 @@ A _plaintext/unencrypted attack_ exploits password storage or a network authenti
 
 ### Online Attacks
 
-An _online password attack_ is where the [[threat actor]] interacts with the authentication service directly—a web login form or VPN gateway, for instance. The attacker submits passwords using either a database of known passwords (and variations) or a list of passwords that have been cracked offline.
+An _online password attack_ is where the [[[[threat actor]]]] interacts with the authentication service directly—a web login form or VPN gateway, for instance. The attacker submits passwords using either a database of known passwords (and variations) or a list of passwords that have been cracked offline.
 
 Also, be aware that there are databases of username and password/password hash combinations for multiple accounts stored across the Internet. These details derive from successful hacks of various companies' systems. These databases can be searched using a site such as [haveibeenpwned.com](https://haveibeenpwned.com/).
 
@@ -130,7 +130,7 @@ Password spraying is a horizontal brute-force online attack. This means that the
 
 ### Offline Attacks 
 
-An _offline attack_ means that the attacker has managed to obtain a database of password hashes, such as %SystemRoot%\System32\config\SAM, %SystemRoot%\NTDS\NTDS.DIT (the Active Directory credential store), or /etc/shadow. Once the password database has been obtained, the password cracker does not interact with the authentication system. **The only indicator of this type of attack (other than misuse of the account in the event of a successful attack) is a file system audit log that records the malicious account accessing one of these files. Threat actors can also read credentials from host memory, in which case the only reliable indicator might be the presence of attack tools on a host.**
+An _offline attack_ means that the attacker has managed to obtain a database of password hashes, such as %SystemRoot%\System32\config\SAM, %SystemRoot%\NTDS\NTDS.DIT (the Active Directory credential store), or /etc/shadow. Once the password database has been obtained, the password cracker does not interact with the authentication system. **The only indicator of this type of attack (other than misuse of the account in the event of a successful attack) is a file system audit log that records the malicious account accessing one of these files. [[threat actor]]s can also read credentials from host memory, in which case the only reliable indicator might be the presence of attack tools on a host.**
 
 If the attacker cannot obtain a database of passwords, a packet sniffer might be used to obtain the client response to a server challenge in a protocol such as [[NTLM]] or [[CHAP]]/MS-CHAP. Although these protocols avoid sending the hash of the password directly, the response is derived from it in some way. Password crackers can exploit weaknesses in a protocol to calculate the hash and match it to a dictionary word or brute force it.
 # BRUTE-FORCE AND DICTIONARY ATTACKS

@@ -62,7 +62,7 @@ A phishing campaign training event means sending simulated phishing messages to 
 
 ### Capture the Flag
 
-Capture the Flag ([[CTF]]) is usually used in ethical hacker training programs and gamified competitions. Participants must complete a series of challenges within a virtualized computing environment to discover a flag. The flag will represent either [[threat actor]] activity (for blue team exercises) or a vulnerability (for red team exercises) and the participant must use analysis and appropriate tools to discover it. Capturing the flag allows the user to progress to the next level and start a new challenge. Once the participant has passed the introductory levels, they will join a team and participate in a competitive event, where there are multiple flags embedded in the environment and capturing them wins points for the participant and for their team.
+Capture the Flag ([[CTF]]) is usually used in ethical hacker training programs and gamified competitions. Participants must complete a series of challenges within a virtualized computing environment to discover a flag. The flag will represent either [[[[threat actor]]]] activity (for blue team exercises) or a vulnerability (for red team exercises) and the participant must use analysis and appropriate tools to discover it. Capturing the flag allows the user to progress to the next level and start a new challenge. Once the participant has passed the introductory levels, they will join a team and participate in a competitive event, where there are multiple flags embedded in the environment and capturing them wins points for the participant and for their team.
 
 ### Computer-Based Training and Gamification
 

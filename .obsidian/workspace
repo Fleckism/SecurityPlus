@@ -4,40 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "31b94ba2cc256951",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/threat actor.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "e0c3df66760ea329",
+        "id": "4615bee9bbf070c4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/1A Information Security Roles.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "b3d681005e061eb1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/1A Information Security Roles.md",
+            "file": "My linked notes/assessment.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -77,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"threat actor\"",
+                "query": "file:vulnerability",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -91,7 +63,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -107,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/threat actor.md",
+                "file": "My linked notes/assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,20 +107,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
-  "active": "31b94ba2cc256951",
+  "active": "4615bee9bbf070c4",
   "lastOpenFiles": [
-    "My linked notes/threat actor.md",
+    "My linked notes/assessment.md",
     "SecurityPlus/1A Information Security Roles.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "SecurityPlus/4A  Compare and Contrast Social Engineering Techniques.md",
-    "SecurityPlus/1B Security Control and Framework Types.md",
-    "My linked notes/A_D Architecture and Design.md",
-    "My linked notes/Acronyms/OIR.md",
+    "My linked notes/five functions.md",
+    "My linked notes/Acronyms/CSF.md",
+    "My linked notes/firewall.md",
+    "My linked notes/Acronyms/OSI.md",
+    "SecurityPlus/15B Cloud Security Solutions.md",
     "My linked notes/vulnerability.md",
-    "My linked notes/Acronyms/IoC.md",
-    "My linked notes/threat.md"
+    "My linked notes/threat hunting.md",
+    "My linked notes/threat actor.md"
   ]
 }

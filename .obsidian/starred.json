@@ -69,6 +69,21 @@
       "type": "file",
       "title": "19A Risk Management Process and Concepts",
       "path": "SecurityPlus/19A Risk Management Process and Concepts.md"
+    },
+    {
+      "type": "file",
+      "title": "OSI",
+      "path": "My linked notes/Acronyms/OSI.md"
+    },
+    {
+      "type": "file",
+      "title": "firewall",
+      "path": "My linked notes/firewall.md"
+    },
+    {
+      "type": "file",
+      "title": "five functions",
+      "path": "My linked notes/five functions.md"
     }
   ]
 }

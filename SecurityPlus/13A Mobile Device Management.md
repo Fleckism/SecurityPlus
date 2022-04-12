@@ -68,7 +68,7 @@ Since version 4.3, Android has been based on Security-Enhanced Linux. SEAndroid 
 Configuring app permissions in Android OS. (Android is a trademark of Google LLC.)
 # MOBILE ACCESS CONTROL SYSTEMS 
 
-If a [[threat actor]] is able to gain access to a smartphone or tablet, they can obtain a huge amount of information and the tools with which to launch further attacks. Quite apart from confidential data files that might be stored on the device, it is highly likely that the user has cached passwords for services such as email or remote access VPN and websites. 
+If a [[[[threat actor]]]] is able to gain access to a smartphone or tablet, they can obtain a huge amount of information and the tools with which to launch further attacks. Quite apart from confidential data files that might be stored on the device, it is highly likely that the user has cached passwords for services such as email or remote access VPN and websites. 
 
 ### Smartphone Authentication
 

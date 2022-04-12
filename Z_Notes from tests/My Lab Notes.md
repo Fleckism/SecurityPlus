@@ -20,5 +20,5 @@ Internet Protocol Version 4
 In the Wireshark interface, what is the name of the layer where the source and destination port numbers are found (Hint: this info is in the middle pane of the interface)?
 Transmission Control Protocol TCP
 
-- Vulnerabilities in the OS and applications software such as web browsers and document readers or in PC and adapter firmware can allow threat actors to run malware and gain a foothold on the network
+- Vulnerabilities in the OS and applications software such as web browsers and document readers or in PC and adapter firmware can allow [[threat actor]]s to run malware and gain a foothold on the network
 - Legacy platforms no longer receive security updates

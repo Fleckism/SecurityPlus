@@ -178,6 +178,6 @@ The preponderance of east-west traffic complicates security design. If each of t
 
 ### Zero Trust
 
-Zero trust is based on the idea that perimeter security is unlikely to be completely robust. On a modern network, there are just too many opportunities for traffic to escape monitoring by perimeter devices and DMZs. **Zero trust uses systems such as continuous authentication and conditional access to mitigate privilege escalation and account compromise by threat actors**.
+Zero trust is based on the idea that perimeter security is unlikely to be completely robust. On a modern network, there are just too many opportunities for traffic to escape monitoring by perimeter devices and DMZs. **Zero trust uses systems such as continuous authentication and conditional access to mitigate privilege escalation and account compromise by [[threat actor]]s**.
 
 Another zero trust technique is to apply microsegmentation. Microsegmentation is a security process that is capable of applying policies to a single node, as though it was in a zone of its own. Like east-west traffic, this requires a new generation of virtualized security appliances to implement ([vmware.com/solutions/micro-segmentation.html](https://www.vmware.com/solutions/micro-segmentation.html)).

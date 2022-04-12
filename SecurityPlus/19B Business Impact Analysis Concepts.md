@@ -68,7 +68,7 @@ In terms of business continuity, a disaster is an event that could threaten miss
 
 ### Internal versus External
 
-An internal disaster is one that is caused by malicious activity or by accident by an employee or contractor—anyone or anything whose presence within the company or organization has been authorized. Internal disaster also encompasses system faults, such as wiring causing a fire. Conversely, external disaster events are caused by threat actors who have no privileged access. External disaster includes disasters that have an impact on the organization through wider environmental or social impacts, such as disruption of public services or impacts to the supply chain.
+An internal disaster is one that is caused by malicious activity or by accident by an employee or contractor—anyone or anything whose presence within the company or organization has been authorized. Internal disaster also encompasses system faults, such as wiring causing a fire. Conversely, external disaster events are caused by [[threat actor]]s who have no privileged access. External disaster includes disasters that have an impact on the organization through wider environmental or social impacts, such as disruption of public services or impacts to the supply chain.
 
 ### Person-Made
 

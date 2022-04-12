@@ -42,7 +42,7 @@ General types of risks can be identified as arising from specific threat and vul
 
 ### External
 
-External threat actors are one highly visible source of risk. You must also consider wider threats than those of cyberattack. Natural disasters, such as the COVID-19 pandemic, illustrate the need to have IT systems and workflows that are resilient to widespread dislocation. The most critical type of impact is one that could lead to loss of life or critical injury. The most obvious risks to life and safety come from natural disasters, person-made disasters, and accidents, such as fire.
+External [[threat actor]]s are one highly visible source of risk. You must also consider wider threats than those of cyberattack. Natural disasters, such as the COVID-19 pandemic, illustrate the need to have IT systems and workflows that are resilient to widespread dislocation. The most critical type of impact is one that could lead to loss of life or critical injury. The most obvious risks to life and safety come from natural disasters, person-made disasters, and accidents, such as fire.
 
 ### Internal
 
@@ -131,7 +131,7 @@ Where inherent risk is the risk before mitigation,[[ residual risk]] is the like
 
 ### Control Risk
 
-[[Control risk]] is a measure of how much less effective a security control has become over time. For example, antivirus became quite capable of detecting malware on the basis of signatures, but then less effective as threat actors started to **obfuscate code**. Control risk can also refer a security control that was never effective in mitigating inherent risk. This illustrates the point that risk management is an ongoing process, requiring continual reassessment and re-prioritization.
+[[Control risk]] is a measure of how much less effective a security control has become over time. For example, antivirus became quite capable of detecting malware on the basis of signatures, but then less effective as [[threat actor]]s started to **obfuscate code**. Control risk can also refer a security control that was never effective in mitigating inherent risk. This illustrates the point that risk management is an ongoing process, requiring continual reassessment and re-prioritization.
 # RISK AWARENESS
 
 To ensure that the business stakeholders understand each risk scenario, you should **articulate it such that the cause and effect can clearly be understood by the owner of the asset**. A DoS risk should be put into plain language that describes how the risk would occur and, as a result, what access is being denied to whom, and the effect to the business. For example: "As a result of malicious or hacking activity against the public website, the site may become overloaded, preventing clients from accessing their client order accounts. This will result in a loss of sales for so many hours and a potential loss of revenue of so many dollars."
