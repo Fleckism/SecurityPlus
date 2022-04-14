@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -140,9 +141,9 @@
   "active": "3292eb86f18e866e",
   "lastOpenFiles": [
     "My linked notes/reconnaissance.md",
+    "My linked notes/assessment.md",
     "My linked notes/Acronyms/OIR.md",
     "My linked notes/implementation.md",
-    "My linked notes/assessment.md",
     "SecurityPlus/3C  Vulnerability Scanning Technics.md",
     "SecurityPlus/8A Identity and Account Types.md",
     "SecurityPlus/10C SIEM  security information and event management.md",
