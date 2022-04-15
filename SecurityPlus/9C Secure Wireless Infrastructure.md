@@ -1,9 +1,9 @@
 ---
-tags: [OIR, Implementation,section]
+tags: [Ops, Implementation,section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.4 Given a scenario, analyze potential indicators associated with network attacks
+1.4 Given a scenario, **analyze potential (Ops)** indicators associated with network attacks
 
 3.4 Given a scenario, install and configure wireless security settings 
 
@@ -16,7 +16,7 @@ The 5 GHz band has more space to configure non-overlapping channels. Also note t
 
 ### Wireless Access Point (WAP) Placement
 
-An infrastructure-based wireless network comprises one or more wireless access points, each connected to a wired network. The access points forward traffic to and from the wired switched network. Each WAP is identified by its MAC address, also referred to as its basic service set identifier ([[BSSID]]). Each wireless network is identified by its name, or service set identifier ([[SSID]]).
+An infrastructure-based wireless network comprises one or more wireless access points ([[Device]]) , each connected to a wired network. The access points forward traffic to and from the wired switched network. Each WAP is identified by its [[MAC address]], also referred to as its basic service set identifier ([[BSSID]]). Each wireless network is identified by its name, or service set identifier ([[SSID]]).
 
 Wireless networks can operate in either the 2.4 GHz or 5 GHz radio band. Each radio band is divided into a number of channels, and each WAP must be configured to use a specific channel. For performance reasons, the channels chosen should be as widely spaced as possible to reduce different **types of interference**:
 
