@@ -1,7 +1,7 @@
 **Exploits a [[vulnerability]] and breaches security**
 aka threat agent
 - Uses [[attack vector]]'s
-Attributes of **[[[[[[threat actor]]]]]]s**
+Attributes of **threat actors**
 - Capability their ability to craft novel exploit techniques and tools.
 	- Least capable rely on commodity attack tools.
 	- Most capable fashion zero-day exploits in

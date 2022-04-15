@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "09ce44ef10119dd0",
+        "id": "72794d62194fe7a1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/MAC address.md",
+            "file": "My linked notes/HMAC.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,8 +62,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:MAC",
-                "matchingCase": true,
+                "query": "\"HMAC\"",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 313.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/MAC address.md",
+                "file": "My linked notes/HMAC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +122,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "09ce44ef10119dd0",
+  "active": "72794d62194fe7a1",
   "lastOpenFiles": [
+    "My linked notes/HMAC.md",
+    "SecurityPlus/9C Secure Wireless Infrastructure.md",
+    "My linked notes/Acronyms/AES.md",
+    "My linked notes/SOHO.md",
+    "My linked notes/Acronyms/WPA.md",
+    "My linked notes/threat actor.md",
     "My linked notes/MAC address.md",
     "SecurityPlus/9A Secure Network Desings.md",
     "SecurityPlus/3A Assess Organizational Security L3a.md",
-    "SecurityPlus/9C Secure Wireless Infrastructure.md",
-    "My linked notes/Device.md",
-    "SecurityPlus/8B Account Polices.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "SecurityPlus/6B PKI Management.md",
-    "My linked notes/assessment.md",
-    "My linked notes/reconnaissance.md"
+    "My linked notes/Device.md"
   ]
 }
