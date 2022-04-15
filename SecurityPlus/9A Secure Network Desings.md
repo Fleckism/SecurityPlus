@@ -41,7 +41,7 @@ A [[secure network design]] provisions the assets and services underpinning busi
 
 Network architecture is designed to support business workflows. You can illustrate the sorts of decisions that need to be made by **analyzing a simple workflow**, such as email:
 
--   **Access**—the client device must access the network, obtaining a physical channel and logical address. The user must be authenticated and authorized to use the email application. The corollary is that unauthorized users and devices must be denied access.
+-   **Access**—the client device must access the network, obtaining a [[physical channel and logical address]]. The user must be authenticated and authorized to use the email application. The corollary is that unauthorized users and devices must be denied access.
 -   **Email mailbox server**—ensure that the mailbox is only accessed by authorized clients and that it is fully available and fault tolerant. Ensure that the email service runs with a minimum number of dependencies and that the service is designed to be resilient to faults.
 -   **Mail transfer server**—this must connect with untrusted Internet hosts, so communications between the untrusted network and trusted LAN must be carefully controlled. Any data or software leaving or entering the network must be subject to policy-based controls.
 
@@ -98,7 +98,7 @@ Because enterprise networks typically feature hundreds of switching appliances a
 
 Given the ability to create segregated segments with the network, you can begin to define a topology of different network zones. **A topology is a description of how a computer network is physically or logically organized.** The logical and physical network topology should be analyzed to identify points of vulnerability and to ensure that the goals of confidentiality, integrity, and availability are met by the design.
 
-The main building block of a security [[Topology discovery|Topology]] is the zone. A zone is an area of the network where the security configuration is the same for all hosts within it. Zones should be segregated from one another by physical and/or logical segmentation, using VLANs and subnets. Traffic between zones should be strictly controlled using a security device, typically a firewall.
+The main building block of a security [[Topology discovery|Topology]] is the [[zone]]. A zone is an area of the network where the security configuration is the same for all hosts within it. Zones should be segregated from one another by physical and/or logical segmentation, using VLANs and subnets. Traffic between zones should be strictly controlled using a security device, typically a firewall.
  
 Dividing a campus network or data center into zones implies that each zone has a different security configuration. The main zones are as follows:
 
