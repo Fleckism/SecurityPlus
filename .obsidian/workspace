@@ -4,54 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "264290d9b842f9d5",
+        "id": "dd40fee8bd5ee966",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/assessment.md",
+            "file": "My linked notes/My 2nd est.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
-        },
-        "group": "654fd32f6ad90b72"
+          },
+          "pinned": true
+        }
       },
       {
-        "id": "f221c96a8d31ff8d",
+        "id": "ab8000be9dd76e5e",
         "type": "leaf",
         "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "My linked notes/assessment.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
-          }
-        },
-        "group": "654fd32f6ad90b72"
+          "type": "graph",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -86,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OIR",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -99,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -116,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/assessment.md",
+                "file": "My linked notes/My 2nd est.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,17 +118,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "264290d9b842f9d5",
+  "active": "dd40fee8bd5ee966",
   "lastOpenFiles": [
+    "My linked notes/My 2nd est.md",
+    "My linked notes/My test.md",
+    "My linked notes/My est.md",
     "My linked notes/assessment.md",
     "My linked notes/Ops.md",
     "My linked notes/Acronyms/SIEM.md",
     "My linked notes/IR.md",
     "My linked notes/implementation.md",
     "My linked notes/Acronyms/OIR.md",
-    "My linked notes/Acronyms/CIRT.md",
-    "SecurityPlus/14A Indicators of Application Attacks.md",
-    "SecurityPlus/1A Information Security Roles.md",
-    "My linked notes/Acronyms/IoC.md"
+    "My linked notes/Acronyms/CIRT.md"
   ]
 }

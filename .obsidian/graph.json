@@ -11,21 +11,63 @@
       "query": "ATTACK",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 8388608
       }
     },
     {
       "query": "Threat",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 11699846
       }
     },
     {
       "query": "Vulnerability",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "A_D",
+      "color": {
+        "a": 1,
+        "rgb": 8190976
+      }
+    },
+    {
+      "query": "Implementation",
+      "color": {
+        "a": 1,
+        "rgb": 255
+      }
+    },
+    {
+      "query": "Ops",
+      "color": {
+        "a": 1,
+        "rgb": 12092939
+      }
+    },
+    {
+      "query": "IR",
+      "color": {
+        "a": 1,
+        "rgb": 16747520
+      }
+    },
+    {
+      "query": "test",
+      "color": {
+        "a": 1,
+        "rgb": 15656721
+      }
+    },
+    {
+      "query": "GRC",
+      "color": {
+        "a": 1,
+        "rgb": 14524637
       }
     }
   ],
@@ -39,6 +81,6 @@
   "repelStrength": 9.99851543942993,
   "linkStrength": 0.81353919239905,
   "linkDistance": 365,
-  "scale": 0.176123106513256,
-  "close": true
+  "scale": 1.5265799658583246,
+  "close": false
 }
