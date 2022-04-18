@@ -1,3 +1,0 @@
-[[test]]
-GRC
-test

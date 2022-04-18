@@ -4,26 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dd40fee8bd5ee966",
+        "id": "46e31bbd9d9ac3ca",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/My 2nd est.md",
+            "file": "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "ab8000be9dd76e5e",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
+          }
         }
       }
     ],
@@ -59,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Attack",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -68,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -88,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/My 2nd est.md",
+                "file": "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,20 +106,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
-  "active": "dd40fee8bd5ee966",
+  "active": "46e31bbd9d9ac3ca",
   "lastOpenFiles": [
+    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
+    "SecurityPlus/2A Threat actor types and attack vectors.md",
+    "SecurityPlus/1A Information Security Roles.md",
+    "My linked notes/Attack.md",
+    "My linked notes/threat actor.md",
+    "My linked notes/threat.md",
     "My linked notes/My 2nd est.md",
     "My linked notes/My test.md",
     "My linked notes/My est.md",
-    "My linked notes/assessment.md",
-    "My linked notes/Ops.md",
-    "My linked notes/Acronyms/SIEM.md",
-    "My linked notes/IR.md",
-    "My linked notes/implementation.md",
-    "My linked notes/Acronyms/OIR.md",
-    "My linked notes/Acronyms/CIRT.md"
+    "My linked notes/assessment.md"
   ]
 }

@@ -6,5 +6,6 @@
   "obsidian-collapse-all-plugin",
   "templater-obsidian",
   "sliding-panes-obsidian",
-  "obsidian-sidebar-expand-on-hover"
+  "obsidian-sidebar-expand-on-hover",
+  "persistent-graph"
 ]

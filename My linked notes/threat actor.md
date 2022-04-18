@@ -1,3 +1,6 @@
+---
+tags:[Threat,attack]
+---
 **Exploits a [[vulnerability]] and breaches security**
 aka threat agent
 - Uses [[attack vector]]'s
@@ -8,3 +11,6 @@ Attributes of **threat actors**
 		- Operating systems
 		- Application software
 		- Embedded control systems
+
+
+#Attack 

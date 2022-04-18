@@ -8,63 +8,56 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "ATTACK",
+      "query": "#Attack",
       "color": {
         "a": 1,
         "rgb": 8388608
       }
     },
     {
-      "query": "Threat",
+      "query": "#Threat",
       "color": {
         "a": 1,
         "rgb": 11699846
       }
     },
     {
-      "query": "Vulnerability",
+      "query": "#Vulnerability",
       "color": {
         "a": 1,
         "rgb": 16711680
       }
     },
     {
-      "query": "A_D",
+      "query": "#A_D",
       "color": {
         "a": 1,
         "rgb": 8190976
       }
     },
     {
-      "query": "Implementation",
+      "query": "#Implementation",
       "color": {
         "a": 1,
         "rgb": 255
       }
     },
     {
-      "query": "Ops",
+      "query": "#Ops",
       "color": {
         "a": 1,
         "rgb": 12092939
       }
     },
     {
-      "query": "IR",
+      "query": "#IR",
       "color": {
         "a": 1,
         "rgb": 16747520
       }
     },
     {
-      "query": "test",
-      "color": {
-        "a": 1,
-        "rgb": 15656721
-      }
-    },
-    {
-      "query": "GRC",
+      "query": "#GRC",
       "color": {
         "a": 1,
         "rgb": 14524637
@@ -81,6 +74,6 @@
   "repelStrength": 9.99851543942993,
   "linkStrength": 0.81353919239905,
   "linkDistance": 365,
-  "scale": 1.5265799658583246,
+  "scale": 0.14971833257702738,
   "close": false
 }
