@@ -1,8 +1,8 @@
 ---
-tags: [OIR,section]
+tags: [Ops,section]
 ---
 # ## 
-[[OIR]]
+
 LESSON INTRODUCTION
 
 Automation strategies for resiliency, disaster recovery, and incident response put **development (programming and scripting)** at the heart of secure network administration and operations (DevSecOps). As well as automating operations, more companies are having to maintain bespoke code in customer-facing software, such as web applications. Consequently, secure application development is a competency that will only grow in importance over the course of your career.

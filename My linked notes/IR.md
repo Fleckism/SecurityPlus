@@ -1,4 +1,4 @@
-**Incident Response**
+**Incident Response is Urgent!**  
 
 From a day-to-day perspective, incident response means investigating the alerts produced by monitoring systems and issues reported by users. This activity is guided by policies and procedures and assisted by various technical controls.
 

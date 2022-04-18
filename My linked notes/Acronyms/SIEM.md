@@ -1,5 +1,5 @@
 ---
-tags [IR]
+tags [IR, Ops]
 ---
 <mark style="background: #ADCCFFA6;">Security Information and Event Management</mark> 
 - Core function: Aggregate traffic and data logs and other types of appliances

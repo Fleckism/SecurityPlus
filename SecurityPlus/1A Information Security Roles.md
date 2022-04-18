@@ -31,7 +31,7 @@ Domain														% of Examination
 **1.  #Attack(s), #Threat(s), and Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
 2.  Architecture and Design	21%   [[A_D Architecture and Design]]
 **3.  Implementation 25%**  [[implementation]]
-4.  Operations and Incident Response 16%   [[OIR]]
+4.  Operations [[Ops]] and Incident Response 16%   [[OIR]]
 5.  Governance, Risk, and Compliance 14%    [[GRC Governance, Risk, and Compliance]]
 
 Job Roles
@@ -136,5 +136,5 @@ Development and operations ([[DevOps]]) is a cultural shift within an organizati
 DevSecOps extends the boundary to security specialists and personnel, reflecting the principle that security is a primary consideration at every stage of software development and deployment. This is also known as shift left, meaning that security considerations need to be made during requirements and planning phases, not grafted on at the end. The principle of DevSecOps recognizes this and shows that security expertise must be embedded into any development project. Ancillary to this is the recognition that security operations can be conceived of as software development projects. Security tools can be automated through code. Consequently, security operations need to take on developer expertise to improve detection and monitoring.
 
 ### Incident Response
-#OIR [[OIR]]
+[[IR]]
 A dedicated cyber incident response team ([[CIRT]])/computer security incident response team (CSIRT)/computer emergency response team (CERT) as a single point-of-contact for the notification of security incidents. This function might be handled by the SOC, or it might be established as an independent business unit.

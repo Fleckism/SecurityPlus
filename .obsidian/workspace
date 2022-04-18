@@ -4,12 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "f9014f4a873546ea",
+        "id": "264290d9b842f9d5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/assessment.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        },
+        "group": "654fd32f6ad90b72"
+      },
+      {
+        "id": "f221c96a8d31ff8d",
         "type": "leaf",
         "state": {
           "type": "localgraph",
           "state": {
-            "file": "SecurityPlus/1A Information Security Roles.md",
+            "file": "My linked notes/assessment.md",
             "options": {
               "collapse-filter": true,
               "search": "",
@@ -32,19 +46,12 @@
               "repelStrength": 10,
               "linkStrength": 1,
               "linkDistance": 250,
-              "scale": 0.713275462622442,
+              "scale": 1,
               "close": false
             }
           }
-        }
-      },
-      {
-        "id": "732067faba5d5ad8",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
+        },
+        "group": "654fd32f6ad90b72"
       }
     ],
     "direction": "vertical"
@@ -79,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"soc\"",
+                "query": "tag:#OIR",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,12 +95,12 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -109,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/1A Information Security Roles.md",
+                "file": "My linked notes/assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,17 +146,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "f9014f4a873546ea",
+  "active": "264290d9b842f9d5",
   "lastOpenFiles": [
-    "SecurityPlus/1A Information Security Roles.md",
-    "My linked notes/4-way handshake.md",
-    "My linked notes/Acronyms/SOC.md",
+    "My linked notes/assessment.md",
+    "My linked notes/Ops.md",
+    "My linked notes/Acronyms/SIEM.md",
+    "My linked notes/IR.md",
+    "My linked notes/implementation.md",
     "My linked notes/Acronyms/OIR.md",
-    "My linked notes/threat.md",
-    "SecurityPlus/9C Secure Wireless Infrastructure.md",
-    "My linked notes/ephemeral.md",
-    "My linked notes/algorithm.md",
-    "My linked notes/HMAC.md",
-    "My linked notes/Acronyms/AES.md"
+    "My linked notes/Acronyms/CIRT.md",
+    "SecurityPlus/14A Indicators of Application Attacks.md",
+    "SecurityPlus/1A Information Security Roles.md",
+    "My linked notes/Acronyms/IoC.md"
   ]
 }
