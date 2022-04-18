@@ -1,7 +1,7 @@
 ---
 tags: [OIR, section]
 ---
-
+#background
 ## LESSON INTRODUCTION
 
 Security is an ongoing process that includes 
@@ -28,7 +28,7 @@ Cybersecurity
 - Created by thousands of working subject matter experts
 
 Domain														% of Examination
-**1.  #Attack(s), #Threat(s), and Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
+**1.  Attack(s), Threat(s), and Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
 2.  Architecture and Design	21%   [[A_D Architecture and Design]]
 **3.  Implementation 25%**  [[implementation]]
 4.  Operations [[Ops]] and Incident Response 16%   [[OIR]]

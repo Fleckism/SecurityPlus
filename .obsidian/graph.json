@@ -1,12 +1,19 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#exclude",
+  "search": "-tag:#exclude attack",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
+    {
+      "query": "#FM",
+      "color": {
+        "a": 1,
+        "rgb": 16776960
+      }
+    },
     {
       "query": "#Attack",
       "color": {
@@ -18,7 +25,7 @@
       "query": "#Threat",
       "color": {
         "a": 1,
-        "rgb": 11699846
+        "rgb": 11674146
       }
     },
     {
@@ -74,6 +81,6 @@
   "repelStrength": 9.99851543942993,
   "linkStrength": 0.81353919239905,
   "linkDistance": 365,
-  "scale": 0.14971833257702738,
-  "close": false
+  "scale": 0.14971833257702896,
+  "close": true
 }

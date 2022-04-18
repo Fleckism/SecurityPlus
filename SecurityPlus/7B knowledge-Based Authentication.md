@@ -1,5 +1,6 @@
 ---
-tags: [OIR, attack, A_D,section]
+tags: [OIR, , A_D,section]
+#Attack 
 ---
 # EXAM OBJECTIVES COVERED
 
@@ -9,12 +10,12 @@ tags: [OIR, attack, A_D,section]
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security (password crackers only)
 
-**_Knowledge-based authentication_ refers primarily to issuing users with password-based account access mechanisms**. Configuring password-based authentication protocols and supporting users with authentication issues is an important part of the information security role. In this topic, you will learn how some common authentication protocols work and about the ways that they can be put at risk by password cracking techniques.
+<mark style="background: #FFB8EBA6;">Knowledge-based authentication refers primarily to issuing users with password-based account access mechanisms</mark> . Configuring password-based authentication protocols and supporting users with authentication issues is an important part of the information security role. In this topic, you will learn how some common authentication protocols work and about the ways that they can be put at risk by password cracking techniques.
 # LOCAL, NETWORK, AND REMOTE AUTHENTICATION
 
 One of the most important features of an operating system is the **_authentication provider,_ which is the software architecture and code that underpins the mechanism by which the user is authenticated before starting a shell**. This is usually described as a login (Linux) or a logon or sign-in (Microsoft). Knowledge-based authentication, using a password or personal identification number (PIN), is the default authentication provider for most operating systems.
 
-Knowledge-based authentication relies on cryptographic [[hash|hashes]]. A plaintext password is not usually transmitted or stored in a credential database because of the risk of compromise. Instead, the password is stored as a cryptographic hash. When a user enters a password to log in, an authenticator converts what is typed into a hash and transmits that to an authority. The authority compares the submitted hash to the one in the database and authenticates the subject only if they match.
+Knowledge-based authentication relies on cryptographic [[hash|hashes]]. A plaintext password is not usually transmitted or stored in a credential database because of the risk of compromise. Instead, the password is stored as a [[cryptographic hash]]. When a user enters a password to log in, an authenticator converts what is typed into a hash and transmits that to an authority. The authority compares the submitted hash to the one in the database and authenticates the subject only if they match.
 
 ### Windows Authentication
 

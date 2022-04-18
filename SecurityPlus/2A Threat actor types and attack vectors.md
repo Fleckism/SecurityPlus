@@ -1,5 +1,5 @@
 ---
-tags: [OIR,Attack,section ]
+tags: [OIR,,section ]
 ---
 
 ## LESSON INTRODUCTION
@@ -10,20 +10,20 @@ Lesson Objectives
 
 In this lesson, you will:
 
--   Explain[[[[threat actor]]]] types and attack vectors.
+-   Explain threat actor types and attack vectors.
 -   Explain threat intelligence sources.
 
 EXAM OBJECTIVES COVERED
 
 1.5 Explain different [[threat actor]]s, vectors, and intelligence sources
 
-Classifying and evaluating the capabilities of [[[[threat actor]]]] types enables you to assess and mitigate risks more effectively. Understanding the methods by which [[threat actor]]s infiltrate networks and systems is essential for you to assess the attack surface of your networks and deploy controls to block attack vectors.
+Classifying and evaluating the capabilities of [[threat actor]] types enables you to assess and mitigate risks more effectively. Understanding the methods by which [[threat actor]]s infiltrate networks and systems is essential for you to assess the attack surface of your networks and deploy controls to block attack vectors.
 ## #VULNERABILITY,  #THREAT, AND RISK
 
 As part of security [[assessment]] and monitoring, security teams must identify ways in which their systems could be attacked. These assessments involve vulnerabilities, threats, and risk:
 
 -   [[vulnerability]] **is a weakness** that could be triggered accidentally or exploited intentionally to cause a security breach. Examples of vulnerabilities include improperly configured or installed hardware or software, delays in applying and testing software and firmware patches, untested software and firmware patches, the misuse of software or communication protocols, poorly designed network architecture, inadequate physical security, insecure password usage, and design flaws in software or operating systems, such as unchecked user input.
--   [[threat]] **is the potential** for someone or something to exploit a vulnerability and breach security. A threat may be intentional or unintentional. The person or thing that poses the threat is called a [[[[threat actor]]]] or _threat agent._ The path or tool used by a malicious [[threat actor]] can be referred to as the _attack vector._
+-   [[threat]] **is the potential** for someone or something to exploit a vulnerability and breach security. A threat may be intentional or unintentional. The person or thing that poses the threat is called a [[threat actor]] or _threat agent._ The path or tool used by a malicious [[threat actor]] can be referred to as the _attack vector._
 -   [[risk]] is the **likelihood and impact (or consequence)** of a [[threat actor]] exploiting a vulnerability. To assess risk, you identify a vulnerability and then evaluate the likelihood of it being exploited by a threat and the impact that a successful exploit would have.
 
 Relationship between vulnerability, threat, and risk.
@@ -94,7 +94,7 @@ There is the blurred case of former insiders, such as ex-employees now working a
 CERT identifies the main motivators for malicious insider threats as sabotage, financial gain, and business advantage. Like external threats, insider threats can be opportunistic or targeted. Again, the key point here is to identify likely motivations, such as employees who might harbor grievances or those likely to perpetrate fraud. An employee who plans and executes a campaign to modify invoices and divert funds is launching a structured attack; an employee who tries to guess the password on the salary database a couple of times, having noticed that the file is available on the network, is perpetrating an opportunistic attack. You must also assess the possibility that an insider threat may be working in collaboration with an external [[threat actor]] or group.
 
 Insider threats can be categorized as unintentional. An unintentional or inadvertent insider threat is a vector for an external actor, or a separate—malicious—internal actor to exploit, rather than a [[threat actor]] in its own right. Unintentional threats usually arise from lack of awareness or from carelessness, such as users demonstrating poor password management. Another example of unintentional insider threat is the concept of shadow IT, where users purchase or introduce computer hardware or software to the workplace without the sanction of the IT department and without going through a procurement and security analysis process. The problem of shadow IT is exacerbated by the proliferation of cloud services and mobile devices, which are easy for users to obtain. Shadow IT creates a new unmonitored attack surface for malicious adversaries to exploit.
-##  #Attack SURFACE AND ATTACK VECTORS
+##  Attack SURFACE AND ATTACK VECTORS
 
 **The [[attack surface]] is all the points at which a malicious [[threat actor]] could try to exploit a vulnerability.** To evaluate the attack surface, you need to consider the type of [[threat actor]]. The attack surface for an external actor is (or should be) far smaller than that for an insider threat. The attack surface can be considered for a network as a whole, but is also analyzed for individual software applications. Minimizing the attack surface means restricting access so that only a few known endpoints, protocols/ports, and services/methods are permitted. Each of these must be assessed for vulnerabilities.
 

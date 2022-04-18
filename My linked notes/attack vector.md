@@ -1,9 +1,14 @@
 ---
 tags: [vulnerability, ]
+#Attack
 ---
 
   **An attack vector is the path that a [[threat actor]] uses to gain access to a secure system.**
   
+ 
+
+
+# full
   -   Direct access—this is a type of physical or local attack. The [[threat actor]] could exploit an unlocked workstation, use a boot disk to try to install malicious tools, or steal a device, for example.
 -   Removable media—the attacker conceals malware on a USB thumb drive or memory card and tries to trick employees into connecting the media to a PC, laptop, or smartphone. For some exploits, simply connecting the media may be sufficient to run the malware. In many cases, the attacker may need the employee to open a file in a vulnerable application or run a setup program.
 -   Email—the attacker sends a malicious file attachment via email, or via any other communications system that allows attachments. The attacker needs to use social engineering techniques to persuade or trick the user into opening the attachment.
