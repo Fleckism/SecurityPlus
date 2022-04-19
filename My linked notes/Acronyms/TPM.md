@@ -1,4 +1,4 @@
 ---
-tags: [firstTag, secondTag]
+tags: [acronym, ]
 ---
 trusted platform module

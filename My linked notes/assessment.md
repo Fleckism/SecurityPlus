@@ -1,7 +1,4 @@
----
-tags: [Implementation,IR, vulnerability, threat,Ops ]
-
----
+#Implementation #IR #vulnerability #threat #Ops 
 #zFleck
 The process of **identifying, estimating, and prioritizing** risks to organizational operations (including mission, functions, image, reputation), organizational assets, individuals, other organizations, and the Nation, resulting from the operation of an information system. Part of **risk management**, incorporates threat and vulnerability analyses, and considers mitigations provided by security controls planned or in place. Synonymous with **risk analysis**
 See pdf on desktop!

@@ -1,4 +1,4 @@
 ---
-tags: [definition, secondTag]
+tags: [acronym, ]
 ---
 **Acceptable Use Policy** 

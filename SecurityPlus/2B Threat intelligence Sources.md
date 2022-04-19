@@ -1,15 +1,15 @@
 ---
-tags: [threat,OIR,section ]
+tags: [,section ]
 ---
 
 ## EXAM OBJECTIVES COVERED
 
-1.5 Explain different [[threat actor]]s, vectors, and intelligence sources
+1.5 Explain different [[threat actor]]s,  [[attack vector]], and intelligence sources
 
 As a security professional, you must continually refresh and expand your knowledge of both security technologies and practices and adversary tactics and techniques. As well as staying up-to-date on a personal level, you will also need to select and deploy threat intelligence platforms. You need to be able to identify and evaluate sources of threat intelligence and research and to use these resources to enhance security controls.
 
 ## THREAT RESEARCH SOURCES
- 
+ #Ops 
 Threat research is a counterintelligence gathering effort in which security companies and researchers attempt to discover the tactics, techniques, and procedures ([[TTPs]]) of modern cyber adversaries. There are many companies and academic institutions engaged in primary cybersecurity research. Security solution providers with firewall and anti-malware platforms derive a lot of data from their own customers' networks. As they assist customers with cybersecurity operations, they are able to analyze and publicize [[TTPs]] and their indicators. These organizations also operate honeynets to try to observe how hackers interact with vulnerable systems. 
 
 Another primary source of threat intelligence is the dark web. The deep web is any part of the World Wide Web that is not indexed by a search engine. This includes pages that require registration, pages that block search indexing, unlinked pages, pages using nonstandard DNS, and content encoded in a nonstandard manner. Within the deep web, are areas that are deliberately concealed from "regular" browser access.

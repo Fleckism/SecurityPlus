@@ -1,9 +1,9 @@
 ---
-tags: [Operations, ImplementMaster, A_D,section]
+tags: [section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.2 Given a scenario, analyze potential indicators to determine the type of attack (Cloud-based versus on-premises only)
+1.2 Given a scenario, analyze #Ops  potential #Indicators  to determine the type of attack (Cloud-based versus on-premises only)
 
 2.2 Summarize virtualization and cloud computing concepts
 

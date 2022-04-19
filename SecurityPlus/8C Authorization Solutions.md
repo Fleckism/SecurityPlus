@@ -18,7 +18,7 @@ An important consideration in designing a security system is to determine how us
 
 Discretionary access control ([[DAC]]) is based on the primacy of the resource owner. The owner is originally the creator of a file or service, though ownership can be assigned to another user. The owner is granted full control over the resource, meaning that he or she can modify its access control list ([[ACL]]) to grant rights to others.
 
-DAC is the most flexible model and is currently implemented widely in terms of computer and network security. In terms of file system security, it is the model used by default for most UNIX/Linux distributions and by Microsoft Windows. As the most flexible model, it is also the weakest because it makes centralized administration of security policies the most difficult to enforce. It is also the easiest to compromise, as it is vulnerable to insider threats and abuse of compromised accounts.
+DAC is the most flexible model and is currently implemented widely in terms of computer and network security. In terms of file system security, it is the model used by default for most UNIX/Linux distributions and by Microsoft Windows. As the most flexible model, it is also the weakest because it makes centralized administration of security policies the most difficult to enforce. It is also the easiest to compromise, as it is vulnerable to [[insider threats]] and abuse of compromised accounts.
 
 ### Role-Based Access Control (RBAC)
 

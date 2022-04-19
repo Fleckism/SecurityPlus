@@ -1,6 +1,3 @@
----
-tags: [OIR, Attack]
----
 **Tactics, Techniques, and Procedures**
 TTPs describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like.
 
@@ -11,4 +8,4 @@ TTPs describe what and how an adversary acts and Indicators describe how to reco
 
 **Procedure**:  A particular course of action.
 
- 
+ #Ops #IR 

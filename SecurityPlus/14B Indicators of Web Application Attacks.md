@@ -1,9 +1,9 @@
 ---
-tags: [Operations,section]
+tags: [,section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.3 Given a scenario, analyze potential indicators associated with application attacks
+1.3 Given a scenario, analyze potential #Indicators  associated with application attacks
 
 A web application exposes many interfaces to public networks. Attackers can exploit vulnerabilities in server software and in client browser security to perform injection and session hijacking attacks that compromise data confidentiality and integrity. Understanding how the vectors and vulnerabilities can be exploited by these attacks will help you to identify and remediate configuration weaknesses in your systems.
 # UNIFORM RESOURCE LOCATOR ANALYSIS
@@ -114,7 +114,7 @@ If the API isn't secure, [[threat actor]]s can easily take advantage of it to co
 -   **Lack of input validation,** allowing the [[threat actor]] to insert arbitrary parameters into API methods and queries. This is often referred to as allowing unsanitized input.
 -   **Error messages revealing clues to a potential adversary. For example, an authentication error should not reveal whether a valid username has been rejected because of an invalid password. The error should simply indicate an authentication failure.**
 -   Denial of service (DoS) by bombarding the API with spurious calls. Protection against this attack can be provided through throttling/rate-limiting mechanisms.
-# REPLAY ATTACKS 
+# [[REPLAY ATTACKS]] 
 
 Session management enables web applications to uniquely identify a user across a number of different actions and requests. Session management is particularly important when it comes to user authentication, as it is required to ensure the integrity of the account and the confidentiality of data associated with it. **Session management** is often vulnerable to different kinds of replay attack. To establish a session, the server normally gives the client some type of token. **A replay [[attack]] works by sniffing or guessing the token value and then submitting it to re-establish the session illegitimately.**
 

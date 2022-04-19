@@ -1,6 +1,4 @@
----
-tags:[Threat,attack]
----
+
 **Exploits a [[vulnerability]] and breaches security**
 aka threat agent
 - Uses [[attack vector]]'s

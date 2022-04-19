@@ -1,6 +1,3 @@
----
-tags: [OIR, configure, Ops, Incident response]
----
 Operations and Incident Response 16%  
 OIR is the colors **Black, white, red, blue**
 ==Break into Operations and Incident Response, check Implementation as well==  #Task_1

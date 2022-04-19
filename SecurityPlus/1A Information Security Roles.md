@@ -1,7 +1,7 @@
 ---
-tags: [OIR, section]
+tags: [ section]
 ---
-#background
+#zBackground
 ## LESSON INTRODUCTION
 
 Security is an ongoing process that includes 

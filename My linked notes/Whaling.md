@@ -1,4 +1,1 @@
----
-tags: [OIR, Attack]
----
 a **spear phishing attack directed specifically against upper levels of management in the organization (CEOs and other "big fish")**. Upper management may also be more vulnerable to ordinary phishing attacks because of their reluctance to learn basic security procedures.

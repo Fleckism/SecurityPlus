@@ -3,7 +3,7 @@ tags: [,section]
 ---
 # LESSON INTRODUCTION
 
-If a company operates with one or more vulnerable business processes, it could result in disclosure, modification, loss, destruction, or interruption of critical data or it could lead to loss of service to customers. Quite apart from immediate financial losses arising from such security incidents, either outcome will reduce a company's reputation. If a bank lost its trading floor link to its partners, even for an hour, since the organization's primary function (trading) would be impossible, huge losses may result. Consequently, when planning a network or other IT system, you must perform risk management to assess threats and vulnerabilities.
+If a company operates with one or more vulnerable business processes, it could result in disclosure, modification, loss, destruction, or interruption of critical data or it could lead to loss of service to customers. Quite apart from immediate financial losses arising from such security incidents, either outcome will reduce a company's reputation. If a bank lost its trading floor link to its partners, even for an hour, since the organization's primary function (trading) would be impossible, huge losses may result. Consequently, when planning a network or other IT system, you must perform risk management to [[assess threats]] and vulnerabilities.
 
 Analyzing risk plays a major role in ensuring a secure environment for an organization. By assessing and identifying specific risks that can cause damage to network components, hardware, and personnel, you can mitigate possible threats and establish the right corrective measures to avoid losses and liabilities.
 

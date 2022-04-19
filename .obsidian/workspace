@@ -4,27 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9e7617db91fc646f",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Attack.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "0ca94410598e3c2f",
+        "id": "0476ccbe317d0f3b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/7B knowledge-Based Authentication.md",
+            "file": "SecurityPlus/3C  Vulnerability Scanning Technics.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -32,11 +17,16 @@
         }
       },
       {
-        "id": "ef4b0d6f93c56a2a",
+        "id": "ef64cccf97b43a06",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/SECURITY ASSESSMENTS.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -72,10 +62,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"PPP\"",
+                "query": "tag:#OIR",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -86,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -103,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/7B knowledge-Based Authentication.md",
+                "file": "SecurityPlus/3C  Vulnerability Scanning Technics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,20 +119,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
-  "active": "0ca94410598e3c2f",
+  "active": "0476ccbe317d0f3b",
   "lastOpenFiles": [
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "My linked notes/PPP.md",
-    "My linked notes/Knowledge-based authentication.md",
-    "My linked notes/AD.md",
-    "My linked notes/hash.md",
+    "SecurityPlus/3C  Vulnerability Scanning Technics.md",
+    "My linked notes/SECURITY ASSESSMENTS.md",
+    "SecurityPlus/14B Indicators of Web Application Attacks.md",
+    "SecurityPlus/2B Threat intelligence Sources.md",
     "My linked notes/Attack.md",
     "SecurityPlus/2A Threat actor types and attack vectors.md",
-    "My linked notes/Acronyms/MITM.md",
-    "My linked notes/asymmetric.md",
-    "My linked notes/public key cryptography.md"
+    "SecurityPlus/19A Risk Management Process and Concepts.md",
+    "SecurityPlus/10B Network Security Monitoring.md",
+    "SecurityPlus/9C Secure Wireless Infrastructure.md",
+    "SecurityPlus/8C Authorization Solutions.md"
   ]
 }

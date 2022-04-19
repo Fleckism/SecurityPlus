@@ -1,5 +1,2 @@
----
-tags: [Attack]
----
-
 If it is not detected by endpoint protection, you may want to analyze the suspect code in a sandboxed environment. A sandbox is a system configured to be completely isolated from its host so that the malware cannot "break out." The sandbox will be designed to record file system and registry changes plus network activity. Cuckoo is packaged software that aims to provide a turnkey sandbox solution
+#tool

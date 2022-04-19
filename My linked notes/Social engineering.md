@@ -1,9 +1,6 @@
----
-tags: [OIR, Attack]
----
 Social engineering—this refers to obtaining information, physical access to premises, or even access to a user account through the art of persuasion. While the amount of interaction may vary, this can be classed as an active technique.
 
-
+#threat  or #vulnerability 
 + [[Familiarity Liking]]
 + [[Consensus Social Proof]]
 + Authority and Intimidation

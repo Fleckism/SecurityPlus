@@ -9,7 +9,7 @@
 
 aka banner grabbing, where the banner is the header of the response returned by the application
 
-see  [[reconnaissance]]  #notComplete
+see  [[reconnaissance]]  
 # full 
 The detailed analysis of services on a particular host is called fingerprinting.
 -   report host configurations
