@@ -5,7 +5,7 @@ tags: [section]
 
 1.4 Given a scenario, analyze potential indicators associated with network attacks
 #Ops 
-3.1 Given a scenario, #implement secure protocols (Routing and switching only)
+3.1 Given a scenario, #Implementation  secure protocols (Routing and switching only)
 
 3.3 Given a scenario, implement secure network designs 
 #A_D 

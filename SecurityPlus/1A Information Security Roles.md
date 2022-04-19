@@ -1,7 +1,7 @@
 ---
 tags: [ section]
 ---
-#zBackground
+#concepts 
 ## LESSON INTRODUCTION
 
 Security is an ongoing process that includes 

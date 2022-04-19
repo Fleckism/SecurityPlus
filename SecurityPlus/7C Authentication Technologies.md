@@ -1,5 +1,5 @@
 ---
-tags: [A_D, GRC,section]
+tags: [section]
 ---
 # EXAM OBJECTIVES COVERED
 

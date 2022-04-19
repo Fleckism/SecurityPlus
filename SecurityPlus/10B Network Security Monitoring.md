@@ -1,9 +1,9 @@
 ---
-tags: [A_D, Implementation, OIR,section]
+tags: [section]
 ---
 # EXAM OBJECTIVES COVERED
 
-3.3 Given a scenario, implement secure network designs
+3.3 Given a scenario, #Implementation  secure network designs #A_D 
 
 [[Intrusion]] detection and prevention systems are mature security technologies, widely deployed to monitor company networks. A large part of the monitoring and alerting data you will be analyzing will come from these systems so it is important that you be able to install them to appropriate locations in the network and configure them correctly.
 # NETWORK-BASED INTRUSION DETECTION SYSTEMS

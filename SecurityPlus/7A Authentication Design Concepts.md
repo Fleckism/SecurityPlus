@@ -1,5 +1,5 @@
 ---
-tags: [A_D, GRC,section]
+tags: [section]
 ---
 # LESSON INTRODUCTION
 
@@ -9,7 +9,7 @@ Lesson Objectives
 
 In this lesson, you will:
 
--   Summarize authentication design concepts.
+-   Summarize authentication ( #A_D ) design #concepts.
 -   Implement knowledge-based authentication.
 -   Implement authentication technologies.
 -   Summarize biometrics authentication concepts.

@@ -1,6 +1,3 @@
----
-tags: [A_D, secondTag]
----
 - **symmetric [[cipher]] is one in which encryption and decryption are both performed by the same secret key**
 - Provides [[Confidentiality]] **<---**
 - 1 key, aka private key

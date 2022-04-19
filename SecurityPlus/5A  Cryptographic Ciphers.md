@@ -1,9 +1,9 @@
 ---
-tags: [A_D,section ]
+tags: [section ]
 ---
 
 ## EXAM OBJECTIVES COVERED
-
+#concepts
 2.1 Explain the importance of security concepts in an enterprise environment ([[hash|hashing]] only) 
 
 2.8 Summarize the basics of cryptographic concepts

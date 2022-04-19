@@ -3,7 +3,7 @@ tags: [Ops, Implementation,section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.4 Given a scenario, **analyze potential (Ops)** indicators associated with network attacks
+1.4 Given a scenario, **analyze potential ( #Ops)** indicators associated with network attacks
 
 3.4 Given a scenario, install and configure wireless security settings 
 
@@ -92,7 +92,7 @@ Selecting open authentication means that the client is not required to authentic
 When using open wireless, users must ensure they send confidential web data only over HTTPS connections and only use email, VoIP, IM, and file transfer services with [[SSL/TLS]] enabled. Another option is for the user to join a Virtual Private Network ([[VPN]]). The user would associate with the open hotspot then start the VPN connection. **This creates an encrypted "tunnel" between the user's computer and the VPN server.** This allows the user to browse the web or connect to email services without anyone eavesdropping on the open Wi-Fi network being able to intercept those communications. The VPN could be provided by the user's company or they could use a third-party VPN service provider. Of course, if using a third party, the user needs to be able to trust them implicitly. The VPN must use certificate-based tunneling to set up the "inner" authentication method.
 
 WPA3 can implement a mode called Wi-Fi Enhanced Open, which uses opportunistic wireless encryption ([[OWE]]). OWE uses the **Dragonfly handshake to agree with ephemeral session keys on joining the network.** This means that one station cannot sniff the traffic from another station, because they are using different session keys. There is still no authentication of the access point, however.
-#start
+
 # ENTERPRISE/IEEE 802.1X AUTHENTICATION
 
 The main problems with personal modes of authentication are that distribution of the key or passphrase cannot be secured properly, and users may choose unsecure phrases. Personal authentication also fails to provide accounting, as all users share the same key.

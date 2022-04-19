@@ -1,9 +1,9 @@
 
 ---
-tags: [A_D, Implementation,section]
+tags: [section]
 ---
 # EXAM OBJECTIVES COVERED
-2.8 Summarize the basics of cryptographic concepts
+2.8 Summarize the basics of cryptographic #concepts
 
 # QUANTUM AND POST-QUANTUM
 

@@ -1,6 +1,3 @@
----
-tags: [A_D, secondTag]
----
 Elliptic curve cryptography
 - More secure than [[RSA]]
 - trap door function , because it is easy to perform using the public key, but difficult to reverse without knowing the private key.

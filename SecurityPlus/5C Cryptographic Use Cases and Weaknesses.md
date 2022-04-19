@@ -1,12 +1,12 @@
 ---
-tags: [A_D, Implementation,section]
+tags: [,section]
 ---
 
 ## EXAM OBJECTIVES COVERED
 
-1.2 Given a scenario, **analyze**(= Implementation) potential indicators to determine the type of attack
+1.2 Given a scenario, **analyze**(= #Ops ) potential indicators to determine the type of attack
 
-2.8 Summarize the basics of cryptographic concepts
+2.8 Summarize the basics of cryptographic #concepts
 
 There are many individual [[symmetric]] and [[asymmetric]] [[cipher]] algorithms and hash functions. Characteristics of these ciphers make them better suited to meeting constraints, such as use on battery-powered devices. Some of the ciphers and implementations of ciphers within products can exhibit weaknesses that make them unsuitable for use. It is important that you be able to summarize these use cases and weaknesses so that you can deploy [[security control|controls]] that fit their purpose.
 
@@ -104,7 +104,7 @@ In another sense, _longevity_ is the consideration of how long data must be kept
 
 ## MAN-IN-THE-MIDDLE AND DOWNGRADE ATTACKS
 
-Cryptographic attacks are used to try to intercept confidential data or to spoof cryptographic credentials, such as a digital certificate. Some of these attacks depend on capturing the communications between two parties. They do not break the cryptographic system but exploit vulnerabilities in the way it is used. A _man-in-the-middle ([[MITM]])_ attack is typically focused on public key cryptography.
+Cryptographic attacks are used to try to intercept confidential data or to spoof cryptographic credentials, such as a digital certificate. Some of these attacks depend on capturing the communications between two parties. They do not break the cryptographic system but exploit vulnerabilities in the way it is used. A _man-in-the-middle ([[MITM]])_ #attack is typically focused on public key cryptography.
 
 1.  Mallory eavesdrops the channel between Alice and Bob and waits for Alice to request Bob's public key.
 2.  Mallory intercepts the communication, retaining Bob's public key, and sends Mallory's public key to Alice.
