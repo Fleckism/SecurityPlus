@@ -1,7 +1,7 @@
 ---
-tags: [OIR,section ]
+tags: [section ]
 ---
-
+#GRC 
 ## Introduction
 It is not sufficient for security assessments to focus solely on software vulnerabilities and configuration errors. As well as these hardware and software systems, the attack surface contains a company's employees and the degree to which they can be exploited to gain unauthorized access or privileges. [[threat actor]]s use social engineering techniques to elicit information, obtain access to premises, and to trick users into running malicious code. You must understand these attacks and train your colleagues and customers with the ability to detect and report them. As well as being able to explain these techniques, you must be able to describe the indicators associated with different types of malware and analyze your systems for possible infections.
 

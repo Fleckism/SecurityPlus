@@ -1,10 +1,10 @@
 ---
-tags: [GRC, Implementation, OIR,section]
+tags: [section]
 ---
 # EXAM OBJECTIVES COVERED
 
 5.3 Explain the importance of policies to organizational security
-
+#GRC 
 As well as implementing technical controls for identity and account management, you will need to make sure that your personnel follow appropriate security procedures and policies. The human element can represent a significant attack surface, especially when social engineering attacks are involved. As a security professional, you will work with a human resources (HR) department to assist with the formulation of policies and the development and delivery of security awareness and training programs.
 # CONDUCT POLICIES 
 

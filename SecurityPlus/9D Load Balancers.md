@@ -3,9 +3,9 @@ tags: [OIR,section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.4 Given a scenario, analyze potential indicators associated with network attacks
+1.4 Given a scenario, analyze potential #Indicators indicators associated with network attacks
 
-3.3 Given a scenario, implement secure network designs
+3.3 Given a scenario, #implement secure network designs #A_D 
 
 A denial of service ([[DoS]]) attack can be extremely destructive and very difficult to mitigate. As a network security professional, it is vital for you to be able to compare and contrast DoS and distributed DoS ([[DDoS]]) methods and to be able to recommend and configure load balancing technologies that can make networks more resilient to these attacks.
 # DISTRIBUTED DENIAL OF SERVICE ATTACKS 

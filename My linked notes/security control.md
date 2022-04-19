@@ -34,5 +34,5 @@ While most controls can be classed functionally as preventative, detective, or c
 
  A **control system** is one with multiple parts, such as sensors, workstations, and servers, and complex operating logic.
 
-
-
+#zFleck 
+# Controls are used for GRC Governance, Risk, and Compliance

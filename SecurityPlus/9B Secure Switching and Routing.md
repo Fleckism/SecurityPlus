@@ -1,15 +1,15 @@
 ---
-tags: [OIR, Implementation,section]
+tags: [section]
 ---
 # EXAM OBJECTIVES COVERED
 
 1.4 Given a scenario, analyze potential indicators associated with network attacks
-
-3.1 Given a scenario, implement secure protocols (Routing and switching only)
+#Ops 
+3.1 Given a scenario, #implement secure protocols (Routing and switching only)
 
 3.3 Given a scenario, implement secure network designs 
-
-**[[Attacks]] aimed at low-level networking functions can be highly effective**. To implement a network design that demonstrates confidentiality, integrity, and availability, you must configure switches and routers with appropriate settings. These devices can be used to enforce network access control mechanisms and ensure fault-tolerant paths within the network.
+#A_D 
+**[[Attack]]s aimed at low-level networking functions can be highly effective**. To implement a network design that demonstrates confidentiality, integrity, and availability, you must configure switches and routers with appropriate settings. These devices can be used to enforce network access control mechanisms and ensure fault-tolerant paths within the network.
 # MAN-IN-THE-MIDDLE AND LAYER 2 ATTACKS 
 
 Attacks at the physical and data link layers, referred to in the OSI model as layer 1 and layer 2, are often focused on information gathering—network mapping and eavesdropping on network traffic.
