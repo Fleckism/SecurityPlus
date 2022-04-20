@@ -3,9 +3,9 @@ tags: [section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.4 Given a scenario, analyze ( #Ops) potential #Indicators indicators associated with network attacks
+1.4 Given a scenario, analyze #Ops ( #Ops) potential #Indicators indicators associated with network attacks
 
-3.3 Given a scenario, #Implementation  secure network designs #A_D 
+3.3 Given a scenario, #Implementation  secure network designs #A_D #A_D 
 
 A denial of service ([[DoS]]) attack can be extremely destructive and very difficult to mitigate. As a network security professional, it is vital for you to be able to compare and contrast DoS and distributed DoS ([[DDoS]]) methods and to be able to recommend and configure load balancing technologies that can make networks more resilient to these attacks.
 # DISTRIBUTED DENIAL OF SERVICE ATTACKS 
@@ -30,7 +30,7 @@ An operational technology ([[OT]]) network is established between embedded syste
 As well as being the target of an attack, embedded systems might be used as bots. Any type of Internet-enabled device is vulnerable to compromise. This includes web-enabled cameras, [[SOHO]] routers, and smart TVs and other appliances. This is referred to as an Internet of Things (IoT) botnet.
 # DISTRIBUTED DENIAL OF SERVICE ATTACK MITIGATION
 
-[[DDoS]] attacks can be diagnosed by traffic spikes that have no legitimate explanation, but can usually only be counteracted by providing high availability services, such as load balancing and cluster services. In some cases, a stateful firewall can detect a DDoS attack and automatically block the source. However, for many of the techniques used in DDoS attacks, the source addresses will be randomly spoofed or launched by bots, making it difficult to detect the source of the attack.
+[[DDoS]] attacks can be diagnosed by traffic spikes that have no legitimate explanation, but can usually only be counteracted by providing high [[Availability]] services, such as load balancing and cluster services. In some cases, a stateful firewall can detect a DDoS attack and automatically block the source. However, for many of the techniques used in DDoS attacks, the source addresses will be randomly spoofed or launched by bots, making it difficult to detect the source of the attack.
 
 ![Summary screen lists Top Signatures, Top Source IPs, and Top Destination IPs. Count of Top Source IPs shown is 84, 6, 1, 1, 1, 1, 1." id="d1e28021__image_kjw_nqd_khb](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2220-1599771803292.png)
 
@@ -50,13 +50,13 @@ There are two main types of [[load balancers]]:
 -   Layer 4 load balancer—basic load balancers make forwarding decisions on IP address and TCP/UDP port values, working at the transport layer of the OSI model.
 -   Layer 7 load balancer (content switch)—as web applications have become more complex, modern load balancers need to be able to make forwarding decisions based on application-level data, such as a request for a particular URL or data types like video or audio streaming. This requires more complex logic, but the processing power of modern appliances is sufficient to deal with this. 
 
-Topology of basic load balancing architecture. (Images © 123RF.com.)
+Topology of basic load balancing architecture #A_D. (Images © 123RF.com.)
 
 ### Scheduling
 
 The scheduling algorithm is the code and metrics that determine which node is selected for processing each incoming request. The simplest type of scheduling is called round robin; this just means picking the next node. Other methods include picking the node with the fewest connections or the best response time. Each method can also be weighted, using administrator set preferences or dynamic load information or both.
 
-The load balancer must also use some type of heartbeat or health check probe to verify whether each node is available and under load or not. Layer 4 load balancers can only make basic connectivity tests while layer 7 appliances can test the application's state, as opposed to only verifying host availability.
+The load balancer must also use some type of heartbeat or health check probe to verify whether each node is available and under load or not. Layer 4 load balancers can only make basic connectivity tests while layer 7 appliances can test the application's state, as opposed to only verifying host [[Availability]].
 
 ### Source IP Affinity and Session Persistence 
 
@@ -71,7 +71,7 @@ Where load balancing distributes traffic between independent processing nodes, c
 
 For example, you might want to provision two load balancer appliances so that if one fails, the other can still handle client connections. Unlike load balancing with a single appliance, the public IP used to access the service is shared between the two instances in the cluster. This is referred to as a virtual IP or shared or floating address. The instances are configured with a private connection, on which each is identified by its "real" IP address. This connection runs some type of redundancy protocol, such as Common Address Redundancy Protocol ([[CARP]]), that enables the active node to "own" the virtual IP and respond to connections. The redundancy protocol also implements a heartbeat mechanism to allow failover to the passive node if the active one should suffer a fault.
 
-Topology of clustered load balancing architecture. (Images © 123RF.com.)
+Topology of clustered load balancing architecture #A_D. (Images © 123RF.com.)
 
 ### Active/Passive (A/P) and Active/Active (A/A) Clustering
 

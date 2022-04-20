@@ -5,7 +5,7 @@ tags: [section]
 
 2.4 Summarize [[authentication]] and authorization design concepts
 
-3.3 Given a scenario, implement secure network designs ([[HSM]] only)
+3.3 Given a scenario, implement secure network designs #A_D ([[HSM]] only)
 
 3.8 Given a scenario, implement authentication and authorization solutions 
 
@@ -47,7 +47,7 @@ The smart-card authentication process described earlier is used for Kerberos aut
 
 In these scenarios, the Extensible Authentication Protocol ([[EAP]]) provides a framework for deploying multiple types of authentication protocols and technologies. EAP allows lots of different authentication methods, but many of them use a digital certificate on the server and/or client machines. This allows the machines to establish a trust relationship and create a secure tunnel to transmit the user credential or to perform smart-card authentication without a user password.
 
-Where EAP provides the authentication mechanisms, the IEEE 802.1X Port-based Network Access Control (NAC) protocol provides the means of using an EAP method when a device connects to an Ethernet switch port, wireless access point (with enterprise authentication configured), or VPN gateway. 802.1X uses authentication, authorization, and accounting (AAA) architecture:
+Where EAP provides the authentication mechanisms, the IEEE 802.1X Port-based Network Access Control (NAC) protocol provides the means of using an EAP method when a device connects to an Ethernet switch port, wireless access point (with enterprise authentication configured), or VPN gateway. 802.1X uses authentication, authorization, and accounting (AAA) architecture #A_D:
 
 -   Supplicant—the device requesting access, such as a user's PC or laptop.
 -   Network access server ([[NAS]])—edge network appliances, such as switches, access points, and VPN gateways. These are also referred to as _RADIUS clients_ or authenticators.

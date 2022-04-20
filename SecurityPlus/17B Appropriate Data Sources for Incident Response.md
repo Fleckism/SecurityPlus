@@ -25,7 +25,7 @@ When a suspicious event is detected, it is critical that the appropriate person 
 
 ### Analysis and Incident Identification
 
-When notification has taken place, the CIRT or other responsible person(s) must analyze the event to determine whether a genuine incident has been identified and what level of priority it should be assigned. **Analysis will depend on identifying the type of incident and the data or resources affected (its scope and impact)**. At this point, the incident management database should have a record of the event indicators, the nature of the incident, its impact, and the incident investigator responsible. The next phase of incident management is to determine an appropriate response.
+When notification has taken place, the CIRT or other responsible person(s) must analyze #Ops the event to determine whether a genuine incident has been identified and what level of priority it should be assigned. **Analysis will depend on identifying the type of incident and the data or resources affected (its scope and impact)**. At this point, the incident management database should have a record of the event indicators, the nature of the incident, its impact, and the incident investigator responsible. The next phase of incident management is to determine an appropriate response.
 # SECURITY INFORMATION AND EVENT MANAGEMENT
 
 Coupled with an attack framework, notification will provide a general sense of where to look for or expect indicators of malicious activity. Incident analysis is greatly facilitated by a security information and event management ([[SIEM]]) system. A SIEM parses network traffic and log data from multiple sensors, appliances, and hosts and normalizes the information to standard field types. 
@@ -42,7 +42,7 @@ As well as correlation between indicators observed on the network, a SIEM is lik
 
 ### Retention
 
-A SIEM can enact a retention policy so that historical log and network traffic data is kept for a defined period. This allows for r**etrospective incident and threat hunting**, and can be a valuable source of **forensic evidence**.
+A SIEM can enact a retention policy so that historical log and network traffic data is kept for a defined period. This allows for r**etrospective incident and [[threat hunting]]**, and can be a valuable source of **forensic evidence**.
 # SIEM DASHBOARDS 
 
 SIEM dashboards are one of the main sources of automated alerts. A SIEM **dashboard provides a console to work from for day-to-day incident response**. Separate dashboards can be **created to suit many different purposes**. An incident handler's dashboard will contain uncategorized events that have been assigned to their account, plus visualizations (graphs and tables) showing key status metrics. A manager's dashboard would show overall status indicators, such as number of unclassified events for all event handlers.
@@ -140,13 +140,13 @@ A [[DNS server]] may log an event each time it handles a request to convert betw
 -   Hosts that are in communication with **suspicious IP address ranges or domains**.
 -   **Statistical anomalies** such as spikes or consistently large numbers of DNS lookup failures, which may point to computers that are infected with malware, misconfigured, or running obsolete or faulty applications.
 
-### Web/HTTP Access Logs 
+### Web/Hyper Text Transfer ProtocolTTPs]] Access Logs 
 
-Web servers are typically configured to log HTTP traffic that encounters an **error or traffic that matches some predefined rule set**. Most web servers use the common log format ([[CLF]]) or W3C extended log file format to record the relevant information.
+Web servers are typically configured to log Hyper Text Transfer ProtocolTTPs]] traffic that encounters an **error or traffic that matches some predefined rule set**. Most web servers use the common log format ([[CLF]]) or W3C extended log file format to record the relevant information.
 
 The [[status code]] of a response can reveal quite a bit about both the request and the server's behavior. Codes in the 400 range indicate client-based errors, while codes in the 500 range indicate server-based errors. For example, repeated 403 ("Forbidden") responses may indicate that the server is rejecting a client's attempts to access resources they are not authorized to. A 502 ("Bad Gateway") response could indicate that communications between the target server and its upstream server are being blocked, or that the upstream server is down.
 
-In addition to status codes, some web server software also logs HTTP **header information for both requests and responses**. This can provide you with a better picture of the makeup of each request or response, such as cookie information and [[MIME]] types. Another header field of note is the User-Agent field, which identifies the type of application making the request. In most cases, this is the version of the browser that the client is using to access a site, as well as the client's operating system. However, this can be misleading, as even a browser like **Microsoft Edge includes versions of Google Chrome and Safari in its User-Agent string**. Therefore, the User-Agent field may not be a reliable indicator of the client's environment.
+In addition to status codes, some web server software also logs Hyper Text Transfer ProtocolTTPs]] **header information for both requests and responses**. This can provide you with a better picture of the makeup of each request or response, such as cookie information and [[MIME]] types. Another header field of note is the User-Agent field, which identifies the type of application making the request. In most cases, this is the version of the browser that the client is using to access a site, as well as the client's operating system. However, this can be misleading, as even a browser like **Microsoft Edge includes versions of Google Chrome and Safari in its User-Agent string**. Therefore, the User-Agent field may not be a reliable indicator of the client's environment.
 
 ### VoIP and Call Managers and Session Initiation Protocol (SIP) Traffic
 

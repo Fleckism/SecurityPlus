@@ -111,7 +111,7 @@ Standard users have limited privileges, typically with access to run programs an
 
 **Improper credential management continues to be one of the most fruitful vectors for network [[attack]]s.** If an organization must continue to rely on password-based credentials, its usage needs to be governed by strong policies and training.
 
-A password policy instructs users on best practice in choosing and maintaining passwords. More generally, a credential management policy should instruct users on how to keep their authentication method secure, whether this be a password, smart card, or biometric ID. Password protection policies mitigate against the risk of attackers being able to compromise an account and use it to launch other attacks on the network. The credential management policy also needs to alert users to diverse types of social engineering attacks. Users need to be able to spot phishing and pharming attempts, so that they do not enter credentials into an unsecure form or spoofed site. 
+A password policy instructs users on best practice in choosing and maintaining passwords. More generally, a credential management policy should instruct users on how to keep their authentication method secure, whether this be a password, smart card, or biometric ID. Password protection policies mitigate against the risk of attackers being able to compromise an account and use it to launch other attacks on the network. The credential management policy also needs to alert users to diverse types of [[Social engineering]] attacks. Users need to be able to spot phishing and pharming attempts, so that they do not enter credentials into an unsecure form or spoofed site. 
 
 ### Guest Accounts
 

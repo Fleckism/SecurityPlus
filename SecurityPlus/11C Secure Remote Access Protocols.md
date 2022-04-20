@@ -5,14 +5,14 @@ tags: [Implementation, A_D,section]
 
 3.1 Given a scenario, implement secure protocols
 
-3.3 Given a scenario, implement secure network designs
+3.3 Given a scenario, implement secure network designs #A_D
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security (SSH only)
 
 With today's mobile workforce, most networks have to support connections by remote employees, contractors, and customers to their network resources. These remote connections often make use of untrusted public networks, such as the Internet. Consequently, understanding how to implement secure remote access protocols will be a major part of your job as an information security professional.
 
 There are also many cases where a user needs to remotely access an individual host. This is most commonly implemented to allow administrators to perform remote management of workstations, servers, and network appliances, but it can also be used to provide ordinary users access to a desktop as well.
-# REMOTE ACCESS ARCHITECTURE 
+# REMOTE ACCESS architecture #A_D 
 
 Remote access means that the user's device does not make a direct cabled or wireless connection to the network. The connection occurs over or through an **intermediate network**. Historically, remote access might have used analog modems connecting over the telephone system or possibly a private link (a leased line). These days, most remote access is implemented as a virtual private network ([[VPN]]), running over the **Internet**. **Administering remote access involves essentially the same tasks as administering the local network**. Only authorized users should be allowed access to local network resources and communication channels. Additional complexity comes about because it can be more difficult to ensure the security of remote workstations and servers and there is greater opportunity for remote logins to be exploited. 
 
@@ -154,7 +154,7 @@ A remote access VPN joins the user's PC or smartphone to the local network, via 
 
 Microsoft's Remote Desktop Protocol ([[RDP]]) can be used to access a physical machine on a one-to-one basis. Alternatively, the site can operate a remote desktop gateway that facilitates access to virtual desktops or individual apps running on the network servers ([docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/welcome-to-rds](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/welcome-to-rds)). There are several popular alternatives to Remote Desktop. Most support remote access to platforms other than Windows (macOS and iOS, Linux, Chrome OS, and Android for instance). Examples include TeamViewer ([teamviewer.com/en](https://www.teamviewer.com/en/)) and Virtual Network Computing (VNC), which is implemented by several different providers (notably [realvnc.com/en](https://www.realvnc.com/en/)).
 
-Traditionally, these remote desktop products require a client app. The canvas element introduced in HTML5 allows a browser to draw and update a desktop with relatively little lag. It can also handle audio. This is referred to as an HTML5 VPN or as a clientless remote desktop gateway ([guacamole.apache.org](https://guacamole.apache.org/)). This solution also uses a protocol called WebSockets, which enables bidirectional messages to be sent between the server and client without requiring the overhead of separate HTTP requests.
+Traditionally, these remote desktop products require a client app. The canvas element introduced in HTML5 allows a browser to draw and update a desktop with relatively little lag. It can also handle audio. This is referred to as an HTML5 VPN or as a clientless remote desktop gateway ([guacamole.apache.org](https://guacamole.apache.org/)). This solution also uses a protocol called WebSockets, which enables bidirectional messages to be sent between the server and client without requiring the overhead of separate Hyper Text Transfer ProtocolTTPs]] requests.
 # OUT-OF-BAND MANAGEMENT AND JUMP SERVERS 
 
 Remote access management refers to the specific use case of using a secure channel to administer a network appliance or server. The secure admin workstations ([[SAWs]]) used to perform management functions must be tightly locked down, ideally installed with no software other than that required to access the administrative channel—minimal web browser, remote desktop client, or SSH virtual terminal, for instance. **SAWs should be denied Internet access or be restricted to a handful of approved vendor sites (for patches, drivers, and support).** The devices must also be subject to stringent access control and auditing so that any misuse is detected at the earliest opportunity.

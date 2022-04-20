@@ -6,7 +6,7 @@ tags: [Implementation, OIR, ,section]
 
 LESSON INTRODUCTION
 
-When hosts join a network, they need to be [[configured]] with the appropriate settings for that network. The services that provide these settings, such as [[DHCP]] and [[DNS]], must be deployed securely. When hosts access data using server applications, such as web/HTTP, email, and VoIP, the communications between clients and servers must be managed using secure versions of the application [[protocols]]. You will also need to configure secure protocols that allow users to access networks, host desktops, and appliance configuration interfaces remotely. 
+When hosts join a network, they need to be [[configured]] with the appropriate settings for that network. The services that provide these settings, such as [[DHCP]] and [[DNS]], must be deployed securely. When hosts access data using server applications, such as web/Hyper Text Transfer ProtocolTTPs]], email, and VoIP, the communications between clients and servers must be managed using secure versions of the application [[protocols]]. You will also need to configure secure protocols that allow users to access networks, host desktops, and appliance configuration interfaces remotely. 
 
 ## 
 
@@ -19,7 +19,7 @@ In this lesson, you will:
 -   Implement secure remote access protocols.
 # EXAM OBJECTIVES COVERED
 
-1.4 Given a scenario, analyze potential indicators associated with network attacks
+1.4 Given a scenario, analyze #Ops potential indicators associated with network attacks
 
 3.1 Given a scenario, implement secure protocols
 
@@ -49,7 +49,7 @@ A company whose domain has been hijacked is likely to find that they are locked 
 
 ### Uniform Resource Locator (URL) Redirection
 
-A uniform resource locator ([[URL]]) is an address for the pages and files published on websites. A URL comprises a FQDN, file path, and often script parameters. URL redirection refers to the use of [[HTTP]] redirects to open a page other than the one the user requested. This is often used for legitimate purposes—to send the user to a login page or to send a mobile device browser to a responsive version of the site, for instance. If the redirect is not properly validated by the web application, an attacker can craft a phishing link that might appear legitimate to a naïve user, such as:
+A uniform resource locator ([[URL]]) is an address for the pages and files published on websites. A URL comprises a FQDN, file path, and often script parameters. URL redirection refers to the use of [[Hyper Text Transfer ProtocolTTPs]]]] redirects to open a page other than the one the user requested. This is often used for legitimate purposes—to send the user to a login page or to send a mobile device browser to a responsive version of the site, for instance. If the redirect is not properly validated by the web application, an attacker can craft a phishing link that might appear legitimate to a naïve user, such as:
 
 https://trusted.foo/login.php?url="https://tru5ted.foo"
 
@@ -81,7 +81,7 @@ To ensure DNS security on a private network, local DNS servers should only accep
 
 Attacks on DNS may also target the server application and/or configuration. Many DNS services run on [[BIND]] (Berkeley Internet Name Domain), distributed by the Internet Software Consortium ([isc.org](https://www.isc.org/)). There are known vulnerabilities in many versions of the BIND server, so it is critical to patch the server to the latest version. The same general advice applies to other DNS server software, such as Microsoft's. Obtain and check security announcements and then test and apply critical and security-related patches and upgrades.
 
-[[DNS footprinting]] means obtaining information about a private network by using its DNS server to perform a zone transfer (all the records in a domain) to a rogue DNS or simply by querying the DNS service, using a tool such as nslookup or dig. To prevent this, you can apply an Access Control List ([[ACL]]) to prevent zone transfers to unauthorized hosts or domains, to prevent an external server from obtaining information about the private network architecture.
+[[DNS footprinting]] means obtaining information about a private network by using its DNS server to perform a zone transfer (all the records in a domain) to a rogue DNS or simply by querying the DNS service, using a tool such as nslookup or dig. To prevent this, you can apply an Access Control List ([[ACL]]) to prevent zone transfers to unauthorized hosts or domains, to prevent an external server from obtaining information about the private network architecture #A_D.
 
 [[DNS]] Security Extensions ([[DNSSEC]]) help to **[[mitigate]] against spoofing and poisoning attacks by providing a validation process for DNS responses**. With DNSSEC enabled, the authoritative server for the zone creates a "package" of resource records (called an [[RRset]]) signed with a private key (the Zone Signing Key). When another server requests a secure record exchange, the authoritative server returns the package along with its public key, which can be used to verify the signature.
 

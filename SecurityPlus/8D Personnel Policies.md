@@ -5,7 +5,7 @@ tags: [section]
 
 5.3 Explain the importance of policies to organizational security
 #GRC 
-As well as implementing technical controls for identity and account management, you will need to make sure that your personnel follow appropriate security procedures and policies. The human element can represent a significant attack surface, especially when social engineering attacks are involved. As a security professional, you will work with a human resources (HR) department to assist with the formulation of policies and the development and delivery of security awareness and training programs.
+As well as implementing technical controls for identity and account management, you will need to make sure that your personnel follow appropriate security procedures and policies. The human element can represent a significant attack surface, especially when [[Social engineering]] attacks are involved. As a security professional, you will work with a human resources (HR) department to assist with the formulation of policies and the development and delivery of security awareness and training programs.
 # CONDUCT POLICIES 
 
 Operational policies include privilege/credential management, data handling, and incident response. Other important security policies include those governing employee conduct and respect for privacy.
@@ -31,7 +31,7 @@ Also important to consider is the unauthorized use of personal software by emplo
 A clean desk policy means that each employee's work area should be free from any documents left there. The aim of the policy is to prevent sensitive information from being obtained by unauthorized staff or guests at the workplace.
 # USER AND ROLE-BASED TRAINING
 
-Another essential component of a secure system is **effective user training**. Untrained users represent a serious vulnerability because they are susceptible to social engineering and malware attacks and may be careless when handling sensitive or confidential data.
+Another essential component of a secure system is **effective user training**. Untrained users represent a serious vulnerability because they are susceptible to [[Social engineering]] and malware attacks and may be careless when handling sensitive or confidential data.
 
 ![A classroom instructor is showing 2 students something on a tablet. Other students are working at workstations.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/5208-1599771801565.jpg)
 
@@ -44,7 +44,7 @@ Appropriate security awareness training needs to be delivered to employees at al
 -   Site security procedures, restrictions, and advice, including safety drills, escorting guests, use of secure areas, and use of personal devices.
 -   Data handling, including document confidentiality, [[PII]], backup, encryption, and so on.
 -   Password and account management plus security features of PCs and mobile devices.
--   Awareness of social engineering and malware threats, including phishing, website exploits, and spam plus alerting methods for new threats.
+-   Awareness of [[Social engineering]] and malware threats, including phishing, website exploits, and spam plus alerting methods for new threats.
 -   Secure use of software such as browsers and email clients plus appropriate use of Internet access, including social networking sites.
 
 There should also be a system for identifying staff performing security-sensitive roles and grading the level of training and education required (between beginner, intermediate, and advanced, for instance). Note that in defining such training programs you need to focus on job roles, rather than job titles, as employees may perform different roles and have different security training, education, or awareness requirements in each role.

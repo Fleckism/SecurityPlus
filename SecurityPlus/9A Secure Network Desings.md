@@ -5,7 +5,7 @@ tags: [A_D, Implementation,section]
 
 LESSON INTRODUCTION
 
-Managing user authentication and authorization is only one part of building secure information technology services. The network infrastructure must also be designed to run services with the properties of confidentiality, integrity, and availability. While design might not be a direct responsibility for you at this stage in your career, you should understand the factors that underpin design decisions, and be able to **implement a design by deploying routers, switches, access points, and load balancers in secure configurations.**
+Managing user authentication and authorization is only one part of building secure information technology services. The network infrastructure must also be designed to run services with the properties of confidentiality, integrity, and [[Availability]]. While design might not be a direct responsibility for you at this stage in your career, you should understand the factors that underpin design decisions, and be able to **implement a design by deploying routers, switches, access points, and load balancers in secure configurations.**
 
 ## 
 
@@ -13,33 +13,33 @@ LESSON OBJECTIVES
 
 In this lesson, you will:
 
--   Implement secure network designs.
+-   Implement secure network designs #A_D.
 -   Implement secure routing and switching.
 -   Implement secure wireless infrastructure.
 -   Implement load balancers.
 # EXAM OBJECTIVES COVERED
 
-3.3 Given a scenario, implement secure network designs
+3.3 Given a scenario, implement secure network designs #A_D
 
-While you may not be responsible for network design in your current role, it is important that you understand the vulnerabilities that can arise from weaknesses in network architecture, and some of the general principles for ensuring a well-designed network. This will help you to contribute to projects to improve resiliency and to make recommendations for improvements.
+While you may not be responsible for network design in your current role, it is important that you understand the vulnerabilities that can arise from weaknesses in network architecture #A_D, and some of the general principles for ensuring a well-designed network. This will help you to contribute to projects to improve resiliency and to make recommendations for improvements.
 
 
-# SECURE NETWORK DESIGNS
+# SECURE NETWORK designs #A_D
 
-A [[secure network design]] provisions the assets and services underpinning business workflows with the properties of confidentiality, integrity, and availability. Weaknesses in the network architecture make it more susceptible to undetected intrusions or to catastrophic service failures. Typical weaknesses include:
+A [[secure network design]] provisions the assets and services underpinning business workflows with the properties of confidentiality, integrity, and [[Availability]]. Weaknesses in the network architecture #A_D make it more susceptible to undetected intrusions or to catastrophic service failures. Typical weaknesses include:
 
 -   **Single points of failure**—a "pinch point" relying on a single hardware server or appliance or network channel.
 -   **Complex dependencies**—services that require many different systems to be available. Ideally, the failure of individual systems or services should not affect the overall performance of other network services.
--   **Availability over confidentiality and integrity**—often it is tempting to take "shortcuts" to get a service up and running. Compromising security might represent a quick fix but creates long term risks.
+-   **[[Availability]] over confidentiality and integrity**—often it is tempting to take "shortcuts" to get a service up and running. Compromising security might represent a quick fix but creates long term risks.
 -   **Lack of documentation and change control**—network segments, appliances, and services might be added without proper change control procedures, leading to a lack of visibility into how the network is constituted. It is vital that network managers understand business workflows and the network services that underpin them.
--   **Overdependence on perimeter security**—if the network architecture is **"flat"** (that is, if any host can contact any other host), penetrating the network edge gives the attacker freedom of movement.
+-   **Overdependence on perimeter security**—if the network architecture #A_D is **"flat"** (that is, if any host can contact any other host), penetrating the network edge gives the attacker freedom of movement.
 
-[[Cisco's SAFE architecture]] ([cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html#~overview](https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html#~overview)) is a good starting point for understanding the complex topic of network architecture design. The SAFE guidance refers to places in the network ([[PIN]]). These represent types of network locations, including campus networks, branch offices, data centers, and the cloud. There are two special locations in these networks—Internet Edge and WAN—that facilitate connections between locations and with untrusted networks.
+[[Cisco's SAFE architecture #A_D]] ([cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html#~overview](https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html#~overview)) is a good starting point for understanding the complex topic of network architecture #A_D design. The SAFE guidance refers to places in the network ([[PIN]]). These represent types of network locations, including campus networks, branch offices, data centers, and the cloud. There are two special locations in these networks—Internet Edge and WAN—that facilitate connections between locations and with untrusted networks.
 
 **Each PIN can be protected with security controls and capabilities, classified into a series of secure domains, such as threat defense, segmentation, security intelligence, and management.** 
-# BUSINESS WORKFLOWS AND NETWORK ARCHITECTURE
+# BUSINESS WORKFLOWS AND NETWORK architecture #A_D
 
-Network architecture is designed to support business workflows. You can illustrate the sorts of decisions that need to be made by **analyzing a simple workflow**, such as email:
+Network architecture #A_D is designed to support business workflows. You can illustrate the sorts of decisions that need to be made by **analyzing a simple workflow**, such as email:
 
 -   **Access**—the client device must access the network, obtaining a [[physical channel and logical address]]. The user must be authenticated and authorized to use the email application. The corollary is that unauthorized users and devices must be denied access.
 -   **Email mailbox server**—ensure that the mailbox is only accessed by authorized clients and that it is fully available and fault tolerant. Ensure that the email service runs with a minimum number of dependencies and that the service is designed to be resilient to faults.
@@ -48,7 +48,7 @@ Network architecture is designed to support business workflows. You can illustra
 You can see that this type of business flow will involve systems in different places in the network. Placing the client, the mailbox, and the mail transfer server all within the same logical network "segment" will introduce many vulnerabilities. Understanding and controlling how data flows between these locations is a key part of secure and effective network design.
 # NETWORK APPLIANCES
 
-A number of network appliances are involved in provisioning a network architecture:
+A number of network appliances are involved in provisioning a network architecture #A_D:
 
 -   [[Switches]]—forward frames between nodes in a cabled network. Switches work at layer 2 and 3 of the OSI model_._ At layer 2 they make forwarding decisions based on the hardware or [[MAC address |Media Access Control (MAC)]] address of attached nodes. Switches can establish network segments that either map directly to the underlying cabling or logical segments, created in the switch configuration as  virtual LANs ([[VLANs]]).
 
@@ -58,7 +58,7 @@ When designing and troubleshooting a network, it is helpful to compartmentalize 
 -   [[Routers]]—forward packets around an internetwork, making forwarding decisions based on IP addresses. Routers work at layer 3 of the OSI model. Routers can apply logical IP subnet addresses to segments within a network.
 -   [[firewall]]—apply an access control list ([[ACL]]) to filter traffic passing in or out of a network segment. Firewalls can work at layer 3 of the OSI model or higher.
 -   [[Load balancers]]—distribute traffic between network segments or servers to optimize performance. Load balancers can work at layer 4 of the OSI model or higher.
--   Domain Name System ([[DNS]]) servers—host name records and perform name resolution to allow applications and users to address hosts and services using fully qualified domain names ([[FQDN |FQDNs]]) rather than IP addresses. DNS works at layer 7 of the OSI model. Name resolution is a critical service in network design. Abuse of name resolution is a common attack vector.
+-   Domain Name System ([[DNS]]) servers—host name records and perform name resolution to allow applications and users to address hosts and services using fully qualified domain names ([[FQDN |FQDNs]]) rather than IP addresses. DNS works at layer 7 of the OSI model. Name resolution is a critical service in network design. Abuse of name resolution is a common [[attack vector]].
 
 Appliances, protocols, and addressing functions within the OSI network layer reference model. (Images © 123RF.com.)
 # ROUTING AND SWITCHING PROTOCOLS
@@ -96,7 +96,7 @@ Assuming an Ethernet network, network segments can be established physically by 
 Because enterprise networks typically feature hundreds of switching appliances and network ports (not to mention wireless access and remote access), segmentation is more likely to be enforced using virtual LANs ([[VLANs]]). Any given switch port can be assigned to any VLAN in the same topology, regardless of the physical location of the switch. The segmentation enforced by VLANs at layer 2 can be mapped to logical divisions enforced by IP subnets at layer 3.
 # NETWORK TOPOLOGY AND ZONES 
 
-Given the ability to create segregated segments with the network, you can begin to define a topology of different network zones. **A topology is a description of how a computer network is physically or logically organized.** The logical and physical network topology should be analyzed to identify points of vulnerability and to ensure that the goals of confidentiality, integrity, and availability are met by the design.
+Given the ability to create segregated segments with the network, you can begin to define a topology of different network zones. **A topology is a description of how a computer network is physically or logically organized.** The logical and physical network topology should be analyzed to identify points of vulnerability and to ensure that the goals of confidentiality, integrity, and [[Availability]] are met by the design.
 
 The main building block of a security [[Topology discovery|Topology]] is the [[zone]]. A zone is an area of the network where the security configuration is the same for all hosts within it. Zones should be segregated from one another by physical and/or logical segmentation, using VLANs and subnets. Traffic between zones should be strictly controlled using a security device, typically a firewall.
  
@@ -109,11 +109,11 @@ Hosts are trusted in the sense that they are under your administrative control a
 -   Extranet—this is a network of semi-trusted hosts, typically representing business partners, suppliers, or customers. Hosts must authenticate to join the extranet.
 -   Internet/guest—this is a zone permitting anonymous access (or perhaps a mix of anonymous and authenticated access) by untrusted hosts over the Internet.
 
-A large network may need more zones to represent different host groups, such as separating wireless stations from desktop workstations, and putting servers in their own groups. Cisco's enterprise security architecture uses core and distribution layers to interconnect access blocks, with each access block representing a different zone and business function.
+A large network may need more zones to represent different host groups, such as separating wireless stations from desktop workstations, and putting servers in their own groups. Cisco's enterprise security architecture #A_D uses core and distribution layers to interconnect access blocks, with each access block representing a different zone and business function.
 
 ![A center box labeled “Core/Distribution” is connected to 9 different VLAN boxes, as well as to 3 more boxes that are also connected to an ISP router.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2693-1599771801963.png)
 
-Enterprise security architecture. (Images © 123RF.com.)
+Enterprise security architecture #A_D. (Images © 123RF.com.)
 # DEMILITARIZED ZONES
 
 The most important distinction between different security zones is whether a host is Internet-facing. An Internet-facing host accepts inbound connections from and makes connections to hosts on the Internet. Internet-facing hosts are placed in one or more demilitarized zones (DMZs). A [[DMZ]] is also referred to as a perimeter or edge network. The basic principle of a DMZ is that traffic cannot pass directly through it. A DMZ enables external clients to access data on private systems, such as web servers, without compromising the security of the internal network as a whole. If communication is required between hosts on either side of a DMZ, a host within the DMZ acts as a proxy. For example, if an intranet host requests a connection with a web server on the Internet, a proxy in the DMZ takes the request and checks it. If the request is valid, it retransmits it to the destination. External hosts have no idea about what (if anything) is behind the DMZ.
@@ -159,9 +159,9 @@ Sometimes the term DMZ (or "DMZ host") is used by SOHO router vendors to mean a 
 
 IPv6 has impacts for on-premises networks, for the way your company accesses cloud services, and for the way clients access web servers and other public servers that you publish.
 
-IPv6 may be enabled by default on clients and servers, and even on network appliances (routers and firewalls), so there must be a management and security plan for it. If IPv6 is enabled but unmanaged, there is the potential for malicious use as a **backdoor or covert channel**. IPv6 also exposes novel attack vectors, such as spoofing and DoS attacks on neighbor discovery ([https://www.cisco.com/c/en/us/products/ios-nx-os-software/ipv6-first-hop-security-fhs/index.html?dtid=osscdc000283](https://www.cisco.com/c/en/us/products/ios-nx-os-software/ipv6-first-hop-security-fhs/index.html?dtid=osscdc000283)).
+IPv6 may be enabled by default on clients and servers, and even on network appliances (routers and firewalls), so there must be a management and security plan for it. If IPv6 is enabled but unmanaged, there is the potential for malicious use as a **backdoor or covert channel**. IPv6 also exposes novel [[attack vector]]s, such as spoofing and DoS attacks on neighbor discovery ([https://www.cisco.com/c/en/us/products/ios-nx-os-software/ipv6-first-hop-security-fhs/index.html?dtid=osscdc000283](https://www.cisco.com/c/en/us/products/ios-nx-os-software/ipv6-first-hop-security-fhs/index.html?dtid=osscdc000283)).
 
-Hosts should be allocated IPv6 addresses that map to the same zones as the IPv4 topology. Firewalls should be configured with [[ACLs]] that either achieve the same security configuration as for IPv4 or block IPv6, if that is a better option. One issue here is that IPv6 is not intended to perform any type of address translation. Rather than obscure internal/external traffic flows with private to public address mapping, IPv6 routing and filtering policies should be configured to mirror the equivalent IPv4 architecture.
+Hosts should be allocated IPv6 addresses that map to the same zones as the IPv4 topology. Firewalls should be configured with [[ACLs]] that either achieve the same security configuration as for IPv4 or block IPv6, if that is a better option. One issue here is that IPv6 is not intended to perform any type of address translation. Rather than obscure internal/external traffic flows with private to public address mapping, IPv6 routing and filtering policies should be configured to mirror the equivalent IPv4 architecture #A_D.
 
 The Internet Society has published a white paper on security implications of IPv6 ([internetsociety.org/wp-content/uploads/2019/03/deploy360-ipv6-security-v1.0.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/deploy360-ipv6-security-v1.0.pdf)). Infoblox's white paper on migrating services to IPv6 provides more useful context ([infoblox.com/wp-content/uploads/2016/04/infoblox-whitepaper-seven-deadly-traps-of-ipv6-deployment_0.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/infoblox-whitepaper-seven-deadly-traps-of-ipv6-deployment_0.pdf)).
 # OTHER SECURE NETWORK DESIGN CONSIDERATIONS

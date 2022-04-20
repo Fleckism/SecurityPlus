@@ -1,18 +1,15 @@
----
-tags: [OIR, A_D, Implementation,section]
----
 # EXAM OBJECTIVES COVERED
 **security information and event management** [[SIEM]]
-1.7 Summarize the techniques used in security assessments
+1.7 Summarize the techniques used in [[[[security assesment]]s]]
 
-3.3 Given a scenario, implement secure network designs
-
-4.1 Given a scenario, use the appropriate tool to assess organizational security
+3.3 Given a scenario, #Implementation  secure network designs #A_D
+#Ops
+4.1 Given a scenario, use the appropriate #tool to assess organizational security
 
 There are many types of [[security control]]s that can be deployed to protect networks, hosts, and data. One thing that all these controls have in common is that they generate log data and alerts. Reviewing this output is one of the principal challenges in information security management. As a security professional, you must be able to describe, install, and configure systems to manage logging and events.
 # MONITORING SERVICES
 
-Security assessments and incident response both require real-time monitoring of host and network status indicators plus audit information.
+[[security assesment]]s and incident response both require real-time monitoring of host and network status indicators plus audit information.
 
 ### Packet Capture
 
@@ -20,11 +17,11 @@ Security assessments and incident response both require real-time monitoring of 
 
 ### Network Monitors
 
-As distinct from **network traffic monitoring**,(**not the same thing**) a **network monitor** collects data about **network appliances**, such as switches, access points, routers, firewalls, and servers. This is used to monitor load status for CPU/memory, state tables, disk capacity, fan speeds/temperature, network link utilization/error statistics, and so on. Another important function is a heartbeat message to indicate availability. This data might be collected using the Simple Network Management Protocol ([[SNMP]]) or a proprietary management system. As well as supporting availability, network monitoring might reveal unusual conditions that could point to some kind of attack.
+As distinct from **network traffic monitoring**,(**not the same thing**) a **network monitor** collects data about **network appliances**, such as switches, access points, routers, firewalls, and servers. This is used to monitor load status for CPU/memory, state tables, disk capacity, fan speeds/temperature, network link utilization/error statistics, and so on. Another important function is a heartbeat message to indicate [[Availability]]. This data might be collected using the Simple Network Management Protocol ([[SNMP]]) or a proprietary management system. As well as supporting [[Availability]], network monitoring might reveal unusual conditions that could point to some kind of attack.
 
 ### Logs
 
-Logs are one of the most valuable sources of security information. A system log can be used to diagnose availability issues. A security log can record both authorized and unauthorized uses of a resource or privilege. Logs function both as an audit trail of actions and (if monitored regularly) provide a warning of intrusion attempts. Log review is a critical part of security assurance. Only referring to the logs following a major incident is missing the opportunity to identify threats and vulnerabilities early and to respond proactively. 
+Logs are one of the most valuable sources of security information. A system log can be used to diagnose [[Availability]] issues. A security log can record both authorized and unauthorized uses of a resource or privilege. Logs function both as an audit trail of actions and (if monitored regularly) provide a warning of intrusion attempts. Log review is a critical part of security assurance. Only referring to the logs following a major incident is missing the opportunity to identify threats and vulnerabilities early and to respond proactively. 
 
 Logs typically associate an action with a particular user. This is one of the reasons that it is critical that users not share logon details. If a user account is compromised, there is no means of tying events in the log to the actual attacker.
 # SECURITY INFORMATION AND EVENT MANAGEMENT
@@ -54,7 +51,7 @@ Enabling a log parser plug-in for a pfSense security appliance so that firewall 
 Log aggregation refers to **normalizing data** from different sources so that it is **consistent and searchable**. SIEM software features connectors or plug-ins to interpret (or parse) data from distinct types of systems and to account for differences between vendor implementations. Usually parsing will be carried out using regular expressions tailored to each log file format to identify attributes and content that can be mapped to standard fields in the SIEM's reporting and analysis tools. Another important function is to normalize **date/time zone differences to a single timeline**.
 # ANALYSIS AND REPORT REVIEW 
 
-Where collection and aggregation produce inputs, a SIEM is also used for reporting. A critical function of SIEM—and the principal factor distinguishing it from basic log management—is that of correlation. This means that the [[SIEM]] software can link individual events or data points (observables) into a meaningful indicator of risk, or Indicator of Compromise ([[IOC]]). Correlation can then be used to drive an alerting system. These reports would be viewed from the SIEM dashboard.
+Where collection and aggregation produce inputs, a SIEM is also used for reporting. A critical function of SIEM—and the principal factor distinguishing it from basic log management—is that of correlation. This means that the [[SIEM]] software can link individual events or data points (observables) into a meaningful indicator of risk, or Indicator of Compromise ([[[[IoC]]]]). Correlation can then be used to drive an alerting system. These reports would be viewed from the SIEM dashboard.
 
 Basic correlation can be performed using simple If…Then type rules. However, many SIEM solutions use artificial intelligence (AI) and machine learning as the basis for automated analysis.
 
@@ -68,7 +65,7 @@ One of the biggest challenges for behavior analytics driven by machine learning 
 
 ### Security Orchestration, Automation, and Response 
 
-Security orchestration, automation, and response ([[SOAR]]) is designed as a solution to the problem of the volume of **alerts overwhelming analysts**' ability to respond. A SOAR may be implemented as a standalone technology or integrated with a [[SIEM]]—often referred to as a **next-gen SIEM**. The basis of SOAR is to scan the organization's store of security and threat intelligence, analyze it using machine/deep learning techniques, and then use that data to automate and provide data enrichment for the workflows that drive incident response and threat hunting.
+Security orchestration, automation, and response ([[SOAR]]) is designed as a solution to the problem of the volume of **alerts overwhelming analysts**' ability to respond. A SOAR may be implemented as a standalone technology or integrated with a [[SIEM]]—often referred to as a **next-gen SIEM**. The basis of SOAR is to scan the organization's store of security and threat intelligence, analyze #Ops it using machine/deep learning techniques, and then use that data to automate and provide data enrichment for the workflows that drive incident response and [[threat hunting]].
 # FILE MANIPULATION
 
 While SIEM can automate many functions of log collection and review, you may also have to manually prepare data using a [[Linux command line]].

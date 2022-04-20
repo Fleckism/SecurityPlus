@@ -3,7 +3,7 @@ tags: [section]
 ---
 # EXAM OBJECTIVES COVERED
 
-3.3 Given a scenario, #Implementation  secure network designs #A_D 
+3.3 Given a scenario, #Implementation  secure network designs #A_D #A_D
 
 [[Intrusion]] detection and prevention systems are mature security technologies, widely deployed to monitor company networks. A large part of the monitoring and alerting data you will be analyzing will come from these systems so it is important that you be able to install them to appropriate locations in the network and configure them correctly.
 # NETWORK-BASED INTRUSION DETECTION SYSTEMS
@@ -41,12 +41,12 @@ In an [[IDS]], the analysis engine is the component that scans and interprets th
 
 **Signature-based detection** (or pattern-matching) means that the engine is loaded with a database of attack patterns or signatures. If traffic matches a pattern, then the engine generates an incident.
 
-![Sample Snort rules file shows many examples of tests for malicious content in the format "alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg: ET ActiveX"](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7635-1599771804837.png)
+![Sample Snort rules file shows many examples of tests for malicious content in the format "alert tcp $EXTERNAL_NET $Hyper Text Transfer ProtocolTTPs]]_PORTS -> $HOME_NET any (msg: ET ActiveX"](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7635-1599771804837.png)
 
 Snort rules file supplied by the open-source Emerging Threats community feed.
 
-The signatures and rules (often called plug-ins or feeds) powering intrusion detection need to be updated regularly to provide protection against the latest threat types. Commercial software requires a paid-for subscription to obtain the updates. It is important to ensure that the software is configured to update only from valid repositories, ideally using a secure connection method, such as HTTPS.
-# BEHAVIOR AND ANOMALY-BASED DETECTION 
+The signatures and rules (often called plug-ins or feeds) powering intrusion detection need to be updated regularly to provide protection against the latest threat types. Commercial software requires a paid-for subscription to obtain the updates. It is important to ensure that the software is configured to update only from valid repositories, ideally using a secure connection method, such as Hyper Text Transfer ProtocolTTPs]]S.
+# BEHAVIOR AND ANOMALY-BASED DETECTION
 
 **Behavioral-based detection** means that the engine is trained to **recognize baseline** "normal" traffic or events. Anything that deviates from this baseline (outside a defined level of tolerance) generates an incident. The idea is that the software will be able to identify zero day attacks, insider threats, and other malicious activity for which there is no signature.
 
@@ -70,12 +70,12 @@ To some extent, [[NGFW]] and UTM are **just marketing terms**. A UTM is seen as 
 
 ### Content/URL Filter
 
-A firewall has to sustain high loads, and overloads can increase latency or even cause outages. The high complexity of application-aware [[NGFW]] and [[UTM]] solutions can **reduce their suitability as an [[network edge |edge device]]**, because while they might provide **high confidentiality and integrity, lower throughput reduces availability**. One solution to this is to treat security solutions for server traffic differently from that for user traffic. User traffic refers to web browsing, social networking, email, and video/VoIP connections initiated by local network clients.
+A firewall has to sustain high loads, and overloads can increase latency or even cause outages. The high complexity of application-aware [[NGFW]] and [[UTM]] solutions can **reduce their suitability as an [[network edge |edge device]]**, because while they might provide **high confidentiality and integrity, lower throughput reduces [[Availability]]**. One solution to this is to treat security solutions for server traffic differently from that for user traffic. User traffic refers to web browsing, social networking, email, and video/VoIP connections initiated by local network clients.
 
 Consequently, where a stateful or NGFW [[firewall]] may be deployed for application server [[traffic]], the job of filtering user traffic is often performed by a separate appliance or proxy host. A content filter is designed to apply a number of user-focused filtering rules, such as blocking uniform resource locators (URLs) that appear on content block lists or applying time-based restrictions to browsing. Content filters are now usually implemented as a class of product called a secure web gateway ([[SWG]]). As well as filtering, a SWG performs threat analysis and often integrates the functionality of data loss prevention ([[DLP]]) and cloud access security brokers ([[CASB]]) to protect against the full range of unauthorized egress threats, including malware command and control and data exfiltration.
 # HOST-BASED INTRUSION DETECTION SYSTEMS
 
-A host-based [[IDS]] ([[HIDS]]) captures information from a single host, such as a server, router, or firewall. Some organizations may configure HIDS on each client workstation. HIDS come in many different forms with different capabilities. **The core ability is to capture and analyze log files**, but more sophisticated systems can also monitor OS kernel files, monitor ports and network interfaces, and process data and logs generated by specific applications, such as [[HTTP]] or [[FTP]].
+A host-based [[IDS]] ([[HIDS]]) captures information from a single host, such as a server, router, or firewall. Some organizations may configure HIDS on each client workstation. HIDS come in many different forms with different capabilities. **The core ability is to capture and analyze #Ops log files**, but more sophisticated systems can also monitor OS kernel files, monitor ports and network interfaces, and process data and logs generated by specific applications, such as [[Hyper Text Transfer ProtocolTTPs]]]] or [[FTP]].
 
 HIDS software produces similar output to an anti-malware scanner. If the software detects a threat, it may just log the event or display an alert. The log should show you which process initiated the event and what resources on the host were affected. You can use the log to investigate whether the suspect process is authorized or should be removed from the host.
 

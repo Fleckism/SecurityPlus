@@ -3,14 +3,14 @@ tags: [Ops, Implementation,section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.4 Given a scenario, **analyze potential ( #Ops)** indicators associated with network attacks
+1.4 Given a scenario, **analyze #Ops potential ( #Ops)** indicators associated with network attacks
 
 3.4 Given a scenario, install and configure wireless security settings 
 
 Most organizations have both a wired and a wireless network for employees to access while on the move within their facilities. Understanding the potential threats and vulnerabilities will allow you to successfully secure the wireless components of an organization's information systems infrastructure.
 # WIRELESS NETWORK INSTALLATION CONSIDERATIONS
 
-Wireless network installation considerations refer to the factors that ensure good availability of authorized Wi-Fi access points. A network with patchy coverage is vulnerable to rogue and evil twin attacks.
+Wireless network installation considerations refer to the factors that ensure good [[Availability]] of authorized Wi-Fi access points. A network with patchy coverage is vulnerable to rogue and evil twin attacks.
 
 The 5 GHz band has more space to configure non-overlapping channels. Also note that a [[WAP]] can use bonded channels to improve bandwidth, but this increases risks from interference.
 
@@ -30,7 +30,7 @@ The coverage and interference factors mean that WAPs must be positioned and conf
 These readings are combined and analyzed to produce a heat map, showing where a signal is strong (red) or weak (green/blue), and which channel is being used and how they overlap. This data is then used to optimize the design, by adjusting transmit power to reduce a WAP's range, changing the channel on a WAP, adding a new WAP, or physically moving a WAP to a new location.
 # CONTROLLER AND ACCESS POINT SECURITY 
 
-Where a site survey ensures availability, the confidentiality and integrity properties of the network are ensured by configuring authentication and encryption. These settings could be configured manually on each WAP, but this would be onerous in an enterprise network with tens or hundreds of WAP. If access points are individually managed, this can lead to configuration errors and can make it difficult to gain an overall view of the wireless deployment, including which clients are connected to which access points and which clients or access points are handling the most traffic.
+Where a site survey ensures [[Availability]], the confidentiality and integrity properties of the network are ensured by configuring authentication and encryption. These settings could be configured manually on each WAP, but this would be onerous in an enterprise network with tens or hundreds of WAP. If access points are individually managed, this can lead to configuration errors and can make it difficult to gain an overall view of the wireless deployment, including which clients are connected to which access points and which clients or access points are handling the most traffic.
 
 Rather than configure each device individually, enterprise wireless solutions implement wireless controllers for centralized management and monitoring. A controller can be a hardware appliance or a software application run on a server.
 
@@ -87,9 +87,9 @@ The Easy Connect method, announced alongside WPA3, is intended to replace WPS as
 A quick response (QR) code is a barcode standard for encoding arbitrary alphanumeric or binary strings within a square block pattern. The codes can be scanned using any type of digital camera.
 # OPEN AUTHENTICATION AND CAPTIVE PORTALS
 
-Selecting open authentication means that the client is not required to authenticate. This mode would be used on a public [[WAP]] (or "hotspot"). In WPA2, this also means that data sent over the link is unencrypted. Open authentication may be combined with a secondary authentication mechanism managed via a browser. When the client associates with the open hotspot and launches the browser, the client is redirected to a captive portal or splash page. This will allow the client to authenticate to the hotspot provider's network (over HTTPS, so the login is secure). The portal may also be designed to enforce terms and conditions and/or take payment to access the Wi-Fi service.
+Selecting open authentication means that the client is not required to authenticate. This mode would be used on a public [[WAP]] (or "hotspot"). In WPA2, this also means that data sent over the link is unencrypted. Open authentication may be combined with a secondary authentication mechanism managed via a browser. When the client associates with the open hotspot and launches the browser, the client is redirected to a captive portal or splash page. This will allow the client to authenticate to the hotspot provider's network (over Hyper Text Transfer ProtocolTTPs]]S, so the login is secure). The portal may also be designed to enforce terms and conditions and/or take payment to access the Wi-Fi service.
 
-When using open wireless, users must ensure they send confidential web data only over HTTPS connections and only use email, VoIP, IM, and file transfer services with [[SSL/TLS]] enabled. Another option is for the user to join a Virtual Private Network ([[VPN]]). The user would associate with the open hotspot then start the VPN connection. **This creates an encrypted "tunnel" between the user's computer and the VPN server.** This allows the user to browse the web or connect to email services without anyone eavesdropping on the open Wi-Fi network being able to intercept those communications. The VPN could be provided by the user's company or they could use a third-party VPN service provider. Of course, if using a third party, the user needs to be able to trust them implicitly. The VPN must use certificate-based tunneling to set up the "inner" authentication method.
+When using open wireless, users must ensure they send confidential web data only over Hyper Text Transfer ProtocolTTPs]]S connections and only use email, VoIP, IM, and file transfer services with [[SSL/TLS]] enabled. Another option is for the user to join a Virtual Private Network ([[VPN]]). The user would associate with the open hotspot then start the VPN connection. **This creates an encrypted "tunnel" between the user's computer and the VPN server.** This allows the user to browse the web or connect to email services without anyone eavesdropping on the open Wi-Fi network being able to intercept those communications. The VPN could be provided by the user's company or they could use a third-party VPN service provider. Of course, if using a third party, the user needs to be able to trust them implicitly. The VPN must use certificate-based tunneling to set up the "inner" authentication method.
 
 WPA3 can implement a mode called Wi-Fi Enhanced Open, which uses opportunistic wireless encryption ([[OWE]]). OWE uses the **Dragonfly handshake to agree with ephemeral session keys on joining the network.** This means that one station cannot sniff the traffic from another station, because they are using different session keys. There is still no authentication of the access point, however.
 

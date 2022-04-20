@@ -15,7 +15,7 @@ In this lesson, you will:
 
 3.5 Given a scenario, implement secure mobile solutions
 
-As use of mobiles has permeated every type of organization, network management and security [[suites]] have developed to ensure that they are not exploited as unmanaged attack vectors. As a security professional, you will often have to configure these management suites, and assist users with the device onboarding process.
+As use of mobiles has permeated every type of organization, network management and security [[suites]] have developed to ensure that they are not exploited as unmanaged [[attack vector]]s. As a security professional, you will often have to configure these management suites, and assist users with the device onboarding process.
 
 Play Video
 # MOBILE DEVICE DEPLOYMENT MODELS
@@ -121,7 +121,7 @@ Location services is available to any app where the user has granted the app per
 
 Using Find My Device to locate an Android smartphone. (Android is a trademark of Google LLC.)
 
-The primary concern surrounding location services is one of privacy. Although very useful for maps and turn-by-turn navigation, it provides a mechanism to track an individual's movements, and therefore their social and business habits. The problem is further compounded by the plethora of mobile apps that require access to location services and then both send the information to the application developers and store it within the device's file structure. If an attacker can gain access to this data, **then stalking, social engineering,** and even identity theft become real possibilities.
+The primary concern surrounding location services is one of privacy. Although very useful for maps and turn-by-turn navigation, it provides a mechanism to track an individual's movements, and therefore their social and business habits. The problem is further compounded by the plethora of mobile apps that require access to location services and then both send the information to the application developers and store it within the device's file structure. If an attacker can gain access to this data, **then stalking, [[Social engineering]],** and even identity theft become real possibilities.
 
 ### Geofencing and Camera/Microphone Enforcement
 
@@ -142,7 +142,7 @@ When a device is joined to the corporate network through enrollment with managem
 
 Endpoint management software such as Microsoft Intune can be used to approve or prohibit apps. (Screenshot used with permission from Microsoft.)
 
-A trusted app source is one that is managed by a service provider. The service provider authenticates and authorizes valid developers, issuing them with a certificate to use to sign their apps and warrant them as trusted. It may also analyze code submitted to ensure that it does not pose a security or privacy risk to its customers (or remove apps that are discovered to pose such a risk). It may apply other policies that developers must meet, such as not allowing apps with adult content or apps that duplicate the function of core OS apps.
+A trusted app source is one that is managed by a service provider. The service provider authenticates and authorizes valid developers, issuing them with a certificate to use to sign their apps and warrant them as trusted. It may also analyze #Ops code submitted to ensure that it does not pose a security or privacy risk to its customers (or remove apps that are discovered to pose such a risk). It may apply other policies that developers must meet, such as not allowing apps with adult content or apps that duplicate the function of core OS apps.
 
 The mobile OS defaults to restricting app installations to the linked store (App Store for iOS and Play for Android). Most consumers are happy with this model but it does not work so well for enterprises. It might not be appropriate to deliver a custom corporate app via a public store, where anyone could download it. Apple operates enterprise developer and distribution programs to solve this problem, allowing private app distribution via Apple Business Manager ([developer.apple.com/business/distribute](https://developer.apple.com/business/distribute/)). Google's Play store has a private channel option, called Managed Google Play. Both these options allow an EMM/UEM suite to **push apps from the private channel to the device.** 
 

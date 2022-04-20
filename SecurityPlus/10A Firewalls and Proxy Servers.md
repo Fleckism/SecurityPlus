@@ -5,7 +5,7 @@ tags: [A_D, Implementation,section]
 
 LESSON INTRODUCTION
 
-In addition to the secure switching and routing appliances and protocols used to implement network connectivity, the network infrastructure design must also include security appliances to ensure confidentiality, integrity, and availability of services and data. You should be able to distinguish the features of security and monitoring devices and software and deploy these devices to appropriate locations in the network.
+In addition to the secure switching and routing appliances and protocols used to implement network connectivity, the network infrastructure design must also include security appliances to ensure confidentiality, integrity, and [[Availability]] of services and data. You should be able to distinguish the features of security and monitoring devices and software and deploy these devices to appropriate locations in the network.
 
 ## 
 
@@ -18,7 +18,7 @@ In this lesson, you will:
 -   Summarize the use of SIEM.
 # EXAM OBJECTIVES COVERED
 
-3.3 Given a scenario, implement secure network designs
+3.3 Given a scenario, implement secure network designs #A_D
 
 The firewall is one of the longest serving types of network security control, developed to segregate some of the first Internet networks in the 1980s. Since those early days, firewall types and functionality have both broadened and deepened. **As a network security professional, a very large part of your workday will be taken up with implementing, configuring, and troubleshooting [[firewall]] and [[proxies]].**
 # PACKET FILTERING FIREWALLS 
@@ -58,12 +58,12 @@ pfSense firewall rule configuration—Advanced settings allow maximums for state
 
 ### Application Layer ([[OSI]] Layer 7)
 
-An application-**aware** firewall can inspect the contents of packets at the application layer. One key feature is to **verify the application protocol matches the port**; to verify that malware isn't sending raw TCP data over port 80 just because port 80 is open, for instance. As another example, a web application firewall could analyze the HTTP headers and the HTML code present in HTTP packets to try to identify code that matches a pattern in its threat database. **Application-aware firewalls have many different names, including application layer gateway, stateful multilayer inspection, or deep packet inspection**. Application aware devices have to be configured with separate filters for each type of [[traffic]] (HTTP and HTTPS, SMTP/POP/IMAP, FTP, and so on). Application aware firewalls are very powerful, but they are not invulnerable. Their very complexity means that it is possible to craft DoS attacks against exploitable vulnerabilities in the firewall firmware. Also, the **firewall cannot examine encrypted data packets, unless configured with an SSL/TLS inspector.**
+An application-**aware** firewall can inspect the contents of packets at the application layer. One key feature is to **verify the application protocol matches the port**; to verify that malware isn't sending raw TCP data over port 80 just because port 80 is open, for instance. As another example, a web application firewall could analyze #Ops the Hyper Text Transfer ProtocolTTPs]] headers and the HTML code present in Hyper Text Transfer ProtocolTTPs]] packets to try to identify code that matches a pattern in its threat database. **Application-aware firewalls have many different names, including application layer gateway, stateful multilayer inspection, or deep packet inspection**. Application aware devices have to be configured with separate filters for each type of [[traffic]] (Hyper Text Transfer ProtocolTTPs]] and Hyper Text Transfer ProtocolTTPs]]S, SMTP/POP/IMAP, FTP, and so on). Application aware firewalls are very powerful, but they are not invulnerable. Their very complexity means that it is possible to craft DoS attacks against exploitable vulnerabilities in the firewall firmware. Also, the **firewall cannot examine encrypted data packets, unless configured with an SSL/TLS inspector.**
 # IPTABLES
 
 iptables is a command line [[|tools|utility]] provided by many Linux distributions that allows administrators to edit the rules enforced by the Linux kernel firewall ([linux.die.net/man/8/iptables](https://linux.die.net/man/8/iptables)). iptables works with chains, which apply to the different types of traffic, such as the INPUT chain for traffic destined for the local host. Each chain has a default policy set to DROP or ALLOW traffic that does not match a rule. Each rule, processed in order, determines whether traffic matching the criteria is allowed or dropped.
 
-The command iptables --list INPUT --line-numbers -n will show the contents of the INPUT chain with line numbers and no name resolution. The rules in the following example drop any traffic from the specific host at 10.1.0.192 and allow ICMP echo requests (pings), DNS, and HTTP/HTTPS traffic either from the local subnet (10.1.0.0/24) or from any network (0.0.0.0/0):
+The command iptables --list INPUT --line-numbers -n will show the contents of the INPUT chain with line numbers and no name resolution. The rules in the following example drop any traffic from the specific host at 10.1.0.192 and allow ICMP echo requests (pings), DNS, and Hyper Text Transfer ProtocolTTPs]]/Hyper Text Transfer ProtocolTTPs]]S traffic either from the local subnet (10.1.0.0/24) or from any network (0.0.0.0/0):
 
 Chain INPUT (policy DROP)
 
@@ -120,32 +120,32 @@ A router firewall or firewall router appliance implements filtering functionalit
 
 A [[firewall]] that performs application layer filtering is likely to be implemented as a proxy. Where a network firewall only accepts or blocks traffic, **a proxy server works on a store-and-forward model.** The proxy deconstructs each packet, performs analysis, then rebuilds the packet and forwards it on, providing it conforms to the rules. 
 
-The amount of rebuilding depends on the [[proxy]]. Some proxies may only manipulate the [[IP]] and [[TCP]] headers. Application-aware proxies might add or remove HTTP headers. **A deep packet inspection proxy might be able to remove content from an HTTP payload.**
+The amount of rebuilding depends on the [[proxy]]. Some proxies may only manipulate the [[IP]] and [[TCP]] headers. Application-aware proxies might add or remove Hyper Text Transfer ProtocolTTPs]] headers. **A deep packet inspection proxy might be able to remove content from an Hyper Text Transfer ProtocolTTPs]] payload.**
 
 ### Forward Proxy Servers
 
 A forward [[proxy]] provides for protocol-specific outbound traffic. For example, you might deploy a web proxy that enables client computers on the LAN to connect to websites and secure websites on the Internet. **This is a forward proxy that services TCP ports 80 and 443 for outbound traffic.** 
 
-![Tab shows “Blacklist Update” and a text box, then buttons Download, Cancel, Restore Default. “Enter FTP or HTTP path to the blacklist archive here.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8453-1599771803938.png)
+![Tab shows “Blacklist Update” and a text box, then buttons Download, Cancel, Restore Default. “Enter FTP or Hyper Text Transfer ProtocolTTPs]] path to the blacklist archive here.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8453-1599771803938.png)
 
 Configuring content filter settings for the Squid proxy server (squid-cache.org) running on pfSense. The filter can apply [[ACL|ACLs]] and time-based restrictions, and use block lists to prohibit access to URLs. (Screenshot used with permission from Rubicon Communications, LLC.)
 
 The main benefit of a proxy is that client computers connect to a specified point on the perimeter network for web access. The proxy can be positioned within a [[DMZ]]. This provides for a degree of traffic management and security. In addition, most web [[proxy]] servers provide caching engines, whereby frequently requested web pages are retained on the proxy, negating the need to re-fetch those pages for subsequent requests.
 
-**A proxy server must understand the application it is servicing.** For example, a web proxy must be able to parse and modify HTTP and HTTPS commands (and potentially HTML and scripts too). Some proxy servers are application-specific; others are multipurpose. A multipurpose proxy is one configured with filters for multiple protocol types, such as [[HTTP]], [[FTP]], and [[SMTP]].
+**A proxy server must understand the application it is servicing.** For example, a web proxy must be able to parse and modify Hyper Text Transfer ProtocolTTPs]] and Hyper Text Transfer ProtocolTTPs]]S commands (and potentially HTML and scripts too). Some proxy servers are application-specific; others are multipurpose. A multipurpose proxy is one configured with filters for multiple protocol types, such as [[Hyper Text Transfer ProtocolTTPs]]]], [[FTP]], and [[SMTP]].
 
 Proxy servers can generally be classed as non-transparent or transparent.
 
 -   A non-transparent proxy means that the client must be configured with the proxy server address and port number to use it. The port on which the proxy server accepts client connections is often configured as **port 8080**.
 -   A transparent (or forced or intercepting) proxy intercepts client traffic without the client having to be reconfigured. A transparent proxy must be implemented on a switch or router or other inline network appliance.
 
-![Settings include Transparent HTTP Proxy, Interface(s), and Bypass Proxies for: Private Address Destination, These Source IPs, These Destination IPs.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/5112-1599771804006.png)
+![Settings include Transparent Hyper Text Transfer ProtocolTTPs]] Proxy, Interface(s), and Bypass Proxies for: Private Address Destination, These Source IPs, These Destination IPs.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/5112-1599771804006.png)
 
 Configuring transparent proxy settings for the Squid proxy server (squid-cache.org) running on pfSense. (Screenshot used with permission from Rubicon Communications, LLC.)
 
 Both types of proxy can be configured to require users to be authenticated before allowing access. The proxy is likely to be able to use [[SSO]] to do this without having to prompt the user for a password. 
 
-A proxy autoconfiguration ([[PAC]]) script allows a client to configure proxy settings without user intervention. The Web Proxy Autodiscovery ([[WPAD]]) protocol allows browsers to locate a PAC file. This can be an attack vector, as a malicious proxy on the local network can be used to obtain the user's hash as the browser tries to authenticate ([nopsec.com/responder-beyond-wpad](https://www.nopsec.com/responder-beyond-wpad/)).
+A proxy autoconfiguration ([[PAC]]) script allows a client to configure proxy settings without user intervention. The Web Proxy Autodiscovery ([[WPAD]]) protocol allows browsers to locate a PAC file. This can be an [[attack vector]], as a malicious proxy on the local network can be used to obtain the user's hash as the browser tries to authenticate ([nopsec.com/responder-beyond-wpad](https://www.nopsec.com/responder-beyond-wpad/)).
 
 ### Reverse Proxy Servers
 
@@ -156,7 +156,7 @@ A reverse proxy server provides for protocol-specific inbound traffic. For secur
 
 ![Rule list is shown with States, Protocol, Source, Port, Destination, Port, Gateway, Queue, Schedule, Description, and Actions. Rule order can change.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3817-1599771804108.png)
 
-Sample firewall ruleset configured on pfSense. This ruleset blocks all traffic from bogon networks and a specific private address range but allows any HTTP, HTTPS, or SMTP traffic from any other source. (Screenshot used with permission from Rubicon Communications, LLC.)
+Sample firewall ruleset configured on pfSense. This ruleset blocks all traffic from bogon networks and a specific private address range but allows any Hyper Text Transfer ProtocolTTPs]], Hyper Text Transfer ProtocolTTPs]]S, or SMTP traffic from any other source. (Screenshot used with permission from Rubicon Communications, LLC.)
 
 Each rule can specify whether to block or allow traffic based on several parameters, often referred to as tuples. If you think of each rule being like a row in a database, the tuples are the columns. For example, in the previous screenshot, the [[tuples]] include Protocol, Source (address), (Source) Port, Destination (address), (Destination) Port, and so on.
 
@@ -187,11 +187,11 @@ There are several types of NAT:
 
 NAT overloading. (Image © 123RF.com.)
 
--   **Destination NAT/port forwarding**—uses the router's public address to publish a web service, but forwards incoming requests to a different IP. Port forwarding means that the router takes requests from the Internet for a particular application (say, HTTP/port 80) and sends them to a designated host and port in the DMZ or LAN.
+-   **Destination NAT/port forwarding**—uses the router's public address to publish a web service, but forwards incoming requests to a different IP. Port forwarding means that the router takes requests from the Internet for a particular application (say, Hyper Text Transfer ProtocolTTPs]]/port 80) and sends them to a designated host and port in the DMZ or LAN.
 
-![Edit Redirect Entry has Interface (WAN), Protocol (TCP), Destination port range (Any), Redirect target IP (10.1.0.10), and Redirect target port (HTTP)](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8572-1599771804610.png)
+![Edit Redirect Entry has Interface (WAN), Protocol (TCP), Destination port range (Any), Redirect target IP (10.1.0.10), and Redirect target port (Hyper Text Transfer ProtocolTTPs]])](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8572-1599771804610.png)
 
-Configuring port forwarding on a pfSense firewall appliance—This rule forwards any HTTP traffic received on the appliance's WAN interface to the 10.1.0.10 host on the LAN. (Screenshot used with permission from [pfsense.org](https://www.pfsense.org/).)
+Configuring port forwarding on a pfSense firewall appliance—This rule forwards any Hyper Text Transfer ProtocolTTPs]] traffic received on the appliance's WAN interface to the 10.1.0.10 host on the LAN. (Screenshot used with permission from [pfsense.org](https://www.pfsense.org/).)
 
 The larger IPv6 address space makes most use cases for NAT redundant. A host can use a link-local address to contact neighboring nodes, but any routed traffic should use a globally unique address. In IPv6 it is routing policies and firewall filtering that manage which hosts and networks are reachable. That said, there are mechanisms for translating prefixes at the network edge ([[NPTv6]]) and for translation between IPv6 addresses ([[NAT66]]) or IPv6 and IPv4 addresses ([[NAT64]] and [[NAT46]]).
 # VIRTUAL FIREWALLS
@@ -211,4 +211,4 @@ The ability to inspect source code will be a requirement for high-security envir
 -   Mostly proprietary—developed from a Linux kernel, but with proprietary features added. Examples include Check Point IPSO, FortiGate FortiOS, and Sonicwall. Any code developed from a GPL source should be available, but in general terms these products cannot be used independently of a commercial contract with the vendor.
 -   Wholly open-source—these can be used independently of the vendor, but the vendors typically have commercial appliances and support contracts too. Examples include pfSense and Smoothwall.
 
-In determining whether to follow a self-installed versus supported deployment, as well as the core appliance code, you need to consider access to support, update availability, and access to subscription-based features, such as signatures and threat feeds.
+In determining whether to follow a self-installed versus supported deployment, as well as the core appliance code, you need to consider access to support, update [[Availability]], and access to subscription-based features, such as signatures and threat feeds.

@@ -175,7 +175,7 @@ Reconnaissance is the process of gathering information, it is not related to Com
 
 Pivoting follows persistence. It involves a system and/or set of privileges that allow the hacker to compromise other network systems (lateral spread). The hacker likely has to find some way of escalating the privileges available to him/her.
 # q 
-Examine each attack vector. Which is most vulnerable to escalation of privileges?
+Examine each [[attack vector]]. Which is most vulnerable to escalation of privileges?
 
 1.  Software
 ==2.  Operating System (OS)==
@@ -302,11 +302,11 @@ An IT director reads about a new form of malware that targets a system widely ut
 1.  Credentialed scan
 2.  Configuration review
 3.  Penetration testing
-4.  **Threat hunting**
+4.  **[[threat hunting]]**
 
 Solution
 
-Where a pen test attempts to demonstrate a system’s weakness or achieve intrusion, threat hunting is based only on analysis of data within the system. It is potentially less disruptive than pen testing.
+Where a pen test attempts to demonstrate a system’s weakness or achieve intrusion, [[threat hunting]] is based only on analysis of data within the system. It is potentially less disruptive than pen testing.
 
 A credentialed scan has a user account with logon rights to hosts and permissions appropriate for the testing routines. Credentialed scans are intrusive and allow in-depth analysis and insight to what an insider attack might achieve.
 

@@ -9,12 +9,62 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/1B Security Control and Framework Types.md",
+            "file": "SecurityPlus/3C  Vulnerability Scanning Technics.md",
             "mode": "source",
             "backlinks": true,
             "source": false
           }
         }
+      },
+      {
+        "id": "28f1dc139b4e7c18",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/[[security assesment]]S.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        },
+        "group": "c53fff88e881c51a"
+      },
+      {
+        "id": "6c54bb43536d0f98",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "My linked notes/[[security assesment]]S.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
+            }
+          }
+        },
+        "group": "c53fff88e881c51a"
       }
     ],
     "direction": "vertical"
@@ -49,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "architecture",
+                "query": "\"[[security assesment]]\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/1B Security Control and Framework Types.md",
+                "file": "My linked notes/[[security assesment]]S.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,19 +156,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
-  "active": "f1df06ae2c029d69",
+  "active": "6c54bb43536d0f98",
   "lastOpenFiles": [
+    "My linked notes/[[security assesment]]S.md",
+    "SecurityPlus/3C  Vulnerability Scanning Technics.md",
+    "SecurityPlus/14A Indicators of Application Attacks.md",
+    "SecurityPlus/10C SIEM  security information and event management.md",
+    "My linked notes/Ops.md",
     "SecurityPlus/1B Security Control and Framework Types.md",
     "SecurityPlus/7C Authentication Technologies.md",
     "SecurityPlus/7A Authentication Design Concepts.md",
     "SecurityPlus/10B Network Security Monitoring.md",
-    "SecurityPlus/9D Load Balancers.md",
-    "Z_Notes from tests/Test Node.md",
-    "SecurityPlus/9B Secure Switching and Routing.md",
-    "My linked notes/Acronyms/TLS.md",
-    "My linked notes/symmetric.md",
-    "My linked notes/Acronyms/SHA.md"
+    "SecurityPlus/9D Load Balancers.md"
   ]
 }

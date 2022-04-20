@@ -3,32 +3,32 @@ tags: [section ]
 ---
 #GRC 
 ## Introduction
-It is not sufficient for security assessments to focus solely on software vulnerabilities and configuration errors. As well as these hardware and software systems, the attack surface contains a company's employees and the degree to which they can be exploited to gain unauthorized access or privileges. [[threat actor]]s use social engineering techniques to elicit information, obtain access to premises, and to trick users into running malicious code. You must understand these attacks and train your colleagues and customers with the ability to detect and report them. As well as being able to explain these techniques, you must be able to describe the indicators associated with different types of malware and analyze your systems for possible infections.
+It is not sufficient for [[security assesment]]s to focus solely on software vulnerabilities and configuration errors. As well as these hardware and software systems, the attack surface contains a company's employees and the degree to which they can be exploited to gain unauthorized access or privileges. [[threat actor]]s use [[Social engineering]] techniques to elicit information, obtain access to premises, and to trick users into running malicious code. You must understand these attacks and train your colleagues and customers with the ability to detect and report them. As well as being able to explain these techniques, you must be able to describe the indicators associated with different types of malware and analyze #Ops your systems for possible infections.
 
 LESSON OBJECTIVES
 
 In this lesson, you will:
 
--   Compare and contrast social engineering techniques.
--   Analyze indicators of malware-based attacks.
+-   Compare and contrast [[Social engineering]] techniques.
+-   analyze #Ops indicators of malware-based attacks.
 
 EXAM OBJECTIVES COVERED
 
-1.1 Compare and contrast different types of social engineering techniques
+1.1 Compare and contrast different types of [[Social engineering]] techniques
 
-People—employees, contractors, suppliers, and customers—represent part of the attack surface of any organization. A person with permissions on the system is a potential target of social engineering. Being able to compare and contrast social engineering techniques will help you to lead security awareness training and to develop policies and other security controls to mitigate these risks.
+People—employees, contractors, suppliers, and customers—represent part of the attack surface of any organization. A person with permissions on the system is a potential target of [[Social engineering]]. Being able to compare and contrast [[Social engineering]] techniques will help you to lead security awareness training and to develop policies and other security controls to mitigate these risks.
 
-## SOCIAL ENGINEERING
+## [[Social engineering]]
 
-Adversaries can use a diverse range of techniques to compromise a security system. A prerequisite of many types of attacks is to obtain information about the network and security system. Social engineering refers to means of either eliciting information from someone or getting them to perform some action for the [[threat actor]]. It can also be referred to as "hacking the human." Social engineering might be used to gather intelligence as reconnaissance in preparation for an intrusion, or it might be used to effect an actual intrusion. Typical social engineering intrusion scenarios include:
+Adversaries can use a diverse range of techniques to compromise a security system. A prerequisite of many types of attacks is to obtain information about the network and security system. [[Social engineering]] refers to means of either eliciting information from someone or getting them to perform some action for the [[threat actor]]. It can also be referred to as "hacking the human." [[Social engineering]] might be used to gather intelligence as [[reconnaissance]] in preparation for an intrusion, or it might be used to effect an actual intrusion. Typical [[Social engineering]] intrusion scenarios include:
 
 -   An attacker creates an **executable file** that prompts a network user for their password, and then records whatever the user inputs. The attacker then emails the executable file to the user with the story that the user must double-click the file and log on to the network again to clear up some logon problems the organization has been experiencing that morning. After the user complies, the attacker now has access to their network credentials.
 -   An attacker contacts the help desk pretending to be a remote sales representative who needs assistance setting up remote access. Through a series of phone calls, the attacker obtains the name/address of the remote access server and login credentials, in addition to phone numbers for remote access and for accessing the organization's private phone and voice-mail system.
 -   An attacker triggers a fire alarm and then slips into the building during the confusion and attaches a monitoring device to a network port.
 
-## SOCIAL ENGINEERING PRINCIPLES
+## [[Social engineering]] PRINCIPLES
 
-[[Social engineering]] is one of the most common and successful malicious techniques. Because it exploits basic human trust, social engineering has proven to be a particularly effective way of manipulating people into performing actions that they might not otherwise perform. To be persuasive, social engineering attacks rely on one or more of the following principles.
+[[[[Social engineering]]]] is one of the most common and successful malicious techniques. Because it exploits basic human trust, [[Social engineering]] has proven to be a particularly effective way of manipulating people into performing actions that they might not otherwise perform. To be persuasive, [[Social engineering]] attacks rely on one or more of the following principles.
 
 ### [[Familiarity Liking]]
 
@@ -36,11 +36,11 @@ Some people have the sort of natural charisma that allows them to persuade other
 
 ### [[Consensus Social Proof]]
 
-The _principle of consensus_ or _social proof_ refers to the fact that without an explicit instruction to behave in a certain way, many people will act just as they think others would act. A social engineering attack can use this instinct either to persuade the target that to refuse a request would be odd ("That's not something anyone else has ever said no to") or to exploit polite behavior to slip into a building while someone holds the door for them. As another example, an attacker may be able to fool a user into believing that a malicious website is actually legitimate by posting numerous fake reviews and testimonials praising the site. The victim, believing many different people have judged the site acceptable, takes this as evidence of the site's legitimacy and places their trust in it.
+The _principle of consensus_ or _social proof_ refers to the fact that without an explicit instruction to behave in a certain way, many people will act just as they think others would act. A [[Social engineering]] attack can use this instinct either to persuade the target that to refuse a request would be odd ("That's not something anyone else has ever said no to") or to exploit polite behavior to slip into a building while someone holds the door for them. As another example, an attacker may be able to fool a user into believing that a malicious website is actually legitimate by posting numerous fake reviews and testimonials praising the site. The victim, believing many different people have judged the site acceptable, takes this as evidence of the site's legitimacy and places their trust in it.
 
 ### Authority and Intimidation
 
-Many people find it difficult to refuse a request by someone they perceive as superior in rank or expertise. Social engineers can try to exploit this behavior to intimidate their target by pretending to be a senior executive. An attack might be launched by impersonating someone who would often be deferred to, such as a police officer, judge, or doctor. Another technique is using spurious technical arguments and jargon. Social engineering can exploit the fact that few people are willing to admit ignorance. Compared to using a familiarity/liking sort of approach, this sort of adversarial tactic might be riskier to the attacker as there is a greater chance of arousing suspicion and the target reporting the attack attempt.
+Many people find it difficult to refuse a request by someone they perceive as superior in rank or expertise. Social engineers can try to exploit this behavior to intimidate their target by pretending to be a senior executive. An attack might be launched by impersonating someone who would often be deferred to, such as a police officer, judge, or doctor. Another technique is using spurious technical arguments and jargon. [[Social engineering]] can exploit the fact that few people are willing to admit ignorance. Compared to using a familiarity/liking sort of approach, this sort of adversarial tactic might be riskier to the attacker as there is a greater chance of arousing suspicion and the target reporting the attack attempt.
 
 ### Scarcity and Urgency
 
@@ -50,7 +50,7 @@ Often also deployed by salespeople, creating a false sense of scarcity or urgenc
  
 ## ## IMPERSONATION AND TRUST
 
-Impersonation simply means pretending to be someone else. It is one of the basic social engineering techniques. Impersonation can use either a consensus/liking or intimidating approach. Impersonation is possible where the target cannot verify the attacker's identity easily, such as over the phone or via an email message.
+Impersonation simply means pretending to be someone else. It is one of the basic [[Social engineering]] techniques. Impersonation can use either a consensus/liking or intimidating approach. Impersonation is possible where the target cannot verify the attacker's identity easily, such as over the phone or via an email message.
 
 The classic impersonation attack is for the social engineer to phone into a department, claim they have to adjust something on the user's system remotely, and get the user to reveal their password. This specific attack is also referred to as _pretexting._
 
@@ -60,11 +60,11 @@ Do you really know who's on the other end of the line?
 
 Making a convincing impersonation and establishing a trust with the target usually depends on the attacker obtaining privileged information about the organization. For example, where the attacker impersonates a member of the organization's IT support team, the attack will be more effective with identity details of the person being impersonated and the target.
 
-Some social engineering techniques are dedicated to obtaining this type of intelligence as a reconnaissance activity. As most companies are set up toward customer service rather than security, this information is typically quite easy to come by. Information that might seem innocuous—such as department employee lists, job titles, phone numbers, diaries, invoices, or purchase orders—can help an attacker penetrate an organization through impersonation.
+Some [[Social engineering]] techniques are dedicated to obtaining this type of intelligence as a [[reconnaissance]] activity. As most companies are set up toward customer service rather than security, this information is typically quite easy to come by. Information that might seem innocuous—such as department employee lists, job titles, phone numbers, diaries, invoices, or purchase orders—can help an attacker penetrate an organization through impersonation.
 
 DUMPSTER DIVING AND TAILGATING
 
-Social engineering includes physical attacks to steal information or gain access.
+[[Social engineering]] includes physical attacks to steal information or gain access.
 
 ### Dumpster Diving
 
@@ -78,11 +78,11 @@ Tailgating is a means of entering a secure area without authorization by followi
 
 ## IDENTITY FRAUD AND INVOICE SCAMS
 
-Identity fraud is a specific type of impersonation where the attacker uses specific details of someone's identity. A typical consumer identity fraud is using someone else's name and address to make a loan application or using stolen credit card details to start a mobile phone contract. Invoice scams are another common type of identity fraud. The fraudster will usually spoof the invoice details of a genuine supplier, but change the bank account number. This might rely on the target not double-checking the account, or it might be combined with a social engineering contact call to convince the target that the account change is genuine.
+Identity fraud is a specific type of impersonation where the attacker uses specific details of someone's identity. A typical consumer identity fraud is using someone else's name and address to make a loan application or using stolen credit card details to start a mobile phone contract. Invoice scams are another common type of identity fraud. The fraudster will usually spoof the invoice details of a genuine supplier, but change the bank account number. This might rely on the target not double-checking the account, or it might be combined with a [[Social engineering]] contact call to convince the target that the account change is genuine.
 
 _Sometimes the terms identity fraud and identity theft are used to distinguish between making up an identity versus stealing someone else's identity._
 
-In terms of attacks on corporate networks, identity fraud is likely to involve compromising a computer account. Various social engineering techniques can be used to obtain account credentials without having to rely on malware.  Apart from eliciting credential information from a user directly, some of these techniques include:
+In terms of attacks on corporate networks, identity fraud is likely to involve compromising a computer account. Various [[Social engineering]] techniques can be used to obtain account credentials without having to rely on malware.  Apart from eliciting credential information from a user directly, some of these techniques include:
 
 -   Credential databases—account details from previous attacks are widely available ([haveibeenpwned.com](https://haveibeenpwned.com/)). An attacker can try to match a target in one of these databases and hope that they have reused a password. The attacker could also leverage third-party sites for impersonation. For example, rather than using a work account, they could gain control of a social media account.
 -   [[Shoulder surfing]]—a [[threat actor]] can learn a password or PIN (or other secure information) by watching the user type it. Despite the name, the attacker may not have to be in close proximity to the target—they could use high-powered binoculars or CCTV to directly observe the target remotely.
@@ -90,7 +90,7 @@ In terms of attacks on corporate networks, identity fraud is likely to involve c
 
 ## PHISHING, WHALING, AND VISHING
 
-[[Phishing]] is a combination of [[social engineering]] and [[spoofing]]. It persuades or tricks the target into interacting with a malicious resource disguised as a trusted one, traditionally using email as the vector. A phishing message might try to convince the user to perform some action, such as installing disguised malware or allowing a remote access connection by the attacker. Other types of phishing campaign use a spoof website set up to imitate a bank or e‑commerce site or some other web resource that should be trusted by the target. The attacker then emails users of the genuine website informing them that their account must be updated or with some sort of hoax alert or alarm, supplying a disguised link that actually leads to the spoofed site. When the user authenticates with the spoofed site, their logon credentials are captured. 
+[[Phishing]] is a combination of [[[[Social engineering]]]] and [[spoofing]]. It persuades or tricks the target into interacting with a malicious resource disguised as a trusted one, traditionally using email as the vector. A phishing message might try to convince the user to perform some action, such as installing disguised malware or allowing a remote access connection by the attacker. Other types of phishing campaign use a spoof website set up to imitate a bank or e‑commerce site or some other web resource that should be trusted by the target. The attacker then emails users of the genuine website informing them that their account must be updated or with some sort of hoax alert or alarm, supplying a disguised link that actually leads to the spoofed site. When the user authenticates with the spoofed site, their logon credentials are captured. 
 
 ![Clickable images and text in the original email shown in the background have been replaced by the actual links in the email shown in the foreground.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/1515-1599771796223.jpg)
 
@@ -110,17 +110,17 @@ Rapid improvements in deep fake technology ([forbes.com/sites/jessedamiani/2019/
 
 Unsolicited email, or [[spam]], is used as the vector for many attacks. [[threat actor]]s harvest email addresses from marketing lists or databases of historic privacy breaches, or might try to target every email address at a certain company. Mass mail attacks could also be perpetrated over any type of instant messaging or Internet messaging service ([[SPIM]]).
 
-Hoaxes, such as security alerts or chain emails, are another common social engineering technique, often combined with phishing attacks. An email alert or web pop-up will claim to have identified some sort of security problem, such as virus infection, and offer a tool to fix the problem. The tool of course will be some sort of Trojan application. Malvertising exploits the use of space on legitimate websites set aside for advertising served from content delivery networks (CDNs) without much oversight ([blog.talosintelligence.com/2019/07/malvertising-deepdive.html](https://blog.talosintelligence.com/2019/07/malvertising-deepdive.html)). Criminals will also use sophisticated phone call scams to try to trick users into revealing login credentials or financial account details.
+Hoaxes, such as security alerts or chain emails, are another common [[Social engineering]] technique, often combined with phishing attacks. An email alert or web pop-up will claim to have identified some sort of security problem, such as virus infection, and offer a tool to fix the problem. The tool of course will be some sort of Trojan application. Malvertising exploits the use of space on legitimate websites set aside for advertising served from content delivery networks (CDNs) without much oversight ([blog.talosintelligence.com/2019/07/malvertising-deepdive.html](https://blog.talosintelligence.com/2019/07/malvertising-deepdive.html)). Criminals will also use sophisticated phone call scams to try to trick users into revealing login credentials or financial account details.
 
 A phishing or hoax email can be made more convincing by prepending. In an offensive sense, _prepending_ means adding text that appears to have been generated by the mail system. For example, an attacker may add "RE:" to the subject line to make it appear as though the message is a reply or may add something like "MAILSAFE: PASSED" to make it appear as though a message has been scanned and accepted by some security software. Conversely, some mail systems may perform prepending legitimately, such as tagging external messages or messages with a warning if they have not been definitively identified as spam but that do have suspicious elements.
 
 ## PHARMING AND CREDENTIAL HARVESTING
 
-Direct messages to a single contact have quite a high chance of failure. Other social engineering techniques still use spoofed resources, such as fake sites and login pages, but rely on redirection or passive methods to entrap victims.
+Direct messages to a single contact have quite a high chance of failure. Other [[Social engineering]] techniques still use spoofed resources, such as fake sites and login pages, but rely on redirection or passive methods to entrap victims.
 
 ### Pharming
 
-[[Pharming]] is a passive means of redirecting users from a legitimate website to a malicious one. Rather than using social engineering techniques to trick the user, pharming relies on corrupting the way the victim's computer performs Internet name resolution, so that they are redirected from the genuine site to the malicious one. For example, if mybank.foo should point to the IP address 2.2.2.2, a pharming attack would corrupt the name resolution process to make it point to IP address 6.6.6.6. 
+[[Pharming]] is a passive means of redirecting users from a legitimate website to a malicious one. Rather than using [[Social engineering]] techniques to trick the user, pharming relies on corrupting the way the victim's computer performs Internet name resolution, so that they are redirected from the genuine site to the malicious one. For example, if mybank.foo should point to the IP address 2.2.2.2, a pharming attack would corrupt the name resolution process to make it point to IP address 6.6.6.6. 
 
 ### Typosquatting
 

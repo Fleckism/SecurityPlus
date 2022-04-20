@@ -86,5 +86,5 @@ In some cases, an organization may conduct a forensics investigation without the
 
 Digital forensics can be used for information gathering to protect against espionage and hacking. This intelligence is deployed in two different ways:
 
--   [[Counterintelligence]]—identification and analysis of specific adversary tactics, techniques, and procedures (TTP) provides information about how to configure and audit active logging systems so that they are most likely to capture evidence of attempted and successful intrusions.
+-   [[Counterintelligence]]—identification and analysis of specific adversary tactics, techniques, and procedures ([[TTPs]]) provides information about how to configure and audit active logging systems so that they are most likely to capture evidence of attempted and successful intrusions.
 -   [[Strategic intelligence]]—data and research that has been analyzed to produce actionable insights. These insights are used to inform risk management and security control provisioning to build mature cybersecurity capabilities.

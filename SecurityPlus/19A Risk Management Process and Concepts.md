@@ -23,9 +23,9 @@ Most organizations have formal risk management policies and processes, both to m
 <mark style="background: #FF5582A6;">Risk management is a process for identifying, assessing, and mitigating vulnerabilities and threats to the essential functions that a business must perform to serve its customers.</mark> You can think of this process as being performed over five phases:
 
 1.  **Identify mission-essential functions**—mitigating risk can involve a large amount of expenditure so it is important to focus efforts. Effective risk management must focus on mission essential functions that could cause the whole business to fail if they are not performed. Part of this process involves identifying critical systems and assets that support these functions.
-2.  **Identify vulnerabilities**—for each [[function or workflow]] (starting with the most critical), analyze systems and assets to discover and list any vulnerabilities or weaknesses to which they may be susceptible.
+2.  **Identify vulnerabilities**—for each [[function or workflow]] (starting with the most critical), analyze #Ops systems and assets to discover and list any vulnerabilities or weaknesses to which they may be susceptible.
 3.  **Identify threats**—for each function or workflow, identify the threat sources and actors that may take advantage of or exploit or accidentally trigger vulnerabilities.
-4.  **Analyze business impacts**—the likelihood of a vulnerability being activated as a security incident by a threat and the impact of that incident on critical systems are the factors used to assess risk. There are quantitative and qualitative methods of analyzing impacts and likelihood.
+4.  **analyze #Ops business impacts**—the likelihood of a vulnerability being activated as a security incident by a threat and the impact of that incident on critical systems are the factors used to assess risk. There are quantitative and qualitative methods of analyzing impacts and likelihood.
 5.  **Identify risk response**—for each risk, identify possible countermeasures and assess the cost of deploying additional security controls. Most risks require some sort of mitigation, but other types of response might be more appropriate for certain types and level of risks.
 
 For each business process and each threat, you must assess the degree of risk that exists. Calculating risk is complex, but the two main variables are likelihood and impact:
@@ -52,11 +52,11 @@ Internal risks come from assets and workflows that are owned and managed by your
 
 Multiparty risk is where an adverse event impacts multiple organizations. Multiparty risk usually arises from supplier relationships. If a critical event disrupts a supplier or customer, then your own organization will suffer. These are often described as ripple impacts. For example, if one of your top five customers goes out of business because of a data breach, your company will lose substantial revenue. Organizations in these supply chain relationships have an interest in promoting cybersecurity awareness and capability throughout the chain.
 
-As an illustration of how risk assessments can change in view of multiparty relationship, consider a company that makes wireless adapters, originally for use with laptops. In the original usage, the security of the firmware upgrade process is important, but it has no impact on life or safety. The company, however, earns a new contract to supply the adapters to provide connectivity for in-vehicle electronics systems. Unknown to the company, a weakness in the design of the in-vehicle system allows an adversary to use compromised wireless adapter firmware to affect the car's control systems. The integrity of the upgrade process now has an impact on safety, and is much higher risk.
+As an illustration of how [[risk assesment]]s can change in view of multiparty relationship, consider a company that makes wireless adapters, originally for use with laptops. In the original usage, the security of the firmware upgrade process is important, but it has no impact on life or safety. The company, however, earns a new contract to supply the adapters to provide connectivity for in-vehicle electronics systems. Unknown to the company, a weakness in the design of the in-vehicle system allows an adversary to use compromised wireless adapter firmware to affect the car's control systems. The integrity of the upgrade process now has an impact on safety, and is much higher risk.
 
 ### Intellectual Property (IP) Theft
 
-Intellectual property (IP) is data of commercial value that is owned by the organization. This can mean copyrighted material for retail (software, written work, video, and music) and product designs and patents. If IP data is exfiltrated it will lose much of its commercial value. Losses can be very difficult to recover in territories where there are not strong legal protections.
+Intellectual property (IP) is data of commercial value that is owned by the organization. This can mean copyrighted material for retail (software, written work, video, and music) and product designs #A_D and patents. If IP data is exfiltrated it will lose much of its commercial value. Losses can be very difficult to recover in territories where there are not strong legal protections.
 
 ### Software Compliance/Licensing
 
@@ -65,25 +65,25 @@ Breaking the terms of the end user licensing agreement (EULA) that imposes condi
 ### Legacy Systems
 
 Legacy systems are a source of risk because they **no longer receive security updates** and because the expertise to maintain and troubleshoot them is a scarce resource.
-# QUANTITATIVE RISK ASSESSMENT
+# QUANTITATIVE [[risk assesment]]
 
 There are quantitative and qualitative methods of performing risk analysis to evaluate likelihood and impact.
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2627-1599771812041.jpg)
 
-Quantitative risk assessment aims to assign concrete values to each risk factor. (Image © 123RF.com.)
+Quantitative [[risk assesment]] aims to assign concrete values to each risk factor. (Image © 123RF.com.)
 
-**Quantitative risk assessment aims to assign concrete values to each risk factor.**
+**Quantitative [[risk assesment]] aims to assign concrete values to each risk factor.**
 
 -   **Single Loss Expectancy** ([[SLE]])—the amount that would be lost in a single occurrence of the risk factor. This is determined by multiplying the value of the asset by an Exposure Factor ([[EF]]). EF is the percentage of the asset value that would be lost.
 -   **Annualized Loss Expectancy** ([[ALE]])—the amount that would be lost over the course of a year. This is determined by multiplying the SLE by the Annualized Rate of Occurrence ([[ARO]]).
 
 It is important to realize that the value of an asset does not refer solely to its material value. The two principal additional considerations are direct costs associated with the asset being **compromised (downtime)** and consequent costs to intangible assets, such as the **company's reputation**. For example, a server may have a material cost of a few hundred dollars. If the server were stolen, the costs incurred from not being able to do business until it can be recovered or replaced could run to thousands of dollars. In addition, that period of interruption where orders cannot be taken or go unfulfilled leads customers to look at alternative suppliers, resulting in perhaps more thousands of lost sales and goodwill.
 
-The problem with quantitative risk assessment is that the process of determining and assigning these values is complex and time consuming. The accuracy of the values assigned is also **difficult to determine without historical data** (often, it has to be based on subjective guesswork). However, over time and with experience, this approach can yield a detailed and sophisticated description of assets and risks and provide a sound basis for justifying and prioritizing security expenditure.
-# QUALITATIVE RISK ASSESSMENT
+The problem with quantitative [[risk assesment]] is that the process of determining and assigning these values is complex and time consuming. The accuracy of the values assigned is also **difficult to determine without historical data** (often, it has to be based on subjective guesswork). However, over time and with experience, this approach can yield a detailed and sophisticated description of assets and risks and provide a sound basis for justifying and prioritizing security expenditure.
+# QUALITATIVE [[risk assesment]]
 
-Qualitative risk assessment avoids the complexity of the quantitative approach and is focused on identifying significant risk factors. The qualitative approach seeks out people's opinions of which risk factors are significant. Assets and risks may be placed in simple categories. For example, assets could be categorized as Irreplaceable, High Value, Medium Value, and Low Value; risks could be categorized as one-off or recurring and as Critical, High, Medium, and Low probability.
+Qualitative [[risk assesment]] avoids the complexity of the quantitative approach and is focused on identifying significant risk factors. The qualitative approach seeks out people's opinions of which risk factors are significant. Assets and risks may be placed in simple categories. For example, assets could be categorized as Irreplaceable, High Value, Medium Value, and Low Value; risks could be categorized as one-off or recurring and as Critical, High, Medium, and Low probability.
 
 Another simple approach is the heat map or "Traffic Light" impact matrix. For each risk, a simple Red, Yellow, or Green indicator can be put into each column to represent the severity of the risk, its likelihood, cost of controls, and so on. This approach is simplistic but does give an immediate impression of where efforts should be concentrated to improve security.
 
@@ -91,7 +91,7 @@ Another simple approach is the heat map or "Traffic Light" impact matrix. For ea
 
 Traffic light impact grid.
 
-FIPS 199 ([nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/NIST.FIPS.199.pdf)) discusses how to apply security categorizations ([[SC]]) to information systems based on the impact that a breach of **confidentiality, integrity, or availability** would have on the organization as a whole. Potential impacts can be classified as:
+FIPS 199 ([nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/NIST.FIPS.199.pdf)) discusses how to apply security categorizations ([[SC]]) to information systems based on the impact that a breach of **confidentiality, integrity, or [[Availability]]** would have on the organization as a whole. Potential impacts can be classified as:
 
 -   **Low**—minor damage or loss to an asset or loss of performance (though essential functions remain operational).
 -   **Moderate**—significant damage or loss to assets or performance.
@@ -136,4 +136,4 @@ Where inherent risk is the risk before mitigation,[[ residual risk]] is the like
 
 To ensure that the business stakeholders understand each risk scenario, you should **articulate it such that the cause and effect can clearly be understood by the owner of the asset**. A DoS risk should be put into plain language that describes how the risk would occur and, as a result, what access is being denied to whom, and the effect to the business. For example: "As a result of malicious or hacking activity against the public website, the site may become overloaded, preventing clients from accessing their client order accounts. This will result in a loss of sales for so many hours and a potential loss of revenue of so many dollars."
 
-A [[risk register]] is a document showing the results of risk assessments in a comprehensible format. The register may resemble the heat map risk matrix shown earlier with columns for impact and likelihood ratings, date of identification, description, countermeasures, owner/route for escalation, and status. Risk registers are also commonly depicted as scatterplot graphs, where impact and likelihood are each an axis, and the plot point is associated with a legend that includes more information about the nature of the plotted risk. A risk register should be shared between stakeholders (executives, department managers, and senior technicians) so that they understand the risks associated with the workflows that they manage.
+A [[risk register]] is a document showing the results of [[risk assesment]]s in a comprehensible format. The register may resemble the heat map risk matrix shown earlier with columns for impact and likelihood ratings, date of identification, description, countermeasures, owner/route for escalation, and status. Risk registers are also commonly depicted as scatterplot graphs, where impact and likelihood are each an axis, and the plot point is associated with a legend that includes more information about the nature of the plotted risk. A risk register should be shared between stakeholders (executives, department managers, and senior technicians) so that they understand the risks associated with the workflows that they manage.

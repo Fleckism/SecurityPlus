@@ -12,7 +12,7 @@ These assessments involve
 # The main types
 security [[assessment]]  are usually classed as 
 - **vulnerability assessment, 
-- **threat hunting**, and 
+- **[[threat hunting]]**, and 
 - **penetration testing**. 
 - **behavioral-based techniques** are used to identify infections. This means close analysis of the processes running in system memory on a host
 	- A **baseline** is needed. aka "normal"
@@ -28,15 +28,15 @@ Is an evaluation of a **system's security** and ability to meet **compliance req
 Taken From
 ([nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/nistspecialpublication800-30r1.pdf)).
 
-Security assessment refers to processes and tools that **evaluate the attack surface**.:
+[[security assesment]] refers to processes and tools that **evaluate the attack surface**.:
 
  The process of mapping out the attack surface is referred to as network [[reconnaissance]] and discovery
 
 Where [[vulnerability]] scanning uses lists of patches and standard definitions of baseline configurations,
-- [[threat hunting]] is an **assessment technique** that utilizes insights gained from threat intelligence to **proactively** discover whether there is evidence of [[TTPs]] already present within the network or system. 
-	- Threat hunting is an proactive process.
-	- This contrasts with a reactive process  that is only triggered when alert conditions are reported through an incident management system. You can also contrast **threat hunting** with **penetration testing**. Where a pen test attempts to achieve some sort of system intrusion or concrete demonstration of weakness,
-	-  **threat hunting** is based only on analysis of data within the system. To that extent, it is less potentially disruptive than pen testing.
+- [[threat hunting]] is an **assessment technique** that utilizes insights gained from threat intelligence to **proactively** discover whether there is evidence of TTP already present within the network or system. 
+	- [[threat hunting]] is an proactive process.
+	- This contrasts with a reactive process  that is only triggered when alert conditions are reported through an incident management system. You can also contrast **[[threat hunting]]** with **penetration testing**. Where a pen test attempts to achieve some sort of system intrusion or concrete demonstration of weakness,
+	-  **[[threat hunting]]** is based only on analysis of data within the system. To that extent, it is less potentially disruptive than pen testing.
 
  
 
@@ -51,7 +51,7 @@ next step in
 - **network reconnaissance** is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services.
 
 Are these all the steps in an assessment?
-- security assessments, network reconnaissance, vulnerability scanning, and penetration testing
+- [[security assesment]]s, network reconnaissance, vulnerability scanning, and penetration testing
 - ==Network reconnaissance and discovery is used to identify hosts, network topology, and open services/ports, establishing an overall attack surface.==
 
 - Network [[reconnaissance]]... is it the same as Evaluate attack surface 
@@ -60,7 +60,7 @@ Are these all the steps in an assessment?
 
 
 # Dump
-**vulnerability assessment, threat hunting, and penetration testing**
+**vulnerability assessment, [[threat hunting]], and penetration testing**
  
  Vulnerability scanning and penetration testing can use passive or active reconnaissance techniques. A passive approach tries to discover issues without causing an impact to systems, whereas an active approach may cause instability on a scanned system
  
@@ -74,7 +74,7 @@ Are these all the steps in an assessment?
  
  OS fingerprinting
  
- Packet and protocol analysis is another crucial security assessment and monitoring process:
+ Packet and protocol analysis is another crucial [[security assesment]] and monitoring process:
  -   Packet analysis refers to deep-down frame-by-frame scrutiny of captured frames.
 -   Protocol analysis means using statistical tools to analyze a sequence of packets, or packet trace.
 

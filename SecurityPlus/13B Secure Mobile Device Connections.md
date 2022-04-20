@@ -3,7 +3,7 @@ tags: [Implementation,section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.4 Given a scenario, [[analyze]] potential indicators associated with network attacks
+1.4 Given a scenario, [[analyze #Ops]] potential indicators associated with network attacks
 
 3.5 Given a scenario, implement secure mobile solutions
 

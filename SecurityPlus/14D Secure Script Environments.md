@@ -3,13 +3,13 @@ tags: [Implementation, OIR,section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.4 Given a scenario, analyze potential indicators associated with network attacks
+1.4 Given a scenario, analyze #Ops potential indicators associated with network attacks
 
 3.2 Given a scenario, implement host or application security solutions
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security
 
-As a security technician, you will often have to develop automation scripts, using a range of programming and scripting languages. Scripts can be used to return critical security assessment data and to configure hosts, so it is important that only validated code can be executed. You should also be able to identify malicious code in scripts and macros.
+As a security technician, you will often have to develop automation scripts, using a range of programming and scripting languages. Scripts can be used to return critical [[security assesment]] data and to configure hosts, so it is important that only validated code can be executed. You should also be able to identify malicious code in scripts and macros.
 # SCRIPTING
 
 Automation using scripting means that each configuration or build task is performed by a block of code. The script will take standard arguments as data, so there is less scope for uncertainty over configuration choices leading to errors. A [[script]] will use the following elements:
@@ -178,7 +178,7 @@ In Windows, execution of PowerShell scripts can be inhibited by the execution po
 In Linux, execution control is normally enforced by using a mandatory access control ([[MAC]]) kernel module or Linux Security Module ([[LSM]]). The two main LSMs are SELinux ([access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-selinux](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-selinux)) and AppArmor ([wiki.ubuntu.com/AppArmor](https://wiki.ubuntu.com/AppArmor)).
 # MALICIOUS CODE INDICATORS
 
-As with **buffer overflow, indicators of malicious code execution are either caught by endpoint protection software or discovered after the fact in logs of how the malware interacted with the network, file system, and registry**. If you are performing threat hunting or observing malware in a sandbox, it is helpful to consider the main types of **malicious activity**:
+As with **buffer overflow, indicators of malicious code execution are either caught by endpoint protection software or discovered after the fact in logs of how the malware interacted with the network, file system, and registry**. If you are performing [[threat hunting]] or observing malware in a [[Sandbox]], it is helpful to consider the main types of **malicious activity**:
 
 -   **Shellcode**—this is a minimal program designed to exploit a buffer overflow or similar vulnerability to gain privileges, or to drop a backdoor on the host if run as a Trojan ([attack.mitre.org/tactics/TA0002](https://attack.mitre.org/tactics/TA0002/)). Having gained a foothold, this type of attack will be followed by some type of network connection to download additional tools.
 -   **Credential dumping**—the malware might try to access the credentials file (SAM on a local Windows workstation) or sniff credentials held in memory by the lsass.exe system process ([attack.mitre.org/tactics/TA0006](https://attack.mitre.org/tactics/TA0006/)).
@@ -246,14 +246,14 @@ This F5 white paper describes the use of Bash and Python attack tools ([f5.com/l
 
 A **document macro is a sequence of actions performed in the context of a word processor, spreadsheet, or presentation file.** While the user may be able to record macro steps using the GUI, ultimately macros are coded in a scripting language. Microsoft Office uses the Visual Basic for Applications (VBA) language, while PDF documents use JavaScript. Microsoft Office document macros can be inspected using ALT+F11. **Other vendors and open-source software also implement macro functionality, using languages such as Basic or Python.**
 
-A malicious actor will try to use a macro-enabled document to execute arbitrary code. For example, a Word document could be the vector for executing a malicious PowerShell script. Macros are disabled by default in Office, but the attacker may be able to use a social engineering attack to get the user to change the policy.
+A malicious actor will try to use a macro-enabled document to execute arbitrary code. For example, a Word document could be the vector for executing a malicious PowerShell script. Macros are disabled by default in Office, but the attacker may be able to use a [[Social engineering]] attack to get the user to change the policy.
 
 With PDF, the JavaScript might be embedded within the document and designed to exploit a known vulnerability in the reader software to execute without authorization ([sentinelone.com/blog/malicious-pdfs-revealing-techniques-behind-attacks](https://www.sentinelone.com/blog/malicious-pdfs-revealing-techniques-behind-attacks/)).
 # MAN-IN-THE-BROWSER ATTACK
 
 A man-in-the-browser ([[MitB]]) attack is a specific type of [[on-path]] attack where the web browser is compromised. Depending on the level of privilege obtained, the attacker may be able to inspect session cookies, certificates, and data, change browser settings, perform redirection, and inject code.
 
-A MitB attack may be accomplished by installing malicious plug-ins or scripts or intercepting calls between the browser process and [[DLLs]] ([attack.mitre.org/techniques/T1185](https://attack.mitre.org/techniques/T1185/)). The Browser Exploitation Framework ([[BeEF]]) ([beefproject.com](https://beefproject.com/)) is one well known MitB tool. There are various vulnerability exploit kits that can be installed to a website to actively try to exploit vulnerabilities in clients browsing the site ([trendmicro.com/vinfo/ie/security/definition/exploit-kit](https://www.trendmicro.com/vinfo/ie/security/definition/exploit-kit)). These kits may either be installed to a legitimate site without the owner's knowledge (by compromising access control on the web server) and load in an iFrame (invisible to the user), or the attacker may use phishing/social engineering techniques to trick users into visiting the site.
+A MitB attack may be accomplished by installing malicious plug-ins or scripts or intercepting calls between the browser process and [[DLLs]] ([attack.mitre.org/techniques/T1185](https://attack.mitre.org/techniques/T1185/)). The Browser Exploitation Framework ([[BeEF]]) ([beefproject.com](https://beefproject.com/)) is one well known MitB tool. There are various vulnerability exploit kits that can be installed to a website to actively try to exploit vulnerabilities in clients browsing the site ([trendmicro.com/vinfo/ie/security/definition/exploit-kit](https://www.trendmicro.com/vinfo/ie/security/definition/exploit-kit)). These kits may either be installed to a legitimate site without the owner's knowledge (by compromising access control on the web server) and load in an iFrame (invisible to the user), or the attacker may use phishing/[[Social engineering]] techniques to trick users into visiting the site.
 
 ![Browser Exploitation Framework (BeEF) window showing a hooked browser at IP address 10.1.0.101 and details of browser software, version, and loaded plug-ins.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/787-1599771809708.png)
 

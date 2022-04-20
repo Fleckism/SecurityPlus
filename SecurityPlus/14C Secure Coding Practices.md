@@ -16,26 +16,26 @@ The security considerations for new programming technologies should be well unde
 
 ### Input Validation
 
-A primary vector for attacking applications is to exploit faulty input validation. Input could include user data entered into a form or URL passed by another application as a URL or HTTP header. Malicious input could be crafted to perform an overflow attack or some type of script or SQL injection attack. To mitigate this risk, all input methods should be documented with a view to reducing the potential attack surface exposed by the application. There must be routines to **check user input**, and anything that does not conform to what is required must be rejected.
+A primary vector for attacking applications is to exploit faulty input validation. Input could include user data entered into a form or URL passed by another application as a URL or Hyper Text Transfer ProtocolTTPs]] header. Malicious input could be crafted to perform an overflow attack or some type of script or SQL injection attack. To mitigate this risk, all input methods should be documented with a view to reducing the potential attack surface exposed by the application. There must be routines to **check user input**, and anything that does not conform to what is required must be rejected.
 
 ### Normalization and Output Encoding
 
 Where an application accepts string input, the input should be subjected to normalization procedures before being accepted. Normalization means that a string is stripped of illegal characters or substrings and converted to the accepted character set. This ensures that the string is in a format that can be processed correctly by the input validation routines.
 
-When user-generated strings are passed through different contexts in a web application—between HTTP, JavaScript, PHP, and SQL for instance—each with potentially different [[canonicalization]] schemes, it is extremely difficult to ensure that characters that would facilitate script injection by [[XSS]] have been rendered safe. Output encoding means that the string is re-encoded safely for the context in which it is being used. For example, a web form might perform input validation at the client, but when it reaches the server, a PHP function performs **output encoding before composing an SQL statement**. Similarly, when a string is delivered from a database using SQL, a JavaScript function would perform output encoding to render the string using safe HTML entities ([cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)).
+When user-generated strings are passed through different contexts in a web application—between Hyper Text Transfer ProtocolTTPs]], JavaScript, PHP, and SQL for instance—each with potentially different [[canonicalization]] schemes, it is extremely difficult to ensure that characters that would facilitate script injection by [[XSS]] have been rendered safe. Output encoding means that the string is re-encoded safely for the context in which it is being used. For example, a web form might perform input validation at the client, but when it reaches the server, a PHP function performs **output encoding before composing an SQL statement**. Similarly, when a string is delivered from a database using SQL, a JavaScript function would perform output encoding to render the string using safe HTML entities ([cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)).
 # SERVER-SIDE VERSUS CLIENT-SIDE VALIDATION
 
 A web application (or any other client-server application) can be designed to perform code execution and input validation locally (on the client) or remotely (on the server). An example of client-side execution is a document object model ([[DOM]]) script to render the page using dynamic elements from user input. Applications may use both techniques for different functions. The main issue with **client-side validation** is that the client will always be **more vulnerable** to some sort of malware interfering with the validation process. The **main issue with server-side validation** is that it can be **time-consuming**, as it may involve multiple transactions between the server and client. Consequently, client-side validation is usually restricted to informing the user that there is some sort of problem with the input before submitting it to the server. Even after passing client-side validation, the input will still undergo server-side validation before it can be posted (accepted). Relying on client-side validation only is poor programming practice.
 # WEB APPLICATION SECURITY
 
-With web applications, special attention must be paid to secure cookies and options for HTTP response header security.
+With web applications, special attention must be paid to secure cookies and options for Hyper Text Transfer ProtocolTTPs]] response header security.
 
 ### Secure Cookies
 
-Cookies can be a vector for session hijacking and data exposure if not configured correctly ([developer.mozilla.org/en-US/docs/Web/HTTP/Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)). Some of the key parameters for the SetCookie header are:
+Cookies can be a vector for session hijacking and data exposure if not configured correctly ([developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Cookies](https://developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Cookies)). Some of the key parameters for the SetCookie header are:
 
 -   Avoid using persistent cookies for session authentication. **Always use a new cookie** when the user reauthenticates.
--   **Set the Secure attribute** to prevent a cookie being sent over unencrypted HTTP.
+-   **Set the Secure attribute** to prevent a cookie being sent over unencrypted Hyper Text Transfer ProtocolTTPs]].
 -   **Set the HttpOnly** attribute to make the cookie inaccessible to document object model/client-side scripting.
 -   **Use the SameSite** attribute to control from where a cookie may be sent, mitigating request forgery attacks.
 
@@ -43,7 +43,7 @@ Cookies can be a vector for session hijacking and data exposure if not configure
 
 A number of security options can be set in the response header **returned by the server to the client** ([owasp.org/www-project-secure-headers](https://owasp.org/www-project-secure-headers/)). While it should seem like a straightforward case of enabling all these, developers are often constrained by compatibility and implementation considerations between different client browser and server software types and versions. Some of the most important security-relevant header options are:
 
--   HTTP Strict Transport Security ([[HSTS]])—forces browser to connect using HTTPS only, mitigating downgrade attacks, such as SSL stripping.
+-   Hyper Text Transfer ProtocolTTPs]] Strict Transport Security ([[HSTS]])—forces browser to connect using Hyper Text Transfer ProtocolTTPs]]S only, mitigating downgrade attacks, such as SSL stripping.
 -   Content Security Policy ([[CSP]])—mitigates clickjacking, script injection, and other client-side attacks. Note that X-Frame-Options and X-XSS-Protection provide mitigation for older browser versions, but are now deprecated in favor of CSP.
 -   **Cache-Control**—sets whether the browser can cache responses. Preventing caching of data protects confidential and personal information where the client device might be shared by multiple users.
 # DATA EXPOSURE AND MEMORY MANAGEMENT
@@ -83,10 +83,10 @@ This type of code may be introduced through carelessly reused code, or when a bl
 
 ### Obfuscation/Camouflage 
 
-It is important that code be well-documented, to assist the efforts of multiple programmers working on the same project. **Well-documented code is also easier to analyze, however, which may assist the development of attack**s. Code can be made difficult to analyze by using an **obfuscator**, which is software that randomizes the names of variables, constants, functions, and procedures, removes comments and white space, and performs other operations to make the compiled code physically and mentally difficult to read and follow. This sort of technique might be used to make reverse engineering an application more difficult and as a way of disguising malware code.
+It is important that code be well-documented, to assist the efforts of multiple programmers working on the same project. **Well-documented code is also easier to analyze #Ops, however, which may assist the development of attack**s. Code can be made difficult to analyze #Ops by using an **obfuscator**, which is software that randomizes the names of variables, constants, functions, and procedures, removes comments and white space, and performs other operations to make the compiled code physically and mentally difficult to read and follow. This sort of technique might be used to make reverse engineering an application more difficult and as a way of disguising malware code.
 # STATIC CODE ANALYSIS 
 
-Development is only one stage in the software life cycle. A new release of an application or automation script should be audited to ensure that it meets the goals of [[confidentiality]], [[integrity]], and [[availability]] critical to any secure computer system.
+Development is only one stage in the software life cycle. A new release of an application or automation script should be audited to ensure that it meets the goals of [[confidentiality]], [[integrity]], and [[[[Availability]]]] critical to any secure computer system.
 
 Static code analysis (or source code analysis) is performed against the application code before it is packaged as an executable process. The analysis software must support the programming language used by the source code. The software will scan the source code for signatures of known issues, such as [[OWASP]] Top 10 Most Critical Web Application Security Risks or injection vulnerabilities generally. NIST maintains a list of source code analyzers and their key features ([samate.nist.gov/index.php/Source_Code_Security_Analyzers.html](https://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)).
 

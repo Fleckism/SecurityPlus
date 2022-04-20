@@ -29,7 +29,7 @@ Cybersecurity
 
 Domain														% of Examination
 **1.  Attack(s), Threat(s), and Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
-2.  Architecture and Design	21%   [[A_D Architecture and Design]]
+2.  architecture #A_D and Design	21%   [[A_D architecture #A_D and Design]]
 **3.  Implementation 25%**  [[implementation]]
 4.  Operations [[Ops]] and Incident Response 16%   [[OIR]]
 5.  Governance, Risk, and Compliance 14%    [[GRC Governance, Risk, and Compliance]]
@@ -66,7 +66,7 @@ Attack frameworks
 
 - [[Confidentiality]] means that certain information should only be known to certain people. 
 - [[Integrity]] means that the data is stored and transferred as intended and that modification is only done by authorized sources. 
-- [[Availability]] means that information is accessible to those authorized to view or modify it. 
+- [[[[Availability]]]] means that information is accessible to those authorized to view or modify it. 
 
 The triad can also be referred to as "AIC" to avoid confusion with the Central Intelligence Agency.  
 
@@ -81,7 +81,7 @@ Within the goal of ensuring information security, cybersecurity refers specifica
 -   **identify** —develop security policies and capabilities. Evaluate risks, [[threat]]s, and vulnerabilities and recommend security controls to mitigate them.
 -   **protect** —procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operations life cycle.
 -   **detect** —perform ongoing, proactive monitoring to ensure that controls are effective and capable of protecting against new types of threats.
--   **respond** —identify, analyze, contain, and eradicate threats to systems and data security.
+-   **respond** —identify, analyze #Ops, contain, and eradicate threats to systems and data security.
 -   **recover**  —implement cybersecurity resilience to restore systems and data if other controls are unable to prevent attacks.
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7332-1599771793557.png)
@@ -90,7 +90,7 @@ Within the goal of ensuring information security, cybersecurity refers specifica
  [[implementation]] or  [[OIR]]
 IT professionals working in a role with security responsibilities must be competent in a wide range of disciplines, from network and application design to procurement and human resources (HR). The following activities might be typical of such a role: 
 
--   Participate in risk assessments and testing of security systems and make recommendations. 
+-   Participate in [[risk assesment]]s and testing of security systems and make recommendations. 
 -   Specify, source, install, and configure secure devices and software.
 -   Set up and maintain document access control and user privilege profiles.
 -   Monitor audit logs, review user privileges, and document access controls.
@@ -100,13 +100,13 @@ IT professionals working in a role with security responsibilities must be compet
 
 ## INFORMATION SECURITY ROLES AND RESPONSIBILITIES
 
-A security policy is a formalized statement that defines how security will be implemented within an organization. It describes the means the organization will take to protect the confidentiality, availability, and integrity of sensitive data and resources. It often consists of multiple individual policies. The implementation of a security policy to support the goals of the [[CIA]] triad might be very different for a school, a multinational accountancy firm, or a machine tool manufacturer. However, each of these organizations, or any other organization (in any sector of the economy, whether profit-making or non-profit-making) should have the same interest in ensuring that its employees, equipment, and data are secure against attack or damage. 
+A security policy is a formalized statement that defines how security will be implemented within an organization. It describes the means the organization will take to protect the confidentiality, [[Availability]], and integrity of sensitive data and resources. It often consists of multiple individual policies. The implementation of a security policy to support the goals of the [[CIA]] triad might be very different for a school, a multinational accountancy firm, or a machine tool manufacturer. However, each of these organizations, or any other organization (in any sector of the economy, whether profit-making or non-profit-making) should have the same interest in ensuring that its employees, equipment, and data are secure against attack or damage. 
 
 As part of the process of adopting an effective organizational security posture, employees must be aware of their responsibilities. The structure of security responsibilities will depend on the size and hierarchy of an organization, but these roles are typical.
 
 -   Overall internal responsibility for security might be allocated to a dedicated department, run by a Director of Security, Chief Security Officer (CSO), or Chief Information Security Officer (CISO). Historically, responsibility for security might have been allocated to an existing business unit, such as Information and Communications Technology (ICT) or accounting. 
 
-However, the goals of a network manager are not always well-aligned with the goals of security; network management focuses on availability over confidentiality. Consequently, security is increasingly thought of as a dedicated function or business unit with its own management structure. 
+However, the goals of a network manager are not always well-aligned with the goals of security; network management focuses on [[Availability]] over confidentiality. Consequently, security is increasingly thought of as a dedicated function or business unit with its own management structure. 
 
 -   Managers may have responsibility for a domain, such as building control, ICT, or accounting. 
 -   Technical and specialist staff have responsibility for implementing, maintaining, and monitoring the policy. Security might be made a core competency of systems and network administrators, or there may be dedicated security administrators. One such job title is Information Systems Security Officer (ISSO).

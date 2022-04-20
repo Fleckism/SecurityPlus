@@ -48,7 +48,7 @@ As well as the **ownership model (public, private, hybrid, or community)**, clou
 
 **Platform as a service (PaaS) provides resources somewhere between SaaS and IaaS. A typical PaaS solution would provide servers and storage network infrastructure (as per IaaS) but also provide a multi-tier web application/database platform on top. This platform could be based on Oracle or MS SQL or PHP and MySQL.** Examples include Oracle Database ([oracle.com/database](https://www.oracle.com/database/)), Microsoft Azure SQL Database ([azure.microsoft.com/services/sql-database](https://azure.microsoft.com/services/sql-database)), and Google App Engine ([cloud.google.com/appengine](https://cloud.google.com/appengine)).
 
-As distinct from SaaS though, th**is platform would not be configured to actually do anything. Your own developers would have to create the software (the [[CRM]] or e‑commerce application) that runs using the platform**. The service provider would be responsible for the integrity and availability of the platform components, but you would be responsible for the security of the application you created on the platform.
+As distinct from SaaS though, th**is platform would not be configured to actually do anything. Your own developers would have to create the software (the [[CRM]] or e‑commerce application) that runs using the platform**. The service provider would be responsible for the integrity and [[Availability]] of the platform components, but you would be responsible for the security of the application you created on the platform.
 
 ![Screenshot of Amazon Web Services EC2 dashboard, showing Resources used, Scheduled Events, Account Attributes, and Additional Information.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3838-1599771810001.png)
 
@@ -177,7 +177,7 @@ Application virtualization is a more limited type of [[VDI]]. Rather than run th
 
 Application cell/container virtualization **dispenses with the idea of a hypervisor and instead enforces resource separation at the operating system level.** The OS defines isolated "cells" for each user instance to run in. Each cell or container is allocated CPU and memory resources, but the processes all run through the **native OS kernel.** These containers may run slightly different OS distributions but cannot run guest OSes of different types (you could not run Windows or Ubuntu in a RedHat Linux container, for instance). Alternatively, the containers might run separate application processes, in which case the variables and libraries required by the application process are added to the container.
 
-One of the best-known container virtualization products is Docker ([docker.com](https://www.docker.com/)). Containerization underpins many cloud services. In particular it supports microservices and serverless architecture. Containerization is also being widely used to implement corporate workspaces on mobile devices.
+One of the best-known container virtualization products is Docker ([docker.com](https://www.docker.com/)). Containerization underpins many cloud services. In particular it supports microservices and serverless architecture #A_D. Containerization is also being widely used to implement corporate workspaces on mobile devices.
 
 ![Diagram of VM environment and container environment.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7141-1599771810285.png)
 
@@ -188,7 +188,7 @@ VM escaping refers to [[malware]] running on a guest OS jumping to another guest
 
 One serious implication of VM escaping is where virtualization is used for hosted applications. If you have a hosted web server, apart from trusting the hosting provider with your data, you have no idea what other applications might be running in other customers' VMs. For example, consider a scenario where you have an e-commerce web server installed on a virtual server leased from an ISP. If a third-party installs another guest OS with malware that can subvert the virtual server's hypervisor, they might be able to gain access to your server or to data held in the memory of the physical server. Having compromised the hypervisor, they could make a copy of your server image and download it to any location. This would allow the attacker to steal any unencrypted data held on the e-commerce server. Even worse, it could conceivably allow them to steal encrypted data, by obtaining the private encryption keys stored on the server or by sniffing unencrypted data or a data encryption key from the physical server's memory.
 
-It is **imperative to monitor security bulletins for the hypervisor software that you operate and to install patches and updates promptly.** You should also design the VM architecture carefully so that the placement of VMs running different types of applications with different security requirements does not raise unnecessary risks.
+It is **imperative to monitor security bulletins for the hypervisor software that you operate and to install patches and updates promptly.** You should also design the VM architecture #A_D carefully so that the placement of VMs running different types of applications with different security requirements does not raise unnecessary risks.
 
 Preventing VM escaping is dependent on the virtualization vendor identifying security vulnerabilities in the hypervisor and on these being patched. The impact of VM escaping can be reduced by using effective service design and network placement when deploying VMs.
 
@@ -203,7 +203,7 @@ For example, when considering security zones such as a [[DMZ]], VMs providing fr
 Isolating VMs in different zones on separate hardware—This should reduce the impact of a VM escaping attack. (Images © 123RF.com.)
 # VM SPRAWL AVOIDANCE
 
-As well as securing the hypervisor, you must also treat each VM as you would any other network host. This means using security policies and controls to ensure the confidentiality, integrity, and availability of all data and services relying on host virtualization.
+As well as securing the hypervisor, you must also treat each VM as you would any other network host. This means using security policies and controls to ensure the confidentiality, integrity, and [[Availability]] of all data and services relying on host virtualization.
 
 Each VM needs to be installed with its own security software suite to protect against malware and intrusion attempts. Each guest must also have a patch management process. This might mean installing updates locally or replacing the guest instance from an updated VM template image.
 

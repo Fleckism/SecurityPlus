@@ -5,7 +5,7 @@ tags: [,section]
 
 LESSON INTRODUCTION
 
-Risks from intrusion by social engineering, wireless backdoors, and data exfiltration by mobile devices all mean that physical security is a critical consideration for site design and operations. The premises in which networks are installed need to use access control mechanisms and be resilient to person-made and natural disasters, such as fire.
+Risks from intrusion by [[Social engineering]], wireless backdoors, and data exfiltration by mobile devices all mean that physical security is a critical consideration for site design and operations. The premises in which networks are installed need to use access control mechanisms and be resilient to person-made and natural disasters, such as fire.
 
 ## 
 
@@ -17,7 +17,7 @@ In this lesson, you will:
 -   Explain the importance of physical host security controls.
 # EXAM OBJECTIVES COVERED
 
-1.2 Given a scenario, analyze potential indicators to determine the type of attack
+1.2 Given a scenario, analyze #Ops potential indicators to determine the type of attack
 
 2.7 Explain the importance of physical security controls
 
@@ -127,7 +127,7 @@ If you consider control types, a security guard is a preventive control, as the 
 -   Drones/UAV—cameras mounted on drones can cover wider areas than ground-based patrols ([zdnet.com/article/best-security-surveillance-drones-for-business](https://www.zdnet.com/article/best-security-surveillance-drones-for-business/)).
 # RECEPTION PERSONNEL AND ID BADGES
 
-One of the most important parts of surveillance is the [[challenge policy]]. This sets out what type of response is appropriate in given situations and helps to defeat social engineering attacks. This must be communicated to and understood by the staff. Challenges represent a whole range of different contact situations. For example:
+One of the most important parts of surveillance is the [[challenge policy]]. This sets out what type of response is appropriate in given situations and helps to defeat [[Social engineering]] attacks. This must be communicated to and understood by the staff. Challenges represent a whole range of different contact situations. For example:
 
 -   Challenging visitors who do not have ID badges or are moving about unaccompanied.
 -   Insisting that proper authentication is completed at gateways, even if this means inconveniencing staff members (no matter their seniority).

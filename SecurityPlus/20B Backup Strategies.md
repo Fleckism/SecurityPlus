@@ -5,7 +5,7 @@ tags: [Implementation,section]
 
 2.5 Given a scenario, implement cybersecurity resilience
 
-No [[cybersecurity program]] is complete without an effective and tested system for backing up and restoring critical data and system configurations. As a security professional, you need to be able to select appropriate backup types and media for different scenarios and explain how [[nonpersistence]] can achieve more secure system configurations, as well as maintaining high availability.
+No [[cybersecurity program]] is complete without an effective and tested system for backing up and restoring critical data and system configurations. As a security professional, you need to be able to select appropriate backup types and media for different scenarios and explain how [[nonpersistence]] can achieve more secure system configurations, as well as maintaining high [[Availability]].
 # BACKUPS AND RETENTION POLICY
 
 Every business continuity and disaster recovery plan makes use of backups, of one type or another. The execution and frequency of backups must be carefully planned and guided by policies. Data retention needs to be considered in the short and long term:
@@ -90,7 +90,7 @@ Virtual system managers can usually take snapshot or cloned copies of VMs. A sna
 An [[image]] backup is made by duplicating an OS installation. This can be done either from a physical hard disk or from a VM's virtual hard disk. Imaging allows the system to be redeployed quickly, without having to reinstall third-party software, patches, and configuration settings. A system image should generally not contain any user data files, as these will quickly become out of date.
 # BACKUP STORAGE ISSUES 
 
-Backed up and archived data need to be stored as securely as live data. A data backup has the same confidentiality and integrity requirements as its source. It also has its own availability requirement. Typically, backup media is physically secured against theft or snooping by keeping it in a restricted part of the building, with other server and network equipment. Many backup solutions use encryption to ensure data confidentiality should the media be stolen.
+Backed up and archived data need to be stored as securely as live data. A data backup has the same confidentiality and integrity requirements as its source. It also has its own [[Availability]] requirement. Typically, backup media is physically secured against theft or snooping by keeping it in a restricted part of the building, with other server and network equipment. Many backup solutions use encryption to ensure data confidentiality should the media be stolen.
 
 ### Offsite Storage
 

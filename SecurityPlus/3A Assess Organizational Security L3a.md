@@ -10,7 +10,7 @@ Lesson Objectives
 
 In this lesson, you will:
 
--   Assess organizational security with network reconnaissance tools.
+-   Assess organizational security with network [[reconnaissance]] tools.
 -   Explain security concerns with general vulnerability types.
 -   Summarize vulnerability scanning techniques.
 -   Explain penetration testing concepts.
@@ -19,9 +19,9 @@ EXAM OBJECTIVES COVERED
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security
 
-**[[Reconnaissance]] is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network**. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using fingerprinting tools and capture and analyze network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
+**[[[[reconnaissance]]]] is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network**. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using fingerprinting tools and capture and analyze #Ops network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
 ## ipconfig, ping, and ARP
-The process of **mapping out the attack surface is referred to as network reconnaissance** and discovery. Reconnaissance techniques are used by [[threat actor]]s, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
+The process of **mapping out the attack surface is referred to as network [[reconnaissance]]** and discovery. [[reconnaissance]] techniques are used by [[threat actor]]s, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
 
 [[Topology discovery]]* (or "footprinting") [1]**means scanning for hosts**, IP ranges, and routes between networks to map out the structure of the target network. Topology discovery can also be used to build an asset database and to identify non-authorized hosts (rogue system detection) or network configuration errors. 
 
@@ -77,7 +77,7 @@ Nmap default scan listing open ports from within the default range. (Screenshot 
 This OS [[fingerprinting]] can be time-consuming on a large IP scope and is also non-stealthy. If you want to perform only host discovery, you can use Nmap with the -sn switch (or -sP in earlier versions) to suppress the port scan.
 ## SERVICE DISCOVERY AND NMAP
 
-Having identified active IP hosts on the network and gained an idea of the network topology, the next step in network reconnaissance is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services. This process is described as service discovery. Service discovery can also be used defensively, to probe potential rogue systems and identify the presence of unauthorized network service ports.
+Having identified active IP hosts on the network and gained an idea of the network topology, the next step in network [[reconnaissance]] is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services. This process is described as service discovery. Service discovery can also be used defensively, to probe potential rogue systems and identify the presence of unauthorized network service ports.
 
 ### [4] Service Discovery with Nmap
 
@@ -92,7 +92,7 @@ When Nmap completes a host discovery scan, it will report on the state of each p
 The detailed analysis of services on a particular host is often called [[fingerprinting]]. This is because each OS or application software that underpins a network service responds to probes in a unique way. This allows the scanning software to guess at the software name and version, without having any sort of privileged access to the host. This can also be described as banner grabbing, where the banner is the header of the response returned by the application.
 
 When services are discovered, you can use Nmap with the -sV or -A switch to probe a host more intensively to discover the following information:
--   Protocol—do not assume that a port is being used for its "well known" application protocol. Nmap can scan traffic to verify whether it matches the expected [[signature]] (HTTP, DNS, SMTP, and so on).
+-   Protocol—do not assume that a port is being used for its "well known" application protocol. Nmap can scan traffic to verify whether it matches the expected [[signature]] (Hyper Text Transfer ProtocolTTPs]], DNS, SMTP, and so on).
 -   Application name and version—the software operating the port, such as Apache web server or Internet Information Services (IIS) web server.
 -   OS type and version—use the -O switch to enable OS fingerprinting (or -A to use both OS fingerprinting and version discovery).
 -   Device type—not all network devices are PCs. Nmap can identify switches and routers or other types of networked devices, such as NAS boxes, printers, and webcams.
@@ -116,9 +116,9 @@ On Linux, use of netstat is deprecated in favor of the ss **(Suspicious network 
 -   nslookup/dig—query name records for a given domain using a particular DNS resolver. Under Windows (nslookup) or Linux (nslookup/dig). An attacker may test a network to find out if the DNS service is misconfigured. A misconfigured DNS may allow a **zone transfer, which will give the attacker the complete records of every host in the domain, revealing a huge amount about the way the network is configured**. 
 
 ![Screenshot shows "*** Can't list domain comptia.org: Query refused".](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/9882-1599771794985.png)
-## OTHER RECONNAISSANCE AND DISCOVERY TOOLS
+## OTHER [[reconnaissance]] AND DISCOVERY TOOLS
 
-There are hundreds of tools relevant to security assessments, network reconnaissance, vulnerability scanning, and penetration testing. Security distributions specialize in bundling these tools for Linux—notably KALI ([kali.org](https://www.kali.org/)) plus ParrotOS ([parrotlinux.org](https://parrotlinux.org/))—and Windows ([fireeye.com/blog/threat-research/2019/03/commando-vm-windows-offensive-distribution.html](https://www.fireeye.com/blog/threat-research/2019/03/commando-vm-windows-offensive-distribution.html)).
+There are hundreds of tools relevant to [[security assesment]]s, network [[reconnaissance]], vulnerability scanning, and penetration testing. Security distributions specialize in bundling these tools for Linux—notably KALI ([kali.org](https://www.kali.org/)) plus ParrotOS ([parrotlinux.org](https://parrotlinux.org/))—and Windows ([fireeye.com/blog/threat-research/2019/03/commando-vm-windows-offensive-distribution.html](https://www.fireeye.com/blog/threat-research/2019/03/commando-vm-windows-offensive-distribution.html)).
 
 ### theHarvester
 
@@ -134,7 +134,7 @@ Port scanning is difficult to conceal from detection systems, unless it is perfo
 
 ### curl
 
-curl is a command line client for performing data transfers over many types of protocol ([curl.haxx.se](https://curl.haxx.se/)). This tool can be used to submit HTTP GET, POST, and PUT requests as part of web application vulnerability testing. curl supports many other data transfer protocols, including FTP, IMAP, LDAP, POP3, SMB, and SMTP.
+curl is a command line client for performing data transfers over many types of protocol ([curl.haxx.se](https://curl.haxx.se/)). This tool can be used to submit Hyper Text Transfer ProtocolTTPs]] GET, POST, and PUT requests as part of web application vulnerability testing. curl supports many other data transfer protocols, including FTP, IMAP, LDAP, POP3, SMB, and SMTP.
 
 ### Nessus
 
@@ -144,7 +144,7 @@ The list of services and version information that a host is running can be cross
 Packet and protocol analysis is another crucial security [[assessment]] and monitoring process:
 
 -   [[Packet]] analysis refers to deep-down frame-by-frame scrutiny of captured frames.
--   [[Protocol analysis]] means using statistical tools to analyze a sequence of packets, or packet trace.
+-   [[Protocol analysis]] means using statistical tools to analyze #Ops a sequence of packets, or packet trace.
 
 Packet and protocol analysis depends on a sniffer tool to capture and decode the frames of data. Network traffic can be captured from a host or from a network segment. Using a host means that only traffic directed at that host is captured. Capturing from a network segment can be performed by a switched port analyzer ([[SPAN]]) port (or mirror port). This means that a network switch is configured to copy frames passing over designated source ports to a destination port, which the packet sniffer is connected to. Sniffing can also be performed over a network cable segment by using a test access port ([[TAP]]). This means that a device is inserted in the cabling to copy frames passing over it. There are passive and active (powered) versions.
 
@@ -169,7 +169,7 @@ Filter syntax can be made even more detailed by using parentheses to group expre
 tcpdump -i eth0 "src host 10.1.0.100 and (dst port 53 or dst port 80)"
 ## PACKET ANALYSIS AND WIRESHARK
 
-A protocol analyzer (or packet analyzer) works in conjunction with a sniffer to perform traffic analysis. You can either analyze a live capture or open a saved capture (.pcap) file. Protocol analyzers can decode a captured frame to reveal its contents in a readable format. You can choose to view a summary of the frame or choose a more detailed view that provides information on the OSI layer, protocol, function, and data.
+A protocol analyzer (or packet analyzer) works in conjunction with a sniffer to perform traffic analysis. You can either analyze #Ops a live capture or open a saved capture (.pcap) file. Protocol analyzers can decode a captured frame to reveal its contents in a readable format. You can choose to view a summary of the frame or choose a more detailed view that provides information on the OSI layer, protocol, function, and data.
 
 [[Wireshark]] ([wireshark.org](https://www.wireshark.org/)) is an open-source graphical **packet capture** and analysis utility, with installer packages for most operating systems. Having chosen the interface to listen on, the output is displayed in a three-pane view. The packet list pane shows a scrolling summary of frames. The packet details pane shows expandable fields in the frame currently selected from the packet list. The packet bytes pane shows the raw data from the frame in hex and ASCII. Wireshark is capable of parsing (interpreting) the headers and payloads of hundreds of network protocols.
 
@@ -186,7 +186,7 @@ Another useful option is to use the **Follow TCP Stream** context command to rec
 The PCAP file format has some limitations, which has led to the development of PCAP Next Generation (PCAPNG). Wireshark now uses PCAPNG by default, and tcpdump can process files in the new format too ([cloudshark.io/articles/5-reasons-to-move-to-pcapng](https://cloudshark.io/articles/5-reasons-to-move-to-pcapng/)).
 ## PACKET INJECTION AND REPLAY
 
-Some reconnaissance techniques and tests depend on sending forged or spoofed network traffic. Often, network sniffing software libraries allow frames to be inserted (or injected) into the network stream. There are also tools that allow for different kinds of packets to be crafted and manipulated. Well-known tools used for [[packet injection]] include Dsniff ([monkey.org/~dugsong/dsniff](https://monkey.org/~dugsong/dsniff/)), Ettercap ([ettercap-project.org](https://www.ettercap-project.org/)), Scapy ([scapy.net](https://scapy.net/)), and hping ([hping.org](http://hping.org/)).
+Some [[reconnaissance]] techniques and tests depend on sending forged or spoofed network traffic. Often, network sniffing software libraries allow frames to be inserted (or injected) into the network stream. There are also tools that allow for different kinds of packets to be crafted and manipulated. Well-known tools used for [[packet injection]] include Dsniff ([monkey.org/~dugsong/dsniff](https://monkey.org/~dugsong/dsniff/)), Ettercap ([ettercap-project.org](https://www.ettercap-project.org/)), Scapy ([scapy.net](https://scapy.net/)), and hping ([hping.org](http://hping.org/)).
 
 ### hping 
 
@@ -201,7 +201,7 @@ Some reconnaissance techniques and tests depend on sending forged or spoofed net
 As the name suggests, tcpreplay takes previously captured traffic that has been saved to a .pcap file and replays it through a network interface ([linux.die.net/man/1/tcpreplay](https://linux.die.net/man/1/tcpreplay)). Optionally, fields in the capture can be changed, such as substituting MAC or IP addresses. tcpreplay is useful for analysis purposes. If you have captured suspect traffic, you can replay it through a monitored network interface to test intrusion detection rules malicious traffic sample.
 ## EXPLOITATION FRAMEWORKS
 
-A remote access trojan ([[RAT]]) is malware that gives an adversary the means of remotely accessing the network. From the perspective of security posture assessment, a penetration tester might want to try to establish this sort of connection and attempt to send corporate information over the channel (data exfiltration). If security controls are working properly, this attempt should be defeated (or at least detected). 
+A remote access trojan ([[[[IoC]]]]) is malware that gives an adversary the means of remotely accessing the network. From the perspective of security posture assessment, a penetration tester might want to try to establish this sort of connection and attempt to send corporate information over the channel (data exfiltration). If security controls are working properly, this attempt should be defeated (or at least detected). 
 
 An [[exploitation framework]] uses the vulnerabilities identified by an automated scanner and launches scripts or software to attempt to deliver matching exploits. This might involve considerable disruption to the target, including service failure, and risk data security.
 
@@ -221,11 +221,11 @@ There are many other [[exploitation framework]]s targeting different kinds of vu
 -   RouterSploit—vulnerability scanning and exploit modules targeting embedded systems ([github.com/threat9/routersploit](https://github.com/threat9/routersploit)).
 -   Browser Exploitation Framework (BeEF)—recovering web session information and exploiting client-side scripting ([beefproject.com](https://beefproject.com/)).
 -   Zed Attack Proxy (ZAP)—scanning tools and scripts for web application and mobile app security testing ([owasp.org/www-project-zap](https://owasp.org/www-project-zap/)).
--   Pacu—scanning and exploit tools for reconnaissance and exploitation of Amazon Web Service (AWS) accounts ([rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework](https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/)).
+-   Pacu—scanning and exploit tools for [[reconnaissance]] and exploitation of Amazon Web Service (AWS) accounts ([rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework](https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/)).
 
 ## NETCAT
 
-One simple but effective [[tool]] for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and fingerprinting. For example, the following command attempts to connect to the HTTP port on a server and return any banner by sending the "head" HTTP keyword: **(To check for if it's possible to open a network connection to a remote host over a given port#)** 
+One simple but effective [[tool]] for testing connectivity is Netcat (nc), available for both Windows and Linux. Netcat is a computer networking utility for reading and writing raw data over a network connection, and can be used for port scanning and fingerprinting. For example, the following command attempts to connect to the Hyper Text Transfer ProtocolTTPs]] port on a server and return any banner by sending the "head" Hyper Text Transfer ProtocolTTPs]] keyword: **(To check for if it's possible to open a network connection to a remote host over a given port#)** 
 
 echo "head" | nc 10.1.0.1 -v 80
 

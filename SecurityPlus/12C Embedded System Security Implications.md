@@ -20,7 +20,7 @@ The other factor determining compute resources is power. Many embedded devices a
 
 ### Crypto, Authentication, and Implied Trust Constraints
 
-The lack of computer resources means that embedded systems are not well-matched to the cryptographic identification and authentication technologies that are widely used on computer networks. As embedded systems become more accessible via those networks, however, they need to use **cryptoprocessors to ensure confidentiality, integrity, and availability.** This is prompting the development of ciphers that do not require such large processing resources.
+The lack of computer resources means that embedded systems are not well-matched to the cryptographic identification and authentication technologies that are widely used on computer networks. As embedded systems become more accessible via those networks, however, they need to use **cryptoprocessors to ensure confidentiality, integrity, and [[Availability]].** This is prompting the development of ciphers that do not require such large processing resources.
 
 On PC hardware, a [[root of trust]] is established at the hardware level by a [[TPM]]. Without this explicit trust anchor, a network has to use an implied trust model. Implied trust means that every device that has been added to the network is trusted, on the assumption that it was added and continues to be operated by a legitimate administrator. Until there is widespread adoption of embedded TPM, **embedded networks have to rely on the perimeter security model.**
 
@@ -33,7 +33,7 @@ Embedded systems are normally based on firmware running on a programmable logic 
 
 ### System on Chip (SoC)
 
-Desktop computer system architecture uses a generalized CPU plus various other processors and controllers and system memory, linked via the motherboard. System on chip (SoC) is a design where all these processors, controllers, and devices are provided on a single processor die (or chip). This type of packaging saves space and is usually power efficient, and so is very commonly used with embedded systems.
+Desktop computer system architecture #A_D uses a generalized CPU plus various other processors and controllers and system memory, linked via the motherboard. System on chip (SoC) is a design where all these processors, controllers, and devices are provided on a single processor die (or chip). This type of packaging saves space and is usually power efficient, and so is very commonly used with embedded systems.
 
 **Raspberry Pi** ([raspberrypi.org](https://www.raspberrypi.org/)) and **Arduino** ([arduino.cc](https://www.arduino.cc/)) are examples of SoC boards, initially devised as educational tools, but now widely used for industrial applications, and hacking.
 
@@ -76,7 +76,7 @@ Zigbee has similar uses to Z-Wave and is an open source competitor technology to
 Both Z-Wave and Zigbee have communications encryption. The main threats are from re-pairing attacks and from rogue devices. A re-pairing attack allows a [[[[threat actor]]]] to discover the network key by forcing a device off the network, causing it to try to re-connect ([checkpoint.com/press/2020/the-dark-side-of-smart-lighting-check-point-research-shows-how-business-and-home-networks-can-be-hacked-from-a-lightbulb](https://www.checkpoint.com/press/2020/the-dark-side-of-smart-lighting-check-point-research-shows-how-business-and-home-networks-can-be-hacked-from-a-lightbulb/)). **If the user connects a rogue device to the network, the system depends on application-level security to prevent the device from compromising higher value targets, such as a smart hub, alarm, or door entry mechanism.**
 # INDUSTRIAL CONTROL SYSTEMS
 
-Industrial systems have different priorities to IT systems. Often, hazardous electromechanical components are involved, so safety is the overriding priority. **Industrial processes also prioritize availability and integrity over confidentiality—reversing the [[CIA]] triad as the AIC triad.**
+Industrial systems have different priorities to IT systems. Often, hazardous electromechanical components are involved, so safety is the overriding priority. **Industrial processes also prioritize [[Availability]] and integrity over confidentiality—reversing the [[CIA]] triad as the AIC triad.**
 
 ### Workflow and Process Automation Systems
 
@@ -183,6 +183,6 @@ Embedded systems demonstrate one of the reasons that supply chain risks must be 
 
 -   Many embedded systems and IoT devices use low-cost firmware chips and the vendor never produces updates to fix security problems or only produces updates for a relatively short product cycle (while the device could remain in operational use for much longer).
 -   Many embedded systems require manual updates, which are perceived as too time-consuming for a security department with other priorities to perform.
--   Availability is a key attribute for most embedded deployments. Patching without service interruption may not be possible, and opportunities for downtime servicing extremely limited.
+-   [[Availability]] is a key attribute for most embedded deployments. Patching without service interruption may not be possible, and opportunities for downtime servicing extremely limited.
 
 Cisco Live presents a useful overview of embedded system security requirements ([ciscolive.com/c/dam/r/ciscolive/us/docs/2018/pdf/BRKIOT-2115.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/BRKIOT-2115.pdf)).

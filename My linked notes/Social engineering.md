@@ -24,4 +24,4 @@ Social engineering—this refers to obtaining information, physical access to pr
 + Water hole attack
 + Credential harvesting
 
-[[TTPs]]
+TTP

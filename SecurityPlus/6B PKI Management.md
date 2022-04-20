@@ -67,9 +67,9 @@ One of the problems with OCSP is that the job of responding to requests is resou
 
 When certificates are used by a transport protocol, such as SSL/TLS, there is a possibility that the chain of trust among the client, the server, and whatever intermediate and root CAs have provided certificates can be compromised. If an adversary can substitute a malicious but trusted certificate into the chain (using some sort of proxy or [[MITM|Man-in-the-Middle attack]]), they could be able to snoop on the supposedly secure connection.
 
-Pinning refers to several techniques to ensure that when a client inspects the certificate presented by a server or a code-signed application, it is inspecting the proper certificate. This might be achieved by embedding the certificate data in the application code, or by submitting one or more public keys to an HTTP browser via an HTTP header, which is referred to as _HTTP Public Key Pinning (**HPKP**)._
+Pinning refers to several techniques to ensure that when a client inspects the certificate presented by a server or a code-signed application, it is inspecting the proper certificate. This might be achieved by embedding the certificate data in the application code, or by submitting one or more public keys to an Hyper Text Transfer ProtocolTTPs]] browser via an Hyper Text Transfer ProtocolTTPs]] header, which is referred to as _Hyper Text Transfer ProtocolTTPs]] Public Key Pinning (**HPKP**)._
 
-**HPKP has serious vulnerabilities and has been deprecated** ([developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning)). The replacement mechanism is the Certificate Transparency Framework.
+**HPKP has serious vulnerabilities and has been deprecated** ([developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning](https://developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning)). The replacement mechanism is the Certificate Transparency Framework.
 # CERTIFICATE FORMATS
 
 There are various formats for encoding a certificate as a digital file for exchange between different systems. 

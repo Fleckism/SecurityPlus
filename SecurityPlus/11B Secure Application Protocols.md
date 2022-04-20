@@ -10,20 +10,20 @@ tags: [Implementation,section]
 The [[network]] infrastructure of switches, routers, access points, and secure hosts is implemented for the purpose of running services. The application protocols that enable web, email, and VoIP require secure configuration too.
 # HYPERTEXT TRANSFER PROTOCOL AND WEB SERVICES
 
-The foundation of web technology is the HyperText Transfer Protocol ([[HTTP]]). HTTP enables clients (typically web browsers) to request resources from an HTTP server. A client connects to the HTTP server using an appropriate [[TCP]] port (the default is port 80) and submits a request for a resource, using a uniform resource locator (URL). The server acknowledges the request and responds with the data (or an error message).
+The foundation of web technology is the HyperText Transfer Protocol ([[Hyper Text Transfer ProtocolTTPs]]]]). Hyper Text Transfer ProtocolTTPs]] enables clients (typically web browsers) to request resources from an Hyper Text Transfer ProtocolTTPs]] server. A client connects to the Hyper Text Transfer ProtocolTTPs]] server using an appropriate [[TCP]] port (the default is port 80) and submits a request for a resource, using a uniform resource locator (URL). The server acknowledges the request and responds with the data (or an error message).
 
-The response and request payload formats are defined in an HTTP header. The HTTP payload is usually used to serve HTML web pages, which are plaintext files with coded tags (HyperText Markup Language) describing how the page should be formatted. A web browser can interpret the tags and display the text and other resources associated with the page, such as binary picture or sound files linked to the HTML page.
+The response and request payload formats are defined in an Hyper Text Transfer ProtocolTTPs]] header. The Hyper Text Transfer ProtocolTTPs]] payload is usually used to serve HTML web pages, which are plaintext files with coded tags (HyperText Markup Language) describing how the page should be formatted. A web browser can interpret the tags and display the text and other resources associated with the page, such as binary picture or sound files linked to the HTML page.
 
-HTTP also features a forms mechanism (POST) whereby a user can submit data from the client to the server. HTTP is nominally a [[stateless protocol]]; this means that the server preserves no information about the client during a session. However, the basic functionality of HTTP servers is often extended by support for scripting and programmable features (web applications). Servers can also **set text file cookies to preserve session information.** These coding features, plus integration with databases, **increase flexibility and interactivity, but also increase the attack surface which exposes more vulnerabilities.**
+Hyper Text Transfer ProtocolTTPs]] also features a forms mechanism (POST) whereby a user can submit data from the client to the server. Hyper Text Transfer ProtocolTTPs]] is nominally a [[stateless protocol]]; this means that the server preserves no information about the client during a session. However, the basic functionality of Hyper Text Transfer ProtocolTTPs]] servers is often extended by support for scripting and programmable features (web applications). Servers can also **set text file cookies to preserve session information.** These coding features, plus integration with databases, **increase flexibility and interactivity, but also increase the attack surface which exposes more vulnerabilities.**
 
-Many argue that HTTP is a stateful protocol. Version 2 of HTTP adds more state-preserving features ([blog.zamicol.com/2017/05/is-http2-stateful-protocol-application.html](https://blog.zamicol.com/2017/05/is-http2-stateful-protocol-application.html)).
+Many argue that Hyper Text Transfer ProtocolTTPs]] is a stateful protocol. Version 2 of Hyper Text Transfer ProtocolTTPs]] adds more state-preserving features ([blog.zamicol.com/2017/05/is-http2-stateful-protocol-application.html](https://blog.zamicol.com/2017/05/is-http2-stateful-protocol-application.html)).
 # TRANSPORT LAYER SECURITY 
 
-As with other early [[TCP]]/IP application protocols, HTTP communications are not secured. Secure Sockets Layer ([[SSL]]) was developed by Netscape in the 1990s to address the lack of security in HTTP. SSL proved very popular with the industry, and it was quickly adopted as a standard named Transport Layer Security ([[TLS]]). It is typically used with HTTP (referred to as HTTPS or HTTP Secure) but can also be used to secure other application protocols and as a virtual private networking (VPN) solution.
+As with other early [[TCP]]/IP application protocols, Hyper Text Transfer ProtocolTTPs]] communications are not secured. Secure Sockets Layer ([[SSL]]) was developed by Netscape in the 1990s to address the lack of security in Hyper Text Transfer ProtocolTTPs]]. SSL proved very popular with the industry, and it was quickly adopted as a standard named Transport Layer Security ([[TLS]]). It is typically used with Hyper Text Transfer ProtocolTTPs]] (referred to as Hyper Text Transfer ProtocolTTPs]]S or Hyper Text Transfer ProtocolTTPs]] Secure) but can also be used to secure other application protocols and as a virtual private networking (VPN) solution.
 
 To implement TLS, a server is assigned a digital certificate signed by some trusted certificate authority ([[CA]]). The certificate proves the identity of the server (assuming that the client trusts the CA) and validates the server's public/private key pair. The server uses its key pair and the TLS protocol to agree upon mutually supported ciphers with the client and negotiate an encrypted communications session.
 
-HTTPS operates over port 443 by default. HTTPS operation is indicated by using https:// for the [[URL]] and by a padlock icon shown in the browser.
+Hyper Text Transfer ProtocolTTPs]]S operates over port 443 by default. Hyper Text Transfer ProtocolTTPs]]S operation is indicated by using https:// for the [[URL]] and by a padlock icon shown in the browser.
 
 It is also possible to install a certificate on the client so that the server can trust the client. This is not often used on the web but is a feature of VPNs and enterprise networks that require mutual authentication.
 
@@ -52,13 +52,13 @@ Only ephemeral key agreement is supported in 1.3 and the signature type is suppl
 Viewing the [[TLS]] handshake in a Wireshark packet capture. Note that the connection is using TLS 1.3 and one of the shortened cipher suites (TLS_AES_128_GCM_SHA256).
 # API CONSIDERATIONS
 
-HTTP is now used less to serve static web pages, and more to create web applications, often as part of a cloud product. An enterprise might use both public web applications over the Internet and private ones. The primary means of configuring and managing a web application is via its application programming interface (API). For example, an application might allow a user account to be created via a [[URL]]:
+Hyper Text Transfer ProtocolTTPs]] is now used less to serve static web pages, and more to create web applications, often as part of a cloud product. An enterprise might use both public web applications over the Internet and private ones. The primary means of configuring and managing a web application is via its application programming interface (API). For example, an application might allow a user account to be created via a [[URL]]:
 
 https://example.foo/api/users?api_key=123456
 
 The developer uses the POST method to submit data to the URL with the required parameters coded into the request body, often in JavaScript Object Notation (JSON).
 
-POST /api/users HTTP/1.1
+POST /api/users Hyper Text Transfer ProtocolTTPs]]/1.1
 
 Content-Type: application/json
 
@@ -91,13 +91,13 @@ Another use of subscriptions is a web feed, where updated articles or news items
 Subscription services may also describe the outsourcing of network and security components and procedures. There may also be subscription use of enterprise cloud applications, which may be mediated by an access broker.
 # FILE TRANSFER SERVICES
 
-There are many means of transferring files across networks. A network operating system can host shared folders and files, enabling them to be copied or accessed over the local network or via remote access (over a VPN, for instance). Email and messaging apps can send files as attachments. HTTP supports file download (and uploads via various scripting mechanisms). There are also peer-to-peer file sharing services. Despite the availability of these newer protocols and services, the file transfer protocol (FTP) remains very popular because it is efficient and has wide cross-platform support.
+There are many means of transferring files across networks. A network operating system can host shared folders and files, enabling them to be copied or accessed over the local network or via remote access (over a VPN, for instance). Email and messaging apps can send files as attachments. Hyper Text Transfer ProtocolTTPs]] supports file download (and uploads via various scripting mechanisms). There are also peer-to-peer file sharing services. Despite the [[Availability]] of these newer protocols and services, the file transfer protocol (FTP) remains very popular because it is efficient and has wide cross-platform support.
 
 ### File Transfer Protocol 
 
-A File Transfer Protocol ([[FTP]]) server is typically configured with several public directories, hosting files, and user accounts. Most HTTP servers also function as FTP servers, and FTP services, accounts, and directories may be installed and enabled by default when you install a web server. FTP is more efficient compared to file attachments or HTTP file transfer, but has no security mechanisms. All authentication and data transfer are communicated as plaintext, meaning that credentials can easily be picked out of any intercepted FTP traffic.
+A File Transfer Protocol ([[FTP]]) server is typically configured with several public directories, hosting files, and user accounts. Most Hyper Text Transfer ProtocolTTPs]] servers also function as FTP servers, and FTP services, accounts, and directories may be installed and enabled by default when you install a web server. FTP is more efficient compared to file attachments or Hyper Text Transfer ProtocolTTPs]] file transfer, but has no security mechanisms. All authentication and data transfer are communicated as plaintext, meaning that credentials can easily be picked out of any intercepted FTP traffic.
 
-You should check that users do not install unauthorized servers on their PCs (a rogue server). For example, a version of IIS that includes HTTP, FTP, and SMTP servers is shipped with client versions of Windows, though it is not installed by default.
+You should check that users do not install unauthorized servers on their PCs (a rogue server). For example, a version of IIS that includes Hyper Text Transfer ProtocolTTPs]], FTP, and SMTP servers is shipped with client versions of Windows, though it is not installed by default.
 
 ### SSH FTP (SFTP) and FTP Over SSL (FTPS)
 
@@ -120,7 +120,7 @@ Email services use two types of protocols:
 
 A sender’s SMTP server discovers the IP address of the recipient’s SMTP server using the domain name of the recipient’s email address. The SMTP server for the domain is registered in [[DNS]] using a Mail Exchanger (MX) record.
 
-SMTP communications can be secured using TLS. This works much like HTTPS with a certificate on the SMTP server. There are two ways for SMTP to use TLS:
+SMTP communications can be secured using TLS. This works much like Hyper Text Transfer ProtocolTTPs]]S with a certificate on the SMTP server. There are two ways for SMTP to use TLS:
 
 -   STARTTLS—this is a command that upgrades an existing unsecure connection to use TLS. This is also referred to as explicit TLS or opportunistic TLS.
 -   SMTPS—this establishes the secure connection before any SMTP commands (HELO, for instance) are exchanged. This is also referred to as implicit TLS.
@@ -160,13 +160,13 @@ Voice over IP (VoIP), web conferencing, and video teleconferencing (VTC) solutio
 
 Implementing Internet telephony and video conferencing brings its own raft of security concerns.[[ Each part of the communications media network infrastructure needs to be evaluated for threats and vulnerabilities.]] This includes protocols, servers, handsets, and software. The **protocols** designed to support real-time services cover one or more of the following functions: 
 
--   **Session control**—used to setup and manage communications sessions. They handle tasks such as user discovery (locating a user on the network), availability advertising (whether a user is prepared to receive calls), negotiating session parameters (such as use of audio/video), and session management and termination. 
+-   **Session control**—used to setup and manage communications sessions. They handle tasks such as user discovery (locating a user on the network), [[Availability]] advertising (whether a user is prepared to receive calls), negotiating session parameters (such as use of audio/video), and session management and termination. 
 -   **Data transport**—handles the delivery of the actual video or voice information.
 -   **Quality of Service** (QoS)—provides information about the connection to a QoS system, which in turn ensures that voice or video communications are free from problems such as dropped packets, delay, or jitter. 
 
 The Session Initiation Protocol ([[SIP]]) is one of the most widely used session control protocols. SIP endpoints are the end-user devices (also known as user-agents), such as IP-enabled handsets or client and server web conference software. Each device, conference, or telephony user is assigned a unique SIP address known as a SIP Uniform Resource Indicator (URI), such as sip:bob.dobbs@comptia.org
 
-[[SIP]] endpoints can establish communications directly in a peer-to-peer architecture, but it is more typical to use intermediary servers and directory servers. A SIP network may also use gateways and private branch exchange (PBX) appliances to provide an interface between the VoIP network and external telephone and cellular networks.
+[[SIP]] endpoints can establish communications directly in a peer-to-peer architecture #A_D, but it is more typical to use intermediary servers and directory servers. A SIP network may also use gateways and private branch exchange (PBX) appliances to provide an interface between the VoIP network and external telephone and cellular networks.
 
 While SIP provides session management features, the actual delivery of real-time data uses different protocols. The principal one is Real-time Transport Protocol ([[RTP]]). 
 
@@ -176,7 +176,7 @@ A [[[[threat actor]]]] could exploit unencrypted voice and video communications 
 
 Enabling SIP/[[TLS]] security on a 3CX PBX VoIP softphone. (Screenshot used with permission from 3CX.)
 
-Connection security for voice and video works in a similar manner to [[HTTPS]]. To initiate the call, the secure version SIPS uses digital certificates to authenticate the endpoints and establish a [[TLS]] tunnel. Where unencrypted SIP typically runs over TCP port 5060, SIPS uses TCP port 5061. The secure connection established by SIPS can also be used to generate a master key to use with the secure versions of the transport protocol ([[SRTP]]). SRTP provides confidentiality for the actual call data.
+Connection security for voice and video works in a similar manner to [[Hyper Text Transfer ProtocolTTPs]]S]]. To initiate the call, the secure version SIPS uses digital certificates to authenticate the endpoints and establish a [[TLS]] tunnel. Where unencrypted SIP typically runs over TCP port 5060, SIPS uses TCP port 5061. The secure connection established by SIPS can also be used to generate a master key to use with the secure versions of the transport protocol ([[SRTP]]). SRTP provides confidentiality for the actual call data.
 
 ![Service Node Manager screen for Media Encryption has all items checked: enable media encryption for IP Extensions, IP Trunks, and Inter Media Gateway.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2858-1599771805640.png)
 

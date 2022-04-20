@@ -10,7 +10,7 @@ As a security professional, you must continually refresh and expand your knowled
 
 ## THREAT RESEARCH SOURCES
  #Ops 
-Threat research is a counterintelligence gathering effort in which security companies and researchers attempt to discover the tactics, techniques, and procedures ([[TTPs]]) of modern cyber adversaries. There are many companies and academic institutions engaged in primary cybersecurity research. Security solution providers with firewall and anti-malware platforms derive a lot of data from their own customers' networks. As they assist customers with cybersecurity operations, they are able to analyze and publicize [[TTPs]] and their indicators. These organizations also operate honeynets to try to observe how hackers interact with vulnerable systems. 
+Threat research is a counterintelligence gathering effort in which security companies and researchers attempt to discover the tactics, techniques, and procedures ([[TTPs]]) of modern cyber adversaries. There are many companies and academic institutions engaged in primary cybersecurity research. Security solution providers with firewall and anti-malware platforms derive a lot of data from their own customers' networks. As they assist customers with cybersecurity operations, they are able to analyze #Ops and publicize [[TTPs]] and their indicators. These organizations also operate honeynets to try to observe how hackers interact with vulnerable systems. 
 
 Another primary source of threat intelligence is the dark web. The deep web is any part of the World Wide Web that is not indexed by a search engine. This includes pages that require registration, pages that block search indexing, unlinked pages, pages using nonstandard DNS, and content encoded in a nonstandard manner. Within the deep web, are areas that are deliberately concealed from "regular" browser access.
 
@@ -29,7 +29,7 @@ The outputs from the primary research undertaken by security solutions providers
 
 -   Behavioral threat research—narrative commentary describing examples of attacks and [[TTPs]] gathered through primary research sources.
 -   Reputational threat intelligence—lists of IP addresses and domains associated with malicious behavior, plus signatures of known file-based malware.
--   Threat data—computer data that can correlate events observed on a customer's own networks and logs with known TTP and [[threat actor]] indicators.
+-   Threat data—computer data that can correlate events observed on a customer's own networks and logs with known [[TTPs]] and [[threat actor]] indicators.
 
 Threat data can be packaged as feeds that integrate with a **security information and event management ([[SIEM]])** platform. These feeds are usually described as cyber threat intelligence ([[CTI]]) data. The data on its own is not a complete security solution however. To produce actionable intelligence, the threat data must be correlated with observed data from customer networks. This type of analysis is often powered by artificial intelligence (AI) features of the [[SIEM]].
 
@@ -52,7 +52,7 @@ IBM X-Force Exchange threat intelligence portal. (Image copyright 2019 IBM Secur
 -   Spamhaus ([spamhaus.org/organization](https://www.spamhaus.org/organization/))
 -   VirusTotal ([virustotal.com](https://www.virustotal.com/gui/home/upload))
 
-As well as referring to open-source threat research providers, OSINT can mean any intelligence derived from publicly available information. OSINT is a common reconnaissance technique where the attacker harvests domains, IP address ranges, employees, and other data that will assist in identifying attack vectors. Companies should also monitor public networks for signs of attack planning (chatter on forums) and breaches (confidential information or account credentials posted to online forums). Most commercial providers offer monitoring services, which can include dark web sources ([fireeye.com/content/dam/fireeye-www/products/pdfs/pf/intel/ds-digital-threat-monitoring.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/ds-digital-threat-monitoring.pdf)).
+As well as referring to open-source threat research providers, OSINT can mean any intelligence derived from publicly available information. OSINT is a common [[reconnaissance]] technique where the attacker harvests domains, IP address ranges, employees, and other data that will assist in identifying [[attack vector]]s. Companies should also monitor public networks for signs of attack planning (chatter on forums) and breaches (confidential information or account credentials posted to online forums). Most commercial providers offer monitoring services, which can include dark web sources ([fireeye.com/content/dam/fireeye-www/products/pdfs/pf/intel/ds-digital-threat-monitoring.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/ds-digital-threat-monitoring.pdf)).
 ## OTHER THREAT INTELLIGENCE RESEARCH SOURCES
 
 There are plenty of other sources of best practice advice and new research other than the threat intelligence platforms:
@@ -65,13 +65,13 @@ There are plenty of other sources of best practice advice and new research other
 As well as a source of information, social media should also be monitored for threat data ([trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/hunting-threats-on-twitter](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/hunting-threats-on-twitter)).
 ## TACTICS, TECHNIQUES, AND PROCEDURES AND INDICATORS OF COMPROMISE
 
-A tactic, technique, or procedure ([[TTPs]]) is a generalized statement of adversary behavior. The term is derived from US military doctrine ([mwi.usma.edu/what-is-army-doctrine](https://mwi.usma.edu/what-is-army-doctrine/)). TTPs categorize behaviors in terms of campaign strategy and approach (tactics), generalized attack vectors (techniques), and specific intrusion tools and methods (procedures).
+A tactic, technique, or procedure ([[TTPs]]) is a generalized statement of adversary behavior. The term is derived from US military doctrine ([mwi.usma.edu/what-is-army-doctrine](https://mwi.usma.edu/what-is-army-doctrine/)). [[TTPs]]s categorize behaviors in terms of campaign strategy and approach (tactics), generalized [[attack vector]]s (techniques), and specific intrusion tools and methods (procedures).
  
-An **indicator of compromise ([[IoC]])** is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an IoC is evidence of a [[TTPs]].
+An **indicator of compromise ([[[[IoC]]]])** is a residual sign that an asset or network has been successfully attacked or is continuing to be attacked. Put another way, an [[IoC]] is evidence of a [[TTPs]].
 
-> TTPs describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like. ([stixproject.github.io/documentation/concepts/ttp-vs-indicator](https://stixproject.github.io/documentation/concepts/ttp-vs-indicator/))
+> [[TTPs]]s describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like. ([stixproject.github.io/documentation/concepts/ttp-vs-indicator](https://stixproject.github.io/documentation/concepts/ttp-vs-indicator/))
 
-As there are many different targets and vectors of an attack, so too are there many different potential [[IoC]]s. The following is a list of some IoCs that you may encounter:
+As there are many different targets and vectors of an attack, so too are there many different potential [[[[IoC]]]]s. The following is a list of some [[IoC]]s that you may encounter:
 
 -   Unauthorized software and files
 -   Suspicious emails
@@ -82,16 +82,16 @@ As there are many different targets and vectors of an attack, so too are there m
 -   Service disruption and defacement
 -   Suspicious or unauthorized account usage
 
-An IoC can be definite and objectively identifiable, like a malware signature, but often IoCs can only be described with confidence via the correlation of many data points. Because these IoCs are often identified through patterns of anomalous activity rather than single events, they can be open to interpretation and therefore slow to diagnose. Consequently, threat intelligence platforms use AI-backed analysis to speed up detection without overwhelming analysts' time with false positives.
+An [[IoC]] can be definite and objectively identifiable, like a malware signature, but often [[IoC]]s can only be described with confidence via the correlation of many data points. Because these [[IoC]]s are often identified through patterns of anomalous activity rather than single events, they can be open to interpretation and therefore slow to diagnose. Consequently, threat intelligence platforms use AI-backed analysis to speed up detection without overwhelming analysts' time with false positives.
 
-Strictly speaking, an [[IoC]] is evidence of an attack that was successful. The term **indicator of attack (IoA)** is sometimes also used for evidence of an intrusion attempt in progress.
+Strictly speaking, an [[[[IoC]]]] is evidence of an attack that was successful. The term **indicator of attack (IoA)** is sometimes also used for evidence of an intrusion attempt in progress.
 ## THREAT DATA FEEDS
 
-When you use a **cyber threat intelligence ([[CTI]])** platform, you subscribe to a threat data feed. The information in the threat data can be combined with event data from your own network and system logs. An analysis platform performs correlation to detect whether any IoCs are present. There are various ways that a threat data feed can be implemented.
+When you use a **cyber threat intelligence ([[CTI]])** platform, you subscribe to a threat data feed. The information in the threat data can be combined with event data from your own network and system logs. An analysis platform performs correlation to detect whether any [[IoC]]s are present. There are various ways that a threat data feed can be implemented.
 
 ### Structured Threat Information eXpression (STIX)
 
-The OASIS CTI framework ([oasis-open.github.io/cti-documentation](https://oasis-open.github.io/cti-documentation/)) is designed to provide a format for this type of automated feed so that organizations can share CTI. **The Structured Threat Information eXpression (STIX)** part of the framework describes standard terminology for [[IoC]]s and ways of indicating relationships between them.
+The OASIS CTI framework ([oasis-open.github.io/cti-documentation](https://oasis-open.github.io/cti-documentation/)) is designed to provide a format for this type of automated feed so that organizations can share CTI. **The Structured Threat Information eXpression (STIX)** part of the framework describes standard terminology for [[[[IoC]]]]s and ways of indicating relationships between them.
 
 ![Diagram showing a STIX 2 Relationship example](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2714-1599771794586.png)
 
@@ -128,4 +128,4 @@ In terms of threat intelligence, this AI-backed analysis might perform accurate 
 
 Identifying the signs of a past attack or the presence of live attack tools on a network quickly is valuable. However, one of the goals of using AI-backed threat intelligence is to perform predictive analysis, or threat forecasting. This means that the system can anticipate a particular type of attack and possibly the identity of the [[[[threat actor]]]] before the attack is fully realized. For example, the system tags references to a company, related IP addresses, and account names across a range of ingested data from dark web sources, web searches, social media posts, phishing email attempts, and so on. The analysis engine associates this "chatter" with IP addresses that it can correlate with a known adversary group. This gives the target advance warning that an attack is in the planning stages and more time to prepare an effective defense.
 
-Such concrete threat forecasting is not a proven capability of any commercial threat intelligence platform at the time of writing. However, predictive analysis can inform risk assessment by giving more accurate, quantified measurements of the likelihood and impact (cost) of breach-type events.
+Such concrete threat forecasting is not a proven capability of any commercial threat intelligence platform at the time of writing. However, predictive analysis can inform [[risk assesment]] by giving more accurate, quantified measurements of the likelihood and impact (cost) of breach-type events.

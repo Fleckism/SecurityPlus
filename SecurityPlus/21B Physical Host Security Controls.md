@@ -9,7 +9,7 @@ tags: [,section]
 
 As with data networks, perimeter defenses are not sufficient to ensure the security of hosts within a site. As well as the risk that the perimeter could be breached, security systems must also be resilient against insider threats. You need to deploy additional controls to secure areas, such as computer rooms and data centers.
 
-Environmental security ensures that risks to availability from hosts overheating are minimized. All sites also need effective procedures for the disposal of equipment and paper records, to ensure that confidential data remnants are not at risk of exposure.
+Environmental security ensures that risks to [[Availability]] from hosts overheating are minimized. All sites also need effective procedures for the disposal of equipment and paper records, to ensure that confidential data remnants are not at risk of exposure.
 # SECURE AREAS 
 
 A secure area is designed to store critical assets with a higher level of access protection than general office areas. The most vulnerable point of the [[network infrastructure]] will be the communications or server room. This should be subject to the most stringent access and surveillance controls that can be afforded. Similar measures apply to hardening access to data centers.
@@ -49,7 +49,7 @@ A hardened PDS is one where all cabling is routed through sealed metal conduit a
 It is possible to install communications equipment within a shielded enclosure, known as a Faraday Cage. **The cage is a charged conductive mesh that blocks signals from entering or leaving the area**. The risk of eavesdropping from leakage of electromagnetic signals was investigated by the US DoD who defined [[TEMPEST]] (Transient Electromagnetic Pulse Emanation Standard) as a means of shielding the signals
 # HEATING, VENTILATION, AIR CONDITIONING 
 
-Environmental controls mitigate the loss of availability through mechanical issues with equipment, such as overheating. Building control systems maintain an optimum working environment for different parts of the building. The acronym [[HVAC]] (Heating, Ventilation, Air Conditioning) is often used to describe these services. An HVAC uses temperature sensors and moisture detection sensors (to measure humidity).
+Environmental controls mitigate the loss of [[Availability]] through mechanical issues with equipment, such as overheating. Building control systems maintain an optimum working environment for different parts of the building. The acronym [[HVAC]] (Heating, Ventilation, Air Conditioning) is often used to describe these services. An HVAC uses temperature sensors and moisture detection sensors (to measure humidity).
 
 Use a portable monitor to verify that the HVAC's temperature and humidity sensors are returning the correct readings.
 
@@ -119,7 +119,7 @@ Since 2001, the SATA and Serial Attached [[SCSI]] ([[SAS]]) specifications have 
 
 For SSDs and hybrid drives and some USB thumb drives and flash memory cards, overwriting methods are not reliable, because the device uses wear-leveling routines in the drive controller to communicate which locations are available for use to any software process accessing the device.
 
-On SSDs, the SE command marks all blocks as empty. A block is the smallest unit on flash media that can be given an erase command. The drive firmware's automatic garbage collectors then perform the actual erase of each block over time. If this process is not completed (and there is no progress indicator), there is a risk of remnant recovery, though this requires removing the chips from the device to analyze them in specialist hardware.
+On SSDs, the SE command marks all blocks as empty. A block is the smallest unit on flash media that can be given an erase command. The drive firmware's automatic garbage collectors then perform the actual erase of each block over time. If this process is not completed (and there is no progress indicator), there is a risk of remnant recovery, though this requires removing the chips from the device to analyze #Ops them in specialist hardware.
 
 ### Instant Secure Erase (ISE)
 

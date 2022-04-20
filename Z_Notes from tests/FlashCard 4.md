@@ -9,7 +9,7 @@ You are writing a security awareness blog for company CEOs subscribed to your th
 ## Answer:
 A Trojan means a malicious program masquerading as something else; a backdoor is a covert means of accessing a host or network. A Trojan need not necessarily operate a backdoor and a backdoor can be established by exploits other than using Trojans. The term remote access trojan ([[RAT]]) is used for the specific combination of Trojan and backdoor.
 ## Question:
-You are investigating a business email compromise ([[BEC]]) incident. The email account of a developer has been accessed remotely over webmail. Investigating the developer's workstation finds no indication of a malicious process, but you do locate an unknown USB extension device attached to one of the rear ports. Is this the most likely attack vector, and what type of malware would it implement?
+You are investigating a business email compromise ([[BEC]]) incident. The email account of a developer has been accessed remotely over webmail. Investigating the developer's workstation finds no indication of a malicious process, but you do locate an unknown USB extension device attached to one of the rear ports. Is this the most likely [[attack vector]], and what type of malware would it implement?
 ## Answer:
 It is likely that the USB device implements a hardware-based keylogger. This would not necessarily require any malware to be installed or leave any trace in the file system.
 ## Question:

@@ -6,7 +6,7 @@ tags: [, OIR]
 - Attack can be classified as active and passive attack.
 - An attack will have a motive and will follow a method when opportunity arise.
 
-[[Attack surface]] is all the points at which a malicious [[threat actor]] could try to exploit a vulnerability. Potential **attack vectors**.
+[[Attack surface]] is all the points at which a malicious [[threat actor]] could try to exploit a vulnerability. Potential **[[attack vector]]s**.
 
 [[attack vector]] is the path that a [[threat actor]] uses to gain access to a secure system. In the majority of cases, gaining access means being able to run malicious code on the target.
 

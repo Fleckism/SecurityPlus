@@ -9,7 +9,7 @@ Implementing Cybersecurity Resilience
 
 LESSON INTRODUCTION
 
-Cybersecurity resilience means that even successful intrusions by [[threat actor]]s have limited impact on [[confidentiality]], [[integrity]], and [[availability]]. **Provisioning redundancy in storage, power, and network systems, plus effective backup procedures**, site resiliency, and effective procedures for change control and configuration management are crucial in maintaining high availability. 
+Cybersecurity resilience means that even successful intrusions by [[threat actor]]s have limited impact on [[confidentiality]], [[integrity]], and [[[[Availability]]]]. **Provisioning redundancy in storage, power, and network systems, plus effective backup procedures**, site resiliency, and effective procedures for change control and configuration management are crucial in maintaining high [[Availability]]. 
 
 ## 
 
@@ -24,12 +24,12 @@ In this lesson, you will:
 
 2.5 Given a scenario, implement cybersecurity resilience
 
-The output of risk assessments and business impact analysis will identify vulnerable business processes. To reduce risks in these processes, you can make the IT systems and other business systems that support them resilient to failure. You must be able to install and configure the systems that provide redundancy for power supply, networking, and storage systems.
-# HIGH AVAILABILITY
+The output of [[risk assesment]]s and business impact analysis will identify vulnerable business processes. To reduce risks in these processes, you can make the IT systems and other business systems that support them resilient to failure. You must be able to install and configure the systems that provide redundancy for power supply, networking, and storage systems.
+# HIGH [[Availability]]
 
-One of the key properties of a [[resilient]] system is high availability. Availability is the percentage of time that the system is online, measured over the defined period, typically one year. The corollary of availability is downtime, or the amount of time for which the system is unavailable. The maximum tolerable downtime (MTD) metric expresses the availability requirement for a particular business function. High availability is usually loosely described as 24x7 (24 hours per day, 7 days per week) or 24x365 (24 hours per day, 365 days per year). For a critical system, availability will be described as "two-nines" (99%) up to five- or six-nines (99.9999%):
+One of the key properties of a [[resilient]] system is high [[Availability]]. [[Availability]] is the percentage of time that the system is online, measured over the defined period, typically one year. The corollary of [[Availability]] is downtime, or the amount of time for which the system is unavailable. The maximum tolerable downtime (MTD) metric expresses the [[Availability]] requirement for a particular business function. High [[Availability]] is usually loosely described as 24x7 (24 hours per day, 7 days per week) or 24x365 (24 hours per day, 365 days per year). For a critical system, [[Availability]] will be described as "two-nines" (99%) up to five- or six-nines (99.9999%):
 
-Availability
+[[Availability]]
 
 Annual Downtime (hh:mm:ss)
 
@@ -55,11 +55,11 @@ Annual Downtime (hh:mm:ss)
 
 Downtime is calculated from the sum of scheduled service intervals plus unplanned outages over the period.
 
-System availability can refer to an overall process, but also to availability at the level of a server or individual component.
+System [[Availability]] can refer to an overall process, but also to [[Availability]] at the level of a server or individual component.
 
 ### Scalability and Elasticity
 
-High availability also means that a system is able to cope with rapid growth in demand. Two properties of high availability that have to do with this are referred to as scalability and elasticity. Scalability is the capacity to increase resources to meet demand within similar cost ratios. This means that if service demand doubles, costs do not more than double. There are two types of [[scalability]]:
+High [[Availability]] also means that a system is able to cope with rapid growth in demand. Two properties of high [[Availability]] that have to do with this are referred to as scalability and elasticity. Scalability is the capacity to increase resources to meet demand within similar cost ratios. This means that if service demand doubles, costs do not more than double. There are two types of [[scalability]]:
 
 -   To scale **out** is to add more resources in parallel with existing resources.
 -   To scale **up** is to increase the power of existing resources.
@@ -168,4 +168,4 @@ Asynchronous replication isn't a good choice for a solution that requires data i
 
 ### On-Premises versus Cloud
 
-High availability through redundancy and replication is resource-intensive, especially when configuring multiple [[hot or warm sites does this actually mean temperature?]]. For on-premises sites, provisioning the storage devices and [[high-bandwidth, low-latency WAN]] links required between two geographically dispersed hot sites could incur unaffordable costs. This cost is one of the big drivers of cloud services, where local and geographic redundancy are built into the system, if you trust the CSP to operate the cloud effectively. For example, in the cloud, geo-redundancy replicates data or services between data centers physically located in two different regions. Disasters that occur at the regional level, like earthquakes, hurricanes, or floods, should not impact availability across multiple zones.
+High [[Availability]] through redundancy and replication is resource-intensive, especially when configuring multiple [[hot or warm sites does this actually mean temperature?]]. For on-premises sites, provisioning the storage devices and [[high-bandwidth, low-latency WAN]] links required between two geographically dispersed hot sites could incur unaffordable costs. This cost is one of the big drivers of cloud services, where local and geographic redundancy are built into the system, if you trust the CSP to operate the cloud effectively. For example, in the cloud, geo-redundancy replicates data or services between data centers physically located in two different regions. Disasters that occur at the regional level, like earthquakes, hurricanes, or floods, should not impact [[Availability]] across multiple zones.

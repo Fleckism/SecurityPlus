@@ -3,7 +3,7 @@ tags: [A_D, Implementation,section]
 ---
 # LESSON INTRODUCTION
 
-Effective network architecture design, protocol configuration, and the use of appliances such as firewalls and intrusion detection help to provide a secure network environment, but we need to consider the security systems configured on network hosts as well. Security procedures and solutions are complicated by the range of different types of hosts that networks must support, from PCs and laptops to smartphones and embedded controllers.
+Effective network architecture #A_D design, protocol configuration, and the use of appliances such as firewalls and intrusion detection help to provide a secure network environment, but we need to consider the security systems configured on network hosts as well. Security procedures and solutions are complicated by the range of different types of hosts that networks must support, from PCs and laptops to smartphones and embedded controllers.
 
 Lesson Objectives
 
@@ -14,7 +14,7 @@ In this lesson, you will:
 -   Explain embedded system security implications.
 # EXAM OBJECTIVES COVERED
 
-1.2 Given a scenario, analyze potential indicators ([[IoC]]) to determine the type of attack
+1.2 Given a scenario, analyze #Ops potential indicators ([[[[IoC]]]]) to determine the type of attack
 
 3.2 Given a scenario, implement host or application security solutions
 
@@ -72,7 +72,7 @@ As revealed by researcher Karsten Nohl in his BadUSB paper ([srlabs.de/wp-conten
 
 Another example is the O.MG cable ([theverge.com/2019/8/15/20807854/apple-mac-lightning-cable-hack-mike-grover-mg-omg-cables-defcon-cybersecurity](https://www.theverge.com/2019/8/15/20807854/apple-mac-lightning-cable-hack-mike-grover-mg-omg-cables-defcon-cybersecurity)), which packs enough processing capability into an ordinary-looking USB-Lightning cable to run an access point and keylogger.
 
-A modified device may have visual clues that distinguish it from a mass manufactured thumb drive or cable, but these may be difficult to spot. You should warn users of the risks and repeat the advice to never attach devices of unknown provenance to their computers and smartphones. If you suspect a device as an attack vector, observe a sandboxed lab system (sometimes referred to as a sheep dip) closely when attaching the device. Look for command prompt windows or processes such as the command interpreter starting and changes to the registry or other system files.
+A modified device may have visual clues that distinguish it from a mass manufactured thumb drive or cable, but these may be difficult to spot. You should warn users of the risks and repeat the advice to never attach devices of unknown provenance to their computers and smartphones. If you suspect a device as an [[attack vector]], observe a sandboxed lab system (sometimes referred to as a sheep dip) closely when attaching the device. Look for command prompt windows or processes such as the command interpreter starting and changes to the registry or other system files.
 
 Not all attacks have to be so esoteric. USB sticks infected with ordinary malware are still incredibly prolific infection vectors. Hosts should always be configured to prevent autorun when USB devices are attached. USB ports can be blocked altogether using most types of Host Intrusion Detection Systems (HIDS).
 # THIRD-PARTY RISK MANAGEMENT
@@ -91,7 +91,7 @@ When assessing suppliers for risk, it is helpful to distinguish two types of rel
 For example, Microsoft is a major software vendor, but it is not feasible for it to establish direct relationships with all its potential customers. To expand its markets, it develops partner relationships with original equipment manufacturers (OEMs) and solution providers. Microsoft operates a program of certification and training for its partners, which improves product support and security awareness.
 # END OF LIFE SYSTEMS
 
-When a manufacturer discontinues sales of a product, it enters an end of life (EOL) phase in which support and availability of spares and updates become more limited. An end of service life (EOSL) system is one that is no longer supported by its developer or vendor. EOSL products no longer receive security updates and so represent a critical vulnerability if any remain in active use.
+When a manufacturer discontinues sales of a product, it enters an end of life (EOL) phase in which support and [[Availability]] of spares and updates become more limited. An end of service life (EOSL) system is one that is no longer supported by its developer or vendor. EOSL products no longer receive security updates and so represent a critical vulnerability if any remain in active use.
 
 For example, in Microsoft's support life cycle policy, Windows versions are generally given five years of mainstream support and five years of extended support (during which only security updates are shipped). You can check the support status for a particular version of Windows at [support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet).
 

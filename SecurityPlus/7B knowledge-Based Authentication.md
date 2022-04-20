@@ -4,7 +4,7 @@ tags: [OIR, , A_D,section]
 ---
 # EXAM OBJECTIVES COVERED
 
-1.2 Given a scenario, analyze potential indicators to determine the type of attack
+1.2 Given a scenario, analyze #Ops potential indicators to determine the type of attack
 
 3.8 Given a scenario, implement authentication and authorization solutions 
 
@@ -13,13 +13,13 @@ tags: [OIR, , A_D,section]
 <mark style="background: #FFB8EBA6;">Knowledge-based authentication refers primarily to issuing users with password-based account access mechanisms</mark> . Configuring password-based authentication protocols and supporting users with authentication issues is an important part of the information security role. In this topic, you will learn how some common authentication protocols work and about the ways that they can be put at risk by password cracking techniques.
 # LOCAL, NETWORK, AND REMOTE AUTHENTICATION
 
-One of the most important features of an operating system is the **_authentication provider,_ which is the software architecture and code that underpins the mechanism by which the user is authenticated before starting a shell**. This is usually described as a login (Linux) or a logon or sign-in (Microsoft). Knowledge-based authentication, using a password or personal identification number (PIN), is the default authentication provider for most operating systems.
+One of the most important features of an operating system is the **_authentication provider,_ which is the software architecture #A_D and code that underpins the mechanism by which the user is authenticated before starting a shell**. This is usually described as a login (Linux) or a logon or sign-in (Microsoft). Knowledge-based authentication, using a password or personal identification number (PIN), is the default authentication provider for most operating systems.
 
 Knowledge-based authentication relies on cryptographic [[hash|hashes]]. A plaintext password is not usually transmitted or stored in a credential database because of the risk of compromise. Instead, the password is stored as a [[cryptographic hash]]. When a user enters a password to log in, an authenticator converts what is typed into a hash and transmits that to an authority. The authority compares the submitted hash to the one in the database and authenticates the subject only if they match.
 
 ### Windows Authentication
 
-Windows authentication involves a complex architecture of components ([docs.microsoft.com/en-us/windows-server/security/windows-authentication/credentials-processes-in-windows-authentication](https://docs.microsoft.com/en-us/windows-server/security/windows-authentication/credentials-processes-in-windows-authentication)), but the following three scenarios are typical:
+Windows authentication involves a complex architecture #A_D of components ([docs.microsoft.com/en-us/windows-server/security/windows-authentication/credentials-processes-in-windows-authentication](https://docs.microsoft.com/en-us/windows-server/security/windows-authentication/credentials-processes-in-windows-authentication)), but the following three scenarios are typical:
 
 -   Windows local sign-in—the Local Security Authority ([[LSA]]) compares the submitted credential to a hash stored in the Security Accounts Manager ([[SAM]]) database, which is part of the registry. This is also referred to as _interactive logon._
 -   Windows network sign-in—the LSA can pass the credentials for authentication to a network service. The preferred system for network authentication is based on Kerberos, but legacy network applications might use NT LAN Manager ([[NTLM]]) authentication.
@@ -90,7 +90,7 @@ Kerberos is designed to work over a trusted local network. Several authenticatio
 
 ### Password Authentication Protocol (PAP)
 
-The Password Authentication Protocol ([[PAP]]) is an unsophisticated authentication method developed as part of the Point-to-Point Protocol ([[PPP]]), used to transfer TCP/IP data over serial or dial-up connections. It is also used as the basic authentication mechanism in HTTP. It relies on clear text password exchange and is therefore obsolete for most purposes, except through an encrypted tunnel.
+The Password Authentication Protocol ([[PAP]]) is an unsophisticated authentication method developed as part of the Point-to-Point Protocol ([[PPP]]), used to transfer TCP/IP data over serial or dial-up connections. It is also used as the basic authentication mechanism in Hyper Text Transfer ProtocolTTPs]]. It relies on clear text password exchange and is therefore obsolete for most purposes, except through an encrypted tunnel.
 
 ### Challenge Handshake Authentication Protocol (CHAP)
 
@@ -113,7 +113,7 @@ When a user chooses a password, **the password is converted to a hash using a cr
 
 ### Plaintext/Unencrypted Attacks
 
-A _plaintext/unencrypted attack_ exploits password storage or a network authentication protocol that does not use encryption. Examples include PAP, basic HTTP/FTP authentication, and Telnet. These protocols must not be used. Passwords must never be saved to an unmanaged file. **One common source of credential breaches is passwords embedded in application code that has subsequently been uploaded to a public repository.**
+A _plaintext/unencrypted attack_ exploits password storage or a network authentication protocol that does not use encryption. Examples include PAP, basic Hyper Text Transfer ProtocolTTPs]]/FTP authentication, and Telnet. These protocols must not be used. Passwords must never be saved to an unmanaged file. **One common source of credential breaches is passwords embedded in application code that has subsequently been uploaded to a public repository.**
 
 ### Online Attacks
 

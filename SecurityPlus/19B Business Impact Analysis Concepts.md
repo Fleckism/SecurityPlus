@@ -5,7 +5,7 @@ tags: [,section]
 
 5.4 Summarize risk management processes and concepts
 
-Business impact analysis informs risk assessment by documenting the workflows that run the organization and the critical assets and systems that support them. Key metrics quantify how much downtime those systems can withstand. As a security professional, you will often be asked to produce this type of analysis.
+Business impact analysis informs [[risk assesment]] by documenting the workflows that run the organization and the critical assets and systems that support them. Key metrics quantify how much downtime those systems can withstand. As a security professional, you will often be asked to produce this type of analysis.
 # BUSINESS IMPACT ANALYSIS
 
 Business impact analysis ([[BIA]]) is the process of assessing what losses might occur for a range of threat scenarios. For instance, if a DDoS attack suspends an e-commerce portal for five hours, the business impact analysis will be able to quantify the losses from orders not made and customers moving permanently to other suppliers based on historic data. The likelihood of a DoS attack can be assessed on an annualized basis to determine annualized impact, in terms of costs. You then have the information required to assess whether a security control, such as load balancing or managed DDoS mitigation, is worth the investment.
@@ -52,7 +52,7 @@ For mission essential functions, it is important to **reduce the number of depen
 -   Process flow—a step-by-step description of how the function is performed.
 # SINGLE POINTS OF FAILURE
 
-Each IT system will be supported by hardware assets, such as servers, disk arrays, switches, routers, and so on. Reducing dependencies means the system design can more easily eliminate the sort of weakness that comes from these devices becoming single points of failure ([[SPoF]]). A SPoF is an asset that causes the entire workflow to fail if it is damaged or otherwise not available. SPoFs can be mitigated by provisioning redundant components. Metrics for asset reliability can help to determine when and how much redundancy is required. Some of the main KPIs relating to service availability are as follows:
+Each IT system will be supported by hardware assets, such as servers, disk arrays, switches, routers, and so on. Reducing dependencies means the system design can more easily eliminate the sort of weakness that comes from these devices becoming single points of failure ([[SPoF]]). A SPoF is an asset that causes the entire workflow to fail if it is damaged or otherwise not available. SPoFs can be mitigated by provisioning redundant components. Metrics for asset reliability can help to determine when and how much redundancy is required. Some of the main KPIs relating to service [[Availability]] are as follows:
 
 -   Mean time to failure ([[MTTF]]) and mean time between failures (MTBF) represent the expected lifetime of a product. MTTF should be used for non-repairable assets. For example, a hard drive may be described with an MTTF, while a server (which could be repaired by replacing the hard drive) would be described with an MTBF. You will often see MTBF used indiscriminately, however. For most devices, failure is more likely early or late in life, producing the so-called "bathtub curve."  
       
@@ -80,9 +80,9 @@ An environmental disaster, or natural disaster, is one that could not be prevent
 
 Most natural or environmental disasters can also have a human or artificial source. For example, flooding might be more likely because dams are not adequately maintained; a wildfire could be the result of arson or poorly maintained power infrastructure.
 
-### Site Risk Assessment
+### Site [[risk assesment]]
 
-Where cybersecurity generally has financial impacts, site safety can have impacts to life and property. A site risk assessment evaluates exposure to the following types of factor:
+Where cybersecurity generally has financial impacts, site safety can have impacts to life and property. A site [[risk assesment]] evaluates exposure to the following types of factor:
 
 -   Risk from disaster events, such as earthquake, flood, and fire. These events can occur naturally or from person-made causes.
 -   Risk from disruption to utilities, such as electricity, water, and transportation. These risks are higher in geographically isolated sites.
@@ -98,7 +98,7 @@ Disaster recovery plans ([[DRPs]]) describe the specific procedures to follow to
 
 -   Who is responsible for doing what? How can they be contacted? What happens if they are not available?
 -   Which functions are most critical? Where should effort first be concentrated?
--   What resources are available? Should they be pre-purchased and held in stock? Will the disaster affect availability of supplies?
+-   What resources are available? Should they be pre-purchased and held in stock? Will the disaster affect [[Availability]] of supplies?
 -   What are the timescales for resumption of normal operations?
 
 3.  Train staff in the disaster planning procedures and how to react well to change.

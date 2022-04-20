@@ -6,7 +6,7 @@ attacks
 vulnerabilities
 architecture and design
 [[threat actor]]
-attack vectors
+[[attack vector]]s
 Threat types:   viruses or rootkits, Trojans, botnets, and specific software vulnerabilities
 
 Capability:  Script kiddie using a commodity attack tool that are widely available on the web or dark web.  More capable [[threat actor]]s take advantage of zero-day exploits.
@@ -52,7 +52,7 @@ Output from the route command on a Linux host. Most endpoints have a simple rout
 
 -   Open Vulnerability and Assessment Language (OVAL)—an XML schema for describing system security state and querying vulnerability reports and information.
 
-[[TTPs]]
+TTP
 **Tactics**:  A plan for attaining a particular goal
 - Describe the way the [[threat actor]] operates.
 **Technique**: A method( A systematic way of doing something implies an orderly logical arrangement)
