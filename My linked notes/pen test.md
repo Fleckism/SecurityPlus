@@ -1,9 +1,6 @@
----
-tags: [OIR, Implementation]
----
 **Together, penetration testing and vulnerability assessment tools provide a detailed picture of the flaws that exist in an application and the risks associated with those flaws.**
 
-
+#Ops 
 - **Black box (or unknown environment)**
 - **White box (or known environment)**
 - **Gray box (or partially known environment)**

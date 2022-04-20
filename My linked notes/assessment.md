@@ -33,7 +33,7 @@ Taken From
  The process of mapping out the attack surface is referred to as network [[reconnaissance]] and discovery
 
 Where [[vulnerability]] scanning uses lists of patches and standard definitions of baseline configurations,
-- [[threat hunting]] is an **assessment technique** that utilizes insights gained from threat intelligence to **proactively** discover whether there is evidence of TTP already present within the network or system. 
+- [[threat hunting]] is an **assessment technique** that utilizes insights gained from threat intelligence to **proactively** discover whether there is evidence of [[TTPs]] already present within the network or system. 
 	- [[threat hunting]] is an proactive process.
 	- This contrasts with a reactive process  that is only triggered when alert conditions are reported through an incident management system. You can also contrast **[[threat hunting]]** with **penetration testing**. Where a pen test attempts to achieve some sort of system intrusion or concrete demonstration of weakness,
 	-  **[[threat hunting]]** is based only on analysis of data within the system. To that extent, it is less potentially disruptive than pen testing.

@@ -1,6 +1,3 @@
----
-tags: [Implementation, OIR,section]
----
 # EXAM OBJECTIVES COVERED
 
 1.4 Given a scenario, analyze #Ops potential indicators associated with network attacks

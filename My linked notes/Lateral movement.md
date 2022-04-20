@@ -1,7 +1,3 @@
----
-tags: [OIR, ]
----
-
 Gaining control over other hosts.
 
-Lateral movement usually involves executing the attack tools over remote process shares or using scripting tools, such as PowerShell.
+#Lateral_movement usually involves executing the attack tools over remote process shares or using scripting tools, such as PowerShell.

@@ -12,7 +12,7 @@ An IoC can be definite and objectively identifiable, like a malware signature, b
 
 Strictly speaking, an [[IoC]] is evidence of an attack that was successful. The term **indicator of attack ([[IoA]])** is sometimes also used for evidence of an intrusion **attempt in progress**.
 
-Put another way, an IoC is evidence of a TTP.
+Put another way, an IoC is evidence of a [[TTPs]].
 IoA:  Indicator of an attack that is currently happening.
 IoC:  are “pieces of forensic data, such as data found in system log entries or files, that identify potentially malicious activity on a system or network.” Indicators of compromise aid information security and IT professionals in detecting data breaches, malware infections, or other threat activity. By monitoring for indicators of compromise, organizations can detect attacks and act quickly to prevent breaches from occurring or limit damages by stopping attacks in earlier stages.
 				

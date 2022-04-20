@@ -25,7 +25,7 @@ Advanced Persistent Threat (APT) APT refers to the ongoing ability of an adversa
   
   deep web is any part of the World Wide Web that is not indexed by a search engine
   
-  A tactic, technique, or procedure (TTP) is a generalized statement of adversary behavior. 2A
+  A tactic, technique, or procedure ([[TTPs]]) is a generalized statement of adversary behavior. 2A
   	- TTPs describe what and how an adversary acts and Indicators describe how to recognize what those actions might look like.
   
   As a military term, Army [doctrine](http://armypubs.army.mil/doctrine/DR_pubs/dr_a/pdf/adrp1_02.pdf) is defined as the fundamental principles by which the military forces or elements thereof guide their actions in support of national objectives. 2A
@@ -52,7 +52,7 @@ Output from the route command on a Linux host. Most endpoints have a simple rout
 
 -   Open Vulnerability and Assessment Language (OVAL)—an XML schema for describing system security state and querying vulnerability reports and information.
 
-TTP
+[[TTPs]]
 **Tactics**:  A plan for attaining a particular goal
 - Describe the way the [[threat actor]] operates.
 **Technique**: A method( A systematic way of doing something implies an orderly logical arrangement)

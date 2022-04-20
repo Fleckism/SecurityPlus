@@ -1,5 +1,1 @@
----
-tags: [vulnerability, OIR]
----
-
-[[threat hunting]] is an assessment technique that utilizes insights gained from threat intelligence to proactively discover whether there is evidence of TTP already present within the network or system
+[[threat hunting]] is an [[assessment]] technique that utilizes insights gained from threat intelligence to proactively discover whether there is evidence of [[TTPs]] already present within the network or system

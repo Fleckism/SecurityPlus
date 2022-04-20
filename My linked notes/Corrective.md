@@ -1,6 +1,3 @@
----
-tags: [A_D, OIR]
----
 **Corrective control** acts to 
 - **eliminate or reduce** the impact of an intrusion event. 
 - Used **after** an attack. 
