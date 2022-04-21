@@ -4,12 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "f1df06ae2c029d69",
+        "id": "3b11dbc7e6d7cc93",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      },
+      {
+        "id": "10d501175869b632",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/vulnerability.md",
+            "file": "My linked notes/Attack.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "9a0e8f8afba2816f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/attack vector.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "ccd7b6ca91fde0ac",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/attack surface.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OIR",
+                "query": "\"tag\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -79,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/vulnerability.md",
+                "file": "My linked notes/attack vector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,17 +143,17 @@
     "direction": "horizontal",
     "width": 252
   },
-  "active": "f1df06ae2c029d69",
+  "active": "9a0e8f8afba2816f",
   "lastOpenFiles": [
+    "My linked notes/attack vector.md",
+    "My linked notes/attack surface.md",
+    "My linked notes/Attack.md",
+    "SecurityPlus/1A Information Security Roles.md",
     "My linked notes/vulnerability.md",
     "My linked notes/threat hunting.md",
     "My linked notes/Privilege escalation.md",
     "My linked notes/Pivoting.md",
     "My linked notes/Persistence.md",
-    "My linked notes/pen test.md",
-    "My linked notes/Lateral movement.md",
-    "My linked notes/Frameworks.md",
-    "My linked notes/Cryptanalysis.md",
-    "My linked notes/Corrective.md"
+    "My linked notes/pen test.md"
   ]
 }
