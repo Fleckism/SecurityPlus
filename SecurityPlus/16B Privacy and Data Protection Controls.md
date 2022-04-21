@@ -1,11 +1,8 @@
----
-tags: [implementation, GRC,section]
----
 # EXAM OBJECTIVES COVERED
 
-2.1 Explain the importance of security concepts in an enterprise environment
+2.1 Explain the importance of security #concepts in an enterprise environment
 
-3.2 Given a scenario, implement host or application security solutions
+3.2 Given a scenario, #Implementation  host or application security solutions
 
 5.5 Explain privacy and sensitive data concepts in relation to security
 

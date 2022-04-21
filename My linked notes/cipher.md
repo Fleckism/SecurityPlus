@@ -1,7 +1,4 @@
----
-tags: [A_D, GRC]
----
--  operations performed to [[encoding|encode]] or **decode data**
+-  #concepts  operations performed to [[encoding|encode]] or **decode data**
 - The use of a **key with the [[encryption]] cipher** ensures that decryption can only be performed by authorized persons.
 - Utilized:
 	- Used as a mode of operation to achieve a security goal([[security control|control]])

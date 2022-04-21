@@ -1,6 +1,3 @@
----
-tags: [Implementation]
----
 - Standard IT that might be a specialty 
 - Urgent is [[IR]] (Operations is **Black, white, red, blue**)
 - **Incident Response is urgent**

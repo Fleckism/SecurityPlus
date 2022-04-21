@@ -1,9 +1,6 @@
----
-tags: [,section]
----
 # EXAM OBJECTIVES COVERED
 
-5.4 Summarize risk management processes and concepts
+5.4 Summarize ( #GRC) risk management processes and concepts
 
 Business impact analysis informs [[risk assesment]] by documenting the workflows that run the organization and the critical assets and systems that support them. Key metrics quantify how much downtime those systems can withstand. As a security professional, you will often be asked to produce this type of analysis.
 # BUSINESS IMPACT ANALYSIS
