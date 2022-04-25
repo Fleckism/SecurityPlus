@@ -2,7 +2,8 @@
 
   Can also be called a package
  
- - [[bot]]
+ - A **bot** is an automated script or tool that performs some malicious activity. #tool
+
  - [[Crypto]]
  - [[Keylogger]]
  - [[RAT]]

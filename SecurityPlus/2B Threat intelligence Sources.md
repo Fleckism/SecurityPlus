@@ -101,7 +101,7 @@ Where STIX provides the syntax for describing  [[CTI]], the Trusted Automated eX
 
 ### Automated Indicator Sharing (AIS)
 
-Automated Indicator Sharing ([[AIS]]) is a service offered by the Department of Homeland Security (DHS) for companies to participate in threat intelligence sharing ([us-cert.gov/ais](https://us-cert.cisa.gov/ais)). It is especially aimed at ISACs, but private companies can join too. AIS is based on the STIX and TAXII standards and protocols. 
+Automated Indicator Sharing (AIS) is a service offered by the Department of Homeland Security (DHS) for companies to participate in threat intelligence sharing ([us-cert.gov/ais](https://us-cert.cisa.gov/ais)). It is especially aimed at ISACs, but private companies can join too. AIS is based on the STIX and TAXII standards and protocols. 
 
 ### Threat Maps
 
