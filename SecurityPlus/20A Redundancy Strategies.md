@@ -3,13 +3,13 @@ tags: [Implementation,section]
 ---
 # Lesson 20
 
-Implementing Cybersecurity Resilience
+#Implementation  Cybersecurity Resilience
 
 ## 
 
 LESSON INTRODUCTION
 
-Cybersecurity resilience means that even successful intrusions by [[threat actor]]s have limited impact on [[confidentiality]], [[integrity]], and [[[[Availability]]]]. **Provisioning redundancy in storage, power, and network systems, plus effective backup procedures**, site resiliency, and effective procedures for change control and configuration management are crucial in maintaining high [[Availability]]. 
+Cybersecurity resilience means that even successful intrusions by [[threat actor]]s have limited impact on [[confidentiality]], [[integrity]], and [[Availability]]. **Provisioning redundancy in storage, power, and network systems, plus effective backup procedures**, site resiliency, and effective procedures for change control and configuration management are crucial in maintaining high [[Availability]]. 
 
 ## 
 

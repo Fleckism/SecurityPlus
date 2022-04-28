@@ -19,7 +19,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/security control.md",
+            "file": "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "network",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/security control.md",
+                "file": "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,15 +120,15 @@
   },
   "active": "857e3f2197f62ba8",
   "lastOpenFiles": [
+    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
+    "SecurityPlus/20A Redundancy Strategies.md",
+    "SecurityPlus/8C Authorization Solutions.md",
+    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
     "My linked notes/security control.md",
     "My linked notes/vulnerabilities.md",
     "My linked notes/Acronyms/AUP.md",
     "My linked notes/Acronyms/ARP.md",
     "My linked notes/Acronyms/APT.md",
-    "My linked notes/Integrity.md",
-    "My linked notes/Acronyms/AIS.md",
-    "SecurityPlus/2B Threat intelligence Sources.md",
-    "My linked notes/Acronyms/AES.md",
-    "My linked notes/Acronyms/AEAD.md"
+    "My linked notes/Integrity.md"
   ]
 }
