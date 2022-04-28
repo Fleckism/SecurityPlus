@@ -41,5 +41,6 @@
   "fileSortOrder": "alphabetical",
   "legacyEditor": false,
   "showLineNumber": true,
-  "lineWrap": true
+  "lineWrap": true,
+  "vimMode": false
 }

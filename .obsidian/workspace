@@ -12,6 +12,19 @@
           "state": {},
           "pinned": true
         }
+      },
+      {
+        "id": "857e3f2197f62ba8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/security control.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -46,16 +59,17 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"management\"",
+                "query": "network",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -75,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/security control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,8 +118,10 @@
     "direction": "horizontal",
     "width": 252
   },
-  "active": "3b11dbc7e6d7cc93",
+  "active": "857e3f2197f62ba8",
   "lastOpenFiles": [
+    "My linked notes/security control.md",
+    "My linked notes/vulnerabilities.md",
     "My linked notes/Acronyms/AUP.md",
     "My linked notes/Acronyms/ARP.md",
     "My linked notes/Acronyms/APT.md",
@@ -112,8 +129,6 @@
     "My linked notes/Acronyms/AIS.md",
     "SecurityPlus/2B Threat intelligence Sources.md",
     "My linked notes/Acronyms/AES.md",
-    "My linked notes/Acronyms/AEAD.md",
-    "My linked notes/Acronyms/ACL.md",
-    "My linked notes/Acronyms/AAA.md"
+    "My linked notes/Acronyms/AEAD.md"
   ]
 }
