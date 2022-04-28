@@ -1,4 +1,4 @@
-A computer virus is a type of malware designed to **replicate and spread** from computer to computer:
+#tool A computer virus is a type of malware designed to **replicate and spread** from computer to computer:
 
 - Virus's need a human to activate.
 # Classified by the types of file or media they infect

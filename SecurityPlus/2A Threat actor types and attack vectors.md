@@ -24,7 +24,7 @@ As part of security [[assessment]] and monitoring, security teams must identify 
 
 -   [[vulnerability]] **is a weakness** that could be triggered accidentally or exploited intentionally to cause a security breach. Examples of vulnerabilities include improperly configured or installed hardware or software, delays in applying and testing software and firmware patches, untested software and firmware patches, the misuse of software or communication protocols, poorly designed network architecture #A_D, inadequate physical security, insecure password usage, and design flaws in software or operating systems, such as unchecked user input.
 -   [[threat]] **is the potential** for someone or something to exploit a vulnerability and breach security. A threat may be intentional or unintentional. The person or thing that poses the threat is called a [[threat actor]] or _threat agent._ The path or tool used by a malicious [[threat actor]] can be referred to as the _[[attack vector]]._
--   [[risk]] is the **likelihood and impact (or consequence)** of a [[threat actor]] exploiting a vulnerability. To assess risk, you identify a vulnerability and then evaluate the likelihood of it being exploited by a threat and the impact that a successful exploit would have.
+-   [[risk]] is the **likelihood and impact (or consequence)** of a [[threat actor]] exploiting a vulnerability. #concepts To assess risk, you identify a vulnerability and then evaluate the likelihood of it being exploited by a threat and the impact that a successful exploit would have.
 
 Relationship between vulnerability, threat, and risk.
 

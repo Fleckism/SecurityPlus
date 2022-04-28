@@ -1,6 +1,3 @@
----
-tags: [Implementation,section]
----
 # Lesson 20
 
 #Implementation  Cybersecurity Resilience

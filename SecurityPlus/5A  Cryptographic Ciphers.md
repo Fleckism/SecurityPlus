@@ -1,6 +1,3 @@
----
-tags: [section ]
----
 
 ## EXAM OBJECTIVES COVERED
 #concepts

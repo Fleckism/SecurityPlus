@@ -12,19 +12,6 @@
           "state": {},
           "pinned": true
         }
-      },
-      {
-        "id": "857e3f2197f62ba8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -59,10 +46,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zFleck",
+                "query": "\"risk\"",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -73,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -89,7 +77,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,17 +105,17 @@
     "direction": "horizontal",
     "width": 252
   },
-  "active": "857e3f2197f62ba8",
+  "active": "3b11dbc7e6d7cc93",
   "lastOpenFiles": [
-    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
+    "My linked notes/virus.md",
+    "My linked notes/malware.md",
+    "SecurityPlus/5A  Cryptographic Ciphers.md",
+    "My linked notes/tool.md",
+    "My linked notes/Security Assessments.md",
+    "SecurityPlus/2A Threat actor types and attack vectors.md",
+    "My linked notes/risk.md",
     "SecurityPlus/20A Redundancy Strategies.md",
-    "SecurityPlus/8C Authorization Solutions.md",
-    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
-    "My linked notes/security control.md",
-    "My linked notes/vulnerabilities.md",
-    "My linked notes/Acronyms/AUP.md",
-    "My linked notes/Acronyms/ARP.md",
-    "My linked notes/Acronyms/APT.md",
-    "My linked notes/Integrity.md"
+    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
+    "SecurityPlus/8C Authorization Solutions.md"
   ]
 }
