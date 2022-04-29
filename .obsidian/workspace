@@ -12,6 +12,32 @@
           "state": {},
           "pinned": true
         }
+      },
+      {
+        "id": "13db25ce09eb4352",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/8C Authorization Solutions _ Implemention _ A_D.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "5c730a22e7e470a3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/ACL.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -46,10 +72,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"risk\"",
+                "query": "\"DAC\"",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -77,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SecurityPlus/8C Authorization Solutions _ Implemention _ A_D.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,10 +130,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
-  "active": "3b11dbc7e6d7cc93",
+  "active": "13db25ce09eb4352",
   "lastOpenFiles": [
+    "SecurityPlus/8C Authorization Solutions _ Implemention _ A_D.md",
+    "My linked notes/Acronyms/ACL.md",
     "My linked notes/virus.md",
     "My linked notes/malware.md",
     "SecurityPlus/5A  Cryptographic Ciphers.md",
@@ -114,8 +144,6 @@
     "My linked notes/Security Assessments.md",
     "SecurityPlus/2A Threat actor types and attack vectors.md",
     "My linked notes/risk.md",
-    "SecurityPlus/20A Redundancy Strategies.md",
-    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
-    "SecurityPlus/8C Authorization Solutions.md"
+    "SecurityPlus/20A Redundancy Strategies.md"
   ]
 }

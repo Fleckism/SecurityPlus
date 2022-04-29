@@ -1,6 +1,4 @@
----
-tags: [A_D, Implementation,section]
----
+
 # EXAM OBJECTIVES COVERED
 
 2.4 Summarize authentication and authorization design concepts
@@ -9,10 +7,10 @@ tags: [A_D, Implementation,section]
 
 4.1 Given a scenario, use the appropriate **tool to assess organizational security ([[chmod]] only)**
 
-Implementing an effective authorization solution system requires understanding of the different models that such systems can be based on. While an on-premises network can use a local directory to manage accounts and rights, as organizations move services to the cloud, these authorizations have to be implemented using **federated identity management solutions**.
+Implementing an effective authorization solution system requires understanding of the different models that such systems can be based on. While an on-premises network can use a local directory to manage accounts and rights, as organizations move services to the cloud, these authorizations have to be #Implementation  using **federated identity management solutions**.
 # DISCRETIONARY AND ROLE-BASED ACCESS CONTROL
 
-An important consideration in designing a security system is to determine how users receive rights or permissions. The different models are referred to as **access control schemes**.
+An important consideration in designing a security system is to determine how users receive rights or permissions. The different models are referred to as **access control schemes**. #A_D 
 
 ### Discretionary Access Control (DAC)
 
