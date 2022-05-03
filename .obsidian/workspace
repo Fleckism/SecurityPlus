@@ -32,7 +32,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/UAC.md",
+            "file": "My linked notes/Ports.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -107,8 +107,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Acronyms/UAC.md",
+                "file": "My linked notes/Ports.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,6 +159,7 @@
   },
   "active": "1196a7b83a9897d6",
   "lastOpenFiles": [
+    "My linked notes/Ports.md",
     "My linked notes/Acronyms/UAC.md",
     "My linked notes/Windows Defender.md",
     "My linked notes/Acronyms/IDS.md",
@@ -168,7 +168,6 @@
     "My linked notes/Assisted Labs.md",
     "My linked notes/security control.md",
     "My linked notes/Preventive.md",
-    "My linked notes/Control Remediation.md",
-    "My linked notes/Control Type.md"
+    "My linked notes/Control Remediation.md"
   ]
 }
