@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"DAC\"",
+                "query": "\"ACE\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/8C Authorization Solutions _ Implemention _ A_D.md",
+                "file": "My linked notes/Acronyms/ACL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,10 +133,10 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "13db25ce09eb4352",
+  "active": "5c730a22e7e470a3",
   "lastOpenFiles": [
-    "SecurityPlus/8C Authorization Solutions _ Implemention _ A_D.md",
     "My linked notes/Acronyms/ACL.md",
+    "SecurityPlus/8C Authorization Solutions _ Implemention _ A_D.md",
     "My linked notes/virus.md",
     "My linked notes/malware.md",
     "SecurityPlus/5A  Cryptographic Ciphers.md",
