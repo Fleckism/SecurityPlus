@@ -14,14 +14,15 @@ A security controls(goal) is something ( #A_D ) designed to give a system or dat
 	- Are the **Processes** organizations have in place to be protected from dangerous network #vulnerability [[vulnerability|vulnerabilities]] and data hacks
 
 - are **the processes** your organization has in place to protect from dangerous network  and data hacks
-# Categories 
+# Control Categories 
+[[Control Category]]
 - [[technical]] 
 - [[operational]] 
 - [[managerial]] 
 
 
 # CONTROL FUNCTIONAL TYPES
-
+[[Control Type]]
 Security controls can also be classified in types according to the **goal** or **function** they perform:
 - [[Preventive]]
 - [[Detective]] 
@@ -33,8 +34,19 @@ While most controls can be classed functionally as preventative, detective, or c
 - [[Deterrent]]
 - [[Compensating]]
 
-
+# Control Remediation Needed
+[[Control Remediation]]
+- [[IDS]] **Intrusion detection system**
 - [[AUP]] Acceptable Use Policy 
+- Permissions Policy
+- Install 
+	- Alarm
+	- Barrier
+	- Host Antivirus
+	- [[IDS]]
+	- Keycard Entry
+	- Perform Security Audit
+	- 
 
  A **control system** is one with multiple parts, such as sensors, workstations, and servers, and complex operating logic.
 

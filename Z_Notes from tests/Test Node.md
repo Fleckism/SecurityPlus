@@ -1,5 +1,5 @@
 [[Lesson 1 test]]
-[[Assisted Labs]]
+[[Z_Notes from tests/Assisted Labs]]
 [[FlashCard]]
 [[FlashCard 4]]
 [[Lesson 3 you can't redo these!]]

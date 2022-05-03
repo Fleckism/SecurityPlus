@@ -16,5 +16,5 @@
 				- User and entity behavior analytics [[UEBA]] **anomalies**(anomaly)
 				- Network traffic analysis [[NTA]]
 				- Often behavioral- and anomaly-based detection are taken to mean the **same thing** (in the sense that the engine detects anomalous behavior). Anomaly-based detection can also be taken to mean specifically looking for irregularities in the use of protocols.
-
+#PBQ
 [[Intrusion]]
