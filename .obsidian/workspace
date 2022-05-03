@@ -32,7 +32,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/ipconfig.md",
+            "file": "My linked notes/Acronyms/UAC.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"ipconfig\"",
+                "query": "UAC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/ipconfig.md",
+                "file": "My linked notes/Acronyms/UAC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,15 +160,15 @@
   },
   "active": "1196a7b83a9897d6",
   "lastOpenFiles": [
+    "My linked notes/Acronyms/UAC.md",
+    "My linked notes/Windows Defender.md",
+    "My linked notes/Acronyms/IDS.md",
     "My linked notes/ipconfig.md",
     "SecurityPlus/3A Assess Organizational Security L3a.md",
     "My linked notes/Assisted Labs.md",
     "My linked notes/security control.md",
     "My linked notes/Preventive.md",
     "My linked notes/Control Remediation.md",
-    "My linked notes/Control Type.md",
-    "My linked notes/Control Category.md",
-    "My linked notes/Acronyms/IDS.md",
-    "My linked notes/Acronyms/ACL.md"
+    "My linked notes/Control Type.md"
   ]
 }
