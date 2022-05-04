@@ -11,6 +11,7 @@ Performing Network Reconnaissance and Vulnerability Scanning
 			- nslookup [domain name or ip]
 - curl -s -I 10.1.0.2
 	- Server
+- tcpdump
 
 ## CentOS
 - ipconfig
