@@ -1,6 +1,6 @@
-- **symmetric [[cipher]] is one in which encryption and decryption are both performed by the same secret key**
-- Provides [[Confidentiality]] **<---**
-- 1 key, aka private key
+Symmetric [[cipher]] (**aka private (secret) key**)
+- 1 key performs encryption and decryption 
+- Provides [[Confidentiality]] 
 - keys 128 bits or 256 bits
 - Easily encrypted using a public key
 - Bulk [[encryption]] (aka large amounts of data)

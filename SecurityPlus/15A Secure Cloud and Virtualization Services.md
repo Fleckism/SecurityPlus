@@ -48,7 +48,7 @@ As well as the **ownership model (public, private, hybrid, or community)**, clou
 
 **Platform as a service (PaaS) provides resources somewhere between SaaS and IaaS. A typical PaaS solution would provide servers and storage network infrastructure (as per IaaS) but also provide a multi-tier web application/database platform on top. This platform could be based on Oracle or MS SQL or PHP and MySQL.** Examples include Oracle Database ([oracle.com/database](https://www.oracle.com/database/)), Microsoft Azure SQL Database ([azure.microsoft.com/services/sql-database](https://azure.microsoft.com/services/sql-database)), and Google App Engine ([cloud.google.com/appengine](https://cloud.google.com/appengine)).
 
-As distinct from SaaS though, th**is platform would not be configured to actually do anything. Your own developers would have to create the software (the [[CRM]] or e‑commerce application) that runs using the platform**. The service provider would be responsible for the integrity and [[Availability]] of the platform components, but you would be responsible for the security of the application you created on the platform.
+As distinct from SaaS though, th**is platform would not be configured to actually do anything. Your own developers would have to create the software (the [[CRM]] or e‑commerce application) that runs using the platform**. The service provider would be responsible for the integrity and [[My linked notes/Dictionary/Availability]] of the platform components, but you would be responsible for the security of the application you created on the platform.
 
 ![Screenshot of Amazon Web Services EC2 dashboard, showing Resources used, Scheduled Events, Account Attributes, and Additional Information.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3838-1599771810001.png)
 
@@ -203,7 +203,7 @@ For example, when considering security zones such as a [[DMZ]], VMs providing fr
 Isolating VMs in different zones on separate hardware—This should reduce the impact of a VM escaping attack. (Images © 123RF.com.)
 # VM SPRAWL AVOIDANCE
 
-As well as securing the hypervisor, you must also treat each VM as you would any other network host. This means using security policies and controls to ensure the confidentiality, integrity, and [[Availability]] of all data and services relying on host virtualization.
+As well as securing the hypervisor, you must also treat each VM as you would any other network host. This means using security policies and controls to ensure the confidentiality, integrity, and [[My linked notes/Dictionary/Availability]] of all data and services relying on host virtualization.
 
 Each VM needs to be installed with its own security software suite to protect against malware and intrusion attempts. Each guest must also have a patch management process. This might mean installing updates locally or replacing the guest instance from an updated VM template image.
 

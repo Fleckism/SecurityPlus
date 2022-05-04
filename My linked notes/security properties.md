@@ -1,4 +1,4 @@
 - [[confidentiality]],
 -  [[integrity]], 
-- [[availability]], and 
+- [[My linked notes/Dictionary/Availability]], and 
 - [[non-repudiation]].

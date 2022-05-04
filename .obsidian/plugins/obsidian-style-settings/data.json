@@ -1,0 +1,10 @@
+{
+  "obsidian-prism-theme@@color-schemes-lt": "pt-color-scheme-pistachio-lt",
+  "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-pine-dt",
+  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-blue-dt",
+  "obsidian-prism-theme@@pt-solid-titlebar-dt": false,
+  "obsidian-prism-theme@@titlebar-preset-dt": "pt-titlebar-custom-dt",
+  "obsidian-prism-theme@@titlebar-background-color-dt": "#193058",
+  "obsidian-prism-theme@@color-custom-graph-unresolved-dt": "#EAE2E2",
+  "obsidian-prism-theme@@graph-unresolved-color-presets-dt": "pt-graph-unresolved-custom-dt"
+}

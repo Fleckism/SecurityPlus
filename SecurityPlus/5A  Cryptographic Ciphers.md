@@ -24,7 +24,7 @@ In discussing cryptography and attacks against encryption systems, it is customa
 -   Bob—the intended recipient of the message.
 -   Mallory—a malicious attacker attempting to subvert the message in some way.
 
-There are three main types of cryptographic algorithm with different roles to play in the **assurance** of the [[security properties]] [[confidentiality]], [[integrity]], [[[[Availability]]]], and [[non-repudiation]]. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
+There are three main types of cryptographic algorithm with different roles to play in the **assurance** of the [[security properties]] [[confidentiality]], [[integrity]], [[[My linked notes/Availability]]]], and [[non-repudiation]]. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
 
 ## HASHING ALGORITHMS 
 

@@ -30,7 +30,7 @@ An operational technology ([[OT]]) network is established between embedded syste
 As well as being the target of an attack, embedded systems might be used as bots. Any type of Internet-enabled device is vulnerable to compromise. This includes web-enabled cameras, [[SOHO]] routers, and smart TVs and other appliances. This is referred to as an Internet of Things (IoT) botnet.
 # DISTRIBUTED DENIAL OF SERVICE ATTACK MITIGATION
 
-[[DDoS]] attacks can be diagnosed by traffic spikes that have no legitimate explanation, but can usually only be counteracted by providing high [[Availability]] services, such as load balancing and cluster services. In some cases, a stateful firewall can detect a DDoS attack and automatically block the source. However, for many of the techniques used in DDoS attacks, the source addresses will be randomly spoofed or launched by bots, making it difficult to detect the source of the attack.
+[[DDoS]] attacks can be diagnosed by traffic spikes that have no legitimate explanation, but can usually only be counteracted by providing high [[My linked notes/Dictionary/Availability]] services, such as load balancing and cluster services. In some cases, a stateful firewall can detect a DDoS attack and automatically block the source. However, for many of the techniques used in DDoS attacks, the source addresses will be randomly spoofed or launched by bots, making it difficult to detect the source of the attack.
 
 ![Summary screen lists Top Signatures, Top Source IPs, and Top Destination IPs. Count of Top Source IPs shown is 84, 6, 1, 1, 1, 1, 1." id="d1e28021__image_kjw_nqd_khb](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2220-1599771803292.png)
 
@@ -56,7 +56,7 @@ Topology of basic load balancing architecture #A_D. (Images © 123RF.com.)
 
 The scheduling algorithm is the code and metrics that determine which node is selected for processing each incoming request. The simplest type of scheduling is called round robin; this just means picking the next node. Other methods include picking the node with the fewest connections or the best response time. Each method can also be weighted, using administrator set preferences or dynamic load information or both.
 
-The load balancer must also use some type of heartbeat or health check probe to verify whether each node is available and under load or not. Layer 4 load balancers can only make basic connectivity tests while layer 7 appliances can test the application's state, as opposed to only verifying host [[Availability]].
+The load balancer must also use some type of heartbeat or health check probe to verify whether each node is available and under load or not. Layer 4 load balancers can only make basic connectivity tests while layer 7 appliances can test the application's state, as opposed to only verifying host [[My linked notes/Dictionary/Availability]].
 
 ### Source IP Affinity and Session Persistence 
 

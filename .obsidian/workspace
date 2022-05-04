@@ -4,12 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "3a7a700522e9ab5b",
+        "id": "956de89b445de70e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Lab 05.md",
+            "file": "SecurityPlus/5A  Cryptographic Ciphers.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        },
+        "group": "935b1243e8a964f1"
+      },
+      {
+        "id": "1bb6440e8134387c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/hash.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,17 +31,40 @@
         }
       },
       {
-        "id": "0bb7d22bf078171a",
+        "id": "f3b81460e4834c78",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "localgraph",
           "state": {
-            "file": "SecurityPlus/20B Backup Strategies.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
+            "file": "SecurityPlus/5A  Cryptographic Ciphers.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": true
+            }
           }
-        }
+        },
+        "group": "935b1243e8a964f1"
       }
     ],
     "direction": "vertical"
@@ -62,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"DLL\"",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,7 +108,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -91,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/20B Backup Strategies.md",
+                "file": "My linked notes/hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,25 +150,38 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "76762d95f1ac2a7d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "My linked notes/hash.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
-  "active": "0bb7d22bf078171a",
+  "active": "1bb6440e8134387c",
   "lastOpenFiles": [
-    "SecurityPlus/20B Backup Strategies.md",
-    "My linked notes/Acronyms/DLL.md",
-    "My linked notes/Definitions.md",
-    "SecurityPlus/17C Mitigation Controls.md",
-    "My linked notes/Defenses.md",
-    "My linked notes/security control.md",
-    "My linked notes/Control Category.md",
-    "My linked notes/domain controller.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "SecurityPlus/20A Redundancy Strategies.md"
+    "My linked notes/hash.md",
+    "SecurityPlus/5A  Cryptographic Ciphers.md",
+    "My linked notes/Acronyms/IV.md",
+    "[My linked notes/Availability.md",
+    "My linked notes/Availability.md",
+    "My linked notes/symmetric.md",
+    "My linked notes/asymmetric.md",
+    "SecurityPlus/5C Cryptographic Use Cases and Weaknesses.md",
+    "My linked notes/nmap.md",
+    "SecurityPlus/20B Backup Strategies.md"
   ]
 }

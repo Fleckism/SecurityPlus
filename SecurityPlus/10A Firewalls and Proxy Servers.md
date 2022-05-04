@@ -5,7 +5,7 @@ tags: [A_D, Implementation,section]
 
 LESSON INTRODUCTION
 
-In addition to the secure switching and routing appliances and protocols used to implement network connectivity, the network infrastructure design must also include security appliances to ensure confidentiality, integrity, and [[Availability]] of services and data. You should be able to distinguish the features of security and monitoring devices and software and deploy these devices to appropriate locations in the network.
+In addition to the secure switching and routing appliances and protocols used to implement network connectivity, the network infrastructure design must also include security appliances to ensure confidentiality, integrity, and [[My linked notes/Dictionary/Availability]] of services and data. You should be able to distinguish the features of security and monitoring devices and software and deploy these devices to appropriate locations in the network.
 
 ## 
 
@@ -211,4 +211,4 @@ The ability to inspect source code will be a requirement for high-security envir
 -   Mostly proprietary—developed from a Linux kernel, but with proprietary features added. Examples include Check Point IPSO, FortiGate FortiOS, and Sonicwall. Any code developed from a GPL source should be available, but in general terms these products cannot be used independently of a commercial contract with the vendor.
 -   Wholly open-source—these can be used independently of the vendor, but the vendors typically have commercial appliances and support contracts too. Examples include pfSense and Smoothwall.
 
-In determining whether to follow a self-installed versus supported deployment, as well as the core appliance code, you need to consider access to support, update [[Availability]], and access to subscription-based features, such as signatures and threat feeds.
+In determining whether to follow a self-installed versus supported deployment, as well as the core appliance code, you need to consider access to support, update [[My linked notes/Dictionary/Availability]], and access to subscription-based features, such as signatures and threat feeds.

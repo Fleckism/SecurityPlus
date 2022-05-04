@@ -73,7 +73,7 @@ Automation and continuous release paradigms. (Images © 123RF.com.)
 
 ### Continuous Monitoring and Automated Courses of Action
 
-An automation solution will have a system of continuous monitoring to detect service failures and security incidents. Continuous monitoring might use a locally installed agent or [[heartbeat protocol]] or may involve checking [[Availability]] remotely. As well as monitoring the primary site, it is important to observe the failover components to ensure that they are recovery ready. You can also automate the courses of action that a monitoring system takes, like configuring an IPS to automatically block traffic that it deems suspicious. This sort of capability is provided by security orchestration and response ([[SOAR]]) management software.
+An automation solution will have a system of continuous monitoring to detect service failures and security incidents. Continuous monitoring might use a locally installed agent or [[heartbeat protocol]] or may involve checking [[My linked notes/Dictionary/Availability]] remotely. As well as monitoring the primary site, it is important to observe the failover components to ensure that they are recovery ready. You can also automate the courses of action that a monitoring system takes, like configuring an IPS to automatically block traffic that it deems suspicious. This sort of capability is provided by security orchestration and response ([[SOAR]]) management software.
 
 ### Continuous Validation
 
