@@ -9,6 +9,7 @@ Attributes of **threat actors**
 		- Operating systems
 		- Application software
 		- Embedded control systems
+- Can create user accounts to establish persistence mechanism
 
 
 #Attack 

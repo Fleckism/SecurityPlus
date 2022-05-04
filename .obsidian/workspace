@@ -4,61 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "3b11dbc7e6d7cc93",
+        "id": "1196a7b83a9897d6",
         "type": "leaf",
         "pinned": true,
         "state": {
-          "type": "graph",
-          "state": {},
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Applied Lab 06.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
           "pinned": true
         }
       },
       {
-        "id": "4112d5aefdd44832",
+        "id": "7900173260b143d2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/3A Assess Organizational Security L3a.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "1196a7b83a9897d6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Ports.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "03066eac44b11c27",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Control Remediation.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "a9d339fdd8a71d11",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Acronyms/IDS.md",
+            "file": "My linked notes/Acronyms/IP.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -98,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "UAC",
+                "query": "file:ip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -107,7 +73,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -127,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Ports.md",
+                "file": "My linked notes/Applied Lab 06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,15 +126,15 @@
   },
   "active": "1196a7b83a9897d6",
   "lastOpenFiles": [
+    "My linked notes/Applied Lab 06.md",
+    "My linked notes/Acronyms/IP.md",
+    "My linked notes/script.md",
+    "My linked notes/Lab 05.md",
+    "My linked notes/Putty.md",
     "My linked notes/Ports.md",
-    "My linked notes/Acronyms/UAC.md",
-    "My linked notes/Windows Defender.md",
-    "My linked notes/Acronyms/IDS.md",
-    "My linked notes/ipconfig.md",
+    "My linked notes/Odysseus.md",
+    "My linked notes/Control Remediation.md",
     "SecurityPlus/3A Assess Organizational Security L3a.md",
-    "My linked notes/Assisted Labs.md",
-    "My linked notes/security control.md",
-    "My linked notes/Preventive.md",
-    "My linked notes/Control Remediation.md"
+    "My linked notes/Acronyms/IDS.md"
   ]
 }
