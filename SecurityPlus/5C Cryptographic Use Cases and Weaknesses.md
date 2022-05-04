@@ -1,7 +1,7 @@
 ---
 tags: [,section]
 ---
-
+#zFleck 
 ## EXAM OBJECTIVES COVERED
 
 1.2 Given a scenario, **analyze #Ops**(= #Ops ) potential indicators to determine the type of attack

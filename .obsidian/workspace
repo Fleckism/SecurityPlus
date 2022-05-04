@@ -4,27 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "1196a7b83a9897d6",
+        "id": "3a7a700522e9ab5b",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Applied Lab 06.md",
+            "file": "My linked notes/Lab 05.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
+          }
         }
       },
       {
-        "id": "7900173260b143d2",
+        "id": "0bb7d22bf078171a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/IP.md",
+            "file": "SecurityPlus/20B Backup Strategies.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:ip",
+                "query": "\"DLL\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,8 +71,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Applied Lab 06.md",
+                "file": "SecurityPlus/20B Backup Strategies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,20 +118,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
-  "active": "1196a7b83a9897d6",
+  "active": "0bb7d22bf078171a",
   "lastOpenFiles": [
-    "My linked notes/Applied Lab 06.md",
-    "My linked notes/Acronyms/IP.md",
-    "My linked notes/script.md",
-    "My linked notes/Lab 05.md",
-    "My linked notes/Putty.md",
-    "My linked notes/Ports.md",
-    "My linked notes/Odysseus.md",
-    "My linked notes/Control Remediation.md",
-    "SecurityPlus/3A Assess Organizational Security L3a.md",
-    "My linked notes/Acronyms/IDS.md"
+    "SecurityPlus/20B Backup Strategies.md",
+    "My linked notes/Acronyms/DLL.md",
+    "My linked notes/Definitions.md",
+    "SecurityPlus/17C Mitigation Controls.md",
+    "My linked notes/Defenses.md",
+    "My linked notes/security control.md",
+    "My linked notes/Control Category.md",
+    "My linked notes/domain controller.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "SecurityPlus/20A Redundancy Strategies.md"
   ]
 }

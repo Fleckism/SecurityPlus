@@ -1,5 +1,5 @@
 ---
-tags: [IR,section]
+Define mitigating(To make less harsh or hostile)
 ---
 # EXAM OBJECTIVES COVERED
 

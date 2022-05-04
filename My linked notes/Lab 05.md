@@ -8,10 +8,10 @@ Assisted Lab:
 	- I also created myself a user account so I could log back in later.
 		- Then made myself an admin
 	- I then deleted the script
-	- Stopped the process netcat
+	- Stopped the process [[Ncat]]
 	- And I found the Inbound rule for port 4450 and blocked it.
 	- To block access to the malware
-		- I Stopped the ncat process
+		- I Stopped the #ncat process
 		- Deleted the ini.vbs file
 		- Closed port 4450
 	-
