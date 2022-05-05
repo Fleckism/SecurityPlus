@@ -14,6 +14,14 @@ There are multiple techniques used in **reconnaissance**
 - Passive types
 - Active types
 
+From a penetration tester or threat actor perspective, 
+==network reconnaissance== will typically aim to discover the following:
+-   Default gateway (the router connecting the subnet to other networks).
+-   DNS server (used to resolve host names on the network).
+-   Whether any network directory/authentication and application servers are present.
+-   Whether any host/client access devices are present.
+-   Whether any other types of devices (embedded systems or appliances) are present.
+
 **Network reconnaissance... is it the same as Evaluate attack surface**
 ### [[Fingerprinting]] 
 Host discovery scan vs 
