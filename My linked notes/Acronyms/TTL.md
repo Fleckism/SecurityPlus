@@ -1,3 +1,4 @@
+==Time to Live==
 **(1)** (**T**ime **T**o **L**ive) A counter in a network packet that sets a limit to its validity. In order to prevent an IP packet from propagating endlessly through the network, the value in the TTL field is reduced by each router. When TTL reaches 0, the packet is discarded.
 
 **(2)** (**T**ime **T**o **L**ive) A timestamp in the DNS system, which converts hostnames to IP addresses. Responses use a TTL field to keep the IP address in the user's cache for a limited amount of time. After the time is up, the next request for that IP address must go back to the DNS system. See [DNS](https://www.pcmag.com/encyclopedia/term/dns) and [DNS rebinding](https://www.pcmag.com/encyclopedia/term/dns-rebinding).

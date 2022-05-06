@@ -4,18 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "be57ad88a64c4327",
+        "id": "e3f776df67b74eb0",
         "type": "leaf",
-        "pinned": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Applied Lab 06.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -51,20 +44,22 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"TTL\"",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 449,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -80,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Applied Lab 06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Applied Lab 06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,17 +114,17 @@
     "direction": "horizontal",
     "width": 252
   },
-  "active": "be57ad88a64c4327",
+  "active": "e3f776df67b74eb0",
   "lastOpenFiles": [
-    "My linked notes/Applied Lab 06.md",
-    "My linked notes/DSCP.md",
-    "My linked notes/EAP.md",
-    "My linked notes/FTP.md",
-    "My linked notes/hash.md",
-    "My linked notes/HIDS.md",
-    "My linked notes/HMAC.md",
-    "My linked notes/hping.md",
-    "My linked notes/HTTP.md",
-    "My linked notes/ICMP.md"
+    "My linked notes/Acronyms/ISOC.md",
+    "My linked notes/Acronyms/IPS.md",
+    "My linked notes/assessment.md",
+    "SecurityPlus/5A  Cryptographic Ciphers.md",
+    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
+    "[My linked notes/Availability.md",
+    "My linked notes/Acronyms/TPM.md",
+    "My linked notes/Acronyms/TTL.md",
+    "SecurityPlus/7C Authentication Technologies.md",
+    "My linked notes/Acronyms/U2F.md"
   ]
 }

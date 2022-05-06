@@ -1,7 +1,8 @@
+Internet Society
 1.  CPU registers and cache memory (including cache on disk controllers, GPUs, and so on).
 2.  Contents of nonpersistent system memory (RAM), including routing table, ARP cache, process table, kernel statistics.
 3.  Data on persistent mass storage devices (HDDs, SSDs, and flash memory devices):
-#zFleck 
+
 -   Partition and file system blocks, slack space, and free space.
 -   System memory caches, such as swap space/virtual memory and hibernation files.
 -   Temporary file caches, such as the browser cache.

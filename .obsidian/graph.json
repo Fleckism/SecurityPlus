@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#A4",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -81,6 +81,6 @@
   "repelStrength": 9.99851543942993,
   "linkStrength": 0.81353919239905,
   "linkDistance": 365,
-  "scale": 0.6611744526045631,
-  "close": false
+  "scale": 0.13938905497040815,
+  "close": true
 }
