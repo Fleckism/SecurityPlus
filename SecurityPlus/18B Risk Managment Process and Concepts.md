@@ -51,7 +51,7 @@ Viewing the process list in a memory dump using the Volatility Framework. (Scree
 
 A specialist hardware or software tool can **capture the contents of memory while the host is running**. Unfortunately, this type of tool needs to be preinstalled as it requires a kernel mode driver to dump any data of interest. Some examples for Windows include WinHex ([x-ways.net/winhex](https://www.x-ways.net/winhex/)), Memoryze from FireEye ([fireeye.com/services/freeware/memoryze.html](https://www.fireeye.com/services/freeware/memoryze.html)), and F-Response TACTICAL ([f-response.com/software/tac](https://www.f-response.com/software/tac)).
 
-On Linux, a user mode tool, such as memdump ([porcupine.org/forensics/tct.html](http://www.porcupine.org/forensics/tct.html)) or dd, can be run against the /dev/mem device file. However, on most modern distributions, access to this file is blocked. The Volatility Framework ([github.com/volatilityfoundation/volatility](https://github.com/volatilityfoundation/volatility)) includes a tool to install a kernel driver (pmem). The fmem and LiME kernel utilities provide similar functionality.
+On Linux, a user mode tool, such as [[memdump]] ([porcupine.org/forensics/tct.html](http://www.porcupine.org/forensics/tct.html)) or dd, can be run against the /dev/mem device file. However, on most modern distributions, access to this file is blocked. The Volatility Framework ([github.com/volatilityfoundation/volatility](https://github.com/volatilityfoundation/volatility)) includes a tool to install a kernel driver (pmem). The fmem and LiME kernel utilities provide similar functionality.
 
 ### Crash Dump
 

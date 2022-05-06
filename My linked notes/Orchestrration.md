@@ -1,0 +1,1 @@
+Is the automation of multiple steps in a deployment process

@@ -21,7 +21,7 @@ In a distributed reflection [[DoS]] (DRDoS) or amplification SYN flood attack, t
 
 Where a network attack uses low-level techniques, such as SYN or SYN/ACK flooding, an application attack targets vulnerabilities in the headers and payloads of specific application protocols. For example, one type of amplification attack targets DNS services with bogus queries. One of the advantages of this technique is that while the request is small, the response to a DNS query can be made to include a lot of information, so this is a very effective way of overwhelming the bandwidth of the victim network with much more limited resources on the attacker's botnet.
 
-The Network Time Protocol ([[NTP]]) can be abused in a similar way. NTP helps servers on a network and on the Internet to keep the correct time. It is vital for many protocols and security mechanisms that servers and clients be synchronized. One NTP query (monlist) can be used to generate a response containing a list of the last 600 machines that the NTP server has contacted. As with the DNS amplification attack, this allows a short request to direct a long response at the victim network.
+The Network Time Protocol ([[NTP]]) can be abused in a similar way. NTP helps servers on a network and on the Internet to keep the correct time. It is vital for many protocols and security mechanisms that servers and clients be synchronized. One NTP query (monlist) can be used to generate a response containing a list of the last 600 machines that the NTP server has contacted. As with the [[DNS amplification attack]], this allows a short request to direct a long response at the victim network.
 
 ### Operational Technology (OT) Attacks
 
