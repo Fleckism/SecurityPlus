@@ -1,4 +1,4 @@
-**File Transfer Protocol** (FTP) 
+**File Transfer #protocol** (FTP) 
 - server is typically configured with several public directories, hosting files, and user accounts. 
 - Most HTTP servers also function as FTP servers, and FTP services, accounts, and directories may be installed and enabled by default when you install a web server. FTP is more efficient compared to file attachments or HTTP file transfer, but has **no security mechanisms**. All authentication and data transfer are communicated as **plaintext**, meaning that credentials can easily be picked out of any intercepted FTP traffic.
 

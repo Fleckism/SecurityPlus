@@ -16,7 +16,7 @@ Service-oriented architecture #A_D ([[SOA]]) conceives of [[atomic services]] cl
 
 ### Microservices
 
-Microservice-based development shares many similarities with Agile software project management and the processes of continuous delivery and deployment. It also shares roots with the **Unix philosophy that each program or tool should do one thing well.** The main difference between SOA and microservices is that SOA allows a service to be built from other services. By contrast, each microservice should be capable of being developed, tested, and deployed independently. **The microservices are said to be highly decoupled rather than just loosely decoupled.** 
+Microservice-based development shares many similarities with Agile software project management and the processes of continuous delivery and deployment. It also shares roots with the **Unix philosophy that each program or tool should do one thing well.** The main difference between [[SOA]] and microservices is that SOA allows a service to be built from other services. By contrast, each microservice should be capable of being developed, tested, and deployed independently. **The microservices are said to be highly decoupled rather than just loosely decoupled.** 
 
 ### Services Integration and Orchestration
 

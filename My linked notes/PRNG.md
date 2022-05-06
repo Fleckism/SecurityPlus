@@ -1,1 +1,1 @@
-pseudo RNG
+pseudo [[RNG]]

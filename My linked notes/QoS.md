@@ -1,1 +1,0 @@
-Quality of Service (QoS) is a framework for prioritizing traffic based on its characteristics.

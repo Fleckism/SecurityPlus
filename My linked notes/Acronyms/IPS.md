@@ -1,5 +1,5 @@
 **intrusion prevention system**
-- Active response
+- Active response  #zFleck 
 	- Typical preventive measure is to end the [[TCP]] session
 		- send a TCP reset packet to the attacking host.
 		- To apply a temporary filter on the firewall to block the attackers IP address ([[shunning]])
