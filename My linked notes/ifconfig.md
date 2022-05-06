@@ -1,3 +1,5 @@
+The ==ifconfig command== can be used to report the adapter configuration in Linux
+
 show the configuration assigned to network interface(s) in Linux.
 ###### interfaces
 

@@ -4,11 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e3f776df67b74eb0",
+        "id": "5690788fe70c6f61",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Practice 04.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zFleck",
+                "query": "file:nmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -53,12 +58,11 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 449,
+    "width": 202,
     "collapsed": true
   },
   "right": {
@@ -75,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/Practice 04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "My linked notes/Practice 04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,19 +118,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
-  "active": "e3f776df67b74eb0",
+  "active": "5690788fe70c6f61",
   "lastOpenFiles": [
+    "My linked notes/Practice 04.md",
+    "My linked notes/Practice 3.md",
+    "My linked notes/nmap.md",
+    "My linked notes/Acronyms/IP.md",
+    "My linked notes/ifconfig.md",
+    "My linked notes/ipconfig.md",
+    "My linked notes/ping.md",
     "My linked notes/Acronyms/ISOC.md",
     "My linked notes/Acronyms/IPS.md",
-    "My linked notes/assessment.md",
-    "SecurityPlus/5A  Cryptographic Ciphers.md",
-    "SecurityPlus/20C Cybersecurity Resiliency Strategies.md",
-    "[My linked notes/Availability.md",
-    "My linked notes/Acronyms/TPM.md",
-    "My linked notes/Acronyms/TTL.md",
-    "SecurityPlus/7C Authentication Technologies.md",
-    "My linked notes/Acronyms/U2F.md"
+    "My linked notes/assessment.md"
   ]
 }

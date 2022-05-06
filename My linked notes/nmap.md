@@ -9,10 +9,18 @@ The basic syntax of an Nmap command is to give the IP subnet (or IP host address
 ![Screenshot of 7 IP addresses in the left pane that begin with 10.1.0; the right pane lists the MAC address for each host and whether the host is up.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/1833-1599771794816.png)
 
 Nmap default scan listing open ports from within the default range. (Screenshot Nmap [nmap.org](https://nmap.org/).)
- 
+## Commands
+The traceroute command is used to probe a path from one end system to another, and lists the intermediate systems providing the link. The Nmap combined with Zenmap tools will give a visual of the network topology.
+
+The ipconfig and ifconfig commands are used for looking at the configuration of a system's network adapter.
+
+The primary difference between the ipconfig and ifconfig commands are the type of systems the network is using. The ipconfig is designed for Windows, while the ifconfig is designed for use on Linux systems.
+
+The nslookup command is used to query the Domain Name System (DNS).
+
 This OS fingerprinting can be time-consuming on a large IP scope and is also non-stealthy. If you want to perform only host discovery, you can use Nmap with the -sn switch (or -sP in earlier versions) to suppress the port scan.
 
-# Options
+## Options
 - A: Enable OS detection, version detection, script scanning, and traceroute
 #  PORT SPECIFICATION AND SCAN ORDER:
   -p (port ranges): Only scan specified ports
