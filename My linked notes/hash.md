@@ -10,6 +10,8 @@ A cryptographic hashing [[algorithm]] produces a fixed length string from an inp
 - ==Salt== is a random (pseudo) number or string added to a password before hashing. (Pepper is a fixed value)
 	- Slows down (Vulnerable to) brute force and dictionary [[Attack]]s
 
+==Hash the same data and compare checksums!==
+
 There are two popular #Implementation  [[hash]] [[algorithm]]:
 
 -   Secure Hash Algorithm ([[SHA]])—considered the strongest algorithm. 

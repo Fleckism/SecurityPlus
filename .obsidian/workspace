@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5690788fe70c6f61",
+        "id": "f2e67f4bea6646e5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/CIA.md",
+            "file": "My linked notes/asymmetric.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "f2e67f4bea6646e5",
+        "id": "2982366e4f5c2e4e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Dictionary/Availability.md",
+            "file": "My linked notes/symmetric.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:cia",
+                "query": "file:asy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Acronyms/CIA.md",
+                "file": "My linked notes/asymmetric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Acronyms/CIA.md",
+                "file": "My linked notes/asymmetric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,17 +134,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "5690788fe70c6f61",
+  "active": "f2e67f4bea6646e5",
   "lastOpenFiles": [
+    "My linked notes/asymmetric.md",
+    "My linked notes/symmetric.md",
+    "My linked notes/hash.md",
+    "My linked notes/nmap.md",
+    "My linked notes/Assisted Lab 02.md",
     "My linked notes/Acronyms/CIA.md",
     "My linked notes/Dictionary/Availability.md",
     "SecurityPlus/18B Risk Managment Process and Concepts.md",
     "SecurityPlus/19B Business Impact Analysis Concepts.md",
-    "SecurityPlus/11C Secure Remote Access Protocols.md",
-    "SecurityPlus/9D Load Balancers.md",
-    "My linked notes/Orchestrration.md",
-    "My linked notes/Practice 04.md",
-    "My linked notes/Practice 3.md",
-    "My linked notes/nmap.md"
+    "SecurityPlus/11C Secure Remote Access Protocols.md"
   ]
 }
