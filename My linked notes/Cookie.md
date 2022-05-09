@@ -1,0 +1,1 @@
+A text file used to store information about a user when they visit a website

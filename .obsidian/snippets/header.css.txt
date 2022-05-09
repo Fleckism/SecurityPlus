@@ -1,0 +1,20 @@
+.important {
+    color: red;
+}
+
+<div class="important"></div>
+
+/* changing the color of the header in edit mode */
+.cm-header-1 {
+  color:rgb(203, 77, 73);
+}
+
+
+/*
+element.style{
+
+h1 { color: blue; }  
+h2 { color: red; }
+h3 { color: cyan; }
+}
+*/

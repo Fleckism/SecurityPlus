@@ -1,0 +1,1 @@
+A process executed without proper authorization from the system owner for the purpose of damaging or compromising the system

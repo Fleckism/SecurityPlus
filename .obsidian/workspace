@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f2e67f4bea6646e5",
+        "id": "925a15e03a41e3b0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/asymmetric.md",
+            "file": "My linked notes/threat.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,12 +17,25 @@
         }
       },
       {
-        "id": "2982366e4f5c2e4e",
+        "id": "4d74649193da4b29",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/symmetric.md",
+            "file": "My linked notes/Phishing.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "1dd4592437ba36b6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/hoax.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:asy",
+                "query": "\"hoax\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -92,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/asymmetric.md",
+                "file": "My linked notes/Phishing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/asymmetric.md",
+                "file": "My linked notes/Phishing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,17 +147,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "f2e67f4bea6646e5",
+  "active": "4d74649193da4b29",
   "lastOpenFiles": [
-    "My linked notes/asymmetric.md",
-    "My linked notes/symmetric.md",
-    "My linked notes/hash.md",
-    "My linked notes/nmap.md",
-    "My linked notes/Assisted Lab 02.md",
-    "My linked notes/Acronyms/CIA.md",
-    "My linked notes/Dictionary/Availability.md",
-    "SecurityPlus/18B Risk Managment Process and Concepts.md",
-    "SecurityPlus/19B Business Impact Analysis Concepts.md",
-    "SecurityPlus/11C Secure Remote Access Protocols.md"
+    "My linked notes/Phishing.md",
+    "My linked notes/hoax.md",
+    "My linked notes/virus.md",
+    "My linked notes/Adware.md",
+    "My linked notes/malware.md",
+    "My linked notes/IRC.md",
+    "My linked notes/threat.md",
+    "My linked notes/beaconing.md",
+    "My linked notes/rootkit.md",
+    "My linked notes/malicious process.md"
   ]
 }

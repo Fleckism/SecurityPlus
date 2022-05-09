@@ -1,0 +1,1 @@
+A malicious communication that tricks the user into performing undesired actions, such as deleting important system files in an attempt to remove a virus, or sending money or important information.

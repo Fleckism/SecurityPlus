@@ -32,6 +32,7 @@ Types of attacks
 - [[ARP]] poisoning
 - [[REPLAY ATTACKS]]
 - disassociation attack exploits the lack of encryption in management frame traffic to send spoofed frames.
+- Covert channel:   A attack that subverts network security systems and policies to transfer data without authorization or detection
 
 #malware is a #tool that can be used in an attack
 

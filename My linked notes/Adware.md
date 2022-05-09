@@ -1,1 +1,3 @@
 Adware—this is a class of [[PUPs]]/grayware that performs browser reconfigurations, such as allowing tracking cookies, changing default search providers, opening sponsor's pages at startup, adding bookmarks, and so on. Adware may be installed as a program or as a browser extension/plug-in.
+
+Software that records information about a PC and its user. Adware is used to describe software that the user has acknowledged can record information about their habits.

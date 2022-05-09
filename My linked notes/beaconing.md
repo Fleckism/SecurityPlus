@@ -1,0 +1,1 @@
+A means for a network node to advertise its presence and establish a link with other nodes, such as the beacon management frame sent by an AP. Legitimate software and appliances do this but it is also associated with Remote Access Trojans ([[RAT]]) communicating with a Command & Control server.

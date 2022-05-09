@@ -3,7 +3,7 @@
 - Virus's need a human to activate.
 # Classified by the types of file or media they infect
 -   **[[Non-resident file infector]]**—the virus is contained within a host executable file and runs with the host process. 
--   [[Memory resident]]  when the host file is **executed**, the virus creates a new process for itself in memory. The malicious process remains in memory, even if the host process is terminated. 
+-   [[Memory resident]]  when the host file is **executed**, the virus creates a new process for itself in memory. The [[malicious process]] remains in memory, even if the host process is terminated. 
 -   **Boot**—the virus code is written to the disk boot sector or the partition table of a fixed disk or USB media, and executes as a memory resident process when the OS starts or the media is attached to the computer.
 -   [[Script and macro viruses]]
 
@@ -33,4 +33,5 @@ A virus is executed only when the user performs an action such as downloading an
 
 **Viruses and worms**—these represent some of the first types of malware and spread without any authorization from the user by being concealed within the executable code of another process.
 
+Code designed to infect computer files (or disks) when it is activated.
 [[4B  Analyze Indicators of Malware-Based Attack]]

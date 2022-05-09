@@ -6,5 +6,7 @@
   "obsidian-prism-theme@@titlebar-preset-dt": "pt-titlebar-custom-dt",
   "obsidian-prism-theme@@titlebar-background-color-dt": "#193058",
   "obsidian-prism-theme@@color-custom-graph-unresolved-dt": "#EAE2E2",
-  "obsidian-prism-theme@@graph-unresolved-color-presets-dt": "pt-graph-unresolved-custom-dt"
+  "obsidian-prism-theme@@graph-unresolved-color-presets-dt": "pt-graph-unresolved-custom-dt",
+  "obsidian-prism-theme@@highlight-text-accent-dt": "pt-highlight-text-dark-dt",
+  "obsidian-prism-theme@@color-accent-l-text-dt": 83
 }

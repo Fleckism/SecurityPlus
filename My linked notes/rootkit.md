@@ -6,6 +6,7 @@ Consequently, what a rootkit can do depends largely on adversary capability and 
 
 #malware 
 Critical processes run with a higher level of privilege (SYSTEM)
-Alternatively, the malware may be able to use an exploit to escalate privileges after installation. Malware running with this level of privilege is referred to as a [[rootkit]]
+Alternatively, the malware may be able to use an exploit to escalate privileges after installation. Malware running with this level of privilege is referred to as a rootkit
 
+==A class of malware that modifies system files, often at the kernel level, to conceal its presence.==
 
