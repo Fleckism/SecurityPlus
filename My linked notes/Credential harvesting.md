@@ -1,0 +1,1 @@
+Social engineering techniques for gathering valid credentials to use to gain unauthorized access.

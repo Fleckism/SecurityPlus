@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "925a15e03a41e3b0",
+        "id": "f615ac229d765042",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/threat.md",
+            "file": "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,12 +17,12 @@
         }
       },
       {
-        "id": "4d74649193da4b29",
+        "id": "a3d67e8c8d71a319",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Phishing.md",
+            "file": "My linked notes/abnormal process behavior.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -30,12 +30,12 @@
         }
       },
       {
-        "id": "1dd4592437ba36b6",
+        "id": "5935db62ec0fd9a0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/hoax.md",
+            "file": "My linked notes/shellcode.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"hoax\"",
+                "query": "\"abnormal process\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Phishing.md",
+                "file": "My linked notes/abnormal process behavior.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Phishing.md",
+                "file": "My linked notes/abnormal process behavior.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,17 +147,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "4d74649193da4b29",
+  "active": "a3d67e8c8d71a319",
   "lastOpenFiles": [
-    "My linked notes/Phishing.md",
+    "My linked notes/abnormal process behavior.md",
+    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md",
+    "My linked notes/shellcode.md",
+    "My linked notes/backdoors.md",
+    "SecurityPlus/10A Firewalls and Proxy Servers.md",
+    "My linked notes/backdoor.md",
+    "My linked notes/logic bomb.md",
     "My linked notes/hoax.md",
-    "My linked notes/virus.md",
-    "My linked notes/Adware.md",
-    "My linked notes/malware.md",
-    "My linked notes/IRC.md",
-    "My linked notes/threat.md",
-    "My linked notes/beaconing.md",
-    "My linked notes/rootkit.md",
-    "My linked notes/malicious process.md"
+    "My linked notes/Credential harvesting.md",
+    "My linked notes/threat.md"
   ]
 }

@@ -33,7 +33,7 @@ A packet filtering firewall is configured by specifying a **group of rules**, ca
 -   [[Protocol ID/type]] (TCP, UDP, ICMP, routing protocols, and so on).
 -   [[Port filtering/security]]—accepting or denying a packet on the basis of source and destination port numbers (TCP or UDP application type).
 
-There may be additional functionality in some products, such as the ability to block some types of [[ICMP]] (ping) traffic but not others, or the ability to filter by hardware [[MAC address]]. Another distinction that can be made is whether the firewall can control only inbound traffic or both inbound and outbound traffic. This is also often referred to as **ingress and egress traffic or filtering.** Controlling outbound traffic is useful because it can block applications that have not been authorized to run on the network and defeat malware, such as [[backdoors]]. Ingress and egress traffic is filtered using separate ACLs. 
+There may be additional functionality in some products, such as the ability to block some types of [[ICMP]] (ping) traffic but not others, or the ability to filter by hardware [[MAC address]]. Another distinction that can be made is whether the firewall can control only inbound traffic or both inbound and outbound traffic. This is also often referred to as **ingress and egress traffic or filtering.** Controlling outbound traffic is useful because it can block applications that have not been authorized to run on the network and defeat malware, such as [[backdoor]]s. Ingress and egress traffic is filtered using separate ACLs. 
 
 ### Stateless Operation
 

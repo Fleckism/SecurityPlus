@@ -1,0 +1,1 @@
+A network monitoring system that uses a baseline of acceptable outcomes or event patterns to identify events that fall outside the acceptable range. Also referred to as anomaly-based detection

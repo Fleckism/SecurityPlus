@@ -1,0 +1,1 @@
+Lightweight block of malicious code that exploits a software vulnerability to gain initial access to a victim system.

@@ -1,0 +1,1 @@
+Indicators that a legitimate process has been corrupted with malicious code for the purpose of damaging or compromising the system

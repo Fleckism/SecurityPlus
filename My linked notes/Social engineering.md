@@ -22,6 +22,6 @@ Social engineering—this refers to obtaining information, physical access to pr
 + [[Pharming]]
 + Typosquatting
 + Water hole attack
-+ Credential harvesting
++ [[Credential harvesting]]
 
 [[TTPs]]
