@@ -8,6 +8,7 @@ A cryptographic hashing [[algorithm]] produces a fixed length string from an inp
 	- message [[digest]] 
 	- hash = digest
 - aka digitally signing
+	- A hashing function is used to create a message digest. The digest is then signed using the sender's private key. The resulting signature can be decrypted by the recipient using the sender's public key and cannot be modified by any other agency. The recipient can calculate his or her own digest of the message and compare it to the signed hash to validate that the message has not been altered.
 - ==Salt== is a random (pseudo) number or string added to a password before hashing. (Pepper is a fixed value)
 	- Slows down (Vulnerable to) brute force and dictionary [[Attack]]s
 

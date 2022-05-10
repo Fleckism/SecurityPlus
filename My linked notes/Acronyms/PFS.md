@@ -5,3 +5,5 @@
 
 
 Using **ephemeral** session keys means that any future compromise of the server will not translate into an attack on recorded data. Also, even if an attacker can obtain the key for one session, the other sessions will remain confidential. This massively increases the amount of cryptanalysis that an attacker would have to perform to recover an entire "conversation."
+
+- A characteristic of transport encryption that ensures if a key is compromised the compromise will only affect a single session and not facilitate recovery of plaintext data from other sessions.

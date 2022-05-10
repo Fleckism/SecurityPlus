@@ -2,6 +2,7 @@
 - Encryption is use to transform data to keep it **secret**
 - [[AES]]
 - [[Homomorphic encryption]]
+- Symmetric encryption: Confidentiality—symmetric ciphers are generally fast and well suited to bulk encrypting large amounts of data.
 
 Encryption supporting [[confidentiality]] is used for both 
 - data-at-rest (file encryption) [[asymmetric]]

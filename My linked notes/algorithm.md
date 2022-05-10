@@ -14,3 +14,6 @@ A formula used to turn ordinary data, or "plaintext," into a secret coded messag
 Also known as a "cipher," each algorithm uses a randomly generated string of bits known as a "key" to perform the calculations. The larger the key (the more bits), the greater the number of potential patterns can be created, thus making it harder to break the code and decrypt the contents.
 
 Most encryption algorithms use the block cipher method, which codes fixed blocks of input. Others use the stream method, which encrypts one bit at a time
+
+asymmetric algorithm
+- A cipher that uses public and private keys. The keys are mathematically linked, using either Rivel, Shamir, Adleman (RSA) or elliptic curve cryptography (ECC) alogrithms, but the private key is not derivable from the public one. An asymmetric key cannot reverse the operation it performs, so the public key cannot decrypt what it has encrypted, for example.
