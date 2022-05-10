@@ -1,6 +1,3 @@
----
-tags: [Implementation, A_D]
----
 Cryptography is **the study of secure communications techniques that allow only the sender and intended recipient of a message to view its contents**
 [[cryptography]]
 - [[security control]]
@@ -17,3 +14,5 @@ A complete [[cryptographic]] system or product is likely to use multiple cryptog
 **Cryptographic systems** will use both symmetric and asymmetric encryption. 
 
 More generally, **cryptographic agility** refers to an organization's ability to update the specific algorithms used across a range of security products without affecting the business workflows that those products support
+
+Cryptographic systems support [[high resiliency]]

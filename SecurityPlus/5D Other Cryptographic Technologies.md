@@ -29,7 +29,7 @@ Another problem affecting current cryptographic ciphers is use on low-power devi
 
 # HOMOMORPHIC ENCRYPTION
 
-Homomorphic encryption is principally used to share privacy-sensitive data sets. When a company collects private data, it is responsible for keeping the data secure and respecting the privacy rights of individual data subjects. Companies often want to use third parties to perform analysis, however. Sharing unencrypted data in this scenario is a significant risk. Homomorphic encryption is a solution for this use case because it allows the receiving company to perform statistical calculations on fields within the data while keeping the data set as a whole encrypted. For example, if you want to perform analytics on customer interactions, an analysis tool will be able to sum logons without any account identifiers like email addresses ever being decrypted.
+[[Homomorphic encryption]] is principally used to share privacy sensitive data sets. When a company collects private data, it is responsible for keeping the data secure and respecting the privacy rights of individual data subjects. Companies often want to use third parties to perform analysis, however. Sharing unencrypted data in this scenario is a significant risk. Homomorphic encryption is a solution for this use case because it allows the receiving company to perform statistical calculations on fields within the data while keeping the data set as a whole encrypted. For example, if you want to perform analytics on customer interactions, an analysis tool will be able to sum logons without any account identifiers like email addresses ever being decrypted.
 
 # BLOCKCHAIN 
 
@@ -47,6 +47,6 @@ When used to conceal information, steganography amounts to "security by obscurit
 
 One example of steganography is to encode messages within [[TCP]] packet data fields to create a covert message channel. Another approach is to change the least significant bit of pixels in an image file. This can code a useful amount of information without distorting the original image noticeably. Similar techniques can be used with other media types as cover files, such as audio and video files. 
 
-These methods might be used for command and control or to exfiltrate data covertly, bypassing protection mechanisms such as data loss prevention (DLP) ([blog.trendmicro.com/trendlabs-security-intelligence/steganography-and-malware-concealing-code-and-cc-traffic/](https://blog.trendmicro.com/trendlabs-security-intelligence/steganography-and-malware-concealing-code-and-cc-traffic/)). Future developments may see use of steganography in streaming media or voiceover IP (VoIP).
+These methods might be used for command and control or to exfiltrate data covertly, bypassing protection mechanisms such as [[data loss prevention (DLP)]] ([blog.trendmicro.com/trendlabs-security-intelligence/steganography-and-malware-concealing-code-and-cc-traffic/](https://blog.trendmicro.com/trendlabs-security-intelligence/steganography-and-malware-concealing-code-and-cc-traffic/)). Future developments may see use of steganography in streaming media or voiceover IP (VoIP).
 
 

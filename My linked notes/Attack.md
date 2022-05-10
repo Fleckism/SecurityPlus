@@ -25,6 +25,8 @@ Types of attacks
 - downgrade attack
 - brute force
 	- horizontal 
+	- #zFleck 
+		- ![[Pasted image 20220510102929.png]]
 - dictionary attack
 - birthday 
 - Domain hijacking 

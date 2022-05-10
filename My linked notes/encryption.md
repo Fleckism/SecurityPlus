@@ -1,9 +1,7 @@
----
-tags: [A_D, Implementation]
----
 **the process of encoding information** 
 - Encryption is use to transform data to keep it **secret**
 - [[AES]]
+- [[Homomorphic encryption]]
 
 Encryption supporting [[confidentiality]] is used for both 
 - data-at-rest (file encryption) [[asymmetric]]
