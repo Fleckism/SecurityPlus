@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f615ac229d765042",
+        "id": "8a5311fc0699673f",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Applied Lab 06.md",
+            "file": "SecurityPlus/5A  Cryptographic Ciphers.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,25 @@
         }
       },
       {
-        "id": "8a5311fc0699673f",
+        "id": "0a3b6f37141f244c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/nmap.md",
+            "file": "My linked notes/symmetric.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "9ba7a334adb0679e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/hash.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -64,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:nmap",
+                "query": "\"SHA-1\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306
+    "width": 214,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Applied Lab 06.md",
+                "file": "SecurityPlus/5A  Cryptographic Ciphers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Applied Lab 06.md",
+                "file": "SecurityPlus/5A  Cryptographic Ciphers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,17 +150,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "f615ac229d765042",
+  "active": "8a5311fc0699673f",
   "lastOpenFiles": [
-    "My linked notes/Applied Lab 06.md",
-    "My linked notes/nmap.md",
+    "SecurityPlus/5A  Cryptographic Ciphers.md",
     "My linked notes/symmetric.md",
-    "My linked notes/Spear phishing.md",
-    "My linked notes/shellcode.md",
-    "My linked notes/Pharming.md",
-    "My linked notes/security control.md",
-    "My linked notes/threat actor.md",
-    "My linked notes/malware.md",
-    "My linked notes/spoofing.md"
+    "My linked notes/hash.md",
+    "My linked notes/Acronyms/SHA.md",
+    "SecurityPlus/16B Privacy and Data Protection Controls.md",
+    "SecurityPlus/5B Cryptographic Modes of Operation.md",
+    "My linked notes/Acronyms/AEAD.md",
+    "My linked notes/Acronyms/DHE.md",
+    "My linked notes/Acronyms/PFS.md",
+    "My linked notes/nmap.md"
   ]
 }

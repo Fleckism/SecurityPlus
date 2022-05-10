@@ -23,7 +23,7 @@ The Digital Signature [[Algorithm]] ([[DSA]]) is a slightly different format for
 
 ## DIGITAL ENVELOPES AND KEY EXCHANGE
 
-**[[Symmetric]] [[encryption]] is the only practical means of encrypting and decrypting large amounts of data (bulk encryption),** but it is difficult to distribute the secret key securely. Public key cryptography makes it easy to distribute a key, but can only be used efficiently with small amounts of data. Therefore, both are used within the same product in a type of key exchange system known as a digital envelope or hybrid encryption. A digital envelope allows the sender and recipient to exchange a symmetric encryption key securely by using **public** (aka asymmetric) key cryptography:
+**[[Symmetric]] [[encryption]] is the only practical means of encrypting and decrypting large amounts of data (bulk encryption),** but it is difficult to distribute the secret key securely. Public key cryptography makes it easy to distribute a key, but can only be used efficiently with small amounts of data. Therefore, both are used within the same product in a type of key exchange system known as a digital envelope or hybrid encryption. A [[digital envelope]] allows the sender and recipient to exchange a symmetric encryption key securely by using **public** (aka asymmetric) key cryptography:
 
 1.  Alice obtains a copy of Bob's public key.
 2.  Alice encrypts her message using a secret key cipher, such as [[AES]]. In this context, the secret key is referred to as a _session key._

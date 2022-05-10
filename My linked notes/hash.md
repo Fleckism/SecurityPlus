@@ -7,6 +7,7 @@ A cryptographic hashing [[algorithm]] produces a fixed length string from an inp
 	- Checksum
 	- message [[digest]] 
 	- hash = digest
+- aka digitally signing
 - ==Salt== is a random (pseudo) number or string added to a password before hashing. (Pepper is a fixed value)
 	- Slows down (Vulnerable to) brute force and dictionary [[Attack]]s
 
