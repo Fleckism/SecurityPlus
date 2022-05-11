@@ -1,0 +1,1 @@
+Escrow refers to archiving the key used to encrypt the customer's backups with your company as a third party. The risk is that an insider attack from your company may be able to decrypt the data backups. This risk can be mitigated by requiring M-of-N access to the escrow keys, reducing the risk of a rogue administrator.

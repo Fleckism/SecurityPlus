@@ -23,7 +23,7 @@ The Digital Signature [[Algorithm]] ([[DSA]]) is a slightly different format for
 
 ## DIGITAL ENVELOPES AND KEY EXCHANGE
 
-**[[Symmetric]] [[encryption]] is the only practical means of encrypting and decrypting large amounts of data (bulk encryption),** but it is difficult to distribute the secret key securely. Public key cryptography makes it easy to distribute a key, but can only be used efficiently with small amounts of data. Therefore, both are used within the same product in a type of key exchange system known as a digital envelope or hybrid encryption. A [[digital envelope]] allows the sender and recipient to exchange a symmetric encryption key securely by using **public** (aka asymmetric) key cryptography:
+**[[Symmetric]] [[encryption]] is the only practical means of encrypting and decrypting large amounts of data (bulk encryption),** but it is difficult to distribute the secret key securely. Public key cryptography makes it easy to distribute a key, but can only be used efficiently with small amounts of data. Therefore, both are used within the same product in a type of key exchange system known as a digital envelope or hybrid encryption. A [[digital envelope]] allows the sender and recipient to exchange a symmetric encryption key securely by using **public** (aka asymmetric) key cryptography:(Uses Both?)
 
 1.  Alice obtains a copy of Bob's public key.
 2.  Alice encrypts her message using a secret key cipher, such as [[AES]]. In this context, the secret key is referred to as a _session key._
@@ -77,7 +77,7 @@ The Cipher Block Chaining ([[CBC]]) [[mode]] applies an initialization vector ([
 
 ### Counter Mode
 
-Counter mode ([[CTM]]) makes the [[AES]] algorithm work as a stream cipher. Counter mode applies an IV plus an incrementing counter value to the key to generate a keystream. The keystream is then XOR'ed to the data in the plaintext blocks. Each block can be processed individually and consequently in parallel, improving performance. Also, counter modes do not need to use padding. Any unused space in the last block is simply discarded.
+Counter mode ([[CTM]]) makes the [[AES]] algorithm work as a **stream cipher**. Counter mode applies an IV plus an incrementing counter value to the key to generate a keystream. The keystream is then XOR'ed to the data in the plaintext blocks. Each block can be processed individually and consequently in parallel, improving performance. Also, counter modes do not need to use padding. Any unused space in the last block is simply discarded.
 
 ## AUTHENTICATED MODES OF OPERATION
 

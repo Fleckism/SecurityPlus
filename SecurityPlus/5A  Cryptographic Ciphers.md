@@ -102,7 +102,7 @@ In a stream cipher, each byte or bit of data in the plaintext is encrypted one a
 
 ### Block Ciphers 
 
-In a block cipher, the plaintext is divided into equal-size blocks (usually 128-bit). If there is not enough data in the plaintext, it is padded to the correct size using some string defined in the algorithm. For example, a 1200-bit plaintext would be padded with an extra 80 bits to fit into 10 x 128-bit blocks. Each block is then subjected to complex transposition and substitution operations, based on the value of the key used.
+In a [[block cipher]], the plaintext is divided into equal-size blocks (usually 128-bit). If there is not enough data in the plaintext, it is padded to the correct size using some string defined in the algorithm. For example, a 1200-bit plaintext would be padded with an extra 80 bits to fit into 10 x 128-bit blocks. Each block is then subjected to complex transposition and substitution operations, based on the value of the key used.
 
 The Advanced Encryption Standard ([[AES]]) is the default symmetric encryption cipher for most products. Basic AES has a key size of 128 bits, but the most widely used variant is AES256, with a 256-bit key. 
 

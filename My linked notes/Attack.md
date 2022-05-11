@@ -42,8 +42,26 @@ Types of attacks
 
 **A downgrade attack can be used to facilitate a man-in-the-middle attack by requesting that the server use a lower specification protocol with weaker ciphers and key lengths. For example, rather than use TLS 1.3, as the server might prefer, the client requests the use of SSL. It then becomes easier for Mallory to forge the signature of a certificate authority that Alice trusts and have Alice trust Mallory's public key.**
 
+# Birthday attack
 A <mark style="background: #FFB8EBA6;">birthday attack is a type of brute force attack aimed at exploiting collisions in hash functions</mark> . A collision is where a function produces the same hash value for two different plaintexts. This type of attack can be used for the purpose of forging a digital signature. 
 
+A salt is an additional value stored with the hashed data field. The purpose of salt is to frustrate attempts to crack the hashes of passwords in this case. This will protect against birthday attacks.
+
+Key stretching takes a key that is generated from a user password, and repeatedly converts it to a longer and more random key. The initial key is put through thousands of rounds of hashing to slow down attackers.
+
+Securely authenticating public keys, such as associating the keys with certificates, helps protect against man-in-the-middle attacks.
+
+Blockchain is a concept in which an expanding list of transactional records is secured using cryptography. Each record is referred to as a block and is run through a hash function.
+
+# Downgrade attack
+A downgrade attack can be used to facilitate a man-in-the-middle attack by requesting that the server use a lower specification protocol with weaker ciphers and key lengths, making it easier for a malicious actor to forge the trusted certificate authority’s signature.
+
+Credential harvesting is a campaign specifically designed to steal account credentials.
+
+Key stretching takes a key that is generated from a user password and repeatedly converts it to a longer and more random key, adding extra layers of processing to a potential attacker’s task.
+
+Phishing is a combination of social engineering and spoofing. It persuades or tricks the target into interacting with a malicious resource disguised as a trusted one, traditionally using email as the vector.
+# Dump
 [[5C Cryptographic Use Cases and Weaknesses]]
 
 # Questions

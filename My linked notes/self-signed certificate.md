@@ -1,0 +1,1 @@
+A digital certificate that has been signed by the entity that issued it, rather than by a CA.

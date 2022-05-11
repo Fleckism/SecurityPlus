@@ -49,7 +49,7 @@ In this simple model, a single CA issues certificates to users; users trust cert
 
 ### Hierarchical (Intermediate CA)
 
-In the **hierarchical model**, a single CA (called the _root_) issues certificates to several intermediate CAs. The intermediate CAs issue certificates to subjects (leaf or end entities). This model has the advantage that different intermediate CAs can be set up with different certificate policies, enabling users to perceive clearly what a particular certificate is designed for. Each leaf certificate can be traced back to the root CA along the certification path. This is also referred to as certificate chaining, or a _chain of trust._ The root's certificate is self-signed. In the hierarchical model, the root is still a single point of failure. If the root is damaged or compromised, the whole structure collapses. To mitigate against this, however, the root server can be taken offline, as most of the regular CA activities are handled by the intermediate CA servers.
+In the [[hierarchical model]], a single CA (called the _root_) issues certificates to several intermediate CAs. The intermediate CAs issue certificates to subjects (leaf or end entities). This model has the advantage that different intermediate CAs can be set up with different certificate policies, enabling users to perceive clearly what a particular certificate is designed for. Each leaf certificate can be traced back to the root CA along the certification path. This is also referred to as certificate chaining, or a _chain of trust._ The root's certificate is self-signed. In the hierarchical model, the root is still a single point of failure. If the root is damaged or compromised, the whole structure collapses. To mitigate against this, however, the root server can be taken offline, as most of the regular CA activities are handled by the intermediate CA servers.
 
 ![Screenshot with the "Issuer" certificate field highlighted, showing the field value "CN = GlobalSign, O = GlobalSign, OU = GlobalSign Root CA - R3".](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/5857-1599771798031.png)
 
@@ -106,7 +106,7 @@ Date and time during which the certificate is valid.
 
 Subject
 
-The name of the certificate holder, expressed as a distinguished name (DN). Within this, the common name (CN) part should usually match either the fully qualified domain name ([[FQDN]]) of the server or a user email address.
+The name of the certificate holder, expressed as a distinguished name (DN). Within this, the [[common name ]](CN) part should usually match either the fully qualified domain name ([[FQDN]]) of the server or a user email address.
 
 Public key
 
@@ -149,7 +149,7 @@ An extension can be tagged as **_critical,_** meaning that the application proce
 Certificate templates for Windows Server CA. (Screenshot used with permission from Microsoft.)
 # WEB SERVER CERTIFICATE TYPES
 
-A server certificate guarantees the identity of e-commerce sites or any sort of website to which users submit data that should be kept confidential. One of the problems with public key cryptography and trust models is that anyone can set up a [[PKI]] solution. It is also simple to register convincing-sounding domain names, such as my-bank-server.foo, where the "real" domain is mybank.foo. If users choose to trust a certificate in the naïve belief that simply having a certificate makes a site trustworthy, they could expose themselves to fraud. There have also been cases of disreputable sites obtaining certificates from third-party [[CA]]s that are automatically trusted by browsers that apparently validate their identities as financial institutions.
+==A server certificate guarantees the identity of e-commerce sites or any sort of website to which users submit data that should be kept confidential.== One of the problems with public key cryptography and trust models is that anyone can set up a [[PKI]] solution. It is also simple to register convincing-sounding domain names, such as my-bank-server.foo, where the "real" domain is mybank.foo. If users choose to trust a certificate in the naïve belief that simply having a certificate makes a site trustworthy, they could expose themselves to fraud. There have also been cases of disreputable sites obtaining certificates from third-party [[CA]]s that are automatically trusted by browsers that apparently validate their identities as financial institutions.
 
 Differently graded certificates might be used to provide levels of security; for example, an online bank requires higher security than a site that collects marketing data.
 
@@ -192,4 +192,4 @@ The root certificate is the one that identifies the CA itself. The root certific
 
 ### Self-signed Certificates
 
-Any machine, web server, or program code can be deployed with a self-signed certificate. Self-signed certificates will be marked as untrusted by the operating system or browser, but an administrative user can choose to override this.
+Any machine, web server, or program code can be deployed with a [[self-signed certificate]]. Self-signed certificates will be marked as untrusted by the operating system or browser, but an administrative user can choose to override this.

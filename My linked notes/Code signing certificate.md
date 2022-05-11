@@ -1,0 +1,1 @@
+A code signing certificate. Certificates are issued for specific purposes. A certificate issued for one purpose should not be reused for other functions.

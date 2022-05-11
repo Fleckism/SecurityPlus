@@ -7,7 +7,7 @@ tags: [GRC,section]
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security (OpenSSL only)
 
-As a security professional, you are very likely to have to install and maintain public key infrastructure (PKI) certificate services for private networks. **You may also need to obtain and manage certificates from public PKI providers.** This topic will help you to install and configure PKI and to troubleshoot and revoke certificates.
+As a security professional, you are very likely to have to install and maintain [[public key infrastructure]] (PKI) certificate services for private networks. **You may also need to obtain and manage certificates from public PKI providers.** This topic will help you to install and configure PKI and to troubleshoot and revoke certificates.
 # CERTIFICATE AND KEY MANAGEMENT 
 
 **_Key management_ refers to operational considerations for the various stages in a key's life cycle. A key's life cycle may involve the following stages:**
@@ -27,7 +27,7 @@ Keys such as the [[symmetric|private key]] of a root [[CA]] must be subject to t
 
 Another way to use [[M-of-N]] control is to split a key between several storage devices (**such as three USB sticks, any two of which could be used to recreate the full key**).
 
-If the key used to decrypt data is lost or damaged, the encrypted data cannot be recovered unless a backup of the key has been made. A significant problem with key storage is that if you make multiple backups of a key, it is exponentially more difficult to ensure that the key is not compromised. However, if the key is not backed up, the storage system represents a single point of failure. Key recovery defines a secure process for backing up keys and/or recovering data encrypted with a lost key. This process might use _M_-of-_N_ control to prevent unauthorized access to (and use of) the archived keys. Escrow means that something is held independently. In terms of key management, this refers to archiving a key (or keys) with a third party. This is a useful solution for organizations that don't have the capability to store keys securely themselves, but it invests a great deal of trust in the third party.
+If the key used to decrypt data is lost or damaged, the encrypted data cannot be recovered unless a backup of the key has been made. A significant problem with key storage is that if you make multiple backups of a key, it is exponentially more difficult to ensure that the key is not compromised. However, if the key is not backed up, the storage system represents a single point of failure. Key recovery defines a secure process for backing up keys and/or recovering data encrypted with a lost key. This process might use _M_-of-_N_ control to prevent unauthorized access to (and use of) the archived keys. [[Escrow]] means that something is held independently. In terms of key management, this refers to archiving a key (or keys) with a third party. This is a useful solution for organizations that don't have the capability to store keys securely themselves, but it invests a great deal of trust in the third party.
 # CERTIFICATE EXPIRATION
 
 Certificates are issued with a limited duration, as set by the [[CA]] policy for the certificate type. Root certificates might have long expiration dates (10+ years), whereas web server and user certificates might be issued for 1 year only. Typically, a certificate is renewed before it expires. Where a user is in possession of a valid certificate, less administration is required (in terms of checking identity) than with a request for a new certificate. When you are renewing a certificate, it is possible to use the existing key (referred to specifically as **_certificate renewal_**) or generate a new key (the certificate is **_rekeyed_**). A new key might be generated if the old one was no longer considered long enough or if any compromise of the key was feared.
@@ -94,7 +94,7 @@ A three character file extension is a _convention,_ not a standard, and unfortun
 ### Contents
 
 A certificate file can also contain more than just a single certificate:
-
+(transfer your private key and certificate to another computer use PKCS #12 / .PFX / .P12.)
 -   The **PKCS** #12 format allows the export of the private key with the certificate. This would be used either to transfer a private key to a host that could not generate its own keys, or to back up/archive a private key. This type of file format is usually password-protected and always binary. On Windows, these usually have a **.PFX extension**, while MacOS and iOS use .P12. In Linux, the certificate and key are usually stored in separate files.
 -   The P7B format implements PKCS #7, which is a means of bundling multiple certificates in the same file. It is typically in ASCII format. This is most often used to deliver a chain of certificates that must be trusted by the processing host. It is associated with the use of S/MIME to encrypt email messages. P7B files do not contain the private key. In Linux, the .PEM extension is very widely used for certificate chains.
 # OpenSSL
