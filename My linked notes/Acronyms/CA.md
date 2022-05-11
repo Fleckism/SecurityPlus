@@ -1,6 +1,4 @@
----
-tags: [GRC, ]
----
+
 **certificate authority**
 The functions of a CA are as follows:
 The certificate contains the 
@@ -13,3 +11,18 @@ The certificate contains the
 -   Perform key and certificate lifecycle management, notably revoking invalid certificates.
 **Add things from [[6A Certificates and  Certificate Authorities]] and [[6B PKI Management]]**
 **Add acronyms from above into file with no links**
+
+
+![[Pasted image 20220511073900.png]]
+
+- In most cases, the subject generates a key pair then adds the public key along with subject information and certificate type in a certificate signing request (CSR) and submits it to the CA. If the CA accepts the request, it generates a certificate with the appropriate key usage and validity, signs it, and transmits it to the subject.
+
+![[Pasted image 20220511073917.png]]
+
+![[Pasted image 20220511074355.png]]
+
+![[Pasted image 20220511074407.png]]
+
+
+root CA (root certificate authority)
+- In PKI, a CA that issues certificates to intermediate CAs in a hierarchical structure.

@@ -66,7 +66,7 @@ An online CA is one that is available to accept and process certificate signing 
 
 On a private network (such as a Windows domain), the right to issue certificates of different types must be carefully controlled. The Windows CA supports access permissions for each certificate type so that you can choose which accounts are able to issue them.
 
-When a subject wants to obtain a certificate, it completes a **certificate signing request (CSR)** and submits it to the CA. The CSR is a Base64 ASCII file containing the information that the subject wants to use in the certificate, including its public key.
+When a subject wants to obtain a certificate, it completes a **[[certificate signing request]] (CSR)** and submits it to the CA. The CSR is a Base64 ASCII file containing the information that the subject wants to use in the certificate, including its public key.
 
 The CA reviews the certificate and checks that the information is valid. For a web server, this may simply mean verifying that the subject name and fully qualified domain name ([[FQDN]]) are identical, and verifying that the CSR was initiated by the person administratively responsible for the domain, as identified in the domain's WHOIS records. If the request is accepted, the CA signs the certificate and sends it to the subject.
 
@@ -123,7 +123,7 @@ This extension field is the preferred mechanism to specify additional host names
 
 When certificates were first introduced, the common name (CN) attribute was used to identify the [[FQDN]] by which the server is accessed, such as www.comptia.org. This usage grew by custom rather than design, however. The CN attribute can contain different kinds of information, making it difficult for a browser to interpret it correctly. Consequently, the CN attribute is deprecated as a method of validating subject identity ([tools.ietf.org/html/rfc2818#section-3.1](https://tools.ietf.org/html/rfc2818#section-3.1)).
 
-The **subject alternative name (SAN)** extension field is structured to represent different types of identifiers, including domain names. If a certificate is configured with a SAN, the browser should validate that, and ignore the CN value. It is still safer to put the FQDN in the CN as well, because not all browsers and implementations stay up to date with the standards.
+The [[subject alternative name]] (SAN)** extension field is structured to represent different types of identifiers, including domain names. If a certificate is configured with a SAN, the browser should validate that, and ignore the CN value. It is still safer to put the FQDN in the CN as well, because not all browsers and implementations stay up to date with the standards.
 
 The SAN field also allows a certificate to represent different subdomains, such as www.comptia.org and members.comptia.org.
 

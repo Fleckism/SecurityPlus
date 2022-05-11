@@ -1,0 +1,1 @@
+A deprecated method of trusting digital certificates that bypasses the CA hierarchy and chain of trust to minimize man-in-the-middle attacks.

@@ -67,7 +67,7 @@ One of the problems with OCSP is that the job of responding to requests is resou
 
 When certificates are used by a transport protocol, such as SSL/TLS, there is a possibility that the chain of trust among the client, the server, and whatever intermediate and root CAs have provided certificates can be compromised. If an adversary can substitute a malicious but trusted certificate into the chain (using some sort of proxy or [[MITM|Man-in-the-Middle attack]]), they could be able to snoop on the supposedly secure connection.
 
-Pinning refers to several techniques to ensure that when a client inspects the certificate presented by a server or a code-signed application, it is inspecting the proper certificate. This might be achieved by embedding the certificate data in the application code, or by submitting one or more public keys to an Hyper Text Transfer ProtocolTTPs]] browser via an Hyper Text Transfer ProtocolTTPs]] header, which is referred to as _Hyper Text Transfer ProtocolTTPs]] Public Key Pinning (**HPKP**)._
+**[[Pinning]] refers to several techniques to ensure that when a client inspects the certificate presented by a server or a code-signed application, it is inspecting the proper certificate**. This might be achieved by embedding the certificate data in the application code, or by submitting one or more public keys to an Hyper Text Transfer ProtocolTTPs]] browser via an Hyper Text Transfer ProtocolTTPs]] header, which is referred to as _Hyper Text Transfer ProtocolTTPs]] Public Key Pinning (**HPKP**)._
 
 **HPKP has serious vulnerabilities and has been deprecated** ([developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning](https://developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning)). The replacement mechanism is the Certificate Transparency Framework.
 # CERTIFICATE FORMATS
@@ -96,10 +96,10 @@ A three character file extension is a _convention,_ not a standard, and unfortun
 A certificate file can also contain more than just a single certificate:
 (transfer your private key and certificate to another computer use PKCS #12 / .PFX / .P12.)
 -   The **PKCS** #12 format allows the export of the private key with the certificate. This would be used either to transfer a private key to a host that could not generate its own keys, or to back up/archive a private key. This type of file format is usually password-protected and always binary. On Windows, these usually have a **.PFX extension**, while MacOS and iOS use .P12. In Linux, the certificate and key are usually stored in separate files.
--   The P7B format implements PKCS #7, which is a means of bundling multiple certificates in the same file. It is typically in ASCII format. This is most often used to deliver a chain of certificates that must be trusted by the processing host. It is associated with the use of S/MIME to encrypt email messages. P7B files do not contain the private key. In Linux, the .PEM extension is very widely used for certificate chains.
+-   The [[P7B]] format implements PKCS #7, which is a means of bundling multiple certificates in the same file. It is typically in ASCII format. This is most often used to deliver a chain of certificates that must be trusted by the processing host. It is associated with the use of S/MIME to encrypt email messages. P7B files do not contain the private key. In Linux, the .PEM extension is very widely used for certificate chains.
 # OpenSSL
 
-OPENSSL
+[[OPENSSL]]
 
 In a Windows environment, certificate infrastructure is installed and managed as Active Directory Certificate Services. There is a certutil tool for command line management, or you can use PowerShell.
 

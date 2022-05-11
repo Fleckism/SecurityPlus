@@ -4,20 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "61fdc813ad021c1e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/6B PKI Management.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "aaa6940f6c8e6fad",
+        "id": "355eb9388c837b60",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -30,25 +17,12 @@
         }
       },
       {
-        "id": "c1d64b74acb942ee",
+        "id": "ea99a5cf54d21c12",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/registration authority.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "0864c8a295b45b41",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+            "file": "My linked notes/certificate signing request.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -88,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:RA",
+                "query": "\"CSR\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 498
+    "width": 469
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -118,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/registration authority.md",
+                "file": "My linked notes/certificate signing request.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/registration authority.md",
+                "file": "My linked notes/certificate signing request.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,17 +134,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "c1d64b74acb942ee",
+  "active": "ea99a5cf54d21c12",
   "lastOpenFiles": [
-    "My linked notes/registration authority.md",
-    "My linked notes/Acronyms/PKI.md",
+    "My linked notes/certificate signing request.md",
     "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+    "My linked notes/OCSP.md",
     "My linked notes/Acronyms/CA.md",
+    "My linked notes/registration authority.md",
+    "My linked notes/DER (distinguished encoding rules).md",
+    "My linked notes/OPENSSL.md",
     "SecurityPlus/6B PKI Management.md",
-    "My linked notes/recovery agent.md",
-    "My linked notes/public key infrastructure.md",
-    "My linked notes/hierarchical model.md",
-    "My linked notes/Escrow.md",
+    "My linked notes/Pinning.md",
     "My linked notes/self-signed certificate.md"
   ]
 }
