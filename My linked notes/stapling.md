@@ -1,0 +1,1 @@
+Mechanism used to mitigate performance and privacy issues when requesting certificate status from an [[OCSP]] responder.

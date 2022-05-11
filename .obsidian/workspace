@@ -4,29 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "355eb9388c837b60",
+        "id": "877a63d678bfc640",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/6A Certificates and  Certificate Authorities.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "ea99a5cf54d21c12",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/certificate signing request.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -62,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"CSR\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -92,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/certificate signing request.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/certificate signing request.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,17 +113,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "ea99a5cf54d21c12",
+  "active": "877a63d678bfc640",
   "lastOpenFiles": [
-    "My linked notes/certificate signing request.md",
+    "My linked notes/threat.md",
+    "My linked notes/[threat actor.md",
     "SecurityPlus/6A Certificates and  Certificate Authorities.md",
-    "My linked notes/OCSP.md",
     "My linked notes/Acronyms/CA.md",
-    "My linked notes/registration authority.md",
-    "My linked notes/DER (distinguished encoding rules).md",
-    "My linked notes/OPENSSL.md",
-    "SecurityPlus/6B PKI Management.md",
-    "My linked notes/Pinning.md",
-    "My linked notes/self-signed certificate.md"
+    "My linked notes/Secure application.md",
+    "My linked notes/symmetric.md",
+    "My linked notes/Acronyms/PKI.md",
+    "My linked notes/PKCS.md",
+    "My linked notes/PEM.md",
+    "SecurityPlus/6B PKI Management.md"
   ]
 }

@@ -62,14 +62,14 @@ Another means of providing up-to-date information is to check the certificate's 
 
 Most OCSP servers can query the certificate database directly and obtain the real-time status of a certificate. Other OCSP servers actually depend on the CRLs and are limited by the CRL publishing interval.
 
-One of the problems with OCSP is that the job of responding to requests is resource intensive and can place high demands on the issuing CA running the OCSP responder. There is also a privacy issue, as the OCSP responder could be used to monitor and record client browser requests. OCSP stapling resolves these issues by having the SSL/TLS web server periodically obtain a time-stamped OCSP response from the CA. When a client submits an OCSP request, the web server returns the time-stamped response, rather than making the client contact the OCSP responder itself.
+One of the problems with OCSP is that the job of responding to requests is resource intensive and can place high demands on the issuing CA running the OCSP responder. There is also a privacy issue, as the OCSP responder could be used to monitor and record client browser requests. OCSP [[stapling]] resolves these issues by having the SSL/TLS web server periodically obtain a time-stamped OCSP response from the CA. When a client submits an OCSP request, the web server returns the time-stamped response, rather than making the client contact the OCSP responder itself.
 # CERTIFICATE PINNING
 
 When certificates are used by a transport protocol, such as SSL/TLS, there is a possibility that the chain of trust among the client, the server, and whatever intermediate and root CAs have provided certificates can be compromised. If an adversary can substitute a malicious but trusted certificate into the chain (using some sort of proxy or [[MITM|Man-in-the-Middle attack]]), they could be able to snoop on the supposedly secure connection.
 
 **[[Pinning]] refers to several techniques to ensure that when a client inspects the certificate presented by a server or a code-signed application, it is inspecting the proper certificate**. This might be achieved by embedding the certificate data in the application code, or by submitting one or more public keys to an Hyper Text Transfer ProtocolTTPs]] browser via an Hyper Text Transfer ProtocolTTPs]] header, which is referred to as _Hyper Text Transfer ProtocolTTPs]] Public Key Pinning (**HPKP**)._
 
-**HPKP has serious vulnerabilities and has been deprecated** ([developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning](https://developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning)). The replacement mechanism is the Certificate Transparency Framework.
+**[[HPKP]] has serious vulnerabilities and has been deprecated** ([developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning](https://developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning)). The replacement mechanism is the Certificate Transparency Framework.
 # CERTIFICATE FORMATS
 
 There are various formats for encoding a certificate as a digital file for exchange between different systems. 
@@ -78,7 +78,7 @@ There are various formats for encoding a certificate as a digital file for excha
 
 Cryptographic data—both certificates and keys—are processed as binary using Distinguished Encoding Rules (**DER**). Binary format files are not commonly used, however.
 
-More typically, the binary data is represented as ASCII text characters using Base64 Privacy-enhanced Electronic Mail (**PEM**) encoding. ASCII-format data has descriptive headers, such as the "BEGIN CERTIFICATE" string.
+More typically, the binary data is represented as ASCII text characters using Base64 Privacy-enhanced Electronic Mail ([[PEM]]) encoding. ASCII-format data has descriptive headers, such as the "BEGIN CERTIFICATE" string.
 
 ![A Notepad window shows "-----BEGIN CERTIFICATE-----" and then lines of characters with no spaces, including "...AApgTb2LH7xb/gAAAAAC…"](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/4926-1599771798794.png)
 
@@ -95,7 +95,7 @@ A three character file extension is a _convention,_ not a standard, and unfortun
 
 A certificate file can also contain more than just a single certificate:
 (transfer your private key and certificate to another computer use PKCS #12 / .PFX / .P12.)
--   The **PKCS** #12 format allows the export of the private key with the certificate. This would be used either to transfer a private key to a host that could not generate its own keys, or to back up/archive a private key. This type of file format is usually password-protected and always binary. On Windows, these usually have a **.PFX extension**, while MacOS and iOS use .P12. In Linux, the certificate and key are usually stored in separate files.
+-   The **PKCS** #12 format allows the export of the private key with the certificate. This would be used either to transfer a private key to a host that could not generate its own keys, or to back up/archive a private key. This type of file format is usually password-protected and always binary. On Windows, these usually have a **.[[PFX]] extension**, while MacOS and iOS use .P12. In Linux, the certificate and key are usually stored in separate files.
 -   The [[P7B]] format implements PKCS #7, which is a means of bundling multiple certificates in the same file. It is typically in ASCII format. This is most often used to deliver a chain of certificates that must be trusted by the processing host. It is associated with the use of S/MIME to encrypt email messages. P7B files do not contain the private key. In Linux, the .PEM extension is very widely used for certificate chains.
 # OpenSSL
 

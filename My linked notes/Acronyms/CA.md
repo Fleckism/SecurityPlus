@@ -1,5 +1,5 @@
-
 **certificate authority**
+- A server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys
 The functions of a CA are as follows:
 The certificate contains the 
 - subject's **public key** and is signed by the 
@@ -26,3 +26,5 @@ The certificate contains the
 
 root CA (root certificate authority)
 - In PKI, a CA that issues certificates to intermediate CAs in a hierarchical structure.
+
+A server that guarantees subject identities by issuing signed digital certifcate wrappers for their public keys

@@ -79,7 +79,7 @@ The registration function may be delegated by the CA to one or more registration
 
 Digital certificate details. (Screenshot used with permission from Microsoft.)
 
-Digital certificates are based on the X.509 standard approved by the International Telecommunications Union and standardized by the Internet Engineering Taskforce ([https://datatracker.ietf.org/doc/html/rfc5208](https://datatracker.ietf.org/doc/html/rfc5208)). The Public Key Infrastructure X.509 (PKIX) working group manages the development of these standards. RSA also created a set of standards, referred to as Public Key Cryptography Standards (PKCS), to promote the use of public key infrastructure.
+Digital certificates are based on the X.509 standard approved by the International Telecommunications Union and standardized by the Internet Engineering Taskforce ([https://datatracker.ietf.org/doc/html/rfc5208](https://datatracker.ietf.org/doc/html/rfc5208)). The Public Key Infrastructure X.509 (PKIX) working group manages the development of these standards. RSA also created a set of standards, referred to as Public Key Cryptography Standards ([[PKCS]]), to promote the use of public key infrastructure.
 # CERTIFICATE ATTRIBUTES
 
 The X.509 standard defines the fields or attributes that must be present in the certificate. Some of the main fields are listed in the following **table**.

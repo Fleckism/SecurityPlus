@@ -13,4 +13,6 @@ Symmetric [[cipher]] (**aka private (secret) key**)
 
 When paired together public/private key pairs.  Each key can reverse the cryptographic operation performed by it's pair but cannot reverse an operation performed by itself.  The private key must be kept secret by the owner, but the public key is designed to be widely distributed.  The private key cannot determined from the public key, given a sufficient key size.
 
+- If lost
+	- It puts both data confidentiality and identification and authentication systems at risk. Depending on the key usage, the key may be used to decrypt data with authorization. The key could also be used to impersonate a user or computer account.
 [[CIA]]

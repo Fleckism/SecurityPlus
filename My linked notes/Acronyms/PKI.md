@@ -7,3 +7,4 @@
 	- smart-card 
 	- USB
 	- Trusted Platform Module ([[TPM]])
+- Framework of certificate authorities, digital certificates, software, services, and other cryptographic components deployed for the purpose of validating subject identities.
