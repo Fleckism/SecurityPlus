@@ -106,7 +106,7 @@ Date and time during which the certificate is valid.
 
 Subject
 
-The name of the certificate holder, expressed as a distinguished name (DN). Within this, the [[common name ]](CN) part should usually match either the fully qualified domain name ([[FQDN]]) of the server or a user email address.
+The name of the certificate holder, expressed as a distinguished name (DN). Within this, the [[CN ]](CN) part should usually match either the fully qualified domain name ([[FQDN]]) of the server or a user email address.
 
 Public key
 
@@ -123,7 +123,7 @@ This extension field is the preferred mechanism to specify additional host names
 
 When certificates were first introduced, the common name (CN) attribute was used to identify the [[FQDN]] by which the server is accessed, such as www.comptia.org. This usage grew by custom rather than design, however. The CN attribute can contain different kinds of information, making it difficult for a browser to interpret it correctly. Consequently, the CN attribute is deprecated as a method of validating subject identity ([tools.ietf.org/html/rfc2818#section-3.1](https://tools.ietf.org/html/rfc2818#section-3.1)).
 
-The [[subject alternative name]] (SAN)** extension field is structured to represent different types of identifiers, including domain names. If a certificate is configured with a SAN, the browser should validate that, and ignore the CN value. It is still safer to put the FQDN in the CN as well, because not all browsers and implementations stay up to date with the standards.
+The subject alternative name ([[SAN]])** extension field is structured to represent different types of identifiers, including domain names. If a certificate is configured with a SAN, the browser should validate that, and ignore the CN value. It is still safer to put the FQDN in the CN as well, because not all browsers and implementations stay up to date with the standards.
 
 The SAN field also allows a certificate to represent different subdomains, such as www.comptia.org and members.comptia.org.
 

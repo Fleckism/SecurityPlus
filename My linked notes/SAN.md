@@ -1,0 +1,3 @@
+- subject alternative name ([[SAN]])** extension field is structured to represent different types of identifiers, including domain names. If a certificate is configured with a SAN, the browser should validate that, and ignore the CN value. It is still safer to put the FQDN in the CN as well, because not all browsers and implementations stay up to date with the standards.
+- The subject alternative name (SAN) field. A wildcard certificate will match any subdomain label.
+- 

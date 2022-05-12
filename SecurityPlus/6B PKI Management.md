@@ -42,7 +42,7 @@ A certificate may be revoked or suspended:
 
 A certificate may be revoked or suspended by the owner or by the CA for many reasons. For example, the certificate or its private key may have been compromised, the business could have closed, a user could have left the company, a domain name could have been changed, the certificate could have been misused in some way, and so on. These reasons are codified under choices such as Unspecified, Key Compromise, CA Compromise, Superseded, or Cessation of Operation. A suspended key is given the code Certificate Hold. 
 
-It follows that there must be some mechanism for informing users whether a certificate is valid, revoked, or suspended. CAs must maintain a **certificate revocation list (CRL)** of all revoked and suspended certificates, which can be distributed throughout the hierarchy. 
+It follows that there must be some mechanism for informing users whether a certificate is valid, revoked, or [[suspended]]. CAs must maintain a **certificate revocation list (CRL)** of all revoked and suspended certificates, which can be distributed throughout the hierarchy. 
 
 ![sy0-601 windows server crl.png](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/sy0-601%20windows%20server%20crl.png)
 

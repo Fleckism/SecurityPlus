@@ -4,42 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d7bbac19b821ca2d",
+        "id": "4964438a2bb01f13",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Acronyms/CA.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "0a6609334fc79c4e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/digital certificate.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "92ba4e127259a1ff",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Acronyms/CA.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -75,17 +44,16 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"certificate\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/digital certificate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/digital certificate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,17 +113,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "0a6609334fc79c4e",
+  "active": "4964438a2bb01f13",
   "lastOpenFiles": [
-    "My linked notes/digital certificate.md",
-    "My linked notes/hierarchical model.md",
-    "My linked notes/ASCII.md",
-    "My linked notes/OCSP.md",
-    "My linked notes/certificate policy.md",
-    "My linked notes/offline CA.md",
-    "My linked notes/Code signing certificate.md",
-    "My linked notes/certificate signing request.md",
-    "My linked notes/Pinning.md",
-    "My linked notes/DER (distinguished encoding rules).md"
+    "My linked notes/Acronyms/CA.md",
+    "My linked notes/PKCS.md",
+    "My linked notes/suspended.md",
+    "SecurityPlus/6B PKI Management.md",
+    "My linked notes/Escrow.md",
+    "My linked notes/Secure application.md",
+    "My linked notes/PEM.md",
+    "My linked notes/OPENSSL.md",
+    "My linked notes/CN.md",
+    "My linked notes/Code signing.md"
   ]
 }
