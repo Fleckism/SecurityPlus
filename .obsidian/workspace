@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "4964438a2bb01f13",
+        "id": "900600c1d01774b1",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/HSM.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "8272fa1d76c9fdf3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/KDC.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -44,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"HSM\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -53,7 +71,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -73,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/Acronyms/HSM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "My linked notes/Acronyms/HSM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,17 +134,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "4964438a2bb01f13",
+  "active": "900600c1d01774b1",
   "lastOpenFiles": [
-    "My linked notes/Acronyms/CA.md",
-    "My linked notes/PKCS.md",
-    "My linked notes/suspended.md",
-    "SecurityPlus/6B PKI Management.md",
-    "My linked notes/Escrow.md",
-    "My linked notes/Secure application.md",
-    "My linked notes/PEM.md",
-    "My linked notes/OPENSSL.md",
-    "My linked notes/CN.md",
-    "My linked notes/Code signing.md"
+    "My linked notes/Acronyms/HSM.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "My linked notes/KDC.md",
+    "My linked notes/Kerberos.md",
+    "My linked notes/PAP.md",
+    "My linked notes/PPP.md",
+    "My linked notes/Lesson 6.md",
+    "My linked notes/Study Task Lesson 6.md",
+    "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+    "My linked notes/digital certificate.md"
   ]
 }

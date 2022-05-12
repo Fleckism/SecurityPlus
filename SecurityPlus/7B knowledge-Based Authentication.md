@@ -36,13 +36,13 @@ A pluggable authentication module ([[PAM]]) is a package for enabling different 
 A single sign-on ([[SSO]]) system allows the user to authenticate once to a local device and be authenticated to compatible application servers without having to enter credentials again. In Windows, SSO is provided by the Kerberos framework.
 # KERBEROS AUTHENTICATION
 
-Kerberos is a single sign-on network authentication and authorization protocol used on many networks, notably as implemented by Microsoft's Active Directory ([[AD]]) service. Kerberos was named after the three-headed guard dog of Hades (Cerberus) because it consists of three parts. Clients request services from application servers, which both rely on an intermediary—a Key Distribution Center ([[KDC]])—to vouch for their identity. There are two services that make up a KDC: the Authentication Service and the Ticket Granting Service. The KDC runs on [[port]] 88 using [[TCP]] or [[UDP]].
+[[Kerberos]] is a single sign-on network authentication and authorization protocol used on many networks, notably as implemented by Microsoft's Active Directory ([[AD]]) service. Kerberos was named after the three-headed guard dog of Hades (Cerberus) because it consists of three parts. Clients request services from application servers, which both rely on an intermediary—a Key Distribution Center ([[KDC]])—to vouch for their identity. There are two services that make up a KDC: the Authentication Service and the Ticket Granting Service. The KDC runs on [[port]] 88 using [[TCP]] or [[UDP]].
 
 ![Diagram of the Kerberos Authentication Service.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8226-1599771799055.png)
 
 Kerberos Authentication Service. (Images © 123RF.com.)
 
-The [[Authentication]] Service is responsible for authenticating user logon requests. More generally, users and services can be authenticated; these are collectively referred to as **_principals**._ For example, when you sit at a Windows domain workstation and log on to a realm (or domain), the first step of logon is to authenticate with a KDC server, implemented as a domain controller.
+The [[Authentication]] Service is responsible for authenticating user logon requests. More generally, users and services can be authenticated; these are collectively referred to as **_principals**._ For example, when you sit at a Windows domain workstation and log on to a realm (or domain), the first step of logon is to authenticate with a [[KDC]] server, implemented as a domain controller.
 
 1.  The client sends the authentication service ([[AS]]) a request for a Ticket Granting Ticket ([[TGT]]). This is composed by encrypting the date and time on the local computer with the user's password hash as the key. 
 
@@ -136,7 +136,7 @@ An _offline attack_ means that the attacker has managed to obtain a database of 
 If the attacker cannot obtain a database of passwords, a packet sniffer might be used to obtain the client response to a server challenge in a protocol such as [[NTLM]] or [[CHAP]]/MS-CHAP. Although these protocols avoid sending the hash of the password directly, the response is derived from it in some way. Password crackers can exploit weaknesses in a protocol to calculate the hash and match it to a dictionary word or brute force it.
 # BRUTE-FORCE AND DICTIONARY ATTACKS
 
-Some password attacks exploit the weak credentials chosen by users. Others can exploit vulnerabilities in the storage mechanism. For example, the Windows SAM database can be configured to store hashes for compatibility with older versions (LM and NTLMv1 hashes). These legacy hashes are cryptographically weak and highly vulnerable to password cracking ([ldapwiki.com/wiki/LM%20hash](https://ldapwiki.com/wiki/LM%20hash)).
+Some password attacks exploit the weak credentials chosen by users. Others can exploit vulnerabilities in the storage mechanism. For example, the Windows SAM database can be configured to store hashes for compatibility with older versions ([[LM]] and NTLMv1 hashes). These legacy hashes are cryptographically weak and highly vulnerable to password cracking ([ldapwiki.com/wiki/LM%20hash](https://ldapwiki.com/wiki/LM%20hash)).
 
 ### Brute-Force Attack
 

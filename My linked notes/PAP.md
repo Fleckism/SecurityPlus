@@ -1,0 +1,3 @@
+Password Authentication Protocol (PAP) 
+
+is an unsophisticated authentication method developed as part of the Point-to-Point Protocol ([[PPP]]), used to transfer TCP/IP data over serial or dial-up connections. It is also used as the basic authentication mechanism in Hyper Text Transfer ProtocolTTPs]]. It relies on clear text password exchange and is therefore obsolete for most purposes, ==except through an encrypted tunnel.== [[IPSec]]
