@@ -15,7 +15,7 @@ The certificate contains the
 
 ![[Pasted image 20220511073900.png]]
 
-- In most cases, the subject generates a key pair then adds the public key along with subject information and certificate type in a certificate signing request (CSR) and submits it to the CA. If the CA accepts the request, it generates a certificate with the appropriate key usage and validity, signs it, and transmits it to the subject.
+- In most cases, the subject generates a key pair then adds the public key along with subject information and certificate type in a certificate signing request ([[CSR]]) and submits it to the CA. If the CA accepts the request, it generates a certificate with the appropriate key usage and validity, signs it, and transmits it to the subject.
 
 ![[Pasted image 20220511073917.png]]
 
