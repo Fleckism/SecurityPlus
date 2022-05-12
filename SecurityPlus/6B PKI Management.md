@@ -95,7 +95,7 @@ A three character file extension is a _convention,_ not a standard, and unfortun
 
 A certificate file can also contain more than just a single certificate:
 (transfer your private key and certificate to another computer use PKCS #12 / .PFX / .P12.)
--   The **PKCS** #12 format allows the export of the private key with the certificate. This would be used either to transfer a private key to a host that could not generate its own keys, or to back up/archive a private key. This type of file format is usually password-protected and always binary. On Windows, these usually have a **.[[PFX]] extension**, while MacOS and iOS use .P12. In Linux, the certificate and key are usually stored in separate files.
+-   The **PKCS** #12 format allows the export of the private key with the certificate. This would be used either to transfer a private key to a host that could not generate its own keys, or to back up/archive a private key. This type of file format is usually password-protected and always binary. On Windows, these usually have a **.[[PFX]] extension**, while MacOS and iOS use .[[P12]]. In Linux, the certificate and key are usually stored in separate files.
 -   The [[P7B]] format implements PKCS #7, which is a means of bundling multiple certificates in the same file. It is typically in ASCII format. This is most often used to deliver a chain of certificates that must be trusted by the processing host. It is associated with the use of S/MIME to encrypt email messages. P7B files do not contain the private key. In Linux, the .PEM extension is very widely used for certificate chains.
 # OpenSSL
 

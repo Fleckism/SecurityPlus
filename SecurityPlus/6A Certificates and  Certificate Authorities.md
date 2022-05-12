@@ -59,7 +59,7 @@ Another problem is that there is limited opportunity for cross-certification; th
 
 ### Online versus Offline CAs
 
-An online CA is one that is available to accept and process certificate signing requests, publish certificate revocation lists, and perform other certificate management tasks. Because of the high risk posed by compromising the root CA, a secure configuration involves making the root an offline CA. This means that it is disconnected from any network and usually kept in a powered-down state. The root CA will need to be brought online to add or update intermediate CAs.
+An [[online CA]] is one that is available to accept and process certificate signing requests, publish certificate revocation lists, and perform other certificate management tasks. Because of the high risk posed by compromising the root CA, a secure configuration involves making the root an offline CA. This means that it is disconnected from any network and usually kept in a powered-down state. The root CA will need to be brought online to add or update intermediate CAs.
 # REGISTRATION AUTHORITIES AND CSRS
 
 **Registration is the process by which end users create an account with the CA and become authorized to request certificates.** The exact processes by which users are authorized and their identity proven are determined by the CA implementation. For example, in a Windows Active Directory network, users and devices can often auto-enroll with the CA just by authenticating to Active Directory. Commercial CAs might perform a range of tests to ensure that a subject is who he or she claims to be. It is in the CA's interest to ensure that it only issues certificates to legitimate users, or its reputation will suffer.

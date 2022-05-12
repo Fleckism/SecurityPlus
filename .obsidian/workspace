@@ -7,8 +7,26 @@
         "id": "877a63d678bfc640",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "d7bbac19b821ca2d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/stapling.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -44,16 +62,17 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"stapling\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -73,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/stapling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "My linked notes/stapling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,17 +134,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "877a63d678bfc640",
+  "active": "d7bbac19b821ca2d",
   "lastOpenFiles": [
-    "My linked notes/threat.md",
-    "My linked notes/[threat actor.md",
-    "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+    "My linked notes/stapling.md",
+    "My linked notes/Pinning.md",
+    "My linked notes/online CA.md",
+    "My linked notes/offline CA.md",
     "My linked notes/Acronyms/CA.md",
-    "My linked notes/Secure application.md",
-    "My linked notes/symmetric.md",
-    "My linked notes/Acronyms/PKI.md",
-    "My linked notes/PKCS.md",
     "My linked notes/PEM.md",
-    "SecurityPlus/6B PKI Management.md"
+    "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+    "SecurityPlus/6B PKI Management.md",
+    "My linked notes/Code signing.md",
+    "My linked notes/Code signing certificate.md"
   ]
 }

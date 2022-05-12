@@ -11,7 +11,7 @@ The certificate contains the
 -   Perform key and certificate lifecycle management, notably revoking invalid certificates.
 **Add things from [[6A Certificates and  Certificate Authorities]] and [[6B PKI Management]]**
 **Add acronyms from above into file with no links**
-
+#zFleck 
 
 ![[Pasted image 20220511073900.png]]
 
