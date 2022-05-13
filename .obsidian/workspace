@@ -4,12 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "900600c1d01774b1",
+        "id": "84fb61aae999e320",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Assisted Lab 06.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "488050a2cce4dfb0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/HSM.md",
+            "file": "My linked notes/PEM.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,12 +32,12 @@
         }
       },
       {
-        "id": "8272fa1d76c9fdf3",
+        "id": "28be84aa1966bc31",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/KDC.md",
+            "file": "My linked notes/PFX.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"HSM\"",
+                "query": "\"pfx\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -92,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Acronyms/HSM.md",
+                "file": "My linked notes/Assisted Lab 06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Acronyms/HSM.md",
+                "file": "My linked notes/Assisted Lab 06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,17 +149,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "900600c1d01774b1",
+  "active": "84fb61aae999e320",
   "lastOpenFiles": [
-    "My linked notes/Acronyms/HSM.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "My linked notes/KDC.md",
-    "My linked notes/Kerberos.md",
-    "My linked notes/PAP.md",
-    "My linked notes/PPP.md",
-    "My linked notes/Lesson 6.md",
-    "My linked notes/Study Task Lesson 6.md",
-    "SecurityPlus/6A Certificates and  Certificate Authorities.md",
-    "My linked notes/digital certificate.md"
+    "My linked notes/Assisted Lab 06.md",
+    "My linked notes/PEM.md",
+    "My linked notes/PFX.md",
+    "My linked notes/CSR.md",
+    "Z_Notes from tests/Lesson 3 you can't redo these!.md",
+    "Z_Notes from tests/Assisted Labs.md",
+    "My linked notes/OPENSSL.md",
+    "SecurityPlus/6B PKI Management.md",
+    "My linked notes/digital certificate.md",
+    "My linked notes/PKCS.md"
   ]
 }
