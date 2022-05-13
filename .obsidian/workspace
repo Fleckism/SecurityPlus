@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/PEM.md",
+            "file": "SecurityPlus/7B knowledge-Based Authentication.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -77,11 +77,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"pfx\"",
+                "query": "hybrid ",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Lab 06.md",
+                "file": "SecurityPlus/7B knowledge-Based Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted Lab 06.md",
+                "file": "SecurityPlus/7B knowledge-Based Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,17 +149,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "84fb61aae999e320",
+  "active": "488050a2cce4dfb0",
   "lastOpenFiles": [
-    "My linked notes/Assisted Lab 06.md",
-    "My linked notes/PEM.md",
-    "My linked notes/PFX.md",
-    "My linked notes/CSR.md",
+    "SecurityPlus/7B knowledge-Based Authentication.md",
+    "SecurityPlus/4A  Compare and Contrast Social Engineering Techniques.md",
+    "SecurityPlus/14D Secure Script Environments.md",
+    "My linked notes/Weak Encryption.md",
     "Z_Notes from tests/Lesson 3 you can't redo these!.md",
-    "Z_Notes from tests/Assisted Labs.md",
-    "My linked notes/OPENSSL.md",
-    "SecurityPlus/6B PKI Management.md",
-    "My linked notes/digital certificate.md",
-    "My linked notes/PKCS.md"
+    "My linked notes/Acronyms/SAM.md",
+    "My linked notes/PEM.md",
+    "My linked notes/Assisted Lab 06.md",
+    "My linked notes/PFX.md",
+    "My linked notes/CSR.md"
   ]
 }
