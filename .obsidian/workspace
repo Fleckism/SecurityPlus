@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "28be84aa1966bc31",
+        "id": "6d4a9132c29056df",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/assisted lab 9.md",
+            "file": "SecurityPlus/9C Secure Wireless Infrastructure.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "813e777257f81952",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/EAP.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,10 +62,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lesson",
+                "query": "radius",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -79,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/assisted lab 9.md",
+                "file": "My linked notes/Acronyms/EAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/assisted lab 9.md",
+                "file": "My linked notes/Acronyms/EAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,17 +134,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "28be84aa1966bc31",
+  "active": "813e777257f81952",
   "lastOpenFiles": [
-    "My linked notes/assisted lab 9.md",
-    "Z_Notes from tests/Assisted Labs.md",
-    "My linked notes/PFX.md",
-    "My linked notes/Lesson 7.md",
-    "My linked notes/malware.md",
-    "Z_Notes from tests/Performance based questions.md",
-    "SecurityPlus/4A  Compare and Contrast Social Engineering Techniques.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md",
-    "SecurityPlus/14D Secure Script Environments.md",
-    "My linked notes/Weak Encryption.md"
+    "My linked notes/Acronyms/EAP.md",
+    "SecurityPlus/9C Secure Wireless Infrastructure.md",
+    "SecurityPlus/7C Authentication Technologies.md",
+    "My linked notes/Acronyms/HSM.md",
+    "SecurityPlus/12A Secure Firmware.md",
+    "My linked notes/Acronyms/TPM.md",
+    "My linked notes/smart-card.md",
+    "My linked notes/Acronyms/UEFI.md",
+    "My linked notes/Acronyms/PKI.md",
+    "My linked notes/assisted lab 9.md"
   ]
 }
