@@ -77,7 +77,7 @@ An employee is supposed to work for the interests of their organization exclusiv
 Separation of duties means that employees must be constrained by security policies:
 
 -   Standard operating procedures (SOPs) mean that an employee has no excuse for not following protocol in terms of performing these types of critical operations.
--   Shared authority means that no one user is able to take action or enable changes on his or her own authority. At least two people must authorize the change. One example is separating responsibility for purchasing (ordering) from that of authorizing payment. Another is that a request to create an account should be subject to approval and oversight.
+-   [[Shared authority]] means that no one user is able to take action or enable changes on his or her own authority. At least two people must authorize the change. One example is separating responsibility for purchasing (ordering) from that of authorizing payment. Another is that a request to create an account should be subject to approval and oversight.
 
 Separation of duties does not completely eliminate risk because there is still the chance of collusion between two or more people. This, however, is a much less likely occurrence than a single rogue employee.
 

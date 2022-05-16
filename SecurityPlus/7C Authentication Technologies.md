@@ -1,6 +1,4 @@
----
-tags: [section]
----
+
 # EXAM OBJECTIVES COVERED
 
 2.4 Summarize [[authentication]] and authorization design concepts
@@ -53,7 +51,7 @@ Where EAP provides the authentication mechanisms, the IEEE 802.1X Port-based Net
 -   Network access server ([[NAS]])—edge network appliances, such as switches, access points, and VPN gateways. These are also referred to as _RADIUS clients_ or authenticators.
 -   AAA server—the authentication server, positioned within the local network.
 
-With AAA, the NAS devices do not have to store any authentication credentials. They forward this data between the AAA server and the supplicant. There are two main types of AAA server: RADIUS and TACACS+.
+With AAA, the NAS devices do not have to store any authentication credentials. They forward this data between the AAA server and the supplicant. ==There are two main types of AAA server: RADIUS and TACACS+.==
 # REMOTE AUTHENTICATION DIAL-IN USER SERVICE
 
 The Remote Authentication Dial-in User Service ([[RADIUS]]) standard is published as an Internet standard. There are several RADIUS server and client products.
@@ -105,7 +103,7 @@ The server is configured with a counter window to cope with the circumstance tha
 
 ### Time-Based One-Time Password Algorithm (TOTP)
 
-The Time-based One-time Password Algorithm ([[TOTP]]) is a refinement of the HOTP ([https://datatracker.ietf.org/doc/html/rfc6238](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdatatracker.ietf.org%2Fdoc%2Fhtml%2Frfc6238&data=04%7C01%7Cdandries%40comptia.org%7C79b46abac0f04b29ecae08d9bef00625%7C8c39a7ffe0774d1c9a1c7431fe5eb465%7C0%7C0%7C637750760424782889%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=iBZcXWlOthfRUWPX5dGZdB8zh1PoUKo3picunapbngM%3D&reserved=0)). One issue with HOTP is that tokens can be allowed to persist unexpired, raising the risk that an attacker might be able to obtain one and decrypt data in the future. In TOTP, the HMAC is built from the shared secret plus a value derived from the device's and server's local timestamps. TOTP automatically expires each token after a short window (60 seconds, for instance). For this to work, the client device and server must be closely time-synchronized. One well-known implementation of HOTP and TOTP is Google Authenticator.
+The Time-based One-time Password Algorithm ([[TOTP]]) is a refinement of the HOTP ([https://datatracker.ietf.org/doc/html/rfc6238](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdatatracker.ietf.org%2Fdoc%2Fhtml%2Frfc6238&data=04%7C01%7Cdandries%40comptia.org%7C79b46abac0f04b29ecae08d9bef00625%7C8c39a7ffe0774d1c9a1c7431fe5eb465%7C0%7C0%7C637750760424782889%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=iBZcXWlOthfRUWPX5dGZdB8zh1PoUKo3picunapbngM%3D&reserved=0)). ==One issue with HOTP is that tokens can be allowed to persist unexpired==, raising the risk that an attacker might be able to obtain one and decrypt data in the future. In TOTP, the HMAC is built from the shared secret plus a value derived from the device's and server's local timestamps. TOTP automatically expires each token after a short window (60 seconds, for instance). For this to work, the client device and server must be closely time-synchronized. One well-known implementation of HOTP and TOTP is Google Authenticator.
 
 ![Box reads "The code was sent in the SMS text message to your phone number" with a box to enter the code and links to resend or use another 2FA method.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/9217-1599771799663.png)
 

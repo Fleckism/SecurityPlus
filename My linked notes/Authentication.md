@@ -1,6 +1,3 @@
----
-tags: [A_D, GRC]
----
 the **process or action of verifying** the identity of a user or process [[CIA]].
 - [[security control]]
 - When authentication is needed.([[asymmetric]] encryption is used)
@@ -14,6 +11,6 @@ the **process or action of verifying** the identity of a user or process [[CIA]]
 	- Something you do(biometric, fingerprint or the way you walk?)
 - _Authentication design_ refers to selecting a technology that meets requirements for **confidentiality**, **integrity**, and **availability**:
 
-
+#A_D  #GRC 
 # Full 
 When the user or server needs to Authentication, it encrypts some agreed hashed data using the private key and sends it to the client as a digital signature. The client should be able to decrypt the signature using the public key and derive the same hash value.

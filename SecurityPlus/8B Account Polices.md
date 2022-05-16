@@ -2,7 +2,7 @@
 tags: [GRC, implementation,section]
 ---
 # EXAM OBJECTIVES COVERED
-
+#addTagsIntoBody
 3.7 Given a scenario, implement identity and account management controls
 
 Account policies enforce the privilege management policy by setting what users can and cannot do. This helps you to enforce strong credential policies and to detect and manage risks from compromised accounts. Auditing and permission reviews can reveal suspicious behavior and attempts to break through security.
