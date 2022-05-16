@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bbacd0c7b02f9248",
+        "id": "3c6357e9759cbcbf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/account.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "a7b4e6dc47976ffa",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Accounting.md",
+            "file": "SecurityPlus/08 C Authorization Solutions _ Implemention _ A_D.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,10 +49,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: \"08\", ",
+                "query": "\"CTF\"",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
@@ -93,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/account.md",
+                "file": "SecurityPlus/08 C Authorization Solutions _ Implemention _ A_D.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/account.md",
+                "file": "SecurityPlus/08 C Authorization Solutions _ Implemention _ A_D.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,17 +122,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "bbacd0c7b02f9248",
+  "active": "3c6357e9759cbcbf",
   "lastOpenFiles": [
-    "My linked notes/account.md",
+    "SecurityPlus/08 C Authorization Solutions _ Implemention _ A_D.md",
     "My linked notes/Accounting.md",
-    "SecurityPlus/08 A Identity and Account Types.md",
-    "My linked notes/auditing.md",
+    "My linked notes/DN.md",
+    "My linked notes/RBAC.md",
+    "SecurityPlus/08 D Personnel Policies.md",
     "SecurityPlus/08 B Account Polices.md",
-    "My linked notes/Authentication.md",
-    "SecurityPlus/7A Authentication Design Concepts.md",
-    "SecurityPlus/7D Biometrics Authentication.md",
-    "SecurityPlus/7C Authentication Technologies.md",
-    "SecurityPlus/7B knowledge-Based Authentication.md"
+    "SecurityPlus/09 C Secure Wireless Infrastructure.md",
+    "My linked notes/Lesson 7.md",
+    "My linked notes/account.md",
+    "SecurityPlus/08 A Identity and Account Types.md"
   ]
 }
