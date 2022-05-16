@@ -177,7 +177,7 @@ Network appliances designed for enterprise use are unlikely to be restricted to 
 
 ### Privilege Access Management
 
-Even with the most carefully designed role-based permissions, it is almost impossible to eliminate use of shared/device/root passwords completely. Enterprise privilege access management products provide a solution for storing these high-risk credentials somewhere other than a spreadsheet and for auditing elevated privileges generally ([gartner.com/reviews/market/privileged-access-management](https://www.gartner.com/reviews/market/privileged-access-management)).
+Even with the most carefully designed role-based permissions, it is almost impossible to eliminate use of shared/device/root passwords completely. Enterprise privilege access management products provide a solution for storing these high-risk credentials somewhere other than a spreadsheet and for [[auditing]] elevated privileges generally ([gartner.com/reviews/market/privileged-access-management](https://www.gartner.com/reviews/market/privileged-access-management)).
 # SECURE SHELL KEYS AND THIRD-PARTY CREDENTIALS
 
 Secure Shell ([[SSH]]) is a widely used remote access protocol. It is very likely to be used to manage devices and services. SSH uses two types of key pairs:

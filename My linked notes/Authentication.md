@@ -5,6 +5,9 @@ the **process or action of verifying** the identity of a user or process [[CIA]]
 	- **Client** receives the key decrypts the signature with the **public key** and derive the same has value
 	- aka digital signature
 - Authentication is performed when the account holder supplies the appropriate **credentials** (or authenticators) to the system.
+- IP address can be used due to the fact that
+	- IP address can represent logical locations (subnet)
+	- Public IP address usually can be linked to a geographical location , based on information published by the registrant that manages that block of IP address space
 - AUTHENTICATION FACTORS
 	- Something you know(aka password or pin)
 	- Something you have(smart card, fob)

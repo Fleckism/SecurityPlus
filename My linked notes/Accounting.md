@@ -1,0 +1,2 @@
+==Accounting for actions==
+or all actions that have been performed by users. Change and version control systems depend on knowing when a file has been modified and by whom. Accounting also provides for [[non-repudiation]] (that is, a user cannot deny that they accessed or made a change to a file). The main problems are that auditing successful access attempts can quickly consume a lot of disk space, and analyzing the logs can be very time-consuming.

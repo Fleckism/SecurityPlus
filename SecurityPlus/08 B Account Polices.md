@@ -72,7 +72,7 @@ There are three main types of time-based policies:
 
 Accounting and auditing processes are used to detect whether an account has been compromised or is being misused. A security or audit log can be used to facilitate detection of account misuse:
 
--   Accounting for all actions that have been performed by users. Change and version control systems depend on knowing when a file has been modified and by whom. Accounting also provides for non-repudiation (that is, a user cannot deny that they accessed or made a change to a file). The main problems are that auditing successful access attempts can quickly consume a lot of disk space, and analyzing the logs can be very time-consuming.
+-   [[Accounting]] for all actions that have been performed by users. Change and version control systems depend on knowing when a file has been modified and by whom. Accounting also provides for non-repudiation (that is, a user cannot deny that they accessed or made a change to a file). The main problems are that auditing successful access attempts can quickly consume a lot of disk space, and analyzing the logs can be very time-consuming.
 -   Detecting intrusions or attempted intrusions. Here records of failure-type events are likely to be more useful, though success-type events can also be revealing if they show unusual access patterns.
 
 ![Screenshot of Event Viewer with Security selected in left pane and Number of events and details in the right pane.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/7380-1599771800762.png)
