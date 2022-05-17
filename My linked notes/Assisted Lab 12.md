@@ -1,4 +1,4 @@
-# Assisted Lab 12: Configuring a System for Auditing Policies
+## Assisted Lab 12: Configuring a System for Auditing Policies
 
 ## Scenario
 

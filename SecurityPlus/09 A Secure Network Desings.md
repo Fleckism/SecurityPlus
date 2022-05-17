@@ -85,7 +85,7 @@ Networks also use 128-bit IPv6 addressing. IPv6 addresses are written using hex 
 ### Routing Protocols
 
 Information about how to reach individual networks within an internetwork is processed by routers, which store the data in a **routing table**. A route to a network can be configured statically, but most networks use routing protocols to transmit new and updated routes between routers. Some common routing protocols include Border Gateway Protocol (BGP), Open Shortest Path First (OSPF), Enhanced Interior Gateway Routing Protocol (EIGRP), and Routing Information Protocol (RIP).
-# NETWORK SEGMENTATION 
+[[NETWORK SEGMENTATION]] 
 
 A network segment is one where all the hosts attached to the segment can use local (layer 2) forwarding to communicate freely with one another. The hosts are said to be within the same broadcast domain. Segregation means that the hosts in one segment are restricted in the way they communicate with hosts in other segments. They might only be able to communicate over certain network ports, for instance.
 
@@ -106,7 +106,7 @@ Dividing a campus network or data center into zones implies that each zone has a
 
 Hosts are trusted in the sense that they are under your administrative control and subject to the security mechanisms (antivirus software, user rights, software updating, and so on) that you have set up to defend the network.
 
--   Extranet—this is a network of semi-trusted hosts, typically representing business partners, suppliers, or customers. Hosts must authenticate to join the extranet.
+-   [[Extranet]]—this is a network of semi-trusted hosts, typically representing business partners, suppliers, or customers. Hosts must authenticate to join the extranet.
 -   Internet/guest—this is a zone permitting anonymous access (or perhaps a mix of anonymous and authenticated access) by untrusted hosts over the Internet.
 
 A large network may need more zones to represent different host groups, such as separating wireless stations from desktop workstations, and putting servers in their own groups. Cisco's enterprise security architecture #A_D uses core and distribution layers to interconnect access blocks, with each access block representing a different zone and business function.
@@ -133,7 +133,7 @@ To configure a DMZ, two different security configurations must be enabled: one o
 
 ### Screened Subnet
 
-A screened subnet uses two firewalls placed on either side of the DMZ. The edge firewall restricts traffic on the external/public interface and allows permitted traffic to the hosts in the [[DMZ]]. The edge firewall can be referred to as the screening firewall or router. The internal firewall filters communications between hosts in the DMZ and hosts on the LAN. This firewall is often described as the choke firewall. A choke point is a purposefully narrow gateway that facilitates better access control and easier monitoring.
+A screened [[subnet]] uses two firewalls placed on either side of the DMZ. The edge firewall restricts traffic on the external/public interface and allows permitted traffic to the hosts in the [[DMZ]]. The edge firewall can be referred to as the screening firewall or router. The internal firewall filters communications between hosts in the DMZ and hosts on the LAN. This firewall is often described as the choke firewall. A choke point is a purposefully narrow gateway that facilitates better access control and easier monitoring.
 
 ![A VLAN100 (Dept LAN) box is connected to a Core/Distribution box that is connected to an Extranet box that is connected to an ISP router icon.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/9450-1599771802030.png)
 

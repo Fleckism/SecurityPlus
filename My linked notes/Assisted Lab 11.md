@@ -1,4 +1,4 @@
-# Assisted Lab 11: Managing Access Controls in Windows Server
+## Assisted Lab 11: Managing Access Controls in Windows Server
 
 ## Scenario
 
