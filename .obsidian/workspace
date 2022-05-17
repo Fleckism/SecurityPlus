@@ -4,12 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "90a55653c4c15f90",
+        "id": "0c1af2e5dc5b9b9c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Flashcard 1231.md",
+            "file": "SecurityPlus/09 C Secure Wireless Infrastructure.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "20bb126598e12194",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/09 C Secure Wireless Infrastructure.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "fb7eed9b9335d2ff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/15 A Secure Cloud and Virtualization Services.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,21 +75,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"operational and compensating\"",
+                "query": "\"authentication mechanism\"",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 469,
-    "collapsed": true
+    "width": 469
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -79,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Flashcard 1231.md",
+                "file": "SecurityPlus/15 A Secure Cloud and Virtualization Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Flashcard 1231.md",
+                "file": "SecurityPlus/15 A Secure Cloud and Virtualization Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,17 +147,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "90a55653c4c15f90",
+  "active": "fb7eed9b9335d2ff",
   "lastOpenFiles": [
-    "My linked notes/Flashcard 1231.md",
-    "My linked notes/Flashcards.md",
-    "SecurityPlus/09 A Secure Network Desings.md",
-    "My linked notes/Acronyms/DMZ.md",
-    "My linked notes/subnet.md",
-    "SecurityPlus/10 A Firewalls and Proxy Servers.md",
-    "My linked notes/Assisted Lab 12.md",
-    "My linked notes/Assisted Lab 11.md",
-    "SecurityPlus/08 A Identity and Account Types.md",
-    "SecurityPlus/3A Assess Organizational Security L3a.md"
+    "SecurityPlus/15 A Secure Cloud and Virtualization Services.md",
+    "My linked notes/WPS.md",
+    "SecurityPlus/09 C Secure Wireless Infrastructure.md",
+    "My linked notes/PSK.md",
+    "My linked notes/GCMP.md",
+    "My linked notes/Simultaneous Authentication of Equals.md",
+    "My linked notes/4-way handshake.md",
+    "My linked notes/wireless controller.md",
+    "My linked notes/site survey.md",
+    "My linked notes/access points.md"
   ]
 }

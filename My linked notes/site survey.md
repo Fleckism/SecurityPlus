@@ -1,0 +1,1 @@
+A collection of information about a location for the purposes of building an ideal infrastructure; it often contains optimum locations for wireless antenna and access point placement to provide the required coverage for clients and identifying sources of interference.

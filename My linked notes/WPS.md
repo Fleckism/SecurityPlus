@@ -1,0 +1,1 @@
+A feature of WPA and WPA2 that allows enrollment in a wireless network based on an 8-digit PIN.

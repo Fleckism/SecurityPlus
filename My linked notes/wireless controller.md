@@ -1,0 +1,1 @@
+A device that provides wireless LAN management for multiple APs.

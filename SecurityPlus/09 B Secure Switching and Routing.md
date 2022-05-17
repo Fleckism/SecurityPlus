@@ -61,7 +61,7 @@ This diagram shows the minimum configuration necessary to prevent loops in a net
 
 A loop can be created accidentally or maliciously by plugging a patch cable from one patch panel port to another or connecting two wall ports. Normally, STP should detect and close the loop, resulting in a few seconds disruption. However, STP may be misconfigured or a [[threat actor]] may have managed to disrupt it. A storm control setting on a switch is a backup mechanism to rate-limit broadcast traffic above a certain threshold.
 
-### Bridge Protocol Data Unit (BPDU) Guard
+### [[Bridge Protocol Data Unit]] (BPDU) Guard
 
 A [[[[threat actor]]]] might try to attack [[STP]] using a rogue switch or software designed to imitate a switch. When a switch does not know the correct port to use for a particular destination MAC address (if the cache has just been flushed, for instance), it floods the unknown unicast frame out to all ports. Topology changes in STP can cause a switch to flush the cache more frequently and to start flooding unicast traffic more frequently, which can have a serious impact on network performance and assists sniffing .
 
@@ -93,7 +93,7 @@ Posture assessment is the process by which host health checks are performed agai
 
 Defining policy violations in Packet Fence Open Source NAC. (Screenshot used with permission from [packetfence.org](https://packetfence.org/).)
 
-An agent can be persistent, in which case it is installed as a software application on the client, or nonpersistent. A nonpersistent (or dissolvable) agent is loaded into memory during posture assessment but is not installed on the device.
+An [[agent]] can be persistent, in which case it is installed as a software application on the client, or nonpersistent. A nonpersistent (or dissolvable) agent is loaded into memory during posture assessment but is not installed on the device.
 
 ![A Scan Engine tab has the headings “Name” and “Scan Engine”. An “Add Scan” button is selected and shows the options Nessus, Nessus 6, OpenVAS, and WMI](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/6000-1599771802615.png)
 

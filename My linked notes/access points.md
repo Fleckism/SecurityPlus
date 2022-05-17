@@ -1,0 +1,1 @@
+A device that provides a connection between wireless devices and can connect to wired networks.

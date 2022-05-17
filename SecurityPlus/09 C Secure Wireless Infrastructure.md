@@ -16,7 +16,7 @@ The 5 GHz band has more space to configure non-overlapping channels. Also note t
 
 ### Wireless Access Point (WAP) Placement
 
-An infrastructure-based wireless network comprises one or more wireless access points ([[Device]]) , each connected to a wired network. The access points forward traffic to and from the wired switched network. Each WAP is identified by its [[MAC address]], also referred to as its basic service set identifier (BSSID). Each wireless network is identified by its name, or service set identifier (SSID).
+An infrastructure-based wireless network comprises one or more wireless access points ([[Device]]) , each connected to a wired network. The access points forward traffic to and from the wired switched network. Each WAP is identified by its [[MAC address]], also referred to as its basic service set identifier (BSSID). Each wireless network is identified by its name, or [[service set identifier]] (SSID).
 
 Wireless networks can operate in either the 2.4 GHz or 5 GHz radio band. Each radio band is divided into a number of channels, and each WAP must be configured to use a specific channel. For performance reasons, the channels chosen should be as widely spaced as possible to reduce different **types of interference**:
 
@@ -25,7 +25,7 @@ Wireless networks can operate in either the 2.4 GHz or 5 GHz radio band. Each ra
 
 ### Site Surveys and Heat Maps
 
-The coverage and interference factors mean that WAPs must be positioned and configured so that the whole area is covered, but that they overlap as little as possible. A site survey is used to measure signal strength and channel usage throughout the area to cover. A site survey starts with an architectural map of the site, with physical features that can cause **background interference** marked. These features **include solid walls, reflective surfaces, motors, microwave ovens**, and so on. The survey is performed with a Wi-Fi-enabled laptop or mobile device with Wi-Fi analyzer software installed. The Wi-Fi analyzer records information about the signal obtained at regularly spaced points as the surveyor moves around the area.
+The coverage and interference factors mean that WAPs must be positioned and configured so that the whole area is covered, but that they overlap as little as possible. A site survey is used to measure signal strength and channel usage throughout the area to cover. A [[site survey]] starts with an architectural map of the site, with physical features that can cause **background interference** marked. These features **include solid walls, reflective surfaces, motors, microwave ovens**, and so on. The survey is performed with a Wi-Fi-enabled laptop or mobile device with Wi-Fi analyzer software installed. The Wi-Fi analyzer records information about the signal obtained at regularly spaced points as the surveyor moves around the area.
 
 These readings are combined and analyzed to produce a heat map, showing where a signal is strong (red) or weak (green/blue), and which channel is being used and how they overlap. This data is then used to optimize the design, by adjusting transmit power to reduce a WAP's range, changing the channel on a WAP, adding a new WAP, or physically moving a WAP to a new location.
 # CONTROLLER AND ACCESS POINT SECURITY 
@@ -38,7 +38,7 @@ Rather than configure each device individually, enterprise wireless solutions im
 
 UniFi Wireless Network management console. (Screenshot used with permission from Ubiquiti Networks.)
 
-An access point whose firmware contains enough processing logic to be able to function autonomously and handle clients without the use of a wireless controller is known as a fat WAP, while one that requires a wireless controller in order to function is known as a thin WAP.
+An access point whose firmware contains enough processing logic to be able to function autonomously and handle clients without the use of a [[wireless controller]] is known as a fat WAP, while one that requires a wireless controller in order to function is known as a thin WAP.
 
 **Controllers and access points** must be made physically secure, as tampering could allow a  [[threat actor]] to insert  a rogue/evil twin WAP to try to intercept logons. These devices must be managed like switches and routers, using secure management interfaces and strong administrative credentials.
 # WI-FI PROTECTED ACCESS
@@ -67,7 +67,7 @@ In order to secure a network, you need to be able to confirm that only valid use
 
 ### WPA2 Pre-Shared Key Authentication 
 
-In WPA2, pre-shared key (PSK) authentication uses a passphrase to generate the key that is used to encrypt communications. It is also referred to as group authentication because a group of users share the same secret. When the access point is set to WPA2-PSK mode, the administrator configures a passphrase of between 8 and 63 ASCII characters. This is converted to a 256-bit [[HMAC]] (expressed as a 64-character hex value) using the [PBKDF2] key stretching [[algorithm]]. This HMAC is referred to as the pairwise master key (PMK). The same secret must be configured on the access point and on each node that joins the network. The PMK is used as part of WPA2's [[4-way handshake]] to derive various session keys.
+In WPA2, pre-shared key ([[PSK]]) authentication uses a passphrase to generate the key that is used to encrypt communications. It is also referred to as group authentication because a group of users share the same secret. When the access point is set to WPA2-PSK mode, the administrator configures a passphrase of between 8 and 63 ASCII characters. This is converted to a 256-bit [[HMAC]] (expressed as a 64-character hex value) using the [PBKDF2] key stretching [[algorithm]]. This HMAC is referred to as the pairwise master key (PMK). The same secret must be configured on the access point and on each node that joins the network. The PMK is used as part of WPA2's [[4-way handshake]] to derive various session keys.
 
 All types of Wi-Fi personal authentication have been shown to be vulnerable to attacks that allow dictionary or brute force attacks against the passphrase. At a minimum, the passphrase must be at least **14 characters** long to try to mitigate risks from cracking.
 

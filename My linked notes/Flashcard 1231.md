@@ -3835,3 +3835,5 @@ USB thumb drives?
 A fireproof safe or vault.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)A crypto erase or Instant Secure Erase (ISE) sanitizes media by encrypting the data and then erasing the cryptographic key. Degaussing is ineffective against all types of flash media, including thumb drives, SSDs, hybrid drives, and memory cards.
+
+Is 1232 Why might an ARP poisoning tool...
