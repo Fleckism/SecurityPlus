@@ -3,6 +3,6 @@
   "rightSidebarWidth": 252,
   "leftPin": false,
   "rightPin": false,
-  "leftSideEnabled": true,
+  "leftSideEnabled": false,
   "rightSideEnabled": false
 }
