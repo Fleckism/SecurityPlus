@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f25928c5379f1d42",
+        "id": "64e60353eb338f20",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Flashcard.md",
+            "file": "My linked notes/PBQ.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       }
     ],
@@ -49,10 +51,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "flash",
+                "query": "file:vul",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
@@ -79,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Flashcard.md",
+                "file": "My linked notes/PBQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Flashcard.md",
+                "file": "My linked notes/PBQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,17 +123,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "f25928c5379f1d42",
+  "active": "64e60353eb338f20",
   "lastOpenFiles": [
-    "My linked notes/Flashcard.md",
-    "Z_Notes from tests/FlashCard 4.md",
-    "Z_Notes from tests/FlashCard.md",
-    "SecurityPlus/11 C Secure Remote Access Protocols.md",
-    "My linked notes/Flashcards.md",
-    "SecurityPlus/12 A Secure Firmware.md",
-    "My linked notes/ESP.md",
-    "SecurityPlus/11 B Secure Application Protocols.md",
-    "SecurityPlus/11 A Secure Network Operations Protocols.md",
-    "My linked notes/Ports.md"
+    "My linked notes/PBQ.md",
+    "My linked notes/Working Notes.md",
+    "My linked notes/vulnerability.md",
+    "My linked notes/vulnerabilities.md",
+    "My linked notes/misconfigured.md",
+    "My linked notes/misconfigurations.md",
+    "My linked notes/factor authentication.md",
+    "My linked notes/Authentication.md",
+    "My linked notes/least privilege.md",
+    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md"
   ]
 }
