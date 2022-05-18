@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8e5a0ba97173b41b",
+        "id": "f25928c5379f1d42",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/11 C Secure Remote Access Protocols.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "a840263d4b2129e9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/12 A Secure Firmware.md",
+            "file": "My linked notes/Flashcard.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"MOU\"",
+                "query": "flash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -92,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/12 A Secure Firmware.md",
+                "file": "My linked notes/Flashcard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecurityPlus/12 A Secure Firmware.md",
+                "file": "My linked notes/Flashcard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,17 +121,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "a840263d4b2129e9",
+  "active": "f25928c5379f1d42",
   "lastOpenFiles": [
+    "My linked notes/Flashcard.md",
+    "Z_Notes from tests/FlashCard 4.md",
+    "Z_Notes from tests/FlashCard.md",
+    "SecurityPlus/11 C Secure Remote Access Protocols.md",
+    "My linked notes/Flashcards.md",
     "SecurityPlus/12 A Secure Firmware.md",
     "My linked notes/ESP.md",
-    "SecurityPlus/11 C Secure Remote Access Protocols.md",
     "SecurityPlus/11 B Secure Application Protocols.md",
     "SecurityPlus/11 A Secure Network Operations Protocols.md",
-    "My linked notes/Ports.md",
-    "My linked notes/Untitled.md",
-    "My linked notes/Acronyms/DNS.md",
-    "SecurityPlus/15 A Secure Cloud and Virtualization Services.md",
-    "My linked notes/WPS.md"
+    "My linked notes/Ports.md"
   ]
 }
