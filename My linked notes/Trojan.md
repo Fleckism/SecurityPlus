@@ -1,4 +1,5 @@
 **Trojan**—malware concealed within an installer package for software that appears to be legitimate. **This type of malware does not seek any type of consent for installation and is actively designed to operate secretly**.
+Trojans can have other [[malware]] embedded in it.
 - Intellectual property theft
 	- By using a keylogger
 -  

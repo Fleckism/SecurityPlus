@@ -17,69 +17,6 @@
           },
           "pinned": true
         }
-      },
-      {
-        "id": "783e8b45b6de6e0c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/spyware.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        },
-        "group": "1e9be2dd2ee58624"
-      },
-      {
-        "id": "a7487a9ce6a257fc",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "My linked notes/spyware.md",
-            "options": {
-              "collapse-filter": false,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": true
-            }
-          }
-        },
-        "group": "1e9be2dd2ee58624"
-      },
-      {
-        "id": "da4f33aca94664b6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Working Notes.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -114,21 +51,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:\"notes\"",
-                "matchingCase": false,
+                "query": "\"COM\"",
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": false,
+                "collapseAll": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 196,
+    "width": 317,
     "collapsed": true
   },
   "right": {
@@ -145,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/spyware.md",
+                "file": "My linked notes/PBQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/spyware.md",
+                "file": "My linked notes/PBQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,17 +124,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "a7487a9ce6a257fc",
+  "active": "64e60353eb338f20",
   "lastOpenFiles": [
-    "My linked notes/spyware.md",
-    "My linked notes/Working Notes.md",
-    "My linked notes/malware.md",
-    "My linked notes/vector.md",
     "My linked notes/PBQ.md",
-    "My linked notes/Ransomware.md",
-    "SecurityPlus/1A Information Security Roles.md",
-    "My linked notes/Test File.md",
-    "My linked notes/security control.md",
-    "My linked notes/vulnerability.md"
+    "My linked notes/hash.md",
+    "My linked notes/OLE.md",
+    "My linked notes/CISA.md",
+    "My linked notes/Trojan.md",
+    "My linked notes/Fileless.md",
+    "My linked notes/Keylogger.md",
+    "My linked notes/spyware.md",
+    "My linked notes/logic bomb.md",
+    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md"
   ]
 }
