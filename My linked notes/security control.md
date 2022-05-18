@@ -1,5 +1,5 @@
 [[security control#Links for tags|Bottom]]
-A security controls(goal) is something ( #A_D ) designed to give a system or data asset the properties of (think of them as goals)
+A security controls (goal) is something ( #A_D ) designed to give a system or data asset the properties of (think of them as goals)
 - [[confidentiality]]
 - [[integrity]]
 - [[My linked notes/Dictionary/Availability]] 

@@ -17,6 +17,32 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "9b1ca5b587a30c0c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Test File.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "d6918fc63d94d74a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/vulnerability.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -51,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:vul",
+                "query": "tag:#Implementation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469
+    "width": 196
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -81,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/PBQ.md",
+                "file": "My linked notes/Test File.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/PBQ.md",
+                "file": "My linked notes/Test File.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,17 +149,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "64e60353eb338f20",
+  "active": "9b1ca5b587a30c0c",
   "lastOpenFiles": [
-    "My linked notes/PBQ.md",
-    "My linked notes/Working Notes.md",
+    "My linked notes/Test File.md",
+    "My linked notes/security control.md",
     "My linked notes/vulnerability.md",
+    "My linked notes/PBQ.md",
+    "My linked notes/4-way handshake.md",
+    "SecurityPlus/3C  Vulnerability Scanning Technics.md",
+    "My linked notes/Working Notes.md",
     "My linked notes/vulnerabilities.md",
     "My linked notes/misconfigured.md",
-    "My linked notes/misconfigurations.md",
-    "My linked notes/factor authentication.md",
-    "My linked notes/Authentication.md",
-    "My linked notes/least privilege.md",
-    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md"
+    "My linked notes/misconfigurations.md"
   ]
 }
