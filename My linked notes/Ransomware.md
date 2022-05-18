@@ -1,5 +1,5 @@
 Ransomware is a type of #malware that tries to extort money from the victim
-
+#VariationsOfSpelling 
 - This is usually executed from a spear-fishing a high ranking manager
 	- People lower down the food chain won't have access to valuable files.
 	- 

@@ -84,6 +84,11 @@
       "type": "file",
       "title": "five functions",
       "path": "My linked notes/five functions.md"
+    },
+    {
+      "type": "file",
+      "title": "Working Notes",
+      "path": "My linked notes/Working Notes.md"
     }
   ]
 }
