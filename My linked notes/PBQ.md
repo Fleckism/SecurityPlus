@@ -45,6 +45,27 @@ Threat actors took advantage of the COVID-19 pandemic.  They knew that companies
 # 6A Implement Certificates and Certificate Authorities
 
 ![[PB6 .png]]
+Users have issues with certificates
 - Someone can't visit a website using an IP Address
 	- Likely Issue:  The cert is configured with a [[FQDN]]
 	- Likely Solution:  Connect using the FQDN.
+- Root Certificate and Secure Certificate G2 are valid
+	- Likely Issue:  Client missing chain of trust
+	- Install secure CA-G2 Cert (aka intermediate cert)
+	- Install root CA-G2 Cert
+
+
+
+
+
+
+
+# 7B Implement Knowledge-Based Authentication
+![[PB7.png]]
+
+# Scenario 
+Dealing with [[threat intelligence]] you have to reconstruct the methods of attack so that you can attempt to attribute the [[TTPs]] to a group of threat actors.  
+- The following victims fell to password attacks
+
+# Attacker 1 
+Targeted a privileged user (system administrator) in an organization that relies heavily on current  and legacy MS server technologies .
