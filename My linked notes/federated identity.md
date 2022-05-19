@@ -1,0 +1,1 @@
+This means that a user can create a digital identity with one provider, but other sites can use that identity to authorize use of an application.

@@ -63,9 +63,16 @@ Users have issues with certificates
 # 7B Implement Knowledge-Based Authentication
 ![[PB7.png]]
 
-# Scenario 
+## Scenario 
 Dealing with [[threat intelligence]] you have to reconstruct the methods of attack so that you can attempt to attribute the [[TTPs]] to a group of threat actors.  
 - The following victims fell to password attacks
 
-# Attacker 1 
-Targeted a privileged user (system administrator) in an organization that relies heavily on current  and legacy MS server technologies .
+Attacker 1 
+- Targeted a privileged user (system administrator) in an organization that relies heavily on current  and legacy MS server technologies. Forensic evidence indicates privilege escalation in which the attacker interacted with windows 10 desktop and windows server 2016 domain controllers used by the sysadmin.  The attacker engaged in enumeration of the Security Account Manager ([[SAM]])  registry hive file and eventually extracted it.
+
+Attacker 2
+- Exploited weaknesses in the credentials used by the a privileged database administrator (DBA) with access to the organizations cloud and on-premises Oracle database assets.  The attack had advanced knowledge of Amazon Linux and appeared to mimic customary activity of the DBA.  The penetration testing division of the firm re-created the attack sequence, based on forensic evidence and discovered that the DBAs password could be cracked in a matter of hours, leveraging password/hash reference database files built-in to several penetration testing applications.
+
+Attacker 3
+- Targeted a retail business executive with general access under MS Azure AD and several other Azure-based applications.  The penetration testing division of the firm re-created that attack
+

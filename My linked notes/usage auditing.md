@@ -1,0 +1,1 @@
+Usage events must be recorded in a log. Choosing which events to log will be guided by an audit policy.

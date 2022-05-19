@@ -107,7 +107,7 @@ An on-premises network can use technologies such as LDAP and Kerberos, very ofte
 
 In these models, the networks perform federated identity management. A user from one network is able to provide attestation that proves their identity. In very general terms, the process is similar to that of Kerberos authorization, and works as follows:
 
-1.  The user (principal) attempts to access a service provider (SP), or the relying party (RP). The service provider redirects the principal to the identity provider (IdP) to authenticate.
+1.  The user (principal) attempts to access a service provider (SP), or the relying party (RP). The service provider redirects the principal to the identity provider ([[IdP]]) to authenticate.
 2.  The principal authenticates with the identity provider and obtains an attestation of identity, in the form of some sort of token or document signed by the IdP.
 3.  The principal presents the attestation to the service provider. The SP can validate that the IdP has signed the attestation because of its trust relationship with the IdP.
 4.  The service provider can now connect the authenticated principal to its own accounts database. It may be able to query attributes of the user account profile held by the IdP, if the principal has authorized this type of access.

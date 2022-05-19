@@ -1424,7 +1424,8 @@ Organization Unit (OU).
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)440               How does accounting provide non-repudiation?                                                            A user's actions are logged on the system. Each user is associated with a unique computer account. As long as the user's authentication is secure and the logging system is tamper- proof, they cannot deny having performed the action.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)441               Which information resource is required to complete usage auditing?                           Usage events must be recorded in a log. Choosing which events to log will be guided by an audit policy.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)441               Which information resource is required to complete [[usage auditing]]?                           
+Usage events must be recorded in a log. Choosing which events to log will be guided by an audit policy.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif)442               What is the difference between locked and disabled accounts?                                     An account enters a locked state because of a policy violation, such as an incorrect password being entered incorrectly. Lockout is usually applied for a limited duration. An account is usually disabled manually, using the account properties. A disabled account can only be re-enabled manually.
 
@@ -1438,7 +1439,7 @@ Organization Unit (OU).
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)447               DAC (discretionary access control)                                                                                Access control model where each resource is protected by an Access Control List (ACL) managed by the resource's owner (or owners).
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)448               directory service                                                                                                               A network service that stores identity information about all the objects in a particular network, including users, groups, servers, client computers, and printers.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)448               [[directory service ]]                                                                                                              A network service that stores identity information about all the objects in a particular network, including users, groups, servers, client computers, and printers.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)449               federation                                                                                                                         A process that provides a shared login capability across multiple systems and enterprises. It essentially connects the identity management services of multiple systems.
 

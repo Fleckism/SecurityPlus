@@ -1,0 +1,2 @@
+Discretionary access control (DAC) is based on the primacy of the resource owner. The owner is originally the creator of a file or service, though ownership can be assigned to another user.  
+- The **owner is granted full control** over the resource, meaning that he or she can modify its access control list ([[ACL]]) to grant rights to others.

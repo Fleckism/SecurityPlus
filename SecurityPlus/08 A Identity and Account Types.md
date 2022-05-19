@@ -40,7 +40,7 @@ It is inconvenient for users to authenticate to each application they need to us
 
 ### Identity Providers
 
-The identity provider is the service that provisions the user account and processes authentication requests. On a private network, these identity directories and application authorization services can be operated locally. The same site operates both identity provision and application provision. Most networks now make use of third-party cloud services, however. In this scenario, various protocols and frameworks are available to implement federated identity management across web-based services. This means that a user can create a digital identity with one provider, but other sites can use that identity to authorize use of an application.
+The identity provider is the service that provisions the user account and processes authentication requests. On a private network, these identity directories and application authorization services can be operated locally. The same site operates both identity provision and application provision. Most networks now make use of third-party cloud services, however. In this scenario, various protocols and frameworks are available to implement [[federated identity]] management across web-based services. This means that a user can create a digital identity with one provider, but other sites can use that identity to authorize use of an application.
 # BACKGROUND CHECK AND ONBOARDING POLICIES 
 
 Identity and access management ([[IAM]]) involves both IT/security procedures and technologies and Human Resources (HR) policies. Personnel management policies are applied in three phases:

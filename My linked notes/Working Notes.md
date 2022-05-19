@@ -1,3 +1,4 @@
 - Look for #VariationsOfSpelling and add those variations to the "parent" note aka in [[misconfiguration]] add all the variations to [[vulnerability]] and combine with [[vulnerabilities]]. 
 - Clean up tags
 - Unlinked mentions are not in Shimmering Focus Theme
+- Synonyms ending with AC is access control

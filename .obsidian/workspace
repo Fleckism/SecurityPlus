@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "64e60353eb338f20",
+        "id": "55b59fc830789173",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,8 +13,7 @@
             "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -51,11 +49,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"COM\"",
-                "matchingCase": true,
+                "query": "PBQ",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": true,
+                "collapseAll": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -124,17 +122,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "64e60353eb338f20",
+  "active": "55b59fc830789173",
   "lastOpenFiles": [
     "My linked notes/PBQ.md",
-    "My linked notes/hash.md",
-    "My linked notes/OLE.md",
-    "My linked notes/CISA.md",
-    "My linked notes/Trojan.md",
-    "My linked notes/Fileless.md",
-    "My linked notes/Keylogger.md",
-    "My linked notes/spyware.md",
-    "My linked notes/logic bomb.md",
-    "SecurityPlus/4B  Analyze Indicators of Malware-Based Attack.md"
+    "My linked notes/assets/PB7.png",
+    "My linked notes/PB9C.md",
+    "My linked notes/Lesson 8.md",
+    "My linked notes/Lesson 6.md",
+    "My linked notes/Lesson 7.md",
+    "SecurityPlus/08 B Account Polices.md",
+    "SecurityPlus/08 D Personnel Policies.md",
+    "SecurityPlus/08 C Authorization Solutions _ Implemention _ A_D.md",
+    "My linked notes/directory schema.md"
   ]
 }

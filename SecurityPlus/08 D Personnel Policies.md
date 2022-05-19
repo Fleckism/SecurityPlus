@@ -28,7 +28,7 @@ Also important to consider is the unauthorized use of personal software by emplo
 
 ### Clean Desk Policy 
 
-A clean desk policy means that each employee's work area should be free from any documents left there. The aim of the policy is to prevent sensitive information from being obtained by unauthorized staff or guests at the workplace.
+==A clean desk policy means that each employee's work area should be free from any documents left there==. The aim of the policy is to prevent sensitive information from being obtained by unauthorized staff or guests at the workplace.
 # USER AND ROLE-BASED TRAINING
 
 Another essential component of a secure system is **effective user training**. Untrained users represent a serious vulnerability because they are susceptible to [[Social engineering]] and malware attacks and may be careless when handling sensitive or confidential data.
