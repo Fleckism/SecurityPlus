@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/PBQ.md",
+            "file": "My linked notes/asymmetric.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,11 +49,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PBQ",
+                "query": "protected authentication",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": false,
+                "collapseAll": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -63,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317,
-    "collapsed": true
+    "width": 317
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/PBQ.md",
+                "file": "My linked notes/asymmetric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/PBQ.md",
+                "file": "My linked notes/asymmetric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,15 +123,15 @@
   },
   "active": "55b59fc830789173",
   "lastOpenFiles": [
-    "My linked notes/PBQ.md",
-    "My linked notes/assets/PB7.png",
-    "My linked notes/PB9C.md",
-    "My linked notes/Lesson 8.md",
-    "My linked notes/Lesson 6.md",
-    "My linked notes/Lesson 7.md",
-    "SecurityPlus/08 B Account Polices.md",
-    "SecurityPlus/08 D Personnel Policies.md",
-    "SecurityPlus/08 C Authorization Solutions _ Implemention _ A_D.md",
-    "My linked notes/directory schema.md"
+    "My linked notes/asymmetric.md",
+    "My linked notes/Authentication.md",
+    "SecurityPlus/09 B Secure Switching and Routing.md",
+    "My linked notes/Acronyms/ICMP.md",
+    "SecurityPlus/09 D Load Balancers.md",
+    "My linked notes/Acronyms/DoS.md",
+    "SecurityPlus/09 C Secure Wireless Infrastructure.md",
+    "SecurityPlus/20 C Cybersecurity Resiliency Strategies.md",
+    "SecurityPlus/10 A Firewalls and Proxy Servers.md",
+    "My linked notes/Acronyms/MITM.md"
   ]
 }

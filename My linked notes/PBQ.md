@@ -74,5 +74,5 @@ Attacker 2
 - Exploited weaknesses in the credentials used by the a privileged database administrator (DBA) with access to the organizations cloud and on-premises Oracle database assets.  The attack had advanced knowledge of Amazon Linux and appeared to mimic customary activity of the DBA.  The penetration testing division of the firm re-created the attack sequence, based on forensic evidence and discovered that the DBAs password could be cracked in a matter of hours, leveraging password/hash reference database files built-in to several penetration testing applications.
 
 Attacker 3
-- Targeted a retail business executive with general access under MS Azure AD and several other Azure-based applications.  The penetration testing division of the firm re-created that attack
+- Targeted a retail business executive with general access under MS Azure AD and several other Azure-based applications.  The penetration testing division of the firm re-created the attack sequence based on forensic evidence and discovered that the executive referenced personal or general details in her credentials. As customary practice, the testers used the pwned passwords file available online from haveibeenpwned.com and successfully cracked the password.
 
