@@ -1,0 +1,4 @@
+Simultaneous Authentication of Equals ([[SAE]]) protocol 
+- replaces the 4-way handshake, which has been found to be vulnerable to various attacks. SAE uses the 
+- Dragonfly handshake, which is basically Diffie-Hellman over elliptic curves ([[ECDHE]]) key agreement, 
+- Combined with a hash value derived from the password and device [[MAC address]] to authenticate the nodes. With SAE, there should be no way for an attacker to sniff the handshake to obtain the hash value and try to use an offline brute-force or dictionary attack to recover the password. Dragonfly also implements [[ephemeral]], providing forward secrecy.

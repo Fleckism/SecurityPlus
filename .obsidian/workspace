@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "55b59fc830789173",
+        "id": "cf6dbb792cdfd625",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/asymmetric.md",
+            "file": "SecurityPlus/09 C Secure Wireless Infrastructure.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "103f1d04f6c82580",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/802.1X.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "protected authentication",
+                "query": "\"802.1X EAP\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317
+    "width": 317,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -79,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/asymmetric.md",
+                "file": "My linked notes/802.1X.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/asymmetric.md",
+                "file": "My linked notes/802.1X.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,17 +135,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "55b59fc830789173",
+  "active": "103f1d04f6c82580",
   "lastOpenFiles": [
-    "My linked notes/asymmetric.md",
-    "My linked notes/Authentication.md",
-    "SecurityPlus/09 B Secure Switching and Routing.md",
-    "My linked notes/Acronyms/ICMP.md",
-    "SecurityPlus/09 D Load Balancers.md",
-    "My linked notes/Acronyms/DoS.md",
+    "My linked notes/802.1X.md",
     "SecurityPlus/09 C Secure Wireless Infrastructure.md",
-    "SecurityPlus/20 C Cybersecurity Resiliency Strategies.md",
-    "SecurityPlus/10 A Firewalls and Proxy Servers.md",
-    "My linked notes/Acronyms/MITM.md"
+    "SecurityPlus/07 C Authentication Technologies.md",
+    "My linked notes/OWE.md",
+    "My linked notes/SAE.md",
+    "My linked notes/4-way handshake.md",
+    "My linked notes/PSK.md",
+    "My linked notes/PAKE.md",
+    "My linked notes/asymmetric.md",
+    "My linked notes/Authentication.md"
   ]
 }

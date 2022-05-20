@@ -1,0 +1,3 @@
+ opportunistic wireless encryption ([[OWE]]). 
+ - Uses the **Dragonfly handshake to agree with ephemeral session keys on joining the network.** This means that one station cannot sniff the traffic from another station, because they are using different session keys. There is still no [[authentication]] of the access point, however.
+ - WPA3 can implement a mode called Wi-Fi Enhanced Open, which uses OWE

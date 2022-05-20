@@ -105,7 +105,7 @@ See [tldp.org/HOWTO/8021X-HOWTO/intro.html](https://www.tldp.org/HOWTO/8021X-HOW
 
 ![Layer 2 tab under Security shows WPA+WPA2 is set with parameter WPA2 Policy-AES checked, and 802.1X is  enabled for Authentication Key Management.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3006-1599771802927.png)
 
-Using Cisco's Virtual Wireless LAN Controller to set security policies for a WLAN—this policy enforces use of WPA2 and the use of 802.1X (Enterprise) authentication. (Screenshot used with permission from Cisco.)
+Using Cisco's Virtual Wireless LAN Controller to set security policies for a WLAN—this policy enforces use of WPA2 and the use of [[802.1X]] (Enterprise) authentication. (Screenshot used with permission from Cisco.)
 # EXTENSIBLE AUTHENTICATION PROTOCOL
 
 The Extensible Authentication Protocol ([[EAP]]) defines a framework for negotiating authentication mechanisms rather than the details of the mechanisms themselves. Vendors can write extensions to the protocol to support third-party security devices. EAP implementations can include smart cards, one-time passwords, biometric identifiers, or simpler username and password combinations.
