@@ -76,3 +76,33 @@ Attacker 2
 Attacker 3
 - Targeted a retail business executive with general access under MS Azure AD and several other Azure-based applications.  The penetration testing division of the firm re-created the attack sequence based on forensic evidence and discovered that the executive referenced personal or general details in her credentials. As customary practice, the testers used the pwned passwords file available online from haveibeenpwned.com and successfully cracked the password.
 
+
+
+# 9C Implement Secure Wireless Infrastructure
+![[Pasted image 20220523191206.png]]
+Scenario
+- Setup WLAN comprised of enterprise controller and two enterprise Wireless access points ([[WAPs]])
+	- 1st AP will be indoors
+	- 2nd AP will face a private courtyard in the company building
+	- Objective of WLAN is to enforce social distancing
+- Security is a high priority classified work on premises 
+- Backward compatibility is not allowed.
+- Security is enforced over convenience
+- WLAN will be segmented and isolated from core corporate network is exclusive to employees
+- No guest or guest network
+
+Tasks
+- Select an authentication method that enforces the company's existing [[PKI]] infrastructure (**smartcards and other certificates** already used for U.S. government work).
+- Enforce usage of **next-generation Wi-Fi** for the strongest possible security.
+- Select a channel structure and throughput level that assures the **highest speed and availability possible**.
+- Select a strong security mode and encryption algorithms that enforce the highest possible confidentiality and integrity.
+- Enforce (enable) protected management frames to adhere to WPA3 standards with SSID hidden (these two factors are non-negotiable).
+
+Review
+- Usage of 802.1X EAP-TLS, RADIUS would offer a corporation the ability to apply its existing PKI infrastructure.
+- Projects supporting the U.S. Government will have access to digital certificates and smartcards
+- EAP-TLS incorporates these and additional authentication methods common in the Department of Defense projects.
+- Including PKI to 802.1.X authentication would meet the company's objectives for high authentication security. 802.1X Enterprise is the general term for 802.1X authentication and not a specific implementztion, such as 802.1X EAP-TLS with RADIUS.  PAKE, PASK, SAE and Wi-Fi Enhanced Open are features of WPA2 and WPA3 Personal.
+- Wi-Fi 6 or -ax mode, already incorporated in home and enterprise wireless networking products, correlates with improved security fatures offered by WPA3. Moreover, the array of radio bands available for 6GHz (and 5GHz) is much greater than 2.4GHz.  The scenario also specifically stated that backward compatibility to previous Wi-Fi generations is not allowed, in the interest of security, making Wi-Fi 6 the best choice.  The WPA 3 standard mandates the use of Management Protection Frames (MPF) to protect against key recovery attacks. MPF and Simultaneous Authentication of Equals (SAE)- also part of WPA3, help alleviate the problem of attacks leveled against the previous WPA2 4-way handshake process.  The now widely reported KRACK attack method from 2017 specifically targets the WPA2 handshake with replacy techniques proven to be successful.  KRACK reinforced the need for MPF and SAE now available in WPA3
+- WPA3 Enterprise adheres to the most up to date encryption, hashing, and digitial signature algorithms available. According to the Wi-Fi Alliance, enterprise security in WPA3 has increased dramatically, including changes such as the minimum required usage of 192-bit AES Galois Counter Mode Protocol (GCMP), among other high bit, high security algorithms.  WPA2 Enterprise contains weaker security features and algorithms, such as 128-bit AES CCMP.  WPA3 Personal is not acceptable for enterprise level security.
+- Througput settings would be optimal at a channel width of 80MHz as the scenario required high availability and high speeds.  The 5GHz(and 6GHz) band offers a larger array of radio bands, less congestion, less interference, and faster network performance as compared to the 2.4GHz bands, making 5-6GHz channels the best answer choice.  The wider channel (80MHz compared to 20MHz), the higher the throughput.  As an example, 160MHz channel widths are possible with 5GHz and 6GHz even though 160MHz was not an answer option.
