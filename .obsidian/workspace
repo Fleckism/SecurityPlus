@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cf6dbb792cdfd625",
+        "id": "cbfe024cd175832b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Assisted Lab 8.md",
+            "file": "My linked notes/Assisted Lab Lesson 9 (15).md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -52,7 +52,7 @@
                 "query": "file:ass",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Lab 8.md",
+                "file": "My linked notes/Assisted Lab Lesson 9 (15).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted Lab 8.md",
+                "file": "My linked notes/Assisted Lab Lesson 9 (15).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,19 +117,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
-  "active": "cf6dbb792cdfd625",
+  "active": "cbfe024cd175832b",
   "lastOpenFiles": [
+    "My linked notes/Assisted Lab Lesson 9 (15).md",
+    "My linked notes/Windows.md",
+    "My linked notes/Linux.md",
     "My linked notes/Assisted Lab 8.md",
+    "My linked notes/PBQ.md",
+    "My linked notes/Assisted Lab 10.md",
+    "My linked notes/Lesson 7.md",
     "My linked notes/assisted lab 9.md",
     "My linked notes/Assisted Lab 06.md",
-    "My linked notes/Assisted Lab 04.md",
-    "My linked notes/PBQ.md",
-    "SecurityPlus/09 C Secure Wireless Infrastructure.md",
-    "SecurityPlus/09 A Secure Network Desings.md",
-    "My linked notes/Acronyms/PBKDF2.md",
-    "My linked notes/PB9C.md",
-    "My linked notes/802.1X.md"
+    "My linked notes/Assisted Lab 04.md"
   ]
 }
