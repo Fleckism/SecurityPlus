@@ -15,24 +15,22 @@ This activity is designed to test your understanding of and ability to apply con
 
 ## Request server certificate
 
-Use IIS Manager to request a certificate for the web server, using the common name "updates.corp.515support.com." The certificate is used to provide a secure connection.
+Use IIS Manager to request a certificate for the web server The certificate is used to provide a secure connection.
 
-1.  Select the [MS1](https://labclient.labondemand.com/Instructions/49acb7a3-7e4c-4a65-ab67-5f7b978f663b?rc=10#) VM and send [Ctrl+Alt+Delete](https://labclient.labondemand.com/Instructions/49acb7a3-7e4c-4a65-ab67-5f7b978f663b?rc=10#) to dismiss the lock screen. Log on with the credentials 515sup
+ 
+- In Server Manager, select **Tools > Internet Information Services (IIS) Manager**.
+- In the Connections pane, select the **MS1** server icon (The server that you are requesting a certificate for). In the Home pane, open the **Server Certificates** applet.
     
-2.  In Server Manager, select **Tools > Internet Information Services (IIS) Manager**.
+- In the Actions pane, select **Create Domain Certificate**.
     
-3.  In the Connections pane, select the **MS1** server icon. In the Home pane, open the **Server Certificates** applet.
+- Complete the Create Certificate wizard with the following responses:
     
-4.  In the Actions pane, select **Create Domain Certificate**.
-    
-5.  Complete the Create Certificate wizard with the following responses:
-    
-    -   Common Name: updates.corp.515support.com
-    -   Organization: 515support
-    -   Organizational Unit: IT
-    -   City/locality: _your city_ or Chicago
-    -   State/province: _your state or province_ or Illinois
-    -   Country/region: _your country_ or US
+    -   Common Name: 
+    -   Organization: 
+    -   Organizational Unit:
+    -   City/locality: 
+    -   State/province: 
+    -   Country/region:
 6.  Select **Next**.
     
 7.  On the Online Certification Authority page, select the **Select** button, then select **515support-CA** and select **OK**.
@@ -44,19 +42,10 @@ Use IIS Manager to request a certificate for the web server, using the common na
 9.  Double-click on the **updates.corp.515support.com Domain-issued Certificate**, and use the certificate details to answer the following questions.
     
 10.  What is root CA in the Certification Path?
+ 
+The purpose behind Assisted Labs is to confirm your knowledge and guide you through the given configurations. If you get a scored question incorrect, you may repeat the question and achieve the correct answer. You do not need a correct answer to move forward through the lab.
     
-    corp.515support.com
-    
-    updates.corp.515support.com
-    
-    515support-CA
-    
-    Microsoft-Root-CA
-    
-    > The purpose behind Assisted Labs is to confirm your knowledge and guide you through the given configurations. If you get a scored question incorrect, you may repeat the question and achieve the correct answer. You do not need a correct answer to move forward through the lab.
-    
-    The Certification Path tab![Certification Path tab](https://labondemand.blob.core.windows.net/content/lab84054/Screen%20Shot%202020-11-07%20at%203.52.30%20PM.png)
-    
+
 11.  What is the validity period for the newly-issued certificate?
     
     One year.
