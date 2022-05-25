@@ -4,25 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "cbfe024cd175832b",
+        "id": "d9c3eded3f5e97bf",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Applied Lab 06.md",
+            "file": "My linked notes/Applied Lab 14.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       },
       {
         "id": "ba4cf828fe0eef51",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/inet.md",
+            "file": "My linked notes/Assisted Lab Lesson 9 (15).md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "83df38f6513188da",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Linux.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -62,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"inet\"",
+                "query": "\"The certificate proves\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/inet.md",
+                "file": "My linked notes/Assisted Lab Lesson 9 (15).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/inet.md",
+                "file": "My linked notes/Assisted Lab Lesson 9 (15).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,15 +152,15 @@
   },
   "active": "ba4cf828fe0eef51",
   "lastOpenFiles": [
+    "My linked notes/Assisted Lab Lesson 9 (15).md",
+    "My linked notes/Applied Lab 14.md",
+    "My linked notes/Linux.md",
+    "My linked notes/Assisted Lab 10.md",
+    "My linked notes/Active Directory.md",
+    "My linked notes/Windows.md",
+    "My linked notes/Assisted Lab 11.md",
     "My linked notes/inet.md",
     "My linked notes/Applied Lab 06.md",
-    "My linked notes/Assisted Lab Lesson 9 (15).md",
-    "My linked notes/Windows.md",
-    "My linked notes/Linux.md",
-    "My linked notes/Assisted Lab 8.md",
-    "My linked notes/PBQ.md",
-    "My linked notes/Assisted Lab 10.md",
-    "My linked notes/Lesson 7.md",
-    "My linked notes/assisted lab 9.md"
+    "My linked notes/Assisted Lab 8.md"
   ]
 }

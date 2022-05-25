@@ -157,11 +157,11 @@ To check Windows user authorization level
 To check user account member of LocalAdmin group
 
 Go to Windows Administrative tools
-- Active Directory users and Computers
+- [[Active Directory]] users and Computers
 	- Users
 		- Right click on user
 			- Member Of page
-
+![[Pasted image 20220524205559.png]]
 
 Answer the following final comprehensive questions to ensure that you recognize the importance of the activity steps and the uses for the information you have learned.
 
@@ -175,7 +175,7 @@ Answer the following final comprehensive questions to ensure that you recognize 
     
     As a local user account on MS1.
     
-    Correct
+    [[Correct]]
     
 2.  Which of the following best describes the purpose of the RADIUS client registration task in this activity?
     

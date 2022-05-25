@@ -10,6 +10,7 @@ Task Manager
 - Group by type
 - Have a good baseline of what apps are being ran and what ports they use, so you can tell if there is something off
 
+What is the difference between powershell and powershell ISE
 
 
 [[Linux]]
