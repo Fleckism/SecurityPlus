@@ -34,7 +34,7 @@ OSSIM SIEM dashboard—Configurable dashboards provide the high-level status vie
 
 ### Log Collection 
 
-The first task for SIEM is to collect data inputs from multiple sources. There are three main types of log collection:
+The first task for SIEM is to collect **data inputs** from multiple sources. There are three main types of log collection:
 
 -   **Agent-based**—with this approach, you must install an agent service on each host. As events occur on the host, logging data is filtered, aggregated, and normalized at the host, then sent to the SIEM server for analysis and storage.
 -   **Listener/collector**—rather than installing an agent, hosts can be configured to push updates to the SIEM server using a protocol such as syslog or SNMP. A process runs on the management server to parse and normalize each log/monitoring source.  

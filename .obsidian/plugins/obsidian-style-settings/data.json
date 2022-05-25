@@ -5,5 +5,6 @@
   "shimmering-focus@@show-ribbons": false,
   "shimmering-focus@@show-header-bar": false,
   "ITS@@header-borders": false,
-  "ITS@@fhvr": true
+  "ITS@@fhvr": true,
+  "ITS@@h-stbr": true
 }
