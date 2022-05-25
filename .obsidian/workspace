@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Lesson 10.md",
+            "file": "My linked notes/Acronyms/IPSec.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,10 +49,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:lesson",
+                "query": "IPSEC",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Lesson 10.md",
+                "file": "My linked notes/Acronyms/IPSec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Lesson 10.md",
+                "file": "My linked notes/Acronyms/IPSec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,15 +122,15 @@
   },
   "active": "2e6530caf1cc37a7",
   "lastOpenFiles": [
-    "My linked notes/Lesson 10.md",
-    "SecurityPlus/10 A Firewalls and Proxy Servers.md",
-    "SecurityPlus/10 C SIEM  security information and event management.md",
-    "SecurityPlus/10 B Network Security Monitoring.md",
-    "My linked notes/Acronyms/NGFW.md",
+    "My linked notes/Acronyms/IPSec.md",
+    "My linked notes/Acronyms/IKE.md",
     "My linked notes/Flashcard.md",
-    "My linked notes/PB 10A.md",
-    "My linked notes/Lesson 9.md",
-    "SecurityPlus/09 B Secure Switching and Routing.md",
-    "My linked notes/DAI.md"
+    "My linked notes/Acronyms/UDP.md",
+    "My linked notes/Ncat.md",
+    "My linked notes/Acronyms/TCP.md",
+    "SecurityPlus/11 C Secure Remote Access Protocols.md",
+    "SecurityPlus/11 B Secure Application Protocols.md",
+    "SecurityPlus/10 A Firewalls and Proxy Servers.md",
+    "My linked notes/Acronyms/SMTP.md"
   ]
 }
