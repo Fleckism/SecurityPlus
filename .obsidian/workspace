@@ -4,42 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "d9c3eded3f5e97bf",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Applied Lab 14.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "ba4cf828fe0eef51",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Assisted Lab Lesson 9 (15).md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
         "id": "83df38f6513188da",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Linux.md",
+            "file": "SecurityPlus/09 B Secure Switching and Routing.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "a5207d63cd2db8fc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/DAI.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "2e6530caf1cc37a7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Lesson 9.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -79,10 +75,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"The certificate proves\"",
+                "query": "DAI",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
@@ -109,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Lab Lesson 9 (15).md",
+                "file": "My linked notes/DAI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted Lab Lesson 9 (15).md",
+                "file": "My linked notes/DAI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,17 +146,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "ba4cf828fe0eef51",
+  "active": "a5207d63cd2db8fc",
   "lastOpenFiles": [
-    "My linked notes/Assisted Lab Lesson 9 (15).md",
-    "My linked notes/Applied Lab 14.md",
-    "My linked notes/Linux.md",
-    "My linked notes/Assisted Lab 10.md",
-    "My linked notes/Active Directory.md",
-    "My linked notes/Windows.md",
-    "My linked notes/Assisted Lab 11.md",
-    "My linked notes/inet.md",
-    "My linked notes/Applied Lab 06.md",
-    "My linked notes/Assisted Lab 8.md"
+    "My linked notes/DAI.md",
+    "SecurityPlus/09 B Secure Switching and Routing.md",
+    "My linked notes/Acronyms/DDoS.md",
+    "My linked notes/Lesson 9.md",
+    "SecurityPlus/09 D Load Balancers.md",
+    "My linked notes/Flashcard.md",
+    "My linked notes/Acronyms/ARP.md",
+    "SecurityPlus/09 C Secure Wireless Infrastructure.md",
+    "SecurityPlus/09 A Secure Network Desings.md",
+    "My linked notes/Practice 9.md"
   ]
 }
