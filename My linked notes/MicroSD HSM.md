@@ -1,0 +1,2 @@
+ small form factor hardware security module designed to store cryptographic keys securely. This allows the cryptographic material to be used with different devices, such as a laptop and smartphone.
+ - Allows for the strongest encryption possible

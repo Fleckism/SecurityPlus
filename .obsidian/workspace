@@ -9,7 +9,33 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Acronyms/IPSec.md",
+            "file": "SecurityPlus/13 A Mobile Device Management.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "d3a3c3cddbe37585",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/14 B Indicators of Web Application Attacks.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "f1172a2eb200beac",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Working Notes.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IPSEC",
+                "query": "notes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Acronyms/IPSec.md",
+                "file": "My linked notes/Working Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Acronyms/IPSec.md",
+                "file": "My linked notes/Working Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,17 +146,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "2e6530caf1cc37a7",
+  "active": "f1172a2eb200beac",
   "lastOpenFiles": [
-    "My linked notes/Acronyms/IPSec.md",
-    "My linked notes/Acronyms/IKE.md",
-    "My linked notes/Flashcard.md",
-    "My linked notes/Acronyms/UDP.md",
-    "My linked notes/Ncat.md",
-    "My linked notes/Acronyms/TCP.md",
-    "SecurityPlus/11 C Secure Remote Access Protocols.md",
-    "SecurityPlus/11 B Secure Application Protocols.md",
-    "SecurityPlus/10 A Firewalls and Proxy Servers.md",
-    "My linked notes/Acronyms/SMTP.md"
+    "My linked notes/Working Notes.md",
+    "SecurityPlus/14 B Indicators of Web Application Attacks.md",
+    "My linked notes/SSRF.md",
+    "My linked notes/EMM.md",
+    "My linked notes/MDM.md",
+    "SecurityPlus/13 A Mobile Device Management.md",
+    "My linked notes/DLP.md",
+    "My linked notes/Mobile Containerization.md",
+    "My linked notes/MicroSD HSM.md",
+    "My linked notes/Acronyms/IPSec.md"
   ]
 }

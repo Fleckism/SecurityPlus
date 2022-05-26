@@ -2,3 +2,4 @@
 - Clean up tags
 - Unlinked mentions are not in Shimmering Focus Theme
 - Synonyms ending with AC is access control
+- Go through and confirm PBQ are in notes

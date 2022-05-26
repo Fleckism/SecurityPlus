@@ -32,7 +32,7 @@ Mobile devices have replaced computers for many email and daily management tasks
 
 Enterprise mobility management ([[EMM]]) is a class of management [[software]] designed to apply security policies to the use of mobile devices and apps in the enterprise. The challenge of identifying and managing attached devices is often referred to as visibility. EMM software can be used to manage enterprise-owned devices as well as BYOD. There are two main functions of an EMM product suite:
 
--   **Mobile device management** (MDM)—sets device policies for authentication, feature use (camera and microphone), and connectivity. MDM can also allow device resets and remote wipes.
+-   **Mobile device management** ([[MDM]])—sets device policies for authentication, feature use (camera and microphone), and connectivity. MDM can also allow device resets and remote wipes.
 -   **Mobile application management** (MAM)—sets policies for apps that can process corporate data, and prevents data transfer to personal apps. This type of solution configures an enterprise-managed container or workspace.
 
 **Additionally, distinguishing whether client endpoints are mobile or fixed is not really a critical factor** for many of these management tasks, with the consequence that the latest suites aim for visibility across PC, laptop, smartphone, tablet, and even IoT devices. These suites are called unified **endpoint managemen**t (UEM) ([redmondmag.com/Articles/2017/10/01/Unified-Endpoint-Management.aspx](https://redmondmag.com/Articles/2017/10/01/Unified-Endpoint-Management.aspx)).
@@ -107,7 +107,7 @@ In iOS, Data Protection encryption is enabled automatically when you configure a
 
 A mobile device contains a solid state (flash memory) drive for persistent storage of apps and data. Some Android handsets support removable storage using external media, such as a plug-in Micro **SecureDigital** (SD) card slot; some may support the connection of USB-based storage devices. The mobile OS encryption software might allow encryption of the removable storage too but this is not always the case. Care should be taken to apply encryption to storage cards using third-party software if necessary and to limit sensitive data being stored on them.
 
-A MicroSD HSM is a small form factor hardware security module designed to store cryptographic keys securely. This allows the cryptographic material to be used with different devices, such as a laptop and smartphone.
+A [[MicroSD HSM]] is a small form factor hardware security module designed to store cryptographic keys securely. This allows the cryptographic material to be used with different devices, such as a laptop and smartphone.
 # LOCATION SERVICES 
 
 Geolocation is the use of network attributes to identify (or estimate) the physical position of a device. The device uses location services to determine its current position. Location services can make use of two systems:
