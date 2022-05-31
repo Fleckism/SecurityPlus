@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "notes",
+                "query": "\"action on objectives\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
