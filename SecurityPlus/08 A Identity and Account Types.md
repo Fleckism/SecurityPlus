@@ -1,7 +1,7 @@
 ---
 tags: [GRC, implementation,section]
 ---
-# ## 
+associated with #GRC
 
 LESSON INTRODUCTION
 

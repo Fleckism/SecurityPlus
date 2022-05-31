@@ -2,7 +2,7 @@
 tags: [Implementation,section]
 ---
 # EXAM OBJECTIVES COVERED
-
+#Implementation 
 2.1 Explain the importance of security concepts in an enterprise environment
 
 3.1 Given a scenario, implement secure protocols

@@ -1,5 +1,5 @@
-**public key infrastructure**
-#GRC PKI Trust Models
+**public key infrastructure** associated with #GRC 
+PKI Trust Models
 - Single [[CA]]
 - Hierarchical (Intermediate CA)
 - [[6A Certificates and  Certificate Authorities#PKI TRUST MODELS |PKI trust model]]

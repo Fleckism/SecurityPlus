@@ -6,9 +6,68 @@
       {
         "id": "ce48deea1df89a02",
         "type": "leaf",
+        "pinned": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/CA.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        },
+        "group": "c485f0da6c52c0c3"
+      },
+      {
+        "id": "378a1254fda0d673",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "My linked notes/Acronyms/CA.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
+            }
+          },
+          "pinned": true
+        },
+        "group": "c485f0da6c52c0c3"
+      },
+      {
+        "id": "8220d3b2ad7f9843",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SecurityPlus/08 A Identity and Account Types.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -75,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/Acronyms/CA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "My linked notes/Acronyms/CA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,17 +175,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "ce48deea1df89a02",
+  "active": "378a1254fda0d673",
   "lastOpenFiles": [
-    "My linked notes/security assessment.md",
-    "My linked notes/Security Assessments.md",
-    "SecurityPlus/3C  Vulnerability Scanning Technics.md",
-    "My linked notes/security assesment.md",
-    "SecurityPlus/2A Threat actor types and attack vectors.md",
-    "My linked notes/assessment.md",
+    "My linked notes/Acronyms/CA.md",
+    "SecurityPlus/08 A Identity and Account Types.md",
+    "SecurityPlus/5B Cryptographic Modes of Operation.md",
     "SecurityPlus/11 B Secure Application Protocols.md",
-    "My linked notes/Each part of the communications media network infrastructure needs to be evaluated for threats and vulnerabilities..md",
-    "My linked notes/Dictionary/Availability.md",
-    "My linked notes/security control.md"
+    "SecurityPlus/6A Certificates and  Certificate Authorities.md",
+    "My linked notes/certificate policy.md",
+    "My linked notes/hierarchical model.md",
+    "My linked notes/CSR.md",
+    "My linked notes/Acronyms/PKI.md",
+    "SecurityPlus/6B PKI Management.md"
   ]
 }

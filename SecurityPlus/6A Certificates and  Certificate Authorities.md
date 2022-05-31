@@ -1,6 +1,4 @@
----
-tags: [GRC,,section]
----
+#GRC
 # LESSON INTRODUCTION
 
 Digital certificates and public key infrastructure ([[PKI]]) are critical services used to manage identification, authentication, and data confidentiality across most private and public networks. It is important that you understand the types of certificate that can be issued and are able to apply effective management principles when configuring and supporting these systems.

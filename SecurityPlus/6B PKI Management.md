@@ -4,7 +4,7 @@ tags: [GRC,section]
 # EXAM OBJECTIVES COVERED
 
 3.9 Given a scenario, implement public key infrastructure[[PKI]]
-
+#GRC 
 4.1 Given a scenario, use the appropriate tool to assess organizational security (OpenSSL only)
 
 As a security professional, you are very likely to have to install and maintain [[public key infrastructure]] (PKI) certificate services for private networks. **You may also need to obtain and manage certificates from public PKI providers.** This topic will help you to install and configure PKI and to troubleshoot and revoke certificates.

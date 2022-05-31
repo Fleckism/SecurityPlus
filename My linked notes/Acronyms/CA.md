@@ -1,4 +1,4 @@
-**certificate authority**
+**certificate authority** is tied closely to #GRC 
 - A server that guarantees subject identities by issuing signed digital certificate wrappers for their public keys
 The functions of a CA are as follows:
 The certificate contains the 
@@ -11,7 +11,7 @@ The certificate contains the
 -   Perform key and certificate lifecycle management, notably revoking invalid certificates.
 **Add things from [[6A Certificates and  Certificate Authorities]] and [[6B PKI Management]]**
 **Add acronyms from above into file with no links**
-#zFleck 
+
 
 ![[Pasted image 20220511073900.png]]
 

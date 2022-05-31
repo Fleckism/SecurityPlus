@@ -4,7 +4,7 @@ tags: [Implementation,section]
 # EXAM OBJECTIVES COVERED
 
 2.5 Given a scenario, implement cybersecurity resilience
-
+#A_D 
 No [[cybersecurity program]] is complete without an effective and tested system for backing up and restoring critical data and system configurations. As a security professional, you need to be able to select appropriate backup types and media for different scenarios and explain how [[nonpersistence]] can achieve more secure system configurations, as well as maintaining high [[My linked notes/Dictionary/Availability]].
 # BACKUPS AND RETENTION POLICY
 
