@@ -92,7 +92,7 @@ One element of [[endpoint]] configuration is an execution control policy that de
 -   **An allow list** (or approved list) denies execution unless the process is explicitly authorized.
 -   **A block list** (or deny list) generally allows execution, but explicitly prohibits listed processes.
 
-You will need to update the contents of allow lists and block lists in response to incidents and as a result of ongoing [[threat hunting]] and monitoring. [[threat hunting]] may also provoke a strategic change. For example, if you rely principally on **explicit denies**, but your systems are subject to numerous intrusions, you will have to consider adopting a "**least privileges**" model and using a deny-unless-listed approach. This sort of change has the potential to be highly disruptive however, so it must be preceded by a [[risk assesment]] and business impact analysis.
+You will need to update the contents of allow lists and block lists in response to incidents and as a result of ongoing [[threat hunting]] and monitoring. [[threat hunting]] may also provoke a strategic change. For example, if you rely principally on **explicit denies**, but your systems are subject to numerous intrusions, you will have to consider adopting a "**least privileges**" model and using a deny-unless-listed approach. This sort of change has the potential to be highly disruptive however, so it must be preceded by a [[risk assessment]] and business impact analysis.
 
 Execution control can also be tricky to configure effectively, with many opportunities for [[threat actor]]s to evade the controls. Detailed analysis of the attack might show the need for changes to the existing mechanism, or the use of a more robust system.
 

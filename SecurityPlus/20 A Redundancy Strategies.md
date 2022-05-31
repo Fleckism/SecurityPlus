@@ -21,7 +21,7 @@ In this lesson, you will:
 
 2.5 Given a scenario, implement cybersecurity resilience
 
-The output of [[risk assesment]]s and business impact analysis will identify vulnerable business processes. To reduce risks in these processes, you can make the IT systems and other business systems that support them resilient to failure. You must be able to install and configure the systems that provide redundancy for power supply, networking, and storage systems.
+The output of [[risk assessment]]s and business impact analysis will identify vulnerable business processes. To reduce risks in these processes, you can make the IT systems and other business systems that support them resilient to failure. You must be able to install and configure the systems that provide redundancy for power supply, networking, and storage systems.
 # HIGH [[My linked notes/Dictionary/Availability]]
 
 One of the key properties of a [[resilient]] system is high [[My linked notes/Dictionary/Availability]]. [[My linked notes/Dictionary/Availability]] is the percentage of time that the system is online, measured over the defined period, typically one year. The corollary of [[My linked notes/Dictionary/Availability]] is downtime, or the amount of time for which the system is unavailable. The maximum tolerable downtime (MTD) metric expresses the [[My linked notes/Dictionary/Availability]] requirement for a particular business function. High [[My linked notes/Dictionary/Availability]] is usually loosely described as 24x7 (24 hours per day, 7 days per week) or 24x365 (24 hours per day, 365 days per year). For a critical system, [[My linked notes/Dictionary/Availability]] will be described as "two-nines" (99%) up to five- or six-nines (99.9999%):

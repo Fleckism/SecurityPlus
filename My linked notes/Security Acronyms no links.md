@@ -43,7 +43,7 @@
   (OSI) Open Systems Interconnection
 (OWASP) Open Web Application Security Project 
   Payment Card Industry Data Security Standard (PCI DSS)
-(RAM) [[risk assesment]] Method
+(RAM) [[risk assessment]] Method
   remote access trojan (RAT)
 (RFC) Request for Comments  2A
  Round trip time (RTT)

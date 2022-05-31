@@ -12,7 +12,7 @@ An **intrusion detection system** ([[IDS]]) is a means of using software tools t
 
 A NIDS, such as Snort ([snort.org](https://www.snort.org/)), Suricata ([suricata-ids.org](https://suricata-ids.org/)), or Zeek/Bro ([zeek.org](https://zeek.org/)) performs passive detection. When traffic is matched to a detection signature, it raises an alert or generates a log entry, but does not block the source host. This type of passive sensor does not slow down traffic and is undetectable by the attacker. It does not have an IP address on the monitored network segment.
 
-A **NIDS is used to identify and log hosts and applications and to detect attack signatures, password guessing attempts, port scans, worms, backdoor applications, malformed packets or sessions, and policy violations (ports or IP addresses that are not permitted, for instance). You can use analysis of the logs to tune firewall rulesets, remove or block suspect hosts and processes from the network, or deploy additional [[security controls]] to mitigate any threats you identify.**
+A **NIDS is used to identify and log hosts and applications and to detect attack signatures, password guessing attempts, port scans, worms, backdoor applications, malformed packets or sessions, and policy violations (ports or IP addresses that are not permitted, for instance). You can use analysis of the logs to tune firewall rulesets, remove or block suspect hosts and processes from the network, or deploy additional [[security control]] to mitigate any threats you identify.**
 
 ![Kibana dashboard showing a single alert of type "Possible Trojan Downloader"](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/6926-1599771804743.png)
 

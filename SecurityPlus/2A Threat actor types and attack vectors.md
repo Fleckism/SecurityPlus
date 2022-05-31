@@ -4,7 +4,7 @@ tags: [OIR,,section ]
 
 ## LESSON INTRODUCTION
 
-To make an effective security ,[[assessment]] you must be able to explain strategies for both defense and attack. Your responsibilities are likely to lie principally in defending assets, but to do this you must be able to explain the ([[TTPs]]) tactics, techniques, and procedures of [[threat actor]]s. You must also be able to differentiate the types and capabilities of [[threat actor]]s. As the threat landscape is continually evolving, you must also be able to identify reliable sources of threat intelligence and research.
+To make an effective [[security assessment]] you must be able to explain strategies for both defense and attack. Your responsibilities are likely to lie principally in defending assets, but to do this you must be able to explain the ([[TTPs]]) tactics, techniques, and procedures of [[threat actor]]s. You must also be able to differentiate the types and capabilities of [[threat actor]]s. As the threat landscape is continually evolving, you must also be able to identify reliable sources of threat intelligence and research.
 
 Lesson Objectives
 

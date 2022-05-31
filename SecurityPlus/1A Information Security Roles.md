@@ -90,7 +90,7 @@ Within the goal of ensuring information security, cybersecurity refers specifica
  [[implementation]] or  [[OIR]]
 IT professionals working in a role with security responsibilities must be competent in a wide range of disciplines, from network and application design to procurement and human resources (HR). The following activities might be typical of such a role: 
 
--   Participate in [[risk assesment]]s and testing of security systems and make recommendations. 
+-   Participate in [[risk assessment]]s and testing of security systems and make recommendations. 
 -   Specify, source, install, and configure secure devices and software.
 -   Set up and maintain document access control and user privilege profiles.
 -   Monitor audit logs, review user privileges, and document access controls.

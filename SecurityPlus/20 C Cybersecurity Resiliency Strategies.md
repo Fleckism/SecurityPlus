@@ -78,7 +78,7 @@ For many companies, the most cost-effective solution is to move processing and d
 
 ### Technology and Control Diversity
 
-Allied with defense in depth is the concept of security through (or with) diversity. Technology diversity refers to environments that are a mix of operating systems, applications, coding languages, virtualization solutions, and so on. Control diversity means that the layers of controls should combine different classes of [[technical]] and [[administrative]] [[controls]] with the range of control functions: prevent, detect, correct, and deter.
+Allied with defense in depth is the concept of security through (or with) diversity. Technology diversity refers to environments that are a mix of operating systems, applications, coding languages, virtualization solutions, and so on. Control diversity means that the layers of controls should combine different classes of [[technical]] and [[administrative controls]] with the range of control functions: prevent, detect, correct, and deter.
 
 Consider the scenario where Alan from marketing is sent a USB stick containing designs #A_D for a new billboard campaign from an agency. Without defense in depth, Alan might find the USB stick on his desk in the morning, plug it into his laptop without much thought, and from that point is potentially vulnerable to compromise. There are many opportunities in this scenario for an attacker to tamper with the media: at the agency, in the post, or at Alan's desk.
 

@@ -2,7 +2,7 @@
 
 5.4 Summarize ( #GRC) risk management processes and concepts
 
-Business impact analysis informs [[risk assesment]] by documenting the workflows that run the organization and the critical assets and systems that support them. Key metrics quantify how much downtime those systems can withstand. As a security professional, you will often be asked to produce this type of analysis.
+Business impact analysis informs [[risk assessment]] by documenting the workflows that run the organization and the critical assets and systems that support them. Key metrics quantify how much downtime those systems can withstand. As a security professional, you will often be asked to produce this type of analysis.
 # BUSINESS IMPACT ANALYSIS
 
 Business impact analysis ([[BIA]]) is the process of assessing what losses might occur for a range of threat scenarios. For instance, if a DDoS attack suspends an e-commerce portal for five hours, the business impact analysis will be able to quantify the losses from orders not made and customers moving permanently to other suppliers based on historic data. The likelihood of a DoS attack can be assessed on an annualized basis to determine annualized impact, in terms of costs. You then have the information required to assess whether a security control, such as load balancing or managed DDoS mitigation, is worth the investment.
@@ -77,9 +77,9 @@ An environmental disaster, or natural disaster, is one that could not be prevent
 
 Most natural or environmental disasters can also have a human or artificial source. For example, flooding might be more likely because dams are not adequately maintained; a wildfire could be the result of arson or poorly maintained power infrastructure.
 
-### Site [[risk assesment]]
+### Site [[risk assessment]]
 
-Where cybersecurity generally has financial impacts, site safety can have impacts to life and property. A site [[risk assesment]] evaluates exposure to the following types of factor:
+Where cybersecurity generally has financial impacts, site safety can have impacts to life and property. A site [[risk assessment]] evaluates exposure to the following types of factor:
 
 -   Risk from disaster events, such as earthquake, flood, and fire. These events can occur naturally or from person-made causes.
 -   Risk from disruption to utilities, such as electricity, water, and transportation. These risks are higher in geographically isolated sites.

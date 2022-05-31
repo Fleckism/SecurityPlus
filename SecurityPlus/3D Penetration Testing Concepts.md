@@ -21,7 +21,7 @@ The key difference from passive vulnerability assessment is that an attempt is m
 
 ## RULES OF ENGAGEMENT 
 
-[[security assesment]]s might be performed by employees or may be contracted to consultants or other third parties. Rules of engagement specify what activity is permitted or not permitted. These rules should be made explicit in a contractual agreement. For example, a pen test should have a concrete objective and scope rather than a vague type of "Break into the network" aim. There may be systems and data that the penetration tester should not attempt to access or exploit. Where a pen test involves third-party services (such as a cloud provider), authorization to conduct the test must also be sought from the third party.
+[[security assessment]]s might be performed by employees or may be contracted to consultants or other third parties. Rules of engagement specify what activity is permitted or not permitted. These rules should be made explicit in a contractual agreement. For example, a pen test should have a concrete objective and scope rather than a vague type of "Break into the network" aim. There may be systems and data that the penetration tester should not attempt to access or exploit. Where a pen test involves third-party services (such as a cloud provider), authorization to conduct the test must also be sought from the third party.
 
 The Pentest-Standard website provides invaluable commentary on the conduct of pen tests ([pentest-standard.readthedocs.io/en/latest/tree.html](https://pentest-standard.readthedocs.io/en/latest/tree.html)).
 

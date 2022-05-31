@@ -6,7 +6,7 @@
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security
 
-As a security technician, you will often have to develop automation scripts, using a range of programming and scripting languages. Scripts can be used to return critical [[security assesment]] data and to configure hosts, so it is important that only validated code can be executed. You should also be able to identify malicious code in scripts and macros.
+As a security technician, you will often have to develop automation scripts, using a range of programming and scripting languages. Scripts can be used to return critical [[security assessment]] data and to configure hosts, so it is important that only validated code can be executed. You should also be able to identify malicious code in scripts and macros.
 # SCRIPTING
 
 Automation using scripting means that each configuration or build task is performed by a block of code. The script will take standard arguments as data, so there is less scope for uncertainty over configuration choices leading to errors. A [[script]] will use the following elements:

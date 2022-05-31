@@ -118,7 +118,7 @@ On Linux, use of netstat is deprecated in favor of the ss **(Suspicious network 
 ![Screenshot shows "*** Can't list domain comptia.org: Query refused".](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/9882-1599771794985.png)
 ## OTHER [[reconnaissance]] AND DISCOVERY TOOLS
 
-There are hundreds of tools relevant to [[security assesment]]s, network [[reconnaissance]], vulnerability scanning, and penetration testing. Security distributions specialize in bundling these tools for Linux—notably KALI ([kali.org](https://www.kali.org/)) plus ParrotOS ([parrotlinux.org](https://parrotlinux.org/))—and Windows ([fireeye.com/blog/threat-research/2019/03/commando-vm-windows-offensive-distribution.html](https://www.fireeye.com/blog/threat-research/2019/03/commando-vm-windows-offensive-distribution.html)).
+There are hundreds of tools relevant to [[security assessment]]s, network [[reconnaissance]], vulnerability scanning, and penetration testing. Security distributions specialize in bundling these tools for Linux—notably KALI ([kali.org](https://www.kali.org/)) plus ParrotOS ([parrotlinux.org](https://parrotlinux.org/))—and Windows ([fireeye.com/blog/threat-research/2019/03/commando-vm-windows-offensive-distribution.html](https://www.fireeye.com/blog/threat-research/2019/03/commando-vm-windows-offensive-distribution.html)).
 
 ### theHarvester
 

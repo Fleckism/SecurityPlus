@@ -10,7 +10,7 @@ These assessments involve
 
 
 # The main types
-security [[assessment]]  are usually classed as 
+[[security assessment]]  are usually classed as 
 - **vulnerability assessment, 
 - **[[threat hunting]]**, and 
 - **penetration testing**. 
@@ -28,7 +28,7 @@ Is an evaluation of a **system's security** and ability to meet **compliance req
 Taken From
 ([nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/nistspecialpublication800-30r1.pdf)).
 
-[[security assesment]] refers to processes and tools that **evaluate the attack surface**.:
+[[security assessment]] refers to processes and tools that **evaluate the attack surface**.:
 
  The process of mapping out the attack surface is referred to as network [[reconnaissance]] and discovery
 
@@ -51,7 +51,7 @@ next step in
 - **network reconnaissance** is to work out which operating systems are in use, which network services each host is running, and, if possible, which application software is underpinning those services.
 
 Are these all the steps in an assessment?
-- [[security assesment]]s, network reconnaissance, vulnerability scanning, and penetration testing
+- [[security assessment]]s, network reconnaissance, vulnerability scanning, and penetration testing
 - ==Network reconnaissance and discovery is used to identify hosts, network topology, and open services/ports, establishing an overall attack surface.==
 
 - Network [[reconnaissance]]... is it the same as Evaluate attack surface 
@@ -74,7 +74,7 @@ Are these all the steps in an assessment?
  
  OS fingerprinting
  
- Packet and protocol analysis is another crucial [[security assesment]] and monitoring process:
+ Packet and protocol analysis is another crucial [[security assessment]] and monitoring process:
  -   Packet analysis refers to deep-down frame-by-frame scrutiny of captured frames.
 -   Protocol analysis means using statistical tools to analyze a sequence of packets, or packet trace.
 
@@ -83,3 +83,5 @@ A **protocol analyzer** (or packet analyzer) works in conjunction with a sniffer
 [[packet injection]]: Some reconnaissance techniques and tests depend on sending forged or spoofed network traffic. Often, network sniffing software libraries allow frames to be inserted (or injected) into the network stream. There are also tools that allow for different kinds of packets to be crafted and manipulated. Well-known tools used for 
 
 [[3C  Vulnerability Scanning Technics]]
+
+[[security assessment]]
