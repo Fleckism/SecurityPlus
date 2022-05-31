@@ -9,7 +9,7 @@ tags: [section]
 
 3.3 Given a scenario, implement secure network designs #A_D 
 #A_D 
-**[[Attack]]s aimed at low-level networking functions can be highly effective**. To implement a network design that demonstrates confidentiality, integrity, and [[My linked notes/Dictionary/Availability]], you must configure switches and routers with appropriate settings. These devices can be used to enforce network access control mechanisms and ensure fault-tolerant paths within the network.
+**[[Attack]]s aimed at low-level networking functions can be highly effective**. To implement a network design that demonstrates confidentiality, integrity, and [[Availability]], you must configure switches and routers with appropriate settings. These devices can be used to enforce network access control mechanisms and ensure fault-tolerant paths within the network.
 # MAN-IN-THE-MIDDLE AND LAYER 2 ATTACKS 
 
 Attacks at the physical and data link layers, referred to in the OSI model as layer 1 and layer 2, are often focused on information gathering—network mapping and eavesdropping on network traffic.

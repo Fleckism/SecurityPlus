@@ -49,7 +49,7 @@ For mission essential functions, it is important to **reduce the number of depen
 -   Process flow—a step-by-step description of how the function is performed.
 # SINGLE POINTS OF FAILURE
 
-Each IT system will be supported by hardware assets, such as servers, disk arrays, switches, routers, and so on. Reducing dependencies means the system design can more easily eliminate the sort of weakness that comes from these devices becoming single points of failure ([[SPoF]]). A SPoF is an asset that causes the entire workflow to fail if it is damaged or otherwise not available. SPoFs can be mitigated by provisioning redundant components. Metrics for asset reliability can help to determine when and how much redundancy is required. Some of the main KPIs relating to service [[My linked notes/Dictionary/Availability]] are as follows:
+Each IT system will be supported by hardware assets, such as servers, disk arrays, switches, routers, and so on. Reducing dependencies means the system design can more easily eliminate the sort of weakness that comes from these devices becoming single points of failure ([[SPoF]]). A SPoF is an asset that causes the entire workflow to fail if it is damaged or otherwise not available. SPoFs can be mitigated by provisioning redundant components. Metrics for asset reliability can help to determine when and how much redundancy is required. Some of the main KPIs relating to service [[Availability]] are as follows:
 
 -   Mean time to failure ([[MTTF]]) and mean time between failures (MTBF) represent the expected lifetime of a product. MTTF should be used for non-repairable assets. For example, a hard drive may be described with an MTTF, while a server (which could be repaired by replacing the hard drive) would be described with an MTBF. You will often see MTBF used indiscriminately, however. For most devices, failure is more likely early or late in life, producing the so-called "bathtub curve."  
       
@@ -95,7 +95,7 @@ Disaster recovery plans ([[DRPs]]) describe the specific procedures to follow to
 
 -   Who is responsible for doing what? How can they be contacted? What happens if they are not available?
 -   Which functions are most critical? Where should effort first be concentrated?
--   What resources are available? Should they be pre-purchased and held in stock? Will the disaster affect [[My linked notes/Dictionary/Availability]] of supplies?
+-   What resources are available? Should they be pre-purchased and held in stock? Will the disaster affect [[Availability]] of supplies?
 -   What are the timescales for resumption of normal operations?
 
 3.  Train staff in the disaster planning procedures and how to react well to change.

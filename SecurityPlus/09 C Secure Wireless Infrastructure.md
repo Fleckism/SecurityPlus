@@ -10,7 +10,7 @@ tags: [Ops, Implementation,section]
 Most organizations have both a wired and a wireless network for employees to access while on the move within their facilities. Understanding the potential threats and vulnerabilities will allow you to successfully secure the wireless components of an organization's information systems infrastructure.
 # WIRELESS NETWORK INSTALLATION CONSIDERATIONS
 
-Wireless network installation considerations refer to the factors that ensure good [[My linked notes/Dictionary/Availability]] of authorized Wi-Fi access points. A network with patchy coverage is vulnerable to rogue and evil twin attacks.
+Wireless network installation considerations refer to the factors that ensure good [[Availability]] of authorized Wi-Fi access points. A network with patchy coverage is vulnerable to rogue and evil twin attacks.
 
 The 5 GHz band has more space to configure non-overlapping channels. Also note that a [[WAP]] can use bonded channels to improve bandwidth, but this increases risks from interference.
 
@@ -30,7 +30,7 @@ The coverage and interference factors mean that WAPs must be positioned and conf
 These readings are combined and analyzed to produce a heat map, showing where a signal is strong (red) or weak (green/blue), and which channel is being used and how they overlap. This data is then used to optimize the design, by adjusting transmit power to reduce a WAP's range, changing the channel on a WAP, adding a new WAP, or physically moving a WAP to a new location.
 # CONTROLLER AND ACCESS POINT SECURITY 
 
-Where a site survey ensures [[My linked notes/Dictionary/Availability]], the confidentiality and integrity properties of the network are ensured by configuring authentication and encryption. These settings could be configured manually on each WAP, but this would be onerous in an enterprise network with tens or hundreds of WAP. If access points are individually managed, this can lead to configuration errors and can make it difficult to gain an overall view of the wireless deployment, including which clients are connected to which access points and which clients or access points are handling the most traffic.
+Where a site survey ensures [[Availability]], the confidentiality and integrity properties of the network are ensured by configuring authentication and encryption. These settings could be configured manually on each WAP, but this would be onerous in an enterprise network with tens or hundreds of WAP. If access points are individually managed, this can lead to configuration errors and can make it difficult to gain an overall view of the wireless deployment, including which clients are connected to which access points and which clients or access points are handling the most traffic.
 
 Rather than configure each device individually, enterprise wireless solutions implement wireless controllers for centralized management and monitoring. A controller can be a hardware appliance or a software application run on a server.
 

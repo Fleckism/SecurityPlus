@@ -64,13 +64,13 @@ A device such as a smartphone can also be used to receive a uniquely generated a
 A _biometric factor_ uses either physiological identifiers, such as a fingerprint, or behavioral identifiers, such as the way someone moves (gait). The identifiers are scanned and recorded as a template. When the user authenticates, another scan is taken and compared to the template.
 # AUTHENTICATION DESIGN 
 
-_[[Authentication]] design_ refers to selecting a technology that meets requirements for confidentiality, integrity, and [[My linked notes/Dictionary/Availability]]:
+_[[Authentication]] design_ refers to selecting a technology that meets requirements for confidentiality, integrity, and [[Availability]]:
 
 -   _Confidentiality,_ in terms of authentication, is critical, because if account credentials are leaked, [[threat actor]]s can impersonate the account holder and act on the system with whatever rights they have.
 -   _Integrity_ means that the authentication mechanism is reliable and not easy for [[threat actor]]s to bypass or trick with counterfeit credentials.
 -   _Availability_ means that the time taken to authenticate does not impede workflows and is easy enough for users to operate.
 
-Authentication is used in different contexts and factors are not always well-suited to a context. For example, you might authenticate to a PC by inputting a password to get access to the device. This might also authenticate you to a network. But authentication is also used for physical security. If you consider numerous employees arriving for work, asking them to type a password to gain access to the building would take too long and cause huge disruption (**lack of [[My linked notes/Dictionary/Availability]]**). It is also highly likely that passwords would be observed (**lack of confidentiality**). Finally, it is likely that users would simply start holding the door open for each other (**lack of integrity**). Authentication design tries to anticipate these issues and implements a technology that fits the use case.
+Authentication is used in different contexts and factors are not always well-suited to a context. For example, you might authenticate to a PC by inputting a password to get access to the device. This might also authenticate you to a network. But authentication is also used for physical security. If you consider numerous employees arriving for work, asking them to type a password to gain access to the building would take too long and cause huge disruption (**lack of [[Availability]]**). It is also highly likely that passwords would be observed (**lack of confidentiality**). Finally, it is likely that users would simply start holding the door open for each other (**lack of integrity**). Authentication design tries to anticipate these issues and implements a technology that fits the use case.
 
 (See [[security control]])
 # MULTIFACTOR AUTHENTICATION 

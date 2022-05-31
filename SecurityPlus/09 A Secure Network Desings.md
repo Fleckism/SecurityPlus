@@ -5,7 +5,7 @@ tags: [A_D, Implementation,section]
 
 LESSON INTRODUCTION
 
-Managing user authentication and authorization is only one part of building secure information technology services. The network infrastructure must also be designed to run services with the properties of confidentiality, integrity, and [[My linked notes/Dictionary/Availability]]. While design might not be a direct responsibility for you at this stage in your career, you should understand the factors that underpin design decisions, and be able to **implement a design by deploying routers, switches, access points, and load balancers in secure configurations.**
+Managing user authentication and authorization is only one part of building secure information technology services. The network infrastructure must also be designed to run services with the properties of confidentiality, integrity, and [[Availability]]. While design might not be a direct responsibility for you at this stage in your career, you should understand the factors that underpin design decisions, and be able to **implement a design by deploying routers, switches, access points, and load balancers in secure configurations.**
 
 ## 
 
@@ -26,11 +26,11 @@ While you may not be responsible for network design in your current role, it is 
 
 # SECURE NETWORK designs #A_D
 
-A [[secure network design]] provisions the assets and services underpinning business workflows with the properties of confidentiality, integrity, and [[My linked notes/Dictionary/Availability]]. Weaknesses in the network architecture #A_D make it more susceptible to undetected intrusions or to catastrophic service failures. Typical weaknesses include:
+A [[secure network design]] provisions the assets and services underpinning business workflows with the properties of confidentiality, integrity, and [[Availability]]. Weaknesses in the network architecture #A_D make it more susceptible to undetected intrusions or to catastrophic service failures. Typical weaknesses include:
 
 -   **Single points of failure**—a "pinch point" relying on a single hardware server or appliance or network channel.
 -   **Complex dependencies**—services that require many different systems to be available. Ideally, the failure of individual systems or services should not affect the overall performance of other network services.
--   **[[My linked notes/Dictionary/Availability]] over confidentiality and integrity**—often it is tempting to take "shortcuts" to get a service up and running. Compromising security might represent a quick fix but creates long term risks.
+-   **[[Availability]] over confidentiality and integrity**—often it is tempting to take "shortcuts" to get a service up and running. Compromising security might represent a quick fix but creates long term risks.
 -   **Lack of documentation and change control**—network segments, appliances, and services might be added without proper change control procedures, leading to a lack of visibility into how the network is constituted. It is vital that network managers understand business workflows and the network services that underpin them.
 -   **Overdependence on perimeter security**—if the network architecture #A_D is **"flat"** (that is, if any host can contact any other host), penetrating the network edge gives the attacker freedom of movement.
 
@@ -96,7 +96,7 @@ Assuming an Ethernet network, network segments can be established physically by 
 Because enterprise networks typically feature hundreds of switching appliances and network ports (not to mention wireless access and remote access), segmentation is more likely to be enforced using virtual LANs ([[VLANs]]). Any given switch port can be assigned to any VLAN in the same topology, regardless of the physical location of the switch. The segmentation enforced by VLANs at layer 2 can be mapped to logical divisions enforced by IP subnets at layer 3.
 # NETWORK TOPOLOGY AND ZONES 
 
-Given the ability to create segregated segments with the network, you can begin to define a topology of different network zones. **A topology is a description of how a computer network is physically or logically organized.** The logical and physical network topology should be analyzed to identify points of vulnerability and to ensure that the goals of confidentiality, integrity, and [[My linked notes/Dictionary/Availability]] are met by the design.
+Given the ability to create segregated segments with the network, you can begin to define a topology of different network zones. **A topology is a description of how a computer network is physically or logically organized.** The logical and physical network topology should be analyzed to identify points of vulnerability and to ensure that the goals of confidentiality, integrity, and [[Availability]] are met by the design.
 
 The main building block of a security [[Topology discovery|Topology]] is the [[zone]]. A zone is an area of the network where the security configuration is the same for all hosts within it. Zones should be segregated from one another by physical and/or logical segmentation, using VLANs and subnets. Traffic between zones should be strictly controlled using a security device, typically a firewall.
  

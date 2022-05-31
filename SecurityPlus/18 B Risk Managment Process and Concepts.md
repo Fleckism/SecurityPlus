@@ -140,7 +140,7 @@ A snapshot is a live acquisition image of a persistent disk. While this may have
 **Firmware is usually implemented as flash memory**. Some types, such as the PC firmware, can potentially be extracted from the device or from system memory using an imaging utility. It likely will be necessary to use specialist hardware to attach the device to a forensic workstation, however.
 # DIGITAL FORENSICS FOR CLOUD
 
-With an on-premises investigation, the right to seize and analyze #Ops devices is usually fairly unproblematic. There may be [[My linked notes/Dictionary/Availability]] issues with taking a system out of service, and bring-your-own-device policies can be more complex, but essentially as all the equipment is the company's property, there are no third-party obstacles.
+With an on-premises investigation, the right to seize and analyze #Ops devices is usually fairly unproblematic. There may be [[Availability]] issues with taking a system out of service, and bring-your-own-device policies can be more complex, but essentially as all the equipment is the company's property, there are no third-party obstacles.
 
 While companies can **operate private clouds**, forensics in a public cloud are complicated by the right to audit permitted to you by your service level agreement (SLA) with the cloud provider. Two more issues with forensics investigations of cloud-hosted processing and data services are as follows:
 

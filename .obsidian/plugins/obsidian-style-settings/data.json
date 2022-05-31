@@ -6,5 +6,8 @@
   "shimmering-focus@@show-header-bar": false,
   "ITS@@header-borders": false,
   "ITS@@fhvr": true,
-  "ITS@@h-stbr": true
+  "ITS@@h-stbr": true,
+  "ITS@@text-highlight-bg-active@@dark": "#FD737340",
+  "ITS@@text-highlight-bg@@dark": "#0EF00F40",
+  "ITS@@text-selection@@dark": "#09FA136E"
 }

@@ -91,7 +91,7 @@ When assessing suppliers for risk, it is helpful to distinguish two types of rel
 For example, Microsoft is a major software vendor, but it is not feasible for it to establish direct relationships with all its potential customers. To expand its markets, it develops partner relationships with original equipment manufacturers (OEMs) and solution providers. Microsoft operates a program of certification and training for its partners, which improves product support and security awareness.
 # END OF LIFE SYSTEMS
 
-When a manufacturer discontinues sales of a product, it enters an end of life (EOL) phase in which support and [[My linked notes/Dictionary/Availability]] of spares and updates become more limited. An end of service life (EOSL) system is one that is no longer supported by its developer or vendor. EOSL products no longer receive security updates and so represent a critical vulnerability if any remain in active use.
+When a manufacturer discontinues sales of a product, it enters an end of life (EOL) phase in which support and [[Availability]] of spares and updates become more limited. An end of service life (EOSL) system is one that is no longer supported by its developer or vendor. EOSL products no longer receive security updates and so represent a critical vulnerability if any remain in active use.
 
 For example, in Microsoft's support life cycle policy, Windows versions are generally given five years of mainstream support and five years of extended support (during which only security updates are shipped). You can check the support status for a particular version of Windows at [support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet).
 

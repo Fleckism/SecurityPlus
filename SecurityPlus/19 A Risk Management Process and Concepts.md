@@ -91,7 +91,7 @@ Another simple approach is the heat map or "Traffic Light" impact matrix. For ea
 
 Traffic light impact grid.
 
-FIPS 199 ([nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/NIST.FIPS.199.pdf)) discusses how to apply security categorizations ([[SC]]) to information systems based on the impact that a breach of **confidentiality, integrity, or [[My linked notes/Dictionary/Availability]]** would have on the organization as a whole. Potential impacts can be classified as:
+FIPS 199 ([nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/NIST.FIPS.199.pdf)) discusses how to apply security categorizations ([[SC]]) to information systems based on the impact that a breach of **confidentiality, integrity, or [[Availability]]** would have on the organization as a whole. Potential impacts can be classified as:
 
 -   **Low**—minor damage or loss to an asset or loss of performance (though essential functions remain operational).
 -   **Moderate**—significant damage or loss to assets or performance.

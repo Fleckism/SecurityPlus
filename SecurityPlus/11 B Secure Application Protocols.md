@@ -91,7 +91,7 @@ Another use of subscriptions is a web feed, where updated articles or news items
 Subscription services may also describe the outsourcing of network and security components and procedures. There may also be subscription use of enterprise cloud applications, which may be mediated by an access broker.
 # FILE TRANSFER SERVICES
 
-There are many means of transferring files across networks. A network operating system can host shared folders and files, enabling them to be copied or accessed over the local network or via remote access (over a VPN, for instance). Email and messaging apps can send files as attachments. Hyper Text Transfer ProtocolTTPs]] supports file download (and uploads via various scripting mechanisms). There are also peer-to-peer file sharing services. Despite the [[My linked notes/Dictionary/Availability]] of these newer protocols and services, the file transfer protocol (FTP) remains very popular because it is efficient and has wide cross-platform support.
+There are many means of transferring files across networks. A network operating system can host shared folders and files, enabling them to be copied or accessed over the local network or via remote access (over a VPN, for instance). Email and messaging apps can send files as attachments. Hyper Text Transfer ProtocolTTPs]] supports file download (and uploads via various scripting mechanisms). There are also peer-to-peer file sharing services. Despite the [[Availability]] of these newer protocols and services, the file transfer protocol (FTP) remains very popular because it is efficient and has wide cross-platform support.
 
 ### File Transfer Protocol 
 
@@ -160,7 +160,7 @@ Voice over IP (VoIP), web conferencing, and video teleconferencing (VTC) solutio
 
 Implementing Internet telephony and video conferencing brings its own raft of security concerns.[[ Each part of the communications media network infrastructure needs to be evaluated for threats and vulnerabilities.]] This includes protocols, servers, handsets, and software. The **protocols** designed to support real-time services cover one or more of the following functions: 
 
--   **Session control**—used to setup and manage communications sessions. They handle tasks such as user discovery (locating a user on the network), [[My linked notes/Dictionary/Availability]] advertising (whether a user is prepared to receive calls), negotiating session parameters (such as use of audio/video), and session management and termination. 
+-   **Session control**—used to setup and manage communications sessions. They handle tasks such as user discovery (locating a user on the network), [[Availability]] advertising (whether a user is prepared to receive calls), negotiating session parameters (such as use of audio/video), and session management and termination. 
 -   **Data transport**—handles the delivery of the actual video or voice information.
 -   **Quality of Service** (QoS)—provides information about the connection to a QoS system, which in turn ensures that voice or video communications are free from problems such as dropped packets, delay, or jitter. 
 
