@@ -128,7 +128,7 @@ Rather than redirection, a [[threat actor]] might use typosquatting. This means 
 
 ### Watering Hole Attack
 
-A watering hole attack is another passive technique where the [[[[threat actor]]]] does not have to risk communicating directly with the target. It relies on the circumstance that a group of targets may use an unsecure third-party website. For example, staff running an international e-commerce site might use a local pizza delivery firm. If an attacker can compromise the pizza delivery firm's website or deploy a type of malvertising, they may be able to infect the computers of the e-commerce company's employees and penetrate the e-commerce company systems.
+A watering hole attack is another passive technique where the [[threat actor]] does not have to risk communicating directly with the target. It relies on the circumstance that a group of targets may use an unsecure third-party website. For example, staff running an international e-commerce site might use a local pizza delivery firm. If an attacker can compromise the pizza delivery firm's website or deploy a type of malvertising, they may be able to infect the computers of the e-commerce company's employees and penetrate the e-commerce company systems.
 
 ### Credential Harvesting
 

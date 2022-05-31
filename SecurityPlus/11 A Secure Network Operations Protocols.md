@@ -64,7 +64,7 @@ If your domain, website, or email servers have been hijacked, they are likely to
 
 ### Man in the Middle
 [[MITM]]
-If the [[[[threat actor]]]] has access to the same local network as the victim, the attacker can use [[ARP]] poisoning to impersonate a legitimate [[DNS]] server and respond to DNS queries from the victim with spoofed replies. This might be combined with a denial of service attack on the victim's legitimate DNS server. A rogue [[DHCP]] could be used to configure clients with the address of a rogue DNS resolver.
+If the [[threat actor]] has access to the same local network as the victim, the attacker can use [[ARP]] poisoning to impersonate a legitimate [[DNS]] server and respond to DNS queries from the victim with spoofed replies. This might be combined with a denial of service attack on the victim's legitimate DNS server. A rogue [[DHCP]] could be used to configure clients with the address of a rogue DNS resolver.
 
 ### DNS Client Cache Poisoning
 

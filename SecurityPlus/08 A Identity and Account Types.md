@@ -83,7 +83,7 @@ Separation of duties does not completely eliminate risk because there is still t
 
 ### Least Privilege
 
-Least privilege means that a user is granted sufficient rights to perform his or her job and no more. This mitigates risk if the account should be compromised and fall under the control of a [[[[threat actor]]]]. **Authorization creep** refers to a situation where a user acquires more and more rights, either directly or by being added to security groups and roles. Least privilege should be ensured by closely analyzing business workflows to assess what privileges are required and by performing regular account audits. 
+Least privilege means that a user is granted sufficient rights to perform his or her job and no more. This mitigates risk if the account should be compromised and fall under the control of a [[threat actor]]. **Authorization creep** refers to a situation where a user acquires more and more rights, either directly or by being added to security groups and roles. Least privilege should be ensured by closely analyzing business workflows to assess what privileges are required and by performing regular account audits. 
 
 ### Job Rotation
 

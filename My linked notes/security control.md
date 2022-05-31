@@ -2,7 +2,7 @@
 A security controls (goal) is something ( #A_D ) designed to give a system or data asset the properties of (think of them as goals)
 - [[confidentiality]]
 - [[integrity]]
-- [[My linked notes/Dictionary/Availability]] 
+- [[Availability]] 
 - [[non-repudiation]]. ([[CIA]])
 
 - Cybersecurity controls 
