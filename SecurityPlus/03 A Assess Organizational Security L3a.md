@@ -19,7 +19,7 @@ EXAM OBJECTIVES COVERED
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security
 
-**[[[[reconnaissance]]]] is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network**. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using fingerprinting tools and capture and analyze #Ops network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
+**[[reconnaissance]] is a type of assessment activity that maps the potential attack surface by identifying the nodes and connections that make up the network**. You will often need to run scans using both command line and GUI topology discovery tools. You will need to report host configurations using fingerprinting tools and capture and analyze #Ops network traffic. You should also understand how tools can be used to operate backdoor connections to a host and to covertly exfiltrate data.
 ## ipconfig, ping, and ARP
 The process of **mapping out the attack surface is referred to as network [[reconnaissance]]** and discovery. [[reconnaissance]] techniques are used by [[threat actor]]s, but they can also be used by security professionals to probe and test their own security systems, as part of a security [[assessment]] and ongoing monitoring.
 
@@ -169,7 +169,7 @@ Filter syntax can be made even more detailed by using parentheses to group expre
 tcpdump -i eth0 "src host 10.1.0.100 and (dst port 53 or dst port 80)"
 ## PACKET ANALYSIS AND WIRESHARK
 
-A protocol analyzer (or packet analyzer) works in conjunction with a sniffer to perform traffic analysis. You can either analyze #Ops a live capture or open a saved capture (.pcap) file. Protocol analyzers can decode a captured frame to reveal its contents in a readable format. You can choose to view a summary of the frame or choose a more detailed view that provides information on the [[OSI layer]], protocol, function, and data.
+A protocol analyzer (or packet analyzer) works in conjunction with a sniffer to perform traffic analysis. You can either analyze #Ops a live capture or open a saved capture (.pcap) file. Protocol analyzers can decode a captured frame to reveal its contents in a readable format. You can choose to view a summary of the frame or choose a more detailed view that provides information on the [[OSI]] layer, protocol, function, and data.
 
 [[Wireshark]] ([wireshark.org](https://www.wireshark.org/)) is an open-source graphical **packet capture** and analysis utility, with installer packages for most operating systems. Having chosen the interface to listen on, the output is displayed in a three-pane view. The packet list pane shows a scrolling summary of frames. The packet details pane shows expandable fields in the frame currently selected from the packet list. The packet bytes pane shows the raw data from the frame in hex and ASCII. Wireshark is capable of parsing (interpreting) the headers and payloads of hundreds of network protocols.
 
@@ -201,7 +201,7 @@ Some [[reconnaissance]] techniques and tests depend on sending forged or spoofed
 As the name suggests, tcpreplay takes previously captured traffic that has been saved to a .pcap file and replays it through a network interface ([linux.die.net/man/1/tcpreplay](https://linux.die.net/man/1/tcpreplay)). Optionally, fields in the capture can be changed, such as substituting MAC or IP addresses. tcpreplay is useful for analysis purposes. If you have captured suspect traffic, you can replay it through a monitored network interface to test intrusion detection rules malicious traffic sample.
 ## EXPLOITATION FRAMEWORKS
 
-A remote access trojan ([[[[IoC]]]]) is malware that gives an adversary the means of remotely accessing the network. From the perspective of security posture assessment, a penetration tester might want to try to establish this sort of connection and attempt to send corporate information over the channel (data exfiltration). If security controls are working properly, this attempt should be defeated (or at least detected). 
+A remote access trojan ([[IoC]]) is malware that gives an adversary the means of remotely accessing the network. From the perspective of security posture assessment, a penetration tester might want to try to establish this sort of connection and attempt to send corporate information over the channel (data exfiltration). If security controls are working properly, this attempt should be defeated (or at least detected). 
 
 An [[exploitation framework]] uses the vulnerabilities identified by an automated scanner and launches scripts or software to attempt to deliver matching exploits. This might involve considerable disruption to the target, including service failure, and risk data security.
 

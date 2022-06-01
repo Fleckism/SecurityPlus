@@ -1,4 +1,6 @@
-The ==ifconfig command== can be used to report the adapter configuration in Linux
+#tool (**I**nter**F**ace **CONFIG**urator) A Mac, Unix and Linux command line utility that is used to manage the network interfaces assigned to the machine it is running in. IFCONFIG is used to configure the IP address and subnet mask.
+
+The ifconfig command can be used to report the adapter configuration in Linux
 
 show the configuration assigned to network interface(s) in Linux.
 ###### interfaces

@@ -1,0 +1,3 @@
+A database in a router that contains the current network topology
+
+**Routing protocol**: A formula used by routers to determine the appropriate path onto which data should be forwarded. The routing protocol also specifies how routers report changes and share information with the other routers in the network that they can reach. A routing protocol allows the network to dynamically adjust to changing conditions, otherwise all routing decisions have to be predetermined and remain static.

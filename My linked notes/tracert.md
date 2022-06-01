@@ -1,1 +1,1 @@
-[[tracert]]—uses [[ICMP]] probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.
+#tool tracert—uses [[ICMP]] probes to report the round trip time (RTT) for hops between the local host and a host on a remote network. tracert is the Windows version of the tool.

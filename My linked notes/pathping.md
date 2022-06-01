@@ -1,1 +1,1 @@
-[[pathping]]—provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr  **( Rogue host is modifying traffic before forwarding it, with the side effect of increasing network latency)**.
+#tool pathping provides statistics for latency and packet loss along a route over a longer measuring period. pathping is a Windows tool; the equivalent on Linux is mtr  **( Rogue host is modifying traffic before forwarding it, with the side effect of increasing network latency)**.
