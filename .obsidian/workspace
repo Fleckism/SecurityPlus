@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Assisted Lab Lesson 10 (17).md",
+            "file": "My linked notes/nmap.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,11 +49,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: assi",
+                "query": "nmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Lab Lesson 10 (17).md",
+                "file": "My linked notes/nmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted Lab Lesson 10 (17).md",
+                "file": "My linked notes/nmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,6 +122,7 @@
   },
   "active": "29c75dc6dff6a1c2",
   "lastOpenFiles": [
+    "My linked notes/nmap.md",
     "My linked notes/Assisted Lab Lesson 10 (17).md",
     "My linked notes/Assisted Lab Lesson 10 (16).md",
     "My linked notes/Assisted Lab 10.md",
@@ -130,7 +131,6 @@
     "My linked notes/Availability.md",
     "SecurityPlus/1A Information Security Roles.md",
     "My linked notes/Dictionary/Availability.md",
-    "My linked notes/Acronyms/PBKDF2.md",
-    "My linked notes/assets/PB5 encryption.png"
+    "My linked notes/Acronyms/PBKDF2.md"
   ]
 }
