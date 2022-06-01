@@ -4,38 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6c5c00c96408cee6",
+        "id": "29c75dc6dff6a1c2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SecurityPlus/1A Information Security Roles.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "a8ad7e489440df3f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/1A Information Security Roles.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "db419a31e90795ae",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Availability.md",
+            "file": "My linked notes/Assisted Lab Lesson 10 (17).md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -75,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:ava",
+                "query": "file: assi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/1A Information Security Roles.md",
+                "file": "My linked notes/Assisted Lab Lesson 10 (17).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecurityPlus/1A Information Security Roles.md",
+                "file": "My linked notes/Assisted Lab Lesson 10 (17).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,17 +120,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "a8ad7e489440df3f",
+  "active": "29c75dc6dff6a1c2",
   "lastOpenFiles": [
+    "My linked notes/Assisted Lab Lesson 10 (17).md",
+    "My linked notes/Assisted Lab Lesson 10 (16).md",
+    "My linked notes/Assisted Lab 10.md",
+    "SecurityPlus/20 C Cybersecurity Resiliency Strategies.md",
+    "My linked notes/Defense in depth and control diversity are crucial in designing resilient systems.md",
+    "My linked notes/Availability.md",
     "SecurityPlus/1A Information Security Roles.md",
     "My linked notes/Dictionary/Availability.md",
-    "My linked notes/Availability.md",
     "My linked notes/Acronyms/PBKDF2.md",
-    "My linked notes/assets/PB5 encryption.png",
-    "My linked notes/PB 10A.md",
-    "My linked notes/assets/PB7.png",
-    "My linked notes/PBQ 16A.md",
-    "My linked notes/Flashcard.md",
-    "My linked notes/Acronyms/CA.md"
+    "My linked notes/assets/PB5 encryption.png"
   ]
 }
