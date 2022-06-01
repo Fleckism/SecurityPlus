@@ -1,14 +1,10 @@
----
-tags: [A_D, GRC,section]
----
-
 ## Exam Objectives Covered
 **Information security and cybersecurity assurance is met by implementing [[security control]]**. As an information security professional, you must be able to compare types of security controls. You should also be able to describe how frameworks influence the selection #A_D and configuration of controls. By identifying basic security control types and how key frameworks and legislation drive compliance, you will be better prepared to select and implement the most appropriate controls for a given scenario.
 
 ## SECURITY CONTROL CATEGORIES
 
 Information and cybersecurity assurance is usually considered to take place within an overall process of business risk management. Implementation of cybersecurity functions is often the responsibility of the IT department. There are many different ways of thinking about how IT services should be governed to fulfill overall business needs. Some organizations have developed IT service frameworks to provide best practice guides to implementing IT and cybersecurity. These frameworks can shape company policies and provide checklists of procedures, activities, and technologies that should ideally be in place. Collectively, these procedures, activities, and tools can be referred to as security controls.
-
+#GRC
 - **A [[security control]] is something designed to give a system or data asset the properties of confidentiality, integrity, [[Availability]], and non-repudiation**. Controls can be divided into three broad categories, representing the way the control is implemented:
 
 -   technical —the control is implemented as a system (hardware, software, or firmware). For example, firewalls, antivirus software, and OS access control models are technical controls. Technical controls may also be described as logical controls.  

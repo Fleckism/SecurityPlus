@@ -2,3 +2,6 @@
 - [[technical]] 
 - [[operational]] 
 - [[managerial]] 
+
+[[Control Type]]
+#GRC

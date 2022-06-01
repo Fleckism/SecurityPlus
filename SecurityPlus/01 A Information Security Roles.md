@@ -1,6 +1,3 @@
----
-tags: [ section]
----
 #concepts 
 ## LESSON INTRODUCTION
 
@@ -29,7 +26,7 @@ Cybersecurity
 
 Domain														% of Examination
 **1.  Attack(s), Threat(s), and Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
-2.  architecture #A_D and Design	21%   [[A_D architecture #A_D and Design]]
+2.  architecture #A_D and Design	21%  
 **3.  Implementation 25%**  [[implementation]]
 4.  Operations [[Ops]] and Incident Response 16%   [[OIR]]
 5.  Governance, Risk, and Compliance 14%    [[GRC Governance, Risk, and Compliance]]
@@ -66,7 +63,7 @@ Attack frameworks
 
 - [[Confidentiality]] means that certain information should only be known to certain people. 
 - [[Integrity]] means that the data is stored and transferred as intended and that modification is only done by authorized sources. 
-- [[[My linked notes/Availability]]]] means that information is accessible to those authorized to view or modify it. 
+- [[Availability]] means that information is accessible to those authorized to view or modify it. 
 
 The triad can also be referred to as "AIC" to avoid confusion with the Central Intelligence Agency.  
 

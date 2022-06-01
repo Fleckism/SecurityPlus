@@ -1,5 +1,4 @@
-[[security control#Links for tags|Bottom]]
-A security controls (goal) is something ( #A_D ) designed to give a system or data asset the properties of (think of them as goals)
+A security controls (goal) is something ( #GRC ) designed to give a system or data asset the properties of (think of them as goals)
 - [[confidentiality]]
 - [[integrity]]
 - [[Availability]] 
@@ -47,10 +46,9 @@ While most controls can be classed functionally as preventative, detective, or c
 	- [[IDS]]
 	- Keycard Entry
 	- Perform Security Audit
-	- 
 
  A **control system** is one with multiple parts, such as sensors, workstations, and servers, and complex operating logic.
 
 
 # Controls are used for GRC Governance, Risk, and Compliance
-## Links for tags
+

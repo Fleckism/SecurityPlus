@@ -1,5 +1,5 @@
 security assessment 
-add to 
+add to #attack , #threat , #vulnerability 
 **Network reconnaissance and discovery is used to identify hosts, network topology, and open services/ports, establishing an overall attack surface**. Various types of security assessments can be used to test these hosts and services for vulnerabilities. There are many models and frameworks for conducting security assessments. A good starting point is NIST's Technical Guide to Information Security Testing and Assessment ([nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-115.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/nistspecialpublication800-115.pdf)). SP 800-115 identifies three principal activities within an assessment:
 
 -   Testing the object under assessment to discover vulnerabilities or to prove the effectiveness of security controls.

@@ -1,5 +1,5 @@
 ---
-tags: [GRC, ]
+tags: [isThisneeded?, ]
 ---
 Governance, Risk, and Compliance 14%  
 - Process
