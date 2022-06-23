@@ -10,7 +10,7 @@ A security controls (goal) is something ( #GRC ) designed to give a system or da
 	 - prevent
 	 - reduce
 	 - counteract security [[risk]]s
-	- Are the **Processes** organizations have in place to be protected from dangerous network #vulnerability [[vulnerability|vulnerabilities]] and data hacks
+	- Are the **Processes** organizations have in place to be protected from dangerous network #vulnerability [[vulnerability|[[vulnerability|vulnerabilities]]]] and data hacks
 
 - are **the processes** your organization has in place to protect from dangerous network  and data hacks
 

@@ -3,11 +3,11 @@ attacks
 
 	
 	
-vulnerabilities
+[[vulnerability|vulnerabilities]]
 architecture and design
 [[threat actor]]
 [[attack vector]]s
-Threat types:   viruses or rootkits, Trojans, botnets, and specific software vulnerabilities
+Threat types:   viruses or rootkits, Trojans, botnets, and specific software [[vulnerability|vulnerabilities]]
 
 Capability:  Script kiddie using a commodity attack tool that are widely available on the web or dark web.  More capable [[threat actor]]s take advantage of zero-day exploits.
 

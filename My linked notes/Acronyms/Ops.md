@@ -4,5 +4,5 @@
 	- **Configure**
 
 
-[[[[security assessment]]S]]
+[[security assessment]]
 [[10C SIEM  security information and event management]]

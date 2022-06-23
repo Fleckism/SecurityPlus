@@ -1,0 +1,1 @@
+For Personal Area Network (PAN)

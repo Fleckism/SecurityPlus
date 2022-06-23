@@ -13,7 +13,7 @@ threats
 	- viruses or 
 	- rootkits, 
 	- Trojans  
-	- botnets, and specific software vulnerabilities
+	- botnets, and specific software [[vulnerability|vulnerabilities]]
 
 
 

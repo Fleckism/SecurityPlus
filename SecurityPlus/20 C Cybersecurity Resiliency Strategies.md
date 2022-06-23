@@ -1,14 +1,12 @@
----
-tags: [,section]
----
+
 # EXAM OBJECTIVES COVERED
 
-2.1 Explain the importance of security concepts in an enterprise environment
+2.1 Explain the importance of security concepts in an enterprise environment #A_D 
 
 2.5 Given a scenario, implement cybersecurity resilience
 
 5.3 Explain the importance of policies to organizational security
-
+#GRC 
 Effective site management and cybersecurity resilience depend on change control and configuration management. If this crucial documentation is not kept up to date, the response to incident and disaster events will suffer from confusion, errors, and lost time.
 
 As part of a cybersecurity program, you must also be able to implement techniques that make things difficult for [[threat actor]]s. [[Defense in depth and control diversity are crucial in designing resilient systems]]. Deception and disruption tactics help to increase the cost of attacks and so deter them.
@@ -37,7 +35,7 @@ We are focusing on assets that require some degree of configuration (CIs). An or
 
 Tangible assets can be identified using a barcode label or radio frequency ID ([[RFID]]) tag attached to the device (or more simply, using an identification number). An RFID tag is a chip programmed with asset data. When in range of a scanner, the chip activates and signals the scanner. The scanner alerts management software to update the device's location. As well as asset tracking, this allows the management software to track the location of the device, making theft more difficult.
 
-A standard naming convention for hardware assets, and for digital assets such as accounts and virtual machines, makes the environment more consistent. This means that errors are easier to spot and that it is easier to automate through scripting. The naming strategy should allow administrators to identify the type and function of any particular resource or location at any point in the CMDB or network directory. Each label should conform to rules for host and DNS names ([support.microsoft.com/en-us/help/909264/naming-conventions-in-active-directory-for-computers-domains-sites-and](https://support.microsoft.com/en-us/help/909264/naming-conventions-in-active-directory-for-computers-domains-sites-and)). As well as an ID attribute, the location and function of tangible and digital assets can be recorded using attribute tags and fields or DNS CNAME and TXT resource records.
+A standard naming convention for hardware assets, and for digital assets such as accounts and virtual machines, makes the environment more consistent. This means that errors are easier to spot and that it is easier to automate through scripting. The naming strategy should allow administrators to identify the type and function of any particular resource or location at any point in the CMDB or [[network directory]]. Each label should conform to rules for host and DNS names ([support.microsoft.com/en-us/help/909264/naming-conventions-in-active-directory-for-computers-domains-sites-and](https://support.microsoft.com/en-us/help/909264/naming-conventions-in-active-directory-for-computers-domains-sites-and)). As well as an ID attribute, the location and function of tangible and digital assets can be recorded using attribute tags and fields or DNS CNAME and TXT resource records.
 
 ### Internet Protocol (IP) Schema
 
@@ -85,7 +83,7 @@ Consider the scenario where Alan from marketing is sent a USB stick containing d
 [[Defense in depth]], established by deploying a diverse range of security controls, could mitigate the numerous risks inherent in this scenario:
 
 -   User training (administrative control) could ensure that the media is not left unattended on a desk and is not inserted into a computer system without scanning it first.
--   Endpoint security (technical control) on the laptop could scan the media for malware or block access automatically.
+-   [[Endpoint security]] (technical control) on the laptop could scan the media for malware or block access automatically.
 -   Security locks inserted into USB ports (physical control) on the laptop could prevent attachment of media without requesting a key, allowing authorization checks to be performed first.
 -   Permissions restricting Alan's user account (technical control) could prevent the malware from executing successfully.
 -   The use of encrypted and digitally signed media (technical control) could prevent or identify an attempt to tamper with it.

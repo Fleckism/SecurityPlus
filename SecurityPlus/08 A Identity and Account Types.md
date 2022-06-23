@@ -1,7 +1,4 @@
----
-tags: [GRC, implementation,section]
----
-associated with #GRC
+associated with #GRC, #Implementation 
 
 LESSON INTRODUCTION
 
@@ -55,7 +52,7 @@ A background check determines that a person is who they say they are and are not
 
 ### Onboarding
 
-Onboarding at the HR level is the process of welcoming a new employee to the organization. The same sort of principle applies to taking on new suppliers or contractors. Some of the same checks and processes are used in creating customer and guest accounts. As part of onboarding, the IT and HR function will combine to create an account for the user to access the computer system, assign the appropriate privileges, and ensure the account credentials are known only to the valid user. These functions must be integrated, to avoid creating accidental configuration vulnerabilities, such as IT creating an account for an employee who is never actually hired. Some of the other tasks and processes involved in onboarding include:
+Onboarding at the HR level is the process of welcoming a new employee to the organization. The same sort of principle applies to taking on new suppliers or contractors. Some of the same checks and processes are used in creating customer and guest accounts. As part of onboarding, the IT and HR function will combine to create an account for the user to access the computer system, assign the appropriate privileges, and ensure the account credentials are known only to the valid user. These functions must be integrated, to avoid creating accidental configuration [[vulnerability|vulnerabilities]], such as IT creating an account for an employee who is never actually hired. Some of the other tasks and processes involved in onboarding include:
 
 -   **Secure transmission of credentials**—creating and sending an initial password or issuing a smart card securely. The process needs protection against rogue administrative staff. Newly created accounts with simple or default passwords are an easily exploitable backdoor.
 -   **Asset allocation**—provision computers or mobile devices for the user or agree to the use of bring-your-own-device handsets.
@@ -77,7 +74,7 @@ An employee is supposed to work for the interests of their organization exclusiv
 Separation of duties means that employees must be constrained by security policies:
 
 -   Standard operating procedures (SOPs) mean that an employee has no excuse for not following protocol in terms of performing these types of critical operations.
--   [[Shared authority]] means that no one user is able to take action or enable changes on his or her own authority. At least two people must authorize the change. One example is separating responsibility for purchasing (ordering) from that of authorizing payment. Another is that a request to create an account should be subject to approval and oversight.
+-   Shared authority means that no one user is able to take action or enable changes on his or her own authority. At least two people must authorize the change. One example is separating responsibility for purchasing (ordering) from that of authorizing payment. Another is that a request to create an account should be subject to approval and oversight.
 
 Separation of duties does not completely eliminate risk because there is still the chance of collusion between two or more people. This, however, is a much less likely occurrence than a single rogue employee.
 
@@ -103,7 +100,7 @@ An exit interview (or offboarding) is the process of ensuring that an employee l
 The departure of some types of employees should trigger additional processes to re-secure network systems. Examples include employees with detailed knowledge of security systems and procedures, and access to shared or generic account credentials. These credentials must be changed immediately.
 # SECURITY ACCOUNT TYPES AND CREDENTIAL MANAGEMENT
 
-Operating systems, network appliances, and network directory products use some standard account types as the basis of a privilege management system. These include standard user, administrative user, security group accounts, and service accounts.
+Operating systems, network appliances, and [[network directory]] products use some standard account types as the basis of a privilege management system. These include standard user, administrative user, security group accounts, and service accounts.
 
 Standard users have limited privileges, typically with access to run programs and to create and modify files belonging only to their profile. 
 
@@ -118,7 +115,7 @@ A password policy instructs users on best practice in choosing and maintaining p
 A guest account is a special type of shared account with no password. It allows anonymous and unauthenticated access to a resource. The Windows OS creates guest user and group accounts when installed, but the guest user account is disabled by default. Guest accounts are also created when installing web services, as most web servers allow unauthenticated access.
 # SECURITY GROUP-BASED PRIVILEGES 
 
-As well as an account to use resources on the local computer, users also typically need accounts to use resources on the network. In fact, most accounts are created on a network directory and then given permission to log in on certain computer or workstation objects.
+As well as an account to use resources on the local computer, users also typically need accounts to use resources on the network. In fact, most accounts are created on a [[network directory]] and then given permission to log in on certain computer or workstation objects.
 
 One approach to network privilege management is to assign privileges directly to user accounts. This model is only practical if the number of users is small. With large number of users, it is difficult to audit and to apply privilege policies consistently.
 

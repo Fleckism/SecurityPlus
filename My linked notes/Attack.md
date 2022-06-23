@@ -61,6 +61,14 @@ Credential harvesting is a campaign specifically designed to steal account crede
 Key stretching takes a key that is generated from a user password and repeatedly converts it to a longer and more random key, adding extra layers of processing to a potential attacker’s task.
 
 Phishing is a combination of social engineering and spoofing. It persuades or tricks the target into interacting with a malicious resource disguised as a trusted one, traditionally using email as the vector.
+# STRUCTURED QUERY LANGUAGE INJECTION ATTACKS
+
+Attacks such as session replay, CSRF, and [[DOM]]-based [[XSS]] are [[client-side]] [[attack]]s. This means that they execute arbitrary code on the browser. A [[server-side attack]] causes the server to do some processing or run a script or query in a way that is not authorized by the application design. Most server-side attacks depend on some kind of injection attack.
+
+**Where an overflow attack works against the way a process performs memory management**, an **injection attack exploits some unsecure way in which the application processes requests and queries**. For example, an application might allow a user to view his or her profile with a database query that should return the single record for that one user's profile. An application vulnerable to an injection attack might allow a [[threat actor]] to return the records for all users, or to change fields in the record when they are only supposed to be able to read them.
+
+A web application is likely to use Structured Query Language ([[SQL]]) to read and write information from a database. The main database operations are performed by SQL statements for selecting data (SELECT), inserting data (INSERT), deleting data (DELETE), and updating data (UPDATE). In a SQL injection attack, the [[threat actor]] modifies one or more of these four basic functions by adding code to some input accepted by the app, causing it to execute the attacker's own set of SQL queries or parameters. If successful, this could allow the attacker to extract or insert information into the database or execute arbitrary code on the remote system using the same privileges as the database application
+
 # Dump
 [[5C Cryptographic Use Cases and Weaknesses]]
 

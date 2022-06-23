@@ -1,3 +1,4 @@
+#vulnerability 
 High-profile breaches have led to a greater appreciation of the importance of the supply chain in vulnerability management. A product, or even a service, may have components created and maintained by a long chain of different companies. Each company in the chain depends on its suppliers or vendors performing due diligence on their vendors. A weak link in the chain could cause impacts on service availability and performance, or in the worst cases lead to data breaches.
 
 ### Vendor Management
@@ -24,4 +25,7 @@ There are two main scenarios for risks to data when using third parties. First, 
 
 ### Cloud-Based versus On-Premises Risks
 
-On-premises risks refer to software vulnerabilities, weak configurations, and third-party issues arising from hosts, servers, routers, switches, access points, and firewalls located on a private network installed to private offices or campus buildings. Many companies use cloud services to fully or partly support business workflows. The third-party vendor management, code, and data storage risks discussed previously apply directly to cloud as well as to on-premises. Software and weak configuration risks can also apply, however. They are not the sole responsibility of the cloud service provider (CSP). Clouds operate a shared responsibility model. This means that the cloud service provider is responsible for the security of the cloud, while the cloud consumer is responsible for security in the cloud. The types of software and configuration vulnerabilities that you must assess and monitor vary according to the nature of the service.
+On-premises risks refer to software [[vulnerability|vulnerabilities]], weak configurations, and third-party issues arising from hosts, servers, routers, switches, access points, and firewalls located on a private network installed to private offices or campus buildings. Many companies use cloud services to fully or partly support business workflows. The third-party vendor management, code, and data storage risks discussed previously apply directly to cloud as well as to on-premises. Software and weak configuration risks can also apply, however. They are not the sole responsibility of the cloud service provider (CSP). Clouds operate a shared responsibility model. This means that the cloud service provider is responsible for the security of the cloud, while the cloud consumer is responsible for security in the cloud. The types of software and configuration [[vulnerability|vulnerabilities]] that you must assess and monitor vary according to the nature of the service.
+
+[[vulnerability]]
+[[[[vulnerability|vulnerabilities]]]]

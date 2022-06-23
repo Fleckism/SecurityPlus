@@ -1,0 +1,3 @@
+Security orchestration, automation, and response ([[SOAR]])
+
+is designed as a solution to the problem of the volume of **alerts overwhelming analysts**' ability to respond. A SOAR may be implemented as a standalone technology or integrated with a [[SIEM]]—often referred to as a **next-gen SIEM**. The basis of SOAR is to scan the organization's store of security and threat intelligence, analyze #Ops it using machine/deep learning techniques, and then use that data to automate and provide data enrichment for the workflows that drive incident response and [[threat hunting]].

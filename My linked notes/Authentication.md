@@ -1,4 +1,6 @@
-the **process or action of verifying** the identity of a user or process [[CIA]].
+_[[Authentication]] design_ refers to selecting a technology that meets requirements for confidentiality, integrity, and [[Availability]]:  ==Is it all three?==
+#zFleck 
+the **process or action of verifying** the identity of a user or process [[CIA]].  is closely related to [[non-repudiation]]
 - [[security control]]
 - When authentication is needed.([[asymmetric]] encryption is used)
 	- **User or server** encrypts an agreed hashed data using **private key**

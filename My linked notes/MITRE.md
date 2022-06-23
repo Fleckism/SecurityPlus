@@ -1,0 +1,2 @@
+#stagesOfAttacks
+As an alternative to the life cycle analysis implied by a kill chain, the [[MITRE]] Corporation's Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) matrices provide access to a database of known [[TTPs]]s. 

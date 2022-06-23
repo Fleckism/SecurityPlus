@@ -1,0 +1,3 @@
+Protected Extensible Authentication Protocol (PEAP), as with EAP-TLS, an 
+- encrypted tunnel is established between the **supplicant and authentication server**, but PEAP 
+- only requires a server-side public key certificate. The supplicant does not require a certificate. With the server authenticated to the supplicant, user authentication can then take place through the [[secure tunnel]] with protection against sniffing, password-guessing/dictionary, and on-path attacks. The user authentication method (also referred to as the "inner" method) can use either MS-CHAPv2 or EAP-GTC. The Generic Token Card (GTC) method transfers a token for authentication against a network directory or using a one-time password mechanism.

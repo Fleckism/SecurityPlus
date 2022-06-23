@@ -1,9 +1,6 @@
----
-tags: [,section]
----
 # LESSON INTRODUCTION
 
-If a company operates with one or more vulnerable business processes, it could result in disclosure, modification, loss, destruction, or interruption of critical data or it could lead to loss of service to customers. Quite apart from immediate financial losses arising from such security incidents, either outcome will reduce a company's reputation. If a bank lost its trading floor link to its partners, even for an hour, since the organization's primary function (trading) would be impossible, huge losses may result. Consequently, when planning a network or other IT system, you must perform risk management to [[assess threats]] and vulnerabilities.
+If a company operates with one or more vulnerable business processes, it could result in disclosure, modification, loss, destruction, or interruption of critical data or it could lead to loss of service to customers. Quite apart from immediate financial losses arising from such security incidents, either outcome will reduce a company's reputation. If a bank lost its trading floor link to its partners, even for an hour, since the organization's primary function (trading) would be impossible, huge losses may result. Consequently, when planning a network or other IT system, you must perform risk management to [[assess threats]] and [[vulnerability|vulnerabilities]].
 
 Analyzing risk plays a major role in ensuring a secure environment for an organization. By assessing and identifying specific risks that can cause damage to network components, hardware, and personnel, you can mitigate possible threats and establish the right corrective measures to avoid losses and liabilities.
 
@@ -16,15 +13,15 @@ In this lesson, you will:
 # EXAM OBJECTIVES COVERED
 
 5.4 Summarize risk management processes and concepts
-
+#GRC 
 Most organizations have formal risk management policies and processes, both to meet compliance requirements and to make the business secure. These policies and processes are usually driven by frameworks and come with some standard terminology to describe factors and procedures within the overall process. It is vital that you be able to summarize the key concepts of risk management, so that you can participate in these important assessments.
 # RISK MANAGEMENT PROCESSES
 
-<mark style="background: #FF5582A6;">Risk management is a process for identifying, assessing, and mitigating vulnerabilities and threats to the essential functions that a business must perform to serve its customers.</mark> You can think of this process as being performed over five phases:
+<mark style="background: #FF5582A6;">Risk management is a process for identifying, assessing, and mitigating [[vulnerability|vulnerabilities]] and threats to the essential functions that a business must perform to serve its customers.</mark> You can think of this process as being performed over five phases:
 
 1.  **Identify mission-essential functions**—mitigating risk can involve a large amount of expenditure so it is important to focus efforts. Effective risk management must focus on mission essential functions that could cause the whole business to fail if they are not performed. Part of this process involves identifying critical systems and assets that support these functions.
-2.  **Identify vulnerabilities**—for each [[function or workflow]] (starting with the most critical), analyze #Ops systems and assets to discover and list any vulnerabilities or weaknesses to which they may be susceptible.
-3.  **Identify threats**—for each function or workflow, identify the threat sources and actors that may take advantage of or exploit or accidentally trigger vulnerabilities.
+2.  **Identify [[vulnerability|vulnerabilities]]**—for each [[function or workflow]] (starting with the most critical), analyze #Ops systems and assets to discover and list any [[vulnerability|vulnerabilities]] or weaknesses to which they may be susceptible.
+3.  **Identify threats**—for each function or workflow, identify the threat sources and actors that may take advantage of or exploit or accidentally trigger [[vulnerability|vulnerabilities]].
 4.  **analyze #Ops business impacts**—the likelihood of a vulnerability being activated as a security incident by a threat and the impact of that incident on critical systems are the factors used to assess risk. There are quantitative and qualitative methods of analyzing impacts and likelihood.
 5.  **Identify risk response**—for each risk, identify possible countermeasures and assess the cost of deploying additional security controls. Most risks require some sort of mitigation, but other types of response might be more appropriate for certain types and level of risks.
 
@@ -112,7 +109,7 @@ In the quantitative approach, the Return on Security Investment ([[ROSI]]) can b
 [[Risk mitigation (or remediation)]] is the overall process of reducing exposure to or the effects of risk factors. If you deploy a countermeasure that reduces exposure to a threat or vulnerability that is risk deterrence (or reduction). Risk reduction refers to controls that can either make a risk incident less likely or less costly (or perhaps both). For example, if fire is a threat, a policy strictly controlling the use of flammable materials on site reduces likelihood while a system of alarms and sprinklers reduces impact by (hopefully) containing any incident to a small area. Another example is offsite data backup, which provides a remediation option in the event of servers being destroyed by fire.
 # RISK AVOIDANCE AND RISK TRANSFERENCE
 
-Avoidance means that you stop doing the activity that is risk-bearing. For example, a company may develop an in-house application for managing inventory and then try to sell it. If while selling it, the application is discovered to have numerous security vulnerabilities that generate complaints and threats of legal action, the company may make the decision that the cost of maintaining the security of the software is not worth the revenue and withdraw it from sale. Obviously this would generate considerable bad feeling among existing customers. Avoidance is not often a credible option.
+Avoidance means that you stop doing the activity that is risk-bearing. For example, a company may develop an in-house application for managing inventory and then try to sell it. If while selling it, the application is discovered to have numerous security [[vulnerability|vulnerabilities]] that generate complaints and threats of legal action, the company may make the decision that the cost of maintaining the security of the software is not worth the revenue and withdraw it from sale. Obviously this would generate considerable bad feeling among existing customers. Avoidance is not often a credible option.
 
 Transference (or sharing) means assigning risk to a third party, such as an insurance company or a contract with a supplier that defines liabilities. For example, a company could stop in-house maintenance of an e-commerce site and contract the services to a third party, who would be liable for any fraud or data theft. Specific cybersecurity insurance or cyberliability coverage protects against fines and liabilities arising from data breaches and DoS attacks.
 

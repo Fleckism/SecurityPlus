@@ -1,0 +1,1 @@
+Any operation performed at the user's computer. Contrast with [[server-side]]

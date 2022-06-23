@@ -1,0 +1,5 @@
+Representational State Transfer (REST) rather than [[SOAP]]
+
+(**RE**presentational **S**tate **T**ransfer) A software architecture for activating services over the Web. Introduced in 2000 by Roy Fielding, one of the authors of HTTP, REST is used to request services and return responses over the Web, commonly known as Web services.
+
+Considered a simpler approach to Web services than the more complex and formal SOAP protocol, "RESTful" Web services make use of standard HTTP verbs, URIs and Internet media types. Requests are made via HTTP, and data is returned in XML, JSON or other data formats. REST concepts predate SOAP but were brought back into focus after developers gained experience with SOAP implementations. See [HTTP](https://www.pcmag.com/encyclopedia/term/http), [URI](https://www.pcmag.com/encyclopedia/term/uri), [Internet media type](https://www.pcmag.com/encyclopedia/term/internet-media-type), [WADL](https://www.pcmag.com/encyclopedia/term/wadl) and [SOAP](https://www.pcmag.com/encyclopedia/term/soap).

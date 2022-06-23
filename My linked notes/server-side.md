@@ -1,0 +1,1 @@
+Any operation that is performed at the server.Contrast with [[client-side]]

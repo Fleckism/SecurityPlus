@@ -79,7 +79,7 @@ Spyware is malware that can perform adware-like tracking, but also monitor local
 
 Both a program and script virus can use a PDF as a vector. The user stated that a PDF file was recently opened. A program virus is executed when an application is executed. Executable objects can also be embedded or attached within other file types such as Microsoft Word and Rich Text Format.
 
-A script virus typically targets vulnerabilities in an interpreter. Scripts are powerful languages used to automate operating system functions and add interactivity to web pages and are executed by an interpreter rather than self-executing. PDF documents have become a popular vector for script viruses.
+A script virus typically targets [[vulnerability|vulnerabilities]] in an interpreter. Scripts are powerful languages used to automate operating system functions and add interactivity to web pages and are executed by an interpreter rather than self-executing. PDF documents have become a popular vector for script viruses.
 
 A boot sector virus is one that attacks the disk boot sector information, the partition table, and sometimes the file system.
 

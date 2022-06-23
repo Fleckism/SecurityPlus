@@ -1,12 +1,10 @@
----
-tags: [,section]
----
+
 # EXAM OBJECTIVES COVERED
 
 2.7 Explain the importance of physical security controls
-
+#A_D 
 4.1 Given a scenario, use the appropriate tool to assess organizational security (Data sanitization only)
-
+#IR 
 As with data networks, perimeter defenses are not sufficient to ensure the security of hosts within a site. As well as the risk that the perimeter could be breached, security systems must also be resilient against insider threats. You need to deploy additional controls to secure areas, such as computer rooms and data centers.
 
 Environmental security ensures that risks to [[Availability]] from hosts overheating are minimized. All sites also need effective procedures for the disposal of equipment and paper records, to ensure that confidential data remnants are not at risk of exposure.

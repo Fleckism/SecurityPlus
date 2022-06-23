@@ -1,3 +1,4 @@
+An instrument invented for a particular purpose.
 ### common network device list:
 -   Hub
 -   Switch

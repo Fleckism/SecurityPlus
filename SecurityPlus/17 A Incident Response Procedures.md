@@ -1,6 +1,3 @@
----
-tags: [IR,section ]
----
 # LESSON INTRODUCTION
 [[IR]]    
 From a day-to-day perspective, incident response means investigating the alerts produced by monitoring systems and issues reported by users. This activity is guided by policies and procedures and assisted by various technical controls.
@@ -17,7 +14,7 @@ In this lesson, you will:
 # EXAM OBJECTIVES COVERED
 
 4.2 Summarize the importance of policies, processes, and procedures for incident response
-
+#IR 
 Effective incident response is governed by formal policies and procedures, setting out roles and responsibilities for an incident response team. You must understand the importance of following these procedures and performing your assigned role within the team to the best of your ability.
 # INCIDENT RESPONSE PROCESS 
 
@@ -102,7 +99,7 @@ Other types of attack framework have been implemented to provide a means of cate
 
 ### MITRE ATT&CK
 #stagesOfAttacks
-As an alternative to the life cycle analysis implied by a kill chain, the MITRE Corporation's Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) matrices provide access to a database of known [[TTPs]]s. This freely available resource ([attack.mitre.org](https://attack.mitre.org/)) tags each technique with a unique ID and places it in one or more tactic categories, such as initial access, persistence, lateral movement, or command and control. The sequence in which attackers may deploy any given tactic category is not made explicit. This means analysts must interpret each attack life cycle from local evidence. The framework makes [[TTPs]]s used by different adversary groups directly comparable, without assuming how any particular adversary will run a campaign at a strategic level.
+As an alternative to the life cycle analysis implied by a kill chain, the [[MITRE]] Corporation's Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) matrices provide access to a database of known [[TTPs]]s. This freely available resource ([attack.mitre.org](https://attack.mitre.org/)) tags each technique with a unique ID and places it in one or more tactic categories, such as initial access, persistence, lateral movement, or command and control. The sequence in which attackers may deploy any given tactic category is not made explicit. This means analysts must interpret each attack life cycle from local evidence. The framework makes [[TTPs]]s used by different adversary groups directly comparable, without assuming how any particular adversary will run a campaign at a strategic level.
 
 There is a matrix for enterprise, which can also be viewed as [[TTPs]]s [[directed against Linux, macOS, and Windows hosts]], and a second matrix for mobile. For example, Drive by Compromise is given the ID T1189 and categorized as an Initial Access tactic that can target Windows, Linux, and macOS hosts. Clicking through to the page accesses information about detection methods, mitigation methods, and examples of historic uses and analysis.
 

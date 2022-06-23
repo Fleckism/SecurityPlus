@@ -1,4 +1,3 @@
-#AddInfo  associated with #GRC
+associated with #GRC
 main weakness
 - The structure depends on the integrity of the root [[CA]]
-#study 

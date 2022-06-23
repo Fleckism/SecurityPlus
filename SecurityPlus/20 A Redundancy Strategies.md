@@ -20,7 +20,7 @@ In this lesson, you will:
 # EXAM OBJECTIVES COVERED
 
 2.5 Given a scenario, implement cybersecurity resilience
-
+#attack #threat  #vulnerability 
 The output of [[risk assessment]]s and business impact analysis will identify vulnerable business processes. To reduce risks in these processes, you can make the IT systems and other business systems that support them resilient to failure. You must be able to install and configure the systems that provide redundancy for power supply, networking, and storage systems.
 # HIGH [[Availability]]
 
@@ -103,7 +103,7 @@ For the system to be fault tolerant, the higher bandwidth must not be critical t
 
 Network cabling should be designed to allow for multiple paths between the various switches and routers, so that during a failure of one part of the network, the rest remains operational.
 
-Multiple switching paths **require** use of Spanning Tree Protocol ([[STP]]) to prevent loops.
+Multiple switching paths **require** use of Spanning Tree Protocol ([[STP]]) to prevent [[loops]].
 
 ### Load Balancers
 
@@ -165,4 +165,4 @@ Asynchronous replication isn't a good choice for a solution that requires data i
 
 ### On-Premises versus Cloud
 
-High [[Availability]] through redundancy and replication is resource-intensive, especially when configuring multiple [[hot or warm sites does this actually mean temperature?]]. For on-premises sites, provisioning the storage devices and [[high-bandwidth, low-latency WAN]] links required between two geographically dispersed hot sites could incur unaffordable costs. This cost is one of the big drivers of cloud services, where local and geographic redundancy are built into the system, if you trust the CSP to operate the cloud effectively. For example, in the cloud, geo-redundancy replicates data or services between data centers physically located in two different regions. Disasters that occur at the regional level, like earthquakes, hurricanes, or floods, should not impact [[Availability]] across multiple zones.
+High [[Availability]] through redundancy and replication is resource-intensive, especially when configuring multiple [[hot or warm sites does this actually mean temperature]]. For on-premises sites, provisioning the storage devices and [[high-bandwidth, low-latency WAN]] links required between two geographically dispersed hot sites could incur unaffordable costs. This cost is one of the big drivers of cloud services, where local and geographic redundancy are built into the system, if you trust the CSP to operate the cloud effectively. For example, in the cloud, geo-redundancy replicates data or services between data centers physically located in two different regions. Disasters that occur at the regional level, like earthquakes, hurricanes, or floods, should not impact [[Availability]] across multiple zones.

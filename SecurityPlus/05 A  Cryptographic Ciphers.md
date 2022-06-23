@@ -11,7 +11,7 @@ A [[cipher]] is the particular operations performed to encode or decode data. Mo
 
 Cryptography (literally meaning "secret writing") has been around for thousands of years. It is the art of making information secure by encoding it. This stands in opposition to the concept of security through obscurity. **Security through obscurity means keeping something a secret by hiding it.** This is generally acknowledged to be impossible (or at least, high risk) on any sort of computer network. With cryptography, it does not matter if third parties know of the existence of the secret, because they can never know what it is without obtaining an appropriate credential.
 
-The following terminology is used to discuss [[cryptography]]: 
+The following terminology is used to discuss cryptography: 
 
 -   [[Plaintext]] (or _cleartext_)—an unencrypted message. 
 -   [[Ciphertext]]—an encrypted message. 
@@ -24,7 +24,7 @@ In discussing cryptography and attacks against encryption systems, it is customa
 -   Bob—the intended recipient of the message.
 -   Mallory—a malicious attacker attempting to subvert the message in some way.
 
-There are three main types of cryptographic algorithm with different roles to play in the **assurance** of the [[security properties]] [[confidentiality]], [[integrity]], [[[My linked notes/Availability]]]], and [[non-repudiation]]. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
+There are three main types of cryptographic algorithm with different roles to play in the **assurance** of the [[security properties]] [[confidentiality]], [[integrity]], [[Availability]], and [[non-repudiation]]. These types are hashing algorithms and two types of encryption ciphers: symmetric and asymmetric.
 
 ## HASHING ALGORITHMS 
 

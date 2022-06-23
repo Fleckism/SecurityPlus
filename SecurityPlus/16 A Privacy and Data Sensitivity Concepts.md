@@ -1,6 +1,3 @@
----
-tags: [GRC, A_D,section]
----
 # LESSON INTRODUCTION
 
 If people are an organization's most important asset, then data comes a close second. The rapid adoption of cybersecurity awareness and technologies has come about because of the huge reputational and financial costs of high-profile data and privacy breaches. It is usually data that the [[threat actor]]s want, and data that the whole system is set up to protect.
@@ -18,9 +15,9 @@ In this lesson, you will:
 # EXAM OBJECTIVES COVERED
 
 2.1 Explain the importance of security concepts in an enterprise environment
-
+#attack #threat #vulnerability 
 5.3 Explain the importance of policies to organizational security
-
+#GRC
 5.5 Explain privacy and sensitive data concepts in relation to security
 
 A detailed understanding of privacy and data sensitivity concepts will help you to operate within an overall data governance team. **Data security and privacy are areas where policy and procedure are as important as technical controls in ensuring compliance.** These policies and procedures may also need to be expressed in agreements with external partners, suppliers, and customers. As a security professional, you will need to select and apply these policies, procedures, and agreements wisely.
@@ -50,9 +47,9 @@ Information management is a massive task in any organization. Most schemes focus
 
 A **data governance** policy describes the [[security control]] that will be applied to protect data at each stage of its life cycle. There are important institutional governance roles for oversight and management of information assets within the life cycle:
 
--   **Data owner**—a senior (executive) role with ultimate responsibility for maintaining the [[CIA]] confidentiality, integrity, and [[Availability]] of the information asset. The owner is responsible for labeling the asset (such as determining who should have access and determining the asset's criticality and sensitivity) and ensuring that it is protected with appropriate controls (access control, backup, retention, and so forth). The owner also typically selects a steward and custodian and directs their actions and sets the budget and resource allocation for sufficient controls.
--   **Data steward**—this role is primarily responsible for **data quality**. This involves tasks such as ensuring data is labeled and identified with appropriate metadata and that data is collected and stored in a format and with values that comply with applicable laws and regulations.
--   **Data custodian**—this role handles managing the **system** on which the data assets are stored. This includes responsibility for enforcing access control, encryption, and backup/recovery measures.
+-   **[[Data owner]]**—a senior (executive) role with ultimate responsibility for maintaining the [[CIA]] confidentiality, integrity, and [[Availability]] of the information asset. The owner is responsible for labeling the asset (such as determining who should have access and determining the asset's criticality and sensitivity) and ensuring that it is protected with appropriate controls (access control, backup, retention, and so forth). The owner also typically selects a steward and custodian and directs their actions and sets the budget and resource allocation for sufficient controls.
+-   **[[Data steward]]**—this role is primarily responsible for **data quality**. This involves tasks such as ensuring data is labeled and identified with appropriate metadata and that data is collected and stored in a format and with values that comply with applicable laws and regulations.
+-   **[[Data custodian]]**—this role handles managing the **system** on which the data assets are stored. This includes responsibility for enforcing access control, encryption, and backup/recovery measures.
 -   **Data Privacy Officer** (DPO)—this role is responsible for oversight of any personally identifiable information ([[PII]]) assets managed by the company. The privacy officer ensures that the processing, disclosure, and retention of [[PII]] complies with legal and regulatory frameworks.
 
 In the context of legislation and regulations protecting personal privacy, the following two institutional roles are important:

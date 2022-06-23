@@ -21,12 +21,12 @@ In this lesson, you will:
 
 3.3 Given a scenario, implement secure network designs #A_D
 
-While you may not be responsible for network design in your current role, it is important that you understand the vulnerabilities that can arise from weaknesses in network architecture #A_D, and some of the general principles for ensuring a well-designed network. This will help you to contribute to projects to improve resiliency and to make recommendations for improvements.
+While you may not be responsible for network design in your current role, it is important that you understand the [[vulnerability|vulnerabilities]] that can arise from weaknesses in network architecture #A_D, and some of the general principles for ensuring a well-designed network. This will help you to contribute to projects to improve resiliency and to make recommendations for improvements.
 
 
 # SECURE NETWORK designs #A_D
 
-A [[secure network design]] provisions the assets and services underpinning business workflows with the properties of confidentiality, integrity, and [[Availability]]. Weaknesses in the network architecture #A_D make it more susceptible to undetected intrusions or to catastrophic service failures. Typical weaknesses include:
+A secure network design provisions the assets and services underpinning business workflows with the properties of confidentiality, integrity, and [[Availability]]. Weaknesses in the network architecture #A_D make it more susceptible to undetected intrusions or to catastrophic service failures. Typical weaknesses include:
 
 -   **Single points of failure**—a "pinch point" relying on a single hardware server or appliance or network channel.
 -   **Complex dependencies**—services that require many different systems to be available. Ideally, the failure of individual systems or services should not affect the overall performance of other network services.
@@ -34,18 +34,18 @@ A [[secure network design]] provisions the assets and services underpinning busi
 -   **Lack of documentation and change control**—network segments, appliances, and services might be added without proper change control procedures, leading to a lack of visibility into how the network is constituted. It is vital that network managers understand business workflows and the network services that underpin them.
 -   **Overdependence on perimeter security**—if the network architecture #A_D is **"flat"** (that is, if any host can contact any other host), penetrating the network edge gives the attacker freedom of movement.
 
-[[Cisco's SAFE architecture #A_D]] ([cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html#~overview](https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html#~overview)) is a good starting point for understanding the complex topic of network architecture #A_D design. The SAFE guidance refers to places in the network ([[PIN]]). These represent types of network locations, including campus networks, branch offices, data centers, and the cloud. There are two special locations in these networks—Internet Edge and WAN—that facilitate connections between locations and with untrusted networks.
+Cisco's SAFE architecture #A_D ([cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html#~overview](https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-security/landing_safe.html#~overview)) is a good starting point for understanding the complex topic of network architecture #A_D design. The SAFE guidance refers to places in the network (PIN). These represent types of network locations, including campus networks, branch offices, data centers, and the cloud. There are two special locations in these networks—Internet Edge and WAN—that facilitate connections between locations and with untrusted networks.
 
 **Each PIN can be protected with security controls and capabilities, classified into a series of secure domains, such as threat defense, segmentation, security intelligence, and management.** 
 # BUSINESS WORKFLOWS AND NETWORK architecture #A_D
 
 Network architecture #A_D is designed to support business workflows. You can illustrate the sorts of decisions that need to be made by **analyzing a simple workflow**, such as email:
 
--   **Access**—the client device must access the network, obtaining a [[physical channel and logical address]]. The user must be authenticated and authorized to use the email application. The corollary is that unauthorized users and devices must be denied access.
+-   **Access**—the client device must access the network, obtaining a physical channel and logical address. The user must be authenticated and authorized to use the email application. The corollary is that unauthorized users and devices must be denied access.
 -   **Email mailbox server**—ensure that the mailbox is only accessed by authorized clients and that it is fully available and fault tolerant. Ensure that the email service runs with a minimum number of dependencies and that the service is designed to be resilient to faults.
 -   **Mail transfer server**—this must connect with untrusted Internet hosts, so communications between the untrusted network and trusted LAN must be carefully controlled. Any data or software leaving or entering the network must be subject to policy-based controls.
 
-You can see that this type of business flow will involve systems in different places in the network. Placing the client, the mailbox, and the mail transfer server all within the same logical network "segment" will introduce many vulnerabilities. Understanding and controlling how data flows between these locations is a key part of secure and effective network design.
+You can see that this type of business flow will involve systems in different places in the network. Placing the client, the mailbox, and the mail transfer server all within the same logical network "segment" will introduce many [[vulnerability|vulnerabilities]]. Understanding and controlling how data flows between these locations is a key part of secure and effective network design.
 # NETWORK APPLIANCES
 
 A number of network appliances are involved in provisioning a network architecture #A_D:
@@ -98,7 +98,7 @@ Because enterprise networks typically feature hundreds of switching appliances a
 
 Given the ability to create segregated segments with the network, you can begin to define a topology of different network zones. **A topology is a description of how a computer network is physically or logically organized.** The logical and physical network topology should be analyzed to identify points of vulnerability and to ensure that the goals of confidentiality, integrity, and [[Availability]] are met by the design.
 
-The main building block of a security [[Topology discovery|Topology]] is the [[zone]]. A zone is an area of the network where the security configuration is the same for all hosts within it. Zones should be segregated from one another by physical and/or logical segmentation, using VLANs and subnets. Traffic between zones should be strictly controlled using a security device, typically a firewall.
+The main building block of a security [[Topology discovery|Topology]] is the zone. A zone is an area of the network where the security configuration is the same for all hosts within it. Zones should be segregated from one another by physical and/or logical segmentation, using VLANs and subnets. Traffic between zones should be strictly controlled using a security device, typically a firewall.
  
 Dividing a campus network or data center into zones implies that each zone has a different security configuration. The main zones are as follows:
 

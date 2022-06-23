@@ -1,6 +1,4 @@
----
-Define mitigating(To make less harsh or hostile)
----
+
 # EXAM OBJECTIVES COVERED
 
 1.2 Given a scenario, analyze #Ops potential indicators to determine the type of attack
@@ -80,7 +78,7 @@ Compromise of the private key represented by a digital certificate or the abilit
 If [[endpoint security]] is breached, there are several classes of vector to consider for mitigation:
 
 -   **[[Social engineering]]**—if the malware was executed by a user, use security education and awareness to reduce the risk of future attacks succeeding. Review permissions to see if the account could be operated with a lower privilege level.
--   **Vulnerabilities**—if the malware exploited a software fault, either install the patch or isolate the system until a patch can be developed.
+-   **[[vulnerability|vulnerabilities]]**—if the malware exploited a software fault, either install the patch or isolate the system until a patch can be developed.
 -   **Lack of security controls**—if the attack could have been prevented by endpoint protection/A-V, host firewall, content filtering, DLP, or MDM, investigate the possibility of deploying them to the endpoint. If this is not practical, isolate the system from being exploited by the same vector.
 -   **Configuration drift**—if the malware exploited an undocumented configuration change (shadow IT software or an unauthorized service/port, for instance), reapply the baseline configuration and investigate configuration management procedures to prevent this type of ad hoc change.
 -   **Weak configuration**—if the configuration was correctly applied, but was exploited anyway, review the template to devise more secure settings. Make sure the template is applied to similar hosts. 

@@ -1,10 +1,9 @@
----
-tags: [A_D, GRC,section]
----
-# EXAM OBJECTIVES COVERED
-#addTagsIntoBody 
-2.4 Summarize [[authentication]] and authorization design concepts
 
+# EXAM OBJECTIVES COVERED
+
+2.4 Summarize [[authentication]] and authorization design concepts 
+
+#A_D 
 **Biometric authentication mechanisms allow users to access an account through a physiological feature (fingerprint or iris pattern, for instance) or behavioral pattern.** Being able to summarize the advantages and drawbacks of biometric mechanisms will allow you to support the deployment and use of these technologies.
 # BIOMETRIC AUTHENTICATION 
 
@@ -46,7 +45,7 @@ Facial recognition records multiple indicators about the size and shape of the f
 
 The limitations of facial recognition can be overcome by scanning more detailed features of the eye:
 
--   **[[Retinal scan]]**—an infrared light is shone into the eye to identify the pattern of blood vessels. The arrangement of these blood vessels is highly complex and typically does not change from birth to death, except in the event of certain diseases or injuries. **Retinal scanning is therefore one of the most accurate forms of biometrics.** Retinal patterns are very secure, but the equipment required is expensive and the process is relatively intrusive and complex. False negatives can be produced by disease, such as cataracts.
+-   **Retinal scan**—an infrared light is shone into the eye to identify the pattern of blood vessels. The arrangement of these blood vessels is highly complex and typically does not change from birth to death, except in the event of certain diseases or injuries. **Retinal scanning is therefore one of the most accurate forms of biometrics.** Retinal patterns are very secure, but the equipment required is expensive and the process is relatively intrusive and complex. False negatives can be produced by disease, such as cataracts.
 
 ![](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8983-1599771799888.png)
 

@@ -43,20 +43,20 @@ The smart-card authentication process described earlier is used for Kerberos aut
 -   When a device is connecting to a network via a switch and network policies require the user to be authenticated before the device is allowed to communicate.
 -   When the user is connecting to the network over a public network via a virtual private network ([[VPN]]).
 
-In these scenarios, the Extensible Authentication Protocol ([[EAP]]) provides a framework for deploying multiple types of authentication protocols and technologies. EAP allows lots of different authentication methods, but many of them use a digital certificate on the server and/or client machines. This allows the machines to establish a trust relationship and create a secure tunnel to transmit the user credential or to perform smart-card authentication without a user password.
+In these scenarios, the Extensible Authentication Protocol ([[EAP]]) provides a framework for deploying multiple types of authentication protocols and technologies. EAP allows lots of different authentication methods, but many of them use a digital certificate on the server and/or client machines. This allows the machines to establish a trust relationship and create a [[secure tunnel]] to transmit the user credential or to perform smart-card authentication without a user password.
 
-Where EAP provides the authentication mechanisms, the IEEE 802.1X Port-based Network Access Control (NAC) protocol provides the means of using an EAP method when a device connects to an Ethernet switch port, wireless access point (with enterprise authentication configured), or VPN gateway. 802.1X uses authentication, authorization, and accounting (AAA) architecture #A_D:
+Where EAP provides the authentication mechanisms, the IEEE 802.1X Port-based Network Access Control ([[NAC]]) protocol provides the means of using an EAP method when a device connects to an Ethernet switch port, wireless access point (with enterprise authentication configured), or VPN gateway. 802.1X uses authentication, authorization, and accounting (AAA) architecture #A_D:
 
 -   Supplicant—the device requesting access, such as a user's PC or laptop.
 -   Network access server ([[NAS]])—edge network appliances, such as switches, access points, and VPN gateways. These are also referred to as _RADIUS clients_ or authenticators.
 -   AAA server—the authentication server, positioned within the local network.
 
-With AAA, the NAS devices do not have to store any authentication credentials. They forward this data between the AAA server and the supplicant. ==There are two main types of AAA server: RADIUS and TACACS+.==
+With AAA, the NAS devices do not have to store any authentication credentials. They forward this data between the AAA server and the supplicant. ==There are two main types of AAA server: RADIUS and [[TACACS+]].==
 # REMOTE AUTHENTICATION DIAL-IN USER SERVICE
 
 The Remote Authentication Dial-in User Service ([[RADIUS]]) standard is published as an Internet standard. There are several RADIUS server and client products.
 
-The Network Access Server ([[NAS]])/Network Access Point ([[NAP]]) device (RADIUS client) is configured with the IP address of the RADIUS server and with a shared secret. This allows the client to authenticate to the server. **Remember that the client is the access device ([[switch, access point, or VPN gateway]]), not the user's PC or laptop.** A generic RADIUS authentication workflow proceed as follows:
+The Network Access Server ([[NAS]])/Network Access Point ([[NAP]]) device (RADIUS client) is configured with the IP address of the RADIUS server and with a shared secret. This allows the client to authenticate to the server. **Remember that the client is the access device (switch, access point, or VPN gateway), not the user's PC or laptop.** A generic RADIUS authentication workflow proceed as follows:
 
 1.  The user's device (the supplicant) makes a connection to the NAS appliance, such as an access point, switch, or remote access server. 
 
@@ -88,9 +88,9 @@ Key fob token generator. (Image © 123RF.com.)
 
 The SecurID token from RSA represents one popular implementation of an OTP token key. The device generates a passcode based on the current time and a secret key coded into the device. The code is entered along with a PIN or password known only to the user. Network access devices must be configured with an agent to intercept the credentials and direct them to an Authentication Manager server for validation. This server can integrate with directory products, such as AD.
 
-There are also simpler token keys and smart cards that simply transmit a static token programmed into the device. For example, many building entry systems work on the basis of static codes. These mechanisms are highly vulnerable to cloning and [[replay attacks.]]
+There are also simpler token keys and smart cards that simply transmit a static token programmed into the device. For example, many building entry systems work on the basis of static codes. These mechanisms are highly vulnerable to cloning and [[replay attacks]]
 
-There are many other ways of implementing hardware token keys. For example, a Fast Identity Online ([[FIDO]]) Universal Second Factor (U2F) USB token registers a public key with the authentication service. The authentication mechanism then requires the private key locked to the token, which is authorized using PIN or fingerprint activation ([fidoalliance.org/showcase/fido-u2f-security-key](https://fidoalliance.org/showcase/fido-u2f-security-key/)). This can also be used with the Windows Hello authentication provider ([microsoft.com/security/blog/2019/06/10/advancing-windows-10-passwordless-platform](https://www.microsoft.com/security/blog/2019/06/10/advancing-windows-10-passwordless-platform/)).
+There are many other ways of implementing hardware token keys. For example, a Fast Identity Online ([[FIDO]]) Universal Second Factor ([[U2F]]) USB token registers a public key with the authentication service. The authentication mechanism then requires the private key locked to the token, which is authorized using PIN or fingerprint activation ([fidoalliance.org/showcase/fido-u2f-security-key](https://fidoalliance.org/showcase/fido-u2f-security-key/)). This can also be used with the Windows Hello authentication provider ([microsoft.com/security/blog/2019/06/10/advancing-windows-10-passwordless-platform](https://www.microsoft.com/security/blog/2019/06/10/advancing-windows-10-passwordless-platform/)).
 # OPEN AUTHENTICATION
 
 The Initiative for Open Authentication ([[OATH]]) is an industry body established with the aim of developing an open, strong authentication framework. _Open_ means a system that any enterprise can link into to perform authentication of users and devices across different networks. **_Strong_ means that the system is based not just on passwords, but also on 2- or 3-factor authentication or on 2-step verification.** OATH has developed two algorithms for implementing one time passwords ([[OTPs]]).

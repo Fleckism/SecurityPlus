@@ -1,16 +1,14 @@
----
-tags: [Implementation,section]
----
-# EXAM OBJECTIVES COVERED
+
+## EXAM OBJECTIVES COVERED
 
 2.3 Summarize secure application development, deployment, and automation concepts
-
+#A_D 
 3.2 Given a scenario, implement host or application security solutions
-
+#Implementation 
 While you may not be taking on direct development duties on major projects, you will often be called upon to make updates to scripts, or make a quick judgment whether a script could be vulnerable and should be evaluated more closely for weaknesses. Being able to summarize secure coding practices will help you to work effectively as part of a [[DevSecOps]] team.
 # SECURE CODING TECHNIQUES 
 
-The security considerations for new programming technologies should be well understood and tested before deployment. One of the challenges of application development is that the pressure to release a solution often trumps any requirement to ensure that the application is secure. A legacy software design process might be heavily focused on highly visible elements, such as functionality, performance, and cost. Modern development practices use a security development life cycle running in parallel or integrated with the focus on software functionality and usability. Examples include Microsoft's SDL ([microsoft.com/en-us/securityengineering/sdl](https://www.microsoft.com/en-us/securityengineering/sdl)) and the [[OWASP]] Software Assurance Maturity Model ([owasp.org/www-project-samm](https://owasp.org/www-project-samm/)) and Security Knowledge Framework ([owasp.org/www-project-security-knowledge-framework](https://owasp.org/www-project-security-knowledge-framework/)). OWASP also collates descriptions of specific vulnerabilities, exploits, and mitigation techniques, such as the OWASP Top 10 ([owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten/)).
+The security considerations for new programming technologies should be well understood and tested before deployment. One of the challenges of application development is that the pressure to release a solution often trumps any requirement to ensure that the application is secure. A legacy software design process might be heavily focused on highly visible elements, such as functionality, performance, and cost. Modern development practices use a security development life cycle running in parallel or integrated with the focus on software functionality and usability. Examples include Microsoft's SDL ([microsoft.com/en-us/securityengineering/sdl](https://www.microsoft.com/en-us/securityengineering/sdl)) and the [[OWASP]] Software Assurance Maturity Model ([owasp.org/www-project-samm](https://owasp.org/www-project-samm/)) and Security Knowledge Framework ([owasp.org/www-project-security-knowledge-framework](https://owasp.org/www-project-security-knowledge-framework/)). OWASP also collates descriptions of specific [[vulnerability|vulnerabilities]], exploits, and mitigation techniques, such as the OWASP Top 10 ([owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten/)).
 
 **Some of the most important coding practices are input validation, output encoding, and error handling**.
 
@@ -43,7 +41,7 @@ Cookies can be a vector for session hijacking and data exposure if not configure
 
 A number of security options can be set in the response header **returned by the server to the client** ([owasp.org/www-project-secure-headers](https://owasp.org/www-project-secure-headers/)). While it should seem like a straightforward case of enabling all these, developers are often constrained by compatibility and implementation considerations between different client browser and server software types and versions. Some of the most important security-relevant header options are:
 
--   Hyper Text Transfer ProtocolTTPs]] Strict Transport Security ([[HSTS]])—forces browser to connect using Hyper Text Transfer ProtocolTTPs]]S only, mitigating downgrade attacks, such as SSL stripping.
+-   Hyper Text Transfer Protocol Strict Transport Security ([[HSTS]])—forces browser to connect using Hyper Text Transfer ProtocolTTPs]]S only, mitigating downgrade attacks, such as SSL stripping.
 -   Content Security Policy ([[CSP]])—mitigates clickjacking, script injection, and other client-side attacks. Note that X-Frame-Options and X-XSS-Protection provide mitigation for older browser versions, but are now deprecated in favor of CSP.
 -   **Cache-Control**—sets whether the browser can cache responses. Preventing caching of data protects confidential and personal information where the client device might be shared by multiple users.
 # DATA EXPOSURE AND MEMORY MANAGEMENT
@@ -67,9 +65,9 @@ Another issue is that an application's interpreter may default to a standard han
 
 Developing code to perform some function is hard work, so developers will often look to see if someone else has done that work already. A program may make use of existing code in the following ways:
 
--   **Code reuse**—using a block of code from elsewhere in the same application or from another application to perform a different function (or perform the same function in a different context). The risk here is that the copy and paste approach causes the developer to overlook potential vulnerabilities (perhaps the function's input parameters are no longer validated in the new context).
--   **Third-party library**—using a **binary package** (such as a dynamic link library) that implements some sort of standard functionality, such as establishing a network connection or performing cryptography. Each library must be monitored for vulnerabilities and patched promptly.
--   **Software development kit** (SDK)—using sample code or libraries of pre-built functions from the programming environment used to create the software or interact with a third party API. As with other third party libraries or code, it is imperative to monitor for vulnerabilities.
+-   **Code reuse**—using a block of code from elsewhere in the same application or from another application to perform a different function (or perform the same function in a different context). The risk here is that the copy and paste approach causes the developer to overlook potential [[vulnerability|vulnerabilities]] (perhaps the function's input parameters are no longer validated in the new context).
+-   **Third-party library**—using a **binary package** (such as a dynamic link library) that implements some sort of standard functionality, such as establishing a network connection or performing cryptography. Each library must be monitored for [[vulnerability|vulnerabilities]] and patched promptly.
+-   **Software development kit** (SDK)—using sample code or libraries of pre-built functions from the programming environment used to create the software or interact with a third party API. As with other third party libraries or code, it is imperative to monitor for [[vulnerability|vulnerabilities]].
 -   **Stored procedures**—using a pre-built function to perform a database query. A stored procedure is a part of a database that executes a custom query. The procedure is supplied an input by the calling program and returns a predefined output for matched records. This can provide a more secure means of querying the database. Any stored procedures that are part of the database but not required by the application should be disabled.
 # OTHER SECURE CODING PRACTICES
 
@@ -86,14 +84,14 @@ This type of code may be introduced through carelessly reused code, or when a bl
 It is important that code be well-documented, to assist the efforts of multiple programmers working on the same project. **Well-documented code is also easier to analyze #Ops, however, which may assist the development of attack**s. Code can be made difficult to analyze #Ops by using an **obfuscator**, which is software that randomizes the names of variables, constants, functions, and procedures, removes comments and white space, and performs other operations to make the compiled code physically and mentally difficult to read and follow. This sort of technique might be used to make reverse engineering an application more difficult and as a way of disguising malware code.
 # STATIC CODE ANALYSIS 
 
-Development is only one stage in the software life cycle. A new release of an application or automation script should be audited to ensure that it meets the goals of [[confidentiality]], [[integrity]], and [[[My linked notes/Availability]]]] critical to any secure computer system.
+Development is only one stage in the software life cycle. A new release of an application or automation script should be audited to ensure that it meets the goals of [[confidentiality]], [[integrity]], and [[Availability]] critical to any secure computer system.
 
-Static code analysis (or source code analysis) is performed against the application code before it is packaged as an executable process. The analysis software must support the programming language used by the source code. The software will scan the source code for signatures of known issues, such as [[OWASP]] Top 10 Most Critical Web Application Security Risks or injection vulnerabilities generally. NIST maintains a list of source code analyzers and their key features ([samate.nist.gov/index.php/Source_Code_Security_Analyzers.html](https://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)).
+Static code analysis (or source code analysis) is performed against the application code before it is packaged as an executable process. The analysis software must support the programming language used by the source code. The software will scan the source code for signatures of known issues, such as [[OWASP]] Top 10 Most Critical Web Application Security Risks or injection [[vulnerability|vulnerabilities]] generally. NIST maintains a list of source code analyzers and their key features ([samate.nist.gov/index.php/Source_Code_Security_Analyzers.html](https://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)).
 
 Human analysis of software source code is described as a manual code review. It is important that the code be reviewed by developers (peers) other than the original coders to try to identify oversights, mistaken assumptions, or a lack of knowledge or experience. It is important to establish a collaborative environment in which reviews can take place effectively.
 # DYNAMIC CODE ANALYSIS
 
-Static code review techniques will not reveal vulnerabilities that might exist in the runtime environment, such as exposure to race conditions or unexpected user input. Dynamic analysis means that the application is tested under "real world" conditions using a staging environment.
+Static code review techniques will not reveal [[vulnerability|vulnerabilities]] that might exist in the runtime environment, such as exposure to race conditions or unexpected user input. Dynamic analysis means that the application is tested under "real world" conditions using a staging environment.
 
 **Fuzzing is a means of testing that an application's input validation routines work well.** Fuzzing means that the test or vulnerability scanner generates large amounts of deliberately invalid and/or random input and records the responses made by the application. This is a form of "stress testing" that can reveal how robust the application is. There are generally three types of fuzzers, representing different ways of injecting manipulated input into the application:
 

@@ -1,12 +1,10 @@
----
-tags: [Implementation, A_D,section]
----
+
 # EXAM OBJECTIVES COVERED
 
 3.1 Given a scenario, implement secure protocols
 
 3.3 Given a scenario, implement secure network designs #A_D
-
+#Implementation 
 4.1 Given a scenario, use the appropriate tool to assess organizational security (SSH only)
 
 With today's mobile workforce, most networks have to support connections by remote employees, contractors, and customers to their network resources. These remote connections often make use of untrusted public networks, such as the Internet. Consequently, understanding how to implement secure remote access protocols will be a major part of your job as an information security professional.
@@ -16,7 +14,7 @@ There are also many cases where a user needs to remotely access an individual ho
 
 Remote access means that the user's device does not make a direct cabled or wireless connection to the network. The connection occurs over or through an **intermediate network**. Historically, remote access might have used analog modems connecting over the telephone system or possibly a private link (a leased line). These days, most remote access is implemented as a virtual private network ([[VPN]]), running over the **Internet**. **Administering remote access involves essentially the same tasks as administering the local network**. Only authorized users should be allowed access to local network resources and communication channels. Additional complexity comes about because it can be more difficult to ensure the security of remote workstations and servers and there is greater opportunity for remote logins to be exploited. 
 
-With a remote access VPN, clients connect to a VPN gateway on **the edge of the private network**. This is the "telecommuter" model, allowing home-workers and employees working in the field to connect to the corporate network. The VPN protocol establishes a secure tunnel so that the contents are kept private, even when the packets pass over ISPs' routers.
+With a remote access VPN, clients connect to a VPN gateway on **the edge of the private network**. This is the "telecommuter" model, allowing home-workers and employees working in the field to connect to the corporate network. The VPN protocol establishes a [[secure tunnel]] so that the contents are kept private, even when the packets pass over ISPs' routers.
 
 Remote access VPN. (Images © 123RF.com.)
 
@@ -25,13 +23,13 @@ A VPN can also be deployed in a site-to-site model to connect two or more privat
 Site-to-site VPN. (Images © 123RF.com.)
 # TRANSPORT LAYER SECURITY VPN
 
-Several VPN protocols have been used over the years. Legacy protocols such as the Point-to-Point Tunneling Protocol [[(PPTP) have been deprecated]] because they do not offer adequate security. Transport Layer Security ([[TLS]]) and IPSec are now the preferred options for configuring VPN access.
+Several VPN protocols have been used over the years. Legacy protocols such as the Point-to-Point Tunneling Protocol (PPTP) have been deprecated because they do not offer adequate security. Transport Layer Security ([[TLS]]) and IPSec are now the preferred options for configuring VPN access.
 
 ![Screenshot of User Authentication Settings and Cryptographic Settings.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/9158-1599771805930.png)
 
 Configuring an OpenVPN server in the pfSense security appliance. (Screenshot used with permission from Rubicon Communications, LLC.)
 
-A TLS VPN (still more commonly referred to as an [[SSL VPN]]) requires a remote access server listening on port 443 (or any arbitrary port number). The client makes a connection to the server using TLS so that the server is authenticated to the client (and optionally the client's certificate must be authenticated by the server). This creates an encrypted tunnel for the user to submit authentication credentials, which would normally be processed by a [[RADIUS server]]. Once the user is authenticated and the connection fully established, the VPN gateway tunnels all communications for the local network over the secure socket.
+A TLS VPN (still more commonly referred to as an [[SSL VPN]]) requires a remote access server listening on port 443 (or any arbitrary port number). The client makes a connection to the server using TLS so that the server is authenticated to the client (and optionally the client's certificate must be authenticated by the server). This creates an encrypted tunnel for the user to submit authentication credentials, which would normally be processed by a [[RADIUS]] server. Once the user is authenticated and the connection fully established, the VPN gateway tunnels all communications for the local network over the secure socket.
 
 ![Screenshot of VPN / OpenVPN / Servers / Edit window. General Information and Cryptographic Settings are shown.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3280-1599771805987.png)
 
@@ -39,7 +37,7 @@ Configuring a client certificate for mutual authentication in the pfSense securi
 
 The port can be either TCP or UDP. UDP might be chosen for marginally superior performance, especially when tunneling latency-sensitive traffic such as voice or video. TCP might be easier to use with a default firewall policy. TLS over UDP is also referred to as Datagram TLS (DTLS).
 
-OpenVPN is an open source example of a TLS VPN ([openvpn.net](https://openvpn.net/)). OpenVPN can work in [[TAP]] (bridged) mode to tunnel layer 2 frames or in [[TUN]] (routed) mode to forward IP packets. Another option is Microsoft's Secure Socket Tunneling Protocol ([[SSTP]]), which works by tunneling Point-to-Point Protocol (PPP) layer 2 frames over a TLS session ([docs.microsoft.com/en-us/openspecs/windows_protocols/ms-sstp/70adc1df-c4fe-4b02-8872-f1d8b9ad806a](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-sstp/70adc1df-c4fe-4b02-8872-f1d8b9ad806a)). The Point-to-Point Protocol (PPP) is a widely used remote dial-in protocol. It provides encapsulation for IP traffic plus IP address assignment and authentication via the widely supported Challenge Handshake Authentication Protocol (CHAP).
+OpenVPN is an open source example of a TLS VPN ([openvpn.net](https://openvpn.net/)). OpenVPN can work in [[TAP]] (bridged) mode to tunnel layer 2 frames or in TUN (routed) mode to forward IP packets. Another option is Microsoft's Secure Socket Tunneling Protocol ([[SSTP]]), which works by tunneling Point-to-Point Protocol (PPP) layer 2 frames over a TLS session ([docs.microsoft.com/en-us/openspecs/windows_protocols/ms-sstp/70adc1df-c4fe-4b02-8872-f1d8b9ad806a](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-sstp/70adc1df-c4fe-4b02-8872-f1d8b9ad806a)). The Point-to-Point Protocol (PPP) is a widely used remote dial-in protocol. It provides encapsulation for IP traffic plus IP address assignment and authentication via the widely supported Challenge Handshake Authentication Protocol (CHAP).
 # NTERNET PROTOCOL SECURITY
 
 Transport Layer Security is applied at the application level, either by using a separate secure port or by using commands in the application protocol to negotiate a secure connection. Internet Protocol Security ([[IPSec]]) operates at the **network layer (layer 3)** of the [[OSI]] model, so it can be implemented without having to configure specific application support. IPSec can provide both **confidentiality (by encrypting data packets)** and[[ [[integrity]]/anti-replay]] (by signing each packet). The main drawback is that it adds overhead to data communications. IPSec can be used to secure communications on local networks and as a remote access protocol.
@@ -50,7 +48,7 @@ Each host that uses IPSec must be assigned a policy. An IPSec policy sets the au
 
 ### Authentication Header (AH)
 
-The Authentication Header ([[AH]]) protocol performs a cryptographic hash on the whole packet, including the IP header, plus a shared secret key (known only to the communicating hosts), and adds this [[HMAC]] in its header as an **Integrity** Check Value ([[ICV]]). The recipient performs the same function on the packet and key and should derive the same value to confirm that the packet has not been modified. The payload is **not encrypted** so this protocol does not provide confidentiality. Also, the inclusion of IP header fields in the ICV means that the check will fail across [[NAT]] [[gateways]], where the IP address is rewritten. Consequently, AH is not often used.
+The Authentication Header ([[AH]]) protocol performs a cryptographic hash on the whole packet, including the IP header, plus a shared secret key (known only to the communicating hosts), and adds this [[HMAC]] in its header as an **Integrity** Check Value ([[ICV]]). The recipient performs the same function on the packet and key and should derive the same value to confirm that the packet has not been modified. The payload is **not encrypted** so this protocol does not provide confidentiality. Also, the inclusion of IP header fields in the ICV means that the check will fail across [[NAT]] [[gateway]], where the IP address is rewritten. Consequently, AH is not often used.
 
 ![There are 4 blocks in a row: IP Header, AH (which contains a small block named ICV), TCP/UDP, and Payload.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/81-1599771806095.png)
 
@@ -90,7 +88,7 @@ Configuring an IPSec tunnel with ESP encryption in the pfSense security applianc
 ### Rate
 # INTERNET KEY EXCHANGE 
 
-IPSec's encryption and hashing functions depend on a shared secret. The secret must be communicated to both hosts and the hosts must confirm one another's identity (mutual authentication). Otherwise, the connection is vulnerable to man-in-the-middle and spoofing attacks [[MITM]] . The Internet Key Exchange ([[IKE]]) protocol handles authentication and key exchange, referred to as Security Associations ([[SA]]).
+IPSec's encryption and hashing functions depend on a shared secret. The secret must be communicated to both hosts and the hosts must confirm one another's identity (mutual authentication). Otherwise, the connection is vulnerable to man-in-the-middle and spoofing attacks [[MITM]] . The Internet Key Exchange ([[IKE]]) protocol handles authentication and key exchange, referred to as Security Associations (SA).
 
 ![Screenshot of 5 settings for Phase 1 Proposal (Authentication) and 4 settings for Phase 1 Proposal (Algorithms).](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8165-1599771806473.png)
 
@@ -104,7 +102,7 @@ IKE negotiations take place over two phases:
 2.  Phase II uses the secure channel created in Phase I to establish which ciphers and key sizes will be used with AH and/or ESP in the IPSec session.
 # LAYER 2 TUNNELING PROTOCOL AND IKE V2
 
-This first version of IKE is optimized to ensure the mutual authentication of two peer hosts, such as in a site-to-site VPN. On its own, it does not provide a simple means for a client user account to authenticate to a remote network directory. Consequently, for remote access VPNs, a combination of IPSec with the Layer 2 Tunneling Protocol ([[L2TP]]) VPN protocol is often used.
+This first version of IKE is optimized to ensure the mutual authentication of two peer hosts, such as in a site-to-site VPN. On its own, it does not provide a simple means for a client user account to authenticate to a remote [[network directory]]. Consequently, for remote access VPNs, a combination of IPSec with the Layer 2 Tunneling Protocol ([[L2TP]]) VPN protocol is often used.
 
 ### Layer 2 Tunneling Protocol/IPSec VPN
 
@@ -118,7 +116,7 @@ A L2TP/IPSec VPN would typically operate as follows:
 
 The drawbacks of the original version of IKE were addressed by an updated protocol. IKE v2 has some additional features that have made the protocol popular for use as a standalone remote access VPN solution. The main changes are:
 
--   Support for [[EAP]] authentication methods, allowing, for example, user authentication against a RADIUS server.
+-   Support for [[EAP]] authentication methods, allowing, for example, user authentication against a [[RADIUS]] server.
 -   Simplified connection set up—IKE v2 specifies a single 4-message setup mode, reducing bandwidth without compromising security.
 -   Reliability—IKE v2 allows NAT traversal and MOBIKE multihoming. Multihoming means that a client such as a smartphone with multiple interfaces (such as Wi-Fi and cellular) can keep the IPSec connection alive when switching between them.
 
@@ -150,9 +148,9 @@ Split tunnel VPN traffic flow. (Images © 123RF.com.)
 Full tunnel VPN traffic flow. (Images © 123RF.com.)
 # REMOTE DESKTOP 
 
-A remote access VPN joins the user's PC or smartphone to the local network, via the secure tunnel. Another model for remote networking involves connecting to a host within the local network over a remote administration protocol. A protocol such as Secure Shell ([[SSH]]) traditionally provides terminal access, and there are many tools that can connect to a graphical desktop. A GUI remote administration tool sends screen and audio data from the remote host to the client and transfers mouse and keyboard input from the client to the remote host.
+A remote access VPN joins the user's PC or smartphone to the local network, via the [[secure tunnel]]. Another model for remote networking involves connecting to a host within the local network over a remote administration protocol. A protocol such as Secure Shell ([[SSH]]) traditionally provides terminal access, and there are many tools that can connect to a graphical desktop. A GUI remote administration tool sends screen and audio data from the remote host to the client and transfers mouse and keyboard input from the client to the remote host.
 
-Microsoft's Remote Desktop Protocol ([[RDP]]) can be used to access a physical machine on a one-to-one basis. Alternatively, the site can operate a remote desktop gateway that facilitates access to virtual desktops or individual apps running on the network servers ([docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/welcome-to-rds](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/welcome-to-rds)). There are several popular alternatives to Remote Desktop. Most support remote access to platforms other than Windows (macOS and iOS, Linux, Chrome OS, and Android for instance). Examples include TeamViewer ([teamviewer.com/en](https://www.teamviewer.com/en/)) and Virtual Network Computing (VNC), which is implemented by several different providers (notably [realvnc.com/en](https://www.realvnc.com/en/)).
+Microsoft's Remote Desktop Protocol (RDP) can be used to access a physical machine on a one-to-one basis. Alternatively, the site can operate a remote desktop gateway that facilitates access to virtual desktops or individual apps running on the network servers ([docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/welcome-to-rds](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/welcome-to-rds)). There are several popular alternatives to Remote Desktop. Most support remote access to platforms other than Windows (macOS and iOS, Linux, Chrome OS, and Android for instance). Examples include TeamViewer ([teamviewer.com/en](https://www.teamviewer.com/en/)) and Virtual Network Computing (VNC), which is implemented by several different providers (notably [realvnc.com/en](https://www.realvnc.com/en/)).
 
 Traditionally, these remote desktop products require a client app. The canvas element introduced in HTML5 allows a browser to draw and update a desktop with relatively little lag. It can also handle audio. This is referred to as an HTML5 VPN or as a clientless remote desktop gateway ([guacamole.apache.org](https://guacamole.apache.org/)). This solution also uses a protocol called WebSockets, which enables bidirectional messages to be sent between the server and client without requiring the overhead of separate Hyper Text Transfer ProtocolTTPs]] requests.
 # OUT-OF-BAND MANAGEMENT AND JUMP SERVERS 
@@ -165,7 +163,7 @@ Remote management methods can be described as either in-band or out-of-band ([[O
 
 ### Jump Servers
 
-**One of the challenges of managing hosts that are exposed to the Internet, such as servers and appliances in a DMZ, is to provide administrative access to them. Accessing these individual hosts directly from a secure zone may open their administrative interfaces to exploitation and be used as a pivot point back into the internal network.** Consequently, the administrative servers in the secure zone that are permitted to access hosts in the DMZ must be tightly controlled. Configuring and auditing this type of control when there are many different servers operating in both zones is complex.
+**One of the challenges of managing hosts that are exposed to the Internet, such as servers and appliances in a DMZ, is to provide administrative access to them. Accessing these individual hosts directly from a secure zone may open their administrative interfaces to exploitation and be used as a [[pivot]] point back into the internal network.** Consequently, the administrative servers in the secure zone that are permitted to access hosts in the DMZ must be tightly controlled. Configuring and auditing this type of control when there are many different servers operating in both zones is complex.
 
 One solution to this complexity is to add a single administration server, or jump server, to the secure zone. The jump [[server]] only runs the necessary administrative port and protocol (typically SSH or RDP). Administrators connect to the jump server then use the jump server to connect to the admin interface on the application server. The application server's admin interface has a single entry in its ACL (the jump server) and denies connection attempts from any other hosts. 
 

@@ -1,4 +1,4 @@
-Common Vulnerabilities and Exposures
+Common [[vulnerability|vulnerabilities]] and Exposures
 
  There are several elements that make up a vulnerability's entry in the CVE:
 

@@ -18,7 +18,7 @@
 (CSP) Cloud service provider 
 (CTI) Cyber threat intelligence 
 (CRM)customer relationship management (CRM)
-(CVE (Common Vulnerabilities and Exposures)
+(CVE (Common [[vulnerability|vulnerabilities]] and Exposures)
 (DevOps) Development and operations  
   Extensible Configuration Checklist Description Format (XCCDF)
   Federal Information Security Management Act (FISMA)

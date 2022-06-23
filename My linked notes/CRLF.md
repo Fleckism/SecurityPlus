@@ -1,0 +1,2 @@
+(**C**arriage **R**eturn/**L**ine **F**eed) Two characters that indicate the end-of-line (end-of-paragraph) in Windows and DOS.
+- CR and LF are control characters, respectively coded `0x0D` (13 decimal) and `0x0A` (10 decimal).

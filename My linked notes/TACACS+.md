@@ -1,0 +1,2 @@
+Terminal Access Controller Access-Control System Plus
+- RADIUS is used primarily for network access control. AAA services are also used for the purpose of centralizing logins for the administrative accounts for network appliances. This allows network administrators to be allocated specific privileges on each switch, router, access point, and firewall. Whereas RADIUS can be used for this network appliance administration role, the Cisco-developed. 

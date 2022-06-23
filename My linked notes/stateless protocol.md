@@ -1,0 +1,1 @@
+meaning that the server preserves no information about the client

@@ -44,7 +44,7 @@ A legacy platform is no longer supported with security patches by its developer 
 
 Legacy systems are highly likely to be vulnerable to exploits and must be protected by security controls other than patching, such as isolating them to networks that an attacker cannot physically connect to.
 
-Even if effective patch management procedures are in place, attackers may still be able to use zero-day software vulnerabilities, before a vendor develops a patch.
+Even if effective patch management procedures are in place, attackers may still be able to use zero-day software [[vulnerability|vulnerabilities]], before a vendor develops a patch.
 
 A vulnerability in an OS kernel file or shared library can allow privilege escalation, where the malware code runs with higher access rights (system or root). Root or system accounts are considered superuser accounts with administrative privileges.
 
@@ -64,9 +64,9 @@ An unsecure protocol transfers data as cleartext. It does not use encryption for
 
 An unsecured protocol is one that transfers data as cleartext—that is, the protocol does not use encryption for data protection.
 
-Software vulnerabilities affect all types of code. Operating system and firmware vulnerabilities may allow escalated permissions and unauthorized access. Software and security researchers discover most vulnerabilities and release patches to remedy them.
+Software [[vulnerability|vulnerabilities]] affect all types of code. Operating system and firmware [[vulnerability|vulnerabilities]] may allow escalated permissions and unauthorized access. Software and security researchers discover most [[vulnerability|vulnerabilities]] and release patches to remedy them.
 
-Weak encryption vulnerabilities allow unauthorized access to data. An algorithm or cipher used for encryption has known weaknesses that allow brute-force enumeration.
+Weak encryption [[vulnerability|vulnerabilities]] allow unauthorized access to data. An algorithm or cipher used for encryption has known weaknesses that allow brute-force enumeration.
 
 If a decryption key is not distributed securely, it can easily fall into the hands of people who are not authorized to decrypt the data.
 
@@ -99,9 +99,9 @@ Penetration testing, an intrusive, active scanning technique, does not stop at d
 
 A false positive is something that is identified by a scanner or other assessment tool as being a vulnerability, when in fact it is not.
 
-False negatives are potential vulnerabilities that are not identified in a scan. This risk can be mitigated somewhat by running repeat scans periodically and by using scanners from more than one vendor.
+False negatives are potential [[vulnerability|vulnerabilities]] that are not identified in a scan. This risk can be mitigated somewhat by running repeat scans periodically and by using scanners from more than one vendor.
 
-Reviewing related system and network logs can enhance the vulnerability report validation process. Using relevant data, such as event logs, can help confirm the validity of vulnerabilities identified in a scan.
+Reviewing related system and network logs can enhance the vulnerability report validation process. Using relevant data, such as event logs, can help confirm the validity of [[vulnerability|vulnerabilities]] identified in a scan.
 
 Some scanners measure systems and configuration settings against best practice frameworks. This is called a compliance scan, which might be necessary for regulatory compliance or voluntary conformance.
 
@@ -117,17 +117,17 @@ Non-credentialed scanning is often the most appropriate technique for external a
 
 A non-credentialed scan proceeds by directing test packets at a host without being able to log on to the OS or application. A non-credentialed scan provides a view of what the host exposes to an unprivileged user on the network.
 
-A passive scan has the least impact on the network and on hosts but is less likely to identify vulnerabilities comprehensively.
+A passive scan has the least impact on the network and on hosts but is less likely to identify [[vulnerability|vulnerabilities]] comprehensively.
 
 Configuration reviews investigate how system misconfigurations make controls less effective or ineffective, such as antivirus software not being updated, or management passwords left configured to the default. Configuration reviews generally require a credentialed scan.
 
-Two penetration test steps are being utilized by actively testing security controls and exploiting the vulnerabilities. Identifying weak passwords is actively testing security controls.
+Two penetration test steps are being utilized by actively testing security controls and exploiting the [[vulnerability|vulnerabilities]]. Identifying weak passwords is actively testing security controls.
 
-In addition, exploiting vulnerabilities is being used by proving that a vulnerability is high risk. The list of critical data obtained will prove that the weak passwords can allow access to critical information.
+In addition, exploiting [[vulnerability|vulnerabilities]] is being used by proving that a vulnerability is high risk. The list of critical data obtained will prove that the weak passwords can allow access to critical information.
 
 Bypassing security controls can be accomplished by going around controls that are already in place to gain access.
 
-Verifying that a threat exists would have consisted of using surveillance, social engineering, network scanners, and/or vulnerability assessment tools to identify vulnerabilities.
+Verifying that a threat exists would have consisted of using surveillance, social engineering, network scanners, and/or vulnerability assessment tools to identify [[vulnerability|vulnerabilities]].
 
 Black box (or blind) is when the pen tester receives no privileged information about the network and its security systems. Black box tests are useful for simulating the behavior of an external threat.
 

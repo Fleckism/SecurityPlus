@@ -1,10 +1,7 @@
----
-tags: [,section]
----
 # LESSON INTRODUCTION
 
 Where incident response emphasizes the swift eradication of malicious activity, digital forensics requires patient capture, preservation, and analysis of evidence using verifiable methods. You may be called on to assist with an investigation into the details of a security incident and to identify [[threat actor]]s. To assist these investigations, you must be able to **summarize the basic concepts of collecting and processing forensic evidence** that could be used in legal action or for strategic counterintelligence.
-
+#IR
 Lesson Objectives
 
 In this lesson, you will:

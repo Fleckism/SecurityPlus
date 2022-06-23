@@ -119,5 +119,24 @@
       ],
       "key": "G"
     }
-  ]
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "switcher:open": []
 }

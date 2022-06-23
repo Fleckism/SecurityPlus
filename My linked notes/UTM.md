@@ -1,0 +1,11 @@
+Unified threat management ([[UTM]]) refers to a 
+- security product that centralizes many types of 
+- **security controls—
+	- firewall, 
+	- anti-malware, 
+	- network intrusion prevention, 
+	- spam filtering, 
+	- content filtering, 
+	- data loss prevention, 
+	- VPN, 
+	- cloud access gateway—into a single appliance**. 

@@ -1,1 +1,5 @@
 Moving within the network or accessing data assets are likely to require higher privilege levels.
+
+-   **Vertical privilege escalation** (or elevation) is where a user or application can access functionality or data that should not be available to them. For instance, a process might run with local administrator privileges, but a vulnerability allows the arbitrary code to run with higher system privileges.
+-   **Horizontal privilege escalation** is where a user accesses ==functionality or data that is intended for another user==. For instance, via a process running with local administrator privileges on a client workstation, the arbitrary code is able to execute as a domain account on an application server.
+- **Without performing detailed analysis of code or process execution in real-time, it is privilege escalation that provides the simplest indicator of an application attack.**

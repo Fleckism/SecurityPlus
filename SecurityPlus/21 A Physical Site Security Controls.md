@@ -1,6 +1,4 @@
----
-tags: [,section]
----
+
 # ## 
 
 LESSON INTRODUCTION
@@ -17,10 +15,10 @@ In this lesson, you will:
 -   Explain the importance of physical host security controls.
 # EXAM OBJECTIVES COVERED
 
-1.2 Given a scenario, analyze #Ops potential indicators to determine the type of attack
-
+1.2 Given a scenario, analyze potential indicators to determine the type of attack
+#attack #threat #vulnerability 
 2.7 Explain the importance of physical security controls
-
+#A_D 
 If an attacker can gain [[physical access]] to your premises, there may be lots of opportunities to install rogue devices, vandalize or disrupt systems, or observe confidential information. Consequently, as a security professional, you should be able to explain the importance of installing access and monitoring controls that protect sites against physical intrusion.
 # PHYSICAL SECURITY CONTROLS
 

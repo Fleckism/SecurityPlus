@@ -1,11 +1,8 @@
----
-tags: [section]
----
-# EXAM OBJECTIVES COVERED
+EXAM OBJECTIVES COVERED
 
-1.4 Given a scenario, analyze #Ops ( #Ops) potential #Indicators indicators associated with network attacks
+1.4 Given a scenario, analyze #Attack, #threat, #vulnerability  potential indicators associated with network attacks
 
-3.3 Given a scenario, #Implementation  secure network designs #A_D #A_D 
+3.3 Given a scenario, #Implementation  secure network designs 
 
 A denial of service ([[DoS]]) attack can be extremely destructive and very difficult to mitigate. As a network security professional, it is vital for you to be able to compare and contrast DoS and distributed DoS ([[DDoS]]) methods and to be able to recommend and configure load balancing technologies that can make networks more resilient to these attacks.
 # DISTRIBUTED DENIAL OF SERVICE ATTACKS 
@@ -19,7 +16,7 @@ In a distributed reflection [[DoS]] (DRDoS) or amplification SYN flood attack, t
 
 ### Application Attacks
 
-Where a network attack uses low-level techniques, such as SYN or SYN/ACK flooding, an application attack targets vulnerabilities in the headers and payloads of specific application protocols. For example, one type of amplification attack targets DNS services with bogus queries. One of the advantages of this technique is that while the request is small, the response to a DNS query can be made to include a lot of information, so this is a very effective way of overwhelming the bandwidth of the victim network with much more limited resources on the attacker's botnet.
+Where a network attack uses low-level techniques, such as SYN or SYN/ACK flooding, an application attack targets [[vulnerability|vulnerabilities]] in the headers and payloads of specific application protocols. For example, one type of amplification attack targets DNS services with bogus queries. One of the advantages of this technique is that while the request is small, the response to a DNS query can be made to include a lot of information, so this is a very effective way of overwhelming the bandwidth of the victim network with much more limited resources on the attacker's botnet.
 
 The Network Time Protocol ([[NTP]]) can be abused in a similar way. NTP helps servers on a network and on the Internet to keep the correct time. It is vital for many protocols and security mechanisms that servers and clients be synchronized. One NTP query (monlist) can be used to generate a response containing a list of the last 600 machines that the NTP server has contacted. As with the [[DNS amplification attack]], this allows a short request to direct a long response at the victim network.
 
@@ -36,7 +33,7 @@ As well as being the target of an attack, embedded systems might be used as bots
 
 Dropping traffic from block-listed IP ranges using Security Onion IDS. (Screenshot used with permission from Security Onion.)
 
-When a network is faced with a DDoS or similar flooding attack, an [[ISP]] can use either an access control list ([[ACL]]) or a blackhole to drop packets for the affected IP address(es). A blackhole is an area of the network that cannot reach any other part of the network. The blackhole option is preferred, as evaluating each packet in a multi-gigabit stream against ACLs overwhelms the processing resources available. A standard method of doing this with border gateway protocol ([[BGP]]) routing is called a remotely triggered blackhole ([[RTBH]]) ([cisco.com/c/dam/en_us/about/security/intelligence/blackhole.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/blackhole.pdf)). The blackhole also makes the attack less damaging to the ISP's other customers. With both approaches, legitimate traffic is discarded along with the DDoS packets.
+When a network is faced with a DDoS or similar flooding attack, an [[ISP]] can use either an access control list ([[ACL]]) or a [[blackhole]] to drop packets for the affected IP address(es). A blackhole is an area of the network that cannot reach any other part of the network. The [[blackhole]] option is preferred, as evaluating each packet in a multi-gigabit stream against ACLs overwhelms the processing resources available. A standard method of doing this with border gateway protocol ([[BGP]]) routing is called a remotely triggered blackhole ([[RTBH]]) ([cisco.com/c/dam/en_us/about/security/intelligence/blackhole.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/blackhole.pdf)). The blackhole also makes the attack less damaging to the ISP's other customers. With both approaches, legitimate traffic is discarded along with the DDoS packets.
 
 Another option is to use [[sinkhole routing]] so that the traffic flooding a particular IP address is routed to a different network where it can be analyzed. Potentially some legitimate traffic could be allowed through, but the real advantage is to identify the source of the attack and devise rules to filter it. The target can then use low [[TTL]] [[DNS]] records to change the IP address advertised for the service and try to allow legitimate traffic past the flood.
 

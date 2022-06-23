@@ -12,5 +12,6 @@ Task Manager
 
 What is the difference between powershell and powershell ISE
 
+- Microsoft's Remote Desktop Protocol (RDP) can be used to access a physical machine on a one-to-one basis. 
 
 [[Linux]]

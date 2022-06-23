@@ -1,6 +1,6 @@
 # EXAM OBJECTIVES COVERED
 **security information and event management** [[SIEM]]
-1.7 Summarize the techniques used in [[[[security assessment]]s]]
+1.7 Summarize the techniques used in [[security assessment]]s
 
 3.3 Given a scenario, #Implementation  secure network designs #A_D
 #Ops
@@ -21,7 +21,7 @@ As distinct from **network traffic monitoring**,(**not the same thing**) a **net
 
 ### Logs
 
-Logs are one of the most valuable sources of security information. A system log can be used to diagnose [[Availability]] issues. A security log can record both authorized and unauthorized uses of a resource or privilege. Logs function both as an audit trail of actions and (if monitored regularly) provide a warning of intrusion attempts. Log review is a critical part of security assurance. Only referring to the logs following a major incident is missing the opportunity to identify threats and vulnerabilities early and to respond proactively. 
+Logs are one of the most valuable sources of security information. A system log can be used to diagnose [[Availability]] issues. A security log can record both authorized and unauthorized uses of a resource or privilege. Logs function both as an audit trail of actions and (if monitored regularly) provide a warning of intrusion attempts. Log review is a critical part of security assurance. Only referring to the logs following a major incident is missing the opportunity to identify threats and [[vulnerability|vulnerabilities]] early and to respond proactively. 
 
 Logs typically associate an action with a particular user. This is one of the reasons that it is critical that users not share logon details. If a user account is compromised, there is no means of tying events in the log to the actual attacker.
 # SECURITY INFORMATION AND EVENT MANAGEMENT
@@ -51,7 +51,7 @@ Enabling a log parser plug-in for a pfSense security appliance so that firewall 
 Log aggregation refers to **normalizing data** from different sources so that it is **consistent and searchable**. SIEM software features connectors or plug-ins to interpret (or parse) data from distinct types of systems and to account for differences between vendor implementations. Usually parsing will be carried out using regular expressions tailored to each log file format to identify attributes and content that can be mapped to standard fields in the SIEM's reporting and analysis tools. Another important function is to normalize **date/time zone differences to a single timeline**.
 # ANALYSIS AND REPORT REVIEW 
 
-Where collection and aggregation produce inputs, a SIEM is also used for reporting. A critical function of SIEM—and the principal factor distinguishing it from basic log management—is that of correlation. This means that the [[SIEM]] software can link individual events or data points (observables) into a meaningful indicator of risk, or Indicator of Compromise ([[[[IoC]]]]). Correlation can then be used to drive an alerting system. These reports would be viewed from the SIEM dashboard.
+Where collection and aggregation produce inputs, a SIEM is also used for reporting. A critical function of SIEM—and the principal factor distinguishing it from basic log management—is that of correlation. This means that the [[SIEM]] software can link individual events or data points (observables) into a meaningful indicator of risk, or Indicator of Compromise ([[IoC]]). Correlation can then be used to drive an alerting system. These reports would be viewed from the SIEM dashboard.
 
 Basic correlation can be performed using simple If…Then type rules. However, many SIEM solutions use artificial intelligence (AI) and machine learning as the basis for automated analysis.
 
@@ -91,9 +91,9 @@ tail /var/log/messages -n 20
 The **logger command writes input to the local system log or to a remote syslog server** ([linux.die.net/man/1/logger](https://linux.die.net/man/1/logger)). You can use the command in a script to write any text string or use the **-f option** to write the contents of another file. You can also write the output of commands by enclosing the command in **backticks**. The following command writes the name of the local machine along with the text "up" to the syslog server at 10.1.0.242:
 
 logger -n 10.1.0.242 `hostname` up
-# REGULAR EXPRESSIONS AND [[GREP]]
+# REGULAR EXPRESSIONS AND GREP
 
-Filtering a log to discover data points of interest usually involves some sort of string search, typically invoking [[regular expression (regex) syntax]]. A regular expression is a search pattern to match within a given string. The search pattern is built from the regex syntax. This syntax defines metacharacters that function as search operators, quantifiers, logic statements, and anchors/boundaries. The following list illustrates some commonly used elements of regex syntax:
+Filtering a log to discover data points of interest usually involves some sort of string search, typically invoking [[regular expression (regex)]] syntax. A regular expression is a search pattern to match within a given string. The search pattern is built from the regex syntax. This syntax defines metacharacters that function as search operators, quantifiers, logic statements, and anchors/boundaries. The following list illustrates some commonly used elements of regex syntax:
 
 -   [ … ] matches a single instance of a character within the brackets. This can include literals, ranges such as [a-z], and token matches, such as [\s] (white space) or [\d] (one digit).
 -   + matches one or more occurrences. A quantifier is placed after the term to match; for example, \s+ matches one or more white space characters.

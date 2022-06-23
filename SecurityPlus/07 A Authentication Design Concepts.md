@@ -1,6 +1,4 @@
----
-tags: [section]
----
+
 # LESSON INTRODUCTION
 
 Each network user and host device must be identified with an account so that you can control their access to your organization's applications, data, and services. The processes that support this requirement are referred to as identity and access management ([[IAM]]). Within IAM, authentication technologies ensure that only valid subjects (users or devices) can operate an account. Authentication requires the account holder to submit credentials that should only be known or held by them in order to access the account. There are many authentication technologies and it is imperative that you be able to compare and contrast and to implement these security controls.

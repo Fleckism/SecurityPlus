@@ -136,7 +136,7 @@ An _offline attack_ means that the attacker has managed to obtain a database of 
 If the attacker cannot obtain a database of passwords, a packet sniffer might be used to obtain the client response to a server challenge in a protocol such as [[NTLM]] or [[CHAP]]/MS-CHAP. Although these protocols avoid sending the hash of the password directly, the response is derived from it in some way. Password crackers can exploit weaknesses in a protocol to calculate the hash and match it to a dictionary word or brute force it.
 # BRUTE-FORCE AND DICTIONARY ATTACKS
 
-Some password attacks exploit the weak credentials chosen by users. Others can exploit vulnerabilities in the storage mechanism. For example, the Windows SAM database can be configured to store hashes for compatibility with older versions ([[LM]] and NTLMv1 hashes). These legacy hashes are cryptographically weak and highly vulnerable to password cracking ([ldapwiki.com/wiki/LM%20hash](https://ldapwiki.com/wiki/LM%20hash)).
+Some password attacks exploit the weak credentials chosen by users. Others can exploit [[vulnerability|vulnerabilities]] in the storage mechanism. For example, the Windows SAM database can be configured to store hashes for compatibility with older versions ([[LM]] and NTLMv1 hashes). These legacy hashes are cryptographically weak and highly vulnerable to password cracking ([ldapwiki.com/wiki/LM%20hash](https://ldapwiki.com/wiki/LM%20hash)).
 
 ### Brute-Force Attack
 

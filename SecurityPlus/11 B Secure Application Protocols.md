@@ -10,16 +10,16 @@ tags: [Implementation,section]
 The [[network]] infrastructure of switches, routers, access points, and secure hosts is implemented for the purpose of running services. The application protocols that enable web, email, and VoIP require secure configuration too.
 # HYPERTEXT TRANSFER PROTOCOL AND WEB SERVICES
 
-The foundation of web technology is the HyperText Transfer Protocol ([[Hyper Text Transfer ProtocolTTPs]]]]). Hyper Text Transfer ProtocolTTPs]] enables clients (typically web browsers) to request resources from an Hyper Text Transfer ProtocolTTPs]] server. A client connects to the Hyper Text Transfer ProtocolTTPs]] server using an appropriate [[TCP]] port (the default is port 80) and submits a request for a resource, using a uniform resource locator (URL). The server acknowledges the request and responds with the data (or an error message).
+The foundation of web technology is the HyperText Transfer Protocol (HTTPs]]). Hyper Text Transfer ProtocolTTPs]] enables clients (typically web browsers) to request resources from an Hyper Text Transfer ProtocolTTPs]] server. A client connects to the Hyper Text Transfer ProtocolTTPs]] server using an appropriate [[TCP]] port (the default is port 80) and submits a request for a resource, using a uniform resource locator (URL). The server acknowledges the request and responds with the data (or an error message).
 
 The response and request payload formats are defined in an Hyper Text Transfer ProtocolTTPs]] header. The Hyper Text Transfer ProtocolTTPs]] payload is usually used to serve HTML web pages, which are plaintext files with coded tags (HyperText Markup Language) describing how the page should be formatted. A web browser can interpret the tags and display the text and other resources associated with the page, such as binary picture or sound files linked to the HTML page.
 
-Hyper Text Transfer ProtocolTTPs]] also features a forms mechanism (POST) whereby a user can submit data from the client to the server. Hyper Text Transfer ProtocolTTPs]] is nominally a [[stateless protocol]]; this means that the server preserves no information about the client during a session. However, the basic functionality of Hyper Text Transfer ProtocolTTPs]] servers is often extended by support for scripting and programmable features (web applications). Servers can also **set text file cookies to preserve session information.** These coding features, plus integration with databases, **increase flexibility and interactivity, but also increase the attack surface which exposes more vulnerabilities.**
+Hyper Text Transfer Protocol also features a forms mechanism (POST) whereby a user can submit data from the client to the server. [[HTTP]] Hyper Text Transfer Protocol is nominally a stateless protocol; t his means that the server preserves no information about the client during a session. However, the basic functionality of Hyper Text Transfer Protocol servers is often extended by support for scripting and programmable features (web applications). Servers can also **set text file cookies to preserve session information.** These coding features, plus integration with databases, **increase flexibility and interactivity, but also increase the attack surface which exposes more [[vulnerability|vulnerabilities]].**
 
 Many argue that Hyper Text Transfer ProtocolTTPs]] is a stateful protocol. Version 2 of Hyper Text Transfer ProtocolTTPs]] adds more state-preserving features ([blog.zamicol.com/2017/05/is-http2-stateful-protocol-application.html](https://blog.zamicol.com/2017/05/is-http2-stateful-protocol-application.html)).
 # TRANSPORT LAYER SECURITY 
 
-As with other early [[TCP]]/IP application protocols, Hyper Text Transfer ProtocolTTPs]] communications are not secured. Secure Sockets Layer ([[SSL]]) was developed by Netscape in the 1990s to address the lack of security in Hyper Text Transfer ProtocolTTPs]]. SSL proved very popular with the industry, and it was quickly adopted as a standard named Transport Layer Security ([[TLS]]). It is typically used with Hyper Text Transfer ProtocolTTPs]] (referred to as Hyper Text Transfer ProtocolTTPs]]S or Hyper Text Transfer ProtocolTTPs]] Secure) but can also be used to secure other application protocols and as a virtual private networking (VPN) solution.
+As with other early [[TCP]]/IP application protocols, Hyper Text Transfer Protocol communications are not secured. Secure Sockets Layer ([[SSL]]) was developed by Netscape in the 1990s to address the lack of security in [[HTTP]]. SSL proved very popular with the industry, and it was quickly adopted as a standard named Transport Layer Security ([[TLS]]). It is typically used with Hyper Text Transfer ProtocolTTPs]] (referred to as Hyper Text Transfer ProtocolTTPs]]S or Hyper Text Transfer ProtocolTTPs]] Secure) but can also be used to secure other application protocols and as a virtual private networking (VPN) solution.
 
 To implement TLS, a server is assigned a digital certificate signed by some trusted certificate authority ([[CA]]). The certificate proves the identity of the server (assuming that the client trusts the CA) and validates the server's public/private key pair. The server uses its key pair and the TLS protocol to agree upon mutually supported ciphers with the client and negotiate an encrypted communications session.
 
@@ -43,11 +43,11 @@ ECDHE-RSA-AES128-GCM-SHA256
 
 This means that the server can use Elliptic Curve Diffie-Hellman Ephemeral [[ECDHE]] mode for session key agreement, [[RSA]] signatures, 128-bit AES-GCM (Galois Counter Mode) for symmetric bulk encryption, and 256-bit SHA for HMAC functions. Suites the server prefers are listed earlier in its supported cipher list.
 
-TLS 1.3 uses simplified and shortened suites. A typical TLS 1.3 cipher suite appears as follows:
+[[TLS]] 1.3 uses simplified and shortened suites. A typical TLS 1.3 cipher suite appears as follows:
 
 TLS_AES_256_GCM_SHA384
-
-Only ephemeral key agreement is supported in 1.3 and the signature type is supplied in the certificate, so the cipher suite only lists the bulk encryption key strength and mode of operation (AES_256_GCM), plus the cryptographic hash algorithm (SHA384) used within the new hash key derivation function ([[HKDF]]). HKDF is the mechanism by which the shared secret established by Diffie Hellman key agreement is used to derive symmetric session keys.
+[[AES]]
+Only ephemeral key agreement is supported in 1.3 and the signature type is supplied in the certificate, so the cipher suite only lists the bulk encryption key strength and mode of operation (AES_256_GCM), plus the cryptographic hash algorithm (SHA384) used within the new [[hash]] key derivation function (HKDF). HKDF is the mechanism by which the shared secret established by Diffie Hellman key agreement is used to derive symmetric session keys.
 
 Viewing the [[TLS]] handshake in a Wireshark packet capture. Note that the connection is using TLS 1.3 and one of the shortened cipher suites (TLS_AES_128_GCM_SHA256).
 # API CONSIDERATIONS
@@ -118,7 +118,7 @@ Email services use two types of protocols:
 
 ### Secure SMTP (SMTPS)
 
-A sender’s SMTP server discovers the IP address of the recipient’s SMTP server using the domain name of the recipient’s email address. The SMTP server for the domain is registered in [[DNS]] using a Mail Exchanger (MX) record.
+A sender’s SMTP server discovers the IP address of the recipient’s SMTP server using the domain name of the recipient’s email address. The [[SMTP]] server for the domain is registered in [[DNS]] using a Mail Exchanger (MX) record.
 
 SMTP communications can be secured using TLS. This works much like Hyper Text Transfer ProtocolTTPs]]S with a certificate on the SMTP server. There are two ways for SMTP to use TLS:
 
@@ -127,8 +127,8 @@ SMTP communications can be secured using TLS. This works much like Hyper Text Tr
 
 The STARTTLS method is generally more widely implemented than [[SMTPS]]. Typical SMTP configurations use the following ports and secure services:
 
--   Port 25—used for message relay (between SMTP servers or Message Transfer Agents [MTA]). If security is required and supported by both servers, the STARTTLS command can be used to set up the secure connection.
--   Port 587—used by mail clients (Message Submission Agents [MSA]) to submit messages for delivery by an SMTP server. Servers configured to support port 587 should use STARTTLS and require authentication before message submission.
+-   Port 25—used for message relay (between [[SMTP]] servers or Message Transfer Agents [MTA]). If security is required and supported by both servers, the STARTTLS command can be used to set up the secure connection.
+-   Port 587—used by mail clients (Message Submission Agents [MSA]) to submit messages for delivery by an [[SMTP]] server. Servers configured to support port 587 should use STARTTLS and require authentication before message submission.
 -   Port 465—some providers and mail clients use this port for message submission over implicit TLS (SMTPS), though this usage is now deprecated by standards documentation. 
 
 ### Secure POP (POP3S)
@@ -158,7 +158,7 @@ Connection security goes a long way toward preventing the compromise of email ac
 
 Voice over IP (VoIP), web conferencing, and video teleconferencing (VTC) solutions have become standard methods for the provision of business communications. The main challenges that these applications have in common is that they transfer real-time data and must create point-to-point links between hosts on different networks. 
 
-Implementing Internet telephony and video conferencing brings its own raft of security concerns.[[ Each part of the communications media network infrastructure needs to be evaluated for threats and vulnerabilities.]] This includes protocols, servers, handsets, and software. The **protocols** designed to support real-time services cover one or more of the following functions: 
+Implementing Internet telephony and video conferencing brings its own raft of security concerns.[[ Each part of the communications media network infrastructure needs to be evaluated for threats and [[vulnerability|vulnerabilities]].]] This includes protocols, servers, handsets, and software. The **protocols** designed to support real-time services cover one or more of the following functions: 
 
 -   **Session control**—used to setup and manage communications sessions. They handle tasks such as user discovery (locating a user on the network), [[Availability]] advertising (whether a user is prepared to receive calls), negotiating session parameters (such as use of audio/video), and session management and termination. 
 -   **Data transport**—handles the delivery of the actual video or voice information.
@@ -176,7 +176,7 @@ A [[threat actor]] could exploit unencrypted voice and video communications to t
 
 Enabling SIP/[[TLS]] security on a 3CX PBX VoIP softphone. (Screenshot used with permission from 3CX.)
 
-Connection security for voice and video works in a similar manner to [[Hyper Text Transfer ProtocolTTPs]]S]]. To initiate the call, the secure version SIPS uses digital certificates to authenticate the endpoints and establish a [[TLS]] tunnel. Where unencrypted SIP typically runs over TCP port 5060, SIPS uses TCP port 5061. The secure connection established by SIPS can also be used to generate a master key to use with the secure versions of the transport protocol ([[SRTP]]). SRTP provides confidentiality for the actual call data.
+Connection security for voice and video works in a similar manner to HTTPsS]]. To initiate the call, the secure version SIPS uses digital certificates to authenticate the endpoints and establish a [[TLS]] tunnel. Where unencrypted SIP typically runs over TCP port 5060, SIPS uses TCP port 5061. The secure connection established by SIPS can also be used to generate a master key to use with the secure versions of the transport protocol (SRTP). SRTP provides confidentiality for the actual call data.
 
 ![Service Node Manager screen for Media Encryption has all items checked: enable media encryption for IP Extensions, IP Trunks, and Inter Media Gateway.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2858-1599771805640.png)
 

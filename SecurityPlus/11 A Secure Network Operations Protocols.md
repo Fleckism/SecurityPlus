@@ -1,12 +1,9 @@
----
-tags: [Implementation, OIR, ,section]
-#Attack
----
+
 # ## 
 
 LESSON INTRODUCTION
 
-When hosts join a network, they need to be [[configured]] with the appropriate settings for that network. The services that provide these settings, such as [[DHCP]] and [[DNS]], must be deployed securely. When hosts access data using server applications, such as web/Hyper Text Transfer ProtocolTTPs]], email, and VoIP, the communications between clients and servers must be managed using secure versions of the application [[protocols]]. You will also need to configure secure protocols that allow users to access networks, host desktops, and appliance configuration interfaces remotely. 
+When hosts join a network, they need to be [[configured]] with the appropriate settings for that network. The services that provide these settings, such as [[DHCP]] and [[DNS]], must be deployed securely. When hosts access data using server applications, such as web/Hyper Text Transfer Protocol  email, and VoIP, the communications between clients and servers must be managed using secure versions of the application [[protocols]]. You will also need to configure secure protocols that allow users to access networks, host desktops, and appliance configuration interfaces remotely. 
 
 ## 
 
@@ -20,9 +17,9 @@ In this lesson, you will:
 # EXAM OBJECTIVES COVERED
 
 1.4 Given a scenario, analyze #Ops potential indicators associated with network attacks
-
+#attack, #threat, #vulnerability 
 3.1 Given a scenario, implement secure protocols
-
+#Implementation 
 Unsecure protocols can be exploited by attackers to compromise data security and systems integrity. In this topic, you will examine some of the protocols and services providing addressing, name resolution, directory services, time synchronization, and monitoring services for network hosts. These network operations protocols might not be as visible as applications such as web and email servers, but they are critical to secure network infrastructure.
 # NETWORK ADDRESS ALLOCATION 
 
@@ -49,7 +46,7 @@ A company whose domain has been hijacked is likely to find that they are locked 
 
 ### Uniform Resource Locator (URL) Redirection
 
-A uniform resource locator ([[URL]]) is an address for the pages and files published on websites. A URL comprises a FQDN, file path, and often script parameters. URL redirection refers to the use of [[Hyper Text Transfer ProtocolTTPs]]]] redirects to open a page other than the one the user requested. This is often used for legitimate purposes—to send the user to a login page or to send a mobile device browser to a responsive version of the site, for instance. If the redirect is not properly validated by the web application, an attacker can craft a phishing link that might appear legitimate to a naïve user, such as:
+A uniform resource locator ([[URL]]) is an address for the pages and files published on websites. A URL comprises a FQDN, file path, and often script parameters. URL redirection refers to the use of HTTPs]] redirects to open a page other than the one the user requested. This is often used for legitimate purposes—to send the user to a login page or to send a mobile device browser to a responsive version of the site, for instance. If the redirect is not properly validated by the web application, an attacker can craft a phishing link that might appear legitimate to a naïve user, such as:
 
 https://trusted.foo/login.php?url="https://tru5ted.foo"
 
@@ -75,15 +72,15 @@ Before DNS was developed in the 1980s, name resolution took place using a text f
 DNS server cache poisoning aims to corrupt the records held by the DNS server itself. This can be accomplished by performing [[DoS]] against the server that holds the authorized records for the domain, and then **spoofing replies** to requests from other [[DNS|name]] servers. Another attack involves getting the victim name server to respond to a recursive query from the attacking host. A recursive query compels the DNS server to query the authoritative server for the answer on behalf of the client. The attacker's DNS, masquerading as the authoritative name server, responds with the answer to the query, but also includes a lot of false domain:IP mappings for other domains that the victim DNS accepts as genuine. The nslookup or dig tool can be used to query the name records and cached records held by a server to discover whether any false records have been inserted.
 # DNS SECURITY
 
-DNS is a critical service that should be configured to be fault tolerant. **DoS attacks are hard to perform against the servers that perform Internet name resolution**, but if an attacker can target the DNS server on a private network, it is possible to seriously disrupt the operation of that network.
+[[DNS]] is a critical service that should be configured to be fault tolerant. **DoS attacks are hard to perform against the servers that perform Internet name resolution**, but if an attacker can target the DNS server on a private network, it is possible to seriously disrupt the operation of that network.
 
 To ensure DNS security on a private network, local DNS servers should only accept recursive queries from local hosts (preferably authenticated local hosts) and **not from the Internet**. You also need to implement access control measures on the server, to prevent a malicious user from altering records manually. Similarly, clients should be restricted to using authorized resolvers to perform name resolution.
 
-Attacks on DNS may also target the server application and/or configuration. Many DNS services run on [[BIND]] (Berkeley Internet Name Domain), distributed by the Internet Software Consortium ([isc.org](https://www.isc.org/)). There are known vulnerabilities in many versions of the BIND server, so it is critical to patch the server to the latest version. The same general advice applies to other DNS server software, such as Microsoft's. Obtain and check security announcements and then test and apply critical and security-related patches and upgrades.
+Attacks on DNS may also target the server application and/or configuration. Many DNS services run on [[BIND]] (Berkeley Internet Name Domain), distributed by the Internet Software Consortium ([isc.org](https://www.isc.org/)). There are known [[vulnerability|vulnerabilities]] in many versions of the BIND server, so it is critical to patch the server to the latest version. The same general advice applies to other DNS server software, such as Microsoft's. Obtain and check security announcements and then test and apply critical and security-related patches and upgrades.
 
-[[DNS footprinting]] means obtaining information about a private network by using its DNS server to perform a zone transfer (all the records in a domain) to a rogue DNS or simply by querying the DNS service, using a tool such as nslookup or dig. To prevent this, you can apply an Access Control List ([[ACL]]) to prevent zone transfers to unauthorized hosts or domains, to prevent an external server from obtaining information about the private network architecture #A_D.
+[[DNS]] footprinting means obtaining information about a private network by using its DNS server to perform a zone transfer (all the records in a domain) to a rogue DNS or simply by querying the DNS service, using a tool such as nslookup or dig. To prevent this, you can apply an Access Control List ([[ACL]]) to prevent zone transfers to unauthorized hosts or domains, to prevent an external server from obtaining information about the private network architecture #A_D.
 
-[[DNS]] Security Extensions ([[DNSSEC]]) help to **[[mitigate]] against spoofing and poisoning attacks by providing a validation process for DNS responses**. With DNSSEC enabled, the authoritative server for the zone creates a "package" of resource records (called an [[RRset]]) signed with a private key (the Zone Signing Key). When another server requests a secure record exchange, the authoritative server returns the package along with its public key, which can be used to verify the signature.
+[[DNS]] Security Extensions (DNSSEC) help to **[[mitigate]] against spoofing and poisoning attacks by providing a validation process for DNS responses**. With DNSSEC enabled, the authoritative server for the zone creates a "package" of resource records (called an RRset) signed with a private key (the Zone Signing Key). When another server requests a secure record exchange, the authoritative server returns the package along with its public key, which can be used to verify the signature.
 
 The public zone signing key is itself signed with a separate Key Signing Key. Separate keys are used so that if there is some sort of compromise of the zone signing key, the domain can continue to operate securely by revoking the compromised key and issuing a new one.
 
@@ -94,12 +91,12 @@ Windows Server DNS services with DNSSEC enabled. (Screenshot used with permissio
 The Key Signing Key for a particular domain is validated by the parent domain or host ISP. The top-level domain trusts are validated by the Regional Internet Registries and the DNS root servers are self-validated, using a type of [[M-of-N]] control group key signing. This establishes a chain of trust from the root servers down to any particular subdomain.
 # SECURE DIRECTORY SERVICES 
 
-A [[network directory]] lists the subjects (principally users, computers, and services) and objects (such as directories and files) available on the network plus the permissions that subjects have over objects. A network directory facilitates authentication and authorization, and it is critical that it be maintained as a highly secure service. Most directory services are based on the Lightweight Directory Access Protocol ([[LDAP]]), running over [[port]] 389. The basic protocol provides no security and all transmissions are in plaintext, making it vulnerable to sniffing and man-in-the-middle attacks([[MITM]]). Authentication (referred to as **binding to the server**) can be implemented in the following ways:
+A [[network directory]] lists the subjects (principally users, computers, and services) and objects (such as directories and files) available on the network plus the permissions that subjects have over objects. A [[network directory]] facilitates authentication and authorization, and it is critical that it be maintained as a highly secure service. Most directory services are based on the Lightweight Directory Access Protocol ([[LDAP]]), running over [[port]] 389. The basic protocol provides no security and all transmissions are in plaintext, making it vulnerable to sniffing and man-in-the-middle attacks([[MITM]]). Authentication (referred to as **binding to the server**) can be implemented in the following ways:
 
 -   **No authentication**—anonymous access is granted to the directory.
 -   **Simple bind**—the client must supply its distinguished name ([[DN]]) and password, but these are passed as **plaintext**.
--   **Simple Authentication and Security Layer** ([[SASL]])—the client and server negotiate the use of a supported authentication mechanism, such as Kerberos. The STARTTLS command can be used to require encryption (sealing) and message integrity (signing). This is the preferred mechanism for Microsoft's Active Directory ([[AD]]) implementation of LDAP.
--   LDAP Secure ([[LDAPS]])—the server is installed with a digital certificate, which it uses to set up a secure tunnel for the user credential exchange. LDAPS uses [[port]] 636.
+-   **Simple Authentication and Security Layer** (SASL)—the client and server negotiate the use of a supported authentication mechanism, such as Kerberos. The STARTTLS command can be used to require encryption (sealing) and message integrity (signing). This is the preferred mechanism for Microsoft's Active Directory ([[AD]]) implementation of LDAP.
+-   [[LDAP]] Secure (LDAPS)—the server is installed with a digital certificate, which it uses to set up a [[secure tunnel]] for the user credential exchange. LDAPS uses [[port]] 636.
 
 If secure access is required, anonymous and simple authentication access methods should be disabled on the server.
 
@@ -110,15 +107,15 @@ Unless hosting a public service, the [[LDAP]] directory server should also only 
 
 Many applications on networks are time dependent and time critical. These include authentication and security mechanisms, scheduling applications, and backup software. The Network Time Protocol ([[NTP]]) provides a transport over which to synchronize these time dependent applications. NTP works over [[UDP]] on [[port]] 123.
 
-Top-level NTP servers (stratum 1) obtain the Coordinated Universal Time ([[UTC]]) from a highly accurate clock source, such as an atomic clock. Lower tier servers then obtain the UTC from multiple stratum 1 servers and sample the results to obtain an authoritative time. Most organizations will use a stratum 2 server to obtain the time for use on the LAN. Servers at lower tiers may then perform the same sort of sampling operation, adjust for the delay involved in propagating the signal, and provide the time to clients. Clients themselves usually obtain the time using a modified form of the protocol (Simple NTP).
+Top-level NTP servers (stratum 1) obtain the Coordinated Universal Time (UTC) from a highly accurate clock source, such as an atomic clock. Lower tier servers then obtain the UTC from multiple stratum 1 servers and sample the results to obtain an authoritative time. Most organizations will use a stratum 2 server to obtain the time for use on the LAN. Servers at lower tiers may then perform the same sort of sampling operation, adjust for the delay involved in propagating the signal, and provide the time to clients. Clients themselves usually obtain the time using a modified form of the protocol (Simple NTP).
 
 NTP has historically lacked any sort of security mechanism, but there are moves to create a security extension for the protocol called Network Time Security ([blog.cloudflare.com/secure-time](https://blog.cloudflare.com/secure-time/)).
 # SIMPLE NETWORK MANAGEMENT PROTOCOL SECURITY
 
 The Simple Network Management Protocol ([[SNMP]]) is a widely used framework for management and monitoring. SNMP consists of an SNMP monitor and agents.
 
--   The agent is a process (software or firmware) running on a [[switch, router, server]], or other SNMP-compatible network device.
--   This agent maintains a database called a management information base ([[MIB]]) that holds statistics relating to the activity of the device (for example, the number of frames per second handled by a switch). The agent is also capable of initiating a trap operation where it informs the management system of a notable event (port failure, for instance). The threshold for triggering traps can be set for each value. Device queries take place over port 161 ([[UDP]]); traps are communicated over port 162 (also UDP).
+-   The agent is a process (software or firmware) running on a [[switch]], [[router]], [[server]], or other SNMP-compatible network device.
+-   This agent maintains a database called a management information base (MIB) that holds statistics relating to the activity of the device (for example, the number of frames per second handled by a switch). The agent is also capable of initiating a trap operation where it informs the management system of a notable event (port failure, for instance). The threshold for triggering traps can be set for each value. Device queries take place over port 161 ([[UDP]]); traps are communicated over port 162 (also UDP).
 -   The SNMP monitor (a software program) provides a location from which network activity can be overseen. It monitors all agents by polling them at regular intervals for information from their MIBs and displays the information for review. It also displays any trap operations as alerts for the network administrator to assess and act upon as necessary.
 
 If SNMP is not used, you should remember to change the default configuration password and disable it on any SNMP-capable devices that you add to the network. If you are running SNMP v1 or v2c, keep to the following guidelines:

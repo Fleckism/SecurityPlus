@@ -18,7 +18,7 @@ In this lesson, you will:
 -   Summarize the use of SIEM.
 # EXAM OBJECTIVES COVERED
 
-3.3 Given a scenario, implement secure network designs #A_D
+3.3 Given a scenario, implement secure network designs #A_D, #Implementation 
 
 The firewall is one of the longest serving types of network security control, developed to segregate some of the first Internet networks in the 1980s. Since those early days, firewall types and functionality have both broadened and deepened. **As a network security professional, a very large part of your workday will be taken up with implementing, configuring, and troubleshooting [[firewall]] and [[proxies]].**
 # PACKET FILTERING FIREWALLS 
@@ -29,9 +29,9 @@ Packet filtering describes the earliest type of network firewall. All firewalls 
 
 A packet filtering firewall is configured by specifying a **group of rules**, called an access control list ([[ACL]]). Each rule defines a specific type of data packet and the **appropriate action** to take when a packet matches the rule. An action can be either to deny (block or drop the packet, and optionally log an event) or to accept (let the packet pass through the firewall). A packet filtering firewall can **inspect the headers of IP packets**. This means that rules can be based on the information found in those headers:
 
--   [[IP filtering]]—accepting or denying traffic on the basis of its source and/or destination IP address.
--   [[Protocol ID/type]] (TCP, UDP, ICMP, routing protocols, and so on).
--   [[Port filtering/security]]—accepting or denying a packet on the basis of source and destination port numbers (TCP or UDP application type).
+-   IP filtering—accepting or denying traffic on the basis of its source and/or destination IP address.
+-   Protocol ID/type (TCP, UDP, ICMP, routing protocols, and so on).
+-   Port filtering/security—accepting or denying a packet on the basis of source and destination port numbers (TCP or UDP application type).
 
 There may be additional functionality in some products, such as the ability to block some types of [[ICMP]] (ping) traffic but not others, or the ability to filter by hardware [[MAC address]]. Another distinction that can be made is whether the firewall can control only inbound traffic or both inbound and outbound traffic. This is also often referred to as **ingress and egress traffic or filtering.** Controlling outbound traffic is useful because it can block applications that have not been authorized to run on the network and defeat malware, such as [[backdoor]]s. Ingress and egress traffic is filtered using separate ACLs. 
 
@@ -58,10 +58,10 @@ pfSense firewall rule configuration—Advanced settings allow maximums for state
 
 ### Application Layer ([[OSI]] Layer 7)
 
-An application-**aware** firewall can inspect the contents of packets at the application layer. One key feature is to **verify the application protocol matches the port**; to verify that malware isn't sending raw TCP data over port 80 just because port 80 is open, for instance. As another example, a web application firewall could analyze #Ops the Hyper Text Transfer ProtocolTTPs]] headers and the HTML code present in Hyper Text Transfer ProtocolTTPs]] packets to try to identify code that matches a pattern in its threat database. **Application-aware firewalls have many different names, including application layer gateway, stateful multilayer inspection, or deep packet inspection**. Application aware devices have to be configured with separate filters for each type of [[traffic]] (Hyper Text Transfer ProtocolTTPs]] and Hyper Text Transfer ProtocolTTPs]]S, SMTP/POP/IMAP, FTP, and so on). Application aware firewalls are very powerful, but they are not invulnerable. Their very complexity means that it is possible to craft DoS attacks against exploitable vulnerabilities in the firewall firmware. Also, the **firewall cannot examine encrypted data packets, unless configured with an SSL/TLS inspector.**
+An application-**aware** firewall can inspect the contents of packets at the application layer. One key feature is to **verify the application protocol matches the port**; to verify that malware isn't sending raw TCP data over port 80 just because port 80 is open, for instance. As another example, a web application firewall could analyze #Ops the Hyper Text Transfer ProtocolTTPs]] headers and the HTML code present in Hyper Text Transfer ProtocolTTPs]] packets to try to identify code that matches a pattern in its threat database. **Application-aware firewalls have many different names, including application layer gateway, stateful multilayer inspection, or deep packet inspection**. Application aware devices have to be configured with separate filters for each type of [[traffic]] (Hyper Text Transfer ProtocolTTPs]] and Hyper Text Transfer ProtocolTTPs]]S, SMTP/POP/IMAP, FTP, and so on). Application aware firewalls are very powerful, but they are not invulnerable. Their very complexity means that it is possible to craft DoS attacks against exploitable [[vulnerability|vulnerabilities]] in the firewall firmware. Also, the **firewall cannot examine encrypted data packets, unless configured with an SSL/TLS inspector.**
 # IPTABLES
 
-iptables is a command line [[|tools|utility]] provided by many Linux distributions that allows administrators to edit the rules enforced by the Linux kernel firewall ([linux.die.net/man/8/iptables](https://linux.die.net/man/8/iptables)). iptables works with chains, which apply to the different types of traffic, such as the INPUT chain for traffic destined for the local host. Each chain has a default policy set to DROP or ALLOW traffic that does not match a rule. Each rule, processed in order, determines whether traffic matching the criteria is allowed or dropped.
+iptables is a command line  provided by many Linux distributions that allows administrators to edit the rules enforced by the Linux kernel firewall ([linux.die.net/man/8/iptables](https://linux.die.net/man/8/iptables)). iptables works with chains, which apply to the different types of traffic, such as the INPUT chain for traffic destined for the local host. Each chain has a default policy set to DROP or ALLOW traffic that does not match a rule. Each rule, processed in order, determines whether traffic matching the criteria is allowed or dropped.
 
 The command iptables --list INPUT --line-numbers -n will show the contents of the INPUT chain with line numbers and no name resolution. The rules in the following example drop any traffic from the specific host at 10.1.0.192 and allow ICMP echo requests (pings), DNS, and Hyper Text Transfer ProtocolTTPs]]/Hyper Text Transfer ProtocolTTPs]]S traffic either from the local subnet (10.1.0.0/24) or from any network (0.0.0.0/0):
 
@@ -132,7 +132,7 @@ Configuring content filter settings for the Squid proxy server (squid-cache.org)
 
 The main benefit of a proxy is that client computers connect to a specified point on the perimeter network for web access. The proxy can be positioned within a [[DMZ]]. This provides for a degree of traffic management and security. In addition, most web [[proxy]] servers provide caching engines, whereby frequently requested web pages are retained on the proxy, negating the need to re-fetch those pages for subsequent requests.
 
-**A proxy server must understand the application it is servicing.** For example, a web proxy must be able to parse and modify Hyper Text Transfer ProtocolTTPs]] and Hyper Text Transfer ProtocolTTPs]]S commands (and potentially HTML and scripts too). Some proxy servers are application-specific; others are multipurpose. A multipurpose proxy is one configured with filters for multiple protocol types, such as [[Hyper Text Transfer ProtocolTTPs]]]], [[FTP]], and [[SMTP]].
+**A proxy server must understand the application it is servicing.** For example, a web proxy must be able to parse and modify Hyper Text Transfer ProtocolTTPs]] and Hyper Text Transfer ProtocolTTPs]]S commands (and potentially HTML and scripts too). Some proxy servers are application-specific; others are multipurpose. A multipurpose proxy is one configured with filters for multiple protocol types, such as HTTPs]], [[FTP]], and [[SMTP]].
 
 Proxy servers can generally be classed as non-transparent or transparent.
 
@@ -198,9 +198,9 @@ The larger IPv6 address space makes most use cases for NAT redundant. A host can
 
 Virtual firewalls are usually deployed within data centers and cloud services. A virtual firewall can be implemented in three different ways:
 
--   [[Hypervisor]]-based—this means that filtering functionality is built into the hypervisor or cloud provisioning tool. You can use the cloud's web app or application programming interface ([[API]]) to write access control lists ([[ACL]]s) for traffic arriving or leaving a virtual host or virtual network.
--   [[Virtual appliance]]—this refers to deploying a vendor firewall appliance instance using virtualization, in the same way you might deploy a Windows or Linux guest OS.
--   [[Multiple context]]—this refers to multiple virtual firewall instances running on a hardware firewall appliance. Each context has a separate interface and can perform a distinct filtering role.
+-   Hypervisor-based—this means that filtering functionality is built into the hypervisor or cloud provisioning tool. You can use the cloud's web app or application programming interface ([[API]]) to write access control lists ([[ACL]]s) for traffic arriving or leaving a virtual host or virtual network.
+-   Virtual appliance—this refers to deploying a vendor firewall appliance instance using virtualization, in the same way you might deploy a Windows or Linux guest OS.
+-   Multiple context—this refers to multiple virtual firewall instances running on a hardware firewall appliance. Each context has a separate interface and can perform a distinct filtering role.
 
 While they can be deployed like "regular" firewalls for zone-based routing and filtering, **virtual firewalls**' most significant role is to support the east-west security and zero-trust microsegmentation design paradigms. They are able to inspect traffic as it passes from host-to-host or between virtual networks, rather than requiring that traffic be routed up to a firewall appliance and back.
 # OPEN-SOURCE VERSUS PROPRIETARY FIREWALLS

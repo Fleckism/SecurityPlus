@@ -1,0 +1,1 @@
+The act of an attacker moving from one compromised system to one or more  other systems within the same or other organizations. Pivoting is fundamental to the success of advanced persistent threat (APT) attacks. SSH trust relationships may more readily allow an attacker to pivot.

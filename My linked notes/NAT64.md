@@ -1,0 +1,2 @@
+NAT64 is an IPv6 transition mechanism that facilitates communication between IPv6 and IPv4 hosts by using a form of network address translation (NAT). The NAT64 gateway is a translator between IPv4 and IPv6 protocols, for which function it needs at least one IPv4 address and an IPv6 network
+See [[NAT All]]

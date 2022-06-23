@@ -35,3 +35,5 @@ A private certificate does not validate software.
 A key signing key is associated with Domain Name System Security Extensions (DNSSEC), which validates DNS responses to help mitigate spoofing and poisoning attacks. It does not apply to software.
 
 Kerberos is an authentication service based on a time-sensitive ticket-granting system. It is used to validate users, not software.
+
+new hash key derivation function (HKDF)

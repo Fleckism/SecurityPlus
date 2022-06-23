@@ -2,3 +2,6 @@
 -  [[integrity]], 
 - [[Availability]], and 
 - [[non-repudiation]].
+
+
+#study 

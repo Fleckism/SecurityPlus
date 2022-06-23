@@ -1,6 +1,3 @@
----
-tags: [acronym, ]
----
 cybersecurity framework ([[CSF]])
 
 

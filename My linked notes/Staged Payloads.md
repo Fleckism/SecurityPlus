@@ -1,0 +1,1 @@
+One technique used is called Staged Payloads. The malware writers release an app that appears innocuous in the store but once installed it attempts to download additional components infected with malware

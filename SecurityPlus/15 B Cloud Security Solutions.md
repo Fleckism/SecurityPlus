@@ -1,15 +1,13 @@
----
-tags: [section]
----
+
 # EXAM OBJECTIVES COVERED
 
 1.2 Given a scenario, analyze #Ops #Ops  potential #Indicators  to determine the type of attack (Cloud-based versus on-premises only)
-
+#attack #threat #vulnerability 
 2.2 Summarize virtualization and cloud computing concepts
-
+#A_D 
 3.6 Given a scenario, apply cybersecurity solutions to the cloud
-
-Configuring cloud security solutions shares many principles and processes with on-premises security, but plenty of unfamiliar technologies and challenges too. Weak configuration of cloud services can make many [[attack vector]]s available, and the public nature of clouds means that they will quickly be discovered and exploited. [[You must be able to apply policies and technical controls to provision, compute, network, and storage cloud resources with the attributes of confidentiality, integrity, and [[Availability]].]]
+#Implementation 
+Configuring cloud security solutions shares many principles and processes with on-premises security, but plenty of unfamiliar technologies and challenges too. Weak configuration of cloud services can make many [[attack vector]]s available, and the public nature of clouds means that they will quickly be discovered and exploited. You must be able to apply policies and technical controls to provision, compute, network, and storage cloud resources with the attributes of confidentiality, integrity, and [[Availability]].
 # CLOUD SECURITY INTEGRATION AND AUDITING
 
 Cloud-based services must be integrated within regular security policies and procedures and audited for compliance. Where [[indicators]] of **on-premises attacks are found in local application logs and network traffic**, indicators of **cloud-based attacks are found in API logs and metrics.** The same correlation to suspicious IP address ranges and domains and suspicious code strings must be made, but the source of this data is the cloud service provider ([[CSP]]). Accessing this auditing information in real time may be difficult, depending on the cloud service type. There are many cloud-based [[SIEM]] solutions that can perform this collection, aggregation, and correlation of security data from both on-premises and cloud-based networks and instances.
@@ -70,7 +68,7 @@ The [[API]] is the means by which consumers interact with the cloud infrastructu
 As with on-premises virtualization, it is important to manage [[instances]] (virtual machines and containers) to avoid sprawl, where undocumented instances are launched and left unmanaged. As well as restricting rights to launch instances, you should configure logging and monitoring to track usage.
 # CLOUD STORAGE SECURITY
 
-Where the compute component refers to [[CPU]] and [[system memory resources]] , the storage component means the provisioning of [[persistent storage capacity]]. As with the compute component, the cloud virtualization layer abstracts the underlying hardware to provide the required storage type, such as a virtual hard disk for a VM instance, object-based storage to serve static files in a web application, or block storage for use by a database server. Storage profiles will have different performance characteristics for different applications, such as **fast SSD-backed storage for databases** versus slower **HDD-backed media for archiving**. The principal performance metric is the number of input/output operations per second ([[IOPS]]) supported.
+Where the compute component refers to [[CPU]] and [[system memory resources]] , the storage component means the provisioning of [[persistent storage capacity]]. As with the compute component, the cloud virtualization layer abstracts the underlying hardware to provide the required storage type, such as a virtual hard disk for a VM instance, object-based storage to serve static files in a web application, or block storage for use by a database server. Storage profiles will have different performance characteristics for different applications, such as **fast SSD-backed storage for databases** versus slower **HDD-backed media for archiving**. The principal [[performance metric]] is the number of input/output operations per second ([[IOPS]]) supported.
 
 ### Permissions and Resource Policies
 
@@ -98,7 +96,7 @@ Cloud storage encryption equates to the on-premises concept of full disk encrypt
 
 To read or write the data, the AES key must be available to the VM or container using the storage object. With [[CSP]]-managed keys, the cloud provider handles this process by using the access control rights configured on the storage resource to determine whether access is approved and, if so, making the key available to the VM or container. The key will be stored in a hardware security module ([[HSM]]) within the cloud. The HSM and separation of duties policies protect the keys from insider threat. Alternatively, customers can manage keys themselves, taking on all responsibility for secure distribution and storage.
 
-Encryption can also be applied at other levels. For example, applications can selectively encrypt file system objects or use database-level encryption to encrypt fields and/or records. All networking—whether customer to cloud or between VMs/containers within the cloud—should use encrypted protocols such as [[Hyper Text Transfer ProtocolTTPs]]S]] or [[IPSec]].
+Encryption can also be applied at other levels. For example, applications can selectively encrypt file system objects or use database-level encryption to encrypt fields and/or records. All networking—whether customer to cloud or between VMs/containers within the cloud—should use encrypted protocols such as HTTPsS]] or [[IPSec]].
 # HIGH [[Availability]]
 
 One of the benefits of the cloud is the potential for providing services that are resilient to failures at **different levels, such as component, server, local network, site, data center, and wide area network.** The CSP uses a virtualization layer to ensure that compute, storage, and network provision meet the [[Availability]] criteria set out in its SLA. In terms of storage performance tiers, high [[Availability]] (HA) refers to storage provisioned with a guarantee of 99.99% uptime or better. As with on-premises architecture #A_D, the CSP uses redundancy to make multiple disk controllers and storage devices available to a pool of storage resource. Data may be replicated between pools or groups, with each pool supported by separate hardware resources.

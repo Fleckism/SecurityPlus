@@ -1,10 +1,8 @@
----
-tags: [GRC,section]
----
+
 # EXAM OBJECTIVES COVERED
 
 3.9 Given a scenario, implement public key infrastructure[[PKI]]
-#GRC 
+#Implementation, #IR, #Ops 
 4.1 Given a scenario, use the appropriate tool to assess organizational security (OpenSSL only)
 
 As a security professional, you are very likely to have to install and maintain [[public key infrastructure]] (PKI) certificate services for private networks. **You may also need to obtain and manage certificates from public PKI providers.** This topic will help you to install and configure PKI and to troubleshoot and revoke certificates.
@@ -69,7 +67,7 @@ When certificates are used by a transport protocol, such as SSL/TLS, there is a 
 
 **[[Pinning]] refers to several techniques to ensure that when a client inspects the certificate presented by a server or a code-signed application, it is inspecting the proper certificate**. This might be achieved by embedding the certificate data in the application code, or by submitting one or more public keys to an Hyper Text Transfer ProtocolTTPs]] browser via an Hyper Text Transfer ProtocolTTPs]] header, which is referred to as _Hyper Text Transfer ProtocolTTPs]] Public Key Pinning (**HPKP**)._
 
-**[[HPKP]] has serious vulnerabilities and has been deprecated** ([developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning](https://developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning)). The replacement mechanism is the Certificate Transparency Framework.
+**[[HPKP]] has serious [[vulnerability|vulnerabilities]] and has been deprecated** ([developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning](https://developer.mozilla.org/en-US/docs/Web/Hyper Text Transfer ProtocolTTPs]]/Public_Key_Pinning)). The replacement mechanism is the Certificate Transparency Framework.
 # CERTIFICATE FORMATS
 
 There are various formats for encoding a certificate as a digital file for exchange between different systems. 

@@ -1,6 +1,4 @@
----
-tags: [Implementation,section]
----
+
 # EXAM OBJECTIVES COVERED
 
 2.5 Given a scenario, implement cybersecurity resilience

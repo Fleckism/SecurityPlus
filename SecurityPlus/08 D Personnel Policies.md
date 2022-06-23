@@ -1,6 +1,3 @@
----
-tags: [section]
----
 # EXAM OBJECTIVES COVERED
 
 5.3 Explain the importance of policies to organizational security
@@ -24,7 +21,7 @@ Rules of behavior are also important when considering employees with privileged 
 
 Portable devices, such as smartphones, USB sticks, media players, and so on, pose a considerable threat to data security, as they make file copy so easy. Camera and voice recording functions are other obvious security issues. Network access control, endpoint management, and data loss prevention solutions can be of some use in preventing the attachment of such devices to corporate networks. Some companies may try to prevent staff from bringing such devices on site. This is quite difficult to enforce, though.
 
-Also important to consider is the unauthorized use of personal software by employees or employees using software or services that has not been sanctioned for a project ([[shadow IT]]). Personal software may include either locally installed software or hosted applications, such as personal email or instant messenger, and may leave the organization open to a variety of security vulnerabilities. **Such programs may provide a route for data exfiltration, a transport mechanism for malware, or possibly software license violations** for which the company might be held liable, just to name a few of the potential problems.
+Also important to consider is the unauthorized use of personal software by employees or employees using software or services that has not been sanctioned for a project ([[shadow IT]]). Personal software may include either locally installed software or hosted applications, such as personal email or instant messenger, and may leave the organization open to a variety of security [[vulnerability|vulnerabilities]]. **Such programs may provide a route for data exfiltration, a transport mechanism for malware, or possibly software license violations** for which the company might be held liable, just to name a few of the potential problems.
 
 ### Clean Desk Policy 
 
@@ -49,7 +46,7 @@ Appropriate security awareness training needs to be delivered to employees at al
 
 There should also be a system for identifying staff performing security-sensitive roles and grading the level of training and education required (between beginner, intermediate, and advanced, for instance). Note that in defining such training programs you need to focus on job roles, rather than job titles, as employees may perform different roles and have different security training, education, or awareness requirements in each role.
 
-The NIST National Initiative for Cybersecurity Education framework ([nist.gov/itl/applied-cybersecurity/nice](https://www.nist.gov/itl/applied-cybersecurity/nice)) sets out knowledge, skills, and abilities ([[KSAAs]])  for different cybersecurity roles. Security awareness programs are described in SP800-50 ([nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-50.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/nistspecialpublication800-50.pdf)).
+The NIST National Initiative for Cybersecurity Education framework ([nist.gov/itl/applied-cybersecurity/nice](https://www.nist.gov/itl/applied-cybersecurity/nice)) sets out knowledge, skills, and abilities (KSAAs)  for different cybersecurity roles. Security awareness programs are described in SP800-50 ([nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-50.pdf](https://wmx-api-production.s3.amazonaws.com/courses/5731/supplementary/nistspecialpublication800-50.pdf)).
 # DIVERSITY OF TRAINING TECHNIQUES
 
 It is necessary to frame security training in language that end users will respond to. Education should focus on responsibilities and threats that are relevant to users. It is necessary to educate users about new or emerging threats (such as fileless malware, phishing scams, or zero-day exploits in software), but this needs to be stated in language that users understand.

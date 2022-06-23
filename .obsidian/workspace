@@ -4,37 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "6a3efe854479503b",
+        "id": "daed62b51ef1b4e0",
         "type": "leaf",
         "state": {
-          "type": "localgraph",
+          "type": "markdown",
           "state": {
-            "file": "SecurityPlus/03 B  Security Concers with General Vulnerability Types 3B.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
+            "file": "My linked notes/Assisted Lab 23 Lesson 14.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "9faa424cc472911f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Working Notes.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
           }
         }
       }
@@ -71,22 +62,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: \"03\"",
+                "query": "escape",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 317,
-    "collapsed": true
+    "width": 317
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -102,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/03 B  Security Concers with General Vulnerability Types 3B.md",
+                "file": "My linked notes/Assisted Lab 23 Lesson 14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecurityPlus/03 B  Security Concers with General Vulnerability Types 3B.md",
+                "file": "My linked notes/Assisted Lab 23 Lesson 14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,20 +131,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
-  "active": "6a3efe854479503b",
+  "active": "daed62b51ef1b4e0",
   "lastOpenFiles": [
-    "SecurityPlus/03 B  Security Concers with General Vulnerability Types 3B.md",
-    "SecurityPlus/03 A Assess Organizational Security L3a.md",
-    "SecurityPlus/04 A  Compare and Contrast Social Engineering Techniques.md",
-    "My linked notes/Wireshark.md",
-    "My linked notes/tool.md",
-    "My linked notes/Nikto.md",
-    "My linked notes/nmap.md",
-    "My linked notes/traceroute.md",
-    "My linked notes/pathping.md",
-    "My linked notes/tracert.md"
+    "My linked notes/Assisted Lab 23 Lesson 14.md",
+    "My linked notes/Working Notes.md",
+    "My linked notes/Assisted Lab Lesson 14 (26).md",
+    "My linked notes/Bash reverse shell.md",
+    "My linked notes/Assisted Lab Lesson 14 (25).md",
+    "My linked notes/assets/Pasted image 20220622184851.png",
+    "My linked notes/GPO.md",
+    "My linked notes/Assisted Lab Lesson 14 (24).md",
+    "My linked notes/indicators.md",
+    "SecurityPlus/14 B Indicators of Web Application Attacks.md"
   ]
 }

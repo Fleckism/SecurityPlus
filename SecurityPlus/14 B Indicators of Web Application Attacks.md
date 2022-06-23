@@ -1,11 +1,8 @@
----
-tags: [,section]
----
 # EXAM OBJECTIVES COVERED
 
-1.3 Given a scenario, analyze #Ops potential #Indicators  associated with application attacks
-
-A web application exposes many interfaces to public networks. Attackers can exploit vulnerabilities in server software and in client browser security to perform injection and session hijacking attacks that compromise data confidentiality and integrity. Understanding how the vectors and vulnerabilities can be exploited by these attacks will help you to identify and remediate configuration weaknesses in your systems.
+1.3 Given a scenario, analyze potential Indicators  associated with application attacks
+#attack , #threat, #vulnerability 
+A web application exposes many interfaces to public networks. Attackers can exploit [[vulnerability|vulnerabilities]] in server software and in client browser security to perform injection and session hijacking attacks that compromise data confidentiality and integrity. Understanding how the vectors and [[vulnerability|vulnerabilities]] can be exploited by these attacks will help you to identify and remediate configuration weaknesses in your systems.
 # UNIFORM RESOURCE LOCATOR ANALYSIS
 
 As well as pointing to the host or service location on the Internet (by domain name or IP address), a uniform resource locator ([[URL]]) can **encode** some action or **data to** submit to the **server host**. This is a common vector for malicious activity. 
@@ -14,18 +11,18 @@ As well as pointing to the host or service location on the Internet (by domain n
 
 Uniform resource locator (URL) analysis.
 
-### Hyper Text Transfer ProtocolTTPs]] Methods
+### Hyper Text Transfer Protocol Methods
 
-As part of URL analysis, it is important to understand how Hyper Text Transfer ProtocolTTPs]] operates. An [[Hyper Text Transfer ProtocolTTPs]]]] session starts with a client (a user-agent, such as a web browser) making a request to an Hyper Text Transfer ProtocolTTPs]] server. The connection establishes a TCP connection. This TCP connection can be used for multiple requests, or a client can start new TCP connections for different requests. A request typically comprises a method, a resource (such as a URL path), version number, headers, and body. The principal method is **GET**, used to retrieve a resource. Other methods include:
+As part of URL analysis, it is important to understand how Hyper Text Transfer Protocol operates. An HTTPs session starts with a client (a user-agent, such as a web browser) making a request to an Hyper Text Transfer Protocol server. The connection establishes a TCP connection. This TCP connection can be used for multiple requests, or a client can start new TCP connections for different requests. A request typically comprises a method, a resource (such as a URL path), version number, headers, and body. The principal method is **GET**, used to retrieve a resource. Other methods include:
 
 -   **POST**—send data to the server for processing by the requested resource.
 -   **PUT**—create or replace the resource.
 -   **DELETE**—can be used to remove the resource.
 -   **HEAD**—retrieve the headers for a resource only (not the body).
 
-Data can be submitted to a server either by using a POST or PUT method and the Hyper Text Transfer ProtocolTTPs]] headers and body, or by encoding the data within the URL used to access the resource. Data submitted via a URL is delimited by the **?** character, which follows the resource path. Query parameters are usually formatted as one or more name=value pairs, with **ampersands delimiting each pair**. A URL can also include a fragment or anchor ID, delimited by #. The fragment is not processed by the web server. An anchor ID is intended to refer to a section of a page but can be misused to inject JavaScript.
+Data can be submitted to a server either by using a POST or PUT method and the Hyper Text Transfer Protocol headers and body, or by encoding the data within the URL used to access the resource. Data submitted via a URL is delimited by the **?** character, which follows the resource path. Query parameters are usually formatted as one or more name=value pairs, with **ampersands delimiting each pair**. A URL can also include a fragment or anchor ID, delimited by #. The fragment is not processed by the web server. An anchor ID is intended to refer to a section of a page but can be misused to inject JavaScript.
 
-The server response comprises the version number and a status code and message, plus optional headers, and message body. An Hyper Text Transfer ProtocolTTPs]] response code is the header value returned by a server when a client requests a URL, such as 200 for "OK" or 404 for "Not Found."
+The server response comprises the version number and a status code and message, plus optional headers, and message body. An HHTP response code is the header value returned by a server when a client requests a URL, such as 200 for "OK" or 404 for "Not Found."
 
 ### Percent Encoding
 
@@ -107,8 +104,8 @@ LF (Line Feed)
 Web applications and cloud services implement application program interfaces (APIs) to allow consumers to automate services. An API call might use the following general URL format:
 
 https://webapp.foo/?Action=RunInstance&Id=123&Count=1&InstanceAccessKey= MyInstanceAccessKey&Placement=us-east&MyAuthorizationToken
-
-If the API isn't secure, [[threat actor]]s can easily take advantage of it to compromise the services and data stored on the web application. **An API must only be used over an encrypted channel (Hyper Text Transfer ProtocolTTPs]]S)**. API calls over plain Hyper Text Transfer ProtocolTTPs]] are not secure and could easily be impersonated or modified by a third party. Some other common attacks against APIs target the following weaknesses and vulnerabilities:
+#httpsDamage
+If the API isn't secure, [[threat actor]]s can easily take advantage of it to compromise the services and data stored on the web application. **An API must only be used over an encrypted channel (Hyper Text Transfer ProtocolTTPs]]S)**. API calls over plain Hyper Text Transfer ProtocolTTPs]] are not secure and could easily be impersonated or modified by a third party. Some other common attacks against APIs target the following weaknesses and [[vulnerability|vulnerabilities]]:
 
 -   **Ineffective secrets management**, allowing [[threat actor]]s to discover an API key and perform any action authorized to that key.
 -   **Lack of input validation,** allowing the [[threat actor]] to insert arbitrary parameters into API methods and queries. This is often referred to as allowing unsanitized input.
@@ -118,9 +115,9 @@ If the API isn't secure, [[threat actor]]s can easily take advantage of it to co
 
 Session management enables web applications to uniquely identify a user across a number of different actions and requests. Session management is particularly important when it comes to user authentication, as it is required to ensure the integrity of the account and the confidentiality of data associated with it. **Session management** is often vulnerable to different kinds of replay attack. To establish a session, the server normally gives the client some type of token. **A replay [[attack]] works by sniffing or guessing the token value and then submitting it to re-establish the session illegitimately.**
 
-Hyper Text Transfer ProtocolTTPs]] is nominally a stateless protocol, meaning that the server preserves no information about the client, but mechanisms such as cookies have been developed to preserve stateful data. A cookie is created when the server sends an Hyper Text Transfer ProtocolTTPs]] response header with the cookie data. **A cookie has a name and value, plus optional security and expiry attributes**. Subsequent request headers sent by the client will usually include the cookie. Cookies are either nonpersistent (session) cookies, in which case they are stored in memory and deleted when the browser instance is closed, or persistent, in which case they are stored in the browser cache until deleted by the user or pass a defined expiration date.
+Hyper Text Transfer Protocol is nominally a [[stateless protocol]], meaning that the server preserves no information about the client, but mechanisms such as cookies have been developed to preserve stateful data. A cookie is created when the server sends an Hyper Text Transfer Protocol response header with the cookie data. **A cookie has a name and value, plus optional security and expiry attributes**. Subsequent request headers sent by the client will usually include the cookie. Cookies are either nonpersistent (session) cookies, in which case they are stored in memory and deleted when the browser instance is closed, or persistent, in which case they are stored in the browser cache until deleted by the user or pass a defined expiration date.
 
-If cookies are used to store confidential information, the web application should encrypt them before sending them to the [[client]]. If using [[TLS]], information in a cookie would be secure in transit but reside on the client computer in plaintext, unless it had been separately encrypted. The value can be any URL-safe encoded string in whatever format and structure the application uses for parsing.
+If cookies are used to store confidential information, the web application should encrypt them before sending them to the client. If using [[TLS]], information in a cookie would be secure in transit but reside on the client computer in plaintext, unless it had been separately encrypted. The value can be any URL-safe encoded string in whatever format and structure the application uses for parsing.
 
 ![The Firefox browser with Google's home page loaded and the Inspector pane opened to the Storage tab showing cookies named 1P_JAR, ANID, CONSENT, and NID.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8901-1599771809090.png)
 
@@ -135,13 +132,13 @@ Session prediction attacks focus on identifying possible weaknesses in the gener
 
 ### Cross-Site Request Forgery
 
-A client-side or cross-site request forgery ([[CSRF or XSRF]]) can [[exploit]] applications that <mark style="background: #FF5582A6;">use cookies to authenticate users and track sessions</mark> . To work, the attacker must convince the victim to start a session with the target site. The attacker must then pass an Hyper Text Transfer ProtocolTTPs]] request to the victim's browser that spoofs an action on the target site, such as changing a password or an email address. This request could be disguised in a few ways and so could be accomplished without the victim necessarily having to click a link. If the target site assumes that the browser is authenticated because there is a valid session cookie and doesn't complete any additional authorization process on the attacker's input (or if the attacker is able to spoof the authorization), it will accept the input as genuine. This is also referred to as a confused deputy attack (the point being that the user and the user's browser are not necessarily the same thing).
+A client-side or cross-site request forgery  ([[CSRF or XSRF]]) can [[exploit]] applications that <mark style="background: #FF5582A6;">use cookies to authenticate users and track sessions</mark> . To work, the attacker must convince the victim to start a session with the target site. The attacker must then pass an Hyper Text Transfer ProtocolTTPs]] request to the victim's browser that spoofs an action on the target site, such as changing a password or an email address. This request could be disguised in a few ways and so could be accomplished without the victim necessarily having to click a link. If the target site assumes that the browser is authenticated because there is a valid session cookie and doesn't complete any additional authorization process on the attacker's input (or if the attacker is able to spoof the authorization), it will accept the input as genuine. This is also referred to as a confused deputy attack (the point being that the user and the user's browser are not necessarily the same thing).
 
 Cross-site request forgery example. (Images © 123RF.com.)
 
 ### Clickjacking
 
-Clickjacking is an attack where what the user sees and trusts as a web application with some sort of login page or form contains a **malicious** **layer** or invisible iFrame (a web page embedded inside another web page) that allows an attacker to intercept or redirect user input. Clickjacking can be launched using any type of compromise that allows the **adversary to run arbitrary code as a script.** Clickjacking can be **[[mitigated]]** by using Hyper Text Transfer ProtocolTTPs]] response headers that instruct the browser not to open frames from different origins (domains) and by ensuring that any buttons or input boxes on a page are positioned on the top-most layer.
+Clickjacking is an attack where what the user sees and trusts as a web application with some sort of login page or form contains a **malicious** **layer** or invisible iFrame (a web page embedded inside another web page) that allows an attacker to intercept or redirect user input. Clickjacking can be launched using any type of compromise that allows the **adversary to run arbitrary code as a script.** Clickjacking can be mitigated by using Hyper Text Transfer ProtocolTTPs]] response headers that instruct the browser not to open frames from different origins (domains) and by ensuring that any buttons or input boxes on a page are positioned on the top-most layer.
 
 ### SSL Strip
 
@@ -164,7 +161,7 @@ Check out this amazing <a href="https://trusted.foo">website</a><script src="htt
 
 Users viewing the post will have the malicious script hook.js execute in their browser.
 
-A third type of [[XSS]] attack exploits vulnerabilities in client-side scripts. Such scripts often use the Document Object Model ([[DOM]]) to modify the content and layout of a web page. For example, the "document.write" method enables a page to take some user input and modify the page accordingly. An exploit against a client-side script could work as follows:
+A third type of [[XSS]] attack exploits [[vulnerability|vulnerabilities]] in client-side scripts. Such scripts often use the Document Object Model ([[DOM]]) to modify the content and layout of a web page. For example, the "document.write" method enables a page to take some user input and modify the page accordingly. An exploit against a client-side script could work as follows:
 
 1.  The attacker identifies an input validation vulnerability in the trusted site. For example, a message board might take the user's name from an input text box and show it in a header.
     
@@ -181,7 +178,7 @@ A third type of [[XSS]] attack exploits vulnerabilities in client-side scripts. 
 4.  The browser renders the page using the DOM script, adding the text "James" to the header, but also executing the hook.js script at the same time.
 # STRUCTURED QUERY LANGUAGE INJECTION ATTACKS
 
-Attacks such as session [[replay]], [[CSRF]], and [[DOM]]-based [[XSS]] are [[client-side attacks]]. This means that they execute arbitrary code on the browser. A [[server-side attack]] causes the server to do some processing or run a script or query in a way that is not authorized by the application design. Most server-side attacks depend on some kind of injection attack.
+Attacks such as session replay, CSRF, and [[DOM]]-based [[XSS]] are [[client-side]] [[attack]]s. This means that they execute arbitrary code on the browser. A server-side attack causes the server to do some processing or run a script or query in a way that is not authorized by the application design. Most server-side attacks depend on some kind of injection attack.
 
 **Where an overflow attack works against the way a process performs memory management**, an **injection attack exploits some unsecure way in which the application processes requests and queries**. For example, an application might allow a user to view his or her profile with a database query that should return the single record for that one user's profile. An application vulnerable to an injection attack might allow a [[threat actor]] to return the records for all users, or to change fields in the record when they are only supposed to be able to read them.
 
@@ -202,7 +199,7 @@ An injection attack can target other types of protocols where the application ta
 
 ### Extensible Markup Language (XML) Injection
 
-Extensible Markup Language ([[XML]]) is used by apps for authentication and authorizations, and for other types of data exchange and uploading. Data submitted via XML with no encryption or input validation is vulnerable to spoofing, request forgery, and injection of arbitrary data or code. For example, an XML External Entity (XXE) attack embeds a request for a local resource ([owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)).
+Extensible Markup Language ([[XML]]) is used by apps for authentication and authorizations, and for other types of data exchange and uploading. Data submitted via XML with no encryption or input validation is vulnerable to spoofing, request forgery, and injection of arbitrary data or code. For example, an XML External Entity (XXE) attack embeds a request for a local resource ([owasp.org/www-community/[[vulnerability|vulnerabilities]]/XML_External_Entity_(XXE)_Processing](https://owasp.org/www-community/[[vulnerability|vulnerabilities]]/XML_External_Entity_(XXE)_Processing)).
 
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -214,7 +211,7 @@ This defines an entity named bar that refers to a local file path. A successful 
 
 ### Lightweight Directory Access Protocol (LDAP) Injection
 
-The Lightweight Directory Access Protocol ([[LDAP]]) is another example of a query language. LDAP is specifically used to read and write network directory databases. A [[threat actor]] could exploit either unauthenticated access or a vulnerability in a client app to submit arbitrary LDAP queries. This could allow accounts to be created or deleted, or for the attacker to change authorizations and privileges ([owasp.org/www-community/attacks/LDAP_Injection](https://owasp.org/www-community/attacks/LDAP_Injection)).
+The Lightweight Directory Access Protocol ([[LDAP]]) is another example of a query language. LDAP is specifically used to read and write [[network directory]] databases. A [[threat actor]] could exploit either unauthenticated access or a vulnerability in a client app to submit arbitrary LDAP queries. This could allow accounts to be created or deleted, or for the attacker to change authorizations and privileges ([owasp.org/www-community/attacks/LDAP_Injection](https://owasp.org/www-community/attacks/LDAP_Injection)).
 
 LDAP filters are constructed from (name=value) attribute pairs delimited by parentheses and the logical operators AND (&) and OR (|). Adding filter parameters as unsanitized input can bypass access controls. For example, if a web form authenticates to an LDAP directory with the valid credentials Bob and Pa$$w0rd, it may construct a query such as this from the user input:
 
@@ -227,7 +224,7 @@ Both parameters must be true for the login to be accepted. If the form input is 
 
 **Directory traversal** is another type of injection attack performed against a web server. The [[threat actor]] submits a request for a file outside the web server's root directory by submitting a path to navigate to the parent directory (../). This attack can succeed if the input is not filtered properly and access permissions on the file are the same as those on the web server directory.
 
-The [[threat actor]] might use a canonicalization attack to disguise the nature of the malicious input. [[Canonicalization]] refers to the way the server converts between the different methods by which a resource (such as a file path or URL) may be represented and submitted to the simplest (or canonical) method used by the server to process the input. Examples of encoding schemes include HTML entities and character set percent encoding (ASCII and Unicode). An attacker might be able to exploit vulnerabilities in the canonicalization process to perform code injection or facilitate directory traversal. For example, to perform a directory traversal attack, the attacker might submit a URL such as:
+The [[threat actor]] might use a canonicalization attack to disguise the nature of the malicious input. [[Canonicalization]] refers to the way the server converts between the different methods by which a resource (such as a file path or URL) may be represented and submitted to the simplest (or canonical) method used by the server to process the input. Examples of encoding schemes include HTML entities and character set percent encoding (ASCII and Unicode). An attacker might be able to exploit [[vulnerability|vulnerabilities]] in the canonicalization process to perform code injection or facilitate directory traversal. For example, to perform a directory traversal attack, the attacker might submit a URL such as:
 
 http://victim.foo/?show=../../../../etc/config
 
@@ -242,9 +239,9 @@ A server-side request forgery ([[SSRF]]) causes the server application to proces
 
 A web application takes API input via a URL or as data encoded in Hyper Text Transfer ProtocolTTPs]] response headers. The web application is likely to use a standard library to read (parse) the URL or response headers. Many [[SSRF]] attacks depend on exploits against specific parsing mechanisms in standard libraries for web servers, such as Apache or IIS, and web application programming languages and tools, such as the curl library, Java, and PHP. SSRF can also use XML injection to exploit weaknesses in XML document parsing.
 
-One type of SSRF uses Hyper Text Transfer Protocol TTPs request splitting or [[CRLF]] injection. The attacker crafts a malicious URL or request header targeting the server's API. The request contains extra line feeds, which may be coded in some non-obvious way. Unless the web server strips these out when processing the URL, it will be tricked into performing a second Hyper Text Transfer Protocol [[HTTP]]  [[fix the HTTP TTPs ]] request.
+One type of SSRF uses Hyper Text Transfer Protocol TTPs request splitting or [[CRLF]] injection. The attacker crafts a malicious URL or request header targeting the server's API. The request contains extra line feeds, which may be coded in some non-obvious way. Unless the web server strips these out when processing the URL, it will be tricked into performing a second Hyper Text Transfer Protocol [[HTTP]]  request.
 
-SSRF attacks are often targeted against cloud infrastructure where the web server is only the public-facing component of a deeper processing chain. A typical [[web application]] comprises multiple layers of servers, with a client interface, middleware logic layers, and a database layer. Requests initiated from the client interface (a web form) are likely to require multiple requests and responses between the middleware and back-end servers. These will be implemented as Hyper Text Transfer Protocol [[HTTP]] header requests and responses between each server's API. SSRF is a means of accessing these internal servers by causing the public server to execute requests on them. While with CSRF an exploit only has the privileges of the client, with SSRF the manipulated **request is made with the server's privilege level.**
+SSRF attacks are often targeted against cloud infrastructure where the web server is only the public-facing component of a deeper processing chain. A typical web application comprises multiple layers of servers, with a client interface, middleware logic layers, and a database layer. Requests initiated from the client interface (a web form) are likely to require multiple requests and responses between the middleware and back-end servers. These will be implemented as Hyper Text Transfer Protocol [[HTTP]] header requests and responses between each server's API. SSRF is a means of accessing these internal servers by causing the public server to execute requests on them. While with CSRF an exploit only has the privileges of the client, with SSRF the manipulated **request is made with the server's privilege level.**
 
 Server-side request forgery example. (Images © 123RF.com.)
 

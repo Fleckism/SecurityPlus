@@ -1,10 +1,7 @@
----
-tags: [,section]
----
 # EXAM OBJECTIVES COVERED
 
 4.1 Given a scenario, use the appropriate tool to assess organizational security
-
+#Ops #IR 
 4.5 Explain the key aspects of digital forensics
 
 There are many processes and tools for acquiring different kinds of digital evidence from computer hosts and networks. These processes must demonstrate exactly how the evidence was acquired and that it is a true copy of the system state at the time of the event. While you may not be responsible for leading evidence acquisition, you should be familiar with the processes and tools used, so that you can provide assistance as required.

@@ -1,0 +1,1 @@
+The principal performance metric is the number of input/output operations per second ([[IOPS]]) supported.

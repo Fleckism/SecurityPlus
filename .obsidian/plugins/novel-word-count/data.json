@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "countType": "word",
+    "abbreviateDescriptions": false,
+    "alignment": "inline",
+    "debugMode": false
+  },
+  "cachedCounts": {}
+}

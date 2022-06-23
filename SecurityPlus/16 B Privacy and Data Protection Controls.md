@@ -1,10 +1,10 @@
 # EXAM OBJECTIVES COVERED
 
-2.1 Explain the importance of security #concepts in an enterprise environment
+2.1 Explain the importance of security #concepts in an enterprise environment #A_D 
 
 3.2 Given a scenario, #Implementation  host or application security solutions
 
-5.5 Explain privacy and sensitive data concepts in relation to security
+5.5 Explain privacy and sensitive data concepts in relation to security #GRC
 
 Policies and procedures are essential for effective data governance, but they can be supported by technical controls too. As a security professional, you need to be aware of the capabilities of data loss prevention (DLP) systems and privacy enhancing database controls, and how they can be used to protect data anywhere it resides, on hosts, in email systems, or in the cloud.
 # DATA PROTECTION

@@ -25,7 +25,7 @@ Cybersecurity
 - Created by thousands of working subject matter experts
 
 Domain														% of Examination
-**1.  Attack(s), Threat(s), and Vulnerabilities 24%**    [[Attack]], [[threat]], [[vulnerability]]
+**1.  Attack(s), Threat(s), and [[vulnerability|vulnerabilities]] 24%**    [[Attack]], [[threat]], [[vulnerability]]
 2.  architecture #A_D and Design	21%  
 **3.  Implementation 25%**  [[implementation]]
 4.  Operations [[Ops]] and Incident Response 16%   [[OIR]]
@@ -75,7 +75,7 @@ Some security models and researchers identify other properties that secure syste
 
 Within the goal of ensuring information security, cybersecurity refers specifically to provisioning secure processing hardware and software. Information security and **==cybersecurity tasks can be classified as==** [[five functions]], following the framework developed by the National Institute of Standards and Technology (NIST) ([nist.gov/cyberframework/online-learning/five-functions](https://www.nist.gov/cyberframework/online-learning/five-functions)):
  
--   **identify** —develop security policies and capabilities. Evaluate risks, [[threat]]s, and vulnerabilities and recommend security controls to mitigate them.
+-   **identify** —develop security policies and capabilities. Evaluate risks, [[threat]]s, and [[vulnerability|vulnerabilities]] and recommend security controls to mitigate them.
 -   **protect** —procure/develop, install, operate, and decommission IT hardware and software assets with security as an embedded requirement of every stage of this operations life cycle.
 -   **detect** —perform ongoing, proactive monitoring to ensure that controls are effective and capable of protecting against new types of threats.
 -   **respond** —identify, analyze #Ops, contain, and eradicate threats to systems and data security.

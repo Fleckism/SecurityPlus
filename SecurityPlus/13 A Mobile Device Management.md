@@ -1,6 +1,3 @@
----
-tags: [Implementation,section]
----
 # LESSON INTRODUCTION
 
 Mobile devices are now the preferred client for many common work tasks, and network management and security systems have had to adapt to accommodate them. The shift toward mobile also presages a move toward unified management of endpoints, and the use of virtualized workspaces as a better model for provisioning corporate apps and data processing. 
@@ -14,8 +11,8 @@ In this lesson, you will:
 # EXAM OBJECTIVES COVERED
 
 3.5 Given a scenario, implement secure mobile solutions
-
-As use of mobiles has permeated every type of organization, network management and security [[suites]] have developed to ensure that they are not exploited as unmanaged [[attack vector]]s. As a security professional, you will often have to configure these management suites, and assist users with the device onboarding process.
+#Implementation 
+As use of mobiles has permeated every type of organization, network management and security suites have developed to ensure that they are not exploited as unmanaged [[attack vector]]s. As a security professional, you will often have to configure these management suites, and assist users with the device onboarding process.
 
 Play Video
 # MOBILE DEVICE DEPLOYMENT MODELS
@@ -30,7 +27,7 @@ Mobile devices have replaced computers for many email and daily management tasks
 **Virtualization can provide an additional deployment model. Virtual desktop infrastructure (VDI)** means provisioning an OS desktop to interchangeable hardware. The hardware only has to be capable of running a VDI client viewer, or have browser support for a clientless HTML5 solution. The instance is provided "as new" for each session and can be accessed remotely. The same technology can be accessed via a mobile device such as a smartphone or tablet. This removes some of the security concerns about BYOD as the corporate apps and data are segmented from the other apps on the device.
 # ENTERPRISE MOBILITY MANAGEMENT
 
-Enterprise mobility management ([[EMM]]) is a class of management [[software]] designed to apply security policies to the use of mobile devices and apps in the enterprise. The challenge of identifying and managing attached devices is often referred to as visibility. EMM software can be used to manage enterprise-owned devices as well as BYOD. There are two main functions of an EMM product suite:
+Enterprise mobility management ([[EMM]]) is a class of management software designed to apply security policies to the use of mobile devices and apps in the enterprise. The challenge of identifying and managing attached devices is often referred to as visibility. EMM software can be used to manage enterprise-owned devices as well as BYOD. There are two main functions of an EMM product suite:
 
 -   **Mobile device management** ([[MDM]])—sets device policies for authentication, feature use (camera and microphone), and connectivity. MDM can also allow device resets and remote wipes.
 -   **Mobile application management** (MAM)—sets policies for apps that can process corporate data, and prevents data transfer to personal apps. This type of solution configures an enterprise-managed container or workspace.

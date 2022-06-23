@@ -9,5 +9,10 @@
   "ITS@@h-stbr": true,
   "ITS@@text-highlight-bg-active@@dark": "#FD737340",
   "ITS@@text-highlight-bg@@dark": "#0EF00F40",
-  "ITS@@text-selection@@dark": "#09FA136E"
+  "ITS@@text-selection@@dark": "#09FA136E",
+  "ITS@@b-pre-c@@dark": "#FFFF00",
+  "ITS@@b-ed-c@@dark": "#E3EC0E",
+  "ITS@@del-pre-c@@dark": "#EEDB00",
+  "ITS@@btm-nav": false,
+  "ITS@@bul-col": true
 }

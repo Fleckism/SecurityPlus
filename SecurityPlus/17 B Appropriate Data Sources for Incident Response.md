@@ -1,10 +1,7 @@
 
----
-tags: [OPS, IR,section]
----
 # EXAM OBJECTIVES COVERED
 
-4.3 Given an incident, utilize appropriate data sources to support an investigation
+4.3 Given an incident, utilize appropriate data sources to support an investigation #IR
 
 Security monitoring produces a very large amount of data, and automated detection systems can generate a large volume of alerts. Prioritizing and investigating the most urgent events as incidents and resolving them quickly is a significant challenge for all types of organization. As a security professional, you must be able to utilize appropriate data sources to perform incident identification as efficiently as possible.
 # INCIDENT IDENTIFICATION 
@@ -15,7 +12,7 @@ Security monitoring produces a very large amount of data, and automated detectio
 -   Comparing **deviations** to established metrics to recognize incidents and their scopes.
 -   **Manual or physical inspections** of site, premises, networks, and hosts.
 -   **Notification** by an employee, customer, or supplier.
--   **Public reporting** of new vulnerabilities or threats by a system vendor, regulator, the media, or other outside party.
+-   **Public reporting** of new [[vulnerability|vulnerabilities]] or threats by a system vendor, regulator, the media, or other outside party.
 
 It is wise to provide for **confidential reporting** so that employees are not afraid to report insider threats, such as fraud or misconduct. It may also be necessary to use an "**out-of-band**" method of communication so as not to alert the intruder that his or her attack has been detected. 
 
@@ -123,7 +120,7 @@ Authentication attempts for each host are likely to be written to the **security
 
 ### Vulnerability Scan Output
 
-A vulnerability scan report is another important source when determining how an attack might have been made. The scan engine might log or alert when a scan report contains vulnerabilities. The report can be analyzed to identify vulnerabilities that have not been patched or configuration weaknesses that have not been remediated. These can be correlated to recently developed exploits.
+A vulnerability scan report is another important source when determining how an attack might have been made. The scan engine might log or alert when a scan report contains [[vulnerability|vulnerabilities]]. The report can be analyzed to identify [[vulnerability|vulnerabilities]] that have not been patched or configuration weaknesses that have not been remediated. These can be correlated to recently developed exploits.
 
 Windows Defender event within Windows event viewer. (Screenshot used with permission from Microsoft.)
 
@@ -150,7 +147,7 @@ In addition to status codes, some web server software also logs Hyper Text Trans
 
 ### VoIP and Call Managers and Session Initiation Protocol (SIP) Traffic
 
-Many VoIP systems use the Session Initiation Protocol ([[SIP]]) to identify endpoints and setup calls. The call content is transferred using a separate protocol, typically the Real-time Transport Protocol ([[RTP]]). VoIP protocols are vulnerable to most of the same vulnerabilities and exploits as web communications. Both SIP and RTP should use the secure protocol forms, where **endpoints are authenticated** and communications protected by Transport Layer Security (TLS).
+Many VoIP systems use the Session Initiation Protocol ([[SIP]]) to identify endpoints and setup calls. The call content is transferred using a separate protocol, typically the Real-time Transport Protocol ([[RTP]]). VoIP protocols are vulnerable to most of the same [[vulnerability|vulnerabilities]] and exploits as web communications. Both SIP and RTP should use the secure protocol forms, where **endpoints are authenticated** and communications protected by Transport Layer Security (TLS).
 
 The call manager is a gateway that connects endpoints within the local network and over the Internet. The call manager is also likely to implement a media gateway to connect VoIP calls to cellphone and landline telephone networks. SIP produces similar logs to [[SMTP]], typically in the common log format. A SIP log will identify the endpoints involved in a call request, plus the type of connection (voice only or voice with video, for instance), and status messaging. When handling requests, the call manager and any other intermediate servers add their IP address in a Via header, similar to per-hop SMTP headers. Inspecting the logs might reveal evidence of a man-in-the-middle [[MITM]] attack where an **unauthorized proxy** is intercepting traffic. VoIP systems connected to telephone   networks are also targets for toll fraud. The call manager's access log can be audited for suspicious connections.
 
@@ -188,11 +185,11 @@ Metadata such as current location and time is also added to media such as photos
 
 ### Protocol Analyzer Output
 
-A [[SIEM]] will store details from [[sensors]] at different points on the network. Information captured from network packets can be aggregated and summarized to show overall protocol usage and endpoint activity. The contents of packets can also be recorded for analysis. Recording the full data of every packet—referred to as retrospective network analysis ([[[RNA]])—is too costly for most organizations. Typically, packet contents are only retained when indicators from the traffic are correlated as an event. The SIEM software will provide the ability to [[pivot from the event]] or alert summary to the underlying packets. Detailed analysis of the packet contents can help to reveal the tools used in an attack. It is also possible to extract binary files such as potential malware for analysis.
+A [[SIEM]] will store details from [[sensors]] at different points on the network. Information captured from network packets can be aggregated and summarized to show overall protocol usage and endpoint activity. The contents of packets can also be recorded for analysis. Recording the full data of every packet—referred to as retrospective network analysis ([[RNA]])—is too costly for most organizations. Typically, packet contents are only retained when indicators from the traffic are correlated as an event. The SIEM software will provide the ability to [[pivot from the event]] or alert summary to the underlying packets. Detailed analysis of the packet contents can help to reveal the tools used in an attack. It is also possible to extract binary files such as potential malware for analysis.
 
 ### Netflow/IPFIX 
 
-A flow collector is a means of **recording metadata and statistics about network traffic rather than recording each frame**. Network traffic and flow data may come from a wide variety of [[sources (or probes)]], such as switches, routers, firewalls, web proxies, and so forth. Flow analysis tools can provide features such as:
+A flow collector is a means of **recording metadata and statistics about network traffic rather than recording each frame**. Network traffic and flow data may come from a wide variety of #zFleck  [[sources]] (or probes), such as switches, routers, firewalls, web proxies, and so forth. Flow analysis tools can provide features such as:
 
 -   **Highlighting** of trends and patterns in traffic generated by particular applications, hosts, and ports.
 -   **Alerting** based on detection of anomalies, flow analysis patterns, or custom triggers.

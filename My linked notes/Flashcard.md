@@ -102,7 +102,7 @@ Non-repudiation
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif)35                 physical control                                                                                                                A type of security control that acts against in-person intrusion attempts.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image003.gif)36                 security control                                                                                                                A technology or procedure put in place to mitigate vulnerabilities and risk and to ensure the confidentiality, integrity, and availability (CIA) of information.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image003.gif)36                 security control                                                                                                                A technology or procedure put in place to mitigate [[vulnerability|vulnerabilities]] and risk and to ensure the confidentiality, integrity, and availability (CIA) of information.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image011.gif)37                 SOX (Sarbanes-Oxley Act)                                                                                             A law enacted in 2002 that dictates requirements for the storage and retention of documents relating to an organization's financial and business operations.
 
@@ -240,7 +240,7 @@ Automated eXchange of Indicator Information (TAXII) protocol as a means of trans
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image010.gif)71                 CTI (cyber threat intelligence)                                                                                        The process of investigating, collecting, analyzing, and disseminating information about emerging threats and threat sources.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)72                 CVE (Common Vulnerabilities and Exposures)                                                             Scheme for identifying vulnerabilities developed by MITRE and adopted by NIST.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)72                 CVE (Common [[vulnerability|vulnerabilities]] and Exposures)                                                             Scheme for identifying [[vulnerability|vulnerabilities]] developed by MITRE and adopted by NIST.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)73                 dark web                                                                                                                           Resources on the Internet that are distributed between anonymized nodes and protected from general access by multiple layers of encryption and routing.
 
@@ -300,7 +300,7 @@ A zone transfer is where a domain name server (DNS) allows a client to request a
 
   
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif)90                 What type of organizational security assessment is performed using Nessus?              Nessus is an automated network vulnerability scanner that checks for software vulnerabilities and missing patches.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif)90                 What type of organizational security assessment is performed using Nessus?              Nessus is an automated network vulnerability scanner that checks for software [[vulnerability|vulnerabilities]] and missing patches.
 
   
 
@@ -326,7 +326,7 @@ Name System harvesting.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image005.gif)96                 enumeration                                                                                                                     When an attacker tries to get a list of resources on the network, host, or system as a whole to identify potential targets for further attack
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)97                 exploitation framework                                                                                                    Suite of tools designed to automate delivery of exploits against common software and firmware vulnerabilities.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)97                 exploitation framework                                                                                                    Suite of tools designed to automate delivery of exploits against common software and firmware [[vulnerability|vulnerabilities]].
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image007.gif)98                 fingerprinting                                                                                                                   Identifying the type and version of an operating system (or server application) by analyzing its responses to network scans.
 
@@ -342,7 +342,7 @@ Name System harvesting.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)103               MAC address (Media Access Control address)                                                              A unique hardware address hard-coded into a network adapter. This provides local addressing on Ethernet and Wi-Fi networks. A MAC address is 48 bits long with the first half representing the manufacturer's Organizationally Unique Identifier (OUI).
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image011.gif)104               Metasploit Framework                                                                                                     A platform for launching modularized attacks against known software vulnerabilities.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image011.gif)104               Metasploit Framework                                                                                                     A platform for launching modularized attacks against known software [[vulnerability|vulnerabilities]].
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image012.gif)105               mtr command (my traceroute command)                                                                        Utility combining the ping and traceroute commands.
 
@@ -404,15 +404,15 @@ The PC runs process management software that the owner cannot run on
 
   
 
-Vulnerabilities in the OS and applications software such as web browsers and document readers or in PC and adapter firmware can allow threat actors to run malware and gain a foothold on the network.
+[[vulnerability|vulnerabilities]] in the OS and applications software such as web browsers and document readers or in PC and adapter firmware can allow threat actors to run malware and gain a foothold on the network.
 
-Windows XP is a legacy platform that is no longer receiving security updates through normal means. This means that patch management cannot be used to reduce risks from software vulnerabilities. The workstation should be isolated from other systems to reduce the risk of compromise.
+Windows XP is a legacy platform that is no longer receiving security updates through normal means. This means that patch management cannot be used to reduce risks from software [[vulnerability|vulnerabilities]]. The workstation should be isolated from other systems to reduce the risk of compromise.
 
   
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image003.gif)Windows 10. What are the risks arising from this, and how can they be mitigated?
 
-130               As a security solutions provider, you are compiling a checklist for your customers to assess potential weak configuration vulnerabilities, based on the CompTIA
+130               As a security solutions provider, you are compiling a checklist for your customers to assess potential weak configuration [[vulnerability|vulnerabilities]], based on the CompTIA
 
 Security+ syllabus. From the headings you have added so far, which is missing and what vulnerability does it relate to? Default settings, Unsecured root accounts, Open ports and services, Unsecure protocols, Weak encryption, Errors.
 
@@ -438,9 +438,9 @@ Backup solutions mitigate risks from data loss, where files or information is de
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)134               supply chain                                                                                                                     The end-to-end process of supplying, manufacturing, distributing, and finally releasing goods and services to a customer.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)135               third-party risks                                                                                                                Vulnerabilities that arise from dependencies in business relationships with suppliers and customers.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)135               third-party risks                                                                                                                [[vulnerability|vulnerabilities]] that arise from dependencies in business relationships with suppliers and customers.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)136               vendor management                                                                                                         Policies and procedures to identify vulnerabilities and ensure security of the supply chain.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)136               vendor management                                                                                                         Policies and procedures to identify [[vulnerability|vulnerabilities]] and ensure security of the supply chain.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image010.gif)137               zero-day                                                                                                                            A vulnerability in software that is unpatched by the developer or an attack that exploits such a vulnerability.
 
@@ -466,7 +466,7 @@ become concerned about an APT risk known to target supply chains within the comp
 
 Verify that the vulnerability feed/plug-in/test has been updated with the specific CVE that you need to test for.
 
-A fully non-intrusive solution should be adopted, such as sniffing traffic using a network tap or mirror port. Using the network traffic to detect vulnerabilities rather than actively probing each device will not cause system stability issues (though there is greater risk of false positive and false negative results).
+A fully non-intrusive solution should be adopted, such as sniffing traffic using a network tap or mirror port. Using the network traffic to detect [[vulnerability|vulnerabilities]] rather than actively probing each device will not cause system stability issues (though there is greater risk of false positive and false negative results).
 
 False positive.
 
@@ -494,7 +494,7 @@ Collecting network traffic and log data from multiple sources and then analyzing
 
 system.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image012.gif)150               vulnerability feed                                                                                                             A synchronizable list of data and scripts used to check for vulnerabilities. Also referred to as plug-ins or network vulnerability tests (NVTs).
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image012.gif)150               vulnerability feed                                                                                                             A synchronizable list of data and scripts used to check for [[vulnerability|vulnerabilities]]. Also referred to as plug-ins or network vulnerability tests (NVTs).
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif)151               vulnerability scanner                                                                                                        Hardware or software configured with a list of known weaknesses and exploits and can scan for their presence in a host OS or particular application.
 
@@ -520,7 +520,7 @@ ISPs monitor their networks for suspicious traffic and may block the test attemp
 
   
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image008.gif)155               What tools are used for OSINT?                                                                                     Open-source intelligence is a reconnaissance activity to gather information about the target from any public source. The basic tool is web searches/queries plus sites that scan/scrape/monitor vulnerabilities in Internet-facing services and devices. There are also specialist OSINT tools, such as theHarvester, that aggregate data from queries of different
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image008.gif)155               What tools are used for OSINT?                                                                                     Open-source intelligence is a reconnaissance activity to gather information about the target from any public source. The basic tool is web searches/queries plus sites that scan/scrape/monitor [[vulnerability|vulnerabilities]] in Internet-facing services and devices. There are also specialist OSINT tools, such as theHarvester, that aggregate data from queries of different
 
 resources.
 
@@ -530,7 +530,7 @@ resources.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)158               blue team                                                                                                                          The defensive team in a penetration test or incident response exercise.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image007.gif)159               bug bounty                                                                                                                       Reward scheme operated by software and web services vendors for reporting vulnerabilities.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image007.gif)159               bug bounty                                                                                                                       Reward scheme operated by software and web services vendors for reporting [[vulnerability|vulnerabilities]].
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image008.gif)160               gray box                                                                                                                           An assessment methodology that simulates an inside attacker who knows something about a target, but not everything.
 
@@ -538,7 +538,7 @@ resources.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif)162               packet sniffing                                                                                                                  Recording data from frames as they pass over network media, using methods such as a mirror port or tap device.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif)163               penetration testing                                                                                                            A test that uses active tools and security utilities to evaluate security by simulating an attack on a system. A pen test will verify that a threat exists, then will actively test and bypass security controls, and will finally exploit vulnerabilities on the system. Also referred to as pentesting, or pentest.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif)163               penetration testing                                                                                                            A test that uses active tools and security utilities to evaluate security by simulating an attack on a system. A pen test will verify that a threat exists, then will actively test and bypass security controls, and will finally exploit [[vulnerability|vulnerabilities]] on the system. Also referred to as pentesting, or pentest.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image007.gif)164               persistence                                                                                                                        In cybersecurity, the ability of a threat actor to maintain covert access to a target host or network.
 
@@ -810,7 +810,7 @@ Because two parties can hash the same data and compare checksums to see if they 
 
   
 
-An encryption protocol used for wireless LANs that addresses the vulnerabilities of the WEP protocol.
+An encryption protocol used for wireless LANs that addresses the [[vulnerability|vulnerabilities]] of the WEP protocol.
 
   
 
@@ -1697,7 +1697,7 @@ CPU but not installed to a local disk.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)531               PSK (pre-shared key)                                                                                                       Passphrase-based mechanism to allow group authentication to a wireless network. The passphrase is used to derive an encryption key.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)532               SAE (Simultaneous Authentication of Equals)                                                               Personal authentication mechanism for Wi-Fi networks introduced with WPA3 to address vulnerabilities in the WPA-PSK method.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)532               SAE (Simultaneous Authentication of Equals)                                                               Personal authentication mechanism for Wi-Fi networks introduced with WPA3 to address [[vulnerability|vulnerabilities]] in the WPA-PSK method.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)533               site survey                                                                                                                        A collection of information about a location for the purposes of building an ideal infrastructure; it often contains optimum locations for wireless antenna and access point placement to provide the required coverage for clients and identifying sources of interference.
 
@@ -2029,7 +2029,7 @@ tail /var/log/audit -n 5
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)648               SNMP (Simple Network Management Protocol)                                                           Protocol for monitoring and managing network devices. SNMP works over UDP ports 161 and 162 by default.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)649               What vulnerabilities does a rogue DHCP server expose users to?                                 Denial of service (providing an invalid address configuration) and spoofing (providing a malicious address configuration—one that points to a malicious DNS, for instance).
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)649               What [[vulnerability|vulnerabilities]] does a rogue DHCP server expose users to?                                 Denial of service (providing an invalid address configuration) and spoofing (providing a malicious address configuration—one that points to a malicious DNS, for instance).
 
   
 
@@ -2281,7 +2281,7 @@ A service level agreement (SLA). In addition, performance standards may also be 
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)729               sandbox                                                                                                                            A computing environment that is isolated from a host system to guarantee that the environment runs in a controlled, secure fashion. Communication links between the sandbox and the host are usually completely prohibited.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)730               What is a hardened configuration?                                                                                  A basic principle of security is to run only services that are needed. A hardened system is configured to perform a role as client or application server with the minimal possible attack surface, in terms of interfaces, ports, services, storage, system/registry permissions, lack of security controls, and vulnerabilities.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)730               What is a hardened configuration?                                                                                  A basic principle of security is to run only services that are needed. A hardened system is configured to perform a role as client or application server with the minimal possible attack surface, in terms of interfaces, ports, services, storage, system/registry permissions, lack of security controls, and [[vulnerability|vulnerabilities]].
 
   
 
@@ -2293,7 +2293,7 @@ True or false? Only Microsoft''s operating systems and applications require secu
 
   
 
-False—any vendor's or open-source software or firmware can contain vulnerabilities that need patching.
+False—any vendor's or open-source software or firmware can contain [[vulnerability|vulnerabilities]] that need patching.
 
   
 
@@ -2393,7 +2393,7 @@ CompTIA Security+ syllabus, you have created the industry-specific advice for th
 
 Logistics—transportation of components for assembly or distribution of finished products.
 
-As systems with considerable computing and networking functionality, these devices are subject to the same sort of vulnerabilities and exploits as ordinary workstations and laptops. It is critical to assess the vendor's policies in terms of the security design for the product and support for identifying and mitigating any vulnerabilities discovered in its use.
+As systems with considerable computing and networking functionality, these devices are subject to the same sort of [[vulnerability|vulnerabilities]] and exploits as ordinary workstations and laptops. It is critical to assess the vendor's policies in terms of the security design for the product and support for identifying and mitigating any [[vulnerability|vulnerabilities]] discovered in its use.
 
   
 
@@ -2761,9 +2761,9 @@ The document object model (DOM) is the means by which a script (JavaScript) can 
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)876               Which response header provides protection against SSL stripping attacks?                 HTTP Strict Transport Security (HSTS).
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)877               What vulnerabilities might default error messages reveal?                                            A default error message might reveal platform information and the workings of the code to an attacker.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)877               What [[vulnerability|vulnerabilities]] might default error messages reveal?                                            A default error message might reveal platform information and the workings of the code to an attacker.
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)878               What is an SDK and how does it affect secure development?                                       A software development kit (SDK) contains tools and code examples released by a vendor to make developing applications within a particular environment (framework, programming language, OS, and so on) easier. Any element in the SDK could contain vulnerabilities that could then be transferred to the developer's code or application.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)878               What is an SDK and how does it affect secure development?                                       A software development kit (SDK) contains tools and code examples released by a vendor to make developing applications within a particular environment (framework, programming language, OS, and so on) easier. Any element in the SDK could contain [[vulnerability|vulnerabilities]] that could then be transferred to the developer's code or application.
 
   
 
@@ -2885,7 +2885,7 @@ Office suites, such as OpenOffice and LibreOffice, use scripting languages for m
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)Version control is an ID system for each iteration of a software product. Continuous deployment.
 
-The compiler can apply obfuscation routines to make the code difficult for a threat actor to reverse engineer and analyze for vulnerabilities.
+The compiler can apply obfuscation routines to make the code difficult for a threat actor to reverse engineer and analyze for [[vulnerability|vulnerabilities]].
 
   
 
@@ -3311,7 +3311,7 @@ Flow records are generated by NetFlow or IP Flow Information Export (IPFIX) prob
 
   
 
-![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)1049             adversarial AI (adversarial artificial intelligence)                                                          Using AI to identify vulnerabilities and attack vectors to circumvent security systems.
+![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)1049             adversarial AI (adversarial artificial intelligence)                                                          Using AI to identify [[vulnerability|vulnerabilities]] and attack vectors to circumvent security systems.
 
 ![](file:///C:/Users/Jamie/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)1050             quarantine                                                                                                                         The process of isolating a file, computer system, or computer network to prevent the spread of a virus or another cybersecurity incident.
 

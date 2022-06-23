@@ -2,6 +2,16 @@
   "items": [
     {
       "type": "file",
+      "title": "My working notes",
+      "path": "Z_Notes from tests/My working notes.md"
+    },
+    {
+      "type": "file",
+      "title": "Working Notes",
+      "path": "My linked notes/Working Notes.md"
+    },
+    {
+      "type": "file",
       "title": "Performance-based questions",
       "path": "Z_Notes from tests/Performance based questions.md"
     },
@@ -87,8 +97,8 @@
     },
     {
       "type": "file",
-      "title": "Working Notes",
-      "path": "My linked notes/Working Notes.md"
+      "title": "Dictonary",
+      "path": "My linked notes/Dictonary.md"
     }
   ]
 }

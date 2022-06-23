@@ -1,8 +1,6 @@
-
-#zFleck 
 # EXAM OBJECTIVES COVERED
 2.8 Summarize the basics of cryptographic #concepts
-
+#A_D 
 # QUANTUM AND POST-QUANTUM
 
 _Quantum_ refers to computers that use properties of quantum mechanics to significantly out-perform classical computers at certain tasks.

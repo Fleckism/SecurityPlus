@@ -1,10 +1,7 @@
----
-tags: [A_D,section]
----
 # EXAM OBJECTIVES COVERED
 
 2.3 Summarize secure application development, deployment, and automation concepts
-
+#A_D 
 Most organizations use Agile methodologies, involving a development process of continuous integration, delivery, and deployment. You will need to be able to support the creation and use of secure development and staging environments, plus the use of provisioning and deprovisioning tools.
 # APPLICATION DEVELOPMENT, ==DEPLOYMENT, AND AUTOMATION==
 
