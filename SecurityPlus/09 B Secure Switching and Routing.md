@@ -1,6 +1,3 @@
----
-tags: [section]
----
 # EXAM OBJECTIVES COVERED
 
 1.4 Given a scenario, analyze #Ops potential indicators associated with network attacks
@@ -8,7 +5,7 @@ tags: [section]
 3.1 Given a scenario, #Implementation  secure protocols (Routing and switching only)
 
 3.3 Given a scenario, implement secure network designs #A_D 
-#A_D 
+
 **[[Attack]]s aimed at low-level networking functions can be highly effective**. To implement a network design that demonstrates confidentiality, integrity, and [[Availability]], you must configure switches and routers with appropriate settings. These devices can be used to enforce network access control mechanisms and ensure fault-tolerant paths within the network.
 # MAN-IN-THE-MIDDLE AND LAYER 2 ATTACKS 
 

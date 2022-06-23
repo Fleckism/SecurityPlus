@@ -1,6 +1,4 @@
----
-tags: [Implementation,section]
----
+
 # EXAM OBJECTIVES COVERED
 
 1.4 Given a scenario, analyze  potential indicators associated with network attacks
@@ -66,7 +64,7 @@ Unless some sort of authentication is configured, a discoverable device is vulne
 
 Bluesnarfing refers to using an exploit in Bluetooth to steal information from someone else's phone. The exploit (now patched) allows attackers to circumvent the **authentication** mechanism. Even without an exploit, a short (4 digit) PIN code is vulnerable to brute force password guessing.
 
-Other significant risks come from the device that is being connected. A peripheral device with malicious firmware can be used to launch highly effective attacks. This type of #risk_has a low likelihood, as the resources required to craft such malicious peripherals are demanding.
+Other significant risks come from the device that is being connected. A peripheral device with malicious firmware can be used to launch highly effective attacks. This type of risk has a low likelihood, as the resources required to craft such malicious peripherals are demanding.
 # INFRARED AND RFID CONNECTION METHODS
 
 Infrared signaling has been used for [[PAN]] in the past (IrDA), but the use of infrared in modern smartphones and wearable technology focuses on two other uses:

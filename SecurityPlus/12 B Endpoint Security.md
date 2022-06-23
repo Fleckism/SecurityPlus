@@ -1,6 +1,3 @@
----
-tags: [implementation,section]
----
 # EXAM OBJECTIVES COVERED
 
 3.2 Given a scenario, [[implementation]] or #Implementation  host or application security solutions

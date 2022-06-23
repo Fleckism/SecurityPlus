@@ -112,7 +112,7 @@ The second sample was retrieved from a web server's common gateway interface (CG
     Python
     
     FeedbackThe script is executed in a Python interpreter.
-    #doThis
+    #research 
 5.  The script is obfuscated by Base64 encoding. You can use PowerShell to decode this back to recognizable script syntax. Either replace the existing line of code in the PowerShell ISE with the following or edit the code so that it appears as follows:
     
     PowerShell

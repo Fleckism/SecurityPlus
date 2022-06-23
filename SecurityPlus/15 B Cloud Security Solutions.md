@@ -1,7 +1,7 @@
 
 # EXAM OBJECTIVES COVERED
 
-1.2 Given a scenario, analyze #Ops #Ops  potential #Indicators  to determine the type of attack (Cloud-based versus on-premises only)
+1.2 Given a scenario, analyze #Ops #Ops  potential Indicators  to determine the type of attack (Cloud-based versus on-premises only)
 #attack #threat #vulnerability 
 2.2 Summarize virtualization and cloud computing concepts
 #A_D 

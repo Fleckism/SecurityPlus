@@ -23,9 +23,9 @@
     "Z_Notes from tests/Lesson 3 Questions (20).md": {
       "wordCount": 3152,
       "pageCount": 11,
-      "characterCount": 20733,
+      "characterCount": 20729,
       "createdDate": 1639995979214,
-      "modifiedDate": 1655378206547
+      "modifiedDate": 1655992792836
     },
     "Z_Notes from tests/Lesson 1 Questions (10).md": {
       "wordCount": 1354,
@@ -147,11 +147,11 @@
       "modifiedDate": 1655821294771
     },
     "SecurityPlus/17 A Incident Response Procedures.md": {
-      "wordCount": 3039,
+      "wordCount": 3038,
       "pageCount": 11,
-      "characterCount": 21902,
+      "characterCount": 21890,
       "createdDate": 1645299529772,
-      "modifiedDate": 1654787070925
+      "modifiedDate": 1655993718873
     },
     "SecurityPlus/14 E Deployment and Automation Concepts.md": {
       "wordCount": 1910,
@@ -170,9 +170,9 @@
     "SecurityPlus/15 B Cloud Security Solutions.md": {
       "wordCount": 4541,
       "pageCount": 16,
-      "characterCount": 32232,
+      "characterCount": 32231,
       "createdDate": 1645299426148,
-      "modifiedDate": 1654786473241
+      "modifiedDate": 1655993192724
     },
     "SecurityPlus/14 D Secure Script Environments.md": {
       "wordCount": 2992,
@@ -224,11 +224,11 @@
       "modifiedDate": 1654700592764
     },
     "SecurityPlus/13 B Secure Mobile Device Connections.md": {
-      "wordCount": 2929,
+      "wordCount": 2926,
       "pageCount": 10,
-      "characterCount": 20250,
+      "characterCount": 20211,
       "createdDate": 1645299263705,
-      "modifiedDate": 1655820926178
+      "modifiedDate": 1655993550906
     },
     "SecurityPlus/11 C Secure Remote Access Protocols.md": {
       "wordCount": 3634,
@@ -238,18 +238,18 @@
       "modifiedDate": 1654629181600
     },
     "SecurityPlus/12 A Secure Firmware.md": {
-      "wordCount": 2506,
+      "wordCount": 2510,
       "pageCount": 9,
-      "characterCount": 17672,
+      "characterCount": 17671,
       "createdDate": 1645299010928,
-      "modifiedDate": 1655821218583
+      "modifiedDate": 1655993283046
     },
     "SecurityPlus/12 B Endpoint Security.md": {
-      "wordCount": 2147,
+      "wordCount": 2143,
       "pageCount": 8,
-      "characterCount": 15655,
+      "characterCount": 15616,
       "createdDate": 1645299263705,
-      "modifiedDate": 1655821184367
+      "modifiedDate": 1655993535160
     },
     "SecurityPlus/11 A Secure Network Operations Protocols.md": {
       "wordCount": 2806,
@@ -259,25 +259,25 @@
       "modifiedDate": 1654563391150
     },
     "SecurityPlus/11 B Secure Application Protocols.md": {
-      "wordCount": 3044,
+      "wordCount": 3041,
       "pageCount": 11,
-      "characterCount": 20342,
+      "characterCount": 20310,
       "createdDate": 1645299010928,
-      "modifiedDate": 1654667850449
+      "modifiedDate": 1655993521227
     },
     "SecurityPlus/10 A Firewalls and Proxy Servers.md": {
-      "wordCount": 3716,
+      "wordCount": 3715,
       "pageCount": 13,
-      "characterCount": 25606,
+      "characterCount": 25589,
       "createdDate": 1645299010928,
-      "modifiedDate": 1654517355857
+      "modifiedDate": 1655993475638
     },
     "SecurityPlus/09 B Secure Switching and Routing.md": {
-      "wordCount": 2568,
+      "wordCount": 2563,
       "pageCount": 9,
-      "characterCount": 17653,
+      "characterCount": 17624,
       "createdDate": 1645299010928,
-      "modifiedDate": 1654286990084
+      "modifiedDate": 1655993449370
     },
     "SecurityPlus/10 C SIEM  security information and event management.md": {
       "wordCount": 1814,
@@ -315,11 +315,11 @@
       "modifiedDate": 1654527874613
     },
     "SecurityPlus/09 A Secure Network Desings.md": {
-      "wordCount": 3510,
+      "wordCount": 3508,
       "pageCount": 12,
-      "characterCount": 24098,
+      "characterCount": 24088,
       "createdDate": 1645299010928,
-      "modifiedDate": 1654275203440
+      "modifiedDate": 1655993420217
     },
     "SecurityPlus/08 A Identity and Account Types.md": {
       "wordCount": 3583,
@@ -329,11 +329,11 @@
       "modifiedDate": 1654527871478
     },
     "SecurityPlus/08 C Authorization Solutions _ Implementation _ A_D.md": {
-      "wordCount": 2778,
+      "wordCount": 2777,
       "pageCount": 10,
-      "characterCount": 19388,
+      "characterCount": 19381,
       "createdDate": 1645298749983,
-      "modifiedDate": 1654274249184
+      "modifiedDate": 1655994010873
     },
     "SecurityPlus/08 B Account Polices.md": {
       "wordCount": 1910,
@@ -408,9 +408,9 @@
     "SecurityPlus/05 A  Cryptographic Ciphers.md": {
       "wordCount": 2296,
       "pageCount": 8,
-      "characterCount": 14608,
+      "characterCount": 14606,
       "createdDate": 1643794966960,
-      "modifiedDate": 1654179267861
+      "modifiedDate": 1655993987086
     },
     "SecurityPlus/03 D Penetration Testing Concepts.md": {
       "wordCount": 1997,
@@ -420,11 +420,11 @@
       "modifiedDate": 1654629179853
     },
     "SecurityPlus/04 B  Malware-Based Attack.md": {
-      "wordCount": 3739,
+      "wordCount": 3738,
       "pageCount": 13,
-      "characterCount": 26186,
+      "characterCount": 26177,
       "createdDate": 1642556033014,
-      "modifiedDate": 1654285814875
+      "modifiedDate": 1655986884465
     },
     "SecurityPlus/03 B  Vulnerabilities.md": {
       "wordCount": 2757,
@@ -516,6 +516,20 @@
       "characterCount": 915,
       "createdDate": 1654265485785,
       "modifiedDate": 1654528370839
+    },
+    "My linked notes/Overview of lesson 08 Implementing Identity and Account Management Controls.md": {
+      "wordCount": 34,
+      "pageCount": 1,
+      "characterCount": 213,
+      "createdDate": 1654265139091,
+      "modifiedDate": 1654266753307
+    },
+    "My linked notes/ATT&CK.md": {
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "createdDate": 1655993719897,
+      "modifiedDate": 1655993719897
     },
     "My linked notes/zero-day.md": {
       "wordCount": 37,
@@ -623,11 +637,11 @@
       "modifiedDate": 1651567170872
     },
     "My linked notes/Working Notes.md": {
-      "wordCount": 398,
+      "wordCount": 373,
       "pageCount": 2,
-      "characterCount": 2329,
+      "characterCount": 2132,
       "createdDate": 1652875046554,
-      "modifiedDate": 1655943659462
+      "modifiedDate": 1655993894045
     },
     "My linked notes/Wireshark.md": {
       "wordCount": 267,
@@ -707,11 +721,11 @@
       "modifiedDate": 1654738751113
     },
     "My linked notes/vulnerability.md": {
-      "wordCount": 346,
+      "wordCount": 345,
       "pageCount": 2,
-      "characterCount": 2646,
+      "characterCount": 2625,
       "createdDate": 1642730909950,
-      "modifiedDate": 1654601868702
+      "modifiedDate": 1655993878298
     },
     "My linked notes/Volatile.md": {
       "wordCount": 0,
@@ -1021,13 +1035,6 @@
       "createdDate": 1654738711366,
       "modifiedDate": 1654738711366
     },
-    "My linked notes/Test File.md": {
-      "wordCount": 5,
-      "pageCount": 1,
-      "characterCount": 62,
-      "createdDate": 1652878092503,
-      "modifiedDate": 1652878164183
-    },
     "My linked notes/threat actor.md": {
       "wordCount": 63,
       "pageCount": 1,
@@ -1304,9 +1311,9 @@
     "My linked notes/spyware.md": {
       "wordCount": 110,
       "pageCount": 1,
-      "characterCount": 761,
+      "characterCount": 764,
       "createdDate": 1643640413603,
-      "modifiedDate": 1650331821026
+      "modifiedDate": 1655986849180
     },
     "My linked notes/spoofed.md": {
       "wordCount": 77,
@@ -1841,11 +1848,11 @@
       "modifiedDate": 1654628961010
     },
     "My linked notes/rootkit.md": {
-      "wordCount": 169,
+      "wordCount": 168,
       "pageCount": 1,
-      "characterCount": 1063,
+      "characterCount": 1053,
       "createdDate": 1643072865083,
-      "modifiedDate": 1652096463028
+      "modifiedDate": 1655986797728
     },
     "My linked notes/RNA.md": {
       "wordCount": 0,
@@ -2023,11 +2030,11 @@
       "modifiedDate": 1652232759853
     },
     "My linked notes/Ransomware.md": {
-      "wordCount": 171,
+      "wordCount": 169,
       "pageCount": 1,
-      "characterCount": 1046,
+      "characterCount": 1024,
       "createdDate": 1643073725245,
-      "modifiedDate": 1652893742978
+      "modifiedDate": 1655986725156
     },
     "My linked notes/RBAC.md": {
       "wordCount": 8,
@@ -3122,11 +3129,11 @@
       "modifiedDate": 1655836182925
     },
     "My linked notes/MITRE.md": {
-      "wordCount": 33,
+      "wordCount": 32,
       "pageCount": 1,
-      "characterCount": 236,
+      "characterCount": 220,
       "createdDate": 1654700772728,
-      "modifiedDate": 1654700839330
+      "modifiedDate": 1655993745150
     },
     "My linked notes/MicroSD HSM.md": {
       "wordCount": 36,
@@ -3136,11 +3143,11 @@
       "modifiedDate": 1653574784254
     },
     "My linked notes/misconfigurations.md": {
-      "wordCount": 3,
+      "wordCount": 2,
       "pageCount": 1,
-      "characterCount": 55,
+      "characterCount": 40,
       "createdDate": 1652874676018,
-      "modifiedDate": 1652874838640
+      "modifiedDate": 1655993202386
     },
     "My linked notes/MIB.md": {
       "wordCount": 0,
@@ -3215,9 +3222,9 @@
     "My linked notes/malware.md": {
       "wordCount": 490,
       "pageCount": 2,
-      "characterCount": 3234,
+      "characterCount": 3233,
       "createdDate": 1643069868648,
-      "modifiedDate": 1654001294940
+      "modifiedDate": 1655985721245
     },
     "My linked notes/MAC addresses.md": {
       "wordCount": 149,
@@ -3502,9 +3509,9 @@
     "My linked notes/Lab 05.md": {
       "wordCount": 154,
       "pageCount": 1,
-      "characterCount": 836,
+      "characterCount": 835,
       "createdDate": 1651623663076,
-      "modifiedDate": 1651629410396
+      "modifiedDate": 1655992753390
     },
     "My linked notes/Lateral movement.md": {
       "wordCount": 23,
@@ -3738,11 +3745,11 @@
       "modifiedDate": 1654786663997
     },
     "My linked notes/indicators.md": {
-      "wordCount": 192,
+      "wordCount": 212,
       "pageCount": 1,
-      "characterCount": 1314,
+      "characterCount": 1481,
       "createdDate": 1654786629858,
-      "modifiedDate": 1655908501681
+      "modifiedDate": 1655985692335
     },
     "My linked notes/inet.md": {
       "wordCount": 0,
@@ -3999,9 +4006,9 @@
     "My linked notes/GPO.md": {
       "wordCount": 4,
       "pageCount": 1,
-      "characterCount": 29,
+      "characterCount": 30,
       "createdDate": 1655155686233,
-      "modifiedDate": 1655938248262
+      "modifiedDate": 1655993112425
     },
     "My linked notes/GREP.md": {
       "wordCount": 0,
@@ -4090,9 +4097,9 @@
     "My linked notes/Fileless.md": {
       "wordCount": 250,
       "pageCount": 1,
-      "characterCount": 1640,
+      "characterCount": 1643,
       "createdDate": 1643070478366,
-      "modifiedDate": 1652897943426
+      "modifiedDate": 1655985920256
     },
     "My linked notes/fingerprinting.md": {
       "wordCount": 487,
@@ -4776,9 +4783,9 @@
     "My linked notes/Crypto.md": {
       "wordCount": 112,
       "pageCount": 1,
-      "characterCount": 669,
+      "characterCount": 671,
       "createdDate": 1643639702784,
-      "modifiedDate": 1650330222921
+      "modifiedDate": 1655985894472
     },
     "My linked notes/Cryptanalysis.md": {
       "wordCount": 35,
@@ -4921,11 +4928,11 @@
       "modifiedDate": 1644940428297
     },
     "My linked notes/computer virus.md": {
-      "wordCount": 213,
+      "wordCount": 197,
       "pageCount": 1,
-      "characterCount": 1315,
+      "characterCount": 1243,
       "createdDate": 1643070080183,
-      "modifiedDate": 1650328845171
+      "modifiedDate": 1655985858027
     },
     "My linked notes/Code.md": {
       "wordCount": 20,
@@ -5210,9 +5217,9 @@
     "My linked notes/botnet.md": {
       "wordCount": 97,
       "pageCount": 1,
-      "characterCount": 697,
+      "characterCount": 696,
       "createdDate": 1644609006624,
-      "modifiedDate": 1650329985473
+      "modifiedDate": 1655985339030
     },
     "My linked notes/block cipher.md": {
       "wordCount": 223,
@@ -5273,9 +5280,9 @@
     "My linked notes/backdoor.md": {
       "wordCount": 177,
       "pageCount": 1,
-      "characterCount": 1196,
+      "characterCount": 1199,
       "createdDate": 1643071048154,
-      "modifiedDate": 1652106224873
+      "modifiedDate": 1655985809432
     },
     "My linked notes/A_D Architecture and Design.md": {
       "wordCount": 54,
@@ -5341,11 +5348,11 @@
       "modifiedDate": 1654796849278
     },
     "My linked notes/Attack.md": {
-      "wordCount": 1104,
+      "wordCount": 1102,
       "pageCount": 4,
-      "characterCount": 7055,
+      "characterCount": 7048,
       "createdDate": 1643805946013,
-      "modifiedDate": 1655821439742
+      "modifiedDate": 1655985789251
     },
     "My linked notes/auditing.md": {
       "wordCount": 37,
@@ -5425,18 +5432,18 @@
       "modifiedDate": 1651539695340
     },
     "My linked notes/Assisted Lab Lesson 14 (25).md": {
-      "wordCount": 1797,
+      "wordCount": 1799,
       "pageCount": 6,
-      "characterCount": 13882,
+      "characterCount": 13872,
       "createdDate": 1655937998611,
-      "modifiedDate": 1655940458753
+      "modifiedDate": 1655993960255
     },
     "My linked notes/Assisted Lab Lesson 14 (26).md": {
       "wordCount": 1354,
       "pageCount": 5,
-      "characterCount": 9754,
+      "characterCount": 9757,
       "createdDate": 1655940534616,
-      "modifiedDate": 1655943092064
+      "modifiedDate": 1655993123359
     },
     "My linked notes/Assisted Lab Lesson 14 (24).md": {
       "wordCount": 1481,
@@ -5448,9 +5455,9 @@
     "My linked notes/Assisted lab lesson 11 (18).md": {
       "wordCount": 1189,
       "pageCount": 4,
-      "characterCount": 9205,
+      "characterCount": 9193,
       "createdDate": 1654560440968,
-      "modifiedDate": 1655836321622
+      "modifiedDate": 1655993141674
     },
     "My linked notes/Assisted Lab Lesson 10 (17).md": {
       "wordCount": 1304,
@@ -5509,11 +5516,11 @@
       "modifiedDate": 1655944144326
     },
     "My linked notes/Assisted Lab 12.md": {
-      "wordCount": 1724,
+      "wordCount": 1723,
       "pageCount": 6,
-      "characterCount": 12700,
+      "characterCount": 12671,
       "createdDate": 1652749511188,
-      "modifiedDate": 1652788748787
+      "modifiedDate": 1655993363722
     },
     "My linked notes/Assisted Lab 10.md": {
       "wordCount": 1403,
@@ -6272,18 +6279,18 @@
       "modifiedDate": 1647905044625
     },
     "My linked notes/Acronyms/IV.md": {
-      "wordCount": 3,
+      "wordCount": 2,
       "pageCount": 1,
-      "characterCount": 27,
+      "characterCount": 22,
       "createdDate": 1645015155430,
-      "modifiedDate": 1651676213732
+      "modifiedDate": 1655993903922
     },
     "My linked notes/Acronyms/IoC.md": {
       "wordCount": 346,
       "pageCount": 2,
-      "characterCount": 2440,
+      "characterCount": 2431,
       "createdDate": 1643038305703,
-      "modifiedDate": 1650475840255
+      "modifiedDate": 1655985699637
     },
     "My linked notes/Acronyms/IPSec.md": {
       "wordCount": 76,
@@ -6337,9 +6344,9 @@
     "My linked notes/Acronyms/IAM.md": {
       "wordCount": 21,
       "pageCount": 1,
-      "characterCount": 178,
+      "characterCount": 152,
       "createdDate": 1646791944116,
-      "modifiedDate": 1652665935522
+      "modifiedDate": 1655992877673
     },
     "My linked notes/Acronyms/ICMP.md": {
       "wordCount": 4,
@@ -6561,9 +6568,9 @@
     "My linked notes/Acronyms/DDoS.md": {
       "wordCount": 40,
       "pageCount": 1,
-      "characterCount": 285,
+      "characterCount": 284,
       "createdDate": 1645635162499,
-      "modifiedDate": 1650330287534
+      "modifiedDate": 1655985495620
     },
     "My linked notes/Acronyms/CVSS.md": {
       "wordCount": 4,
@@ -6830,13 +6837,6 @@
       "characterCount": 0,
       "createdDate": 1654289990039,
       "modifiedDate": 1654290025992
-    },
-    "My linked notes/08 Implementing Identity and Account Management Controls.md": {
-      "wordCount": 34,
-      "pageCount": 1,
-      "characterCount": 213,
-      "createdDate": 1654265139091,
-      "modifiedDate": 1654266753307
     },
     "My linked notes/07 Synopsis.md": {
       "wordCount": 17,

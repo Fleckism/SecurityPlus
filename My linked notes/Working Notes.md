@@ -9,7 +9,7 @@ proxy vs proxies combine or change file
 - Add a definition of accounting in IT terms. 
 - Add notes linked to less than 2 sections to section review aka ==Lesson 11 With lesson title== which should include A,B,C compare and contrast and things of the like.
 - [[implementation]] or #Implementation  do I really need both?
-- Look for #VariationsOfSpelling and add those variations to the "parent" note aka in [[misconfiguration]] add all the variations to [[vulnerability]] and combine with vulnerability|vulnerabilities
+
 - Clean up tags
 - Unlinked mentions are not in Shimmering Focus Theme
 - Synonyms ending with AC is access control

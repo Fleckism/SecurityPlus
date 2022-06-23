@@ -192,7 +192,7 @@ DNS name resolution is one of the most essential network services. DNS zones con
     No
     
 16.  Close the **DNS** console.
-17.   #NoIdeaWhatImLookingAt
+17.   #research 
 
 
 

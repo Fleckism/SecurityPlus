@@ -11,7 +11,7 @@ Assisted Lab:
 	- Stopped the process [[Ncat]]
 	- And I found the Inbound rule for port 4450 and blocked it.
 	- To block access to the malware
-		- I Stopped the #ncat process
+		- I Stopped the ncat process
 		- Deleted the ini.vbs file
 		- Closed port 4450
 	-

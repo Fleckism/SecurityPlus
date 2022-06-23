@@ -1,7 +1,4 @@
----
-tags: [A_D, Implementation,section]
----
-# ## 
+# ## Secure Network Desings
 
 LESSON INTRODUCTION
 
@@ -19,7 +16,7 @@ In this lesson, you will:
 -   Implement load balancers.
 # EXAM OBJECTIVES COVERED
 
-3.3 Given a scenario, implement secure network designs #A_D
+3.3 Given a scenario, implement secure network designs #Implementation 
 
 While you may not be responsible for network design in your current role, it is important that you understand the [[vulnerability|vulnerabilities]] that can arise from weaknesses in network architecture #A_D, and some of the general principles for ensuring a well-designed network. This will help you to contribute to projects to improve resiliency and to make recommendations for improvements.
 

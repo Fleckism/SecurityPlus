@@ -171,7 +171,7 @@ Create a GPO to enforce a file system audit policy.
 2.  In the Group Policy Management console, select the **Domain Controllers** organizational unit. Right-click it and select **Create a GPO in this domain, and Link it here**.
     
 3.  In the Name box, enter Audit Policy and select **OK**.
-    #searchForTheBelowSymbols
+
     > We need to attach the policy to the Domain Controllers OU because this VM is the DC. You would attach the policy to a different OU to configure audit settings for other types of computer object.
     
 4.  Right-click **Audit Policy** and select **Edit**.

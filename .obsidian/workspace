@@ -4,38 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9faa424cc472911f",
+        "id": "2531ce3bc30f2151",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/indicators.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "c4dc778e62038615",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/04 B  Malware-Based Attack.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "1fcd0d619f8b03eb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Ransomware.md",
+            "file": "SecurityPlus/17 B Appropriate Data Sources for Incident Response.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -75,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#malware",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317
+    "width": 353
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -105,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecurityPlus/04 B  Malware-Based Attack.md",
+                "file": "SecurityPlus/17 B Appropriate Data Sources for Incident Response.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecurityPlus/04 B  Malware-Based Attack.md",
+                "file": "SecurityPlus/17 B Appropriate Data Sources for Incident Response.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,17 +120,17 @@
     "direction": "horizontal",
     "width": 252
   },
-  "active": "c4dc778e62038615",
+  "active": "2531ce3bc30f2151",
   "lastOpenFiles": [
-    "SecurityPlus/04 B  Malware-Based Attack.md",
-    "My linked notes/spyware.md",
-    "My linked notes/rootkit.md",
-    "My linked notes/Fileless.md",
-    "My linked notes/Ransomware.md",
-    "My linked notes/malware.md",
-    "My linked notes/Crypto.md",
-    "My linked notes/computer virus.md",
-    "My linked notes/backdoor.md",
-    "My linked notes/Attack.md"
+    "SecurityPlus/17 B Appropriate Data Sources for Incident Response.md",
+    "My linked notes/Overview of lesson 08 Implementing Identity and Account Management Controls.md",
+    "SecurityPlus/08 C Authorization Solutions _ Implementation _ A_D.md",
+    "SecurityPlus/05 A  Cryptographic Ciphers.md",
+    "My linked notes/Assisted Lab Lesson 14 (25).md",
+    "My linked notes/Acronyms/IV.md",
+    "My linked notes/Working Notes.md",
+    "My linked notes/vulnerability.md",
+    "My linked notes/Test File.md",
+    "My linked notes/indicators.md"
   ]
 }

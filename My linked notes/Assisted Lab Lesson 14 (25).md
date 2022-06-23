@@ -61,7 +61,6 @@ You will configure PowerShell execution control on the DC1 virtual machine. You 
 PowerShell execution policy reference table:
 
 ![[Pasted image 20220622185600.png]]
-#Pasted_table
 
 ---
 
@@ -71,8 +70,8 @@ PowerShell execution policy reference table:
     
     > Remember to use the Type Text feature to auto-type the content into the virtual machine.
     
-    PowerShell
-    #WhatLanguageIsThis powershell files
+    PowerShell (Has it's own language)
+   powershell files 
     `# display the following text Write-Host “Hello, $env:UserName!”  # display the date $today = get-date Write-Host "Today is $today"  # display version information for PowerShell (Get-Host).Version`
     
     The script.![Screen Shot 2020-11-08 at 10.25.48 AM.png](https://labondemand.blob.core.windows.net/content/lab84057/Screen%20Shot%202020-11-08%20at%2010.25.48%20AM.png)

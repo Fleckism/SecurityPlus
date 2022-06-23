@@ -1,7 +1,4 @@
----
-tags: [A_D, Implementation,section]
----
-# ## 
+# ## Firewalls and Proxy Servers
 
 LESSON INTRODUCTION
 

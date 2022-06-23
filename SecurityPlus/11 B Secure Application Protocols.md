@@ -1,11 +1,8 @@
----
-tags: [Implementation,section]
----
 # EXAM OBJECTIVES COVERED
-#Implementation 
-2.1 Explain the importance of security concepts in an enterprise environment
 
-3.1 Given a scenario, implement secure protocols
+2.1 Explain the importance of security concepts in an enterprise environment #A_D 
+
+3.1 Given a scenario, implement secure protocols #Implementation 
 
 The [[network]] infrastructure of switches, routers, access points, and secure hosts is implemented for the purpose of running services. The application protocols that enable web, email, and VoIP require secure configuration too.
 # HYPERTEXT TRANSFER PROTOCOL AND WEB SERVICES
