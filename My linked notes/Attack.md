@@ -25,7 +25,7 @@ Types of attacks
 - downgrade attack
 - brute force
 	- horizontal 
-	- #zFleck 
+	
 		- ![[Pasted image 20220510102929.png]]
 - dictionary attack
 - birthday 
@@ -36,7 +36,7 @@ Types of attacks
 - disassociation attack exploits the lack of encryption in management frame traffic to send spoofed frames.
 - Covert channel:   A attack that subverts network security systems and policies to transfer data without authorization or detection
 
-#malware is a #tool that can be used in an attack
+[[malware]] is a #tool that can be used in an attack
 
 
 

@@ -2,7 +2,7 @@
 
 can be used for many types of **malicious** purpose, including triggering distributed denial of service ([[DDoS]]) attack, launching spam campaigns, or performing cryptomining.
 
-#Indicators:
+Indicators:
 - Resource consumption
 
 

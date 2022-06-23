@@ -4,9 +4,8 @@ A rootkit may also contain tools for **cleaning system logs**, further concealin
 
 Consequently, what a rootkit can do depends largely on adversary capability and level of effort. When dealing with a rootkit, you should be aware that there is the possibility that it can compromise system files and programming interfaces, so that local shell processes, such as Explorer, taskmgr, or tasklist on Windows or ps or top on Linux, plus port listening tools, such as netstat, no longer reveals its presence (at least, if run from the infected machine). 
 
-#malware 
 Critical processes run with a higher level of privilege (SYSTEM)
 Alternatively, the malware may be able to use an exploit to escalate privileges after installation. Malware running with this level of privilege is referred to as a rootkit
 
-==A class of malware that modifies system files, often at the kernel level, to conceal its presence.==
+A class of [[malware]] that modifies system files, often at the kernel level, to conceal its presence.
 
