@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "PBQ",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -81,6 +81,6 @@
   "repelStrength": 8.65497076023392,
   "linkStrength": 0.81353919239905,
   "linkDistance": 107,
-  "scale": 0.237162215487627,
+  "scale": 0.9162550097916383,
   "close": false
 }

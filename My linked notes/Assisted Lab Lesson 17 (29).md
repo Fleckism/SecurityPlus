@@ -113,3 +113,11 @@ Create a Group Policy object to enforce the written security policy you reviewed
 19.  Select the **515 Support Local Admin Policy**. In the main pane, select the **Settings** tab. Select **Show all** and inspect the policy settings.
     
     This policy configures the domain-scope LocalAdmin security group as a member of the built-in administrators group (local machine scope) for each host that the policy applies to. The user account Bobby is a member of the LocalAdmin security group, so the effect of applying this policy to DevDept is to make Bobby a local administrator on MS1. Despite this privilege, Bobby should not be able to install or run software in C:\LABFILES.
+
+  
+Comprehensive questions
+
+Does the AppLocker policy remove existing software?
+
+
+No, it does not remove installed software.

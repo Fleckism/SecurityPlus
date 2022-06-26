@@ -26,7 +26,7 @@ When reconstructing the attacks, one must first analyze the victim's networks an
 **Social Engineering**
 Threat actors took advantage of the COVID-19 pandemic.  They knew that companies where rushing to institute (setup) WFH initiatives resulting in possible misconfigurations in any systems involved.  Phishing and hoax e-mails campaigns where also more effective because of this new work environment.
 
-#
+
 # 5B How to validate messages for identity and integrity.
 
 
@@ -106,3 +106,5 @@ Review
 - Wi-Fi 6 or -ax mode, already incorporated in home and enterprise wireless networking products, correlates with improved security fatures offered by WPA3. Moreover, the array of radio bands available for 6GHz (and 5GHz) is much greater than 2.4GHz.  The scenario also specifically stated that backward compatibility to previous Wi-Fi generations is not allowed, in the interest of security, making Wi-Fi 6 the best choice.  The WPA 3 standard mandates the use of Management Protection Frames (MPF) to protect against key recovery attacks. MPF and Simultaneous Authentication of Equals (SAE)- also part of WPA3, help alleviate the problem of attacks leveled against the previous WPA2 4-way handshake process.  The now widely reported KRACK attack method from 2017 specifically targets the WPA2 handshake with replacy techniques proven to be successful.  KRACK reinforced the need for MPF and SAE now available in WPA3
 - WPA3 Enterprise adheres to the most up to date encryption, hashing, and digitial signature algorithms available. According to the Wi-Fi Alliance, enterprise security in WPA3 has increased dramatically, including changes such as the minimum required usage of 192-bit AES Galois Counter Mode Protocol (GCMP), among other high bit, high security algorithms.  WPA2 Enterprise contains weaker security features and algorithms, such as 128-bit AES CCMP.  WPA3 Personal is not acceptable for enterprise level security.
 - Througput settings would be optimal at a channel width of 80MHz as the scenario required high availability and high speeds.  The 5GHz(and 6GHz) band offers a larger array of radio bands, less congestion, less interference, and faster network performance as compared to the 2.4GHz bands, making 5-6GHz channels the best answer choice.  The wider channel (80MHz compared to 20MHz), the higher the throughput.  As an example, 160MHz channel widths are possible with 5GHz and 6GHz even though 160MHz was not an answer option.
+
+## 19A Explain Risk Managment Process
