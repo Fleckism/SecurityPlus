@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Assisted Lab lesson 16 (27).md",
+            "file": "My linked notes/Assisted Lab Lesson 17 (28).md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"script execution\"",
+                "query": "\"forward log files\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Lab lesson 16 (27).md",
+                "file": "My linked notes/Assisted Lab Lesson 17 (28).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted Lab lesson 16 (27).md",
+                "file": "My linked notes/Assisted Lab Lesson 17 (28).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,6 +122,7 @@
   },
   "active": "de078b58edb527b5",
   "lastOpenFiles": [
+    "My linked notes/Assisted Lab Lesson 17 (28).md",
     "My linked notes/Assisted Lab lesson 16 (27).md",
     "My linked notes/Assisted Lab Lesson 14 (25).md",
     "My linked notes/application-layer attack.md",
@@ -130,7 +131,6 @@
     "SecurityPlus/08 C Authorization Solutions _ Implementation _ A_D.md",
     "SecurityPlus/05 A  Cryptographic Ciphers.md",
     "My linked notes/Acronyms/IV.md",
-    "My linked notes/Working Notes.md",
-    "My linked notes/vulnerability.md"
+    "My linked notes/Working Notes.md"
   ]
 }
