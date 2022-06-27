@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Assisted Lab (31).md",
+            "file": "My linked notes/Card Picker.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -63,7 +63,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 353,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -79,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Lab (31).md",
+                "file": "My linked notes/Card Picker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted Lab (31).md",
+                "file": "My linked notes/Card Picker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,6 +124,7 @@
   },
   "active": "8f75556a0ab66c4c",
   "lastOpenFiles": [
+    "My linked notes/Card Picker.md",
     "My linked notes/Assisted Lab (31).md",
     "My linked notes/PBQ.md",
     "My linked notes/PBQ 16A.md",
@@ -131,7 +133,6 @@
     "My linked notes/Assisted Lab Lesson 17 (29).md",
     "SecurityPlus/14 D Secure Script Environments.md",
     "My linked notes/Assisted Lab Lesson 17 (28).md",
-    "My linked notes/Assisted Lab lesson 16 (27).md",
-    "My linked notes/Assisted Lab Lesson 14 (25).md"
+    "My linked notes/Assisted Lab lesson 16 (27).md"
   ]
 }
