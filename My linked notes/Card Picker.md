@@ -146,8 +146,7 @@ Cloud Security Alliance
 - Industry body providing security guidance to CSPs, including enterprise reference architecture and security controls matrix.
 
 
-#zFleck 
-You are providing security consultancy to assist a company with improving incident response procedures. The business manager wants to know why an out-of-band contact mechanism for responders is necessary. What do you say?
+#zFleck You are providing security consultancy to assist a company with improving incident response procedures. The business manager wants to know why an out-of-band contact mechanism for responders is necessary. What do you say?
 - The response team needs a secure channel to communicate over without alerting the threat actor. There may also be availability issues with the main communication network, if it has been affected by the incident.
 
 
@@ -228,3 +227,177 @@ network monitoring
 
 compute
 - In cloud architecture, the resources that provide processing functionality and services, often in the context of an isolated container or VM.
+
+
+stateless
+- A type of firewall that does not preserve information about the connection between two hosts. Often used to describe packet-filtering firewalls.
+
+
+ISSO (Information Systems Security Officer)
+- Organizational role with technical responsibilities for implementation of security policies, frameworks, and controls.
+
+
+cloud deployment model
+- Classifying the ownership and management of a cloud as public, private, community, or hybrid.
+
+
+RDP (Remote Desktop Protocol)
+- Microsoft's protocol for operating remote connections to a Windows machine (Terminal Services), allowing specified users to log onto the Windows computer over the network and work remotely. The protocol sends screen data from the remote host to the client and transfer mouse and keyboard input from the client to the remote host. It uses TCP port 3389.
+
+
+PFX (personal information exchange)
+- Windows file format for storing a private key and certificate data. The file can be password-protected.
+
+
+#zFleck black hole
+- A means of mitigating DoS or intrusion attacks by silently dropping (discarding) traffic.
+
+
+You have been asked to produce a summary of pros and cons for the products Chef and Puppet. What type of virtualization or cloud computing technology do these support?
+- These are orchestration tools. Orchestration facilitates "automation of automation," ensuring that scripts and API calls are made in the right order and at the right time to support an overall workflow.
+
+
+PPTP (Point-to-Point Tunneling Protocol)
+- Developed by Cisco and Microsoft to support VPNs over PPP and TCP/IP. PPTP is highly vulnerable to password cracking attacks and considered obsolete.
+
+
+orchestration
+- The automation of multiple steps in a deployment process.
+
+
+What tools are used for OSINT?
+- Open-source intelligence is a reconnaissance activity to gather information about the target from any public source. The basic tool is web searches/queries plus sites that scan/scrape/monitor vulnerabilities in Internet-facing services and devices. There are also specialist OSINT tools, such as theHarvester, that aggregate data from queries of different resources.
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 

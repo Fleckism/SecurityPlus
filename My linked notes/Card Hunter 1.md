@@ -1,0 +1,25 @@
+- data governance
+- The overall management of the availability, usability, and security of the information used in an organization.
+- 
+- An encryption protocol used for wireless LANs that addresses the vulnerabilities of the WEP protocol.
+- CCMP (counter mode with cipher block chaining message authentication code protocol)
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
