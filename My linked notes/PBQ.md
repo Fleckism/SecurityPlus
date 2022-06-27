@@ -107,4 +107,4 @@ Review
 - WPA3 Enterprise adheres to the most up to date encryption, hashing, and digitial signature algorithms available. According to the Wi-Fi Alliance, enterprise security in WPA3 has increased dramatically, including changes such as the minimum required usage of 192-bit AES Galois Counter Mode Protocol (GCMP), among other high bit, high security algorithms.  WPA2 Enterprise contains weaker security features and algorithms, such as 128-bit AES CCMP.  WPA3 Personal is not acceptable for enterprise level security.
 - Througput settings would be optimal at a channel width of 80MHz as the scenario required high availability and high speeds.  The 5GHz(and 6GHz) band offers a larger array of radio bands, less congestion, less interference, and faster network performance as compared to the 2.4GHz bands, making 5-6GHz channels the best answer choice.  The wider channel (80MHz compared to 20MHz), the higher the throughput.  As an example, 160MHz channel widths are possible with 5GHz and 6GHz even though 160MHz was not an answer option.
 
-## 19A Explain Risk Managment Process
+## 19A Explain Risk Managment Process 
