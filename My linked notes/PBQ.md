@@ -1,4 +1,4 @@
-#01B
+# 01B
 ![[PBQ1B.png]]
 # Scenario
 As a security consultant for a newly-launched Information Technology company, you have assisted in the security planning process to ensure that the best security controls are in place.  However, an organization cannot realistically plan for every situation, so processes and procedures need to be fluid and adjusted as security issues arise.  With all things considered, the company has asked you to extend your consulting work past the initial planning process to assist with any security issues that arise in the first few months of business.  As well, you will help select security controls to resolve and such issues.
@@ -122,3 +122,20 @@ Review
 Scenario
 
 You are a new security engineer 
+
+
+# 19A Explain Risk Management Processes and Concepts Performance-based Question
+
+## Scenario
+
+You are a new security engineer hired to work under the company's Chief Information  Security Officer (CISO).  Your company is dealing with remote network attacks that are targeting the company's intellectual property (IP).  The company is evaluating a next-generation security information and event management (SIEM) solution from a major cybersecurity company to better address ongong attacks.  The next-generation SIEM software would incorporate features the company's existing SIEM does not have.  Such features include user/entity behavior analytics (UEBA) and security orchestration, automation, and response (SOAR).
+
+The CISO has already met with senior executives.  During that meeting, the cybersecurity division did not convince the Chief Financial Officer (CFO) that the company should authorize the expense of a new SIEM.  In contrast, the Chief Executive Officer (CEO) insisted that threats to the company's IP will be relentless.  Your CISO assigns you to conduct a quantitative and qualitative risk analysis to help senior executives weigh the impact of the new SIEM solution.
+
+
+Use the following factors to conduct your analyses:
+- The new SIEM selection should hinge on the Return on Security Investment (ROSI) metric, and not Return on Investment (ROI).
+- Each incident has previously cost the company approximately $50k in multiple expenses, primarily on lost productivity in engineering projects.
+- The new [[SIEM]] should reduce IP exfiltration attempts by 80% or in other words, preventing 4 of the average of **5 attacks**.
+- The company has suffered an average of five incidents (attacks) per year over the past 36 months.
+- The new SIEM will cost approximately $50k per year after factoring in all  licensing fees.
