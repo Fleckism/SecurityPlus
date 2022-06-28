@@ -17,4 +17,14 @@ h1 { color: blue; }
 h2 { color: red; }
 h3 { color: cyan; }
 }
+
+/* I added below */
+
 */
+
+
+
+.theme-dark .cm-s-obsidian .cm-strong, strong {
+    font-weight: 600;
+    color: #FF8C00 !important; /* deep-orange */ 
+}

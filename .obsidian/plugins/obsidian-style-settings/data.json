@@ -14,5 +14,13 @@
   "ITS@@b-ed-c@@dark": "#E3EC0E",
   "ITS@@del-pre-c@@dark": "#EEDB00",
   "ITS@@btm-nav": false,
-  "ITS@@bul-col": true
+  "ITS@@bul-col": true,
+  "ITS@@its-i": false,
+  "ITS@@text-highlight-bg@@light": "#FF1D0036",
+  "ITS@@dis-tri-quote": false,
+  "ITS@@slrvb-b": false,
+  "ITS@@nord": false,
+  "ITS@@drwn": false,
+  "ITS@@s-d": false,
+  "ITS@@its-d": true
 }

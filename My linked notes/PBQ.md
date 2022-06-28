@@ -1,4 +1,10 @@
-# 04B
+#01B
+![[PBQ1B.png]]
+# Scenario
+As a security consultant for a newly-launched Information Technology company, you have assisted in the security planning process to ensure that the best security controls are in place.  However, an organization cannot realistically plan for every situation, so processes and procedures need to be fluid and adjusted as security issues arise.  With all things considered, the company has asked you to extend your consulting work past the initial planning process to assist with any security issues that arise in the first few months of business.  As well, you will help select security controls to resolve and such issues.
+
+
+#04B
 ![Pasted image 20220518141305.png](app://local/C:/Users/Jamie/Documents/SercurityPlus/My%20linked%20notes/assets/Pasted%20image%2020220518141305.png?1652897585051)
 
 ## Scenario 1

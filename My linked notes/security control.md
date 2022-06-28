@@ -20,20 +20,16 @@ A security controls (goal) is something ( #GRC ) designed to give a system or da
 - [[technical]] 
 - [[operational]] 
 - [[managerial]] 
-
 ## CONTROL (FUNCTIONAL) TYPES
 [[Control Type]]
 Security controls can also be classified in types according to the **goal** or **function** they perform:
 - [[Preventive]]
 - [[Detective]] 
 - [[Corrective]] 
-
 While most controls can be classed functionally as preventative, detective, or corrective, a few other types can be used to define other cases:
-
 - [[Physical]]
 - [[Deterrent]]
 - [[Compensating]]
-
 ## Control Remediation 
 [[Control Remediation]]
 - [[IDS]] **Intrusion detection system**

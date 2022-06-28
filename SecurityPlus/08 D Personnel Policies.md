@@ -9,7 +9,7 @@ Operational policies include privilege/credential management, data handling, and
 
 ### Acceptable Use Policy 
 
-Enforcing an acceptable use policy ([[AUP]]) is important to protect the organization from the security and legal implications of employees misusing its equipment. Typically, the policy will forbid the use of equipment to defraud, to defame, or to obtain illegal material. It will prohibit the installation of unauthorized hardware or software and explicitly forbid actual or attempted snooping of confidential data that the employee is not authorized to access. **Acceptable use guidelines must be reasonable and not interfere with employees' fundamental job duties or privacy rights**. An organization's AUP may forbid use of Internet tools outside of work-related duties or restrict such use to break times.
+Enforcing an acceptable use policy ([[AUP]]) is important to protect the organization from the security and legal implications of employees misusing its equipment. Typically, the policy will forbid the use of equipment to defraud, to defame, or to obtain illegal material. It will prohibit the installation of unauthorized hardware or software and explicitly forbid actual or attempted snooping of confidential data that the employee is not authorized to access. **Acceptable use guidelines must be reasonable and not interfere with employees' fundamental job duties or privacy rights**. An organization's [[AUP]] may forbid use of Internet tools outside of work-related duties or restrict such use to break times.
 
 ### Code of Conduct and Social Media Analysis 
 
