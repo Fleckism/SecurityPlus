@@ -1,5 +1,8 @@
 {
   "baseFontSize": 20,
   "cssTheme": "ITS Theme",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "bold"
+  ]
 }
