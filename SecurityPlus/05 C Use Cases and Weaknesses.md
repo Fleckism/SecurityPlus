@@ -120,7 +120,7 @@ This [[attack]] is prevented by using secure authentication of public keys, such
 
 ### Key Stretching
 
-Key stretching takes a key that's generated from a user password and repeatedly converts it to a longer and more random key. The initial key may be put through thousands of rounds of hashing. This might not be difficult for the attacker to replicate so it doesn't actually make the key stronger, but it slows the attack down, as the attacker has to do all this extra processing for each possible key value. Key stretching can be performed by using a particular software library to hash and save passwords when they are created. The Password-Based Key Derivation Function 2 ([[PBKDF2]]) is very widely used for this purpose, notably as part of Wi-Fi Protected Access ([[WPA]]).
+[[Key stretching]] takes a key that's generated from a user password and repeatedly converts it to a longer and more random key. The initial key may be put through thousands of rounds of hashing. This might not be difficult for the attacker to replicate so it doesn't actually make the key stronger, but it slows the attack down, as the attacker has to do all this extra processing for each possible key value. Key stretching can be performed by using a particular software library to hash and save passwords when they are created. The Password-Based Key Derivation Function 2 ([[PBKDF2]]) is very widely used for this purpose, notably as part of Wi-Fi Protected Access ([[WPA]]).
 
 ### Salting
 

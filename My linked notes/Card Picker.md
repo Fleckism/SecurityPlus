@@ -268,9 +268,11 @@ orchestration
 What tools are used for OSINT?
 - Open-source intelligence is a reconnaissance activity to gather information about the target from any public source. The basic tool is web searches/queries plus sites that scan/scrape/monitor vulnerabilities in Internet-facing services and devices. There are also specialist OSINT tools, such as theHarvester, that aggregate data from queries of different resources.
 
-- 
+PLC (programmable logic controller)
+- A type of computer designed for deployment in an industrial or outdoor setting that can automate and monitor mechanical systems.
 
-- 
+key stretching
+- A technique that strengthens potentially weak input for cryptographic key generation, such as passwords or passphrases created by people, against bruteforce attacks.
 
 - 
 
