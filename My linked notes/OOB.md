@@ -1,0 +1,2 @@
+OOB (out-of-band management)
+Accessing the administrative interface of a network appliance using a separate network from the usual data network. This could use a separate VLAN or a different kind of link, such as a dial-up modem.

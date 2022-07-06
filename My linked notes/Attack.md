@@ -25,6 +25,7 @@ Types of attacks
 - downgrade attack
 - brute force
 	- horizontal 
+	- password spraying: Brute force attack in which multiple user accounts are tested with a dictionary of common passwords.
 	
 		- ![[Pasted image 20220510102929.png]]
 - dictionary attack
