@@ -42,5 +42,6 @@
   "legacyEditor": false,
   "showLineNumber": true,
   "lineWrap": true,
-  "vimMode": false
+  "vimMode": false,
+  "rightToLeft": false
 }

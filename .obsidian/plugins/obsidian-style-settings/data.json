@@ -3,5 +3,6 @@
   "blue-topaz-theme@@list-style-change-options-edit": "rainbow-lines",
   "shimmering-focus@@show-titlebar": false,
   "shimmering-focus@@show-ribbons": false,
-  "shimmering-focus@@show-header-bar": false
+  "shimmering-focus@@show-header-bar": false,
+  "ITS@@text-highlight-bg@@dark": "#FFFF59AB"
 }

@@ -1,5 +1,11 @@
 [[Review the application layer port numbers]]
 [[Are open ports the same as ports used?  I believe so!]]
+- I scanned the network using [[nmap]] --top-ports 20 10.1.0.0/24 the /24 is needed
+	- 
+- WTF is a network a collection of IP address? aka computer or devices?
+- How are local hosts and subnets related?
+- Gateway is a router?
+- What is the /24 after the IP address?
 - Do Microsoft servers show domain name and linux only show IP?
 - Links for files tags for Labs and questions
 	- Links for general info
