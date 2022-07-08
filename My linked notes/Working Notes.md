@@ -1,3 +1,6 @@
+[[Review the application layer port numbers]]
+[[Are open ports the same as ports used?  I believe so!]]
+- Do Microsoft servers show domain name and linux only show IP?
 - Links for files tags for Labs and questions
 	- Links for general info
 	- Tags for specifics?

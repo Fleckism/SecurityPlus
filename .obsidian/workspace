@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/03 Performing Security Assessments.md",
+            "file": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "20261b4e86d59646",
+        "id": "d81e62d66c29564b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/security control.md",
+            "file": "My linked notes/fingerprinting.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -32,38 +32,12 @@
         }
       },
       {
-        "id": "83c9b4ea6ffe2d2d",
+        "id": "1904127abb482098",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/OOB.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "b7a5dcb36b84c69d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/11 A Secure Network Operations Protocols.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "a7505880944900ff",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SecurityPlus/11 A Secure Network Operations Protocols.md",
+            "file": "My linked notes/banner grabbing.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -103,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"oob\"",
+                "query": "\"banner grabbing\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -133,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/OOB.md",
+                "file": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/OOB.md",
+                "file": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,17 +149,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "83c9b4ea6ffe2d2d",
+  "active": "afee3a88173d2bd0",
   "lastOpenFiles": [
-    "My linked notes/OOB.md",
-    "My linked notes/Attack.md",
-    "My linked notes/DNSSEC.md",
-    "SecurityPlus/11 A Secure Network Operations Protocols.md",
+    "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
+    "My linked notes/banner grabbing.md",
+    "My linked notes/fingerprinting.md",
+    "My linked notes/Working Notes.md",
+    "My linked notes/Acronyms/DNS.md",
+    "My linked notes/inet.md",
     "My linked notes/Acronyms/ARP.md",
-    "My linked notes/Deterrent.md",
-    "My linked notes/security control.md",
-    "My linked notes/Flashcard.md",
-    "My linked notes/UEM.md",
-    "My linked notes/03 Performing Security Assessments.md"
+    "SecurityPlus/11 A Secure Network Operations Protocols.md",
+    "My linked notes/OOB.md",
+    "My linked notes/security control.md"
   ]
 }

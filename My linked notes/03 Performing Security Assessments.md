@@ -1,1 +1,0 @@
-[[ifconfig]]  vs.  [[ip]] a command

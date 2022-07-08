@@ -1,7 +1,7 @@
-**Address Resolution #Protocol**
+**Address Resolution #Protocol**  is Windows network command-line utility 
 - Used to obtain a node's physical address in the traditional IP address system IPv4
 - Returns the layer 2 address
-- x
+- 
 - ARP **poisoning** attack uses a packet crafter, such as Ettercap, to broadcast **unsolicited ARP reply packets**. then using [[MITM]] attacker intercepts packets Dsniff can also be used
 - 
 
