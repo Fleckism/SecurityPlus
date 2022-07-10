@@ -1,39 +1,16 @@
-[[Review the application layer port numbers]]
-[[Are open ports the same as ports used?  I believe so!]]
-- I scanned the network using [[nmap]] --top-ports 20 10.1.0.0/24 the /24 is needed
-	- 
-- WTF is a network a collection of IP address? aka computer or devices?
-- How are local hosts and subnets related?
-- Gateway is a router?
-- What is the /24 after the IP address?
-- Do Microsoft servers show domain name and linux only show IP?
-- Links for files tags for Labs and questions
-	- Links for general info
-	- Tags for specifics?
+
 - You can reset practice questions!
 - Go though and tag out assisted labs
 - Go over lesson questions and include the actual question!
 proxy vs proxies combine or change file
-- Why do search's come out different in graph view than in the regular search
-- Add a definition of accounting in IT terms. 
-- Add notes linked to less than 2 sections to section review aka ==Lesson 11 With lesson title== which should include A,B,C compare and contrast and things of the like.
-- [[implementation]] or #Implementation  do I really need both?
 
-- Clean up tags
-- Unlinked mentions are not in Shimmering Focus Theme
-- Synonyms ending with AC is access control
-- Go through and confirm PBQ are in notes
-- #exclude
 
-- Remove files if they are only in 2 sections
 ## Obsidian Shortcuts
 - ctrl + alt + P:  Pins page
 - ctrl + alt + w: Closes page
 - ctrl + alt + g:  Opens local graph
 
-==Wireshark==
-==tcpdump==
-Is HTTP a GET I guess it is?
+
 Using ssh I couldn't see the log in credentials
 TCP
 

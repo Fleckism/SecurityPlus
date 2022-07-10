@@ -44,5 +44,5 @@ This OS fingerprinting can be time-consuming on a large IP scope and is also non
   -b <FTP relay host>: FTP bounce scan
 	
 
-	
+	-sn is a ping scan.  is this the same this as -sN
 	# Port 

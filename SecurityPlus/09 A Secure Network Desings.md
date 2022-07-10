@@ -62,7 +62,7 @@ Appliances, protocols, and addressing functions within the OSI network layer ref
 
 The basic function of a network is to forward traffic from one node to another. A number of routing and switching protocols are used to implement forwarding. The forwarding function takes place at two different layers:
 
--   Layer 2 forwarding occurs between nodes on the same local network segment that are all in the same broadcast domain. At layer 2, a broadcast domain is either all the nodes connected to the same physical unmanaged switch, or all the nodes within a virtual LAN (VLAN) configured on one or more managed switches. At layer 2, each node is identified by the network interface's hardware or [[MAC address |Media Access Control  address]]. A MAC address is a 48-bit value written in hexadecimal notation, such as 00-15-5D-F4-83-48.
+-   [[Layer]] 2 forwarding occurs between nodes on the same local network segment that are all in the same broadcast domain. At layer 2, a broadcast domain is either all the nodes connected to the same physical unmanaged switch, or all the nodes within a virtual LAN (VLAN) configured on one or more managed switches. At layer 2, each node is identified by the network interface's hardware or [[MAC address |Media Access Control  address]]. A MAC address is a 48-bit value written in hexadecimal notation, such as 00-15-5D-F4-83-48.
 -   Layer 3 forwarding, or routing, occurs between both logically and physically defined networks. A single network divided into multiple logical broadcast domains is said to be subnetted. Multiple networks joined by routers form an internetwork. At layer 3, nodes are identified by an Internet Protocol (IP) address.
 
 ### Address Resolution Protocol (ARP)
