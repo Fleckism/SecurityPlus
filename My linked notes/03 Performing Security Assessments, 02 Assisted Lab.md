@@ -79,3 +79,5 @@ Web server service information.The web server is a Windows Server. The Microsoft
 [[Review the application layer port numbers]]
 [[Are open ports the same as ports used?  I believe so!]]
 
+[[Host IP address]]
+

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d81e62d66c29564b",
+        "id": "a59042783ac36ab1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/fingerprinting.md",
+            "file": "My linked notes/Deterrent.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -17,27 +17,64 @@
         }
       },
       {
-        "id": "afee3a88173d2bd0",
+        "id": "528c37a38d6019e2",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
+            "file": "My linked notes/Detective.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
+          }
         }
       },
       {
-        "id": "0ab4ae219763f40b",
+        "id": "78749f9bec3f7496",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Host IP address.md",
+            "file": "My linked notes/Preventive.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "e47f02b150695c69",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/PBQ.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "ae5ed4e600368c1f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/security control.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "bb86f4bcc1fe085b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/managerial.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -77,11 +114,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"-A\"",
+                "query": "permission policy",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -95,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -115,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
+                "file": "My linked notes/managerial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
+                "file": "My linked notes/managerial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,17 +194,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "afee3a88173d2bd0",
+  "active": "bb86f4bcc1fe085b",
   "lastOpenFiles": [
-    "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
-    "My linked notes/Host IP address.md",
-    "My linked notes/Working Notes.md",
+    "My linked notes/managerial.md",
+    "My linked notes/security control.md",
+    "My linked notes/PBQ.md",
+    "My linked notes/Preventive.md",
+    "My linked notes/Deterrent.md",
+    "My linked notes/Permission Policy.md",
+    "My linked notes/Detective.md",
     "My linked notes/fingerprinting.md",
-    "My linked notes/banner grabbing.md",
-    "My linked notes/Acronyms/DNS.md",
-    "My linked notes/inet.md",
-    "My linked notes/Acronyms/ARP.md",
-    "SecurityPlus/11 A Secure Network Operations Protocols.md",
-    "My linked notes/OOB.md"
+    "My linked notes/Host IP address.md",
+    "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md"
   ]
 }

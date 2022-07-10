@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "03 Performing Security Assessments, 02 Assisted Lab",
-      "path": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md"
+      "basename": "managerial",
+      "path": "My linked notes/managerial.md"
+    },
+    {
+      "basename": "security control",
+      "path": "My linked notes/security control.md"
+    },
+    {
+      "basename": "PBQ",
+      "path": "My linked notes/PBQ.md"
+    },
+    {
+      "basename": "Preventive",
+      "path": "My linked notes/Preventive.md"
+    },
+    {
+      "basename": "Deterrent",
+      "path": "My linked notes/Deterrent.md"
+    },
+    {
+      "basename": "Permission Policy",
+      "path": "My linked notes/Permission Policy.md"
+    },
+    {
+      "basename": "Detective",
+      "path": "My linked notes/Detective.md"
+    },
+    {
+      "basename": "fingerprinting",
+      "path": "My linked notes/fingerprinting.md"
     },
     {
       "basename": "Host IP address",
       "path": "My linked notes/Host IP address.md"
     },
     {
-      "basename": "Working Notes",
-      "path": "My linked notes/Working Notes.md"
+      "basename": "03 Performing Security Assessments, 02 Assisted Lab",
+      "path": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md"
     },
     {
-      "basename": "fingerprinting",
-      "path": "My linked notes/fingerprinting.md"
+      "basename": "Working Notes",
+      "path": "My linked notes/Working Notes.md"
     }
   ],
   "omittedPaths": [],

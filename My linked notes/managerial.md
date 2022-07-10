@@ -3,7 +3,7 @@ A #A_D **control** gives oversight of the information system. Examples could inc
 	-   Strategic reporting and insights
 	-   [[risk assessment]]  **Keyword evaluate**?
 	-   Security policies
-	- Installing a keycard is a managerial control?
+	- ==Installing a keycard is a managerial control?==
 	
 	
 # Remediation
