@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Card Picker",
+      "path": "My linked notes/Card Picker.md"
+    },
+    {
+      "basename": "dump file",
+      "path": "My linked notes/dump file.md"
+    },
+    {
+      "basename": "Assisted Lab Lesson 17 (28)",
+      "path": "My linked notes/Assisted Lab Lesson 17 (28).md"
+    },
+    {
+      "basename": "port",
+      "path": "My linked notes/port.md"
+    },
+    {
       "basename": "Assisted Labs",
       "path": "My linked notes/Assisted Labs.md"
     },
@@ -15,10 +31,6 @@
     {
       "basename": "network reconnaissance",
       "path": "My linked notes/network reconnaissance.md"
-    },
-    {
-      "basename": "port",
-      "path": "My linked notes/port.md"
     },
     {
       "basename": "nmap",

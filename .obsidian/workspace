@@ -6,14 +6,24 @@
       {
         "id": "b050bd7bd031a0f7",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Assisted Labs.md",
+            "file": "My linked notes/Card Picker.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "de0a3d05465b9a89",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -49,11 +59,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zFleck",
+                "query": "syslog",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -87,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Labs.md",
+                "file": "My linked notes/Card Picker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted Labs.md",
+                "file": "My linked notes/Card Picker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,19 +136,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
   "active": "b050bd7bd031a0f7",
   "lastOpenFiles": [
+    "My linked notes/Card Picker.md",
+    "My linked notes/dump file.md",
+    "My linked notes/Assisted Lab Lesson 17 (28).md",
+    "My linked notes/port.md",
     "My linked notes/Assisted Labs.md",
     "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
     "My linked notes/fingerprinting.md",
     "My linked notes/network reconnaissance.md",
-    "My linked notes/port.md",
     "My linked notes/nmap.md",
-    "My linked notes/Assisted Lab 02.md",
-    "My linked notes/banner grabbing.md",
-    "My linked notes/curl.md",
-    "SecurityPlus/03 A Security Assessment.md"
+    "My linked notes/Assisted Lab 02.md"
   ]
 }

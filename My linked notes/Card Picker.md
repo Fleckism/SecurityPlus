@@ -1,3 +1,4 @@
+# Session multiple should have started sooner
 You are investigating a client workstation that has not obtained updates to its endpoint protection software for days. On the workstation you discover thousands of executable files with random names. The local endpoint log reveals that all of them have been scanned and identified as malware. You can find no evidence of any further intrusion on the network. What is the likely motive of the threat actor?
 
 - This could be an offline tainted data attack against the endpoint software's identification engine.
@@ -274,132 +275,432 @@ PLC (programmable logic controller)
 key stretching
 - A technique that strengthens potentially weak input for cryptographic key generation, such as passwords or passphrases created by people, against bruteforce attacks.
 
-- 
+group account
+- A group account is a collection of user accounts that are useful when establishing file permissions and user rights because when many individuals need the same level of access, a group could be established containing all the relevant users.
 
-- 
+How does a specially configured compiler inhibit attacks through software diversity?
+
+- The compiler can apply obfuscation routines to make the code difficult for a threat actor to reverse engineer and analyze for vulnerabilities.
+
+logs
+
+- OS and applications software can be configured to log events automatically. This provides valuable troubleshooting information. Security logs provide an audit trail of actions performed on the system as well as warning of suspicious activity. It is important that log configuration and files be made tamper-proof.
+
+[[ca]]
+
+- A server that guarantees subject identities by issuing signed digital certifcate wrappers for their public keys.
+
+What type of bulk encryption cipher mode of operation offers the best security?
+
+- Generally, counter modes implementing Authenticated Encryption with Additional Data (AEAD). Specific examples include AES-GCM and ChaCha20-Poly1305.
+hybrid cloud
+
+- A cloud deployment that uses both private and public elements.
+
+proxy [[server]]
+
+- A server that mediates the communications between a client and another server. It can filter and often modify communications, as well as provide caching services to improve performance. Also referred to as forward proxy.
+
+[[authentication]]
+
+- A method of validating a particular entity's or individual's unique credentials.
+
+[[dump file]]
+
+- File containing data captured from system memory.
+
+Why should detailed vendor and product assessments be required before allowing the use of IoT devices in the enterprise?
+
+- As systems with considerable computing and networking functionality, these devices are subject to the same sort of vulnerabilities and exploits as ordinary workstations and laptops. It is critical to assess the vendor's policies in terms of the security design for the product and support for identifying and mitigating any vulnerabilities discovered in its use.
+
+NOS firewall (network operating system firewall)
+
+- A software-based firewall running on a network server OS, such as Windows or Linux, so that the server can function as a gateway or proxy for a network segment.
+
+birthday [[Attack]]
+
+- A type of password attack that exploits weaknesses in the mathematical algorithms used to encrypt passwords, in order to take advantage of the probability of different password inputs producing the same encrypted output.
+
+purple [[team]] #zFleck 
+
+- A mode of penetration testing where red and blue teams share information and collaborate throughout the engagement.
+
+[[DSA]]
+
+- public key encryption standard used for digital signatures that provides authentication and integrity verification for messages.
+
+SDK
+
+- Coding resources provided by a vendor to assist with development projects that use their platform or API.
+
+You are consulting on threat intelligence solutions for a supplier of electronic voting machines. What type of threat intelligence source would produce the most relevant information at the lowest cost?
+
+- For critical infrastructure providers, threat data sharing via an Information Sharing and Analysis Center (ISAC) is likely to be the best option.
+
+implicit deny
+
+- A basic principle of security stating that unless something has explicitly been granted access, it should be denied access.
+
+ [[BIA]] (business impact analysis)
+
+- A systematic activity that identifies organizational risks and determines their effect on ongoing, mission critical operations.
+
+Other than cost, which factor primarily constrains embedded systems in terms of compute and networking?
+
+- Power—many embedded systems must operate on battery power, and changing the batteries is an onerous task, so power-hungry systems like processing and high bandwidth or long-range networking are constrained.
+
+In the context of penetration testing, what is persistence?
+
+- Persistence refers to the tester's ability to reconnect to the compromised host and use it as a remote access tool (RAT) or backdoor.
+
+Zero day
+
+- A vulnerability in software that is unpatched by the developer or an attack that exploits such a vulnerability.
+
+digital signature
+
+- A message digest encrypted using the sender's private key that is appended to a message to authenticate the sender and prove message integrity.
+
+[[OTG]]
+
+- USB specification allowing a mobile device to act as a host when a device such as an external drive or keyboard is attached.
+
+obfuscation 
+
+- A technique that essentially "hides" or "camouflages" code or other information so that it is harder to read by unauthorized users.
+
+Your consultancy includes a training segment. What type of incident response exercise will best represent a practical incident handling scenario?
+
+- A simulation exercise creates an actual intrusion scenario, with a red team performing the intrusion and a blue team attempting to identify, contain, and eradicate it.
+
+[[syslog]]
+
+- A protocol enabling different appliances and software applications to transmit logs or event records to a central server.
+
+A company has installed motion-activated floodlighting on the grounds around its premises. What class and function is this security control?
+
+- It would be classed as a physical control and its function is both detecting and deterring.
+
+You are assisting with writing an attack surface assessment report for a small company. Following the CompTIA syllabus, which two potential attack vectors have been omitted from the following headings in the report? Direct access, Email, Remote and wireless, Web and social media, Cloud.
 
+- Removable media and supply chain.
+
+RA (registration authority)
+
+- In PKI, an authority that accepts requests for digital certificates and authenticates the entities making those requests.
+
+full backup
+
+- A backup type in which all selected files, regardless of prior state, are backed up.
+
+CVE (Common Vulnerabilities and Exposures)
+
+- Scheme for identifying vulnerabilities developed by MITRE and adopted by NIST.
+
+regex (regular expression)
+
+- A group of characters that describe how to execute a specific search pattern on a given text.
+
+Antivirus software has reported the presence of malware but cannot remove it automatically. Apart from the location of the affected file, what information will you need to remediate the system manually?
+
+- The string identifying the malware. You can use this to reference the malware on the A-V vendor's site and, hopefully, obtain manual removal and prevention advice.
+
+stateful inspection
+
+- A technique used in firewalls to analyze packets down to the application layer rather than filtering packets only by header information, enabling the firewall to enforce tighter and more security.
+
+ISSO (Information Systems Security Officer)
+
+- Organizational role with technical responsibilities for implementation of security policies, frameworks, and controls.
+
+persistence (load balancing)
+
+- In load balancing, the configuration option that enables a client to maintain a connection with a load-balanced server over the duration of the session. Also referred to as sticky sessions.
+
+Which response header provides protection against SSL stripping attacks?
+
+- HTTP Strict Transport Security (HSTS).
+
+HMI (human-machine interface)
+
+- Input and output controls on a PLC to allow a user to configure and monitor the system.
+
+What type of physical destruction media sanitization method is not suitable for USB thumb drives?
+
+- Degaussing is ineffective against all types of flash media, including thumb drives, SSDs, hybrid drives, and memory cards.
+
+An employee's car was recently broken into, and the thief stole a company tablet that held a great deal of sensitive data. You've already taken the precaution of securing plenty of backups of that data. What should you do to be absolutely certain that the data doesn't fall into the wrong hands?
+
+- Remotely wipe the device, also referred to as a kill switch.
+
+lateral movement
+(This doesn't seem correct.  unless up and down is described as something else?)
+- The process by which an attacker is able to move from one part of a computing environment to another.
+
+reverse shell
+
+- A maliciously spawned remote command shell where the victim host opens the connection to the attacking host.
+
+jump [[server]]
+
+- A hardened server that provides access to other hosts. Also referred to as a jumpbox.
+
+GDPR (General Data Protection Regulation)
+
+- Provisions and requirements protecting the personal data of European Union (EU) citizens. Transfers of personal data outside the EU Single Market are restricted unless protected by like-for-like regulations, such as the US's Privacy Shield requirements.
+
+# Sessions 2
+
 - 
 
+
+
 - 
+
 
+
 - 
+
 
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
 
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
 
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
 
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
 
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
 
+
 - 
+
 
+
 - 
+
+
 
 - 
 
+
+
 - 
+
+
 
 - 
 
+
+
 - 
+
 
+
 - 
+
+
+

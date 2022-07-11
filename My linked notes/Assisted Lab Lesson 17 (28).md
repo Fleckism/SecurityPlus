@@ -200,7 +200,7 @@ In this task, you will configure the Kali Linux virtual machine to forward its l
 
 ## Display the default dump file location on a Linux server
 
-The system dump file contains information that is useful when troubleshooting system crashes. This information includes the kernel state, helping to identify driver or application issues related to the crash. You have decided to confirm the kernel dump location on the LX1 virtual machine. You will display this information by searching the /etc/kdump.conf configuration file.
+The system [[dump file]] contains information that is useful when troubleshooting system crashes. This information includes the kernel state, helping to identify driver or application issues related to the crash. You have decided to confirm the kernel dump location on the LX1 virtual machine. You will display this information by searching the /etc/kdump.conf configuration file.
 
 1.  On the [LX1](https://labclient.labondemand.com/Instructions/bd6fb4c2-3f08-48c8-8ab3-469206d3200e?rc=10#) VM, search the /etc/kdump.conf file to discover the default location of kernel dump crash files on a RHEL-based Linux distribution.
     
