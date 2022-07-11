@@ -1,4 +1,4 @@
-(**O**pen **S**ystems **I**nterconnection model) The International Standards Organization's OSI model serves as a standard template for describing a network protocol stack.
+(**O**pen **S**ystems **I**nterconnection model) The International Standards Organization's OSI model serves as a standard template for describing a network protocol stack.W
 
 ![[Pasted image 20220709214656.png]]
 

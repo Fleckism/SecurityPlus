@@ -9,6 +9,7 @@ proxy vs proxies combine or change file
 - ctrl + alt + P:  Pins page
 - ctrl + alt + w: Closes page
 - ctrl + alt + g:  Opens local graph
+- Shift+Tab to de-indent
 
 
 Using ssh I couldn't see the log in credentials
@@ -39,3 +40,6 @@ Obsidian uses markdown language
 #3_Implementation
 #4_OPS_IR
 #5_GRC
+
+
+![[Pasted image 20220711073941.png]]

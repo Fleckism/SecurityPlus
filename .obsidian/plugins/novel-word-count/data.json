@@ -462,11 +462,11 @@
       "modifiedDate": 1654170651918
     },
     "SecurityPlus/03 A Security Assessment.md": {
-      "wordCount": 4117,
+      "wordCount": 4114,
       "pageCount": 14,
-      "characterCount": 29443,
+      "characterCount": 29413,
       "createdDate": 1640743514957,
-      "modifiedDate": 1654170620486
+      "modifiedDate": 1657539983075
     },
     "SecurityPlus/02 B Threat intelligence Sources.md": {
       "wordCount": 2361,
@@ -502,6 +502,20 @@
       "characterCount": 0,
       "createdDate": 1654516479853,
       "modifiedDate": 1654516479853
+    },
+    "My linked notes/network reconnaissance.md": {
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "createdDate": 1657540165656,
+      "modifiedDate": 1657540165656
+    },
+    "My linked notes/curl.md": {
+      "wordCount": 54,
+      "pageCount": 1,
+      "characterCount": 351,
+      "createdDate": 1657539786256,
+      "modifiedDate": 1657540076376
     },
     "My linked notes/[[threat actor.md": {
       "wordCount": 0,
@@ -588,11 +602,11 @@
       "modifiedDate": 1652096238428
     },
     "My linked notes/Working Notes.md": {
-      "wordCount": 240,
+      "wordCount": 247,
       "pageCount": 1,
-      "characterCount": 1413,
+      "characterCount": 1477,
       "createdDate": 1652875046554,
-      "modifiedDate": 1657419719975
+      "modifiedDate": 1657539582499
     },
     "My linked notes/WMI.md": {
       "wordCount": 76,
@@ -2233,11 +2247,11 @@
       "modifiedDate": 1654786680746
     },
     "My linked notes/port.md": {
-      "wordCount": 51,
+      "wordCount": 79,
       "pageCount": 1,
-      "characterCount": 322,
+      "characterCount": 558,
       "createdDate": 1654249619031,
-      "modifiedDate": 1657418094353
+      "modifiedDate": 1657540426208
     },
     "My linked notes/polymorphic.md": {
       "wordCount": 14,
@@ -2648,9 +2662,9 @@
     "My linked notes/OSI layer.md": {
       "wordCount": 46,
       "pageCount": 1,
-      "characterCount": 346,
+      "characterCount": 347,
       "createdDate": 1654093408060,
-      "modifiedDate": 1657417960034
+      "modifiedDate": 1657539072361
     },
     "My linked notes/OS.md": {
       "wordCount": 0,
@@ -4104,9 +4118,9 @@
     "My linked notes/fingerprinting.md": {
       "wordCount": 492,
       "pageCount": 2,
-      "characterCount": 3118,
+      "characterCount": 3122,
       "createdDate": 1643053353018,
-      "modifiedDate": 1657317099563
+      "modifiedDate": 1657540227885
     },
     "My linked notes/Fileless.md": {
       "wordCount": 250,
@@ -5054,11 +5068,11 @@
       "modifiedDate": 1650553125456
     },
     "My linked notes/CIDR.md": {
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
+      "wordCount": 366,
+      "pageCount": 2,
+      "characterCount": 2506,
       "createdDate": 1654786685608,
-      "modifiedDate": 1654786685608
+      "modifiedDate": 1657539522267
     },
     "My linked notes/CI.md": {
       "wordCount": 0,
@@ -5299,11 +5313,11 @@
       "modifiedDate": 1655942851498
     },
     "My linked notes/banner grabbing.md": {
-      "wordCount": 34,
+      "wordCount": 36,
       "pageCount": 1,
-      "characterCount": 239,
+      "characterCount": 255,
       "createdDate": 1657241914161,
-      "modifiedDate": 1657241924514
+      "modifiedDate": 1657539779261
     },
     "My linked notes/backup.md": {
       "wordCount": 0,
@@ -6370,11 +6384,11 @@
       "modifiedDate": 1651844924838
     },
     "My linked notes/Acronyms/IP.md": {
-      "wordCount": 224,
+      "wordCount": 251,
       "pageCount": 1,
-      "characterCount": 1439,
+      "characterCount": 1637,
       "createdDate": 1646791235102,
-      "modifiedDate": 1657455034740
+      "modifiedDate": 1657539622951
     },
     "My linked notes/Acronyms/IoC.md": {
       "wordCount": 346,

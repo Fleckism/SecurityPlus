@@ -4,51 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e97e6fda153fe83b",
+        "id": "b050bd7bd031a0f7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Working Notes.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "02b63a8c07520399",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/OSI layer.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "b52d62a919d9e03b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Acronyms/IP.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "b62793ecc6a87357",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/CIDR.md",
+            "file": "My linked notes/Assisted Labs.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -88,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: \"ip",
+                "query": "tag:#zFleck",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -126,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Working Notes.md",
+                "file": "My linked notes/Assisted Labs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Working Notes.md",
+                "file": "My linked notes/Assisted Labs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,20 +126,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
-  "active": "e97e6fda153fe83b",
+  "active": "b050bd7bd031a0f7",
   "lastOpenFiles": [
-    "My linked notes/Working Notes.md",
-    "My linked notes/OSI layer.md",
-    "My linked notes/tcpdump.md",
-    "My linked notes/CIDR.md",
-    "My linked notes/Acronyms/IP.md",
-    "My linked notes/Network.md",
-    "My linked notes/Untitled.md",
-    "My linked notes/Untitled 1.md",
-    "My linked notes/Untitled 2.md",
-    "My linked notes/Untitled 3.md"
+    "My linked notes/Assisted Labs.md",
+    "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
+    "My linked notes/fingerprinting.md",
+    "My linked notes/network reconnaissance.md",
+    "My linked notes/port.md",
+    "My linked notes/nmap.md",
+    "My linked notes/Assisted Lab 02.md",
+    "My linked notes/banner grabbing.md",
+    "My linked notes/curl.md",
+    "SecurityPlus/03 A Security Assessment.md"
   ]
 }

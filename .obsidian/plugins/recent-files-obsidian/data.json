@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "Assisted Labs",
+      "path": "My linked notes/Assisted Labs.md"
+    },
+    {
+      "basename": "03 Performing Security Assessments, 02 Assisted Lab",
+      "path": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md"
+    },
+    {
+      "basename": "fingerprinting",
+      "path": "My linked notes/fingerprinting.md"
+    },
+    {
+      "basename": "network reconnaissance",
+      "path": "My linked notes/network reconnaissance.md"
+    },
+    {
+      "basename": "port",
+      "path": "My linked notes/port.md"
+    },
+    {
+      "basename": "nmap",
+      "path": "My linked notes/nmap.md"
+    },
+    {
+      "basename": "Assisted Lab 02",
+      "path": "My linked notes/Assisted Lab 02.md"
+    },
+    {
+      "basename": "banner grabbing",
+      "path": "My linked notes/banner grabbing.md"
+    },
+    {
+      "basename": "curl",
+      "path": "My linked notes/curl.md"
+    },
+    {
+      "basename": "03 A Security Assessment",
+      "path": "SecurityPlus/03 A Security Assessment.md"
+    },
+    {
+      "basename": "pen test",
+      "path": "My linked notes/pen test.md"
+    },
+    {
+      "basename": "firewall",
+      "path": "My linked notes/firewall.md"
+    },
+    {
+      "basename": "WAF",
+      "path": "My linked notes/WAF.md"
+    },
+    {
+      "basename": "IP",
+      "path": "My linked notes/Acronyms/IP.md"
+    },
+    {
+      "basename": "CIDR",
+      "path": "My linked notes/CIDR.md"
+    },
+    {
       "basename": "Working Notes",
       "path": "My linked notes/Working Notes.md"
     },
@@ -13,14 +73,6 @@
       "path": "My linked notes/tcpdump.md"
     },
     {
-      "basename": "CIDR",
-      "path": "My linked notes/CIDR.md"
-    },
-    {
-      "basename": "IP",
-      "path": "My linked notes/Acronyms/IP.md"
-    },
-    {
       "basename": "Network",
       "path": "My linked notes/Network.md"
     },
@@ -29,24 +81,12 @@
       "path": "My linked notes/Untitled.md"
     },
     {
-      "basename": "port",
-      "path": "My linked notes/port.md"
-    },
-    {
       "basename": "Host IP address",
       "path": "My linked notes/Host IP address.md"
     },
     {
       "basename": "ping",
       "path": "My linked notes/ping.md"
-    },
-    {
-      "basename": "nmap",
-      "path": "My linked notes/nmap.md"
-    },
-    {
-      "basename": "03 Performing Security Assessments, 02 Assisted Lab",
-      "path": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md"
     },
     {
       "basename": "gateway",
@@ -87,10 +127,6 @@
     {
       "basename": "Permission Policy",
       "path": "My linked notes/Permission Policy.md"
-    },
-    {
-      "basename": "fingerprinting",
-      "path": "My linked notes/fingerprinting.md"
     }
   ],
   "omittedPaths": [],

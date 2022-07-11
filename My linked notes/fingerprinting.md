@@ -1,5 +1,5 @@
 **Detailed analysis of services** on a particular host is called fingerprinting.
-- report host configurations ==Using nmap -A aka fingerprinting==
+- report host configurations ==Using [[nmap]] -A aka fingerprinting==
 - [[Protocol]]—do not assume that a port is being used for its "well known" application protocol. 
 - Application name and version—the software operating the port.
 - [[Device]] type—not all network devices are PCs. 

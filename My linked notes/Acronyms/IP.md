@@ -22,3 +22,4 @@ Networks also use 128-bit IPv6 addressing. IPv6 addresses are written using hex 
 	- Tells how many binary digits are turned on in subnet binary mask
 
 #addClass 
+![[Pasted image 20220711073835.png]]
