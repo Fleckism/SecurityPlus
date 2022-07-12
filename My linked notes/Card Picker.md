@@ -450,6 +450,164 @@ GDPR (General Data Protection Regulation)
 - Provisions and requirements protecting the personal data of European Union (EU) citizens. Transfers of personal data outside the EU Single Market are restricted unless protected by like-for-like regulations, such as the US's Privacy Shield requirements.
 
 # Sessions 2
+CSR (certificate signing request)
+
+- A Base64 ASCII file that a subject sends to a CA to get a certificate.
+
+OTA (over the air)
+
+- A firmware update delivered on a cellular data connection.
+
+code signing
+
+- The method of using a digital signature to ensure the source and integrity of programming code.
+
+cleartext
+
+- Unencrypted data that is meant to be encrypted before it is transmitted, or the result of decryption of encrypted data. Also referred to as plaintext.
+
+cryptography
+
+- The science and practice of altering data to make it unintelligible to unauthorized parties.
+
+HTML5 VPN
+
+- Using features of HTML5 to implement remote desktop/VPN connections via browser software (clientless).
+
+geographic dispersal
+
+- Resiliency mechanism where processing and data storage resources are replicated between physically distant sites.
+
+NTLM authentication (NT LAN Manager authentication)
+
+- A challenge-response authentication protocol created by Microsoft for use in its products.
+
+AI (artificial intelligence)
+
+- The science of creating machines with the ability to develop problem solving and analysis strategies without significant human direction or intervention.
+
+You receive an email with a screenshot showing a command prompt at one of your application servers. The email suggests you engage the hacker for a day's consultancy to patch the vulnerability. How should you categorize this threat?
+
+- This is either gray hat (semi-authorized) hacking or black hat (non-authorized) hacking. If the request for compensation via consultancy is an extortion threat (if refused, the hacker sells the exploit on the dark web), then the motivation is purely financial gain and can be categorized as black hat. If the consultancy is refused and the hacker takes no further action, it can be classed as gray hat.
+
+ICMP (Internet Control Message Protocol)
+
+- IP-level protocol for reporting errors and status information supporting the function of troubleshooting utilities such as ping.
+
+RIP (Routing Information Protocol)
+
+- A distance vector-based routing protocol that uses a hop count to determine the distance to the destination network.
+
+logger command
+
+- Linux utility that writes data to the system log.
+
+DRP (disaster recovery plan)
+
+- A documented and resourced plan showing actions and responsibilities to be used in response to critical incidents.
+
+IR (incident response)
+
+- Procedures and guidelines covering appropriate priorities, actions, and responsibilities in the event of security incidents, divided into preparation, detection/analysis, containment, eradication/recovery, and post-incident stages.
+
+enumeration
+
+- When an attacker tries to get a list of resources on the network, host, or system as a whole to identify potential targets for further attack
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
 
 - 
 
@@ -547,160 +705,6 @@ GDPR (General Data Protection Regulation)
 
 
 
-- 
 
 
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
+# Session 3
