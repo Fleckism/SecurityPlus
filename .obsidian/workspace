@@ -4,26 +4,68 @@
     "type": "split",
     "children": [
       {
-        "id": "b050bd7bd031a0f7",
+        "id": "23bf8853ca7a1da2",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Card Picker.md",
+            "file": "My linked notes/Intercepting and Interpreting Network Traffic with Packet Sniffing Tools.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
+          }
         }
       },
       {
-        "id": "de0a3d05465b9a89",
+        "id": "cea8faa9e46399fb",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Scanning and Identifying Network Nodes.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "c9f2df06d12f9996",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/ifconfig.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "9d4d8653aeb7b56b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Wireshark.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "78d48534f3b3084e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/OSI layer.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -59,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "enumerATION",
+                "query": "file: \"wireshark\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -97,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Card Picker.md",
+                "file": "My linked notes/ifconfig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Card Picker.md",
+                "file": "My linked notes/ifconfig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,17 +181,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "b050bd7bd031a0f7",
+  "active": "c9f2df06d12f9996",
   "lastOpenFiles": [
+    "My linked notes/ifconfig.md",
+    "My linked notes/Scanning and Identifying Network Nodes.md",
+    "My linked notes/Intercepting and Interpreting Network Traffic with Packet Sniffing Tools.md",
+    "My linked notes/OSI layer.md",
+    "My linked notes/Wireshark.md",
+    "My linked notes/byets and bits.md",
     "My linked notes/Card Picker.md",
     "My linked notes/dump file.md",
     "My linked notes/Assisted Lab Lesson 17 (28).md",
-    "My linked notes/port.md",
-    "My linked notes/Assisted Labs.md",
-    "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md",
-    "My linked notes/fingerprinting.md",
-    "My linked notes/network reconnaissance.md",
-    "My linked notes/nmap.md",
-    "My linked notes/Assisted Lab 02.md"
+    "My linked notes/port.md"
   ]
 }

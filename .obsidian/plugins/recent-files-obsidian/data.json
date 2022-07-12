@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "ifconfig",
+      "path": "My linked notes/ifconfig.md"
+    },
+    {
+      "basename": "Scanning and Identifying Network Nodes",
+      "path": "My linked notes/Scanning and Identifying Network Nodes.md"
+    },
+    {
+      "basename": "Intercepting and Interpreting Network Traffic with Packet Sniffing Tools",
+      "path": "My linked notes/Intercepting and Interpreting Network Traffic with Packet Sniffing Tools.md"
+    },
+    {
+      "basename": "OSI layer",
+      "path": "My linked notes/OSI layer.md"
+    },
+    {
+      "basename": "Wireshark",
+      "path": "My linked notes/Wireshark.md"
+    },
+    {
+      "basename": "byets and bits",
+      "path": "My linked notes/byets and bits.md"
+    },
+    {
       "basename": "Card Picker",
       "path": "My linked notes/Card Picker.md"
     },
@@ -19,10 +43,6 @@
     {
       "basename": "Assisted Labs",
       "path": "My linked notes/Assisted Labs.md"
-    },
-    {
-      "basename": "03 Performing Security Assessments, 02 Assisted Lab",
-      "path": "My linked notes/03 Performing Security Assessments, 02 Assisted Lab.md"
     },
     {
       "basename": "fingerprinting",
@@ -75,10 +95,6 @@
     {
       "basename": "Working Notes",
       "path": "My linked notes/Working Notes.md"
-    },
-    {
-      "basename": "OSI layer",
-      "path": "My linked notes/OSI layer.md"
     },
     {
       "basename": "tcpdump",

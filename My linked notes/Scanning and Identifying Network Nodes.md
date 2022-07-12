@@ -1,5 +1,5 @@
 # PT1-Kali
-[[ifconfig]]  
+[[ifconfig]]  :  To show computers IP address?
 vs.  
 [[ip]] 
 	Commands see IP for full command list
