@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/block cipher.md",
+            "file": "My linked notes/Card Picker.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -67,11 +67,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 353,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/block cipher.md",
+                "file": "My linked notes/Card Picker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/block cipher.md",
+                "file": "My linked notes/Card Picker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,12 +127,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
   "active": "30f4cebb12339304",
   "lastOpenFiles": [
-    "My linked notes/block cipher.md",
     "My linked notes/Card Picker.md",
+    "My linked notes/block cipher.md",
     "My linked notes/byets and bits.md",
     "My linked notes/Authentication.md",
     "My linked notes/KEK.md",

@@ -671,28 +671,29 @@ You are writing a shell script to display the last 5 lines of a log file at /var
 
 #  Session 
 
+What type of deployment model(s) allow users to select the mobile device make and model?
 
-- 
+- Bring Your Own Device (BYOD) and Choose Your Own Device (CYOD).
 
+What range of information classifications could you implement in a data labeling project?
 
+- One set of tags could indicate the degree of confidentiality (public, confidential/secret, or critical/top secret). Another tagging schema could distinguish proprietary from private/sensitive personal data.
 
-- 
+MSA (measurement systems analysis)
 
+- Evaluates the data collection and statistical methods used by a quality management process to ensure they are robust.
 
+bluejacking
 
-- 
+- Sending an unsolicited message or picture message using a Bluetooth connection.
 
+key stretching
 
+- A technique that strengthens potentially weak input for cryptographic key generation, such as passwords or passphrases created by people, against bruteforce attacks.
 
-- 
+You are consulting with a medium-size company about endpoint security solutions. What advantages does a cloud-based analytics platform have over an on-premises solution that relies on signature updates?
 
-
-
-- 
-
-
-
-- 
+- Advanced persistent threat (APT) malware can use many techniques to evade signature-based detection. A cloud analytics platform, backed by machine learning, can apply more effective behavioral-based monitoring and alerting.
 
 
 
