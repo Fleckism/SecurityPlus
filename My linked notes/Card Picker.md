@@ -514,197 +514,199 @@ enumeration
 
 - When an attacker tries to get a list of resources on the network, host, or system as a whole to identify potential targets for further attack
 
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-- 
-
-
-
-
-
 # Session 3
+
+CVSS (Common Vulnerability Scoring System)A risk management approach to quantifying vulnerability data and then taking into account the degree of risk to different types of systems or information.
+
+- A risk management approach to quantifying vulnerability data and then taking into account the degree of risk to different types of systems or information.
+
+stapling
+
+- Mechanism used to mitigate performance and privacy issues when requesting certificate status from an OCSP responder.stapling
+
+SOX (Sarbanes-Oxley Act)
+
+- A law enacted in 2002 that dictates requirements for the storage and retention of documents relating to an organization's financial and business operations.SOX (Sarbanes-Oxley Act)
+
+data sovereignty
+
+- In data protection, the principle that countries and states may impose individual requirements on data collected or stored within their jurisdiction.data sovereignty
+
+SID (security identifier)
+
+- The value assigned to an account by Windows and that is used by the operating system to identify that account.SID (security identifier)
+
+Which port(s) and security methods should be used by a mail client to submit messages for delivery by an SMTP server?
+
+- Port 587 with STARTTLS (explicit TLS) or port 465 with implicit TLS.
+
+service discovery
+
+- The practice of using network scans to discover open TCP and UDP ports, plus information about the servers operating them.
+
+DHE (Diffie-Hellman Ephemeral)
+
+- A cryptographic protocol that is based on Diffie-Hellman and that provides for secure key exchange by using ephemeral keys.
+
+TAXII (Trusted Automated eXchange of Indicator Information)
+
+- A protocol for supplying codified information to automate incident detection and analysis.
+
+HSM (hardware security module)
+
+- An appliance for generating and storing cryptographic keys. This sort of solution may be less susceptible to tampering and insider threats than software-based storage.
+
+You need to correlate intrusion detection data with web server log files. What component must you deploy to collect IDS alerts in a SIEM?
+
+- You need to deploy a sensor to send network packet captures or intrusion detection alerts to the SIEM.
+
+CAN bus (controller area network bus)
+
+- A serial network designed to allow communications between embedded programmable logic controllers.
+
+SAE (Simultaneous Authentication of Equals)
+
+- Personal authentication mechanism for Wi-Fi networks introduced with WPA3 to address vulnerabilities in the WPA-PSK method.
+
+How does a subject go about obtaining a certificate from a CA?
+
+- In most cases, the subject generates a key pair then adds the public key along with subject information and certificate type in a certificate signing request (CSR) and submits it to the CA. If the CA accepts the request, it generates a certificate with the appropriate key usage and validity, signs it, and transmits it to the subject.
+
+MTTF (mean time to failure)
+
+- The average time a device or component is expected to be in operation.
+
+#zFleck Why is subnetting useful in secure network design?
+
+- Subnet traffic is routed, allowing it to be filtered by devices such as a firewall. An attacker must be able to gather more information about the configuration of the network and overcome more barriers to launch successful attacks.
+
+If you suspect a process of being used for data exfiltration but the process is not identified as malware by A-V software, what types of analysis tools will be most useful?
+
+- You can use a sandbox with monitoring tools to see which files the process interacts with and a network monitor to see if it opens (or tries to open) a connection with a remote host.
+
+stored procedure
+
+- One of a set of pre-compiled database statements that can be used to validate input to a database.
+
+Netflow
+
+- A Cisco-developed means of reporting network flow information to a structured database. NetFlow allows better understanding of IP traffic flows as used by different network applications and hosts.
+
+SLE (single loss expectancy)
+
+- The amount that would be lost in a single occurrence of a particular risk factor.
+
+Which software tool is most appropriate for forwarding Windows event logs to a Syslog-compatible server?
+
+- NXlog is designed as a multi-platform logging system.
+
+smart meter
+
+- A utility meter that can submit readings to the supplier without user intervention.
+
+Which protocol protects the contents of a VoIP conversation from eavesdropping?
+
+- Encrypted VoIP data is carried over the Secure Real-time Transport Protocol (SRTP).
+
+brute force attack
+
+
+- A type of password attack where an attacker uses an application to exhaustively try every possible alphanumeric combination to crack encrypted passwords.
+
+[[KEK]] (key encryption key)
+
+- In storage encryption, the private key that is used to encrypt the symmetric bulk media encryption key (MEK). This means that a user must authenticate to decrypt the MEK and access the media.
+
+private cloud
+
+- A cloud that is deployed for use by a single entity.
+
+What tools are used for OSINT?
+
+- Open-source intelligence is a reconnaissance activity to gather information about the target from any public source. The basic tool is web searches/queries plus sites that scan/scrape/monitor vulnerabilities in Internet-facing services and devices. There are also specialist OSINT tools, such as theHarvester, that aggregate data from queries of different resources.
+
+Recently, attackers were able to compromise the account of a user whose employment had been terminated a week earlier. They used this account to access a network share and delete important files. What account vulnerability enabled this attack?
+
+- While it's possible that lax password requirements and incorrect privileges may have contributed to the account compromise, the most glaring problem is that the terminated employee's account wasn't disabled. Since the account was no longer being used, it should not have been left active for a malicious user to exploit.
+
+EAP (Extensible Authentication Protocol)
+
+- Framework for negotiating authentication methods that enables systems to use hardware-based identifiers, such as fingerprint scanners or smart card readers, for authentication.
+
+Why might enforcement policies be used to prevent USB tethering when a smartphone is brought to the workplace?
+
+- This would allow a PC or laptop to connect to the Internet via the smartphone's cellular data connection. This could be used to evade network security mechanisms, such as data loss prevention or content filtering.
+
+ip command
+
+- A Linux-based utility used to gather information about the IP configuration of the network adapter or to configure the network adapter. Replaces the older ifconfig command.
+
+What is a tabletop exercise?
+
+- A discussion-based drill of emergency response procedures. Staff may role-play and discuss their responses but actual emergency conditions are not simulated.
+
+What does it mean if a certificate extension attribute is marked as critical?
+
+- That the application processing the certificate must be able to interpret the extension correctly. Otherwise, it should reject the certificate.
+
+L2TP (Layer 2 Tunneling Protocol)
+
+- VPN protocol for tunneling PPP sessions across a variety of network protocols such as IP, Frame Relay, or ATM.
+
+MAC Address Table
+
+- The table on a switch keeping track of MAC addresses associated with each port. As the switch uses a type of memory called Content Addressable Memory (CAM), this is sometimes called the CAM table.
+
+Why should an Internet service provider (ISP) be informed before pen testing on a hosted website takes place?
+
+- ISPs monitor their networks for suspicious traffic and may block the test attempts. The pen test may also involve equipment owned and operated by the ISP.
+
+You are writing a shell script to display the last 5 lines of a log file at /var/log/audit in a dashboard. What is the Linux command to do this?
+
+- tail /var/log/audit -n 5
+
+#zFleck SDV (software defined visibility)
+
+- APIs for reporting configuration and state data for automated monitoring and alerting.
+
+#  Session 
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+
+CVSS (Common Vulnerability Scoring System)
