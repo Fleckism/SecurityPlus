@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Card Picker.md",
+            "file": "My linked notes/EMM.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\" stream cipher\"",
+                "query": "EMM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -67,12 +67,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 353,
-    "collapsed": true
+    "width": 353
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Card Picker.md",
+                "file": "My linked notes/EMM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Card Picker.md",
+                "file": "My linked notes/EMM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
