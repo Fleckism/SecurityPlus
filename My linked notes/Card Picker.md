@@ -669,7 +669,7 @@ You are writing a shell script to display the last 5 lines of a log file at /var
 
 - APIs for reporting configuration and state data for automated monitoring and alerting.
 
-#  Session 
+#  Session  4
 
 What type of deployment model(s) allow users to select the mobile device make and model?
 
@@ -695,19 +695,184 @@ You are consulting with a medium-size company about endpoint security solutions.
 
 - Advanced persistent threat (APT) malware can use many techniques to evade signature-based detection. A cloud analytics platform, backed by machine learning, can apply more effective behavioral-based monitoring and alerting.
 
+# Session 5
 
+attack framework
 
-- 
+- Models and tools used to analyze threat actor tactics, techniques, and procedures.
 
+SAN (subject alternative name)
 
+- Field in a digital certificate allowing a host to be identified by multiple host names/subdomains.
 
-- 
+What is the main advantage of [[IKE]] v2 over IKE v1?
 
-
-
-- 
+- Rather than just providing mutual authentication of the host endpoints, IKE v2 supports a user account authentication method, such as Extensible Authentication Protocol (EAP).
 
 
 
 
 CVSS (Common Vulnerability Scoring System)
+
+
+closed-source intelligence
+
+- Information that is obtained through private sources and disseminated through paid-for subscription or membership services.
+
+risk management
+
+- The cyclical process of identifying, assessing, analyzing, and responding to risks.
+
+Which command line tool allows image creation from disk media on any Linux host?
+
+- The dd tool is installed on all Linux distributions.
+
+True or false? It is important to publish all security alerts to all members of staff.
+
+- False—security alerts should be sent to those able to deal with them at a given level of security awareness and on a need-to-know basis.
+
+What is the name of the policy that prevents users from choosing old passwords again?
+
+- Enforce password history.
+
+sinkhole
+
+- A DoS attack mitigation strategy that directs the traffic that is flooding a target IP address to a different network for analysis.
+
+What is the principal risk of deploying an intrusion prevention system with behavior-based detection?
+
+
+- Behavior-based detection can exhibit high false positive rates, where legitimate activity is wrongly identified as malicious. With automatic prevention, this will block many legitimate users and hosts from the network, causing availability and support issues.
+
+CCMP (counter mode with cipher block chaining message authentication code protocol)
+
+- An encryption protocol used for wireless LANs that addresses the vulnerabilities of the WEP protocol.
+
+likelihood
+
+- In risk calculation, the chance of a threat being realized, expressed as a percentage.
+
+FTK (Forensic Toolkit)
+
+- A commercial digital forensics investigation management and utilities suite, published by AccessData.
+
+OT (operational technology)
+
+- A communications network designed to implement an industrial control system rather than data networking.
+
+VPN (virtual private network)
+
+- A secure tunnel created between two endpoints connected via an unsecure network (typically the Internet).
+
+echo
+
+- Command-line utility used to display messages and turn command echoing on or off.
+
+Image
+
+- A duplicate of an operating system installation (including installed software, settings, and user data) stored on removable media. Windows makes use of image-based backups and they are also used for deploying Windows to multiple PCs rapidly.
+
+implicit deny
+
+- A basic principle of security stating that unless something has explicitly been granted access, it should be denied access.
+
+What is the significance of the fact that digital evidence is latent?
+
+- The evidence cannot be seen directly but must be interpreted so the validity of the interpreting process must be unquestionable.
+
+service account
+
+- A host or network account that is designed to run a background service, rather than to log on interactively.
+
+authenticator
+
+- A PNAC switch or router that activates EAPoL and passes a supplicant's authentication data to an authenticating server, such as a RADIUS server.
+
+XSRF (cross-site request forgery)
+
+- A malicious script hosted on the attacker's site that can exploit a session started on another site in the same browser. Also referred to as client-side request forgery (CSRF).
+
+Kerberos
+
+- A single sign-on authentication and authorization service that is based on a time-sensitive ticket-granting system.
+
+pointer dereferencing
+
+- A software vulnerability that can occur when code attempts to read a memory location specified by a pointer, but the memory location is null.
+
+packet sniffing
+
+- Recording data from frames as they pass over network media, using methods such as a mirror port or tap device.
+
+True or false? The "first responder" is whoever first reports an incident to the CIRT.
+
+- False—the first responder would be the member of the CIRT to handle the report.
+
+packet trace analysis
+
+- The act of examining data packet communications to reveal insights without digging into packet content, such as when the packet contents are encrypted. Clues derived from packet trace analysis might help an intruder, but they are also quite useful for defensive monitoring and security intelligence analysis. Also referred to as traffic flow analysis.
+
+IoT (Internet of Things)
+
+- Devices that can report state and configuration data and be remotely managed over IP networks.
+
+You have been asked to investigate a web server for possible intrusion. You identify a script with the following code. What language is the code in and does it seem likely to be malicious? import os, sockets, syslog def r_conn(ip) s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM) s.connect(("logging.trusted.foo",514)) ...
+
+- The code is written in Python. It uses various modules with default library code to interact with the OS and network, and also the syslog logging platform. The first lines of code define a function to connect to a host over port 514 (syslog). SOCK_DGRAM is a UDP connection, which is standard for syslog. Most likely the script is for remote logging and unlikely to be malicious, especially if trusted.foo is a known domain.
+	- _ is part of python syntax_
+	- import is lower case
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+
+- 
+
+
+

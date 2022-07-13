@@ -4,12 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "30f4cebb12339304",
+        "id": "6739a8338046d42a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/EMM.md",
+            "file": "My linked notes/Card Picker.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "56f473d10d203dc4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Acronyms/OT.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -49,11 +62,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "EMM",
+                "query": "\"RIP\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/EMM.md",
+                "file": "My linked notes/Card Picker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/EMM.md",
+                "file": "My linked notes/Card Picker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,17 +142,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "30f4cebb12339304",
+  "active": "1e510462c5312b68",
   "lastOpenFiles": [
+    "My linked notes/Acronyms/OT.md",
     "My linked notes/Card Picker.md",
+    "My linked notes/EMM.md",
+    "My linked notes/Card Hunter 1.md",
+    "SecurityPlus/09 C Secure Wireless Infrastructure.md",
     "My linked notes/block cipher.md",
     "My linked notes/byets and bits.md",
     "My linked notes/Authentication.md",
     "My linked notes/KEK.md",
-    "My linked notes/OSI layer.md",
-    "My linked notes/Wireshark.md",
-    "My linked notes/Intercepting and Interpreting Network Traffic with Packet Sniffing Tools.md",
-    "My linked notes/ifconfig.md",
-    "My linked notes/Scanning and Identifying Network Nodes.md"
+    "My linked notes/OSI layer.md"
   ]
 }
