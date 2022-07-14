@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "server",
+      "path": "My linked notes/server.md"
+    },
+    {
+      "basename": "domain controller",
+      "path": "My linked notes/domain controller.md"
+    },
+    {
+      "basename": "Assisted Labs",
+      "path": "My linked notes/Assisted Labs.md"
+    },
+    {
+      "basename": "Network",
+      "path": "My linked notes/Network.md"
+    },
+    {
       "basename": "Card Picker",
       "path": "My linked notes/Card Picker.md"
     },
@@ -65,10 +81,6 @@
       "path": "My linked notes/port.md"
     },
     {
-      "basename": "Assisted Labs",
-      "path": "My linked notes/Assisted Labs.md"
-    },
-    {
       "basename": "fingerprinting",
       "path": "My linked notes/fingerprinting.md"
     },
@@ -123,10 +135,6 @@
     {
       "basename": "tcpdump",
       "path": "My linked notes/tcpdump.md"
-    },
-    {
-      "basename": "Network",
-      "path": "My linked notes/Network.md"
     },
     {
       "basename": "Untitled",

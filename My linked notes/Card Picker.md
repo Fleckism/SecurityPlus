@@ -449,7 +449,7 @@ GDPR (General Data Protection Regulation)
 
 - Provisions and requirements protecting the personal data of European Union (EU) citizens. Transfers of personal data outside the EU Single Market are restricted unless protected by like-for-like regulations, such as the US's Privacy Shield requirements.
 
-# Sessions 2
+# Session 2
 CSR (certificate signing request)
 
 - A Base64 ASCII file that a subject sends to a CA to get a certificate.
@@ -821,8 +821,7 @@ You have been asked to investigate a web server for possible intrusion. You iden
 - The code is written in Python. It uses various modules with default library code to interact with the OS and network, and also the syslog logging platform. The first lines of code define a function to connect to a host over port 514 (syslog). SOCK_DGRAM is a UDP connection, which is standard for syslog. Most likely the script is for remote logging and unlikely to be malicious, especially if trusted.foo is a known domain.
 	- _ is part of python syntax_
 	- import is lower case
-
-
+# Session 6
 
 - 
 
