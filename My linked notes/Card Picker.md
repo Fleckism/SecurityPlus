@@ -68,10 +68,10 @@ CSR (certificate signing request)
 CBT (computer-based training)
 - Training and education programs delivered using computer devices and e-learning instructional models and design.
 
-FTPS
+[[FTPS]]
 - A type of FTP using TLS for confidentiality.
 
-#zFleck stream cipher
+ stream [[cipher]]
 - A type of symmetric encryption that combines a stream of plaintext bits or bytes with a pseudorandom stream initialized by a secret key.
 
 

@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "SSL",
+      "path": "My linked notes/SSL.md"
+    },
+    {
+      "basename": "FTP",
+      "path": "My linked notes/Acronyms/FTP.md"
+    },
+    {
+      "basename": "FTPS",
+      "path": "My linked notes/FTPS.md"
+    },
+    {
+      "basename": "Card Picker",
+      "path": "My linked notes/Card Picker.md"
+    },
+    {
+      "basename": "Bits and Bytes",
+      "path": "My linked notes/Bits and Bytes.md"
+    },
+    {
+      "basename": "Assisted Labs",
+      "path": "My linked notes/Assisted Labs.md"
+    },
+    {
+      "basename": "LAMP",
+      "path": "My linked notes/LAMP.md"
+    },
+    {
       "basename": "server",
       "path": "My linked notes/server.md"
     },
@@ -9,16 +37,8 @@
       "path": "My linked notes/domain controller.md"
     },
     {
-      "basename": "Assisted Labs",
-      "path": "My linked notes/Assisted Labs.md"
-    },
-    {
       "basename": "Network",
       "path": "My linked notes/Network.md"
-    },
-    {
-      "basename": "Card Picker",
-      "path": "My linked notes/Card Picker.md"
     },
     {
       "basename": "OT",
@@ -35,10 +55,6 @@
     {
       "basename": "block cipher",
       "path": "My linked notes/block cipher.md"
-    },
-    {
-      "basename": "byets and bits",
-      "path": "My linked notes/byets and bits.md"
     },
     {
       "basename": "Authentication",
@@ -183,10 +199,6 @@
     {
       "basename": "managerial",
       "path": "My linked notes/managerial.md"
-    },
-    {
-      "basename": "Permission Policy",
-      "path": "My linked notes/Permission Policy.md"
     }
   ],
   "omittedPaths": [],

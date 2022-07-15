@@ -503,6 +503,27 @@
       "createdDate": 1654516479853,
       "modifiedDate": 1654516479853
     },
+    "My linked notes/FTPS.md": {
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "createdDate": 1657884824746,
+      "modifiedDate": 1657884824746
+    },
+    "My linked notes/Bits and Bytes.md": {
+      "wordCount": 8,
+      "pageCount": 1,
+      "characterCount": 57,
+      "createdDate": 1657585835757,
+      "modifiedDate": 1657884764915
+    },
+    "My linked notes/LAMP.md": {
+      "wordCount": 76,
+      "pageCount": 1,
+      "characterCount": 505,
+      "createdDate": 1657884464681,
+      "modifiedDate": 1657884468954
+    },
     "My linked notes/[[threat actor.md": {
       "wordCount": 0,
       "pageCount": 0,
@@ -1477,11 +1498,11 @@
       "modifiedDate": 1652797164752
     },
     "My linked notes/server.md": {
-      "wordCount": 243,
+      "wordCount": 252,
       "pageCount": 1,
-      "characterCount": 1765,
+      "characterCount": 1831,
       "createdDate": 1654288179787,
-      "modifiedDate": 1657800304774
+      "modifiedDate": 1657884277554
     },
     "My linked notes/service level.md": {
       "wordCount": 0,
@@ -5173,11 +5194,11 @@
       "modifiedDate": 1654786654978
     },
     "My linked notes/Card Picker.md": {
-      "wordCount": 6435,
+      "wordCount": 6434,
       "pageCount": 22,
-      "characterCount": 42121,
+      "characterCount": 42122,
       "createdDate": 1656330149850,
-      "modifiedDate": 1657798979141
+      "modifiedDate": 1657884822806
     },
     "My linked notes/card cloning.md": {
       "wordCount": 0,
@@ -5220,13 +5241,6 @@
       "characterCount": 0,
       "createdDate": 1654795763736,
       "modifiedDate": 1654795763736
-    },
-    "My linked notes/byets and bits.md": {
-      "wordCount": 1,
-      "pageCount": 1,
-      "characterCount": 8,
-      "createdDate": 1657585835757,
-      "modifiedDate": 1657585946824
     },
     "My linked notes/bus.md": {
       "wordCount": 0,
@@ -5474,11 +5488,11 @@
       "modifiedDate": 1654796861104
     },
     "My linked notes/Assisted Labs.md": {
-      "wordCount": 438,
+      "wordCount": 437,
       "pageCount": 2,
       "characterCount": 3336,
       "createdDate": 1651538736992,
-      "modifiedDate": 1651539695340
+      "modifiedDate": 1657884583602
     },
     "My linked notes/Assisted Lab Lesson 9 (15).md": {
       "wordCount": 1972,
