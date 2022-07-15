@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Latency",
+      "path": "My linked notes/Latency.md"
+    },
+    {
+      "basename": "Entropy",
+      "path": "My linked notes/Entropy.md"
+    },
+    {
+      "basename": "ABAC",
+      "path": "My linked notes/ABAC.md"
+    },
+    {
+      "basename": "Card Picker",
+      "path": "My linked notes/Card Picker.md"
+    },
+    {
+      "basename": "Assisted Labs",
+      "path": "My linked notes/Assisted Labs.md"
+    },
+    {
+      "basename": "12 B Endpoint Security",
+      "path": "SecurityPlus/12 B Endpoint Security.md"
+    },
+    {
+      "basename": "DLP",
+      "path": "My linked notes/DLP.md"
+    },
+    {
+      "basename": "agent",
+      "path": "My linked notes/agent.md"
+    },
+    {
+      "basename": "EPP",
+      "path": "My linked notes/EPP.md"
+    },
+    {
+      "basename": "Lesson 17 Questions (15)",
+      "path": "My linked notes/Lesson 17 Questions (15).md"
+    },
+    {
       "basename": "SSL",
       "path": "My linked notes/SSL.md"
     },
@@ -13,16 +53,8 @@
       "path": "My linked notes/FTPS.md"
     },
     {
-      "basename": "Card Picker",
-      "path": "My linked notes/Card Picker.md"
-    },
-    {
       "basename": "Bits and Bytes",
       "path": "My linked notes/Bits and Bytes.md"
-    },
-    {
-      "basename": "Assisted Labs",
-      "path": "My linked notes/Assisted Labs.md"
     },
     {
       "basename": "LAMP",
@@ -163,42 +195,6 @@
     {
       "basename": "ping",
       "path": "My linked notes/ping.md"
-    },
-    {
-      "basename": "gateway",
-      "path": "My linked notes/gateway.md"
-    },
-    {
-      "basename": "TCP",
-      "path": "My linked notes/Acronyms/TCP.md"
-    },
-    {
-      "basename": "09 A Secure Network Desings",
-      "path": "SecurityPlus/09 A Secure Network Desings.md"
-    },
-    {
-      "basename": "security control",
-      "path": "My linked notes/security control.md"
-    },
-    {
-      "basename": "PBQ",
-      "path": "My linked notes/PBQ.md"
-    },
-    {
-      "basename": "Preventive",
-      "path": "My linked notes/Preventive.md"
-    },
-    {
-      "basename": "Detective",
-      "path": "My linked notes/Detective.md"
-    },
-    {
-      "basename": "Deterrent",
-      "path": "My linked notes/Deterrent.md"
-    },
-    {
-      "basename": "managerial",
-      "path": "My linked notes/managerial.md"
     }
   ],
   "omittedPaths": [],

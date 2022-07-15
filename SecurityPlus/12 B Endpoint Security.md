@@ -53,7 +53,7 @@ Endpoint protection usually depends on an agent running on the local host. If mu
 
 ### Data Loss Prevention (DLP)
 
-Many EPPs include a data loss prevention (DLP) agent. This is configured with policies to identify privileged files and strings that should be kept private or confidential, such as credit card numbers. The agent enforces the policy to prevent data from being copied or attached to a message without authorization.
+Many [[EPP]]s include a data loss prevention ([[DLP]]) agent. This is configured with policies to identify privileged files and strings that should be kept private or confidential, such as credit card numbers. The agent enforces the policy to prevent data from being copied or attached to a message without authorization.
 
 ### Endpoint Protection Deployment
 

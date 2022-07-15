@@ -4,40 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "fa9fec883c6dd927",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/Assisted Labs.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "b39e5c0cafe6a6c2",
+        "id": "a697b0f77d4c4dba",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Card Picker.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "a84160e611b789b0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My linked notes/SSL.md",
+            "file": "My linked notes/Latency.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -77,11 +49,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#zFleck",
+                "query": "latency",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -115,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/SSL.md",
+                "file": "My linked notes/Latency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/SSL.md",
+                "file": "My linked notes/Latency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,17 +128,17 @@
     "direction": "horizontal",
     "width": 252
   },
-  "active": "a84160e611b789b0",
+  "active": "a697b0f77d4c4dba",
   "lastOpenFiles": [
-    "My linked notes/Acronyms/FTP.md",
-    "My linked notes/FTPS.md",
+    "My linked notes/high latency.md",
+    "My linked notes/Latency.md",
+    "My linked notes/Entropy.md",
+    "My linked notes/data loss prevention (DLP).md",
+    "My linked notes/ABAC.md",
     "My linked notes/Card Picker.md",
-    "My linked notes/Bits and Bytes.md",
     "My linked notes/Assisted Labs.md",
-    "My linked notes/LAMP.md",
-    "My linked notes/server.md",
-    "My linked notes/domain controller.md",
-    "My linked notes/Network.md",
-    "My linked notes/Acronyms/OT.md"
+    "SecurityPlus/12 B Endpoint Security.md",
+    "My linked notes/DLP.md",
+    "My linked notes/agent.md"
   ]
 }

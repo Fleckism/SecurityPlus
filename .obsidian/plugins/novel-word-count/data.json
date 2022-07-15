@@ -254,9 +254,9 @@
     "SecurityPlus/12 B Endpoint Security.md": {
       "wordCount": 2143,
       "pageCount": 8,
-      "characterCount": 15616,
+      "characterCount": 15624,
       "createdDate": 1645299263705,
-      "modifiedDate": 1655993535160
+      "modifiedDate": 1657895152616
     },
     "SecurityPlus/11 C Secure Remote Access Protocols.md": {
       "wordCount": 3634,
@@ -504,11 +504,11 @@
       "modifiedDate": 1654516479853
     },
     "My linked notes/FTPS.md": {
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
+      "wordCount": 12,
+      "pageCount": 1,
+      "characterCount": 89,
       "createdDate": 1657884824746,
-      "modifiedDate": 1657884824746
+      "modifiedDate": 1657884899473
     },
     "My linked notes/Bits and Bytes.md": {
       "wordCount": 8,
@@ -1274,11 +1274,11 @@
       "modifiedDate": 1653576157317
     },
     "My linked notes/SSL.md": {
-      "wordCount": 19,
+      "wordCount": 50,
       "pageCount": 1,
-      "characterCount": 109,
+      "characterCount": 303,
       "createdDate": 1654603270143,
-      "modifiedDate": 1654603350972
+      "modifiedDate": 1657894549322
     },
     "My linked notes/SSL VPN.md": {
       "wordCount": 0,
@@ -3535,11 +3535,11 @@
       "modifiedDate": 1655836295466
     },
     "My linked notes/Latency.md": {
-      "wordCount": 16,
+      "wordCount": 62,
       "pageCount": 1,
-      "characterCount": 94,
+      "characterCount": 407,
       "createdDate": 1646927799200,
-      "modifiedDate": 1646927802677
+      "modifiedDate": 1657895551649
     },
     "My linked notes/Lab 05.md": {
       "wordCount": 154,
@@ -4003,13 +4003,6 @@
       "createdDate": 1654796552060,
       "modifiedDate": 1654796552060
     },
-    "My linked notes/high latency.md": {
-      "wordCount": 46,
-      "pageCount": 1,
-      "characterCount": 315,
-      "createdDate": 1643200561369,
-      "modifiedDate": 1652192694571
-    },
     "My linked notes/hierarchical model.md": {
       "wordCount": 16,
       "pageCount": 1,
@@ -4284,11 +4277,11 @@
       "modifiedDate": 1654796420195
     },
     "My linked notes/EPP.md": {
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
+      "wordCount": 88,
+      "pageCount": 1,
+      "characterCount": 641,
       "createdDate": 1654628510354,
-      "modifiedDate": 1654628510354
+      "modifiedDate": 1657895111767
     },
     "My linked notes/ephemeral.md": {
       "wordCount": 1,
@@ -4305,11 +4298,11 @@
       "modifiedDate": 1654786765553
     },
     "My linked notes/Entropy.md": {
-      "wordCount": 9,
+      "wordCount": 8,
       "pageCount": 1,
-      "characterCount": 71,
+      "characterCount": 63,
       "createdDate": 1645063365860,
-      "modifiedDate": 1652192755131
+      "modifiedDate": 1657895379249
     },
     "My linked notes/endpoint.md": {
       "wordCount": 0,
@@ -4473,11 +4466,11 @@
       "modifiedDate": 1652984424966
     },
     "My linked notes/DLP.md": {
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
+      "wordCount": 50,
+      "pageCount": 1,
+      "characterCount": 317,
       "createdDate": 1653574961435,
-      "modifiedDate": 1653574961435
+      "modifiedDate": 1657895213083
     },
     "My linked notes/disruption strategies.md": {
       "wordCount": 0,
@@ -4709,13 +4702,6 @@
       "characterCount": 86,
       "createdDate": 1643298207866,
       "modifiedDate": 1643298221057
-    },
-    "My linked notes/data loss prevention (DLP).md": {
-      "wordCount": 7,
-      "pageCount": 1,
-      "characterCount": 84,
-      "createdDate": 1652193225674,
-      "modifiedDate": 1652193280653
     },
     "My linked notes/Data custodian.md": {
       "wordCount": 0,
@@ -5838,11 +5824,11 @@
       "modifiedDate": 1654796933396
     },
     "My linked notes/agent.md": {
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
+      "wordCount": 2,
+      "pageCount": 1,
+      "characterCount": 11,
       "createdDate": 1654286025219,
-      "modifiedDate": 1654286025219
+      "modifiedDate": 1657895126718
     },
     "My linked notes/Adware.md": {
       "wordCount": 68,
@@ -6512,9 +6498,9 @@
     "My linked notes/Acronyms/FTP.md": {
       "wordCount": 235,
       "pageCount": 1,
-      "characterCount": 1494,
+      "characterCount": 1506,
       "createdDate": 1647344979303,
-      "modifiedDate": 1651828350980
+      "modifiedDate": 1657884952412
     },
     "My linked notes/Acronyms/FRR.md": {
       "wordCount": 36,

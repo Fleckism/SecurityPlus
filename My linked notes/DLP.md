@@ -1,0 +1,1 @@
+data loss prevention (DLP) agent.  Included in an [[EPP]] This is configured with policies to identify privileged files and strings that should be kept private or confidential, such as credit card numbers. The agent enforces the policy to prevent data from being copied or attached to a message without authorization.

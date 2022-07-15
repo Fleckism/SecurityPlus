@@ -1,0 +1,3 @@
+**endpoint protection platform** (EPP) is a single [[agent]] performing multiple security tasks, including malware/intrusion detection and prevention, but also other security features, such as a host firewall, web content filtering/secure search and browsing, and file/message encryption.
+
+Endpoint protection usually depends on an agent running on the local host. If multiple security products install multiple agents (say one for A-V, one for HIDS, another for host-based firewall, and so on), they can impact system performance and cause conflicts, creating numerous technical support incidents and security incident false positives. An  
