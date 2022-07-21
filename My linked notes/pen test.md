@@ -1,5 +1,7 @@
 **Together, penetration testing and vulnerability assessment tools provide a detailed picture of the flaws that exist in an application and the risks associated with those flaws.**
 
+Attempts to exploit a vulnerability and can determine if a successful attack will allow attackers into the internal network
+
 #Ops 
 - **Black box (or unknown environment)**
 - **White box (or known environment)**

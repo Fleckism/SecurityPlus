@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "nmap",
+  "collapse-filter": true,
+  "search": "",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -81,6 +81,6 @@
   "repelStrength": 8.65497076023392,
   "linkStrength": 0.81353919239905,
   "linkDistance": 107,
-  "scale": 0.466155626453037,
+  "scale": 0.976570858695808,
   "close": true
 }

@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "hash",
+      "path": "My linked notes/hash.md"
+    },
+    {
+      "basename": "rootkit",
+      "path": "My linked notes/rootkit.md"
+    },
+    {
+      "basename": "vulnerability",
+      "path": "My linked notes/vulnerability.md"
+    },
+    {
       "basename": "Assisted Lab 04",
       "path": "My linked notes/Assisted Lab 04.md"
+    },
+    {
+      "basename": "security assessment",
+      "path": "My linked notes/security assessment.md"
+    },
+    {
+      "basename": "pen test",
+      "path": "My linked notes/pen test.md"
     },
     {
       "basename": "tcpdump",
@@ -31,10 +51,6 @@
     {
       "basename": "Wireshark",
       "path": "My linked notes/Wireshark.md"
-    },
-    {
-      "basename": "security assessment",
-      "path": "My linked notes/security assessment.md"
     },
     {
       "basename": "Assisted Labs",
@@ -173,10 +189,6 @@
       "path": "My linked notes/curl.md"
     },
     {
-      "basename": "pen test",
-      "path": "My linked notes/pen test.md"
-    },
-    {
       "basename": "firewall",
       "path": "My linked notes/firewall.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "IP",
       "path": "My linked notes/Acronyms/IP.md"
-    },
-    {
-      "basename": "CIDR",
-      "path": "My linked notes/CIDR.md"
-    },
-    {
-      "basename": "Working Notes",
-      "path": "My linked notes/Working Notes.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "My linked notes/Untitled.md"
     }
   ],
   "omittedPaths": [],

@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a697b0f77d4c4dba",
+        "id": "6a6ebbdb868e254d",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Assisted Lab 04.md",
+            "file": "My linked notes/hash.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -51,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"cve\"",
+                "query": "\"hashing\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Lab 04.md",
+                "file": "My linked notes/hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted Lab 04.md",
+                "file": "My linked notes/hash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,17 +129,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "1e510462c5312b68",
+  "active": "6a6ebbdb868e254d",
   "lastOpenFiles": [
+    "My linked notes/rootkit.md",
+    "My linked notes/vulnerability.md",
+    "My linked notes/Assisted Lab 04.md",
+    "My linked notes/security assessment.md",
+    "My linked notes/pen test.md",
     "My linked notes/tcpdump.md",
     "My linked notes/Assisted Lab 02.md",
     "My linked notes/banner grabbing.md",
     "My linked notes/Intercepting and Interpreting Network Traffic with Packet Sniffing Tools.md",
-    "SecurityPlus/03 A Security Assessment.md",
-    "My linked notes/Practice 3.md",
-    "My linked notes/Wireshark.md",
-    "My linked notes/security assessment.md",
-    "My linked notes/Assisted Labs.md",
-    "My linked notes/Latency.md"
+    "SecurityPlus/03 A Security Assessment.md"
   ]
 }

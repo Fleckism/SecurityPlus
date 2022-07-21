@@ -1,6 +1,6 @@
----
+
 A cryptographic hashing [[algorithm]] produces a fixed length string from an input plaintext that can be of any length.
----
+
 ==Hashing produces a fixed length string from plaintext input==
 - Provides [[Authentication]] and [[Integrity]]
 - Output referred to
