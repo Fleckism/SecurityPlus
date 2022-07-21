@@ -6,14 +6,16 @@
       {
         "id": "a697b0f77d4c4dba",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Latency.md",
+            "file": "My linked notes/Assisted Lab 04.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       }
     ],
@@ -49,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "latency",
+                "query": "\"cve\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -87,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Latency.md",
+                "file": "My linked notes/Assisted Lab 04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Latency.md",
+                "file": "My linked notes/Assisted Lab 04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,19 +128,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
-  "active": "a697b0f77d4c4dba",
+  "active": "1e510462c5312b68",
   "lastOpenFiles": [
-    "My linked notes/high latency.md",
-    "My linked notes/Latency.md",
-    "My linked notes/Entropy.md",
-    "My linked notes/data loss prevention (DLP).md",
-    "My linked notes/ABAC.md",
-    "My linked notes/Card Picker.md",
+    "My linked notes/tcpdump.md",
+    "My linked notes/Assisted Lab 02.md",
+    "My linked notes/banner grabbing.md",
+    "My linked notes/Intercepting and Interpreting Network Traffic with Packet Sniffing Tools.md",
+    "SecurityPlus/03 A Security Assessment.md",
+    "My linked notes/Practice 3.md",
+    "My linked notes/Wireshark.md",
+    "My linked notes/security assessment.md",
     "My linked notes/Assisted Labs.md",
-    "SecurityPlus/12 B Endpoint Security.md",
-    "My linked notes/DLP.md",
-    "My linked notes/agent.md"
+    "My linked notes/Latency.md"
   ]
 }

@@ -15,3 +15,7 @@ Filter expressions can be combined by using Boolean operators:
 Filter syntax can be made even more detailed by using parentheses to group expressions. A complex filter expression should be enclosed by quotes. For example, the following command filters frames to those with the source IP 10.1.0.100 and destination port 53 or 80:
 
 tcpdump -i eth0 "src host 10.1.0.100 and (dst port 53 or dst port 80)"
+
+1.  bash-notab-nocopy
+    tcpdump -vv dst 10.1.0.10 and port ssh -w ssh.pcap
+    

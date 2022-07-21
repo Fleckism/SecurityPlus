@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Assisted Lab 04",
+      "path": "My linked notes/Assisted Lab 04.md"
+    },
+    {
+      "basename": "tcpdump",
+      "path": "My linked notes/tcpdump.md"
+    },
+    {
+      "basename": "Assisted Lab 02",
+      "path": "My linked notes/Assisted Lab 02.md"
+    },
+    {
+      "basename": "banner grabbing",
+      "path": "My linked notes/banner grabbing.md"
+    },
+    {
+      "basename": "Intercepting and Interpreting Network Traffic with Packet Sniffing Tools",
+      "path": "My linked notes/Intercepting and Interpreting Network Traffic with Packet Sniffing Tools.md"
+    },
+    {
+      "basename": "03 A Security Assessment",
+      "path": "SecurityPlus/03 A Security Assessment.md"
+    },
+    {
+      "basename": "Practice 3",
+      "path": "My linked notes/Practice 3.md"
+    },
+    {
+      "basename": "Wireshark",
+      "path": "My linked notes/Wireshark.md"
+    },
+    {
+      "basename": "security assessment",
+      "path": "My linked notes/security assessment.md"
+    },
+    {
+      "basename": "Assisted Labs",
+      "path": "My linked notes/Assisted Labs.md"
+    },
+    {
       "basename": "Latency",
       "path": "My linked notes/Latency.md"
     },
@@ -15,10 +55,6 @@
     {
       "basename": "Card Picker",
       "path": "My linked notes/Card Picker.md"
-    },
-    {
-      "basename": "Assisted Labs",
-      "path": "My linked notes/Assisted Labs.md"
     },
     {
       "basename": "12 B Endpoint Security",
@@ -101,14 +137,6 @@
       "path": "My linked notes/OSI layer.md"
     },
     {
-      "basename": "Wireshark",
-      "path": "My linked notes/Wireshark.md"
-    },
-    {
-      "basename": "Intercepting and Interpreting Network Traffic with Packet Sniffing Tools",
-      "path": "My linked notes/Intercepting and Interpreting Network Traffic with Packet Sniffing Tools.md"
-    },
-    {
       "basename": "ifconfig",
       "path": "My linked notes/ifconfig.md"
     },
@@ -141,20 +169,8 @@
       "path": "My linked notes/nmap.md"
     },
     {
-      "basename": "Assisted Lab 02",
-      "path": "My linked notes/Assisted Lab 02.md"
-    },
-    {
-      "basename": "banner grabbing",
-      "path": "My linked notes/banner grabbing.md"
-    },
-    {
       "basename": "curl",
       "path": "My linked notes/curl.md"
-    },
-    {
-      "basename": "03 A Security Assessment",
-      "path": "SecurityPlus/03 A Security Assessment.md"
     },
     {
       "basename": "pen test",
@@ -181,20 +197,8 @@
       "path": "My linked notes/Working Notes.md"
     },
     {
-      "basename": "tcpdump",
-      "path": "My linked notes/tcpdump.md"
-    },
-    {
       "basename": "Untitled",
       "path": "My linked notes/Untitled.md"
-    },
-    {
-      "basename": "Host IP address",
-      "path": "My linked notes/Host IP address.md"
-    },
-    {
-      "basename": "ping",
-      "path": "My linked notes/ping.md"
     }
   ],
   "omittedPaths": [],
