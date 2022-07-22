@@ -503,6 +503,13 @@
       "createdDate": 1654516479853,
       "modifiedDate": 1654516479853
     },
+    "My linked notes/Assisted lab 03.md": {
+      "wordCount": 1,
+      "pageCount": 1,
+      "characterCount": 9,
+      "createdDate": 1657585114121,
+      "modifiedDate": 1657625590260
+    },
     "My linked notes/[[threat actor.md": {
       "wordCount": 0,
       "pageCount": 0,
@@ -665,11 +672,11 @@
       "modifiedDate": 1654738329816
     },
     "My linked notes/vulnerability.md": {
-      "wordCount": 345,
+      "wordCount": 391,
       "pageCount": 2,
-      "characterCount": 2625,
+      "characterCount": 2992,
       "createdDate": 1642730909950,
-      "modifiedDate": 1655993878298
+      "modifiedDate": 1658418756559
     },
     "My linked notes/WAPs.md": {
       "wordCount": 3,
@@ -2387,11 +2394,11 @@
       "modifiedDate": 1657326059219
     },
     "My linked notes/pen test.md": {
-      "wordCount": 95,
+      "wordCount": 114,
       "pageCount": 1,
-      "characterCount": 652,
+      "characterCount": 777,
       "createdDate": 1644507355655,
-      "modifiedDate": 1650476065090
+      "modifiedDate": 1658418359277
     },
     "My linked notes/performance metric.md": {
       "wordCount": 14,
@@ -3716,13 +3723,6 @@
       "createdDate": 1655155467360,
       "modifiedDate": 1655155467360
     },
-    "My linked notes/Intercepting and Interpreting Network Traffic with Packet Sniffing Tools.md": {
-      "wordCount": 1,
-      "pageCount": 1,
-      "characterCount": 9,
-      "createdDate": 1657585114121,
-      "modifiedDate": 1657625590260
-    },
     "My linked notes/Interfaces.md": {
       "wordCount": 0,
       "pageCount": 0,
@@ -3997,11 +3997,11 @@
       "modifiedDate": 1655812865263
     },
     "My linked notes/hash.md": {
-      "wordCount": 404,
+      "wordCount": 402,
       "pageCount": 2,
-      "characterCount": 2545,
+      "characterCount": 2539,
       "createdDate": 1644940561612,
-      "modifiedDate": 1654602931869
+      "modifiedDate": 1658419090109
     },
     "My linked notes/Hardware.md": {
       "wordCount": 14,
