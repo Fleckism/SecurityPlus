@@ -1,24 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Assisted Lab 05",
-      "path": "My linked notes/Assisted Lab 05.md"
+      "basename": "Assisted Lab lesson 8 (011)",
+      "path": "My linked notes/Assisted Lab lesson 8 (011).md"
+    },
+    {
+      "basename": "Z Blah Assisted Lab 02",
+      "path": "My linked notes/Z Blah Assisted Lab 02.md"
+    },
+    {
+      "basename": "Assisted lab lesson 3 (02)",
+      "path": "My linked notes/Assisted lab lesson 3 (02).md"
+    },
+    {
+      "basename": "Assisted Lab Lesson 7 (09)",
+      "path": "My linked notes/Assisted Lab Lesson 7 (09).md"
+    },
+    {
+      "basename": "Assisted Lab lesson 8  (012)",
+      "path": "My linked notes/Assisted Lab lesson 8  (012).md"
+    },
+    {
+      "basename": "Assisted lab lesson 6 (08)",
+      "path": "My linked notes/Assisted lab lesson 6 (08).md"
+    },
+    {
+      "basename": "Assisted Lab lesson 7 (010)",
+      "path": "My linked notes/Assisted Lab lesson 7 (010).md"
+    },
+    {
+      "basename": "Assisted Lab lesson 8 (013)",
+      "path": "My linked notes/Assisted Lab lesson 8 (013).md"
+    },
+    {
+      "basename": "Assisted Lab Lesson 9 (15)",
+      "path": "My linked notes/Assisted Lab Lesson 9 (15).md"
+    },
+    {
+      "basename": "Assisted lab lesson 3 (04)",
+      "path": "My linked notes/Assisted lab lesson 3 (04).md"
+    },
+    {
+      "basename": "Assisted lab lesson 3 (03)",
+      "path": "My linked notes/Assisted lab lesson 3 (03).md"
+    },
+    {
+      "basename": "Assisted Lab lesson 4 (05)",
+      "path": "My linked notes/Assisted Lab lesson 4 (05).md"
+    },
+    {
+      "basename": "Assisted lab lesson 6 (06)",
+      "path": "My linked notes/Assisted lab lesson 6 (06).md"
+    },
+    {
+      "basename": "Assisted lab lesson 6 (07)",
+      "path": "My linked notes/Assisted lab lesson 6 (07).md"
+    },
+    {
+      "basename": "Assisted Lab (31)",
+      "path": "My linked notes/Assisted Lab (31).md"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "My linked notes/Untitled 1.md"
+    },
+    {
+      "basename": "Assisted Lab Lesson 14 (23)",
+      "path": "My linked notes/Assisted Lab Lesson 14 (23).md"
     },
     {
       "basename": "Lab 05",
       "path": "My linked notes/Lab 05.md"
-    },
-    {
-      "basename": "Assisted lab 03",
-      "path": "My linked notes/Assisted lab 03.md"
-    },
-    {
-      "basename": "Assisted Lab 04",
-      "path": "My linked notes/Assisted Lab 04.md"
-    },
-    {
-      "basename": "Assisted Lab 02",
-      "path": "My linked notes/Assisted Lab 02.md"
     },
     {
       "basename": "hash",
@@ -143,62 +195,6 @@
     {
       "basename": "09 C Secure Wireless Infrastructure",
       "path": "SecurityPlus/09 C Secure Wireless Infrastructure.md"
-    },
-    {
-      "basename": "block cipher",
-      "path": "My linked notes/block cipher.md"
-    },
-    {
-      "basename": "Authentication",
-      "path": "My linked notes/Authentication.md"
-    },
-    {
-      "basename": "KEK",
-      "path": "My linked notes/KEK.md"
-    },
-    {
-      "basename": "OSI layer",
-      "path": "My linked notes/OSI layer.md"
-    },
-    {
-      "basename": "ifconfig",
-      "path": "My linked notes/ifconfig.md"
-    },
-    {
-      "basename": "Scanning and Identifying Network Nodes",
-      "path": "My linked notes/Scanning and Identifying Network Nodes.md"
-    },
-    {
-      "basename": "dump file",
-      "path": "My linked notes/dump file.md"
-    },
-    {
-      "basename": "Assisted Lab Lesson 17 (28)",
-      "path": "My linked notes/Assisted Lab Lesson 17 (28).md"
-    },
-    {
-      "basename": "port",
-      "path": "My linked notes/port.md"
-    },
-    {
-      "basename": "fingerprinting",
-      "path": "My linked notes/fingerprinting.md"
-    },
-    {
-      "basename": "network reconnaissance",
-      "path": "My linked notes/network reconnaissance.md"
-    },
-    {
-      "basename": "nmap",
-      "path": "My linked notes/nmap.md"
-    },
-    {
-      "basename": "curl",
-      "path": "My linked notes/curl.md"
-    },
-    {
-      "basename": "firewall",
-      "path": "My linked notes/firewall.md"
     }
   ],
   "omittedPaths": [],

@@ -70,13 +70,6 @@ The program seems to have installed two innocuous utilities, but what else might
     
     ncat (32 bit)
     
-    Microsoft OneDrive (32 bit)
-    
-    Spooler SubSystem App
-    
-    RDP Clipboard Monitor
-    
-    Correct
     
     > The purpose behind Assisted Labs is to confirm your knowledge and guide you through the given configurations. If you get a scored question incorrect, you may repeat the question and achieve the correct answer. You do not need a correct answer to move forward through the lab.
     
@@ -96,7 +89,7 @@ The Odysseus software has installed a backdoor application called Netcat on the 
 
 1.  Switch to the [DC1](https://labclient.labondemand.com/Instructions/0a7acc95-84bf-4807-b110-b27114545418?rc=10#) VM.
     
-2.  Click [Ctrl+Alt+Delete](https://labclient.labondemand.com/Instructions/0a7acc95-84bf-4807-b110-b27114545418?rc=10#) to send the Ctrl+Alt+Delete sequence to the VM and show the login page. Sign in as 515support\Administrator using Pa$$w0rd as the password.
+2.  Click 
     
 3.  From the desktop, open the **AngryIP** shortcut.
     
@@ -130,3 +123,110 @@ The Odysseus software has installed a backdoor application called Netcat on the 
     Do you see any port numbers that are not accounted for here and might therefore be suspicious?
     
 11.  Close the **Angry IP Scanner** window.
+
+
+## Test backdoor
+
+To connect to the backdoor on MS1, you will use a terminal emulation client called **PuTTY** ([chiark.greenend.org.uk](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)).
+
+1.  On the [DC1](https://labclient.labondemand.com/Instructions/0a7acc95-84bf-4807-b110-b27114545418?rc=10#) VM, double-click the **PuTTY** icon in the **LABFILES** folder.
+    
+2.  In the Host name (or IP address) box, type `10.1.0.2`. In the Port box, enter `4450`. Set the Connection type to **Raw**.
+    
+    PuTTY configurations![Screen Shot 2020-11-07 at 9.50.22 AM.png](https://labondemand.blob.core.windows.net/content/lab84040/Screen%20Shot%202020-11-07%20at%209.50.22%20AM.png)
+    
+3.  In the Saved Sessions box, type `MS1` then select the **Save** button.
+    
+4.  Select **Open**. After a few seconds, you will be connected to the command prompt on MS1.
+    
+    > If the connection does not display a **C:\** prompt, it is not successful. Confirm the above steps in the following order: 1) Defender is disabled, 2) Port 4450 is specified in Putty (as is the correct IP address of 10.1.0.2 and connect type: RAW)
+    
+    ![Screen Shot 2020-11-07 at 9.54.04 AM.png](https://labondemand.blob.core.windows.net/content/lab84040/Screen%20Shot%202020-11-07%20at%209.54.04%20AM.png)
+    
+5.  In the putty terminal window, run the following three commands to confirm your remote connection:
+    
+    `whoami`
+    
+    `hostname`
+    
+    `ipconfig`
+    
+6.  Run the following command to create a user account named **mal** on the remote server:
+    
+    `net user /add mal Pa$$w0rd`
+    
+7.  Confirm that the "mal" local user account exists.
+    
+    Correct
+    
+    > Many of your tasks are scored by scripts. You must use the same names and other labels as the lab instructions specify or your task may be marked as incorrect. For example, if the task says to create a user account named “user01,” than “user1” would be marked as incorrect.
+    
+    > Practice typing in the commands manually to help you learn and remember the syntax.
+    
+8.  Run the following command to add the **mal** user to the local administrators group:
+    
+    `net localgroup administrators mal /add`
+    
+9.  Confirm that user "mal" is a member of the local administrators group.
+    
+    Correct
+    
+    Issues with the mal user account.If the user or group is not found, or if the user is not part of the administrators group, then repeat the two commands above.
+    
+    Creating a user account is one way for a threat actor to establish a persistence mechanism and re-connect to the target network or host.
+    
+10.  Leave the **PuTTY** window open.
+
+![[Pasted image 20220721212949.png]]
+
+
+## Block backdoor
+
+Use Task Manager and the Windows Defender to investigate the changes that the Trojan has made.
+
+1.  Switch to the MS1
+    > If a Windows Script Host error appears, click **OK**. There may also be a Windows Defender notification.
+    
+2.  Using **File Explorer**, browse to `C:\Program Files (x86)\Odysseus` and note the ini.vbs file.
+    
+3.  Open **ini.vbs** in Notepad (right-click and select **Edit**). Note the actions that the script performs.
+    
+    Ini script.This script launches netcat and creates a firewall rule to allow connections to it over port 4450.
+    
+4.  Close the script file, and then use **File Explorer** to delete it.
+    
+5.  Open **Task Manager**.
+    
+6.  Select the **Processes** tab in **Task Manager**, and then right-click on the **ncat (32 bit)** process and select **End task**.
+    
+    > You can alphabetize the process list by clicking the _Name_ column at the top.
+    
+7.  Close **Task Manager**.
+    
+8.  Select **Start** then type `firewall with advanced security` and open the **Windows Defender Firewall with Advanced Security** link that appears.
+    
+9.  Select the **Inbound Rules** node. Can you spot anything unusual that might be related to the **ncat** backdoor that was installed?
+    
+10.  What is the name of the firewall rule associated with the trojan?
+        
+ Service Port
+
+The Inbound Rules.![Inbound Rules](https://labondemand.blob.core.windows.net/content/lab84040/Screen%20Shot%202020-11-07%20at%209.58.43%20AM.png)
+    
+11.  Disable the rule added by the Trojan by right-clicking it and selecting **Disable Rule**.
+    
+12.  Confirm that the firewall blocks connections over port 4450.
+    
+13.  Confirm that you have deleted the ini.vbs file.
+    
+14.  Confirm that the malware has been removed by verifying that ncat.exe is no longer running in the process list.
+    
+    Correct
+    
+    Correct
+    
+    Correct
+    
+    Remove the malwareIf one or more of the above check fails, repeat the steps to ensure that you deleted the .ini file, stopped the netcat (32 bit) process, and disabled the firewall rule pertaining to the Service Port.
+    
+    This Trojan is trivially easy to block and remove, but most malware is more sophisticated.

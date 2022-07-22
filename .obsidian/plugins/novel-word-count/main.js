@@ -333,7 +333,11 @@ var NovelWordCountPlugin = class extends import_obsidian2.Plugin {
     })));
     function recalculateAll(hookName, file) {
       return __async(this, null, function* () {
-        this.debugHelper.debug(`[${hookName}] vault hook fired by file`, file.path, "recounting all files");
+        if (file) {
+          this.debugHelper.debug(`[${hookName}] vault hook fired by file`, file.path, "recounting all files");
+        } else {
+          this.debugHelper.debug(`[${hookName}] hook fired`, "recounting all files");
+        }
         yield this.refreshAllCounts();
         yield this.updateDisplayedCounts();
       });
@@ -341,6 +345,7 @@ var NovelWordCountPlugin = class extends import_obsidian2.Plugin {
     this.registerEvent(this.app.vault.on("rename", (0, import_obsidian2.debounce)(recalculateAll.bind(this, "rename"), 1e3)));
     this.registerEvent(this.app.vault.on("create", (0, import_obsidian2.debounce)(recalculateAll.bind(this, "create"), 1e3)));
     this.registerEvent(this.app.vault.on("delete", (0, import_obsidian2.debounce)(recalculateAll.bind(this, "delete"), 1e3)));
+    this.registerEvent(this.app.workspace.on("layout-change", (0, import_obsidian2.debounce)(recalculateAll.bind(this, "layout-change"), 1e3)));
   }
   refreshAllCounts() {
     return __async(this, null, function* () {

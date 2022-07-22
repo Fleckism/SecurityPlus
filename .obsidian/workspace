@@ -4,26 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "6a6ebbdb868e254d",
+        "id": "96d01c2130b420af",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Assisted Lab 05.md",
+            "file": "My linked notes/Assisted Lab lesson 8 (011).md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
+          }
         }
       },
       {
-        "id": "cbafcb26f3cf62e7",
+        "id": "ec6163a0619df694",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/Z Blah Assisted Lab 02.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -59,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"trojan\"",
+                "query": "file: assisted",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted Lab 05.md",
+                "file": "My linked notes/Assisted Lab lesson 8 (011).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted Lab 05.md",
+                "file": "My linked notes/Assisted Lab lesson 8 (011).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,17 +142,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "6a6ebbdb868e254d",
+  "active": "1e510462c5312b68",
   "lastOpenFiles": [
-    "My linked notes/Assisted Lab 05.md",
-    "My linked notes/Lab 05.md",
-    "My linked notes/Assisted lab 03.md",
-    "My linked notes/Assisted Lab 04.md",
-    "My linked notes/Assisted Lab 02.md",
-    "My linked notes/hash.md",
-    "My linked notes/rootkit.md",
-    "My linked notes/vulnerability.md",
-    "My linked notes/security assessment.md",
-    "My linked notes/pen test.md"
+    "My linked notes/Assisted lab lesson 3 (02).md",
+    "My linked notes/Z Blah Assisted Lab 02.md",
+    "My linked notes/assisted lab 9.md",
+    "My linked notes/Assisted Lab Lesson 7 (09).md",
+    "My linked notes/Assisted Lab lesson 8  (012).md",
+    "My linked notes/Assisted lab lesson 6 (08).md",
+    "My linked notes/Assisted Lab lesson 8 (011).md",
+    "My linked notes/Assisted Lab lesson 7 (010).md",
+    "My linked notes/Assisted Lab lesson 8 (013).md",
+    "My linked notes/Assisted Lab Lesson 9 (15).md"
   ]
 }
