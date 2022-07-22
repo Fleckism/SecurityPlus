@@ -6,14 +6,24 @@
       {
         "id": "6a6ebbdb868e254d",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My linked notes/Assisted lab 03.md",
+            "file": "My linked notes/Assisted Lab 05.md",
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "cbafcb26f3cf62e7",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -49,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: assisted ",
+                "query": "\"trojan\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -87,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My linked notes/Assisted lab 03.md",
+                "file": "My linked notes/Assisted Lab 05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My linked notes/Assisted lab 03.md",
+                "file": "My linked notes/Assisted Lab 05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,17 +139,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "1e510462c5312b68",
+  "active": "6a6ebbdb868e254d",
   "lastOpenFiles": [
+    "My linked notes/Assisted Lab 05.md",
+    "My linked notes/Lab 05.md",
+    "My linked notes/Assisted lab 03.md",
     "My linked notes/Assisted Lab 04.md",
     "My linked notes/Assisted Lab 02.md",
     "My linked notes/hash.md",
     "My linked notes/rootkit.md",
     "My linked notes/vulnerability.md",
     "My linked notes/security assessment.md",
-    "My linked notes/pen test.md",
-    "My linked notes/tcpdump.md",
-    "My linked notes/banner grabbing.md",
-    "My linked notes/Assisted lab 03.md"
+    "My linked notes/pen test.md"
   ]
 }

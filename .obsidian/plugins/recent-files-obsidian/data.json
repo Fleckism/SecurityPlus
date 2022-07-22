@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Assisted Lab 05",
+      "path": "My linked notes/Assisted Lab 05.md"
+    },
+    {
+      "basename": "Lab 05",
+      "path": "My linked notes/Lab 05.md"
+    },
+    {
       "basename": "Assisted lab 03",
       "path": "My linked notes/Assisted lab 03.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "firewall",
       "path": "My linked notes/firewall.md"
-    },
-    {
-      "basename": "WAF",
-      "path": "My linked notes/WAF.md"
-    },
-    {
-      "basename": "IP",
-      "path": "My linked notes/Acronyms/IP.md"
     }
   ],
   "omittedPaths": [],
