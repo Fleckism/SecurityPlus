@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Assisted Lab lesson 8 (011)",
-      "path": "My linked notes/Assisted Lab lesson 8 (011).md"
+      "basename": "threat",
+      "path": "My linked notes/threat.md"
+    },
+    {
+      "basename": "Social engineering",
+      "path": "My linked notes/Social engineering.md"
+    },
+    {
+      "basename": "Wireshark",
+      "path": "My linked notes/Wireshark.md"
+    },
+    {
+      "basename": "protocol analyzer",
+      "path": "My linked notes/protocol analyzer.md"
     },
     {
       "basename": "Z Blah Assisted Lab 02",
       "path": "My linked notes/Z Blah Assisted Lab 02.md"
+    },
+    {
+      "basename": "Signature based monitoring",
+      "path": "My linked notes/Signature based monitoring.md"
+    },
+    {
+      "basename": "LDAP",
+      "path": "Active Directory/LDAP.md"
+    },
+    {
+      "basename": "Assisted Lab lesson 8 (011)",
+      "path": "My linked notes/Assisted Lab lesson 8 (011).md"
     },
     {
       "basename": "Assisted lab lesson 3 (02)",
@@ -109,10 +133,6 @@
       "path": "My linked notes/Practice 3.md"
     },
     {
-      "basename": "Wireshark",
-      "path": "My linked notes/Wireshark.md"
-    },
-    {
       "basename": "Assisted Labs",
       "path": "My linked notes/Assisted Labs.md"
     },
@@ -175,26 +195,6 @@
     {
       "basename": "server",
       "path": "My linked notes/server.md"
-    },
-    {
-      "basename": "domain controller",
-      "path": "My linked notes/domain controller.md"
-    },
-    {
-      "basename": "Network",
-      "path": "My linked notes/Network.md"
-    },
-    {
-      "basename": "OT",
-      "path": "My linked notes/Acronyms/OT.md"
-    },
-    {
-      "basename": "EMM",
-      "path": "My linked notes/EMM.md"
-    },
-    {
-      "basename": "09 C Secure Wireless Infrastructure",
-      "path": "SecurityPlus/09 C Secure Wireless Infrastructure.md"
     }
   ],
   "omittedPaths": [],

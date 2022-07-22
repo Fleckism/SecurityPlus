@@ -4,7 +4,7 @@ You can apply a capture filter using the same expression syntax as tcpdump (thou
 
 ![Screenshot shows list of items with headings No., Time, Source, Destination, Protocol, Length, Info. Highlighted item is further detailed in 2 panes.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/8605-1599771795036.png)
 
-Wireshark protocol analyzer. (Screenshot used with permission from wireshark.org.)
+Wireshark [[protocol analyzer]]. (Screenshot used with permission from wireshark.org.)
 
 Wireshark output of a packet analysis. (Screenshot used with permission from wireshark.org.)
 
