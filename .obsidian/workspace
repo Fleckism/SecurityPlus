@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "c588c6fde0c57993",
+        "id": "b1f3747a45cd7674",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/TACACS+.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "6d71c6789be4d8d5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "My linked notes/NAS.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
         }
       }
     ],
@@ -65,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 300.5
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -82,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My linked notes/TACACS+.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "My linked notes/TACACS+.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,17 +141,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "c588c6fde0c57993",
+  "active": "b1f3747a45cd7674",
   "lastOpenFiles": [
+    "My linked notes/NAS.md",
+    "SecurityPlus/07 C Authentication Technologies.md",
+    "My linked notes/TACACS+.md",
+    "My linked notes/Acronyms/EAP.md",
+    "My linked notes/Acronyms/A-V.md",
+    "My linked notes/RADIUS.md",
+    "My linked notes/Acronyms/AAA.md",
+    "My linked notes/malware.md",
     "My linked notes/Assisted Lab lesson 16 (27).md",
-    "My linked notes/application layer attack.md",
-    "My linked notes/Acronyms/CA.md",
-    "My linked notes/offline CA.md",
-    "SecurityPlus/06 A Certificates and  Certificate Authorities.md",
-    "My linked notes/Acronyms/CTI.md",
-    "Key Security Terms Definitions.md",
-    "My linked notes/access control model.md",
-    "My linked notes/Acronyms/ACL.md",
-    "My linked notes/Acronyms/A-V.md"
+    "My linked notes/application layer attack.md"
   ]
 }

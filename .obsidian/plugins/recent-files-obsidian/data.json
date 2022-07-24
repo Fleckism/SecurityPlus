@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "TACACS+",
+      "path": "My linked notes/TACACS+.md"
+    },
+    {
+      "basename": "NAS",
+      "path": "My linked notes/NAS.md"
+    },
+    {
+      "basename": "07 C Authentication Technologies",
+      "path": "SecurityPlus/07 C Authentication Technologies.md"
+    },
+    {
+      "basename": "EAP",
+      "path": "My linked notes/Acronyms/EAP.md"
+    },
+    {
+      "basename": "A-V",
+      "path": "My linked notes/Acronyms/A-V.md"
+    },
+    {
+      "basename": "RADIUS",
+      "path": "My linked notes/RADIUS.md"
+    },
+    {
+      "basename": "AAA",
+      "path": "My linked notes/Acronyms/AAA.md"
+    },
+    {
+      "basename": "malware",
+      "path": "My linked notes/malware.md"
+    },
+    {
       "basename": "Assisted Lab lesson 16 (27)",
       "path": "My linked notes/Assisted Lab lesson 16 (27).md"
     },
@@ -27,10 +59,6 @@
     {
       "basename": "ACL",
       "path": "My linked notes/Acronyms/ACL.md"
-    },
-    {
-      "basename": "A-V",
-      "path": "My linked notes/Acronyms/A-V.md"
     },
     {
       "basename": "ABAC",
@@ -171,30 +199,6 @@
     {
       "basename": "Lab 05",
       "path": "My linked notes/Lab 05.md"
-    },
-    {
-      "basename": "hash",
-      "path": "My linked notes/hash.md"
-    },
-    {
-      "basename": "rootkit",
-      "path": "My linked notes/rootkit.md"
-    },
-    {
-      "basename": "vulnerability",
-      "path": "My linked notes/vulnerability.md"
-    },
-    {
-      "basename": "security assessment",
-      "path": "My linked notes/security assessment.md"
-    },
-    {
-      "basename": "pen test",
-      "path": "My linked notes/pen test.md"
-    },
-    {
-      "basename": "tcpdump",
-      "path": "My linked notes/tcpdump.md"
     }
   ],
   "omittedPaths": [],
