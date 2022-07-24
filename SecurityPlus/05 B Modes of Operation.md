@@ -60,7 +60,7 @@ In 2014, a Heartbleed bug was discovered in the way some versions of OpenSSL wor
 
 ## CIPHER SUITES AND MODES OF OPERATION
 
-In a protocol such as Transport Layer Security ([[TLS]]), the requirements to both authenticate the identity of the server and to encrypt communications between the server and client need to be fulfilled by separate cryptographic products and cipher implementations. The **combination** of [[cipher|ciphers]] supported is referred to as a cipher suite. The server and client negotiate mutually compatible cipher suites as part of the TLS handshake.
+In a protocol such as Transport Layer Security ([[My linked notes/TLS]]), the requirements to both authenticate the identity of the server and to encrypt communications between the server and client need to be fulfilled by separate cryptographic products and cipher implementations. The **combination** of [[cipher|ciphers]] supported is referred to as a cipher suite. The server and client negotiate mutually compatible cipher suites as part of the TLS handshake.
 
 So far, we have identified two parts of the **cipher suite**:
 

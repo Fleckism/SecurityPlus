@@ -99,6 +99,11 @@
       "type": "file",
       "title": "Dictonary",
       "path": "My linked notes/Dictonary.md"
+    },
+    {
+      "type": "file",
+      "title": "Key Security Terms Definitions",
+      "path": "Key Security Terms Definitions.md"
     }
   ]
 }

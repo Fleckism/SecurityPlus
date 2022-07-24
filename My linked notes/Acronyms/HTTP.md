@@ -8,7 +8,7 @@
 	- Connects to the HTTP server using an appropriate [[TCP]] port 
 	- submits a request for a resource, using a uniform resource locator (URL). 
 - The **server** acknowledges the request and responds with the data (or an error message).
-- When used with [[TLS]] called HTTPS
+- When used with [[My linked notes/Acronyms/TLS]] called HTTPS
 - nominally a stateless protocol
 ==Part of URL analysis==
 ## HTTP Explained

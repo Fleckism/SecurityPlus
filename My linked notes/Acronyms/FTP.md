@@ -7,6 +7,6 @@ You should check that users do not install unauthorized servers on their PCs (a 
 Another means of securing FTP is to use the connection security protocol SSL/TLS. There are two means of doing this:
 
 -   Explicit TLS (FTPES)—use the AUTH TLS command to upgrade an unsecure connection established over port 21 to a secure one. This protects authentication credentials. The data connection for the actual file transfers can also be encrypted (using the PROT command).
--   Implicit TLS ([[FTPS]])—negotiate an [[SSL]]/[[TLS]] tunnel before the exchange of any FTP commands. This mode uses the secure port 990 for the control connection.
+-   Implicit TLS ([[FTPS]])—negotiate an [[SSL]]/[[My linked notes/Acronyms/TLS]] tunnel before the exchange of any FTP commands. This mode uses the secure port 990 for the control connection.
 
 FTPS is tricky to configure when there are firewalls between the client and server. Consequently, FTPES is usually the preferred method.

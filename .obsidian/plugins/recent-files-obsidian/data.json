@@ -1,6 +1,82 @@
 {
   "recentFiles": [
     {
+      "basename": "Assisted Lab lesson 16 (27)",
+      "path": "My linked notes/Assisted Lab lesson 16 (27).md"
+    },
+    {
+      "basename": "CA",
+      "path": "My linked notes/Acronyms/CA.md"
+    },
+    {
+      "basename": "06 A Certificates and  Certificate Authorities",
+      "path": "SecurityPlus/06 A Certificates and  Certificate Authorities.md"
+    },
+    {
+      "basename": "CTI",
+      "path": "My linked notes/Acronyms/CTI.md"
+    },
+    {
+      "basename": "Key Security Terms Definitions",
+      "path": "Key Security Terms Definitions.md"
+    },
+    {
+      "basename": "access control model",
+      "path": "My linked notes/access control model.md"
+    },
+    {
+      "basename": "ACL",
+      "path": "My linked notes/Acronyms/ACL.md"
+    },
+    {
+      "basename": "A-V",
+      "path": "My linked notes/Acronyms/A-V.md"
+    },
+    {
+      "basename": "ABAC",
+      "path": "My linked notes/ABAC.md"
+    },
+    {
+      "basename": "16 A Privacy and Data Sensitivity Concepts",
+      "path": "SecurityPlus/16 A Privacy and Data Sensitivity Concepts.md"
+    },
+    {
+      "basename": "Confidentiality",
+      "path": "My linked notes/Dictionary/Confidentiality.md"
+    },
+    {
+      "basename": "cloud",
+      "path": "My linked notes/Dictionary/cloud.md"
+    },
+    {
+      "basename": "standard",
+      "path": "tmpt/standard.md"
+    },
+    {
+      "basename": "TLS",
+      "path": "My linked notes/TLS.md"
+    },
+    {
+      "basename": "security control",
+      "path": "My linked notes/security control.md"
+    },
+    {
+      "basename": "PPTP",
+      "path": "My linked notes/PPTP.md"
+    },
+    {
+      "basename": "Compensating",
+      "path": "My linked notes/Compensating.md"
+    },
+    {
+      "basename": "Control Type",
+      "path": "My linked notes/Control Type.md"
+    },
+    {
+      "basename": "enumeration",
+      "path": "My linked notes/enumeration.md"
+    },
+    {
       "basename": "threat",
       "path": "My linked notes/threat.md"
     },
@@ -119,82 +195,6 @@
     {
       "basename": "tcpdump",
       "path": "My linked notes/tcpdump.md"
-    },
-    {
-      "basename": "banner grabbing",
-      "path": "My linked notes/banner grabbing.md"
-    },
-    {
-      "basename": "03 A Security Assessment",
-      "path": "SecurityPlus/03 A Security Assessment.md"
-    },
-    {
-      "basename": "Practice 3",
-      "path": "My linked notes/Practice 3.md"
-    },
-    {
-      "basename": "Assisted Labs",
-      "path": "My linked notes/Assisted Labs.md"
-    },
-    {
-      "basename": "Latency",
-      "path": "My linked notes/Latency.md"
-    },
-    {
-      "basename": "Entropy",
-      "path": "My linked notes/Entropy.md"
-    },
-    {
-      "basename": "ABAC",
-      "path": "My linked notes/ABAC.md"
-    },
-    {
-      "basename": "Card Picker",
-      "path": "My linked notes/Card Picker.md"
-    },
-    {
-      "basename": "12 B Endpoint Security",
-      "path": "SecurityPlus/12 B Endpoint Security.md"
-    },
-    {
-      "basename": "DLP",
-      "path": "My linked notes/DLP.md"
-    },
-    {
-      "basename": "agent",
-      "path": "My linked notes/agent.md"
-    },
-    {
-      "basename": "EPP",
-      "path": "My linked notes/EPP.md"
-    },
-    {
-      "basename": "Lesson 17 Questions (15)",
-      "path": "My linked notes/Lesson 17 Questions (15).md"
-    },
-    {
-      "basename": "SSL",
-      "path": "My linked notes/SSL.md"
-    },
-    {
-      "basename": "FTP",
-      "path": "My linked notes/Acronyms/FTP.md"
-    },
-    {
-      "basename": "FTPS",
-      "path": "My linked notes/FTPS.md"
-    },
-    {
-      "basename": "Bits and Bytes",
-      "path": "My linked notes/Bits and Bytes.md"
-    },
-    {
-      "basename": "LAMP",
-      "path": "My linked notes/LAMP.md"
-    },
-    {
-      "basename": "server",
-      "path": "My linked notes/server.md"
     }
   ],
   "omittedPaths": [],

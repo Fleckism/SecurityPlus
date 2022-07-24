@@ -1,0 +1,1 @@
+An itemization or counting of something

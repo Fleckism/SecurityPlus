@@ -16,7 +16,7 @@ Hyper Text Transfer Protocol also features a forms mechanism (POST) whereby a us
 Many argue that Hyper Text Transfer ProtocolTTPs]] is a stateful protocol. Version 2 of Hyper Text Transfer ProtocolTTPs]] adds more state-preserving features ([blog.zamicol.com/2017/05/is-http2-stateful-protocol-application.html](https://blog.zamicol.com/2017/05/is-http2-stateful-protocol-application.html)).
 # TRANSPORT LAYER SECURITY 
 
-As with other early [[TCP]]/IP application protocols, Hyper Text Transfer Protocol communications are not secured. Secure Sockets Layer ([[SSL]]) was developed by Netscape in the 1990s to address the lack of security in [[HTTP]]. SSL proved very popular with the industry, and it was quickly adopted as a standard named Transport Layer Security ([[TLS]]). It is typically used with Hyper Text Transfer ProtocolTTPs]] (referred to as Hyper Text Transfer ProtocolTTPs]]S or Hyper Text Transfer ProtocolTTPs]] Secure) but can also be used to secure other application protocols and as a virtual private networking (VPN) solution.
+As with other early [[TCP]]/IP application protocols, Hyper Text Transfer Protocol communications are not secured. Secure Sockets Layer ([[SSL]]) was developed by Netscape in the 1990s to address the lack of security in [[HTTP]]. SSL proved very popular with the industry, and it was quickly adopted as a standard named Transport Layer Security ([[My linked notes/TLS]]). It is typically used with Hyper Text Transfer ProtocolTTPs]] (referred to as Hyper Text Transfer ProtocolTTPs]]S or Hyper Text Transfer ProtocolTTPs]] Secure) but can also be used to secure other application protocols and as a virtual private networking (VPN) solution.
 
 To implement TLS, a server is assigned a digital certificate signed by some trusted certificate authority ([[CA]]). The certificate proves the identity of the server (assuming that the client trusts the CA) and validates the server's public/private key pair. The server uses its key pair and the TLS protocol to agree upon mutually supported ciphers with the client and negotiate an encrypted communications session.
 
@@ -40,13 +40,13 @@ ECDHE-RSA-AES128-GCM-SHA256
 
 This means that the server can use Elliptic Curve Diffie-Hellman Ephemeral [[ECDHE]] mode for session key agreement, [[RSA]] signatures, 128-bit AES-GCM (Galois Counter Mode) for symmetric bulk encryption, and 256-bit SHA for HMAC functions. Suites the server prefers are listed earlier in its supported cipher list.
 
-[[TLS]] 1.3 uses simplified and shortened suites. A typical TLS 1.3 cipher suite appears as follows:
+[[My linked notes/TLS]] 1.3 uses simplified and shortened suites. A typical TLS 1.3 cipher suite appears as follows:
 
 TLS_AES_256_GCM_SHA384
 [[AES]]
 Only ephemeral key agreement is supported in 1.3 and the signature type is supplied in the certificate, so the cipher suite only lists the bulk encryption key strength and mode of operation (AES_256_GCM), plus the cryptographic hash algorithm (SHA384) used within the new [[hash]] key derivation function (HKDF). HKDF is the mechanism by which the shared secret established by Diffie Hellman key agreement is used to derive symmetric session keys.
 
-Viewing the [[TLS]] handshake in a Wireshark packet capture. Note that the connection is using TLS 1.3 and one of the shortened cipher suites (TLS_AES_128_GCM_SHA256).
+Viewing the [[My linked notes/TLS]] handshake in a Wireshark packet capture. Note that the connection is using TLS 1.3 and one of the shortened cipher suites (TLS_AES_128_GCM_SHA256).
 # API CONSIDERATIONS
 
 Hyper Text Transfer ProtocolTTPs]] is now used less to serve static web pages, and more to create web applications, often as part of a cloud product. An enterprise might use both public web applications over the Internet and private ones. The primary means of configuring and managing a web application is via its application programming interface (API). For example, an application might allow a user account to be created via a [[URL]]:
@@ -171,9 +171,9 @@ A [[threat actor]] could exploit unencrypted voice and video communications to t
 
 ![A dialog box labeled “Account Advanced Settings” has a setting “SIP transport: TLS” that is highlighted by a red box added to the image.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/3228-1599771805552.png)
 
-Enabling SIP/[[TLS]] security on a 3CX PBX VoIP softphone. (Screenshot used with permission from 3CX.)
+Enabling SIP/[[My linked notes/TLS]] security on a 3CX PBX VoIP softphone. (Screenshot used with permission from 3CX.)
 
-Connection security for voice and video works in a similar manner to HTTPsS]]. To initiate the call, the secure version SIPS uses digital certificates to authenticate the endpoints and establish a [[TLS]] tunnel. Where unencrypted SIP typically runs over TCP port 5060, SIPS uses TCP port 5061. The secure connection established by SIPS can also be used to generate a master key to use with the secure versions of the transport protocol (SRTP). SRTP provides confidentiality for the actual call data.
+Connection security for voice and video works in a similar manner to HTTPsS]]. To initiate the call, the secure version SIPS uses digital certificates to authenticate the endpoints and establish a [[My linked notes/TLS]] tunnel. Where unencrypted SIP typically runs over TCP port 5060, SIPS uses TCP port 5061. The secure connection established by SIPS can also be used to generate a master key to use with the secure versions of the transport protocol (SRTP). SRTP provides confidentiality for the actual call data.
 
 ![Service Node Manager screen for Media Encryption has all items checked: enable media encryption for IP Extensions, IP Trunks, and Inter Media Gateway.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/2858-1599771805640.png)
 

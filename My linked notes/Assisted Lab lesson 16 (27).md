@@ -110,7 +110,7 @@ Create a Performance Monitor baseline and then test a server to see the effect o
         -   Interrupts/sec
 4.  Start the **CPU baseline** data collector set.
     
-    You will use CPU Stress to place a false load on the VM's processors. You'll use Task Manager and Performance Monitor to monitor the workload. The extreme workload demonstrates the possible effect of an [[application-layer attack]].
+    You will use CPU Stress to place a false load on the VM's processors. You'll use Task Manager and Performance Monitor to monitor the workload. The extreme workload demonstrates the possible effect of an application layer [[attack]].
     
     You will leave the Data Collector Set running through the next several tasks. It gathers information as you accomplish activity steps.
     

@@ -1,6 +1,4 @@
----
-tags: [A_D, GRC]
----
+
 **Confidentiality** means that certain information should only be known to certain people. 
 - [[CIA]]
 - [[symmetric]] cipher fulfils the goal of confidentiality

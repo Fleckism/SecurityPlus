@@ -23,7 +23,7 @@ A VPN can also be deployed in a site-to-site model to connect two or more privat
 Site-to-site VPN. (Images © 123RF.com.)
 # TRANSPORT LAYER SECURITY VPN
 
-Several VPN protocols have been used over the years. Legacy protocols such as the Point-to-Point Tunneling Protocol (PPTP) have been deprecated because they do not offer adequate security. Transport Layer Security ([[TLS]]) and IPSec are now the preferred options for configuring VPN access.
+Several VPN protocols have been used over the years. Legacy protocols such as the Point-to-Point Tunneling Protocol (PPTP) have been deprecated because they do not offer adequate security. Transport Layer Security ([[My linked notes/TLS]]) and IPSec are now the preferred options for configuring VPN access.
 
 ![Screenshot of User Authentication Settings and Cryptographic Settings.](https://s3.amazonaws.com/wmx-api-production/courses/5731/images/9158-1599771805930.png)
 

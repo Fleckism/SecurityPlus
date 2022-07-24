@@ -28,3 +28,6 @@ root CA (root certificate authority)
 - In PKI, a CA that issues certificates to intermediate CAs in a hierarchical structure.
 
 A server that guarantees subject identities by issuing signed digital certifcate wrappers for their public keys
+
+offline CA (offline certificate authority)
+In PKI, a CA (typically the root CA ) that has been disconnected from the network to protect it from compromise.

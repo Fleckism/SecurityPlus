@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "019993c70b4b5785",
+        "id": "c588c6fde0c57993",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: \"threat\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,12 +61,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 353
+    "width": 408.5,
+    "collapsed": true
   },
   "right": {
     "id": "63c83d5ffac33788",
@@ -122,17 +122,17 @@
     "width": 252,
     "collapsed": true
   },
-  "active": "019993c70b4b5785",
+  "active": "c588c6fde0c57993",
   "lastOpenFiles": [
-    "My linked notes/[threat actor.md",
-    "My linked notes/[[threat actor.md",
-    "My linked notes/threat.md",
-    "My linked notes/Social engineering.md",
-    "My linked notes/Wireshark.md",
-    "My linked notes/[[Social engineering.md",
-    "My linked notes/protocol analyzer.md",
-    "My linked notes/Z Blah Assisted Lab 02.md",
-    "My linked notes/Signature based monitoring.md",
-    "Active Directory/LDAP.md"
+    "My linked notes/Assisted Lab lesson 16 (27).md",
+    "My linked notes/application layer attack.md",
+    "My linked notes/Acronyms/CA.md",
+    "My linked notes/offline CA.md",
+    "SecurityPlus/06 A Certificates and  Certificate Authorities.md",
+    "My linked notes/Acronyms/CTI.md",
+    "Key Security Terms Definitions.md",
+    "My linked notes/access control model.md",
+    "My linked notes/Acronyms/ACL.md",
+    "My linked notes/Acronyms/A-V.md"
   ]
 }
